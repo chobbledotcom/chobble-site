@@ -27,6 +27,11 @@ module.exports = function(eleventyConfig) {
     return new Date(date).toLocaleDateString('en-US', options);
   });
 
+  // Add RFC 822 date filter for RSS feed
+  eleventyConfig.addFilter("dateToRfc822", function(date) {
+    return new Date(date).toUTCString();
+  });
+
   // Base configuration
   return {
     dir: {
