@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} | BASH.web</title>
+    {% if description %}
+    <meta name="description" content="{{ description }}">
+    {% endif %}
     <link rel="stylesheet" href="/css/style.css">
     <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html">
 </head>
