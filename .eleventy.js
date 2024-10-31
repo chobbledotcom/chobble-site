@@ -1,16 +1,9 @@
-const sass = require("sass");
 const path = require("path");
-const fs = require("fs");
 
 module.exports = function(eleventyConfig) {
-  // Compile Sass before the build
-  eleventyConfig.on("beforeBuild", () => {
-    const result = sass.compile("src/scss/style.scss", {
-      style: "compressed"
-    });
-    fs.mkdirSync("_site/css", { recursive: true });
-    fs.writeFileSync("_site/css/style.css", result.css);
-  });
+  // Watch CSS files for changes
+  eleventyConfig.addWatchTarget("./src/scss/");
+  eleventyConfig.addWatchTarget("./_site/css/");
   
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");

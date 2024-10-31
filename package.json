@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "BASH.web agency website",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "npm-run-all --parallel watch:eleventy watch:sass",
+    "build": "npm-run-all sass:build eleventy:build",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "sass --watch src/scss:_site/css --style compressed",
+    "sass:build": "sass src/scss:_site/css --style compressed",
+    "eleventy:build": "eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1"
