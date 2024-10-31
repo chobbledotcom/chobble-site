@@ -1,13 +1,12 @@
 const path = require("path");
 
 module.exports = function(eleventyConfig) {
-  // Watch CSS files for changes
+  // Watch SCSS files for changes
   eleventyConfig.addWatchTarget("./src/scss/");
-  eleventyConfig.addWatchTarget("./_site/css/");
-  
+
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
-  
+
   // Add date filters
   eleventyConfig.addFilter("date", function(date, format) {
     const options = {
@@ -17,6 +16,7 @@ module.exports = function(eleventyConfig) {
     };
     return new Date(date).toLocaleDateString('en-US', options);
   });
+
   // Base configuration
   return {
     dir: {
