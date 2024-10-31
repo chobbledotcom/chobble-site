@@ -2,23 +2,8 @@ const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
-  // Add RSS plugin and filters
+  // Add RSS plugin
   eleventyConfig.addPlugin(pluginRss);
-  
-  // Add RSS-specific filters
-  eleventyConfig.addFilter("dateToRfc3339", (dateStr) => {
-    const date = new Date(dateStr);
-    return date.toISOString();
-  });
-
-  eleventyConfig.addFilter("getNewestCollectionItemDate", (collection) => {
-    if (!collection || !collection.length) return new Date();
-    return new Date(Math.max(...collection.map(item => item.date?.getTime() || 0)));
-  });
-  
-  eleventyConfig.addFilter("htmlToAbsoluteUrls", (html, baseUrl) => {
-    return html.replace(/(href|src)="\/(?!\/)/g, `$1="${baseUrl}/`);
-  });
 
   // Watch SCSS files for changes
   eleventyConfig.addWatchTarget("./src/scss/");

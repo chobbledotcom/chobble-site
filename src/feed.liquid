@@ -23,13 +23,12 @@ metadata:
     <email>{{ metadata.author.email }}</email>
   </author>
   {% for post in collections.blog reversed %}
-    {% assign absolutePostUrl = metadata.url | append: post.url %}
     <entry>
       <title>{{ post.data.title }}</title>
-      <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.date | dateToRfc3339 }}</updated>
-      <id>{{ absolutePostUrl }}</id>
-      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls: absolutePostUrl }}</content>
+      <link href="{{ post.url | absoluteUrl: metadata.url }}"/>
+      <updated>{{ post.date | rssDate }}</updated>
+      <id>{{ post.url | absoluteUrl: metadata.url }}</id>
+      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls: metadata.url }}</content>
     </entry>
   {% endfor %}
 </feed>
