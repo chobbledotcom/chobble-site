@@ -19,6 +19,7 @@ html {
   color: $text-color;
   font-family: $font-sans;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
   flex-direction: column;
   font-family: $font-sans;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 // Typography
