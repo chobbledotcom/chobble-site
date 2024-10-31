@@ -7,14 +7,8 @@ order: 3
 ---
 
 # Tech Tutoring
----
-layout: service
-title: Tech Tutoring
----
 
-# Tech Tutoring
-
-## Personal Technology Training, Your Pace, Your Goals
+## Personal Technology Training At Your Pace
 
 After 25+ years of being technology enthusiasts, we've accumulated a wealth of knowledge that we're excited to share. Whether you're looking to level up your skills or start from scratch, we offer personalized, one-on-one tutoring sessions tailored to your specific needs.
 
@@ -22,6 +16,7 @@ After 25+ years of being technology enthusiasts, we've accumulated a wealth of k
 
 ### Web Development & Design
 - Building websites using platforms like Squarespace, WordPress, or Wix
+- Or using static site generators like Eleventy (that powers this site!)
 - Basic HTML, CSS, and JavaScript for those wanting to code
 - Understanding web hosting and domain management
 - Content management and website updates
@@ -41,9 +36,9 @@ After 25+ years of being technology enthusiasts, we've accumulated a wealth of k
 - LinkedIn optimization for tech professionals
 
 ### Programming & Development
-- Introduction to programming (Python, JavaScript, etc.)
+- Introduction to programming (Ruby, JavaScript, Python, etc.)
 - Version control with Git
-- Command line basics
+- Linux basics
 - Database fundamentals
 - Development environment setup
 
