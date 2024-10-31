@@ -25,10 +25,10 @@ metadata:
   {% for post in collections.blog reversed %}
     <entry>
       <title>{{ post.data.title }}</title>
-      <link href="{{ post.url | absoluteUrl: metadata.url }}"/>
+      <link href="{{ metadata.url }}{{ post.url }}"/>
       <updated>{{ post.date | dateToRfc822 }}</updated>
-      <id>{{ post.url | absoluteUrl: metadata.url }}</id>
-      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls: metadata.url }}</content>
+      <id>{{ metadata.url }}{{ post.url }}</id>
+      <content type="html">{{ post.templateContent }}</content>
     </entry>
   {% endfor %}
 </feed>
