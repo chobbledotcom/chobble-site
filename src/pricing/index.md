@@ -5,7 +5,7 @@ title: Pricing
 
 # Pricing
 
-We believe in transparent pricing. Our rate is £100 per hour, and initial consultations are free.
+We believe in transparent pricing. Our rate is £100 per hour (charged in half-hour increments), and initial consultations are free.
 
 ## Recent Projects
 
