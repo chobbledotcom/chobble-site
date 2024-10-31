@@ -98,7 +98,7 @@ header {
       display: none;
 
       &:checked ~ .nav-links {
-        transform: translateX(0);
+        right: 0;
       }
 
       &:checked ~ .nav-toggle-label span {
@@ -335,7 +335,7 @@ footer {
     .nav-links {
       position: fixed;
       top: 0;
-      right: 0;
+      right: -100%; /* Start off-screen */
       height: 100vh;
       width: 70%;
       max-width: 300px;
@@ -344,11 +344,7 @@ footer {
       padding: 6rem 2rem 2rem;
       background: rgba($container-bg, 0.98);
       backdrop-filter: blur(10px);
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in-out;
-      @media (max-width: 768px) {
-        transform: translateX(100%);
-      }
+      transition: right 0.3s ease-in-out;
 
       li {
         opacity: 0.9;
