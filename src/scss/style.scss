@@ -4,8 +4,8 @@ $accent-color: #7aa2f7;
 $secondary-accent: #bb9af7;
 $header-color: #c0caf5;
 $container-bg: #24283b;
-$font-mono: 'JetBrains Mono', 'Fira Code', monospace;
-$font-sans: 'Inter', system-ui, sans-serif;
+$font-mono: monospace;
+$font-sans: sans-serif;
 
 *, *::before, *::after {
   box-sizing: border-box;
