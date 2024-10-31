@@ -14,7 +14,11 @@
 <body>
   <header>
     <nav>
-      <a href="/">BASH.web</a><br>
+      <span>
+        <a href="/">BASH.web</a>
+        <br>
+        <strong>Prestwich web services</strong>
+      </span>
       <ul>
         <li><a href="/about/">About</a></li>
         <li><a href="/services/">Services</a></li>
@@ -32,9 +36,21 @@
 
   <footer>
     {% include "newsletter-signup.liquid" %}
-    <p>&copy; {{ "now" | date: "%Y" }} BASH.web. Based in Prestwich, Manchester.</p>
-    <p>All our code is <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3 licensed</a> | We donate 10% to <a href="https://www.againstmalaria.com/">Against Malaria Foundation</a></p>
-    <p><a href="https://github.com/yourusername/yourrepo">View our source code</a></p>
+    <p>
+      &copy; {{ "now" | date: "%Y" }} BASH.web.
+    </p>
+    <p>
+      Based in Prestwich, Manchester, UK
+    </p>
+    <p>
+      All our code is <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3 licensed</a>
+    </p>
+    <p>
+      We donate 10% to <a href="https://www.againstmalaria.com">Against Malaria Foundation</a>
+    </p>
+    <p>
+      <a href="https://github.com/yourusername/yourrepo">View our source code</a>
+    </p>
   </footer>
 </body>
 </html>
