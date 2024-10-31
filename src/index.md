@@ -14,4 +14,4 @@ We create fast, secure, and beautiful websites that work for your business.
 - Technical Support
 - Performance Optimization
 
-[Learn more about our services](/services/)
+[Learn more about our services](/services/) or [contact us](/contact/) to start your project.

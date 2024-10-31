@@ -1,0 +1,32 @@
+---
+layout: base
+title: Pricing
+---
+
+# Pricing
+
+We believe in transparent pricing. Our rate is £100 per hour, and initial consultations are free.
+
+## Recent Projects
+
+### This & That Cafe Website
+- Duration: Ongoing since 2016
+- Cost: Service exchange (free curry)
+- Included: Static site hosting, social media management, content updates
+- [View Case Study](/case-studies/this-and-that/)
+
+### Blue Pits Housing Action Website
+- Duration: Ongoing
+- Cost: Pro-bono (charity arrangement)
+- Included: Website hosting, technical consultation, content updates
+- [View Case Study](/case-studies/blue-pits/)
+
+### New Barn Ltd Website
+- Duration: Ongoing
+- Cost: Free hosting with backlink
+- Included: Website hosting, content updates, technical support
+- [View Case Study](/case-studies/new-barn/)
+
+## Free Initial Consultation
+
+We offer free initial consultations to discuss your project needs and provide a detailed estimate. [Contact us](/contact/) to schedule yours.
