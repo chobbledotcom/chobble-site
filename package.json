@@ -8,7 +8,8 @@
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "sass --watch src/scss:_site/css --style compressed",
     "sass:build": "sass src/scss:_site/css --style compressed",
-    "eleventy:build": "eleventy"
+    "eleventy:build": "eleventy",
+    "verify": "eleventy --dryrun"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0-alpha.5",
