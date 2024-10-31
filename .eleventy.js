@@ -2,8 +2,19 @@ const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
-  // Add RSS plugin
+  // Add RSS plugin and filters
   eleventyConfig.addPlugin(pluginRss);
+  
+  // Add RSS-specific filters
+  eleventyConfig.addFilter("dateToRfc3339", (dateStr) => {
+    const date = new Date(dateStr);
+    return date.toISOString();
+  });
+  
+  eleventyConfig.addFilter("htmlToAbsoluteUrls", (html, baseUrl) => {
+    return html.replace(/(href|src)="\/(?!\/)/g, `$1="${baseUrl}/`);
+  });
+
   // Watch SCSS files for changes
   eleventyConfig.addWatchTarget("./src/scss/");
 

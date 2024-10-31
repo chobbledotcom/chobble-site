@@ -1,35 +1,28 @@
 ---
 permalink: /feed.xml
 eleventyExcludeFromCollections: true
-metadata:
-  title: BASH.web Blog
-  subtitle: Web development and tech insights
-  language: en
-  url: https://bash.web
-  author:
-    name: BASH.web
-    email: hello@bash.web
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.subtitle }}</subtitle>
-  <link href="{{ metadata.url }}/feed.xml" rel="self"/>
-  <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-  <id>{{ metadata.url }}</id>
+  <title>BASH.web Blog</title>
+  <subtitle>Web development and tech insights</subtitle>
+  <link href="https://bash.web/feed.xml" rel="self"/>
+  <link href="https://bash.web"/>
+  <updated>{{ site.time | dateToRfc3339 }}</updated>
+  <id>https://bash.web</id>
   <author>
-    <name>{{ metadata.author.name }}</name>
-    <email>{{ metadata.author.email }}</email>
+    <name>BASH.web</name>
+    <email>hello@bash.web</email>
   </author>
-  {%- for post in collections.blog | reverse %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {% assign posts = collections.blog | reverse %}
+  {% for post in posts %}
+  {% capture absolutePostUrl %}https://bash.web{{ post.url }}{% endcapture %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls: absolutePostUrl }}</content>
   </entry>
-  {%- endfor %}
+  {% endfor %}
 </feed>
