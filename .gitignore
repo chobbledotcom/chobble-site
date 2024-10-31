@@ -1,2 +1,6 @@
 .aider*
 .env
+_site
+.direnv
+.nix-gems
+node_modules
