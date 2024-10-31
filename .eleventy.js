@@ -5,6 +5,12 @@ module.exports = function(eleventyConfig) {
   // Add RSS plugin
   eleventyConfig.addPlugin(pluginRss);
 
+  // Get the newest date in a collection
+  eleventyConfig.addFilter("getNewestCollectionItemDate", (collection) => {
+    if (!collection || !collection.length) return new Date();
+    return new Date(Math.max(...collection.map(item => item.date?.getTime() || 0)));
+  });
+
   // Watch SCSS files for changes
   eleventyConfig.addWatchTarget("./src/scss/");
 
