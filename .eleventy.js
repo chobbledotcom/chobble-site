@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   // Add RSS plugin and its filters
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addFilter("absoluteUrl", pluginRss.absoluteUrl);
+  eleventyConfig.addFilter("htmlToAbsoluteUrls", pluginRss.htmlToAbsoluteUrls);
 
   // Get the newest date in a collection
   eleventyConfig.addFilter("getNewestCollectionItemDate", (collection) => {
