@@ -346,6 +346,9 @@ footer {
       backdrop-filter: blur(10px);
       transform: translateX(100%);
       transition: transform 0.3s ease-in-out;
+      @media (max-width: 768px) {
+        transform: translateX(100%);
+      }
 
       li {
         opacity: 0.9;
