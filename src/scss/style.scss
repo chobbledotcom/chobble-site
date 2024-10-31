@@ -27,6 +27,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: $font-sans;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 // Typography
