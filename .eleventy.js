@@ -2,8 +2,9 @@ const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
-  // Add RSS plugin
+  // Add RSS plugin and its filters
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addFilter("absoluteUrl", pluginRss.absoluteUrl);
 
   // Get the newest date in a collection
   eleventyConfig.addFilter("getNewestCollectionItemDate", (collection) => {
