@@ -2,6 +2,7 @@
 layout: service
 title: Tech Tutoring
 snippet: Honest, transparent, friendly tech educators
+description: "Personalized tech tutoring covering web development, hardware, programming, and digital skills. Learn at your own pace with experienced educators."
 tags: service
 order: 3
 ---
