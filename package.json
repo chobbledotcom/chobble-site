@@ -11,7 +11,8 @@
     "eleventy:build": "eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^2.0.2"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",
