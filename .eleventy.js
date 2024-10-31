@@ -10,6 +10,11 @@ module.exports = function(eleventyConfig) {
     const date = new Date(dateStr);
     return date.toISOString();
   });
+
+  eleventyConfig.addFilter("getNewestCollectionItemDate", (collection) => {
+    if (!collection || !collection.length) return new Date();
+    return new Date(Math.max(...collection.map(item => item.date?.getTime() || 0)));
+  });
   
   eleventyConfig.addFilter("htmlToAbsoluteUrls", (html, baseUrl) => {
     return html.replace(/(href|src)="\/(?!\/)/g, `$1="${baseUrl}/`);
