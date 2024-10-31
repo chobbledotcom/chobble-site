@@ -1,6 +1,9 @@
 const path = require("path");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
+  // Add RSS plugin
+  eleventyConfig.addPlugin(pluginRss);
   // Watch SCSS files for changes
   eleventyConfig.addWatchTarget("./src/scss/");
 
