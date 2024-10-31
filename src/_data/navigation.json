@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "text": "About",
+      "url": "/about/",
+      "section": "about"
+    },
+    {
+      "text": "Services",
+      "url": "/services/",
+      "section": "services"
+    },
+    {
+      "text": "Case Studies",
+      "url": "/case-studies/",
+      "section": "case-studies"
+    },
+    {
+      "text": "Pricing",
+      "url": "/pricing/",
+      "section": "pricing"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog/",
+      "section": "blog"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/",
+      "section": "contact"
+    }
+  ]
+}
