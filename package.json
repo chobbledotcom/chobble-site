@@ -1,0 +1,12 @@
+{
+  "name": "bashweb",
+  "version": "1.0.0",
+  "description": "BASH.web agency website",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

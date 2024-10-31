@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: Home
+---
+
+# Welcome to BASH.web
+
+We create fast, secure, and beautiful websites that work for your business.
+
+## Our Services
+
+- Static Site Creation
+- Hosting Solutions
+- Technical Support
+- Performance Optimization
+
+[Learn more about our services](/services/)
