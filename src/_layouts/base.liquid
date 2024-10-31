@@ -25,7 +25,15 @@
       </label>
       <ul class="nav-links">
         {% for item in navigation.items %}
-        <li><a href="{{ item.url }}" {% if page.url contains item.section %}class="active"{% endif %}>{{ item.text }}</a></li>
+          <li>
+            <a href="{{ item.url }}"
+              {% if page.url contains item.section %}
+                class="active"
+              {% endif %}
+            >
+              {{ item.text }}
+            </a>
+          </li>
         {% endfor %}
       </ul>
     </nav>

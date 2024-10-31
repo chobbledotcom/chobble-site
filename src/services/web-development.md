@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Static Site Development
+title: Website Development
 snippet: Fast, secure, and sustainable static websites built with Eleventy
 tags: service
 order: 1
