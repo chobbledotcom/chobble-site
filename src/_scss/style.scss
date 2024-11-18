@@ -1,38 +1,56 @@
 $bg-color: #1a1b26;
-$text-color: #a9b1d6;
-$accent-color: #7aa2f7;
-$secondary-accent: #bb9af7;
-$header-color: #c0caf5;
-$container-bg: #24283b;
+$text-color: #ddd;
+$accent-color: rgb(0, 190, 0);
+$secondary-accent: rgb(0, 255, 0);
+$header-color: #fff;
+$container-bg: rgba(0, 0, 0, 0.4);
+$container-bg-dark: rgba(0, 0, 0, 0.8);
 $font-mono: monospace;
-$font-sans: sans-serif;
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html {
-  font-size: 16px;
-  background-color: $bg-color;
-  color: $text-color;
-  font-family: $font-sans;
-  line-height: 1.6;
-  overflow-x: hidden;
-}
-
 body {
+  font-size: 16px;
+  color: $text-color;
+  font-family: $font-mono;
+  line-height: 1.6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: $font-sans;
   line-height: 1.6;
   overflow-x: hidden;
+  background-color: $bg-color;
+  background-image: radial-gradient(rgba(0, 62, 0, 0.75), black 120%);
+  background-attachment: fixed;
+  height: 100vh;
+
+  &::after {
+    content: "";
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(black, 0.15),
+      rgba(black, 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+  }
 }
 
 // Typography
-ul, ol {
+ul,
+ol {
   padding-left: 2rem;
   margin: 1rem 0;
 
@@ -40,7 +58,12 @@ ul, ol {
     margin-bottom: 0.5rem;
   }
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $header-color;
   font-family: $font-mono;
   margin: 1.5rem 0 1rem;
@@ -52,11 +75,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.25rem; }
-h5, h6 { font-size: 1rem; }
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5,
+h6 {
+  font-size: 1rem;
+}
 
 a {
   color: $accent-color;
@@ -71,8 +105,7 @@ a {
 
 // Layout
 header {
-  background-color: rgba($container-bg, 0.95);
-  backdrop-filter: blur(10px);
+  background-color: $container-bg-dark;
   padding: 1rem;
   position: sticky;
   top: 0;
@@ -87,13 +120,9 @@ header {
     align-items: center;
     position: relative;
 
-    .brand {
-      z-index: 1000;
-      a {
-        font-family: $font-mono;
-        font-size: 1.2rem;
-        font-weight: bold;
-      }
+    .logo {
+      width: 228px;
+      image-rendering: pixelated;
     }
 
     .nav-toggle {
@@ -142,7 +171,7 @@ header {
 
         &::before,
         &::after {
-          content: '';
+          content: "";
         }
 
         &::before {
@@ -172,16 +201,8 @@ header {
 
         &.active {
           color: $secondary-accent;
-
-          &::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background-color: $secondary-accent;
-          }
+          font-weight: bold;
+          text-decoration: underline;
         }
       }
     }
@@ -215,14 +236,18 @@ main {
 }
 
 // Blog styles
-.blog-grid, .services-grid, .clients-grid {
+.blog-grid,
+.services-grid,
+.clients-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
 }
 
-.blog-card, .service-card, .client-card {
+.blog-card,
+.service-card,
+.client-card {
   background-color: $container-bg;
   padding: 1.5rem;
   border-radius: 8px;
@@ -250,14 +275,14 @@ main {
       font-family: $font-mono;
     }
 
-    input, textarea {
+    input,
+    textarea {
       width: 100%;
       padding: 0.75rem;
       background-color: $bg-color;
       border: 1px solid rgba($accent-color, 0.2);
       border-radius: 4px;
       color: $text-color;
-      font-family: $font-sans;
 
       &:focus {
         outline: none;
@@ -277,45 +302,6 @@ main {
   font-size: 0.875rem;
   margin: 0.25rem;
   font-family: $font-mono;
-}
-
-// Newsletter
-.newsletter-signup {
-  max-width: 500px;
-  margin: 0 auto 2rem;
-  padding: 2rem;
-  background-color: rgba($container-bg, 0.5);
-  border-radius: 8px;
-  text-align: left;
-
-  h2 {
-    margin-top: 0;
-  }
-
-  .form-group {
-    margin: 1rem 0;
-  }
-
-  input[type="email"] {
-    width: 100%;
-    padding: 0.75rem;
-    background-color: $bg-color;
-    border: 1px solid rgba($accent-color, 0.2);
-    border-radius: 4px;
-    color: $text-color;
-    font-family: $font-sans;
-
-    &:focus {
-      outline: none;
-      border-color: $accent-color;
-    }
-  }
-
-  .newsletter-note {
-    margin-top: 1rem;
-    font-size: 0.875rem;
-    opacity: 0.8;
-  }
 }
 
 // Footer

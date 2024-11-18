@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blogpost
 title: The Importance of Responsive Design in 2024
 date: 2024-03-10
 tags:

@@ -1,9 +1,9 @@
 ---
-layout: base.liquid
+layout: page
 title: Home
 ---
 
-# Welcome to BASH.web
+# Chobble CIC
 
 We create fast, secure, and beautiful websites that work for your business.
 

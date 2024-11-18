@@ -1,6 +1,7 @@
 .aider*
-.env
-_site
 .direnv
+.env
 .nix-gems
+.sass-cache
+_site
 node_modules

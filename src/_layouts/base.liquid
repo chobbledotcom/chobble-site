@@ -13,30 +13,7 @@
 </head>
 <body>
   <header>
-    <nav>
-      <span class="brand">
-        <a href="/">BASH.web</a>
-        <br>
-        <strong>Prestwich web services</strong>
-      </span>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-      </label>
-      <ul class="nav-links">
-        {% for item in navigation.items %}
-          <li>
-            <a href="{{ item.url }}"
-              {% if page.url contains item.section %}
-                class="active"
-              {% endif %}
-            >
-              {{ item.text }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
+    {% include "navbar.liquid" %}
   </header>
 
   <main>
@@ -44,22 +21,7 @@
   </main>
 
   <footer>
-    {% include "newsletter-signup.liquid" %}
-    <p>
-      &copy; 2024 BASH.web.
-    </p>
-    <p>
-      Based in Prestwich, Manchester, UK
-    </p>
-    <p>
-      All our code is <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3 licensed</a>
-    </p>
-    <p>
-      We donate 10% to <a href="https://www.againstmalaria.com">Against Malaria Foundation</a>
-    </p>
-    <p>
-      <a href="https://github.com/yourusername/yourrepo">View our source code</a>
-    </p>
+    {% include "footer.liquid" %}
   </footer>
 </body>
 </html>
