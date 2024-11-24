@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-# Chobble CIC
+# Chobble Web Dev
 
 We create fast, secure, and beautiful websites that work for your business.
 

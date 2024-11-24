@@ -1,8 +1,8 @@
 ---
-layout: blog
+layout: blogpost
 title: Web Security Basics Every Business Should Know
 date: 2024-01-15
-tags: 
+tags:
   - blog
   - security
   - business

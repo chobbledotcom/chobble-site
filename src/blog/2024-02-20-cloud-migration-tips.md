@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blogpost
 title: 5 Essential Tips for Successful Cloud Migration
 date: 2024-02-20
 tags:
