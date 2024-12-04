@@ -3,7 +3,7 @@ layout: page
 title: About Us
 ---
 
-# About BASH.web
+# About Chobble.com
 
 We're Stef and Alex, web engineers with over 30 years of combined experience at companies like Bandcamp, AutoTrader, and Shop Direct. Based in Prestwich, Manchester, we build ethical, sustainable web solutions for local businesses and charities.
 

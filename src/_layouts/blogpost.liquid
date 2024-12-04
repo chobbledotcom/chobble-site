@@ -10,13 +10,11 @@ layout: base
 
   {{ content }}
 
-  <footer class="blog-footer">
-    <div class="tags">
-      {%- for tag in tags -%}
-        {%- if tag != "blog" -%}
-          <span class="tag">{{ tag }}</span>
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
-  </footer>
+  <div class="tags">
+    {%- for tag in tags -%}
+      {%- if tag != "blog" -%}
+        <span class="tag">{{ tag }}</span>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
 </article>

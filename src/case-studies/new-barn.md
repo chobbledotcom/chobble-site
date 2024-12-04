@@ -12,7 +12,7 @@ order: 3
 - **Client:** New Barn Ltd (Supported Accommodation Provider)
 - **Services:** Website hosting and maintenance
 - **Duration:** Ongoing
-- **Payment:** Free hosting with backlink arrangement
+- **Monthly cost:** Pro bono
 - **Website:** [View live site](https://newbarnltd.co.uk)
 
 ## The Client

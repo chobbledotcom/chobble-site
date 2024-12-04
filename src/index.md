@@ -3,9 +3,9 @@ layout: page
 title: Home
 ---
 
-# Chobble Web Dev
+# Chobble.com
 
-We create fast, secure, and beautiful websites that work for your business.
+We build straightforward websites and tools that work for your business.
 
 ## Our Services
 

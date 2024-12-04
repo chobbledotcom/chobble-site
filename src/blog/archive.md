@@ -1,5 +1,0 @@
----
-layout: blogarchive
----
-
-# Blog Archive

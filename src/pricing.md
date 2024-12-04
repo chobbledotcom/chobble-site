@@ -6,25 +6,25 @@ description: "Transparent pricing for web development and tech services. £100/h
 
 # Pricing
 
-We believe in transparent pricing. Our rate is £100 per hour (charged in half-hour increments), and initial consultations are free.
+We believe in transparent pricing. Our rate is £200 per hour (charged in half-hour increments), and initial consultations are free.
 
 ## Recent Projects
 
 ### This & That Cafe Website
 - Duration: Ongoing since 2016
-- Cost: Service exchange (free curry)
+- Monthly cost: Service exchange (free curry)
 - Included: Static site hosting, social media management, content updates
 - [View Case Study](/case-studies/this-and-that/)
 
 ### Blue Pits Housing Action Website
 - Duration: Ongoing
-- Cost: Pro-bono (charity arrangement)
+- Monthly cost: Pro-bono
 - Included: Website hosting, technical consultation, content updates
 - [View Case Study](/case-studies/blue-pits/)
 
 ### New Barn Ltd Website
 - Duration: Ongoing
-- Cost: Free hosting with backlink
+- Monthly cost: Pro-bono
 - Included: Website hosting, content updates, technical support
 - [View Case Study](/case-studies/new-barn/)
 

@@ -12,7 +12,7 @@ order: 2
 - **Client:** Blue Pits Housing Action (Registered Charity)
 - **Services:** Website hosting and technical consultation
 - **Duration:** Ongoing
-- **Payment:** Pro-bono (charity arrangement)
+- **Monthly cost:** Pro-bono (charity arrangement)
 - **Website:** [View live site](https://bluepitshousingaction.co.uk)
 
 ## The Client

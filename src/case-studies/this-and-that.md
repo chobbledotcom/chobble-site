@@ -12,7 +12,7 @@ order: 1
 - **Client:** This & That Cafe, Manchester
 - **Services:** Website hosting and social media management
 - **Duration:** Ongoing since 2016
-- **Payment:** Service exchange (free curry)
+- **Monthly cost:** Pro bono
 - **Website:** [View live site](https://thisandthatcafe.neocities.org)
 
 ## The Client
