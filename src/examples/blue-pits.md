@@ -1,5 +1,5 @@
 ---
-layout: client
+layout: page
 title: Blue Pits Housing Action
 snippet: Pro-bono website hosting and technical support for a Manchester housing charity
 tags: client

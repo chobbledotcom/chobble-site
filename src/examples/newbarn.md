@@ -1,22 +1,22 @@
 ---
-layout: client
-title: New Barn Ltd
+layout: page
+title: Newbarn Ltd
 snippet: Free website hosting and maintenance for a supported accommodation provider
 tags: client
 order: 3
 ---
 
-# New Barn Ltd
+# Newbarn Ltd
 
 ## Project Overview
-- **Client:** New Barn Ltd (Supported Accommodation Provider)
+- **Client:** Newbarn Ltd (Supported Accommodation Provider)
 - **Services:** Website hosting and maintenance
 - **Duration:** Ongoing
 - **Monthly cost:** Pro bono
 - **Website:** [View live site](https://newbarnltd.co.uk)
 
 ## The Client
-New Barn Ltd provides essential supported accommodation services in Manchester, helping individuals maintain stable housing with the support they need.
+Newbarn Ltd provides essential supported accommodation services in Manchester, helping individuals maintain stable housing with the support they need.
 
 ## Our Solution
 We provide:

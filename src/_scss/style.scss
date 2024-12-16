@@ -1,13 +1,26 @@
-@import url(https://fonts.bunny.net/css?family=comic-neue:700);
+@import url(https://fonts.bunny.net/css?family=concert-one:400);
 
-$bg-color: #95b8d1;
 $text-color: #d6eadf;
 $accent-color: #b8e0d4;
 $secondary-accent: #eac4d5;
-$header-color: #fff;
-$container-bg: #b8e0d4;
-$container-bg-dark: #809bce;
-$font-mono: 'Comic Neue', handwriting;
+
+$body-bg: #9f6daf;
+$header-fg: #FFF;
+$accent-bg: #FFF;
+
+$header-fg: #fff;
+$header-bg: #8f89c0;
+
+$main-bg: #74a6c4;
+$main-fg: #ffffff;
+$main-link: yellow;
+$main-accent-bg: $header-bg;
+
+$footer-bg: #809bce;
+$footer-fg: #ffffff;
+$footer-link: yellow;
+
+$header-font: 'Concert One', display;
 
 *,
 *::before,
@@ -18,17 +31,16 @@ $font-mono: 'Comic Neue', handwriting;
 }
 
 body {
-  font-size: 18px;
+  font-size: 22px;
   color: $text-color;
-  font-family: $font-mono;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   line-height: 1.6;
   overflow-x: hidden;
-  background-color: $bg-color;
+  background-color: $body-bg;
   height: 100vh;
+  padding: 30px;
 }
 
 // Typography
@@ -36,6 +48,7 @@ ul,
 ol {
   padding-left: 2rem;
   margin: 1rem 0;
+  line-height: 1.3;
 
   li {
     margin-bottom: 0.5rem;
@@ -47,8 +60,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: $header-color;
-  font-family: $font-mono;
+  color: $header-fg;
+  font-family: $header-font;
   margin: 1.5rem 0 1rem;
 
   &::before {
@@ -75,33 +88,39 @@ h6 {
   font-size: 1rem;
 }
 
-a {
-  color: $accent-color;
-  transition: color 0.8s ease;
-  text-decoration-color: $secondary-accent;
-
-  &:hover {
-    color: $secondary-accent;
-    text-decoration: underline;
-  }
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-// Layout
 header {
-  background-color: $container-bg-dark;
+  background-color: $header-bg;
+  font-family: $header-font;
   padding: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  border-bottom: 1px solid rgba($accent-color, 0.2);
 
   nav {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+
+    a.brand {
+      font-size: 2.5rem;
+      text-decoration: none;
+    }
+    a {
+      color: $header-fg;
+      &:hover {
+        color: $secondary-accent;
+      }
+      &.active {
+         color: $secondary-accent;
+      }
+    }
 
     .logo {
       width: 228px;
@@ -174,18 +193,11 @@ header {
       margin: 0;
       padding: 0;
 
-      li a {
-        font-size: 1.4rem;
-        position: relative;
-
-        &:hover {
-          color: $secondary-accent;
-        }
-
-        &.active {
-          color: $secondary-accent;
-          font-weight: bold;
-          text-decoration: underline;
+      li {
+        margin: 0;
+        a {
+          font-size: 1.4rem;
+          position: relative;
         }
       }
     }
@@ -193,21 +205,30 @@ header {
 }
 
 main {
-  max-width: 1200px;
-  width: 100%;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  background: $main-bg;
+  color: $main-fg;
+  padding: 1rem 2rem 4rem;
+  border-top: 10px solid $body-bg;
+  border-bottom: 10px solid $body-bg;
+  a {
+    color: $main-link;
+    &:hover {
+      color: $main-fg;
+    }
+  }
+  blockquote {
+    font-size: 2rem;
+    font-style: italic;
+  }
 }
 
-// Components
 .button {
   display: inline-block;
   padding: 0.5rem 1.5rem;
-  background-color: $accent-color;
-  color: $bg-color;
+  background-color: $main-accent-bg;
+  color: $accent-bg;
   border: none;
   border-radius: 4px;
-  font-family: $font-mono;
   cursor: pointer;
   transition: all 0.2s ease;
 
@@ -231,7 +252,7 @@ main {
 .blog-card,
 .service-card,
 .client-card {
-  background-color: $container-bg;
+  background-color: $main-accent-bg;
   padding: 1.5rem;
   border-radius: 8px;
   border: 1px solid rgba($accent-color, 0.1);
@@ -242,9 +263,8 @@ main {
   }
 }
 
-// Form styles
 .contact-form {
-  background-color: $container-bg;
+  background-color: $accent-bg;
   padding: 2rem;
   border-radius: 8px;
   margin: 2rem 0;
@@ -255,14 +275,13 @@ main {
     label {
       display: block;
       margin-bottom: 0.5rem;
-      font-family: $font-mono;
     }
 
     input,
     textarea {
       width: 100%;
       padding: 0.75rem;
-      background-color: $bg-color;
+      background-color: $body-bg;
       border: 1px solid rgba($accent-color, 0.2);
       border-radius: 4px;
       color: $text-color;
@@ -275,7 +294,6 @@ main {
   }
 }
 
-// Tags
 .tag {
   display: inline-block;
   padding: 0.25rem 0.75rem;
@@ -284,16 +302,21 @@ main {
   border-radius: 16px;
   font-size: 0.875rem;
   margin: 0.25rem;
-  font-family: $font-mono;
 }
 
-// Footer
 footer {
-  background-color: $container-bg;
-  padding: 2rem;
+  background-color: $footer-bg;
+  color: $footer-fg;
+  padding: 1rem;
   text-align: center;
-  margin-top: auto;
-  border-top: 1px solid rgba($accent-color, 0.2);
+  font-size: 1rem;
+
+  a {
+    color: $footer-link;
+    &:hover {
+      color: $footer-fg;
+    }
+  }
 
   @media (min-width: 768px) {
     > div {
@@ -328,7 +351,7 @@ footer {
       flex-direction: column;
       gap: 2rem;
       padding: 6rem 2rem 2rem;
-      background: rgba($container-bg, 0.98);
+      background: rgba($body-bg, 0.98);
       backdrop-filter: blur(10px);
       transition: right 0.3s ease-in-out;
 

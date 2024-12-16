@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Us
+title: about
 ---
 
 # About Chobble.com

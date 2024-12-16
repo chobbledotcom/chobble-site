@@ -1,27 +1,27 @@
 {
   "items": [
     {
-      "text": "About",
+      "text": "about",
       "url": "/about/",
       "section": "about"
     },
     {
-      "text": "Services",
+      "text": "services",
       "url": "/services/",
       "section": "services"
     },
     {
-      "text": "Case Studies",
-      "url": "/case-studies/",
-      "section": "case-studies"
+      "text": "examples",
+      "url": "/examples/",
+      "section": "examples"
     },
     {
-      "text": "Pricing",
-      "url": "/pricing/",
-      "section": "pricing"
+      "text": "prices",
+      "url": "/prices/",
+      "section": "prices"
     },
     {
-      "text": "Contact",
+      "text": "contact",
       "url": "/contact/",
       "section": "contact"
     }
