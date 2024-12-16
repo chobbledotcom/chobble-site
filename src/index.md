@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-# Chobble Web Development
+# Chobble web development
 
 > Straightforward websites and honest advice.
 

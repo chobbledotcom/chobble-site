@@ -4,14 +4,17 @@ $text-color: #d6eadf;
 $accent-color: #b8e0d4;
 $secondary-accent: #eac4d5;
 
-$body-bg: #9f6daf;
-$header-fg: #FFF;
+$body-bg: #561d68;
+$body-bg-gradient-to: #2f0c3a;
 $accent-bg: #FFF;
 
 $header-fg: #fff;
 $header-bg: #8f89c0;
+$header-fg-underline: #b0adca;
+$header-fg-active: yellow;
 
 $main-bg: #74a6c4;
+$main-inset-shadow: #5e94b5;
 $main-fg: #ffffff;
 $main-link: yellow;
 $main-accent-bg: $header-bg;
@@ -19,6 +22,8 @@ $main-accent-bg: $header-bg;
 $footer-bg: #809bce;
 $footer-fg: #ffffff;
 $footer-link: yellow;
+
+$border-color: #fff;
 
 $header-font: 'Concert One', display;
 
@@ -39,8 +44,14 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   background-color: $body-bg;
+  background-image:
+    url('/assets/cubes.png'), linear-gradient($body-bg, $body-bg-gradient-to);
+  background-attachment: fixed;
   height: 100vh;
-  padding: 30px;
+  padding: 10px;
+  @media (min-width: 768px) {
+    padding: 30px;
+  }
 }
 
 // Typography
@@ -91,16 +102,18 @@ h6 {
 .container {
   margin: 0 auto;
   max-width: 1000px;
-  border-radius: 20px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  @media (min-width: 768px) {
+    border-radius: 20px;
+  }
 }
 
 header {
   background-color: $header-bg;
   font-family: $header-font;
-  padding: 1rem;
+  padding: 1rem 2rem;
 
   nav {
     display: flex;
@@ -108,17 +121,20 @@ header {
     align-items: center;
     position: relative;
 
-    a.brand {
-      font-size: 2.5rem;
-      text-decoration: none;
-    }
     a {
       color: $header-fg;
+      text-decoration-color: $header-fg-underline;
+      text-decoration-thickness: 4px;
+      
+      &.brand {
+        font-size: 2.5rem;
+        text-decoration: none;
+      }
       &:hover {
         color: $secondary-accent;
       }
       &.active {
-         color: $secondary-accent;
+         color: $header-fg-active;
       }
     }
 
@@ -208,8 +224,10 @@ main {
   background: $main-bg;
   color: $main-fg;
   padding: 1rem 2rem 4rem;
-  border-top: 10px solid $body-bg;
-  border-bottom: 10px solid $body-bg;
+  margin: 10px 0;
+  border-top: 2px solid $border-color;
+  border-bottom: 2px solid $border-color;
+  box-shadow: inset 5px 5px 10px $main-inset-shadow;
   a {
     color: $main-link;
     &:hover {
@@ -255,8 +273,9 @@ main {
   background-color: $main-accent-bg;
   padding: 1.5rem;
   border-radius: 8px;
-  border: 1px solid rgba($accent-color, 0.1);
+  border: 2px solid $accent-color;
   transition: transform 0.2s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 
   &:hover {
     transform: translateY(-5px);
