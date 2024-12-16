@@ -1,7 +1,1 @@
-{
-	"dependencies": {
-		"fast-glob": "^3.3.2",
-		"@11ty/eleventy": "^3.0.0",
-		"@11ty/eleventy-plugin-rss": "^2.0.2"
-	}
-}
+/nix/store/wd2bf54rrzyc2y2cbqhlqlm1kgb68iym-package.json
