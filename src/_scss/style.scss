@@ -1,11 +1,13 @@
-$bg-color: #1a1b26;
-$text-color: #ddd;
-$accent-color: rgb(0, 190, 163);
-$secondary-accent: rgb(0, 255, 0);
+@import url(https://fonts.bunny.net/css?family=comic-neue:700);
+
+$bg-color: #95b8d1;
+$text-color: #d6eadf;
+$accent-color: #b8e0d4;
+$secondary-accent: #eac4d5;
 $header-color: #fff;
-$container-bg: rgba(0, 0, 0, 0.4);
-$container-bg-dark: rgba(0, 0, 0, 0.8);
-$font-mono: monospace;
+$container-bg: #b8e0d4;
+$container-bg-dark: #809bce;
+$font-mono: 'Comic Neue', handwriting;
 
 *,
 *::before,
@@ -26,26 +28,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   background-color: $bg-color;
-  background-image: radial-gradient(rgba(0, 62, 62, 0.75), #000 120%);
-  background-attachment: fixed;
   height: 100vh;
-
-  &::after {
-    content: "";
-    position: fixed;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: repeating-linear-gradient(
-      0deg,
-      rgba(black, 0.15),
-      rgba(black, 0.15) 1px,
-      transparent 1px,
-      transparent 2px
-    );
-  }
 }
 
 // Typography
@@ -94,8 +77,8 @@ h6 {
 
 a {
   color: $accent-color;
-  text-decoration: none;
   transition: color 0.8s ease;
+  text-decoration-color: $secondary-accent;
 
   &:hover {
     color: $secondary-accent;
@@ -192,7 +175,7 @@ header {
       padding: 0;
 
       li a {
-        font-size: 1rem;
+        font-size: 1.4rem;
         position: relative;
 
         &:hover {
