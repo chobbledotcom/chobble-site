@@ -238,6 +238,9 @@ main {
     font-size: 2rem;
     font-style: italic;
   }
+  p, blockquote, ul, ol {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .button {

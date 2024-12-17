@@ -23,7 +23,7 @@ pkgs.mkShell {
       yarn eleventy --serve &
       ELEVENTY_PID=$!
 
-      sass --watch src/_scss:_site/css --style compressed
+      sass --watch src/_scss:_site/css --style compressed &
       SASS_PID=$!
 
       cleanup_serve() {
