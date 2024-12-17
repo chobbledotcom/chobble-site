@@ -1,4 +1,3 @@
-# node-deps.nix
 {
   pkgs ? import <nixpkgs> { },
 }:
