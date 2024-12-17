@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-yarn --upgrade
-yarn install
-yarn2nix > node-deps.nix
-yarn --upgrade

@@ -10,7 +10,6 @@ cleanup_serve() {
   wait $ELEVENTY_PID 2>/dev/null
   kill $SASS_PID 2>/dev/null
   wait $SASS_PID 2>/dev/null
-  cleanup
 }
 trap cleanup_serve EXIT INT TERM
 wait -n

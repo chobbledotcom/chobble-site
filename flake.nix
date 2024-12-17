@@ -48,7 +48,6 @@
           "build"
           "serve"
           "push"
-          "upgrade"
         ];
 
         # Generate all packages
@@ -69,11 +68,14 @@
           dev = pkgs.mkShell {
             buildInputs = commonBuildInputs ++ (builtins.attrValues packages);
             shellHook = ''
+              rm -rf node_modules
+              rm -rf package.json
+              ln -sf ${packageJSON} package.json
+              ln -sf ${nodeModules}/node_modules .
               echo "Development environment ready!"
               echo "Run 'serve' to start development server"
               echo "Run 'build' to build the site in the _site directory"
               echo "Run 'push' to push this site to surge.sh"
-              echo "Run 'upgrade' to upgrade dependencies"
             '';
           };
         };

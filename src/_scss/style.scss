@@ -9,19 +9,20 @@ $body-bg-gradient-to: #2f0c3a;
 $accent-bg: #FFF;
 
 $header-fg: #fff;
-$header-bg: #8f89c0;
-$header-fg-underline: #b0adca;
-$header-fg-active: yellow;
+$header-bg: #d56c10;
+$header-fg-underline: #ad44ce;
+$header-fg-active: #eccbf7;
 
-$main-bg: #74a6c4;
-$main-inset-shadow: #5e94b5;
-$main-fg: #ffffff;
-$main-link: yellow;
-$main-accent-bg: $header-bg;
+$main-bg: #fff7f0;
+$main-fg: #2d2c2c;
+$main-link: #ad44ce;
+$main-accent-bg: #eccbf7;
+$main-accent-fg-hover: #d56c10;
+$main-heading: #d56c10;
 
-$footer-bg: #809bce;
+$footer-bg: #b35300;
 $footer-fg: #ffffff;
-$footer-link: yellow;
+$footer-link: #eccbf7;
 
 $border-color: #fff;
 
@@ -71,15 +72,9 @@ h3,
 h4,
 h5,
 h6 {
-  color: $header-fg;
+  color: $main-heading;
   font-family: $header-font;
   margin: 1.5rem 0 1rem;
-
-  &::before {
-    content: "# ";
-    color: $accent-color;
-    font-weight: normal;
-  }
 }
 
 h1 {
@@ -227,7 +222,6 @@ main {
   margin: 10px 0;
   border-top: 2px solid $border-color;
   border-bottom: 2px solid $border-color;
-  box-shadow: inset 5px 5px 10px $main-inset-shadow;
   a {
     color: $main-link;
     &:hover {
@@ -276,12 +270,14 @@ main {
   background-color: $main-accent-bg;
   padding: 1.5rem;
   border-radius: 8px;
-  border: 2px solid $accent-color;
   transition: transform 0.2s ease;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 
   &:hover {
     transform: translateY(-5px);
+
+    a {
+      color: $main-accent-fg-hover;
+    }
   }
 }
 
