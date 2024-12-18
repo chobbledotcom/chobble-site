@@ -13,7 +13,7 @@ Break free from Google's ecosystem and take full control of your data with your 
 
 ## What's Included
 
-- Complete Nextcloud installation on Hetzner StorageShare
+- Complete Nextcloud installation on [Hetzner StorageShare](https://www.hetzner.com/storage/storage-share/)
 - Full administrative access
 - Initial setup and configuration
 - Training session on how to use your new system
@@ -36,8 +36,8 @@ With over 10 years of Nextcloud experience, we've found Hetzner's StorageShare t
 
 ## Pricing
 
-- One-time setup fee: £200
-- Monthly hosting: Direct with Hetzner (very affordable)
+- One-time setup: [2 hours](/prices/)
+- Monthly hosting: Direct with Hetzner (very affordable - from about £4)
 
 ## What Happens Next?
 
