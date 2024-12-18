@@ -16,14 +16,17 @@ $header-fg-active: #eccbf7;
 $main-bg: #fff7f0d4;
 $main-fg: #2d2c2c;
 $main-link: #ad44ce;
-$main-accent-bg: #eccbf7;
+
+$main-accent-bg: #f8e4ff;
 $main-accent-border: #561d68;
 $main-accent-fg-hover: #d56c10;
+$main-accent-link: #561d68;
+
 $main-heading: #d56c10;
 
 $footer-bg: #b35300;
 $footer-fg: #ffffff;
-$footer-link: #eccbf7;
+$footer-link: #ffffff;
 
 $border-color: #fff;
 
@@ -303,6 +306,7 @@ main {
   transition-duration: 0.2s;
   transition-timing-function: ease;
   border: 2px solid $main-accent-border;
+  color: $main-accent-link;
 
   span {
     font-family: $header-font;
