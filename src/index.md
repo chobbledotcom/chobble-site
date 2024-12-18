@@ -8,7 +8,7 @@ We can help you succeed online by demystifying websites, hosting, and tech in ge
 
 Everything we do is released as [open source](https://git.chobble.com) with no contract or obligations. You don't have to pay any monthly fees and can host wherever you like - although you might choose to pay to host with us.
 
-We have very transparent and honest pricing. We charge a flat hourly rate.
+We have [very transparent and honest pricing](/prices/). We charge a flat hourly rate.
 
 We are flexible and up for discussing anything.
 

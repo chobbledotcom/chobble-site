@@ -1,17 +1,18 @@
 ---
 layout: page
-title: Pricing
+title: Our Prices
 description: "Transparent pricing for web development and tech services. £100/hour with free initial consultations. View our recent projects and pro-bono work."
 ---
 
-# Pricing
+# Our Prices
 
 We believe in transparent pricing. Our base rate is **£200 per hour** (charged in half-hour increments), and initial consultations are free.
 
-Our rate is 50% lower at **£100 per hour** for:
+Our rate is **discounted 50%** at **£100 per hour** for:
 
 - Friends and family
 - Charities and co-operatives
+- Musicians and artists
 - Vegan businesses
 - Renewable energy businesses
 
@@ -19,22 +20,22 @@ We sometimes work for free, at our discretion.
 
 ## Service Charges (Static Sites)
 
-You can host as many static websites as you like with us for £20 per month. For this price we will:
+You can host as many static websites as you like with us for **£40** per month, or **£20 if discounted**. For this fee we will:
 
 - Host your sites
 - Back up your sites
 - Provide a content management system
 - Host your DNS records
 - Make any small changes you request
-- Provide technical advice
+- Provide technical and marketing advice
 
-You might also choose to host elsewhere since you will have the full source code - that's totally fine. We recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org) and [Surge](https://surge.sh).
+You may choose to host elsewhere since you will have the full source code - that's totally fine. We recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org) and [Surge](https://surge.sh).
 
 ## Service Charges (Dynamic Sites)
 
 We will host your Ruby on Rails dynamic site on its own server running NixOS. We will use the most affordable Gandi VPS server possible, starting at around £5 per month.
 
-We will charge £30 per month on top of whatever that hosting cost is. You will have full access to the server and its configuration. For this price we will:
+We will charge **£60** per month (or **£30 if discounted**) on top of whatever that hosting cost is. You will have full access to the server and its configuration. For this price we will:
 
 - Host your service
 - Back up your code
@@ -51,4 +52,4 @@ We will help you source the ideal provider for your needs and budget. You will r
 
 ## Other Open Source software
 
-If you want to host Nextcloud for shared documents for your team, or a Mastodon server for your club, or anything else - we will help.
+If you want to host Nextcloud for shared documents for your team, or a Mastodon server for your club, or anything else - we will help. And if you want to manage the server yourself and use us as local consultants, that's totally fine.

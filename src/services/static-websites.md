@@ -1,7 +1,7 @@
 ---
 layout: service
-title: Website Development
-snippet: Fast and responsive static websites
+title: Static Websites
+snippet: Fast and responsive websites to promote your business
 tags: service
 order: 0
 ---
@@ -10,7 +10,7 @@ order: 0
 
 Chobble builds fast, stable, and mobile-friendly websites using the 'Eleventy' or 'Jekyll' static site generators.
 
-Some examples include [This & That Cafe](/examples/this-and-that), [Blue Pits](/examples/blue-pits) and [Vegan Prestwich](/examples/vegan-prestwich).
+**Some examples: [This & That Cafe](/examples/this-and-that), [Blue Pits](/examples/blue-pits) and [Vegan Prestwich](/examples/vegan-prestwich).**
 
 ## What is a static website?
 
@@ -23,7 +23,7 @@ Static site generators create sites with:
 - Total flexibility
 - Very easy to edit files
 
-This makes them a great option for most business websites where the content changes less frequently and performance and directness is very important.
+This makes them a great option for most business websites where the content changes less frequently and performance and clarity is very important.
 
 ## How It Works
 
@@ -34,3 +34,25 @@ This makes them a great option for most business websites where the content chan
 5. Backups are handled automatically
 6. You get the full source code
 
+## Prices
+
+We will provide estimates and charge a [flat hourly rate](/prices/). Here are some rough estimates for the stages of the process of building a static website:
+
+- **2 hours: Base setup**
+  - Creating an empty site
+  - Backing it up via Git
+  - Adding a CMS
+  - Inviting you to the CMS
+  - Auto-publishing to your static host of choice
+- **1 hours: Base template**
+  - Cloning an existing template and updating its text to fit your business
+- **1-4 hours: Images**
+  - Cropping / resizing your images, sourcing designers
+- **1 hour: Domain names**
+  - Pointing your domain to its new host
+- **1 hour: Email setup**
+  - Setting up email accounts with your host of choice
+- **1-6 hours: Content**
+  - Populating your site content, sourcing copywriters
+
+Not all of these stages will be necessary for every site, and you might be able to do some yourself - and we'll be there to guide you if you do.
