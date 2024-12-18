@@ -13,10 +13,11 @@ $header-bg: #d56c10;
 $header-fg-underline: #ad44ce;
 $header-fg-active: #eccbf7;
 
-$main-bg: #fff7f0;
+$main-bg: #fff7f0d4;
 $main-fg: #2d2c2c;
 $main-link: #ad44ce;
 $main-accent-bg: #eccbf7;
+$main-accent-border: #561d68;
 $main-accent-fg-hover: #d56c10;
 $main-heading: #d56c10;
 
@@ -52,6 +53,9 @@ body {
   padding: 10px;
   @media (min-width: 768px) {
     padding: 30px;
+  }
+  @media (min-width: 1300px) {
+    padding: 30px 10%;
   }
 }
 
@@ -100,9 +104,6 @@ h6 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  @media (min-width: 768px) {
-    border-radius: 20px;
-  }
 }
 
 header {
@@ -268,9 +269,10 @@ main {
 .service-card,
 .client-card {
   background-color: $main-accent-bg;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 8px;
   transition: transform 0.2s ease;
+  border: 2px solid $main-accent-border;
 
   &:hover {
     transform: translateY(-5px);
@@ -285,31 +287,9 @@ main {
   background-color: $accent-bg;
   padding: 2rem;
   border-radius: 8px;
-  margin: 2rem 0;
-
-  .form-group {
-    margin-bottom: 1.5rem;
-
-    label {
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    input,
-    textarea {
-      width: 100%;
-      padding: 0.75rem;
-      background-color: $body-bg;
-      border: 1px solid rgba($accent-color, 0.2);
-      border-radius: 4px;
-      color: $text-color;
-
-      &:focus {
-        outline: none;
-        border-color: $accent-color;
-      }
-    }
-  }
+  margin: 2rem auto;
+  width: 616px;
+  height: 570px;
 }
 
 .tag {
@@ -386,5 +366,32 @@ footer {
         }
       }
     }
+  }
+}
+
+
+/* pages */
+
+.home {
+  display: flex;
+  flex-direction: row;
+  > .examples {
+    width: 500px;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.example {
+  img {
+    max-width: 100%;
+  }
+  iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid $main-accent-border;
   }
 }

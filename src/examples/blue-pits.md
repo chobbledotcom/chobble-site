@@ -1,12 +1,16 @@
 ---
-layout: page
+layout: example
 title: Blue Pits Housing Action
 snippet: Pro-bono website hosting and technical support for a Manchester housing charity
 tags: client
 order: 2
 ---
 
-# Blue Pits Housing Action
+# Blue Pits Housing Actiono
+
+Blue Pits Housing Action is a registered charity providing essential housing support services in Manchester. Their work helps vulnerable individuals access safe, stable housing.
+
+<iframe src="https://bluepitshousingaction.co.uk"></iframe>
 
 ## Project Overview
 - **Client:** Blue Pits Housing Action (Registered Charity)
@@ -14,9 +18,6 @@ order: 2
 - **Duration:** Ongoing
 - **Monthly cost:** Pro-bono (charity arrangement)
 - **Website:** [View live site](https://bluepitshousingaction.co.uk)
-
-## The Client
-Blue Pits Housing Action is a registered charity providing essential housing support services in Manchester. Their work helps vulnerable individuals access safe, stable housing.
 
 ## Our Solution
 We provide:
@@ -47,4 +48,4 @@ We provide:
 - Valuable backlink for our business
 
 ## Open Source
-As with all our projects, the complete source code is available under the GPL license, helping other charities and developers learn from our work.
+As with all our projects, the complete source code [is available](https://git.chobble.com/hosted-by-chobble/blue-pits) under the AGPL license, helping other charities and developers learn from our work.

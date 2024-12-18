@@ -12,16 +12,22 @@
   <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html">
 </head>
 <body>
-  <div class="container">
-    <header>
+  <header>
+    <div class="container">
       {% include "navbar.liquid" %}
-    </header>
+    </div>
+  </header>
 
-    <main>
-      {{ content }}
-    </main>
+  <main>
+    <div class="container">
+    {{ content }}
+    </div>
+  </main>
 
-    {% include "footer.liquid" %}
-  </div>
+  <footer>
+    <div class="container">
+      {% include "footer.liquid" %}
+    </div>
+  </footer>
 </body>
 </html>

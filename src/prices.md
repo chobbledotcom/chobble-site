@@ -8,26 +8,44 @@ description: "Transparent pricing for web development and tech services. £100/h
 
 We believe in transparent pricing. Our rate is £200 per hour (charged in half-hour increments), and initial consultations are free.
 
-## Recent Projects
+We charge a lower rate of £100 per hour for:
 
-### This & That Cafe Website
-- Duration: Ongoing since 2016
-- Monthly cost: Service exchange (free curry)
-- Included: Static site hosting, social media management, content updates
-- [View Case Study](/case-studies/this-and-that/)
+- Friends and family
+- Charities and co-operatives
+- Renewable energy businesses
 
-### Blue Pits Housing Action Website
-- Duration: Ongoing
-- Monthly cost: Pro-bono
-- Included: Website hosting, technical consultation, content updates
-- [View Case Study](/case-studies/blue-pits/)
+We sometimes work for free, at our discretion.
 
-### New Barn Ltd Website
-- Duration: Ongoing
-- Monthly cost: Pro-bono
-- Included: Website hosting, content updates, technical support
-- [View Case Study](/case-studies/new-barn/)
+## Service Charges (Static Sites)
 
-## Free Initial Consultation
+You can host as many static websites as you like with us for £20 per month. For this price we will:
 
-We offer free initial consultations to discuss your project needs and provide a detailed estimate. [Contact us](/contact/) to schedule yours.
+- Host your sites
+- Back up your sites
+- Provide a content management system
+- Host your DNS records
+- Make any small changes you request
+- Provide technical advice
+
+You might also choose to host elsewhere - that's totally fine. We recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org) and [Surge](https://surge.sh).
+
+## Service Charges (Dynamic Sites)
+
+We will host your Ruby on Rails dynamic site on its own server running NixOS. We will use the most affordable Gandi VPS server possible, starting at around £5 per month.
+
+We will charge £30 per month on top of whatever that hosting cost is. You will have full access to the server and its configuration. For this price we will:
+
+- Host your service
+- Back up your code
+- Back up your database every day
+- Provide your DNS records
+- Make any small changes you request
+- Provide technical advice
+
+## Emails and Domain Renewals
+
+We will help you source the ideal provider for your needs and budget. You will register and pay them directly, unless you *really* don't want to, in which case we can sort something out.
+
+## Other Open Source software
+
+If you want to host Nextcloud for shared documents for your team, or a Mastodon server for your club, or anything else - we will help.

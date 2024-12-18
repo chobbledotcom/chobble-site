@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Clients
+title: Examples
 ---
 
-# Case Studies
+# Examples
 
-Real examples of how we've helped organizations achieve their goals, with transparent pricing and results.
+Real examples of how we've helped organisations achieve their goals, with transparent pricing and results.
 
 <div class="clients-grid">
 {%- for client in collections.client | sort(attribute='data.order') -%}
