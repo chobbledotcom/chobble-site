@@ -3,12 +3,34 @@ layout: base
 ---
 
 <div class="home">
+  <h1>{{ heading }}</h1>
+  <div class="top">
+    <a class="card" href="/services/websites">
+      <span>Services</span>
+      <img
+        src="/assets/network.svg"
+        alt="">
+    </a>
+    <a class="card" href="/prices">
+      <span>Prices</span>
+      <img
+        src="/assets/store.svg"
+        alt="">
+    </a>
+    <a class="card" href="/examples">
+      <span>Examples</span>
+      <img
+        src="/assets/examples.svg"
+        alt="">
+    </a>
+    <a class="card" href="/contact">
+      <span>Contact</span>
+      <img
+        src="/assets/contact.svg"
+        alt="">
+    </a>
+  </div>
   <div class="content">
     {{ content }}
-  </div>
-  <div class="examples">
-    <a href="/examples/this-and-that">
-	  <img src="/assets/this-and-that.png">
-	</a>
   </div>
 </div>

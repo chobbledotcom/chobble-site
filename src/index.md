@@ -1,17 +1,14 @@
 ---
 layout: home
 title: Home
+heading: Chobble web & software development
 ---
 
-# Chobble web development
+We can help you succeed online by demystifying websites, hosting, and tech in general.
 
-> Take control of your web presence
+Everything we do is released as [open source](https://git.chobble.com) with no contracts. You don't have to pay any monthly fees - although you might choose to.
 
-Chobble can help you succeed online by demystifying websites, hosting, and tech in general.
-
-Everything Chobble does is released as [open source](https://git.chobble.com) with no contracts. You don't have to pay any monthly fees - although you might choose to.
-
-Chobble has very transparent and honest pricing. We charge a flat hourly rate.
+We have very transparent and honest pricing. We charge a flat hourly rate.
 
 We are flexible and up for discussing anything.
 
