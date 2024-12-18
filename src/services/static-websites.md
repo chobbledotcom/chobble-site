@@ -1,55 +1,36 @@
 ---
 layout: service
 title: Website Development
-snippet: Fast, secure, and sustainable static websites built with Eleventy
+snippet: Fast and responsive static websites
 tags: service
-order: 1
+order: 0
 ---
 
-# Static Site Development
+# Static Website Development
 
-We specialize in creating fast, secure, and sustainable static websites using Eleventy and Neocities. Our approach focuses on simplicity, performance, and empowering you to maintain your own web presence.
+Chobble builds fast, stable, and mobile-friendly websites using the 'Eleventy' or 'Jekyll' static site generators.
 
-## Our Offering
+Some examples include [This & That Cafe](/examples/this-and-that), [Blue Pits](/examples/blue-pits) and [Vegan Prestwich](/examples/vegan-prestwich).
 
-- Static site development using Eleventy
-- Hosting on Neocities (strong supporters of open source)
-- Domain names through Web Architects Co-op (Sheffield-based ethical hosting)
-- GitHub-based content management
-- Automated deployment via GitHub Actions
-- Training on how to edit your site
+## What is a static website?
 
-## Pricing
+The site's contents can be edited through a simple admin interface or directly as text files on your computer.
 
-- Starting at £500 for initial development
-- Annual maintenance fee of £20 (£10 donated to Neocities)
-- Domain name renewal costs (varies)
-- All source code available under GPLv3 license
+Static site generators create sites with:
 
-## Key Benefits
+- High performance and stability
+- Low or zero hosting costs
+- Total flexibility
+- Very easy to edit files
 
-- Ultra-fast loading speeds
-- Minimal ongoing costs
-- Easy content management
-- Sustainable and efficient
-- No heavy frameworks
-- Fully responsive design
-- Complete ownership of your site
+This makes them a great option for most business websites where the content changes less frequently and performance and directness is very important.
 
 ## How It Works
 
-1. We build your site using Eleventy
-2. Content is stored in simple Markdown files
-3. GitHub Actions automatically compile and deploy
-4. You can edit content directly or send us changes
-5. Site is hosted on Neocities' sustainable platform
+1. You choose a template or employ a designer
+2. We build your website using Eleventy or Jekyll
+3. Its content is stored in simple text files
+4. You can edit the content yourself or send us changes
+5. Backups are handled automatically
+6. You get the full source code
 
-## Our Values
-
-- Open source by default (GPLv3)
-- Focus on local Manchester businesses
-- No work with gambling or tobacco industries
-- Service trading available
-- Sustainable and ethical web development
-
-Contact us to discuss your static site needs. We're happy to explain the benefits of this approach and how it can work for your business.

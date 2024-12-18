@@ -3,7 +3,7 @@ layout: service
 title: De-Googling
 snippet: Take control of your data and avoid surveillance capitalism
 description: Take control of your data with a private Nextcloud installation
-order: 5
+order: 2
 tags: service
 ---
 

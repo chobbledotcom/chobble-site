@@ -1,0 +1,18 @@
+---
+layout: base
+---
+
+{{ content }}
+
+<div class="services-grid">
+  {% for service in collections.service | sort: 'data.order' %}
+    <div class="service-card">
+      <h2>
+        <a href="{{ service.url }}">
+          {{ service.data.title }}
+        </a>
+      </h2>
+      <p>{{ service.data.snippet }}</p>
+    </div>
+  {%- endfor -%}
+</div>

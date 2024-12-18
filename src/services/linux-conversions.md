@@ -3,7 +3,7 @@ layout: service
 title: Linux Installations
 snippet: Give your Windows laptop new life with Linux
 tags: service
-order: 4
+order: 2
 ---
 
 # Linux / Ubuntu Laptop Conversion

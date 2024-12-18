@@ -34,8 +34,8 @@ With over 30 years of combined experience in tech, we offer practical guidance a
 
 1. **Initial Chat:** Free 30-minute consultation to understand your needs
 2. **Clear Plan:** We'll outline how we can help and what it will cost
-3. **Flexible Support:** In-person or remote sessions available
-4. **Follow-up:** Written summary of advice and next steps
+3. **Flexible Support:** We can work in-person or remotely
+4. **Monitoring:** Regular check-ins and write-ups on what we've done
 
 ## Why Choose Us
 
@@ -45,4 +45,4 @@ With over 30 years of combined experience in tech, we offer practical guidance a
 - Commitment to knowledge sharing
 - Local Manchester-based support
 
-[Contact us](/contact/) to discuss how we can help you navigate your technical challenges.
+[Contact us](/contact/) to discuss how we can help you.

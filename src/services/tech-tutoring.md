@@ -4,7 +4,7 @@ title: Tech Tutoring
 snippet: Honest, transparent, friendly tech educators
 description: "Personalized tech tutoring covering web development, hardware, programming, and digital skills. Learn at your own pace with experienced educators."
 tags: service
-order: 3
+order: 2
 ---
 
 # Tech Tutoring
@@ -23,6 +23,7 @@ After 25+ years of being full-time nerds we have lots of knowledge to share. Whe
 - Content management and website updates
 
 ### Hardware & System Management
+
 - Building a computer from scratch
 - Upgrading components (RAM, storage, graphics cards)
 - Hard drive replacement and data migration
@@ -30,6 +31,7 @@ After 25+ years of being full-time nerds we have lots of knowledge to share. Whe
 - Setting up home networks and security
 
 ### Career Development
+
 - Technical CV review and optimization
 - Portfolio website creation
 - Interview preparation for tech roles
