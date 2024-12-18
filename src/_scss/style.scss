@@ -110,7 +110,7 @@ h6 {
 header {
   background-color: $header-bg;
   font-family: $header-font;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem 1rem 2rem;
   border-radius: 10px;
 
   nav {
@@ -121,11 +121,13 @@ header {
 
     a {
       color: $header-fg;
-      text-decoration-color: $header-fg-underline;
-      text-decoration-thickness: 4px;
+      text-decoration: none;
+      /* text-decoration-color: $header-fg-underline;
+      text-decoration-thickness: 4px; */
       
       &.brand {
         font-size: 2.5rem;
+        line-height: 2.5rem;
         text-decoration: none;
       }
       &:hover {
@@ -212,6 +214,23 @@ header {
         a {
           font-size: 1.4rem;
           position: relative;
+        }
+      }
+      @media (min-width: 768px) {
+        gap: 0;
+        border-radius: 5px;
+        background-image: url('/assets/cubes.png');
+        background-attachment: fixed;
+        background-color: #431751;
+        a {
+          display: block;
+          padding: 0.5rem 1rem;
+        }
+        li:first-child a {
+          padding-left: 1.5rem;
+        }
+        li:last-child a {
+          padding-right: 1.5rem;
         }
       }
     }
