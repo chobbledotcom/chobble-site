@@ -1,4 +1,6 @@
-{ pkgs ? import <nixpkgs> {} }:
+{
+  pkgs ? import <nixpkgs> { },
+}:
 
 let
   # Input source files
@@ -10,13 +12,14 @@ in
 pkgs.stdenv.mkDerivation {
   name = "blog-chobble-com";
 
-  src = builtins.filterSource
-    (path: type: !(builtins.elem (baseNameOf path) [
+  src = builtins.filterSource (
+    path: type:
+    !(builtins.elem (baseNameOf path) [
       "_site"
       "node_modules"
       ".git"
-    ]))
-    src;
+    ])
+  ) src;
 
   nativeBuildInputs = with pkgs; [
     cacert
@@ -36,6 +39,9 @@ pkgs.stdenv.mkDerivation {
   '';
 
   buildPhase = ''
+    echo 'Building CSS'
+    sass --update src/_scss:_site/css --style compressed
+
     echo 'Building site'
     yarn --offline eleventy
 
