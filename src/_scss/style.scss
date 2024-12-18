@@ -38,7 +38,7 @@ $header-font: 'Concert One', display;
 }
 
 body {
-  font-size: 22px;
+  font-size: 1rem;
   color: $text-color;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
@@ -52,6 +52,7 @@ body {
   padding: 10px;
   @media (min-width: 768px) {
     padding: 30px;
+    font-size: 1.2rem;
   }
   @media (min-width: 1300px) {
     padding: 30px 10%;
@@ -78,6 +79,7 @@ h6 {
   color: $main-heading;
   font-family: $header-font;
   margin: 1.5rem 0 1rem;
+  line-height: 1.2;
 }
 
 h1 {
@@ -94,7 +96,7 @@ h4 {
 }
 h5,
 h6 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .container {
@@ -354,8 +356,9 @@ footer {
       flex-direction: column;
       gap: 2rem;
       padding: 6rem 2rem 2rem;
-      background: rgba($body-bg, 0.98);
-      backdrop-filter: blur(10px);
+      background-image:
+        url('/assets/cubes.png'), linear-gradient($body-bg, $body-bg-gradient-to);
+      background-attachment: fixed;
       transition: right 0.3s ease-in-out;
 
       li {
@@ -380,15 +383,32 @@ footer {
 .home {
   .top {
     display: flex;
+    flex-direction: column;
     margin: 1rem 0;
     gap: 30px;
+    a {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      span {
+        flex-grow: 1;
+        align-content: center;
+        text-align: left;
+      }
+      img {
+        display:block;
+        width: 30%;
+      }
+    }
     @media (min-width: 768px) {
       flex-direction: row;
       a {
         width: 25%;
-        text-align: center;
+        flex-direction: column;
+        span {
+          text-align: center;
+        }
         img {
-          display:block;
           width: 100%;
           margin: 0.5em 0 0;
         }
