@@ -11,7 +11,7 @@ order: 3
 
 ## Personal Technology Training At Your Pace
 
-After 25+ years of being technology enthusiasts, we've accumulated a wealth of knowledge that we're excited to share. Whether you're looking to level up your skills or start from scratch, we offer personalized, one-on-one tutoring sessions tailored to your specific needs.
+After 25+ years of being full-time nerds we have lots of knowledge to share. Whether you're looking to level up your skills or starting from scratch, we offer personalised, one-on-one tutoring sessions tailored to your specific needs.
 
 ## What We Can Teach
 
@@ -34,7 +34,7 @@ After 25+ years of being technology enthusiasts, we've accumulated a wealth of k
 - Portfolio website creation
 - Interview preparation for tech roles
 - GitHub profile setup and management
-- LinkedIn optimization for tech professionals
+- LinkedIn optimisation for tech professionals
 
 ### Programming & Development
 - Introduction to programming (Ruby, JavaScript, Python, etc.)
@@ -52,7 +52,7 @@ After 25+ years of being technology enthusiasts, we've accumulated a wealth of k
 
 ## Our Approach
 
-We believe in hands-on learning. During our sessions, you'll:
+During our sessions, you'll:
 - Work on real projects that matter to you
 - Learn at your own pace
 - Get immediate feedback and guidance
@@ -61,8 +61,8 @@ We believe in hands-on learning. During our sessions, you'll:
 
 ## Pricing
 
-Sessions are charged at our standard rate of £100 per hour (in half-hour increments), with a minimum booking of one hour. We recommend starting with a free consultation to discuss your goals and create a personalized learning plan.
+Sessions are charged at £50 per hour, with a minimum booking of two hours. We recommend starting with a free consultation to discuss your goals and create a personalized learning plan.
 
 ## Get Started
 
-[Contact us](/contact/) to schedule your free consultation. Let us know what you'd like to learn, and we'll help you achieve your technology goals.
+[Contact us](/contact/) to schedule a free consultation. Let us know what you'd like to learn, and we'll help you get there.

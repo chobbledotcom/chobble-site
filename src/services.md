@@ -5,12 +5,16 @@ title: Services
 
 # Our Services
 
-We believe in creating sustainable, efficient, and ethical web solutions. Our combined experience from Bandcamp, AutoTrader, Shop Direct and other major platforms informs everything we do.
+We believe in creating sustainable, efficient, and honest web solutions. With decades of experience working with businesses of all sizes we're sure we can build something to suit your needs.
 
 ## Our Principles
-- Transparent pricing
-- Simple, efficient solutions
-- Full access to source code
+
+- Transparent prices
+- Effective, efficient solutions
+- No smoke and mirrors
+- Open source by default
+- No walled gardens
+- No bloated frameworks
 
 <div class="services-grid">
 {%- for service in collections.service | sort(attribute='data.order') -%}

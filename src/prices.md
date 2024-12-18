@@ -12,6 +12,7 @@ We charge a lower rate of £100 per hour for:
 
 - Friends and family
 - Charities and co-operatives
+- Vegan businesses
 - Renewable energy businesses
 
 We sometimes work for free, at our discretion.
@@ -27,7 +28,7 @@ You can host as many static websites as you like with us for £20 per month. For
 - Make any small changes you request
 - Provide technical advice
 
-You might also choose to host elsewhere - that's totally fine. We recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org) and [Surge](https://surge.sh).
+You might also choose to host elsewhere since you will have the full source code - that's totally fine. We recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org) and [Surge](https://surge.sh).
 
 ## Service Charges (Dynamic Sites)
 
@@ -41,6 +42,8 @@ We will charge £30 per month on top of whatever that hosting cost is. You will 
 - Provide your DNS records
 - Make any small changes you request
 - Provide technical advice
+
+You can also host the site yourself, as you will have the full source code.
 
 ## Emails and Domain Renewals
 
