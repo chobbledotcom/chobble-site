@@ -111,6 +111,7 @@ header {
   background-color: $header-bg;
   font-family: $header-font;
   padding: 1rem 2rem;
+  border-radius: 10px;
 
   nav {
     display: flex;
@@ -223,7 +224,9 @@ main {
   padding: 1rem 2rem 4rem;
   margin: 10px 0;
   border-top: 2px solid $border-color;
-  border-bottom: 2px solid $border-color;
+  border-left: 2px solid $border-color;
+  border-radius: 10px;
+  
   a {
     color: $main-link;
     &:hover {
@@ -318,6 +321,7 @@ footer {
   padding: 1rem;
   text-align: center;
   font-size: 1rem;
+  border-radius: 10px;
 
   a {
     color: $footer-link;
