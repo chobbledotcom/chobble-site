@@ -23,4 +23,4 @@ We are happy to explain as much about how your website works as you like, and wi
 
 We know many other tech-adjacent people (eg designers, copywriters, marketers) and are happy to connect you to them if you need their services.
 
-If this sounds good, please [contact Us](/contact/) to discuss your project!
+If this sounds good, please [contact us](/contact/) to discuss your project!
