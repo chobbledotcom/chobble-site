@@ -3,73 +3,24 @@ layout: page
 title: about
 ---
 
-# About Chobble.com
+# About Chobble
 
-We're Stef and Alex, web engineers with over 30 years of combined experience at companies like Bandcamp, AutoTrader, and Shop Direct. Based in Prestwich, Manchester, we build ethical, sustainable web solutions for local businesses and charities.
+Chobble is Stef and Alex from Prestwich, Manchester - web developers with over 30 years combined experience working on websites of all sizes - from small local charities and social groups to massive international storefronts.
 
-## Our Story
+We started Chobble to:
 
-After years in the corporate tech world, we decided to create something different: a web development company that prioritizes ethics, sustainability, and local community over profit. We believe in:
+- Build websites and tools for local organisations and individuals
+- Provide honest advice and guidance
+- Contribute to the wider open source community
 
-- **Open Source:** All our code is GPL licensed
-- **Ethical Business:** 10% of income goes to Against Malaria Foundation
-- **Local Focus:** Special rates for Manchester charities
-- **Sustainable Tech:** Static sites hosted on Neocities
-- **Knowledge Sharing:** Regular blog posts and open source contributions
+We charge a [flat per-hour rate](/prices/) and give full details of what's included.
 
-## Our Experience
+We prefer solutions which empower their users and so prioritise open source and flexibility over proprietary or locked-in solutions.
 
-### Stef
-- Senior Engineer at Bandcamp
-- Lead Developer at Shop Direct
-- Specializes in performance optimization
-- Open source contributor
-- Linux enthusiast
+We do not force you to host with us and provide instructions for hosting elsewhere or moving away - although you might like to host with us anyway.
 
-### Alex
-- Technical Lead at AutoTrader
-- Security Specialist at Various Banks
-- Focus on system security
-- Static site expert
-- Ubuntu advocate
+We are happy to explain as much about how your website works as you like, and will share all of its source code by default.
 
-## Our Approach
+We know many other tech-adjacent people (eg designers, copywriters, marketers) and are happy to connect you to them if you need their services.
 
-We keep things simple:
-- £100/hour standard rate
-- Free initial consultations
-- Transparent pricing
-- No hidden fees
-- Clear communication
-
-## Technology Stack
-
-We specialize in:
-- Static sites with Eleventy
-- Hosting on Neocities
-- Domain management through Web Architects Co-op
-- Ubuntu Linux conversions
-- Security audits
-- Technical consulting
-
-## Community Involvement
-
-- Free hosting for local charities
-- Regular contributions to open source
-- Knowledge sharing through our blog
-- Support for ethical tech initiatives
-- Local tech meetup participation
-
-## Our Values
-
-1. **Transparency:** Clear pricing and open source code
-2. **Sustainability:** Efficient, long-lasting solutions
-3. **Ethics:** No work with gambling or tobacco industries
-4. **Community:** Focus on local businesses and charities
-5. **Education:** Sharing knowledge and empowering clients
-
-## Get in Touch
-
-Whether you're a local charity needing a website, a business looking for technical advice, or someone interested in converting to Ubuntu, we'd love to hear from you.
-
-[Contact Us](/contact/) to discuss your project.
+If this sounds good, please [contact Us](/contact/) to discuss your project!
