@@ -16,4 +16,4 @@ Making edits to this site might be slightly more difficult than editing your dyn
 
 We can even build a [static site generator](/services/static-websites/) around your archived site, making edits easier but still allowing for very low cost hosting options.
 
-[Contact us](/contact/) if this sounds like a good fit for your website portfolio.
+[Contact us](/contact/) if this sounds like a good fit for your site.
