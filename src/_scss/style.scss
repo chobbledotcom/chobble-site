@@ -390,7 +390,6 @@ footer {
       background-color: $body-bg;
       background-image:
         url('/assets/cubes.png'), linear-gradient($body-bg, $body-bg-gradient-to);
-      background-attachment: fixed;
       transition: right 0.3s ease-in-out;
 
       li {
