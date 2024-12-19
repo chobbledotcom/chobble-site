@@ -387,6 +387,7 @@ footer {
       flex-direction: column;
       gap: 2rem;
       padding: 6rem 2rem 2rem;
+      background-color: $body-bg;
       background-image:
         url('/assets/cubes.png'), linear-gradient($body-bg, $body-bg-gradient-to);
       background-attachment: fixed;
