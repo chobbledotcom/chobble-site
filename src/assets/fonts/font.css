@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Concert One';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		/* from https://fonts.gstatic.com/s/concertone/v22/VEM1Ro9xs5PjtzCu-srDqSTijP4.woff2 */
+		url('Concert_One.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/concertone/v22/VEM1Ro9xs5PjtzCu-srDqSTijPg.woff */
+		url('Concert_One.woff') format('woff'),
