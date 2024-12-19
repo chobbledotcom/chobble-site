@@ -322,12 +322,16 @@ main {
 }
 
 .contact-form {
-  background-color: $accent-bg;
-  padding: 2rem;
   border-radius: 8px;
+  border: none;
   margin: 2rem auto;
-  width: 616px;
-  height: 570px;
+  width: 100%;
+  max-width: 616px;
+  height: 496px;
+
+  @media (min-width: 686px) {
+    height: 444px;
+  }
 }
 
 .tag {
