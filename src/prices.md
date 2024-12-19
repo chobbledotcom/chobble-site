@@ -6,7 +6,7 @@ description: "Transparent pricing for web development and tech services. £100/h
 
 # Our Prices
 
-We believe in transparent pricing. Our base rate is **£200 per hour** (charged in half-hour increments), and initial consultations are free.
+We believe in transparent pricing. Our flat rate is **£200 per hour** (charged in half-hour increments), and initial consultations are free.
 
 Our rate is **discounted 50%** at **£100 per hour** for:
 
