@@ -19,7 +19,7 @@ With over 30 years of combined experience in tech, we offer practical guidance a
 
 ## Areas We Cover
 
-- Website platforms (WordPress, Squarespace, Wix, static sites)
+- Website hosting (static sites, WordPress, Squarespace, Wix, etc)
 - Computer security and maintenance
 - DNS and domain management
 - Email and collaboration tools
@@ -40,8 +40,8 @@ With over 30 years of combined experience in tech, we offer practical guidance a
 ## Why Choose Us
 
 - Decades of real-world experience
-- No commercial affiliations or kickbacks
-- Focus on sustainable, ethical solutions
+- No agendas or kickbacks
+- Focus on sustainable, long term solutions
 - Commitment to knowledge sharing
 - Local Manchester-based support
 
