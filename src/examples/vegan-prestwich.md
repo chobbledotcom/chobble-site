@@ -8,38 +8,41 @@ order: 1
 
 # Vegan Prestwich
 
+- **Client:** Vegan Prestwich
+- **Services:** Website hosting and social media management
+- **Website:** [View live site](https://veganprestwich.co.uk)
+- **Website:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/vegan-prestwich)
+
 Vegan Prestwich is a website, Instagram page and Facebook group, running since 2018 and dedicated to sharing vegan food finds in and around Prestwich and Whitefield.
 
 <iframe src="https://veganprestwich.co.uk"></iframe>
 
-## Project Overview
-- **Client:** Vegan Prestwich
-- **Services:** Website hosting and social media management
-- **Duration:** Ongoing since 2018
-- **Monthly cost:** No - internal project
-- **Website:** [View live site](https://veganprestwich.co.uk)
-
 ## Our Solution
 
 We maintain a directory of businesses and their vegan offerings, with:
+
 - Quotes from social media
 - Photos of meals and menus
 - Links to websites and social media
 - Address and phone details
-- Opening hours
+- Opening times
 
 ## Technical Details
+
 - Static website built with Eleventy
 - Hosted on the Chobble.com server
 - Perfect Lighthouse performance scores
 - No JavaScript
 - Fully responsive design
 - Regular content updates
+- Privacy-protecting stats
 
 ## Results
+
 - Consistent high performance scores
 - High rankings on Google for related searches
 - A few hundred visitors per week ([stats](https://analytics.veganprestwich.co.uk?access-token=2g1r4x7239443z722v6f4c1y2f1o6m221wk1m2b))
 
 ## Source Code
+
 The complete source code for this project is available [on our Git forge](https://git.chobble.com/hosted-by-chobble/vegan-prestwich), so others can learn from it.

@@ -8,16 +8,16 @@ order: 2
 
 # Blue Pits Housing Action
 
-Blue Pits is a CQC-registered personal care provider and provider of social housing, based in Rochdale, Middleton and Heywood since 2011.
-
-<iframe src="https://bluepitshousingaction.co.uk"></iframe>
-
-## Project Overview
-
 - **Client:** Blue Pits Housing Action (Registered Charity)
 - **Services:** Website hosting and technical consultation
 - **Website:** [bluepitshousingaction.co.uk](https://bluepitshousingaction.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/blue-pits)
+
+Blue Pits is a CQC-registered personal care provider and provider of social housing, based in Rochdale, Middleton and Heywood since 2011.
+
+<iframe src="https://bluepitshousingaction.co.uk"></iframe>
+
+Chobble hosts their website and provides free advice.
 
 ## Our Solution
 
