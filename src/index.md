@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Website Design & Tech Consultancy in Prestwich
 heading: Chobble web & software development
 ---
 
