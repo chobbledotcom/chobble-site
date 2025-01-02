@@ -31,6 +31,7 @@ $footer-link: #ffffff;
 $border-color: #fff;
 
 $header-font: 'Bayland', display;
+$sub-header-font: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
 
 *,
 *::before,
@@ -222,7 +223,7 @@ header {
         a {
           font-size: 1.4rem;
           position: relative;
-          font-weight: bold;
+          font-family: $sub-header-font;
         }
       }
       @media (min-width: 768px) {
@@ -314,8 +315,10 @@ main {
   border: 2px solid $main-accent-border;
   color: $main-accent-link;
 
-  span {
-    font-family: $header-font;
+  span, h2 {
+    font-family: $sub-header-font;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
   &:hover {
