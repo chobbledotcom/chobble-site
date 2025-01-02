@@ -9,3 +9,13 @@
 		/* from https://fonts.gstatic.com/s/concertone/v22/VEM1Ro9xs5PjtzCu-srDqSTijPg.woff */
 		url('Concert_One.woff') format('woff')
 }
+
+@font-face {
+    font-family: 'Bayland';
+    src: url('Bayland.woff2') format('woff2'),
+        url('Bayland.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

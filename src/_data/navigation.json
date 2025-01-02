@@ -1,27 +1,27 @@
 {
   "items": [
     {
-      "text": "about",
+      "text": "About",
       "url": "/about/",
       "section": "about"
     },
     {
-      "text": "services",
+      "text": "Services",
       "url": "/services/",
       "section": "services"
     },
     {
-      "text": "examples",
+      "text": "Examples",
       "url": "/examples/",
       "section": "examples"
     },
     {
-      "text": "prices",
+      "text": "Prices",
       "url": "/prices/",
       "section": "prices"
     },
     {
-      "text": "contact",
+      "text": "Contact",
       "url": "/contact/",
       "section": "contact"
     }

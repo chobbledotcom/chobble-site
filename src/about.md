@@ -1,6 +1,6 @@
 ---
 layout: page.html
-title: about
+title: About
 ---
 
 # About Chobble

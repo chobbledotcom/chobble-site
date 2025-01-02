@@ -1,6 +1,6 @@
 ---
 layout: page.html
-title: Examples
+title: Example Websites We Host
 ---
 
 # Examples

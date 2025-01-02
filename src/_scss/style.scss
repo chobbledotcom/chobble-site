@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $text-color: #d6eadf;
 $accent-color: #b8e0d4;
 $secondary-accent: #eac4d5;
@@ -28,7 +30,7 @@ $footer-link: #ffffff;
 
 $border-color: #fff;
 
-$header-font: 'Concert One', display;
+$header-font: 'Bayland', display;
 
 *,
 *::before,
@@ -70,6 +72,7 @@ ol {
     margin-bottom: 0.5rem;
   }
 }
+
 h1,
 h2,
 h3,
@@ -80,23 +83,25 @@ h6 {
   font-family: $header-font;
   margin: 1.5rem 0 1rem;
   line-height: 1.2;
+  font-weight: normal;
+  text-shadow: 1px 1px 0 white;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 h5,
 h6 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .container {
@@ -109,7 +114,6 @@ h6 {
 
 header {
   background-color: $header-bg;
-  font-family: $header-font;
   padding: 1rem 1rem 1rem 2rem;
   border-radius: 10px;
 
@@ -126,9 +130,13 @@ header {
       text-decoration-thickness: 4px; */
       
       &.brand {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        $shadow: darken($header-bg, 50%);
+        font-size: 5rem;
+        line-height: 4rem;
         text-decoration: none;
+        font-family: $header-font;
+        text-shadow: 1px 1px 0 $shadow;
+        margin-left: 3px;
       }
       &:hover {
         color: $secondary-accent;
@@ -214,6 +222,7 @@ header {
         a {
           font-size: 1.4rem;
           position: relative;
+          font-weight: bold;
         }
       }
       @media (min-width: 768px) {
