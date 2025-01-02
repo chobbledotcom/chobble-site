@@ -44,8 +44,8 @@ We will provide estimates and charge a [flat hourly rate](/prices/). Here are so
   - Adding a CMS
   - Inviting you to the CMS
   - Auto-publishing to your static host of choice
-- **1 hours: Base template**
-  - Cloning an existing template and updating its text to fit your business
+- **1-6 hours: Base template**
+  - Cloning an existing template and updating its text to fit your business, or creating a new template from scratch
 - **1-4 hours: Images**
   - Cropping / resizing your images, sourcing designers
 - **1 hour: Domain names**
