@@ -17,6 +17,11 @@ module.exports = function (eleventyConfig) {
 
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy({
+    "src/assets/favicon.png": "/favicon.ico",
+    "src/assets/favicon.png": "/favicon.png"
+  });
+
 
   // Add date filters
   eleventyConfig.addFilter("date", function (date, format) {
