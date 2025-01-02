@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home.html
 title: Website Design & Tech Consultancy in Prestwich
 heading: Chobble web & software development
 description: Tech consultants and web developers in Prestwich, Manchester

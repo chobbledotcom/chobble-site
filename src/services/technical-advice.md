@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: service.html
 title: Technical Advice
 snippet: Expert guidance on all aspects of technology
 tags: service

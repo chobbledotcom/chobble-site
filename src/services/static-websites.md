@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: service.html
 title: Static Websites
 snippet: Fast and responsive websites to promote your business
 tags: service

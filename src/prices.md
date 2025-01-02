@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page.html
 title: Our Prices
 description: "Transparent pricing for web development and tech services. £100/hour with free initial consultations. View our recent projects and pro-bono work."
 ---

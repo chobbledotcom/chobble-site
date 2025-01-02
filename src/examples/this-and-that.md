@@ -1,5 +1,5 @@
 ---
-layout: example
+layout: example.html
 title: This & That Cafe
 snippet: A renowned Manchester institution serving authentic curry since 1984
 tags: client

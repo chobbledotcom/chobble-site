@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: service.html
 title: Website Migrations
 snippet: Mirror your website to a host you control
 tags: service

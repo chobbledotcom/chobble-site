@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: service.html
 title: De-Googling
 snippet: Take control of your data and avoid surveillance capitalism
 description: Take control of your data with a private Nextcloud installation

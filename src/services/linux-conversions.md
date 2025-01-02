@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: service.html
 title: Linux Installations
 snippet: Give your Windows laptop new life with Linux
 tags: service

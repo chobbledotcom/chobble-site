@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: services.html
 title: Services
 ---
 
