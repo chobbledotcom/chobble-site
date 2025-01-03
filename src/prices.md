@@ -49,6 +49,6 @@ You can also host the site yourself, as you will have the full source code.
 
 We will help you source the ideal provider for your needs and budget. You will register and pay them directly, unless you *really* don't want to, in which case we can sort something out.
 
-## Other Open Source software
+## Other Open Source Software
 
 If you want to host Nextcloud for shared documents for your team, or a Mastodon server for your club, or anything else - we will help. And if you want to manage the server yourself and use us as local consultants, that's totally fine.
