@@ -11,7 +11,7 @@ We believe in transparent pricing. Our flat rate is **£200 per hour** (charged 
 Our rate is **discounted 50%** at **£100 per hour** for:
 
 - Charities and co-operatives
-- Musicians and artists
+- Musicians, artists, and writers
 - Vegan businesses
 - Renewable energy businesses
 
