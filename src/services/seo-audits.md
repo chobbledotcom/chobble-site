@@ -9,7 +9,7 @@ order: 0
 
 # Search Engine Audits
 
-After 20 years' experience helping sites rank better on Google, we know what works.
+With decades of experience helping sites rank well on Google, we know what works and what is a waste of effort.
 
 We have worked for businesses of all sizes, from fresh startups with zero sales through to huge international ecommerce sites processing hundreds of millions of pounds in sales every year.
 
