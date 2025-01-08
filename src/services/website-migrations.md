@@ -3,7 +3,7 @@ layout: service.html
 title: Website Migrations
 snippet: Mirror your website to a host you control
 tags: service
-order: 0
+order: 1
 ---
 
 # Website Migrations
