@@ -3,7 +3,7 @@ layout: service.html
 title: Static Websites
 snippet: Fast and responsive websites to promote your business
 tags: service
-order: 0
+order: -1
 ---
 
 # Static Website Development
