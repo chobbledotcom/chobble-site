@@ -26,7 +26,7 @@ The services we can offer as **full site** audit could include:
 - **1 hour: Prioritising the scan output**
   - We'll formatting the raw scan output into prioritised items in easily understood, jargon-free language so you will know what needs doing most urgently.
 - **1 hour: Backlink profile analysis**
-  - We'll analyse the backlink profile of a website (maybe your competitor's?) and grade the quality of each link, to give you insight into places worth building links for your business.
+  - We'll analyse the backlink profile of a website (maybe your competitor's?) and grade the quality of their links, to give you insight into places worth building links for your business.
 
 ## Single Keyword Audits
 
