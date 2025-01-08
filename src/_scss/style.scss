@@ -114,7 +114,6 @@ h6 {
 }
 
 header {
-  background-color: $header-bg;
   padding: 1rem 1rem 1rem 2rem;
   border-radius: 10px;
 
@@ -131,12 +130,11 @@ header {
       text-decoration-thickness: 4px; */
       
       &.brand {
-        $shadow: darken($header-bg, 50%);
         font-size: 5rem;
         line-height: 4rem;
         text-decoration: none;
         font-family: $header-font;
-        text-shadow: 1px 1px 0 $shadow;
+        text-shadow: 1px 1px 0 black;
         margin-left: 3px;
       }
       &:hover {
@@ -231,7 +229,7 @@ header {
         border-radius: 5px;
         background-image: url('/assets/cubes.png');
         background-attachment: fixed;
-        background-color: #431751;
+        background-color: darken($body-bg, 10%);
         a {
           display: block;
           padding: 0.5rem 1rem;
