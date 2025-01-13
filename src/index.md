@@ -24,4 +24,4 @@ We give discounts to charities, co-operatives and sustainable businesses.
 - [Expert advice](/services/technical-advice/) and [training](/services/tech-tutoring/)
 - Technical support
 
-[Learn more about our services](/services/) or [contact us](/contact/) to start your project.
+[Learn more about our services](/services/) or [contact us](/contact/) to get started.
