@@ -19,6 +19,7 @@ We give discounts to charities, co-operatives and sustainable businesses.
 
 - [Static websites](/services/static-websites) (eg Eleventy, Jekyll)
 - [SEO Audits](/services/seo-audits/)
+- [Patreon marketing advice group](/services/patreon)
 - Dynamic websites (Ruby on Rails)
 - Hosting solutions and [migrations](/services/website-migrations/)
 - [Expert advice](/services/technical-advice/) and [training](/services/tech-tutoring/)
