@@ -368,6 +368,11 @@ footer {
     }
   }
 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
   @media (min-width: 768px) {
     .container > div {
       display: flex;
