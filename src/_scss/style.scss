@@ -32,6 +32,7 @@ $border-color: #fff;
 
 $header-font: 'Bayland', display;
 $sub-header-font: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+$system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 *,
 *::before,
@@ -44,7 +45,7 @@ $sub-header-font: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookm
 body {
   font-size: 1rem;
   color: $text-color;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $system-font;
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
@@ -266,7 +267,7 @@ main {
     font-style: italic;
   }
   p, blockquote, ul, ol {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   @media (min-width: 768px) {
@@ -327,19 +328,6 @@ main {
     a {
       color: $main-accent-fg-hover;
     }
-  }
-}
-
-.contact-form {
-  border-radius: 8px;
-  border: none;
-  margin: 2rem auto;
-  width: 100%;
-  max-width: 616px;
-  height: 496px;
-
-  @media (min-width: 686px) {
-    height: 444px;
   }
 }
 
@@ -470,5 +458,56 @@ footer {
     display: block;
     border-radius: 10px;
     border: 2px solid $main-accent-border;
+  }
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+
+  label,
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  label {
+    color: $main-heading;
+    font-family: $sub-header-font;
+  }
+
+  input,
+  textarea {
+    padding: 0.3rem 0.5rem;
+    font-family: $system-font;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    font-size: 1.2rem;
+  }
+
+  textarea {
+    height: 6rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    background: $main-heading;
+    border: 1px solid darken($main-heading, 20%);
+    font-family: $sub-header-font;
+    cursor: pointer;
+
+    &:hover {
+      background: darken($main-heading, 10%);
+    }
   }
 }
