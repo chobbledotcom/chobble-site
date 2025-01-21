@@ -359,12 +359,14 @@ footer {
   ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
   }
 
   @media (min-width: 768px) {
     .container > div {
       display: flex;
       flex-direction: row;
+      align-items: center;
       gap: 30px;
 
       > div {
@@ -421,7 +423,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
-    gap: 30px;
+    gap: 10px;
     a {
       display: flex;
       flex-direction: row;
@@ -438,6 +440,7 @@ footer {
     }
     @media (min-width: 768px) {
       flex-direction: row;
+      gap: 10px;
       a {
         width: 25%;
         flex-direction: column;
@@ -449,6 +452,9 @@ footer {
           margin: 0.5em 0 0;
         }
       }
+    }
+    @media (min-width: 900px) {
+      gap: 20px;
     }
   }
 }
@@ -470,7 +476,7 @@ footer {
   width: 100%;
   max-width: 500px;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 2rem auto 0;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #fff;
