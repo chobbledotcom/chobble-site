@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
 			layouts: "_layouts",
 			data: "_data",
 		},
-		templateFormats: ["liquid", "md"],
+		templateFormats: ["liquid", "njk", "md"],
 		htmlTemplateEngine: "liquid",
 		markdownTemplateEngine: "liquid",
 	};
