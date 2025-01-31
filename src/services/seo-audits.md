@@ -7,7 +7,7 @@ tags: service
 order: 0
 ---
 
-# Search Engine Audits
+# Search Engine Optimisation Audits
 
 With decades of experience helping sites rank well on Google, we know what works and what is a waste of effort.
 
@@ -17,7 +17,7 @@ We can do an SEO audit of your existing website and give you a list of tasks to 
 
 Like all of our services, we charge a [flat hourly rate](/prices/) and will tell you exactly what we will do for that hour. You can choose to employ as much or as little of our services as you like.
 
-## Full Site Audits
+## Full Site SEO Audits
 
 The services we can offer as **full site** audit could include:
 
@@ -28,7 +28,7 @@ The services we can offer as **full site** audit could include:
 - **1 hour: Backlink profile analysis**
   - We'll analyse the backlink profile of a website (maybe your competitor's?) and grade the quality of their links, to give you insight into places worth building links for your business.
 
-## Single Keyword Audits
+## Single Keyword SEO Audits
 
 We can also do specific **keyword audits** to help you improve your ranking for a specific term:
 
@@ -41,7 +41,7 @@ We can also do specific **keyword audits** to help you improve your ranking for 
 
 Both Google and potential customers like it when your site loads quickly, and [performant sites generate more sales](https://www.cloudflare.com/learning/performance/more/website-performance-conversion-rates/).
 
-We can evaluate your site's performance using [Google's Lighthouse tool](https://en.wikipedia.org/wiki/Lighthouse_(software)) to discover ways you (or your website provider) can make your site faster and improve its conversion rate:
+We can evaluate your site's performance using [Google's Lighthouse tool](<https://en.wikipedia.org/wiki/Lighthouse_(software)>) to discover ways you (or your website provider) can make your site faster and improve its conversion rate:
 
 - **2 hours: Lighthouse evaluation**
   - We will scan your site with Lighthouse and explain the results in jargon-free language, for you or your provider to fix.
