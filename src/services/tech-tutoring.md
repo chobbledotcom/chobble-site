@@ -9,15 +9,14 @@ order: 4
 
 # Tech Tutoring
 
-## Personal Technology Training At Your Pace
+After 25+ years of a being full-time nerd I have tonnes of knowledge to share. Whether you're looking to level up your skills or starting from scratch, we offer personalised, one-on-one tutoring sessions tailored to your specific needs.
 
-After 25+ years of being full-time nerds we have tonnes of knowledge to share. Whether you're looking to level up your skills or starting from scratch, we offer personalised, one-on-one tutoring sessions tailored to your specific needs.
-
-## What We Can Teach
+## What I Can Teach
 
 ### Web Development & Design
+
 - Building websites using platforms like Squarespace, WordPress, or Wix
-- Or using static site generators like Eleventy (that powers this site!)
+- Or using static site generators like Eleventy (which powers this site!)
 - Basic HTML, CSS, and JavaScript skills
 - Understanding web hosting and domain names
 - Content management and website updates
@@ -52,9 +51,9 @@ After 25+ years of being full-time nerds we have tonnes of knowledge to share. W
 - Email management and aliases
 - Digital document handling
 
-## Our Approach
+## My Approach
 
-During our sessions, you'll:
+During my sessions, you'll:
 
 - Work on real projects that matter to you
 - Learn at your own pace
@@ -68,4 +67,4 @@ Sessions are charged at £50 per hour with a minimum booking of two hours.
 
 ## Get Started
 
-[Contact us](/contact/) to schedule a free consultation. Let us know what you'd like to learn, and we'll help you get there!
+[Contact me](/contact/) to schedule a free consultation. Let me know what you'd like to learn, and I'll help you get there!

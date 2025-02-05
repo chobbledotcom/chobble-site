@@ -17,11 +17,11 @@ This & That is a Manchester institution, famous for its "rice and three" curry d
 
 <iframe src="https://thisandthatcafe.co.uk"></iframe>
 
-Chobble has helped T&T out with their web presence since 2016 - maintaining their website, posting to social media, and keeping business listings accurate.
+I have helped T&T out with their web presence since 2016 - maintaining their website, posting to social media, and keeping business listings accurate.
 
-## Our Solution
+## My Solution
 
-We maintain a simple, fast-loading static website that focuses on what visitors need most:
+I maintain a simple, fast-loading static website that focuses on what visitors need most:
 
 - Current menu and prices
 - Opening times
@@ -53,4 +53,4 @@ We maintain a simple, fast-loading static website that focuses on what visitors 
 
 ## Source Code
 
-The complete source code for this project is available [on our Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that), demonstrating our commitment to open source and helping others learn from our work.
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that), demonstrating my commitment to open source and helping others learn from my work.

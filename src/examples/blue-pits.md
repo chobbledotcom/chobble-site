@@ -17,9 +17,9 @@ Blue Pits is a CQC-registered personal care provider and provider of social hous
 
 <iframe src="https://bluepitshousingaction.co.uk"></iframe>
 
-Chobble hosts their website and provides free advice.
+I host their website and provides free advice.
 
-## Our Solution
+## My Solution
 
 - Website hosting
 - Technical consultation
@@ -42,4 +42,4 @@ Chobble hosts their website and provides free advice.
 
 ## Open Source
 
-As with all our projects, the complete source code [is available](https://git.chobble.com/hosted-by-chobble/blue-pits) under the AGPL license, helping other charities and developers learn from our work.
+As with all my projects, the complete source code [is available](https://git.chobble.com/hosted-by-chobble/blue-pits) under the AGPL license, helping other charities and developers learn from my work.

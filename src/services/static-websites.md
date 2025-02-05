@@ -8,7 +8,7 @@ order: -1
 
 # Static Website Development
 
-Chobble builds fast, stable, and mobile-friendly websites using the 'Eleventy' or 'Jekyll' static site generators.
+I build fast, stable, and mobile-friendly websites using the 'Eleventy' or 'Jekyll' static site generators.
 
 **Some examples: [This & That Cafe](/examples/this-and-that), [Blue Pits](/examples/blue-pits) and [Vegan Prestwich](/examples/vegan-prestwich).**
 
@@ -28,15 +28,15 @@ This makes them a great option for most business websites where the content chan
 ## How It Works
 
 1. You choose a template or employ a designer
-2. We build your website using Eleventy or Jekyll
+2. I build your website using Eleventy or Jekyll
 3. Its content is stored in simple text files
-4. You can edit the content yourself or send us changes
+4. You can edit the content yourself or send me changes
 5. Backups are handled automatically
 6. You get the full source code
 
 ## Prices
 
-We will provide estimates and charge a [flat hourly rate](/prices/). Here are some rough estimates for the stages of the process of building a static website:
+I will provide estimates and charge a [flat hourly rate](/prices/). Here are some rough estimates for the stages of the process of building a static website:
 
 - **2 hours: Base setup**
   - Creating an empty site
@@ -55,4 +55,4 @@ We will provide estimates and charge a [flat hourly rate](/prices/). Here are so
 - **1-6 hours: Content**
   - Populating your site content, sourcing copywriters
 
-Not all of these stages will be necessary for every site, and you might be able to do some yourself - and we'll be there to guide you if you do.
+Not all of these stages will be necessary for every site, and you might be able to do some yourself - and I'll be there to guide you if you do.

@@ -13,13 +13,13 @@ order: 1
 - **Website:** [View live site](https://veganprestwich.co.uk)
 - **Website:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/vegan-prestwich)
 
-Vegan Prestwich is a website, Instagram page and Facebook group, running since 2018 and dedicated to sharing vegan food finds in and around Prestwich and Whitefield.
+Vegan Prestwich is a website, Instagram page and Facebook group, which I have been running with my wife since 2018, dedicated to sharing vegan food finds in and around Prestwich and Whitefield.
 
 <iframe src="https://veganprestwich.co.uk"></iframe>
 
-## Our Solution
+## My Solution
 
-We maintain a directory of businesses and their vegan offerings, with:
+I maintain a directory of businesses and their vegan offerings, with:
 
 - Quotes from social media
 - Photos of meals and menus
@@ -45,4 +45,4 @@ We maintain a directory of businesses and their vegan offerings, with:
 
 ## Source Code
 
-The complete source code for this project is available [on our Git forge](https://git.chobble.com/hosted-by-chobble/vegan-prestwich), so others can learn from it.
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/vegan-prestwich), so others can learn from it.

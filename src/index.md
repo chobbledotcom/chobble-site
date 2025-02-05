@@ -1,21 +1,23 @@
 ---
 layout: home.html
 title: Website Design & Tech Consultancy in Prestwich
-heading: Web & Software Development
+heading: Web & Software Design in Prestwich
 description: Tech consultants and web developers in Prestwich, Manchester
 ---
 
-We can help you succeed online by demystifying websites, hosting, and tech in general.
+**I'm Stef, a web and software developer for over 20 years, based in Prestwich, Manchester.**
 
-Everything we do is released as [open source](https://git.chobble.com) with no contract or obligations. You don't have to pay any monthly fees and can host wherever you like - although you might choose to pay to host with us.
+I can help you succeed online by demystifying websites, hosting, and tech in general.
 
-We have [very transparent and honest pricing](/prices/). We charge a flat hourly rate.
+Everything I do is released as [open source](https://git.chobble.com) with no contract or obligations. You don't have to pay any monthly fees and can host wherever you like - although you might choose to pay to host with me.
 
-We are flexible and up for discussing anything.
+I have [very transparent and honest pricing](/prices/). I charge a flat hourly rate.
 
-We give discounts to charities, co-operatives and sustainable businesses.
+I am flexible and up for discussing anything.
 
-## Services We Offer
+I give discounts to charities, co-operatives and sustainable businesses.
+
+## Services On Offer
 
 - [Static websites](/services/static-websites/) (eg Eleventy, Jekyll)
 - [SEO Audits](/services/seo-audits/)
@@ -25,4 +27,4 @@ We give discounts to charities, co-operatives and sustainable businesses.
 - [Expert advice](/services/technical-advice/) and [training](/services/tech-tutoring/)
 - Technical support
 
-[Learn more about our services](/services/) or [contact us](/contact/) to get started.
+[Learn more about my services](/services/) or [contact me](/contact/) to get started.

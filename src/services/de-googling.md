@@ -9,7 +9,7 @@ tags: service
 
 # De-Googling with Nextcloud
 
-Break free from Google's ecosystem and take full control of your data with your own private Nextcloud installation. We'll set you up with a professional, secure, and fully-backed-up cloud storage solution.
+Break free from Google's ecosystem and take full control of your data with your own private Nextcloud installation. I'll set you up with a professional, secure, and fully-backed-up cloud storage solution.
 
 ## What's Included
 
@@ -32,7 +32,7 @@ Break free from Google's ecosystem and take full control of your data with your 
 
 ## Why Choose This?
 
-With over 10 years of Nextcloud experience, we've found Hetzner's StorageShare to be the most reliable and cost-effective hosting solution. You'll get enterprise-grade features at a fraction of what you're paying for Google Workspace or similar services.
+With almost 15 years of Nextcloud / Owncloud experience, I've found Hetzner's StorageShare to be the most reliable and cost-effective hosting solution. You'll get enterprise-grade features at a fraction of what you're paying for Google Workspace or similar services.
 
 ## Pricing
 
@@ -41,11 +41,11 @@ With over 10 years of Nextcloud experience, we've found Hetzner's StorageShare t
 
 ## What Happens Next?
 
-1. We'll have an initial consultation to understand your needs
+1. We'll have an initial conversation to understand your needs
 2. Set up your Nextcloud instance on Hetzner
 3. Configure your storage and security settings
 4. Train you on using the system
 5. Hand over full admin access
 6. Provide ongoing support as needed
 
-Ready to take control of your data? [Contact us](/contact/) to get started.
+Ready to take control of your data? [Contact me](/contact/) to get started.

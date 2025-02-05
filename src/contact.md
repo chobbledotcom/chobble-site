@@ -12,4 +12,4 @@ It's easy to get in touch:
 - [**Facebook** message](https://www.facebook.com/profile.php?id=61571286130366)
 - [**Signal** message](https://signal.me/#eu/V-Vqw0HT-W4afWSe7-eHk5tQPsfHmdyH27f1dxptIIb21UtA18xGeYah4BC0g3tO)
 
-Or drop a message through the form below and we'll reply within 48 hours:
+Or drop a message through the form below and I'll reply within 48 hours:

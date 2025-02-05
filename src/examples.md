@@ -1,11 +1,11 @@
 ---
 layout: page.html
-title: Example Websites We Host
+title: Example Websites I Host
 ---
 
 # Examples
 
-This page links through to some examples of our clients. You can also check out [our Git repository](https://git.chobble.com/hosted-by-chobble/) to browse the other projects we're currently hosting.
+This page links through to some examples of my clients. You can also check out [my Git repository](https://git.chobble.com/hosted-by-chobble/) to browse the other projects I'm currently hosting.
 
 <div class="clients-grid">
 {%- assign sorted_clients = collections.client | sort: 'data.order' -%}
@@ -16,4 +16,3 @@ This page links through to some examples of our clients. You can also check out 
     </div>
 {%- endfor -%}
 </div>
-

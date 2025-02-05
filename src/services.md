@@ -3,17 +3,15 @@ layout: services.html
 title: Services
 ---
 
-# Our Services
+# My Services
 
-Chobble creates sustainable, efficient, and honest web solutions. With decades of experience working with businesses of all sizes we're sure we can build something to suit your needs.
+Chobble creates sustainable, efficient, and honest web solutions. With decades of experience working with businesses of all sizes I'm sure I can build something to suit your needs.
 
-## Our Principles
+## My Principles
 
 - Transparent prices
 - No smoke and mirrors
 - Open source tech
-- Accessible sites
-- Responsive sites
+- Accessible and responsive sites
 - High performance
 - No walled gardens
-- Portable code

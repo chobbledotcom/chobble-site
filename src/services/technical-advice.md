@@ -8,18 +8,18 @@ order: 2
 
 # Technical Advice
 
-With over 30 years of combined experience in tech, we offer practical guidance and support across a wide range of technical challenges. Whether you're a charity needing help with your website, a small business trying to secure your systems, or an individual looking to learn new skills, we're here to help.
+With over 20 years of experience in tech, I offer practical guidance and support across a wide range of technical challenges. Whether you're a charity needing help with your website, a small business trying to secure your systems, or an individual looking to learn new skills, I'm here to help.
 
-## Our Approach
+## My Approach
 
-- **No Agenda:** We won't push you towards particular solutions or technologies
+- **No Agenda:** I won't push you towards particular solutions or technologies
 - **Plain English:** Clear, jargon-free explanations
 - **Practical Solutions:** Focus on what actually works for your situation
-- **Knowledge Transfer:** We teach as well as advise
+- **Knowledge Transfer:** I teach as well as advise
 
-## Areas We Cover
+## Areas I Cover
 
-- Website hosting (static sites, WordPress, Squarespace, Wix, etc)
+- Website hosting ([static sites](/services/static-websites/), WordPress, Squarespace, Wix, etc)
 - Computer security and maintenance
 - DNS and domain management
 - Email and collaboration tools
@@ -34,7 +34,7 @@ With over 30 years of combined experience in tech, we offer practical guidance a
 
 1. **Initial Chat:** Free 30-minute consultation to understand your needs
 2. **Clear Plan:** We'll outline how we can help and what it will cost
-3. **Flexible Support:** We can work in-person or remotely
+3. **Flexible Support:** I can work in-person or remotely
 4. **Monitoring:** Regular check-ins and write-ups on what we've done
 
 ## Why Choose Us
@@ -45,4 +45,4 @@ With over 30 years of combined experience in tech, we offer practical guidance a
 - Commitment to knowledge sharing
 - Local Manchester-based support
 
-[Contact us](/contact/) to discuss how we can help you.
+[Contact me](/contact/) to discuss how we can help you.

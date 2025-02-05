@@ -17,11 +17,11 @@ Renegade Solar install solar panels and batteries for businesses and homes acros
 
 <iframe src="https://renegade-solar.co.uk"></iframe>
 
-Chobble built a performant, accessible, and easily-expanded site for Renegade Solar in 2025, and we provide ongoing marketing and SEO advice too.
+I built a performant, accessible, and easily-expanded site for Renegade Solar in 2025, and provide ongoing marketing and SEO advice too.
 
-## Our Solution
+## My Solution
 
-We took the elements the client liked about their Wix site, and built a new site around them featuring:
+I took the elements the client liked about their Wix site, and built a new site around them featuring:
 
 - Easily updated content via straightforward text files
 - Lists of accreditations and services
@@ -49,4 +49,4 @@ As a website customer Renegade get access to Chobble's marketing guidance docume
 
 ## Source Code
 
-The complete source code for this project is available [on our Git forge](https://git.chobble.com/hosted-by-chobble/renegade-solar), ensuring that Renegade Solar are able to host wherever they like, and that others can learn from our code.
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/renegade-solar), ensuring that Renegade Solar are able to host wherever they like, and that others can learn from my code.

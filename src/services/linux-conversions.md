@@ -8,11 +8,12 @@ order: 2
 
 # Linux / Ubuntu Laptop Conversion
 
-Transform your Windows laptop into a fast, secure Linux machine. We'll preserve all your important files and set you up with a modern, user-friendly system that will serve you for years to come.
+Transform your Windows laptop into a fast, secure Linux machine. I'll preserve all your important files and set you up with a modern, user-friendly system that will serve you for years to come.
 
 ## What's Included
 
 ### Basic Service ([2 hours](/prices/))
+
 - Full Windows system wipe
 - Latest Ubuntu LTS installation (or your distro of choice)
 - Document/picture/download preservation (up to 10GB)
@@ -60,4 +61,4 @@ Everything in Basic, plus:
 6. Testing and quality assurance
 7. Handover and training (Premium service)
 
-Contact us to discuss breathing new life into your laptop with Linux.
+[Contact me](/contact/) to discuss breathing new life into your laptop with Linux.
