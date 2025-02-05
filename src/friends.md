@@ -30,7 +30,7 @@ I have worked with my brother Kevin for many years across different businesses. 
 
 [renegade-solar.co.uk](https://renegade-solar.co.uk/)
 
-I first met Ashley at Renegade when I bought my house and needed an honest opinion about the state of its electrics. I struck up a friendship and since then he has been my go-to person for my questions about electrics, as well as installing a ventilation system, solar panels, a battery, and much more in my house to help improve its energy efficiency. And on the other side, I have become his go-to person for questions about improving his web presence!
+I first met Ashley at Renegade when I bought my house and needed an honest opinion about the state of its electrics. We struck up a friendship and since then he has been my go-to person for my questions about electrics, as well as installing a ventilation system, solar panels, a battery, and much more in my house to help improve its energy efficiency. And on the other side, I have become his go-to person for questions about improving his web presence!
 
 ## Urban Hippo
 
