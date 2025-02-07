@@ -5,7 +5,7 @@ title: About
 
 # About Chobble
 
-Chobble is Stef and Alex from Prestwich, Manchester - web developers with over 30 years combined experience working on websites of all sizes - from small local charities and social groups to massive international storefronts.
+Chobble is me, Stef, from Prestwich, Manchester - a web and software developer with over 20 years of experience working on websites of all sizes - from small local charities and social groups to massive international storefronts.
 
 I started Chobble to:
 
