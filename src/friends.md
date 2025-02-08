@@ -1,10 +1,10 @@
 ---
 layout: page.html
-title: My Friends
+title: Recommended Suppliers for Online Services
 description: "Chobble's recommendations for other honest, skilled businesses"
 ---
 
-# Trusted Friends and Recommended Suppliers
+# Friends and Recommended Suppliers
 
 I have worked with some very talented people over my decades in the web industry so can confidently vouch for the following businesses for services outside of my forte. In alphabetical order:
 

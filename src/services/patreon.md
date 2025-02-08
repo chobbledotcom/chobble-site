@@ -1,8 +1,7 @@
 ---
-layout: service.html
 title: Online Marketing Advice Club
+description: £20 a month for online marketing advice and guides specific to running an online business in the UK.
 snippet: Weekly online marketing tips and more
-tags: service
 order: 3
 ---
 

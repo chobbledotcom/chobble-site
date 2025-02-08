@@ -1,12 +1,11 @@
 ---
-layout: service.html
-title: Technical Advice
+title: Technical Consultancy
+description:
 snippet: Expert guidance on all aspects of technology
-tags: service
 order: 2
 ---
 
-# Technical Advice
+# Technical Consultancy in Prestwich
 
 With over 20 years of experience in tech, I offer practical guidance and support across a wide range of technical challenges. Whether you're a charity needing help with your website, a small business trying to secure your systems, or an individual looking to learn new skills, I'm here to help.
 
@@ -19,7 +18,7 @@ With over 20 years of experience in tech, I offer practical guidance and support
 
 ## Areas I Cover
 
-- Website hosting ([static sites](/services/static-websites/), WordPress, Squarespace, Wix, etc)
+- Website hosting ([static sites](/services/static-websites/), WordPress, Squarespace, [Wix](/services/wix-site-edits/), etc)
 - Computer security and maintenance
 - DNS and domain management
 - Email and collaboration tools

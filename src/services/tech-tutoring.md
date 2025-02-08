@@ -1,15 +1,13 @@
 ---
-layout: service.html
 title: Tech Tutoring
 snippet: Honest, transparent, friendly tech educators
 description: "Personalised tech tutoring covering web development, hardware, programming, and digital skills. Learn at your own pace with experienced educators."
-tags: service
 order: 4
 ---
 
-# Tech Tutoring
+# Tech Tutoring in Prestwich
 
-After 25+ years of a being full-time nerd I have tonnes of knowledge to share. Whether you're looking to level up your skills or starting from scratch, we offer personalised, one-on-one tutoring sessions tailored to your specific needs.
+After 20+ years of a being full-time nerd I have tonnes of knowledge to share. Whether you're looking to level up your skills or starting from scratch, we offer personalised, one-on-one tutoring sessions tailored to your specific needs.
 
 ## What I Can Teach
 

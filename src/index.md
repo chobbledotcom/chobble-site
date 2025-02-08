@@ -13,9 +13,9 @@ Everything I do is released as [open source](https://git.chobble.com) with no co
 
 I have [very transparent and honest pricing](/prices/). I charge a flat hourly rate.
 
-I am flexible and up for discussing anything.
+My rate is **discounted 50% for charities, co-operatives and sustainable businesses.**
 
-I give discounts to charities, co-operatives and sustainable businesses.
+I am flexible and up for discussing anything.
 
 ## Services On Offer
 

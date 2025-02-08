@@ -1,8 +1,7 @@
 ---
-layout: service.html
-title: Wix Site Edits
+title: Wix Website Edits
+description: I can help you make the most out of your existing Wix website.
 snippet: Use the full range of tools on the Wix editor
-tags: service
 order: 3
 ---
 

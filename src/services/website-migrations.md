@@ -1,12 +1,11 @@
 ---
-layout: service.html
 title: Website Migrations
+description: Move your website to an low-cost host and take control of its source code
 snippet: Mirror your website to a host you control
-tags: service
 order: 1
 ---
 
-# Website Migrations
+# Website Migration Service
 
 If you're happy with the look and contents of your existing website but you update it very infrequently, you might be paying for expensive dynamic hosting you don't need.
 

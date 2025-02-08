@@ -1,6 +1,7 @@
 ---
 layout: page.html
-title: About
+title: About Stefan from Chobble - a web developer in Prestwich
+description: I've been building websites and software for decades, for companies of all sizes.
 ---
 
 # About Chobble
@@ -19,7 +20,7 @@ I prefer solutions which empower their users and so prioritise open source and f
 
 I do not force you to host with me and provide instructions for hosting elsewhere or moving away - although you might like to host with me anyway.
 
-I are happy to explain as much about how your website works as you like, and will share all of its source code by default.
+I am happy to explain as much about how your website works as you like, and will share all of its source code by default.
 
 I know many other tech-adjacent people (eg designers, copywriters, marketers) and are happy to connect you to them if you need their services.
 

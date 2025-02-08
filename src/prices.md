@@ -1,6 +1,6 @@
 ---
 layout: page.html
-title: My Prices
+title: Prices for Web and Software Developent
 description: "Transparent pricing for web development and tech services. £100/hour with free initial consultations. View my recent projects and pro-bono work."
 ---
 
@@ -51,4 +51,4 @@ I will help you source the ideal provider for your needs and budget. You will re
 
 ## Other Open Source Software
 
-If you want to host Nextcloud for shared documents for your team, or a Mastodon server for your club, or anything else - we will help. And if you want to manage the server yourself and use me as a local consultant, that's totally fine.
+If you want to host [Nextcloud](/services/de-googling/) for shared documents for your team, or a Mastodon server for your club, or you ned advice about any other software - we will help. And if you want to manage the server yourself and use me as a local consultant, that's totally fine.

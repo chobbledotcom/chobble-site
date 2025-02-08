@@ -1,8 +1,7 @@
 ---
-layout: service.html
 title: Linux Installations
+description: Escape the Microsoft bubble with free and easy to use Linux installations on your laptop
 snippet: Give your Windows laptop new life with Linux
-tags: service
 order: 2
 ---
 

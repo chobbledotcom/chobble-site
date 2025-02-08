@@ -1,9 +1,10 @@
 ---
 layout: services.html
-title: Services
+title: Web Development Services from Chobble
+description: I have decades of experience and can help you with any technical challenge.
 ---
 
-# My Services
+# Web Development Services for Prestwichians & Mancunians
 
 Chobble creates sustainable, efficient, and honest web solutions. With decades of experience working with businesses of all sizes I'm sure I can build something to suit your needs.
 

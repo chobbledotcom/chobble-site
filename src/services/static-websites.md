@@ -1,8 +1,7 @@
 ---
-layout: service.html
-title: Static Websites
+title: Static Website Development
+description: Static websites are flexible, affordable, and easy to edit.
 snippet: Fast and responsive websites to promote your business
-tags: service
 order: -1
 ---
 
