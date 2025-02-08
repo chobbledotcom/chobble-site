@@ -245,6 +245,11 @@ header {
           padding-right: 1.5rem;
         }
       }
+      @media (min-width: 1200px) {
+        a {
+          padding: 1rem 2rem;
+        }
+      }
     }
   }
 }
@@ -257,6 +262,40 @@ main {
   border-top: 2px solid $border-color;
   border-left: 2px solid $border-color;
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+
+  @media (min-width: 1200px) {
+    &::before,
+    &::after {
+      display: block;
+      content: "";
+      background: url("/assets/carpet.jpg");
+      position: absolute;
+      top: -10px;
+      width: calc((100% - 1040px) / 2);
+      max-width: 120px;
+      height: calc(200% + 20px);
+      background-size: 100% auto;
+      opacity: 0.4;
+    }
+    &::before {
+      left: -10px;
+      mask-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 1)
+      );
+    }
+    &::after {
+      right: -10px;
+      mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 1)
+      );
+    }
+  }
 
   a {
     color: $main-link;
