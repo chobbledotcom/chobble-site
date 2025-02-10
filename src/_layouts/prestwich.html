@@ -1,0 +1,17 @@
+---
+layout: base.html
+---
+
+{{ content }}
+
+<div class="services-grid">
+  {% assign sorted_services = collections.prestwich | sort: 'data.order' %} {%
+  for service in sorted_services %}
+  <div class="service-card">
+    <h2>
+      <a href="{{ service.url }}"> {{ service.data.link_text }} </a>
+    </h2>
+    <p>{{ service.data.snippet }}</p>
+  </div>
+  {%- endfor -%}
+</div>
