@@ -9,7 +9,7 @@ description: Tech consultants and web developers in Prestwich, Manchester
 
 I can help you succeed online by demystifying websites, hosting, and tech in general.
 
-Everything I do is released as [open source](https://git.chobble.com) with no contract or obligations. You don't have to pay any monthly fees and can host wherever you like - although you might choose to pay to host with me.
+Everything I do is released as "open source" ([here's my source code](https://git.chobble.com)) with no contract or obligations. You don't have to pay any monthly fees and can host wherever you like - although you might choose to pay to host with me.
 
 I have [very transparent and honest pricing](/prices/). I charge a flat hourly rate.
 

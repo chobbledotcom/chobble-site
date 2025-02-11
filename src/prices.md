@@ -45,10 +45,18 @@ I will charge **£60** per month (or **£30 if discounted**) on top of whatever 
 
 You can also host the site yourself, as you will have the full source code.
 
-## Emails and Domain Renewals
+## Emails & domain renewals
 
 I will help you source the ideal provider for your needs and budget. You will register and pay them directly, unless you _really_ don't want to, in which case we can sort something out.
 
-## Other Open Source Software
+I use [Purelymail](https://purelymail.com) for my own email hosting - they're very affordable and flexible. I can help you connect any email provider to your domain, and I'll run deliverability tests to make sure your emails get through.
 
-If you want to host [Nextcloud](/services/de-googling/) for shared documents for your team, or a Mastodon server for your club, or you ned advice about any other software - we will help. And if you want to manage the server yourself and use me as a local consultant, that's totally fine.
+## Other open source software
+
+If you want to host [Nextcloud](/services/de-googling/) for shared documents for your team, or a Mastodon server for your club, or you need advice about any other "Free and Open Source" software - I can help. And if you want to manage the server yourself and use me as a local consultant, that's totally fine.
+
+## Take my money!
+
+I take 50% of the total fee before starting working, with the other 50% due on completion. I'll send you a link to pay by card - I don't take cheques or cash.
+
+**If this all sounds fair, [contact me](/contact/) and we'll get things moving!**

@@ -298,8 +298,14 @@ main {
 
   a {
     color: $main-link;
-    &:hover {
+    transition: color 0.4s ease-in;
+    text-decoration-style: dashed;
+    &:hover,
+    &:active,
+    &:focus {
       color: $main-fg;
+      text-decoration-color: $main-link;
+      text-decoration-style: dashed;
     }
   }
   blockquote {
@@ -576,5 +582,20 @@ footer {
     max-width: 60%;
     margin-right: -10%;
     margin-top: -3rem;
+  }
+}
+
+.back-link {
+  background: white;
+  padding: 5px 10px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  @media (min-width: 768px) {
+    padding-top: 0;
+    border-radius: 0 0 11px 0;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
