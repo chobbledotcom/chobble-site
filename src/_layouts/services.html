@@ -2,18 +2,16 @@
 layout: base.html
 ---
 
-{{ content }}
+<article>{{ content }}</article>
 
 <div class="services-grid">
-  {% assign sorted_services = collections.service | sort: 'data.order' %}
-  {% for service in sorted_services %}
-    <div class="service-card">
-      <h2>
-        <a href="{{ service.url }}">
-          {{ service.data.title }}
-        </a>
-      </h2>
-      <p>{{ service.data.snippet }}</p>
-    </div>
+  {% assign sorted_services = collections.service | sort: 'data.order' %} {% for
+  service in sorted_services %}
+  <div class="service-card">
+    <h2>
+      <a href="{{ service.url }}"> {{ service.data.title }} </a>
+    </h2>
+    <p>{{ service.data.snippet }}</p>
+  </div>
   {%- endfor -%}
 </div>

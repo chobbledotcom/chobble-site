@@ -1,5 +1,5 @@
 ---
-layout: page.html
+layout: about.html
 title: About Stefan from Chobble - a web developer in Prestwich
 description: I've been building websites and software for decades, for companies of all sizes.
 ---
