@@ -6,7 +6,7 @@ description: I have decades of experience and can help you with any technical ch
 
 # Web Design & Technology Services
 
-You can hire me to make an entirely new website for you, improve an existing one, help you set up a server, advise you about search engine optimisation and online marketing, get my input on a techy decision at your job, or maybe write totally bespoke web software for you.
+You can hire me to make an entirely new website, improve an existing one, help you set up a server, advise you about search engine optimisation and online marketing, get my input on a techy decision at your job, or maybe write totally bespoke web software for you.
 
 In any case you'll get the benefit of my decades of experience building and maintaining web software for businesses of all sizes.
 
