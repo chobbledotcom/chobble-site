@@ -8,7 +8,7 @@ description: I've been building websites and software for decades, for companies
 
 Chobble is me, Stef, from Prestwich, Manchester ([here's my CV](https://stefn.co.uk/cv)) - a web and software developer with over 20 years of experience working on websites of all sizes - from local charities like [Blue Pits](https://bluepitshousingaction.co.uk) and social groups like [Vegan Prestwich](https://veganprestwich.co.uk) to busy web applications like [Bouncy Castle Network](https://www.bouncycastlenetwork.com) and huge international storefronts like [Bandcamp.com](https://bandcamp.com).
 
-After years of working for other companies I decided to go freelance, and started Chobble to:
+After years of working in other companies I decided to fully commit to freelancing, and started Chobble to:
 
 - Build websites and tools for local organisations and individuals
 - Provide honest advice and guidance
