@@ -21,6 +21,7 @@
 
         # Common build inputs
         commonBuildInputs = with pkgs; [
+          html-tidy
           sass
           yarn
           yarn2nix
@@ -48,6 +49,7 @@
           "build"
           "serve"
           "push"
+          "tidy_html"
         ];
 
         # Generate all packages
@@ -76,6 +78,7 @@
               echo "Run 'serve' to start development server"
               echo "Run 'build' to build the site in the _site directory"
               echo "Run 'push' to push this site to surge.sh"
+              echo "Run 'tidy_html' to run html-tidy over each file in _site"
             '';
           };
         };
