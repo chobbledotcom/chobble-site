@@ -4,7 +4,7 @@ title: Prices for Web and Software Development
 description: "Transparent pricing for web development and tech services in Prestwich. I charge a flat hourly rate with 50% discounts for charities, artists and more."
 ---
 
-# Web development prices
+# Web Development Prices
 
 I believe in transparent pricing for all jobs - my flat rate is **£200 per hour** (charged in half-hour increments), and initial consultations are free. I will tell you exactly what you'll get for each hour worked.
 

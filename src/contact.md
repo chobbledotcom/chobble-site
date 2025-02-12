@@ -3,7 +3,7 @@ layout: contact.html
 title: Contact Chobble - A Web Designer / Developer in Prestwich
 ---
 
-# Get in touch
+# Get in Touch
 
 It's easy to get in touch with me:
 
