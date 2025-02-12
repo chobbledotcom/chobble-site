@@ -582,6 +582,13 @@ footer {
   }
 }
 
+.emoji-list {
+  ul {
+    list-style-type: none;
+    text-indent: -1.3rem;
+  }
+}
+
 .back-link {
   background: white;
   padding: 5px 20px 5px 10px;
