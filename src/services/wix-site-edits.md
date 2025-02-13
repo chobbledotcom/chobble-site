@@ -5,27 +5,31 @@ snippet: Use the full range of tools on the Wix editor
 order: 3
 ---
 
-# Wix Site Edits
+# I Can Edit Your Wix Site
 
-If you've already got a [Wix](https://www.wix.com) website and are mostly happy with it, I can help you improve it further.
+While I prefer to create [websites from scratch](/services/static-websites), if you've got a **Wix website** and are generally happy with it but want to tweak it, I'm happy to help.
 
-Wix's editor has a tonne of advanced technical functionality but using it can be overwhelming to non-technical users.
+Wix's editor has a _tonne_ of advanced technical functionality but making the most of these can be overwhelming to non-technical users, and it's easy to get lost in the interface.
 
-My decades of experience working with similarly complex systems means I can help you use the advanced features to provide a richer experience to site visitors. I'll read Wix's technical documentation and work with you to develop a site improvement plan.
-
-You'll still be tied into the Wix ecosystem and prices, and you might prefer to have a fresh and fast [static website](/services/static-websites/) built instead (perhaps via a [website migration](/services/website-migrations/)) with code which you fully control and can host anywhere, but we won't pressure you to change.
+My decades of experience working with similarly complex systems means I can help you use Wix's trickier features to help make your site more engaging for visitors. I'll read Wix's technical documentation and quote once I've fully understood the job. And like all other work, I'll explain exactly what I did.
 
 I can use Wix's editor to:
 
-- Set up an online store
-- Take online bookings
-- Create a members-only area
+- Set up an **online store** using Wix eCommerce
+- Take online bookings with Wix Scheduling
+- Create a members-only area using Permissions
 - Populate a site from a product database
 - Create video, photo, or music galleries
 - Add animations
 
 And loads more! [Check out the Wix documentation](https://dev.wix.com/) for an idea of its functionality.
 
-I'll fully explain the changes we've made to give you an insight into how the new functionality works.
+## For Prestwichians
 
-So, if you've got a Wix website and need a bit of help making the most of it, please [contact me](/contact)!
+If you're local to Prestwich and want to sit together with me to pick my brains about Wix, I'm happy to meet up at a place that suits you.
+
+## Prices for Wix Edits
+
+I aim to be transparent with my [pricing](/prices/) and will only quote once I have understood the scope of the project and the tools we will use. Straightforward text or CSS edits will probably take an hour max, while bigger projects like booking systems, videos, or databases will be longer.
+
+**So, if you've got a Wix website and need a bit of help making the most of it, please [contact me](/contact/)!**

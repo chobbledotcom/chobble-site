@@ -1,45 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
-  {% if description -%}
-  <meta name="description" content="{{ description | escape }}">
-  {% endif -%}
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-  <link
-    rel="preload"
-    href="/assets/fonts/Bayland.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin="anonymous"
-  >
-  <link href="/assets/fonts/font.css" rel="stylesheet">
-  <link rel="icon" href="/favicon.png">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  {% if contact -%}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    {% if description -%}
+    <meta name="description" content="{{ description | escape }}" />
+    {% endif -%}
+    <link rel="stylesheet" href="/css/style.css?v=3" />
+    <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" />
+    <link
+      rel="preload"
+      href="/assets/fonts/Bayland.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link href="/assets/fonts/font.css" rel="stylesheet" />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    {% if contact -%}
     <script src="https://unpkg.com/@botpoison/browser" async></script>
-  {% endif -%}
-</head>
-<body>
-  <header>
-    <div class="container">
-      {% include "navbar.html" %}
-    </div>
-  </header>
+    {% endif -%}
+  </head>
+  <body>
+    <header>
+      <div class="container">{% include "navbar.html" %}</div>
+    </header>
 
-  <main>
-    <div class="container">
-    {{ content }}
-    </div>
-  </main>
+    <main>
+      <div class="container">{{ content }}</div>
+    </main>
 
-  <footer>
-    <div class="container">
-      {% include "footer.html" %}
-    </div>
-  </footer>
-</body>
+    <footer>
+      <div class="container">{% include "footer.html" %}</div>
+    </footer>
+  </body>
 </html>

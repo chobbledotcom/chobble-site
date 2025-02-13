@@ -5,45 +5,28 @@ description: Take control of your data with a private Nextcloud installation
 order: 2
 ---
 
-# De-Googling with Nextcloud
+# Nextcloud Document Management
 
-Break free from Google's ecosystem and take full control of your data with your own private Nextcloud installation. I'll set you up with a professional, secure, and fully-backed-up cloud storage solution.
+[Nextcloud](https://nextcloud.com/) is an online document storage and management system, like Google Docs or Dropbox. It lets you sync your files between devices, browse your media, share your files with others, edit some document types, store music, and other file management type jobs.
 
-## What's Included
+But unlike Google's version, Nextcloud is open source and can be hosted on a server you can control yourself and sync your devices to, which makes it:
 
-- Complete Nextcloud installation on [Hetzner StorageShare](https://www.hetzner.com/storage/storage-share/)
-- Full administrative access
-- Initial setup and configuration
-- Training session on how to use your new system
-- Documentation for future reference
+- **Private:** You can store your files on a server and country with strong privacy safeguards.
+- **Flexible:** Nextcloud has tonnes of plugins you can enable to bolt on new functionality (finances, media, etc)
+- **Affordable:** You can create a server with exactly as much or as little resources as you need and expand when needed. 
 
-## Benefits
+_Note: Nextcloud doesn't do EVERYTHING that Google Docs does - it doesn't have as nice of a text editor and there's no spreadsheet tool, for example._
 
-- Own your data completely
-- Professional-grade cloud storage
-- Secure file sharing and collaboration
-- Calendar and contacts sync
-- Mobile app access
-- Full backup system included
-- Perfect for both individuals and businesses
-- Set up multiple users with custom permissions
+I've used Nextcloud / Owncloud for nearly 15 years and am happy to advise you about switching over. I can help you get set up with your own Nextcloud installation with [Hetzner StorageShare](https://www.hetzner.com/storage/storage-share/) or a host of your choice.
 
-## Why Choose This?
+You'll get full administrative access so you can create as many users as you like and manage plugins ("apps").
 
-With almost 15 years of Nextcloud / Owncloud experience, I've found Hetzner's StorageShare to be the most reliable and cost-effective hosting solution. You'll get enterprise-grade features at a fraction of what you're paying for Google Workspace or similar services.
+I'll go through the settings with you and show you around your new document management system, and you can reference [the Nextcloud documentation](https://nextcloud.com/support/) too.
 
 ## Pricing
 
-- One-time setup: [2 hours](/prices/)
-- Monthly hosting: Direct with Hetzner (very affordable - from about £4)
+I bill by the hour, and setting up a Nextcloud installation, using Hetzner servers, and connecting to a custom domain takes about [two hours](/prices/).
 
-## What Happens Next?
+You'll set up a monthly recurring charge to the web host, which can be as cheap as £2 per month for a small server.
 
-1. We'll have an initial conversation to understand your needs
-2. Set up your Nextcloud instance on Hetzner
-3. Configure your storage and security settings
-4. Train you on using the system
-5. Hand over full admin access
-6. Provide ongoing support as needed
-
-Ready to take control of your data? [Contact me](/contact/) to get started.
+**If you want to switch away from Google for storing your documents, Nextcloud is be a great way to take control. [Contact me to get the ball rolling!](/contact/)**

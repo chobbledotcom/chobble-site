@@ -111,9 +111,6 @@ h6 {
 .container {
   margin: 0 auto;
   max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
 }
 
 header {
@@ -259,7 +256,6 @@ main {
   color: $main-fg;
   padding: 1rem 2rem 4rem;
   margin: 10px 0;
-  border-top: 2px solid $border-color;
   border-left: 2px solid $border-color;
   border-radius: 10px;
   position: relative;
@@ -299,8 +295,14 @@ main {
 
   a {
     color: $main-link;
-    &:hover {
+    transition: color 0.4s ease-in;
+    text-decoration-style: dashed;
+    &:hover,
+    &:active,
+    &:focus {
       color: $main-fg;
+      text-decoration-color: $main-link;
+      text-decoration-style: dashed;
     }
   }
   blockquote {
@@ -408,7 +410,7 @@ footer {
   }
 
   @media (min-width: 768px) {
-    .container > div {
+    .container {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -443,6 +445,7 @@ footer {
         linear-gradient($body-bg, $body-bg-gradient-to);
       background-attachment: fixed fixed;
       transition: right 0.3s ease-in-out;
+      z-index: 2;
 
       li {
         opacity: 0.9;
@@ -565,5 +568,40 @@ footer {
     &:hover {
       background: darken($main-heading, 10%);
     }
+  }
+}
+
+.about {
+  .stef {
+    float: right;
+    shape-outside: url("/assets/stef.webp");
+    shape-margin: 10px;
+    max-width: 60%;
+    margin-right: -10%;
+    margin-top: -3rem;
+  }
+}
+
+.emoji-list {
+  ul {
+    list-style-type: none;
+    text-indent: -1.3rem;
+  }
+}
+
+.back-link {
+  background: white;
+  padding: 5px 20px 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: smaller;
+
+  @media (min-width: 768px) {
+    padding-top: 0;
+    border-radius: 0 0 11px 0;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }

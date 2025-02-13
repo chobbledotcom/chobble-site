@@ -10,7 +10,7 @@ let
 
 in
 pkgs.stdenv.mkDerivation {
-  name = "blog-chobble-com";
+  name = "chobble-com";
 
   src = builtins.filterSource (
     path: type:
@@ -23,6 +23,7 @@ pkgs.stdenv.mkDerivation {
 
   nativeBuildInputs = with pkgs; [
     cacert
+    html-tidy
     lightningcss
     sass
     yarn
@@ -43,6 +44,9 @@ pkgs.stdenv.mkDerivation {
 
     echo 'Building site'
     yarn --offline eleventy
+
+    echo 'Tidying HTML'
+    find _site -name "*.html" -exec tidy --wrap 80 --indent auto --indent-spaces 2 --quiet --tidy-mark no -modify {} \;
   '';
 
   installPhase = ''
