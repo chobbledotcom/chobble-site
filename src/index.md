@@ -24,7 +24,6 @@ I am flexible and up for discussing anything.
 - [Patreon marketing advice group](/services/patreon/)
 - Dynamic websites (Ruby on Rails)
 - Hosting solutions and [migrations](/services/website-migrations/)
-- [Expert advice](/services/technical-advice/) and [training](/services/tech-tutoring/)
-- Technical support
+- [Expert advice](/services/technical-advice/)
 
 [Learn more about my services](/services/) or [contact me](/contact/) to get started.
