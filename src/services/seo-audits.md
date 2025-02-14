@@ -5,7 +5,7 @@ description: I'll evaluate your site using industry-standard SEO tools to give y
 order: 0
 ---
 
-# Search Engine Optimisation Audits
+# SEO Audits
 
 With decades of experience helping sites rank well on Google, I know what works and what is a waste of effort.
 
@@ -35,23 +35,20 @@ I can also do specific **keyword audits** to help you improve your ranking for a
 - **2 hours: Evaluating your competition**
   - I will compare your site's performance for a given keyword to your competitor's, and explain where your site is falling short.
 
-## Page Performance Audits
-
-Both Google and potential customers like it when your site loads quickly, and [performant sites generate more sales](https://www.cloudflare.com/learning/performance/more/website-performance-conversion-rates/).
-
-I can evaluate your site's performance using [Google's Lighthouse tool](<https://en.wikipedia.org/wiki/Lighthouse_(software)>) to discover ways you (or your website provider) can make your site faster and improve its conversion rate:
-
-- **2 hours: Lighthouse evaluation**
-  - I will scan your site with Lighthouse and explain the results in jargon-free language, for you or your provider to fix.
-- **1 - 24 hours: Performance fixes**
-  - If you have access to your site's source code we can _probably_ fix performance issues ourselves. I have decades of experience in making sites load quickly - even really complex ones.
-
 ## Ethics and Honesty
 
-If your site does not need any improvements, I will tell you - and you won't be charged.
+If your site doesn't need any improvements I will tell you - and you won't be charged.
 
 I do not guarantee improvements to search engine rankings and you should not trust anyone who does, but I know what works and have a long track record of success.
 
 I will never prioritise one customer over another - everyone pays the same [flat hourly fee](/prices/) and gets the same high quality of service.
 
-If this sounds like a good fit for your website, please [contact me](/contact/) and we can get the ball rolling!
+**If this sounds like a good fit for your website, please [contact me](/contact/) and we can get the ball rolling!**
+
+<div class="card margins" markdown>
+
+**Performance note:** Google - and potential customers - prefer websites that load quickly, and [performant sites generate more sales (article by Cloudflare)](https://www.cloudflare.com/learning/performance/more/website-performance-conversion-rates/). With this in mind, you should make sure your site performs well on [Google's Lighthouse tester tool](https://developer.chrome.com/docs/lighthouse/overview#devtools) which is built into every Chrome desktop browser and gives suggestions for improving site performance. If your site is _really_ slow, it will hold any other SEO efforts back.
+
+If you need help interpreting Lighthouse results or implementing fixes, I can help - I've worked on loads of performance-related fixes in my years.
+
+</div>

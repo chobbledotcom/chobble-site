@@ -7,13 +7,17 @@ order: 3
 
 # Online Marketing Advice Club
 
-If you've already got a website you may wonder how to best attract visitors and turn them into paying customers.
+Trying to get your head around terms like "SEO", "link building", "keywords" or "SERPs" can be overwhelming, and might dissuade you from going "all in" on promoting your website.
 
-I've started the Chobble [marketing advice club](https://www.patreon.com/Chobble) on Patreon.com to provide weekly tips on search engine optimisation and online marketing.
+I've started the [Chobble marketing advice club](https://www.patreon.com/Chobble) on Patreon.com to provide weekly tips on search engine optimisation, online marketing, and website maintenance.
 
-For **£20 per month** you will get full access to past and future posts, videos I make, live streams I host, and any other ways I use the platform. And if you pay me to host a website for you, you'll get **free** access!
+For **£20 per month** you will get full access to past and future posts and videos, live streams, and any other ways I use the platform. And if you pay me to host a website for you, you'll get **free** access for a year!
 
-As a full-time nerd who has been working to help direct customers to websites for decades I have a wealth of knowledge on the subject and can help you make the most of the time you spend working on your web presence.
+## Who is this for?
+
+Many small business owners _really_ wish their website would bring more enquiries, and they're up for doing a bit of work to get there, but they don't know where to start.
+
+As a full-time nerd who has been working to help direct customers to websites for decades, I can help you make the most of the time you spend working on your web presence.
 
 I will never tell you to do anything spammy or dangerous - just simple, straightforward tips to improve your content, provide value to visitors, and get your website in front of more potential customers.
 
@@ -23,4 +27,4 @@ Whether you're based in Prestwich or anywhere else in the UK, I'm sure I can hel
 
 There is no contract or other obligations. You don't have to have a website from me, or use any specific provider - you just need to be able to create and edit pages on your existing website, and to be able to dedicate a bit of time to the process.
 
-**[Click here to subscribe on Patreon.com.](https://www.patreon.com/Chobble)**
+**[Click here to subscribe on Patreon.com for £20 a month.](https://www.patreon.com/Chobble)**

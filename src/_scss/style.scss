@@ -113,6 +113,10 @@ h6 {
   max-width: 1000px;
 }
 
+.margins {
+  margin: 2rem 0;
+}
+
 header {
   padding: 1rem 1rem 1rem 2rem;
   border-radius: 10px;
@@ -306,14 +310,22 @@ main {
     }
   }
   blockquote {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-style: italic;
+    border-left: 3px solid;
+    padding-left: 2rem;
   }
   p,
   blockquote,
   ul,
   ol {
     margin-bottom: 1rem;
+  }
+
+  hr {
+    margin: 3rem 0;
+    color: #ad44ce;
+    border-style: dashed;
   }
 
   @media (min-width: 768px) {
