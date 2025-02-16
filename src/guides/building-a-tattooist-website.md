@@ -7,7 +7,7 @@ snippet: A straightforward website with a gallery, an FAQ, and a spam-protected 
 
 I made a website at [noktorum.com](https://noktorum.com) for my friend "Noktorum", a tattooist and artist from Liverpool, now working in Berlin.
 
-![Screenshot of Noktorum.com homepage showing some scary witch doctor type characters](/assets/guides-noktorum-screenshot.jpg)
+![Screenshot of Noktorum.com frequently asked questions page](/assets/guides-noktorum-screenshot.webp)
 
 He needed a simple site which shows off his very unique style of tattoos in an easily-edited **gallery**. It includes an **FAQ** which is easy to keep updated, and a custom **contact form** with spam protection and attachment support.
 
@@ -89,4 +89,4 @@ You'll want to adjust this for your preferred build tool, unless you also want t
 
 ## Can you do this for me?
 
-If you've read this guide and want me to build a website for you using this process, please [contact me](/contact/). My prices are very transparent and you will have full control over the site I build for you. You can host wherever you like - or you can pay me to host and get free [marketing advice](/services/patreon/) to help promote your site too!
+**If you've read this guide and want me to build a website for you using this process, please [contact me](/contact/).** My [prices are very transparent](/prices/) and artists get a 50% discount. You will have full control over the site I build for you and can host wherever you like - or you can pay me to host and get free [marketing advice](/services/patreon/) to help promote your new site!
