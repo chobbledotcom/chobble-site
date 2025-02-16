@@ -73,7 +73,7 @@ ol {
   line-height: 1;
 
   li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -85,7 +85,7 @@ h5,
 h6 {
   color: $main-heading;
   font-family: $header-font;
-  margin: 1.5rem 0 1rem;
+  margin: 2rem 0 1rem;
   line-height: 1.2;
   font-weight: normal;
   text-shadow: 1px 1px 0 white;
@@ -106,6 +106,18 @@ h4 {
 h5,
 h6 {
   font-size: 1.25rem;
+}
+
+code {
+  font-size: 1rem;
+  background: #ccc;
+  padding: 0.2rem;
+}
+
+pre {
+  margin: 2rem 0;
+  border-left: 2px solid $header-bg;
+  padding-left: 1rem;
 }
 
 .container {
@@ -265,6 +277,13 @@ main {
   position: relative;
   overflow: hidden;
 
+  video,
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 2rem 0;
+  }
+
   @media (min-width: 1200px) {
     &::before,
     &::after {
@@ -365,7 +384,7 @@ main {
 .service-card,
 .client-card {
   background-color: $main-accent-bg;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem;
   border-radius: 2px;
   transition-property: transform, box-shadow;
   transition-duration: 0.2s;
@@ -378,6 +397,13 @@ main {
     font-family: $sub-header-font;
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+  p {
+    margin-block: 0;
   }
 
   &:hover {
