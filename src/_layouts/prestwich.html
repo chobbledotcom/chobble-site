@@ -4,14 +4,15 @@ layout: base.html
 
 <article>{{ content }}</article>
 
-<div class="services-grid">
-  {% assign sorted_services = collections.prestwich | sort: 'data.order' %} {%
-  for service in sorted_services %}
-  <div class="service-card">
-    <h2>
+<ul class="cards">
+  {%- assign sorted_services = collections.prestwich | sort: 'data.order' -%}
+  {%- for service in sorted_services -%}
+  <li>
+    <strong>
       <a href="{{ service.url }}"> {{ service.data.link_text }} </a>
-    </h2>
-    <p>{{ service.data.snippet }}</p>
-  </div>
+    </strong>
+    <br>
+    {{ service.data.snippet }}
+  </li>
   {%- endfor -%}
-</div>
+</ul>

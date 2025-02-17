@@ -4,11 +4,13 @@ layout: base.html
 
 <article>{{ content }}</article>
 
+<ul class="cards">
 {% for guide in collections.guide %}
-<div class="card margins">
-  <h2>
-    <a href="{{ guide.url }}">{{ guide.data.title }}</a>
-  </h2>
-  <p>{{ guide.data.snippet }}</p>
-</div>
+  <li>
+    <strong>
+      <a href="{{ guide.url }}">{{ guide.data.title }}</a>
+    </strong>
+    <br>
+    {{ guide.data.snippet }}
+  </li>
 {%- endfor -%}

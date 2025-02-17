@@ -20,6 +20,6 @@ In any case you'll get the benefit of my decades of experience building and main
 
 **Accessible & performant:** I choose accessible systems which allow visually-impaired users to browse your site, and I make performant sites which are easy to use on all devices.
 
-## Some Services
+## Services
 
 I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in:

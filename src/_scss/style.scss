@@ -371,20 +371,19 @@ main {
   }
 }
 
-// Blog styles
-.blog-grid,
-.services-grid,
-.clients-grid {
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 150%;
 }
 
 .card,
-.blog-card,
-.service-card,
-.client-card {
+.cards > * {
+  margin: 0;
   background-color: $main-accent-bg;
   padding: 1.5rem;
   border-radius: 2px;
@@ -395,7 +394,8 @@ main {
   color: $main-accent-link;
 
   span,
-  h2 {
+  h2,
+  strong {
     font-family: $sub-header-font;
     font-size: 1.5rem;
     font-weight: bold;
@@ -403,9 +403,6 @@ main {
 
   h2 {
     margin-top: 0;
-  }
-  p {
-    margin-block: 0;
   }
 
   &:hover {
@@ -507,7 +504,7 @@ footer {
 /* pages */
 
 .home {
-  .top {
+  .cards.homepage {
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
@@ -523,7 +520,10 @@ footer {
       }
       img {
         display: block;
+        margin: 0 auto;
         width: 30%;
+        max-width: 100px;
+        height: auto;
       }
     }
     @media (min-width: 768px) {
@@ -537,7 +537,8 @@ footer {
         }
         img {
           width: 100%;
-          margin: 0.5em 0 0;
+          max-width: auto;
+          margin-top: 0.5rem;
         }
       }
     }
