@@ -328,12 +328,15 @@ main {
       text-decoration-style: dashed;
     }
   }
+
   blockquote {
-    font-size: 1.3rem;
+    color: lighten($main-fg, 20%);
     font-style: italic;
-    border-left: 3px solid;
-    padding-left: 2rem;
+    background: $main-bg;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
   }
+
   p,
   blockquote,
   ul,

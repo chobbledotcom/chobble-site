@@ -19,10 +19,10 @@ I can look at your website from the point of view of both search engines and pot
 
 I'll work on compiling this list for an hour, and will aim to generate around 20 ideas of things that need fixing. The result might look something like:
 
-1. **(10 mins) Tidy top navigation links.** The main links on your website are messy and difficult for visitors to read. You should tidy these up so they fit on one line, and less important links are moved elsewhere.
-2. **(30 mins) Fix homepage content.** Your homepage text is a big block of writing which is hard to scan and which repeats its "SEO" keywords in an unnatural way. This will dissuade visitors who read it from choosing you. You should re-write this page so it sounds more natural, and break up big chunks of text with paragraphs, headings, bold text, links, and bullet point lists.
-3. **(10 mins) Fix contact page content.** Your contact page doesn't mention some of the important ways to contact you, and it contains a lot of "SEO optimised" text which pushes the contact form off the page. This will dissuade visitors from using the contact form. You should re-write it to include crucial information, while remaining concise.
-4. **(20 mins) Fix your Widgets category text.** Etcetera, etcetera.
+> 1. **(10 mins) Tidy top navigation links.** The main links on your website are messy and difficult for visitors to read. You should tidy these up so they fit on one line, and less important links are moved elsewhere.
+> 2. **(30 mins) Fix homepage content.** Your homepage text is a big block of writing which is hard to scan and which repeats its "SEO" keywords in an unnatural way. This will dissuade visitors who read it from choosing you. You should re-write this page so it sounds more natural, and break up big chunks of text with paragraphs, headings, bold text, links, and bullet point lists.
+> 3. **(10 mins) Fix contact page content.** Your contact page doesn't mention some of the important ways to contact you, and it contains a lot of "SEO optimised" text which pushes the contact form off the page. This will dissuade visitors from using the contact form. You should re-write it to include crucial information, while remaining concise.
+> 4. **(20 mins) Fix your Widgets category text.** Etcetera, etcetera.
 
 ## Who is this for?
 
