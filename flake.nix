@@ -1,5 +1,5 @@
 {
-  description = "A best script!";
+  description = "Chobble.com";
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
   };
@@ -24,30 +24,8 @@
           html-tidy
           sass
           yarn
+          yarn2nix
         ];
-
-        site = pkgs.stdenv.mkDerivation {
-          name = "chobble-com";
-          src = ./.;
-          buildInputs = commonBuildInputs ++ [ nodeModules ];
-
-          configurePhase = ''
-            mkdir -p _site/style
-            ln -sf ${packageJSON} package.json
-            ln -sf ${nodeModules}/node_modules .
-          '';
-
-          buildPhase = ''
-            sass --update src/_scss:_site/css --style compressed
-            yarn --offline eleventy
-            find _site -name "*.html" -exec tidy --wrap 80 --indent auto --indent-spaces 2  --wrap 80 --quiet --tidy-mark no -modify {} \;
-          '';
-
-          installPhase = ''cp -r _site $out'';
-
-          # Fix potential permissions issues
-          dontFixup = true;
-        };
 
         # Helper function to create scripts
         mkScript =
@@ -83,10 +61,8 @@
 
       in
       rec {
-        defaultPackage = packages.site;
-        packages = scriptPackages // {
-          inherit site;
-        };
+        defaultPackage = packages.serve;
+        packages = scriptPackages;
 
         devShells = rec {
           default = dev;
