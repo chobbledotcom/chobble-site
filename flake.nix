@@ -32,6 +32,8 @@
           buildInputs = commonBuildInputs ++ [ nodeModules ];
 
           configurePhase = ''
+            export HOME=$TMPDIR
+            mkdir -p _site/style
             ln -sf ${packageJSON} package.json
             ln -sf ${nodeModules}/node_modules .
           '';
