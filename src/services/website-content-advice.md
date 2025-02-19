@@ -17,7 +17,7 @@ This doesn't need to be the case - marketing your site is all about making small
 
 I can look at your website from the point of view of both search engines and potential customers, and build a prioritised list of "things to fix". I'll also provide an estimate for how long it would take _me_ to fix the job - and you can decide whether to pay me, or just do the work yourself.
 
-I'll work on compiling this list for an hour, and will aim to generate around 20 ideas of things that need fixing. The result might look something like:
+I'll work on compiling this list for an hour, and will aim to generate around 10-20 ideas of things that need fixing. The result might look something like:
 
 > 1. **(10 mins) Tidy top navigation links.** The main links on your website are messy and difficult for visitors to read. You should tidy these up so they fit on one line, and less important links are moved elsewhere.
 > 2. **(30 mins) Fix homepage content.** Your homepage text is a big block of writing which is hard to scan and which repeats its "SEO" keywords in an unnatural way. This will dissuade visitors who read it from choosing you. You should re-write this page so it sounds more natural, and break up big chunks of text with paragraphs, headings, bold text, links, and bullet point lists.
