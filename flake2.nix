@@ -1,5 +1,5 @@
 {
-  description = "A best script!";
+  description = "noktorum-com";
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
   };
@@ -19,15 +19,13 @@
           inherit system;
         };
 
-        # Common build inputs
         commonBuildInputs = with pkgs; [
-          html-tidy
           sass
           yarn
         ];
 
         site = pkgs.stdenv.mkDerivation {
-          name = "chobble-com";
+          name = "eleventy-site";
           src = ./.;
           buildInputs = commonBuildInputs ++ [ nodeModules ];
 
@@ -39,7 +37,6 @@
           buildPhase = ''
             sass --update src/_scss:_site/css --style compressed
             yarn --offline eleventy
-            find _site -name "*.html" -exec tidy --wrap 80 --indent auto --indent-spaces 2  --wrap 80 --quiet --tidy-mark no -modify {} \;
           '';
 
           installPhase = ''cp -r _site $out'';
@@ -48,14 +45,12 @@
           dontFixup = true;
         };
 
-        # Helper function to create scripts
         mkScript =
           name:
           (pkgs.writeScriptBin name (builtins.readFile ./bin/${name})).overrideAttrs (old: {
             buildCommand = "${old.buildCommand}\n patchShebangs $out";
           });
 
-        # Helper function to create packages
         mkPackage =
           name:
           pkgs.symlinkJoin {
@@ -65,21 +60,17 @@
             postBuild = "wrapProgram $out/bin/${name} --prefix PATH : $out/bin";
           };
 
-        # Script names
         scripts = [
           "build"
           "serve"
-          "tidy_html"
         ];
 
-        # Generate all packages
         scriptPackages = builtins.listToAttrs (
           map (name: {
             inherit name;
             value = mkPackage name;
           }) scripts
         );
-
       in
       rec {
         defaultPackage = packages.site;
@@ -99,7 +90,6 @@
               echo "Development environment ready!"
               echo "Run 'serve' to start development server"
               echo "Run 'build' to build the site in the _site directory"
-              echo "Run 'tidy_html' to run html-tidy over each file in _site"
             '';
           };
         };
