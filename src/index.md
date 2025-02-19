@@ -21,8 +21,9 @@ I am flexible and up for discussing anything.
 
 ## Services On Offer
 
-- [Static websites](/services/static-websites/) (eg Eleventy, Jekyll)
+- [Web design & development](/services/static-websites/) (eg Eleventy, Jekyll)
 - [SEO Audits](/services/seo-audits/)
+- [Website Content Advice](/services/website-content-advice/)
 - Dynamic websites (Ruby on Rails)
 - Hosting solutions and [migrations](/services/website-migrations/)
 - [Expert advice](/services/technical-advice/)
