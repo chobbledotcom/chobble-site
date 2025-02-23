@@ -558,7 +558,8 @@ footer {
   }
 }
 
-.contact-form {
+form,
+.form {
   width: 100%;
   max-width: 500px;
   padding: 1rem;
@@ -641,5 +642,50 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
+  }
+}
+
+.google-maps {
+  .results-container {
+    display: none;
+    margin-top: 20px;
+    .place-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      &:hover {
+        background-color: #f5f5f5;
+      }
+      &.selected {
+        background-color: #e3f2fd;
+        border-color: #2196f3;
+      }
+    }
+  }
+  .urls {
+    display: none;
+    gap: 2rem;
+    flex-direction: column;
+    & > div {
+      margin-top: 0.5rem;
+      gap: 0.5rem;
+      flex-direction: column;
+    }
+  }
+  .place-id {
+    display: none;
+    margin: 2rem 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .qr img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
