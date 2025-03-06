@@ -46,7 +46,7 @@ Beyond websites, I can assist with:
 
 My advice has helped clients:
 
-- Cut monthly hosting costs in half while improving website performance
+- Cut monthly hosting costs while improving website performance
 - Migrate away from proprietary platforms to systems they actually own
 - Set up automated backups that prevent data disasters
 - Create websites that they can update themselves without technical help
