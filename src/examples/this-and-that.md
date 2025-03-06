@@ -21,35 +21,27 @@ I have helped T&T out with their web presence since 2016 - maintaining their web
 
 ## My Solution
 
-I maintain a simple, fast-loading static website that focuses on what visitors need most:
+I maintain a simple, fast-loading static website that focuses on what visitors need most. The main priority is making the menu immediately accessible - unlike many restaurant sites that hide menus in PDFs or behind multiple clicks. On This & That's site, the current menu and prices are right there on an HTML page that loads instantly on any device.
 
-- Current menu and prices
-- Opening times
-- Location with map
-- Social media links
-- Customer reviews
-- Press mentions
+The site also features essential information like opening times, a Google Maps embed showing the exact location, links to their social media profiles, customer reviews, and press mentions. Everything is designed for clarity and ease of access, especially for mobile users who might be looking up the cafe while walking around Manchester.
 
 ## Technical Details
 
-- [Static "Jekyll" website](/services/static-websites/)
-- Perfect Lighthouse performance scores
-- No JavaScript
-- Fully responsive design
-- Periodic content updates
+The site is built as a [static "Jekyll" website](/services/static-websites/) that achieves perfect Lighthouse performance scores. It's fully responsive, working beautifully on everything from small phones to large desktop monitors. The site includes minimal JavaScript for essential functionality like the Google Maps embed and privacy-preserving analytics via GoatCounter.
+
+During the COVID-19 pandemic, I quickly added integration with Deliveroo to help the business continue serving customers during lockdowns. I track the site's search engine rankings using SerpBear to ensure it maintains visibility for key search terms.
 
 ## Ongoing Support
 
-- Very occasional menu updates
-- Collection and curation of customer reviews
-- Press mention tracking via Google Alerts
-- Social media management
+I do a bit more than just keep their website running. I look after their Facebook page too, posting about what's happening at the cafe. I've set up Google Alerts so whenever someone reviews T&T or mentions them in an article, I know about it straight away. I share these on social media and add them to the website, which keeps everything looking fresh without much work.
+
+When T&T get approached about partnerships or online listings (which happens a lot), they forward me the emails and I tell them whether it's worth doing or just someone trying to get money out of them. It works out well - they can focus on cooking amazing curry while I handle all the online stuff.
 
 ## Results
 
-- Consistent high performance scores
-- Sustainable long-term partnership
-- Delicious curry for Stefan
+This approach has delivered consistent high performance for the website, with excellent loading speeds and search engine visibility. The site ranks well for relevant searches like "rice and three Manchester" and "curry Northern Quarter," bringing in a steady flow of new customers.
+
+The site has been running successfully since 2016, providing exactly what visitors need without unnecessary bells and whistles. T&T's online presence maintains their reputation as a no-nonsense, quality-focused establishment that's all about the food.
 
 ## Source Code
 
