@@ -38,6 +38,10 @@ $system-font:
   -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
   sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -47,7 +51,7 @@ $system-font:
 }
 
 body {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: $text-color;
   font-family: $system-font;
   line-height: 1.6;
@@ -86,6 +90,23 @@ h6 {
   line-height: 1.2;
   font-weight: normal;
   text-shadow: 1px 1px 0 white;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, $secondary-accent, transparent);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100px;
+  }
 }
 
 h1 {
@@ -129,7 +150,6 @@ pre {
 
 header {
   padding: 1rem 1rem 1rem 2rem;
-  border-radius: 10px;
 
   nav {
     display: flex;
@@ -140,8 +160,6 @@ header {
     a {
       color: $header-fg;
       text-decoration: none;
-      /* text-decoration-color: $header-fg-underline;
-      text-decoration-thickness: 4px; */
 
       &.brand {
         font-size: 5rem;
@@ -159,16 +177,17 @@ header {
       }
     }
 
-    .logo {
-      width: 228px;
-      image-rendering: pixelated;
-    }
-
     .nav-toggle {
       display: none;
 
       &:checked ~ .nav-links {
         right: 0;
+
+        // When menu is open, animate in the items
+        li {
+          opacity: 0.9;
+          transform: translateX(0);
+        }
       }
 
       &:checked ~ .nav-toggle-label span {
@@ -237,6 +256,28 @@ header {
           position: relative;
           font-family: $sub-header-font;
           text-shadow: 1px 1px 0 black;
+          transition: all 0.3s ease;
+
+          &::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 3px;
+            bottom: -5px;
+            left: 0;
+            background-color: $secondary-accent;
+            transition: width 0.3s ease;
+            border-radius: 3px;
+          }
+
+          &:hover::after {
+            width: 100%;
+          }
+
+          &.active::after {
+            width: 100%;
+            background-color: $header-fg-active;
+          }
         }
       }
       @media (min-width: 768px) {
@@ -249,6 +290,8 @@ header {
           display: block;
           padding: 0.5rem 1rem;
         }
+      }
+      @media (min-width: 900px) {
         li:first-child a {
           padding-left: 1.5rem;
         }
@@ -274,6 +317,7 @@ main {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 
   video,
   img {
@@ -316,14 +360,33 @@ main {
 
   a {
     color: $main-link;
-    transition: color 0.4s ease-in;
+    transition: all 0.4s ease-in;
     text-decoration-style: dotted;
+    position: relative;
+
     &:hover,
     &:active,
     &:focus {
       color: $main-fg;
       text-decoration-color: $main-link;
       text-decoration-style: solid;
+      text-shadow: 0 0 1px rgba($main-link, 0.3);
+    }
+
+    &.highlight {
+      padding: 0 3px;
+      background: linear-gradient(
+        transparent 70%,
+        rgba($secondary-accent, 0.4) 0
+      );
+      border-radius: 3px;
+
+      &:hover {
+        background: linear-gradient(
+          transparent 60%,
+          rgba($secondary-accent, 0.6) 0
+        );
+      }
     }
   }
 
@@ -331,8 +394,28 @@ main {
     color: lighten($main-fg, 20%);
     font-style: italic;
     background: $main-bg;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 5px;
+    border-left: 4px solid $secondary-accent;
+    margin: 1.5rem 0;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+
+    &::before {
+      content: '"';
+      font-family: $header-font;
+      position: absolute;
+      top: -0.5rem;
+      left: 0.5rem;
+      font-size: 2.5rem;
+      color: rgba($secondary-accent, 0.4);
+    }
+
+    &:hover {
+      transform: translateX(5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
   }
 
   p,
@@ -353,20 +436,73 @@ main {
   }
 }
 
+@keyframes buttonPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba($main-accent-border, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba($main-accent-border, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba($main-accent-border, 0);
+  }
+}
+
 .button {
   display: inline-block;
-  padding: 0.5rem 1.5rem;
+  padding: 0.7rem 1.8rem;
   background-color: $main-accent-bg;
   color: $accent-bg;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    transition: all 0.6s ease;
+  }
 
   &:hover {
     background-color: $secondary-accent;
-    transform: translateY(-2px);
+    transform: translateY(-3px) scale(1.05);
     text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+    &::before {
+      left: 100%;
+    }
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  &.primary {
+    background-color: $header-bg;
+    color: white;
+    animation: buttonPulse 2s infinite;
+
+    &:hover {
+      background-color: darken($header-bg, 5%);
+    }
   }
 }
 
@@ -380,17 +516,40 @@ main {
   line-height: 150%;
 }
 
+@keyframes cardHover {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    transform: translateY(-8px) scale(1.02);
+  }
+}
+
 .card,
 .cards > * {
   margin: 0;
   background-color: $main-accent-bg;
   padding: 1.5rem;
-  border-radius: 2px;
-  transition-property: transform, box-shadow;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  border-radius: 8px;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   border: 2px solid $main-accent-border;
   color: $main-accent-link;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, $header-bg, $secondary-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+  }
 
   span,
   h2,
@@ -398,6 +557,7 @@ main {
     font-family: $sub-header-font;
     font-size: 1.5rem;
     font-weight: bold;
+    transition: all 0.3s ease;
   }
 
   h2 {
@@ -405,8 +565,20 @@ main {
   }
 
   &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    animation: cardHover 0.5s forwards;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: $secondary-accent;
+
+    &::before {
+      transform: scaleX(1);
+    }
+
+    span,
+    h2,
+    strong {
+      color: $main-accent-fg-hover;
+      transform: translateY(-2px);
+    }
 
     a {
       color: $main-accent-fg-hover;
@@ -416,26 +588,89 @@ main {
 
 .tag {
   display: inline-block;
-  padding: 0.25rem 0.75rem;
-  background-color: rgba($accent-color, 0.1);
-  color: $accent-color;
+  padding: 0.3rem 0.9rem;
+  background-color: rgba($accent-color, 0.15);
+  color: darken($accent-color, 25%);
   border-radius: 16px;
   font-size: 0.875rem;
   margin: 0.25rem;
+  border: 1px solid rgba($accent-color, 0.3);
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    transform: translateY(-2px);
+    background-color: rgba($accent-color, 0.25);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
 }
 
 footer {
   background-color: $footer-bg;
   color: $footer-fg;
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: center;
   font-size: 1rem;
   border-radius: 10px;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(
+      to right,
+      $secondary-accent,
+      $header-fg-underline,
+      $secondary-accent
+    );
+    background-size: 200% 100%;
+    animation: gradient 8s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
   a {
     color: $footer-link;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 0 2px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: currentColor;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s ease;
+    }
+
     &:hover {
-      color: $footer-fg;
+      color: lighten($footer-fg, 20%);
+
+      &::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
     }
   }
 
@@ -481,15 +716,26 @@ footer {
         url("/assets/cubes.png"),
         linear-gradient($body-bg, $body-bg-gradient-to);
       background-attachment: fixed fixed;
-      transition: right 0.3s ease-in-out;
+      transition: right 0.4s cubic-bezier(0.19, 1, 0.22, 1);
       z-index: 2;
+      box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
 
       li {
-        opacity: 0.9;
+        opacity: 0;
         text-align: right;
+        transform: translateX(20px);
+        transition: all 0.4s ease;
+
+        @for $i from 1 through 6 {
+          &:nth-child(#{$i}) {
+            transition-delay: 0.1s * $i;
+          }
+        }
 
         a {
           font-size: 1.2rem;
+          display: inline-block;
+          padding: 8px 0;
 
           &.active::after {
             bottom: -2px;
@@ -561,54 +807,113 @@ footer {
   }
 }
 
+@keyframes formAppear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 form,
 .form {
   width: 100%;
   max-width: 500px;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 2rem auto 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   background: #fff;
+  animation: formAppear 0.8s ease-out;
+  position: relative;
 
   label,
   input,
   textarea {
     display: block;
     width: 100%;
-    margin: 0 0 1rem 0;
+    margin: 0 0 1.2rem 0;
   }
 
   label {
     color: $main-heading;
     font-family: $sub-header-font;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    transition: all 0.3s ease;
   }
 
   input,
   textarea {
-    padding: 0.3rem 0.5rem;
+    padding: 0.5rem 0.8rem;
     font-family: $system-font;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    font-size: 1.2rem;
+    border-radius: 6px;
+    border: 2px solid #e0e0e0;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+
+    &:focus {
+      outline: none;
+      border-color: $secondary-accent;
+      box-shadow: 0 0 0 3px rgba($secondary-accent, 0.2);
+    }
+
+    &:hover:not(:focus) {
+      border-color: #ccc;
+    }
   }
 
   textarea {
-    height: 6rem;
+    height: 8rem;
+    resize: vertical;
   }
 
   button {
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     color: white;
     font-size: 1.2rem;
-    border-radius: 3px;
+    border-radius: 6px;
     background: $main-heading;
-    border: 1px solid darken($main-heading, 20%);
+    border: none;
     font-family: $sub-header-font;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba($main-heading, 0.3);
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+      );
+      transition: all 0.6s ease;
+    }
 
     &:hover {
-      background: darken($main-heading, 10%);
+      background: darken($main-heading, 5%);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba($main-heading, 0.4);
+
+      &::before {
+        left: 100%;
+      }
+    }
+
+    &:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px 6px rgba($main-heading, 0.3);
     }
   }
 }
