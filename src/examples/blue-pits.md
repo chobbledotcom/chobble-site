@@ -10,7 +10,7 @@ order: 2
 
 - **Client:** Blue Pits Housing Action (Registered Charity)
 - **Services:** Website hosting and technical consultation
-- **Website:** [bluepitshousingaction.co.uk](https://bluepitshousingaction.co.uk)
+- **Website:** [BluePitsHousingAction.co.uk](https://bluepitshousingaction.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/blue-pits)
 
 Blue Pits is a CQC-registered personal care provider and provider of social housing, based in Rochdale, Middleton and Heywood since 2011.
@@ -27,7 +27,7 @@ Beyond just hosting, I advise them on their tech choices and have helped them un
 
 ## Technical Details
 
-The site is a [static "Jekyll" website](/services/static-websites/) that works great on mobile and meets WCAG2 accessibility guidelines. It includes integration with Facebook and CQC widgets for social proof. 
+The site is a [static "Jekyll" website](/services/static-websites/) that works great on mobile and meets WCAG2 accessibility guidelines. It includes integration with Facebook and CQC widgets for social proof.
 
 The domain is hosted with Web Architects Co-op, an ethical cooperative provider. The site itself runs on a Gandi machine powered by green energy, with the build handled by a Forgejo action on NixOS. For redundancy, I back everything up via Git to both GitHub and my own Forgejo setup.
 

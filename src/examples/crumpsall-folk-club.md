@@ -10,7 +10,7 @@ order: 1
 
 - **Client:** Crumpsall Folk Club
 - **Services:** Website development and h:osting
-- **Website:** [View live site](https://crumpsallfolkclub.co.uk)
+- **Website:** [CrumpsallFolkClub.co.uk](https://crumpsallfolkclub.co.uk)
 
 Crumpsall Folk Club meets monthly for folk music sessions. They wanted their own website to post events, share news, and grow their community without relying on Facebook.
 

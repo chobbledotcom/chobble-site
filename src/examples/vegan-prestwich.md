@@ -10,8 +10,8 @@ order: 1
 
 - **Client:** Vegan Prestwich
 - **Services:** Website hosting and social media management
-- **Website:** [View live site](https://veganprestwich.co.uk)
-- **Website:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/vegan-prestwich)
+- **Website:** [VeganPrestwich.co.uk](https://veganprestwich.co.uk)
+- **Source Code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/vegan-prestwich)
 
 Vegan Prestwich is a website, Instagram page and Facebook group, which I have been running with my wife since 2018, dedicated to sharing vegan food finds in and around Prestwich and Whitefield.
 
