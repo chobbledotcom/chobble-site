@@ -1,42 +1,62 @@
 ---
 title: Technical Consultancy
-description:
-snippet: Expert guidance on all aspects of technology
+description: Expert guidance on website hosting, domain management, backups, open source alternatives, and more.
+snippet: Clear, practical tech advice without the jargon
 order: 2
 ---
 
 # Technical Consultancy in Prestwich
 
-I've been working with websites for over 20 years and have encountered all sorts of issues your business might be dealing with - whether that's fiddly technical jobs like setting up the DNS records for your domain name, or large scale projects like re-writing legacy systems or searching for performance optimisations.
+I've been working with websites for over 20 years and have seen just about every technical problem a business might face. From quick fixes like sorting out DNS records for your domain, to bigger projects like rewriting outdated systems or speeding up sluggish websites - I can help.
 
-I've also built my own computers since I was a young lad and can help you source parts or upgrades for your own machines.
+I give practical advice in plain English without pushing you toward expensive solutions you don't need. My clients appreciate having someone who can translate tech speak into clear guidance that makes sense for their business.
 
-I won't push you to use any particular solution or provider - just honest and transparent advice backed up by facts and figures.
+## What I Can Help With
 
-## Areas Of Expertise
+<div class="card margins">
 
-I am _not_ a cybersecurity expert and am not able to offer penetration testing or security audits - you should hire a professional for those jobs. But I can advise about any aspects of:
+### 💻 Website & Hosting Advice
 
-- Website hosting:
-  - [Static website builders](/services/static-websites/)
-  - WordPress, Django, and other open source CMS websites
-  - Squarespace, [Wix](/services/wix-site-edits/) and other proprietary builders
-  - Shopify and other ecommerce systems
-  - Domains, emails, and other DNS jobs
-  - Sourcing designers, copywriters, and other professionals
-- Computer security and maintenance
-  - Backups and updates
-  - Operating systems
-- Data backup strategies
-- Open source alternatives
-- Basic server administration
-  - Package management
-  - Automatic updates
-- Development practices
-  - Source code management
-  
-## Let's Chat!
+I can help you understand your options and make smart choices about:
 
-Initial consultations are free and if I already know the answer to your question, I'll tell you - no charge. Otherwise, I charge a [flat hourly rate](/prices/) for all jobs. We'll discuss how to make the most out of my time so you know exactly what you're getting.
+- Moving away from expensive platforms to [cost-effective alternatives](/services/static-websites/)
+- Evaluating whether WordPress, Ghost, or other CMS systems suit your needs
+- Making changes to existing [Wix](/services/wix-site-edits/) or Squarespace sites
+- Setting up reliable ecommerce on Shopify or WooCommerce
+- Managing domains, email accounts, and other technical details
+- Finding trustworthy designers and content writers when needed
+</div>
 
-**If you need advice about any of the above topics, or anything else related, [contact me](/contact/) and I'll try my best to help.**
+<div class="card margins">
+
+### 🔧 Technical Support & Strategy
+
+Beyond websites, I can assist with:
+
+- Setting up proper backup systems so you never lose important data
+- Recommending hardware upgrades or new equipment that's good value
+- Finding [open source alternatives](/services/de-googling/) to expensive software
+- Implementing simple security measures to protect your business
+- Creating sustainable technical plans that grow with your business
+</div>
+
+<div class="card margins">
+
+### ✅ Recent Success Stories
+
+My advice has helped clients:
+
+- Cut monthly hosting costs in half while improving website performance
+- Migrate away from proprietary platforms to systems they actually own
+- Set up automated backups that prevent data disasters
+- Create websites that they can update themselves without technical help
+- Find affordable alternatives to expensive software subscriptions
+</div>
+
+## Practical, Honest Advice
+
+I won't bamboozle you with jargon or push you toward services you don't need. If I already know the answer to your question, I'll just tell you - no charge. For more involved issues, I charge a [flat hourly rate](/prices/) with no hidden costs.
+
+Initial consultations are free, and I'm happy to chat about any tech challenges you're facing. You'll get clear explanations of your options without any pressure.
+
+**Having a technical headache? [Get in touch](/contact/) and let's sort it out together.**
