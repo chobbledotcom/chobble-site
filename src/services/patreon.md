@@ -17,6 +17,7 @@ For **£20 per month** you will get full access to past and future posts and vid
 
 - **Weekly actionable tips** that you can implement straight away
 - **Detailed guides** on SEO, content creation, and local marketing
+- **Audio versions** of each post so you can listen while working
 - **Real-world examples** from businesses I've helped
 - **British-focused advice** (not American marketing that doesn't work here)
 - **No-nonsense explanations** in plain English without the jargon
@@ -32,7 +33,9 @@ Here's a sample of what members have been learning about:
 - [Targeting Local Areas](https://www.patreon.com/posts/targeting-local-119714736) - Getting found by customers in your region
 - [Using AI Effectively](https://www.patreon.com/posts/using-ai-120755818) - How to use AI tools without hurting your site's credibility
 
-Each guide is written specifically for UK businesses, with practical advice that works in our market. I focus on techniques that are sustainable long-term and won't get your site penalised when Google updates its algorithms.
+Each guide is written specifically for UK businesses, with practical advice that works in our market. I focus on techniques that are sustainable long-term and won't get your site penalised when Google updates its algorithms. 
+
+Every post includes an audio version so you can listen to the content while you're working, driving, or doing other tasks - perfect for busy business owners who don't have time to sit and read lengthy articles.
 
 ## Who Is This For?
 
