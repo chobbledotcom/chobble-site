@@ -35,7 +35,7 @@ During the COVID-19 pandemic, I quickly added integration with Deliveroo to help
 
 I do a bit more than just keep their website running. I look after their Facebook page too, posting about what's happening at the cafe. I've set up Google Alerts so whenever someone reviews T&T or mentions them in an article, I know about it straight away. I share these on social media and add them to the website, which keeps everything looking fresh without much work.
 
-When T&T get approached about partnerships or online listings (which happens a lot), they forward me the emails and I tell them whether it's worth doing or just someone trying to get money out of them. It works out well - they can focus on cooking amazing curry while I handle all the online stuff.
+When T&T get approached about partnerships or online listings (which happens a lot), they forward me the emails and I tell them whether it's worth doing or just someone trying to get money out of them. It's a good system - they cook the curry, I sort the website.
 
 ## Results
 
