@@ -1,6 +1,6 @@
 {
-  description = "Chobble.com";
   inputs = {
+    nixpkgs.url = "nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
   };
   outputs =
@@ -19,22 +19,40 @@
           inherit system;
         };
 
-        # Common build inputs
         commonBuildInputs = with pkgs; [
           html-tidy
           sass
           yarn
-          yarn2nix
         ];
 
-        # Helper function to create scripts
+        site = pkgs.stdenv.mkDerivation {
+          name = "eleventy-site";
+          src = ./.;
+          buildInputs = commonBuildInputs ++ [ nodeModules ];
+
+          configurePhase = ''
+            ln -sf ${packageJSON} package.json
+            ln -sf ${nodeModules}/node_modules .
+          '';
+
+          buildPhase = ''
+            sass --update src/_scss:_site/css --style compressed
+            yarn --offline eleventy
+            find _site -name "*.html" -exec tidy --wrap 80 --indent auto --indent-spaces 2  --wrap 80 --quiet yes --tidy-mark no -modify {} \;
+          '';
+
+          installPhase = ''cp -r _site $out'';
+
+          # Fix potential permissions issues
+          dontFixup = true;
+        };
+
         mkScript =
           name:
           (pkgs.writeScriptBin name (builtins.readFile ./bin/${name})).overrideAttrs (old: {
             buildCommand = "${old.buildCommand}\n patchShebangs $out";
           });
 
-        # Helper function to create packages
         mkPackage =
           name:
           pkgs.symlinkJoin {
@@ -44,39 +62,44 @@
             postBuild = "wrapProgram $out/bin/${name} --prefix PATH : $out/bin";
           };
 
-        # Script names
         scripts = [
           "build"
           "serve"
+          "dryrun"
           "tidy_html"
         ];
 
-        # Generate all packages
         scriptPackages = builtins.listToAttrs (
           map (name: {
             inherit name;
             value = mkPackage name;
           }) scripts
         );
-
       in
       rec {
-        defaultPackage = packages.serve;
-        packages = scriptPackages;
+        defaultPackage = packages.site;
+        packages = scriptPackages // {
+          inherit site;
+        };
 
         devShells = rec {
           default = dev;
           dev = pkgs.mkShell {
-            buildInputs = commonBuildInputs ++ (builtins.attrValues packages);
+            buildInputs = commonBuildInputs ++ (map (name: mkPackage name) scripts);
             shellHook = ''
               rm -rf node_modules
               rm -rf package.json
               ln -sf ${packageJSON} package.json
               ln -sf ${nodeModules}/node_modules .
               echo "Development environment ready!"
-              echo "Run 'serve' to start development server"
-              echo "Run 'build' to build the site in the _site directory"
-              echo "Run 'tidy_html' to run html-tidy over each file in _site"
+              echo ""
+              echo "Run:"
+              echo " - 'serve' to start development server"
+              echo " - 'build' to build the site in the _site directory"
+              echo " - 'dryrun' to do a dry run"
+              echo " - 'tidy_html' to tidy the html in _site"
+              echo ""
+              git pull
             '';
           };
         };
