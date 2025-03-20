@@ -2,8 +2,6 @@ name: Build and Deploy to Neocities
 
 on:
   push:
-    paths:
-      - 'src/**'
   workflow_dispatch:
 
 env:
@@ -17,21 +15,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Cache Nix store
-        uses: actions/cache@v3
-        with:
-          path: /nix/store
-          key: nix-${{ hashFiles('**/*.nix') }}
-          restore-keys: |
-            nix-                        
-      
-      - name: Build with Nix
+      - name: Build
         id: build
         run: |
-          BUILD_PATH=$(nix-build --no-out-link)
           DEPLOY_PATH="$GITHUB_WORKSPACE/dist"
           mkdir -p "$DEPLOY_PATH"
-          cp -r "$BUILD_PATH"/* "$DEPLOY_PATH"/                
+          nix-fast-build --skip-cached --flake ".#packages.x86_64-linux.site" --no-nom
+          cp -r result-/* "$DEPLOY_PATH"/          
 
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v3
