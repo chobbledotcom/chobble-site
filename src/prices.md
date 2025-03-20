@@ -26,9 +26,19 @@ You can host up to 20 static websites with me for **£40** per month, or **£20 
 - **Back up your sites** with Git, mirrored to two hosts
 - **Provide support** when you have questions about editing your site
 - Make any **quick changes** to your site, at your request
+- **Fix any bugs** that you or I spot.
 - Provide **free online marketing advice** via my [Patreon page](/services/patreon/)
 
 You may choose to host elsewhere since you will have the full source code - that's totally fine. I recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org) and [Surge](https://surge.sh) but I will help you host wherever you like.
+
+## Service charges (unmanaged sites)
+
+If you're not planning on updating your site very often, want to pay someone else to update it, or want to handle all changes yourself, my "unmanaged" hosting package is **£10** per month or **£5** if discounted. For this I will:
+
+- **Host and back up** ONE static website.
+- **Fix any bugs** that you or I spot.
+
+You won't get access to the Patreon group or any free changes included - but you can edit your site yourself, or pay me or my brother Kevin at [KevinBurkeServices.com](https://kevinburkeservices.com) for content changes ad-hoc.
 
 ## Service charges (dynamic sites)
 
