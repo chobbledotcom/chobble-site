@@ -2,6 +2,8 @@
 layout: base.html
 ---
 
+{{ content }}
+
 <ul class="cards">
 {%- assign sorted_clients = collections.client | sort: 'data.order' -%}
 {%- for client in sorted_clients -%}

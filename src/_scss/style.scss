@@ -553,6 +553,9 @@ main {
     max-width: calc(100% + 3rem);
     width: calc(100% + 3rem);
     transition: filter 0.3s ease;
+    aspect-ratio: 1311/911;
+    object-fit: cover;
+    border-bottom: 1px solid #ad44ce;
   }
 
   &:hover {
