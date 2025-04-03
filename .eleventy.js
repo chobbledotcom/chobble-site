@@ -4,7 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 module.exports = async function (eleventyConfig) {
 	const { eleventyImageTransformPlugin } = await import("@11ty/eleventy-img");
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		formats: ["webp", "jpeg", "svg"],
+		formats: ["webp", "jpeg", "png", "svg"],
 		widths: [200, 310, 620, 900, 1200, "auto"],
 		svgShortCircuit: true,
 		htmlOptions: {
