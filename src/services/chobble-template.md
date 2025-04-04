@@ -17,7 +17,7 @@ A free and open source template for small business websites, which you can build
 
 ## Background
 
-While building [static websites](/services/static-websites/) for small businesses I realised I was creating the same type of components each time - things like a news system, a contact form, social media links, header images, per-page styles, etc etc.
+While building [static websites](/services/static-websites/) for small businesses I realised I was creating the same type of components each time - I was making Eleventy sites, with features like a news system, a contact form, social media links, header images, per-page styles, etc etc.
 
 I was keeping an informal repository of these code snippets on my computers, and realised I could provide some value to the open source community by compiling each of those snippets into a demo site, and releasing the source code under the AGPL3 license.
 
