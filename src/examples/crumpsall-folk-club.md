@@ -14,7 +14,7 @@ order: 1
 
 Crumpsall Folk Club meets monthly for folk music sessions. They wanted their own website to post events, share news, and grow their community without relying on Facebook.
 
-<iframe src="https://crumpsallfolkclub.co.uk"></iframe>
+![Crumpsall Folk Club website homepage screenshot showing a subscription form and links to 'About' and 'Upcoming'. The site's header image is a photograph of the audience watching a show at the club.](/assets/examples/crumpsall-folk-club.png)
 
 ## My Solution
 
@@ -24,8 +24,13 @@ The club members can update content themselves without any tech knowledge. Addin
 
 ## Technical Details
 
+<img
+src="/assets/examples/crumpsall-folk-club-mobile.png"
+alt="The mobile website for Crumpsall Folk Club - the header menu is replaced by a dropdown, but the subscribe section is still front and centre."
+class="right">
+
 - Built on [Ghost CMS](https://ghost.org) (open source and hackable)
-- Hosted on [PikaPod](https://pikapods.com)
+- Hosted on a [PikaPod](https://pikapods.com)
 - Contact form via [FormSpark](https://formspark.io)
 - Spam protection with [BotPoison](https://botpoison.com)
 - Newsletter delivery through [Mailgun](https://mailgun.com)
@@ -36,7 +41,7 @@ The club members can update content themselves without any tech knowledge. Addin
 - [Google Search Console](https://search.google.com/search-console) integration
 - Performance monitoring with [SerpBear](https://serpbear.com)
 
-I deliberately chose options with low ongoing costs and ease of use rather than using a bunch of expensive WordPress plugins that need constant updates and maintenance. This approach is fairly bombproof and affordable, perfect for a community club. The Ghost platform is lightweight and secure, while the supporting services provide reliability without complexity.
+I deliberately chose options with low ongoing costs and ease of use rather than using a bunch of expensive WordPress plugins that need constant updates and maintenance. This approach is fairly bombproof and affordable, perfect for a community club. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
 
 ## Ongoing Support
 

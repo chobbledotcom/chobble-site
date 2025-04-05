@@ -308,6 +308,15 @@ main {
     height: auto;
     display: block;
     margin: 2rem 0;
+
+    &.right {
+      max-width: 30%;
+      float: right;
+      margin: 0 0 1rem 1rem;
+      @media (max-width: 768px) {
+        max-width: 40%;
+      }
+    }
   }
 
   @media (max-width: 768px) {

@@ -15,7 +15,7 @@ order: 1
 
 This & That is a Manchester institution, famous for its "rice and three" curry dishes. Operating since 1984, it's a beloved part of the Northern Quarter's culinary landscape.
 
-<iframe src="https://thisandthatcafe.co.uk"></iframe>
+![This & That's website homepage. The cafe is easy to miss, so the photo shows the alley visitors need to find as its header image. There are two main links, "Home" and "Menu", and we can see TripAdvisor reviews and the start of a description of the business](/assets/examples/this-and-that.png)
 
 I have helped T&T out with their web presence since 2016 - maintaining their website, posting to social media, and keeping business listings accurate.
 
@@ -35,14 +35,14 @@ During the COVID-19 pandemic, I quickly added integration with Deliveroo to help
 
 I do a bit more than just keep their website running. I look after their Facebook page too, posting about what's happening at the cafe. I've set up Google Alerts so whenever someone reviews T&T or mentions them in an article, I know about it straight away. I share these on social media and add them to the website, which keeps everything looking fresh without much work.
 
-When T&T get approached about partnerships or online listings (which happens a lot), they forward me the emails and I tell them whether it's worth doing or just someone trying to get money out of them. It's a good system - they cook the curry, I sort the website.
+When T&T get approached about partnerships or online listings (which happens a lot), they forward me the emails and I tell them whether it's worth doing or just someone trying to get money out of them.
 
 ## Results
 
-This approach has delivered consistent high performance for the website, with excellent loading speeds and search engine visibility. The site ranks well for relevant searches like "rice and three Manchester" and "curry Northern Quarter," bringing in a steady flow of new customers.
+This approach has delivered consistent high performance for the website, with excellent loading speeds and search engine visibility. The site ranks well for relevant searches like "rice and three Manchester" and "curry Northern Quarter".
 
-The site has been running successfully since 2016, providing exactly what visitors need without unnecessary bells and whistles. T&T's online presence maintains their reputation as a no-nonsense, quality-focused establishment that's all about the food.
+The site is really easy to navigate and all the important information is easy to find. It has been running successfully since 2016, providing exactly what visitors need without unnecessary bells and whistles. T&T's online presence maintains their reputation as a no-nonsense, quality-focused establishment that's all about the food.
 
 ## Source Code
 
-The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that), demonstrating my commitment to open source and helping others learn from my work.
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that). If you'd like a site like it, you can clone the repo - but I'd advise starting from the newer [Chobble Template](https://git.chobble.com/chobble/chobble-template) instead. Or, you can [employ me](/contact/) to build a site for you!
