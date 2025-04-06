@@ -6,7 +6,7 @@ description: "Transparent pricing for web development and tech services in Prest
 
 # Web Development Prices
 
-I believe in transparent pricing for all jobs - my flat rate is **£200 per hour** (charged in half-hour increments), and initial consultations are free. I will tell you exactly what you'll get for each hour worked.
+I believe in transparent pricing for all jobs - my flat rate is **£200 per hour** (charged in half-hour increments), and discussions before and after the job are free. I will tell you exactly what you'll get for each hour worked.
 
 That rate is **discounted 50%** at **£100 per hour** for:
 
@@ -28,7 +28,7 @@ You can host up to 20 static websites with me for **£40** per month, or **£20 
 - Make any **quick changes** to your site, at your request
 - Provide **free online marketing advice** via my [Patreon page](/services/patreon/)
 
-You may choose to host elsewhere since you will have the full source code - that's totally fine. I recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org) and [Surge](https://surge.sh) but I will help you host wherever you like.
+You may choose to host elsewhere since you will have the full source code - that's totally fine. I recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org), [Pico.sh](https://pico.sh/pgs), and [Surge](https://surge.sh) - but I will help you host wherever you like.
 
 ## Service charges (dynamic sites)
 
