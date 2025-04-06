@@ -1,7 +1,21 @@
 const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+	const { eleventyImageTransformPlugin } = await import("@11ty/eleventy-img");
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		formats: ["webp", "jpeg", "png", "svg"],
+		widths: [200, 310, 620, 900, 1200, "auto"],
+		svgShortCircuit: true,
+		htmlOptions: {
+			imgAttributes: {
+				loading: "lazy",
+				decoding: "async",
+			},
+			pictureAttributes: {},
+		},
+	});
+
 	// Add RSS plugin
 	eleventyConfig.addPlugin(pluginRss);
 
@@ -46,7 +60,7 @@ module.exports = function (eleventyConfig) {
 			layouts: "_layouts",
 			data: "_data",
 		},
-		templateFormats: ["liquid", "njk", "md"],
+		templateFormats: ["liquid", "njk", "md", "html"],
 		htmlTemplateEngine: "liquid",
 		markdownTemplateEngine: "liquid",
 	};

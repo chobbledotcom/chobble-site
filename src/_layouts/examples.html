@@ -1,0 +1,23 @@
+---
+layout: base.html
+---
+
+{{ content }}
+
+<ul class="cards">
+{%- assign sorted_clients = collections.client | sort: 'data.order' -%}
+{%- for client in sorted_clients -%}
+  <li>
+    <a href="{{ client.url }}">
+      <img
+        class="thumbnail"
+        src="/assets/examples/{{ client.fileSlug }}.png"
+        alt=""
+      />
+      <strong>{{ client.data.title }}</strong>
+    </a>
+    <br>
+    {{ client.data.snippet }}
+  </li>
+{%- endfor -%}
+</ul>

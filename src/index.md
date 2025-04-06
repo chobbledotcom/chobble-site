@@ -13,7 +13,7 @@ Everything I do is released as "open source" ([here's my source code](https://gi
 
 I have [very transparent and honest pricing](/prices/) with a flat hourly rate.
 
-My rate is **discounted 50% for charities, co-operatives and sustainable businesses.**
+My rate is **discounted 50% for charities, co-operatives, artists, musicians, and sustainable businesses.**
 
 I write [guides about building websites](/guides/), provide online marketing advice for [Patreon subscribers](/services/patreon/), and keep a [blog about my server setup](https://blog.chobble.com).
 
@@ -21,8 +21,9 @@ I am flexible and up for discussing anything.
 
 ## Services On Offer
 
-- [Static websites](/services/static-websites/) (eg Eleventy, Jekyll)
+- [Web design & development](/services/static-websites/) (eg Eleventy, Jekyll)
 - [SEO Audits](/services/seo-audits/)
+- [Website Content Advice](/services/website-content-advice/)
 - Dynamic websites (Ruby on Rails)
 - Hosting solutions and [migrations](/services/website-migrations/)
 - [Expert advice](/services/technical-advice/)
