@@ -29,7 +29,7 @@ You can host up to 20 static websites with me for **£40** per month, or **£20 
 - **Fix any bugs** that you or I spot.
 - Provide **free online marketing advice** via my [Patreon page](/services/patreon/)
 
-You may choose to host elsewhere since you will have the full source code - that's totally fine. I recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org), [Pico.sh](https://pico.sh/pgs), and [Surge](https://surge.sh) - but I will help you host wherever you like.
+You may choose to host elsewhere since you will have the full source code - that's totally fine. I recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org), [Bunny.net](https://bunny.net/), [Pico.sh](https://pico.sh/pgs), and [Surge](https://surge.sh) - but I will help you host wherever you like.
 
 ## Service charges (unmanaged sites)
 
