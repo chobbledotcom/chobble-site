@@ -13,15 +13,15 @@ order: 1
 - **Website:** [SallysBakesBury.co.uk](https://sallysbakesbury.co.uk)
 - **Source Code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/sallys-bakes)
 
-Sally's Bakes is a local bakery in Bury, Manchester, specializing in vegan cakes and pies. The business sells products at local food shops throughout the Greater Manchester area, as well as delivering to customers at their homes.
+Sally's Bakes is a local vegan bakery in Bury, Manchester. She makes really delicious vegan pies and pasties, as well as cakes, cookies, and cream eggs, and delivers them to businesses and homes across Manchester and nearby.
 
-<iframe src="https://sallysbakesbury.co.uk"></iframe>
+![The homepage of Sally's Bakes, showing a colourful green and pink design with pictures of her cakes and pasties front and centre. There's a Facebook feed, links to social media pages, and "Home", "Menu", "Blog" and "Contact" pages](/assets/examples/sallys-bakes.png)
 
 ## My Solution
 
-I created a simple website that clearly explains what Sally offers and makes it easy for customers to get in touch. The site includes key information about her products, locations, and how to place orders.
+I created a simple website that clearly shows Sally's menu (with clicks through to ingredients) and makes it really easy for customers to learn more and get in touch. The site includes all the important information about her products, delivery areas, and how to place orders.
 
-Sally needed a website she could manage herself, so I implemented a Git-based web workflow that allows her to update her menu and showcase new products without technical assistance. The site structure prioritises clarity and usability, making it straightforward for customers to find what they need.
+Sally needed a website she could easily edit herself, and so this site is edited through simple text files in a "Git" interface, which might sound technical but is actually really straightforward.
 
 ## Technical Details
 
@@ -45,4 +45,4 @@ The site gives Sally a professional online presence where customers can easily f
 
 ## Source Code
 
-The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/sallys-bakes). If you own a small food business you can use it to establish an effective online presence with straightforward technology choices. Or, you can [get in touch with me](/contact/) and I can make a site for you too!
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/sallys-bakes). If you own a small food business you can use it to build a website for yourself. Or, you can [get in touch with me](/contact/) and I can make a site for you too!
