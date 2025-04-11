@@ -1,8 +1,6 @@
 ---
-layout: example.html
 title: Vegan Prestwich
 snippet: A community of vegans based in Prestwich
-tags: client
 order: 1
 ---
 

@@ -1,8 +1,6 @@
 ---
-layout: example.html
 title: Crumpsall Folk Club
 snippet: Monthly folk club with a modern, self-managed online presence
-tags: client
 order: 1
 ---
 

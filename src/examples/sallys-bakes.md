@@ -1,8 +1,6 @@
 ---
-layout: example.html
 title: Sally's Bakes
 snippet: Vegan cakes and pies in Bury, Manchester
-tags: client
 order: 1
 ---
 

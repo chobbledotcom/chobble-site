@@ -1,8 +1,6 @@
 ---
-layout: example.html
 title: Renegade Solar
 snippet: Solar panel and battery installer covering the North West UK
-tags: client
 order: 4
 ---
 
