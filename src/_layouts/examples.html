@@ -10,6 +10,14 @@ layout: base.html
   <li>
     <a href="{{ client.url }}">
       <img
+        eleventy:widths="296"
+        sizes="
+          (min-width: 1100px) 296px,
+          (min-width: 780px) calc(50vw - 81px),
+          (min-width: 700px) calc(50vw - 45px),
+          (min-width: 400px) calc(100vw - 56px),
+          calc(32.5vw + 201px)
+        "
         class="thumbnail"
         src="/assets/examples/{{ client.fileSlug }}.png"
         alt=""
