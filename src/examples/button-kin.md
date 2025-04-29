@@ -1,5 +1,5 @@
 ---
-title: Buttonkin
+title: Button Kin
 snippet: A friendly website for tabletop games and adventures
 order: 2
 ---
