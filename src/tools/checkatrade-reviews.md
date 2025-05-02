@@ -1,15 +1,24 @@
 ---
 layout: page.html
-title: Checkatrade Reviews Fetcher
+title: Checkatrade Reviews Fetcher / Scraper
 ---
 
-# Checkatrade Reviews Fetcher
+# Checkatrade Reviews Scraper
 
-You might want to copy all of your Checkatrade reviews to JSON, for example to import them into your [static website's data files](/services/static-websites).
+You might want to **export all of your Checkatrade reviews to JSON**, for example to import them into your [static website's data files](/services/static-websites).
 
-This page lets you do that.
+This page lets you do that. The fetching happens client-side in your browsers - no information is sent to me.
 
-The fetching happens client-side in your browsers - no information is sent to me.
+You will need your Checkatrade ID. You can find this by:
+
+- Visiting your company's page on a computer
+- Right-clicking it and choosing "View Source"
+- Typing `ctrl+f` or `cmd+f` (mac) to search for `companyId`
+- The numbers immediately following this are your ID.
+
+_(Accurate May 2025 - [contact me](/contact/) if this doesn't work.)_
+
+Ready? Let's goooo!
 
 <div class="form">
   <label for="checkatradeId">Checkatrade ID:</label>
