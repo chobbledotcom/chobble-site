@@ -32,12 +32,12 @@ class="right">
 - Contact form via [FormSpark](https://formspark.io)
 - Spam protection with [BotPoison](https://botpoison.com)
 - Newsletter delivery through [Mailgun](https://mailgun.com)
-- Daily backups to [IDrive E2](https://www.idrive.com/idrive-e2)
+- Daily backups to [IDrive E2](https://www.idrive.com/s3-storage-e2/)
 - Domain registered with [Krystal](https://krystal.io)
 - Fully responsive design
 - SEO optimisation
 - [Google Search Console](https://search.google.com/search-console) integration
-- Performance monitoring with [SerpBear](https://serpbear.com)
+- Performance monitoring with [SerpBear](https://docs.serpbear.com)
 
 I deliberately chose options with low ongoing costs and ease of use rather than using a bunch of expensive WordPress plugins that need constant updates and maintenance. This approach is fairly bombproof and affordable, perfect for a community club. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
 
