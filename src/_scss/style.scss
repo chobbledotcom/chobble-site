@@ -991,3 +991,10 @@ form,
     margin: 0 auto;
   }
 }
+
+.calculator-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}

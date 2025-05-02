@@ -18,6 +18,8 @@ That rate is **discounted 50%** at **£100 per hour** for:
 - 🌞 Renewable energy businesses
 </div>
 
+**[Click here to estimate the cost of a website build.](/price-calculator/)**
+
 ## Service charges (static sites)
 
 You can host up to 20 static websites with me for **£40** per month, or **£20 if discounted**. For this charge I will:
