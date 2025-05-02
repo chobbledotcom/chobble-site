@@ -9,7 +9,7 @@ layout: base.html
   {%- for service in sorted_services -%}
     <li>
       <strong>
-        <a href="{{ service.url }}"> {{ service.data.title }} </a>
+        <a href="{{ service.url }}#content"> {{ service.data.title }} </a>
       </strong>
       <br>
       {{ service.data.snippet }}

@@ -8,7 +8,7 @@ layout: base.html
 {%- assign sorted_clients = collections.client | sort: 'data.order' -%}
 {%- for client in sorted_clients -%}
   <li>
-    <a href="{{ client.url }}">
+    <a href="{{ client.url }}#content">
       <img
         eleventy:widths="296"
         sizes="
