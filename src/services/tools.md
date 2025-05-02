@@ -4,6 +4,7 @@ snippet: Misc services I have built which you might find useful
 link_text: Tools
 description: Misc services created by Chobble web design in Manchester, provided for free.
 order: 99
+permalink: "/tools/"
 ---
 
 # Tools
