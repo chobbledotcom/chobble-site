@@ -40,6 +40,7 @@ $system-font:
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 *,
@@ -114,6 +115,13 @@ code {
   font-size: 0.8rem;
   background: #ccccccee;
   padding: 0 0.2rem;
+}
+
+article#content {
+  h1 {
+    margin-top: 0;
+    padding-top: 0;
+  }
 }
 
 pre {
@@ -295,7 +303,7 @@ header {
 main {
   background: $main-bg;
   color: $main-fg;
-  padding: 1rem 2rem 4rem;
+  padding: 2rem 2rem 4rem;
   margin: 10px 0;
   border-left: 2px solid $border-color;
   border-radius: 10px;
@@ -325,37 +333,6 @@ main {
   }
   @media (min-width: 769px) {
     margin: 30px 0;
-  }
-  @media (min-width: 1200px) {
-    &::before,
-    &::after {
-      display: block;
-      content: "";
-      background: url("/assets/carpet.jpg");
-      position: absolute;
-      top: -10px;
-      width: calc((100% - 1040px) / 2);
-      max-width: 120px;
-      height: calc(200% + 20px);
-      background-size: 100% auto;
-      opacity: 0.4;
-    }
-    &::before {
-      left: -10px;
-      mask-image: linear-gradient(
-        to left,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 1)
-      );
-    }
-    &::after {
-      right: -10px;
-      mask-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 1)
-      );
-    }
   }
 
   a {

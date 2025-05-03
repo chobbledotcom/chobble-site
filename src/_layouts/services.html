@@ -2,7 +2,7 @@
 layout: base.html
 ---
 
-<article class="services">
+<article id="content" class="services">
   {{ content }}
   <ul class="cards">
     {%- assign sorted_services = collections.service | sort: 'data.order' -%}
