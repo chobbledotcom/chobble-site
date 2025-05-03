@@ -7,19 +7,47 @@ layout: base.html
   <nav class="cards homepage">
     <a href="/services/">
       <span>Services</span>
-      <img src="/assets/network.svg" width="150" height="150" alt="" />
+      <img
+        src="/assets/network.svg"
+        width="130"
+        height="130"
+        alt=""
+        eleventy:widths="30,45,130,195"
+        sizes="(min-width: 780px) 130px, (min-width: 340px) 30px"
+      />
     </a>
     <a href="/prices/">
       <span>Prices</span>
-      <img src="/assets/store.svg" width="150" height="150" alt="" />
+      <img
+        src="/assets/store.svg"
+        width="130"
+        height="130"
+        alt=""
+        eleventy:widths="30,45,130,195"
+        sizes="(min-width: 780px) 130px, (min-width: 340px) 30px"
+      />
     </a>
     <a href="/examples/">
       <span>Examples</span>
-      <img src="/assets/examples.svg" width="150" height="150" alt="" />
+      <img
+        src="/assets/examples.svg"
+        width="130"
+        height="130"
+        alt=""
+        eleventy:widths="30,45,130,195"
+        sizes="(min-width: 780px) 130px, (min-width: 340px) 30px"
+      />
     </a>
     <a href="/contact/">
       <span>Contact</span>
-      <img src="/assets/contact.svg" width="150" height="150" alt="" />
+      <img
+        src="/assets/contact.svg"
+        width="130"
+        height="130"
+        alt=""
+        eleventy:widths="30,45,130,195"
+        sizes="(min-width: 780px) 130px, (min-width: 340px) 30px"
+      />
     </a>
   </nav>
   <div class="content">{{ content }}</div>

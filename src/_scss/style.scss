@@ -749,9 +749,9 @@ footer {
       img {
         display: block;
         margin: 0 auto;
-        width: 30%;
-        max-width: 100px;
+        width: 80px;
         height: auto;
+        margin: -10px;
       }
     }
     @media (min-width: 768px) {
@@ -764,9 +764,9 @@ footer {
           text-align: center;
         }
         img {
-          width: 100%;
+          width: 130px;
+          margin: 0.5rem auto;
           max-width: auto;
-          margin-top: 0.5rem;
         }
       }
     }
