@@ -4,7 +4,7 @@ layout: base.html
 
 <article class="examples">
   {{ content }}
-  
+
   <ul class="cards">
   {%- assign sorted_examples = collections.example | sort: 'data.order' -%}
   {%- for example in sorted_examples -%}
@@ -20,13 +20,11 @@ layout: base.html
           {% if forloop.index < 4 %}
             loading="eager"
           {% endif %}
-          eleventy:widths="296"
+          eleventy:widths="310,465,629"
           sizes="
-            (min-width: 1100px) 296px,
-            (min-width: 780px) calc(50vw - 81px),
-            (min-width: 700px) calc(50vw - 45px),
-            (min-width: 400px) calc(100vw - 56px),
-            calc(32.5vw + 201px)
+            (min-width: 1100px) 310px,
+            (min-width: 780px) calc(50vw - 45px),
+            100vw
           "
           class="thumbnail"
           src="/assets/examples/{{ example.fileSlug }}.png"
