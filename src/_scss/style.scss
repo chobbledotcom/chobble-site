@@ -525,7 +525,6 @@ main {
   background-color: $main-accent-bg;
   padding: 1.5rem;
   border-radius: 8px;
-  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   border: 1px solid rgba($main-accent-border, 0.3);
   color: $main-accent-link;
   position: relative;
@@ -647,7 +646,6 @@ footer {
 
   a {
     color: $footer-link;
-    transition: all 0.3s ease;
     position: relative;
     padding: 0 2px;
     &:hover {
