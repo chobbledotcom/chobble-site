@@ -360,9 +360,8 @@ main {
 
   a {
     color: $main-link;
-    transition: all 0.4s ease-in;
+    transition: color 0.4s ease-in;
     text-decoration-style: dotted;
-    position: relative;
 
     &:hover,
     &:active,
@@ -370,7 +369,6 @@ main {
       color: $main-fg;
       text-decoration-color: $main-link;
       text-decoration-style: solid;
-      text-shadow: 0 0 1px rgba($main-link, 0.3);
     }
 
     &.highlight {
