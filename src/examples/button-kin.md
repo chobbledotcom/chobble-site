@@ -2,6 +2,7 @@
 title: Button Kin
 snippet: A friendly website for tabletop games and adventures
 order: 2
+colour: "#f6dadf"
 ---
 
 # Indie Games Studio Website

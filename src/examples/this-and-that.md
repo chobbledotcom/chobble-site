@@ -2,6 +2,7 @@
 title: This & That Cafe
 snippet: A renowned Manchester institution serving authentic curry since 1984
 order: 1
+colour: white
 ---
 
 # This & That Cafe

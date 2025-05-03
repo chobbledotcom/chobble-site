@@ -2,6 +2,7 @@
 title: Renegade Solar
 snippet: Solar panel and battery installer covering the North West UK
 order: 4
+colour: white
 ---
 
 # Renegade Solar

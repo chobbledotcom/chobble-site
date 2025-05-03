@@ -2,6 +2,7 @@
 title: Crumpsall Folk Club
 snippet: Monthly folk club with a modern, self-managed online presence
 order: 1
+colour: "#ede2d1"
 ---
 
 # Crumpsall Folk Club

@@ -5,11 +5,20 @@ layout: base.html
 {{ content }}
 
 <ul class="cards">
-{%- assign sorted_clients = collections.client | sort: 'data.order' -%}
-{%- for client in sorted_clients -%}
+{%- assign sorted_examples = collections.example | sort: 'data.order' -%}
+{%- for example in sorted_examples -%}
   <li>
-    <a href="{{ client.url }}#content">
+    <a
+      href="{{ example.url }}#content"
+      class="example-thumb"
+      {% if example.data.colour -%}
+        style="background: {{ example.data.colour }}"
+      {% endif -%}
+    >
       <img
+        {% if forloop.index < 4 %}
+          loading="eager"
+        {% endif %}
         eleventy:widths="296"
         sizes="
           (min-width: 1100px) 296px,
@@ -19,13 +28,15 @@ layout: base.html
           calc(32.5vw + 201px)
         "
         class="thumbnail"
-        src="/assets/examples/{{ client.fileSlug }}.png"
+        src="/assets/examples/{{ example.fileSlug }}.png"
         alt=""
       />
-      <strong>{{ client.data.title }}</strong>
+    </a>
+    <a href="{{ example.url }}#content">
+      <strong>{{ example.data.title }}</strong>
     </a>
     <br>
-    {{ client.data.snippet }}
+    {{ example.data.snippet }}
   </li>
 {%- endfor -%}
 </ul>

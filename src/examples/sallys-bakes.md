@@ -2,6 +2,7 @@
 title: Sally's Bakes
 snippet: Vegan cakes and pies in Bury, Manchester
 order: 1
+colour: "#ffbee6"
 ---
 
 # Sally's Bakes

@@ -2,6 +2,7 @@
 title: Blue Pits Housing Action
 snippet: Website hosting and tech support for a social housing provider
 order: 2
+colour: white
 ---
 
 # Blue Pits Housing Action

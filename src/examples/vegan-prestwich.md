@@ -2,6 +2,7 @@
 title: Vegan Prestwich
 snippet: A community of vegans based in Prestwich
 order: 1
+colour: white
 ---
 
 # Vegan Prestwich

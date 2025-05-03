@@ -2,6 +2,7 @@
 title: Avo Coffee
 snippet: A straightforward website for a friendly cafe in Haslingden
 order: 2
+colour: "#fcf8d7"
 ---
 
 # Avo Coffee
