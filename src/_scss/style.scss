@@ -40,7 +40,6 @@ $system-font:
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 4rem;
 }
 
 *,
@@ -63,7 +62,7 @@ body {
     url("/assets/cubes.png"), linear-gradient($body-bg, $body-bg-gradient-to);
   background-attachment: fixed;
   padding: 10px;
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     padding: 30px;
     font-size: 1.2rem;
   }
@@ -79,18 +78,20 @@ ol {
   margin: 1rem 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $main-heading;
-  font-family: $header-font;
-  margin: 2rem 0 1rem;
-  line-height: 1.2;
-  font-weight: normal;
-  text-shadow: 1px 1px 0 white;
+article {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $main-heading;
+    font-family: $header-font;
+    margin: 2rem 0 1rem;
+    line-height: 1.2;
+    font-weight: normal;
+    text-shadow: 1px 1px 0 white;
+  }
 }
 
 h1 {
@@ -264,7 +265,7 @@ header {
           }
         }
       }
-      @media (min-width: 768px) {
+      @media (min-width: 769px) {
         gap: 0;
         border-radius: 5px;
         background-image: url("/assets/cubes.png");
@@ -663,7 +664,7 @@ footer {
     margin: 0;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .container {
       display: flex;
       flex-direction: row;
@@ -754,7 +755,7 @@ footer {
         margin: -10px;
       }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
       flex-direction: row;
       gap: 10px;
       a {
@@ -952,7 +953,7 @@ form,
   text-decoration: none;
   font-size: smaller;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     padding-top: 0;
     border-radius: 0 0 11px 0;
     text-decoration: none;

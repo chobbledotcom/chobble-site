@@ -2,41 +2,43 @@
 layout: base.html
 ---
 
-{{ content }}
-
-<ul class="cards">
-{%- assign sorted_examples = collections.example | sort: 'data.order' -%}
-{%- for example in sorted_examples -%}
-  <li>
-    <a
-      href="{{ example.url }}#content"
-      class="example-thumb"
-      {% if example.data.colour -%}
-        style="background: {{ example.data.colour }}"
-      {% endif -%}
-    >
-      <img
-        {% if forloop.index < 4 %}
-          loading="eager"
-        {% endif %}
-        eleventy:widths="296"
-        sizes="
-          (min-width: 1100px) 296px,
-          (min-width: 780px) calc(50vw - 81px),
-          (min-width: 700px) calc(50vw - 45px),
-          (min-width: 400px) calc(100vw - 56px),
-          calc(32.5vw + 201px)
-        "
-        class="thumbnail"
-        src="/assets/examples/{{ example.fileSlug }}.png"
-        alt=""
-      />
-    </a>
-    <a href="{{ example.url }}#content">
-      <strong>{{ example.data.title }}</strong>
-    </a>
-    <br>
-    {{ example.data.snippet }}
-  </li>
-{%- endfor -%}
-</ul>
+<article class="examples">
+  {{ content }}
+  
+  <ul class="cards">
+  {%- assign sorted_examples = collections.example | sort: 'data.order' -%}
+  {%- for example in sorted_examples -%}
+    <li>
+      <a
+        href="{{ example.url }}#content"
+        class="example-thumb"
+        {% if example.data.colour -%}
+          style="background: {{ example.data.colour }}"
+        {% endif -%}
+      >
+        <img
+          {% if forloop.index < 4 %}
+            loading="eager"
+          {% endif %}
+          eleventy:widths="296"
+          sizes="
+            (min-width: 1100px) 296px,
+            (min-width: 780px) calc(50vw - 81px),
+            (min-width: 700px) calc(50vw - 45px),
+            (min-width: 400px) calc(100vw - 56px),
+            calc(32.5vw + 201px)
+          "
+          class="thumbnail"
+          src="/assets/examples/{{ example.fileSlug }}.png"
+          alt=""
+        />
+      </a>
+      <a href="{{ example.url }}#content">
+        <strong>{{ example.data.title }}</strong>
+      </a>
+      <br>
+      {{ example.data.snippet }}
+    </li>
+  {%- endfor -%}
+  </ul>
+</article>

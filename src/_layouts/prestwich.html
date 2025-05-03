@@ -2,17 +2,18 @@
 layout: base.html
 ---
 
-<article>{{ content }}</article>
-
-<ul class="cards">
-  {%- assign sorted_services = collections.prestwich | sort: 'data.order' -%}
-  {%- for service in sorted_services -%}
-  <li>
-    <strong>
-      <a href="{{ service.url }}"> {{ service.data.link_text }} </a>
-    </strong>
-    <br>
-    {{ service.data.snippet }}
-  </li>
-  {%- endfor -%}
-</ul>
+<article class="prestwich">
+  {{ content }}
+  <ul class="cards">
+    {%- assign sorted_services = collections.prestwich | sort: 'data.order' -%}
+    {%- for service in sorted_services -%}
+    <li>
+      <strong>
+        <a href="{{ service.url }}"> {{ service.data.link_text }} </a>
+      </strong>
+      <br />
+      {{ service.data.snippet }}
+    </li>
+    {%- endfor -%}
+  </ul>
+</article>

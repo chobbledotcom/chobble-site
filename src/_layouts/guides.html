@@ -2,15 +2,17 @@
 layout: base.html
 ---
 
-<article>{{ content }}</article>
+<article>
+  {{ content }}
 
-<ul class="cards">
-{% for guide in collections.guide %}
-  <li>
-    <strong>
-      <a href="{{ guide.url }}">{{ guide.data.title }}</a>
-    </strong>
-    <br>
-    {{ guide.data.snippet }}
-  </li>
-{%- endfor -%}
+  <ul class="cards">
+  {% for guide in collections.guide %}
+    <li>
+      <strong>
+        <a href="{{ guide.url }}">{{ guide.data.title }}</a>
+      </strong>
+      <br>
+      {{ guide.data.snippet }}
+    </li>
+  {%- endfor -%}
+</article>
