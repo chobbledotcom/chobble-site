@@ -31,10 +31,12 @@ $footer-link: #ffffff;
 $border-color: #fff;
 
 $header-font: "Bayland", display;
-$sub-header-font: Superclarendon, "Bookman Old Style", "URW Bookman",
-  "URW Bookman L", "Georgia Pro", Georgia, serif;
-$system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$sub-header-font:
+  Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L",
+  "Georgia Pro", Georgia, serif;
+$system-font:
+  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 html {
   scroll-behavior: smooth;
@@ -57,8 +59,8 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background-color: $body-bg;
-  background-image: url("/assets/cubes.png"),
-    linear-gradient($body-bg, $body-bg-gradient-to);
+  background-image:
+    url("/assets/cubes.png"), linear-gradient($body-bg, $body-bg-gradient-to);
   background-attachment: fixed;
   padding: 10px;
   @media (min-width: 769px) {
@@ -403,6 +405,7 @@ main {
   hr {
     margin: 3rem 0;
     color: #ad44ce;
+    opacity: 0.3;
     border-style: dashed;
   }
 }
@@ -668,7 +671,8 @@ footer {
       gap: 2rem;
       padding: 6rem 2rem 2rem;
       background-color: $body-bg;
-      background-image: url("/assets/cubes.png"),
+      background-image:
+        url("/assets/cubes.png"),
         linear-gradient($body-bg, $body-bg-gradient-to);
       background-attachment: fixed fixed;
       transition: right 0.4s cubic-bezier(0.19, 1, 0.22, 1);

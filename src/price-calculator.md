@@ -37,7 +37,7 @@ You may prefer to handle some of these jobs yourself. That's fine by me!
 
 I'll give you a login to edit your site and as much advice as I can.
 
-<p><strong>Website builds</strong></p>
+**Website builds**
 
 <ul class="calculator-items">
   {% include "calculator-item.html", hours: 1, description: "Basic website design, based on the Chobble Template" %}
@@ -48,7 +48,7 @@ I'll give you a login to edit your site and as much advice as I can.
   {% include "calculator-item.html", hours: 1, description: "Content management system via PagesCMS" %}
 </ul>
 
-<p><strong>Content and media</strong></p>
+**Content and media**
 
 <ul class="calculator-items">
   {% include "calculator-item.html", hours: 3, description: "Stock image sourcing" %}
@@ -58,33 +58,31 @@ I'll give you a login to edit your site and as much advice as I can.
   {% include "calculator-item.html", hours: 2, description: "Sourcing a logo design from Fiverr.com" %}
 </ul>
 
-<p><strong>Newsletters</strong></p>
+**Newsletters**
 
 <ul class="calculator-items">
   {% include "calculator-item.html", hours: 2, description: "Ghost newsletter platform setup" %}
   {% include "calculator-item.html", hours: 1, description: "Ghost template tweaking (the base templates look good already)" %}
 </ul>
 
-<h2>Totals</h2>
+## Totals
 
-<ul>
-  <li>
-    <strong>Total Hours:</strong>
-    <span id="total-hours">0</span>
-  </li>
-  <li>
-    <strong>Hourly Rate:</strong>
-    £<span id="hourly-rate">200</span>
-  </li>
-  <li>
-    <strong>Estimated Cost:</strong>
-    £<span id="total-cost">0</span>
-  </li>
-</ul>
+- **Total Hours:** <span id="total-hours">0</span>
+- **Hourly Rate:** £<span id="hourly-rate">200</span>
+- **Estimated Cost:** £<span id="total-cost">0</span>
 
-<p>
-  This is an estimate only, but if it sounds good please <strong><a href="/contact/">get in touch for a proper quote!</a></strong>
-</p>
+This is an estimate only, but if it sounds good please **[get in touch for a proper quote!](/contact/)**
+
+---
+
+## Monthly costs
+
+You can either host your new website yourself or pay me to host it - either is totally fine. If you'd like me to host it, my prices are:
+
+- **£10/month:** Hosting only, with no support or marketing advice. You can make changes yourself or employ someone to help you.
+- **£40/month:** Hosting, support, uptime alerts, search position tracking, Google Search Console monitoring, and [marketing advice](/services/patreon/). I'll support you with any day to day maintenance and expansion of your site.
+
+These prices are also **discounted 50%** for charities, co-operatives, artists, musicians, and sustainable businesses.
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -112,3 +110,7 @@ I'll give you a login to edit your site and as much advice as I can.
     calculateTotal();
   });
 </script>
+
+---
+
+**This calculator is open source!** I try and release everything I do under the copyleft [AGPLv3 license](https://www.gnu.org/licenses/agpl-3.0.en.html), which means you can use it for your own open source projects. You can right-click the page to see the code - it's an inline script - or else [click here to check it out on my Git repository](https://git.chobble.com/chobble/chobble-site/src/branch/main/src/price-calculator.md).
