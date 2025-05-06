@@ -525,13 +525,15 @@ main {
     z-index: 2;
   }
 
-  span,
-  h2,
-  strong {
-    font-family: $sub-header-font;
-    font-size: 1.5rem;
-    font-weight: bold;
-    transition: all 0.3s ease;
+  li {
+    span,
+    h2,
+    strong {
+      font-family: $sub-header-font;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
   }
 
   h2,
