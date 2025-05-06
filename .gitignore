@@ -7,4 +7,3 @@ _site
 node_modules
 package.json
 result
-flake.lock
