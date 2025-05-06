@@ -2,16 +2,15 @@
 layout: base.html
 ---
 
-<article id="content" class="services">
+<article id="content">
   {{ content }}
-  <ul class="cards">
+  <ul class="cards services">
     {%- assign sorted_services = collections.service | sort: 'data.order' -%}
     {%- for service in sorted_services -%}
     <li>
-      <strong>
+      <h2>
         <a href="{{ service.url }}#content"> {{ service.data.title }} </a>
-      </strong>
-      <br />
+      </h2>
       {{ service.data.snippet }}
     </li>
     {%- endfor -%}

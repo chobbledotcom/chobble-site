@@ -31,10 +31,11 @@ layout: base.html
           alt=""
         />
       </a>
-      <a href="{{ example.url }}#content">
-        <strong>{{ example.data.title }}</strong>
-      </a>
-      <br>
+      <h2>
+        <a href="{{ example.url }}#content">
+          {{- example.data.title -}}
+        </a>
+      </h2>
       {{ example.data.snippet }}
     </li>
   {%- endfor -%}

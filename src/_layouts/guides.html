@@ -8,10 +8,9 @@ layout: base.html
   <ul class="cards">
   {% for guide in collections.guide %}
     <li>
-      <strong>
+      <h2>
         <a href="{{ guide.url }}">{{ guide.data.title }}</a>
-      </strong>
-      <br>
+      </h2>
       {{ guide.data.snippet }}
     </li>
   {%- endfor -%}

@@ -488,6 +488,13 @@ main {
   padding: 0;
   list-style-type: none;
   line-height: 150%;
+
+  &.services {
+    text-align: center;
+    li {
+      align-content: center;
+    }
+  }
 }
 
 @keyframes cardHover {
@@ -525,15 +532,11 @@ main {
     z-index: 2;
   }
 
-  li {
-    span,
-    h2,
-    strong {
-      font-family: $sub-header-font;
-      font-size: 1.5rem;
-      font-weight: bold;
-      transition: all 0.3s ease;
-    }
+  h2 {
+    font-family: $sub-header-font;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
   }
 
   h2,
@@ -719,10 +722,11 @@ footer {
       display: flex;
       flex-direction: row;
       text-align: center;
-      span {
+      h2 {
         flex-grow: 1;
         align-content: center;
         text-align: left;
+        margin: 0;
       }
       img {
         display: block;
@@ -738,7 +742,7 @@ footer {
       a {
         width: 25%;
         flex-direction: column;
-        span {
+        h2 {
           text-align: center;
         }
         img {
