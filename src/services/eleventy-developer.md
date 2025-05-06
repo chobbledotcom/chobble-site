@@ -92,7 +92,7 @@ I've used a bunch of static site generators and CMS platforms over my years nerd
 
 **Future-proof technology.** Eleventy outputs standard web code that will continue to work for decades, unlike proprietary platforms that might change prices, remove features, or disappear.
 
-**Affordable hosting options.** Static sites can be hosted for free or very cheaply on services like Neocities, , or Cloudflare Pages.
+**Affordable hosting options.** Static sites can be hosted for free or very cheaply on services like Neocities, Bunny.net, Netlify, or Cloudflare Pages.
 
 **Excellent SEO potential.** Fast-loading, semantically structured pages rank better in search results.
 
