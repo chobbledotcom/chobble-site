@@ -9,7 +9,7 @@ colour: "#ebe3d8"
 
 - **Client:** A&S Home Furnishings
 - **Services:** Website migration and hosting
-- **Website:** [AvoCoffee.co.uk](https://ashomefurnishings.co.uk)
+- **Website:** [ASHomeFurnishings.co.uk](https://ashomefurnishings.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/as-home-furnishings)
 
 My brother [Kevin](https://kevinburkeservices.com) had worked with Andy and Sally at A&S Home Furnishings, a furniture sales / home removals / clearances company in Barton-upon-Humber, and when he heard they were having website issues he put them in touch with me.
