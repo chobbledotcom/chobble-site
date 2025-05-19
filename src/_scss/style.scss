@@ -305,7 +305,7 @@ header {
 main {
   background: $main-bg;
   color: $main-fg;
-  padding: 2rem 2rem 4rem;
+  padding: 3rem 2rem 4rem;
   margin: 10px 0;
   border-left: 2px solid $border-color;
   border-radius: 10px;
@@ -928,6 +928,8 @@ form,
 }
 
 .back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
   background: white;
   padding: 5px 20px 5px 10px;
   border-radius: 5px;
@@ -941,6 +943,7 @@ form,
     position: absolute;
     top: 0;
     left: 0;
+    margin-bottom: 0;
   }
 }
 
