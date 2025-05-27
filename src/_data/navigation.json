@@ -11,6 +11,11 @@
       "section": "services"
     },
     {
+      "text": "Reviews",
+      "url": "/reviews/",
+      "section": "reviews"
+    },
+    {
       "text": "Examples",
       "url": "/examples/",
       "section": "examples"
