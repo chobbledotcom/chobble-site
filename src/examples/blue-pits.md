@@ -18,7 +18,7 @@ Blue Pits is a CQC-registered personal care provider and social housing provider
 
 ![The Blue Pits homepage, showing a simple blue theme with mostly text and a prominent Care Quality Commission "Good" rating.](/assets/examples/blue-pits.png)
 
-## Why This Project Matters for Other Charities
+## Big Cost Savings
 
 **Web agencies quoted Blue Pits £2500+ for a basic website** - typical rip-off pricing when they see a "big organisation" and assume unlimited budgets. The reality? **This website would cost £600-800 at my discounted charity rates** (£100/hour at 50% off) and takes 6-8 hours of actual work.
 
