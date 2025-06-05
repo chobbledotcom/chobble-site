@@ -13,7 +13,7 @@ If you've got graphic design skills, you can make a Wix site look decent. But ma
 
 ## What I Actually Do For Wix Users
 
-**I'm not affiliated with Wix** - which means I'll give you honest advice about whether staying on their platform makes sense for your business. My job is to save you money and headaches in the long run, not up-sell you anything.
+**I'm not affiliated with Wix** - which means I'll give you honest advice about whether staying on their platform makes sense for your business. My job is to save you money and headaches in the long run, not upsell you anything.
 
 Here's how I help with Wix sites:
 

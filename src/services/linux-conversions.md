@@ -1,51 +1,48 @@
 ---
-title: Linux Installations
-description: Escape the Microsoft bubble with free and easy to use Linux installations on your laptop
-snippet: Give your Windows laptop new life with Linux
+title: Linux Installations & Conversions
+description: Switch your slow Windows PC to fast, secure Linux. Serving Greater Manchester with laptop conversions, web server migrations, and Ubuntu support.
+snippet: Fix your slow Windows machine by installing Linux
 order: 2
 ---
 
-# Linux Laptop Conversions in Prestwich
+# Linux Conversions in Prestwich & Manchester
 
-**Give your Windows machine a new lease of life by switching it over to Linux.**
+**Is your Windows PC running slow? Tired of Microsoft's bloatware and endless annoying updates? I can convert your laptop or desktop to Linux and give it new life.**
 
-## What is Linux?
+Based in Prestwich, I travel across Greater Manchester helping people escape Windows frustrations with fast, reliable Linux installations.
 
-Linux is a type of "operating system" (like Windows) for your computer. Unlike Windows - which exists to make profit for one company, Microsoft - Linux is free and is made with an "open" license by a huge community of people, with software that is built in similar collaborative ways.
+## Why Switch to Linux?
 
-You can install Ubuntu Linux on your laptop or PC and will probably find that it runs faster than Windows, is easy to use, doesn't have any adverts, is very customisable, and has all the free software you need.
+Most people come to me because their Windows machine has "gone slow" - usually because **Windows is bloated software** that struggles on budget PCs and older hardware, or because **resource-heavy drivers** from printers and scanners are constantly running in the background hogging CPU. Lately I'm also seeing people frustrated that **Windows 11 won't run** on their perfectly good but "unsupported" machine, plus growing **privacy concerns** about Microsoft's data collection and ads.
 
-I have installed Ubuntu dozens of times over the years and the process is very straightforward for me, but if it sounds daunting to you then you may be interested in my Linux Laptop Conversion service.
+Linux is people-centred rather than profit-centred. It's faster, more straightforward, and doesn't treat you like a product to monetise.
 
-_I'm also happy to install any other Linux variant, set up a new laptop from scratch, advise you about your setup, or any other consultancy type of thing - [contact me](/contact/)_
+## Success Stories
 
-## Linux Conversion Steps
+I've breathed new life into machines that Windows had written off. One friend's **10+ year old media center PC** was gathering dust until I installed Ubuntu - now it's perfect for emails and web browsing and has been running happily for years. I helped a **parish council office migration** by switching them to Ubuntu with Nextcloud backups, saving them ongoing Microsoft licensing costs. I've also done **web server conversions** for local organizations like [Blue Pits](https://bluepitshousingaction.co.uk), migrating them from expensive Windows hosting to Linux static sites and **saving them £25+ monthly** in hosting costs.
 
-1. **Back up your data to USB:** Let me know if you're storing files anywhere other than your Documents folder.
+## What I Can Help With
 
-2. **Replace Windows with Ubuntu Linux:** I'll follow [this guide](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview) to create a bootable USB stick of Ubuntu, and use that to **delete your Windows partition** and **install Ubuntu** on the laptop instead.
+For **laptop and desktop conversions**, I typically do full Windows replacement with Ubuntu (recommended for beginners), handle data migration from whatever software you're currently using, and check hardware compatibility with advice on printer/scanner support. My turnaround is quick - usually 1-2 days maximum.
 
-3. **Install free apps:** There are probably [free and open source alternatives](https://gist.github.com/MMachado05/89ddebd8b28cbb648a5c2f574dc21338) to the expensive apps you previously used. Lets get them installed by following [this guide](https://help.ubuntu.com/stable/ubuntu-help/addremove.html.en).
+I also offer **advanced Linux services** like **NixOS installations** for technically adventurous users (I use it myself - see [my blog](https://blog.chobble.com/blog/)), **web server migrations** from Windows to Linux hosting, and **dual-boot setups** (though I recommend full conversion where possible). I'm happy to help with custom configurations and ongoing support.
 
-4. **Restore the backup:** I'll move the backed-up files back onto your laptop, into their new homes in Linux.
+I collect and deliver throughout North Manchester - Prestwich, Bury, Whitefield, Radcliffe, and across the wider Manchester area. There's need to travel to me unless you're outside the region.
 
-## What's Included
+## The Conversion Process
 
-- **Basic Service ([2 hours](/prices/))**
-  - Latest Ubuntu LTS installation (or your distro of choice)
-  - Document / Pictures / Download preservation (up to 500GB)
-  - Ubuntu Pro subscription (10 years of updates)
-  - Firefox with Ublock Origin pre-installed
-  - Basic system setup and testing
-- **Premium Service ([4+ hours](/prices/))**
-  - Everything in Basic, plus:
-  - In-person walkthrough session
-  - Custom system setup
-  - Software installation assistance
-  - Ubuntu usage training
+My process is straightforward: I start with **data backup** to preserve all your documents, photos, and important files, then do the **Ubuntu installation** as a complete Windows replacement with the latest Long Term Support version. Next comes **software setup** where I install free alternatives to your existing programs and Firefox with ad-blocking built in. I follow up with **hardware testing** to ensure everything works properly before handover, and finish with **basic training** to show you the essentials so you can get started confidently.
 
-## For Prestwich Laptop Owners
+## Honest Hardware Advice
 
-If you're local to Prestwich I can collect and drop off your laptop. If you're outside of Prestwich, you're going to have to come to me - sorry!
+Some older peripherals only work with Windows - if that's your situation, I'll help you find better, universally-compatible alternatives. Companies that make Windows-only drivers are usually rubbish anyway.
 
-**[Contact me to discuss Linux laptops!](/contact/)**
+For unsupported hardware, I can recommend replacement options that work better with Linux and are often higher quality and more user-focused.
+
+## Flexible Service & Pricing
+
+I charge my standard [hourly rate](/prices/) with no packages or upselling. Need something specific? Want to learn about command line usage or server administration? I'm happy to figure out documentation together - my years of Linux experience make tackling new challenges straightforward.
+
+If you're running a charity, co-operative, or sustainable business, you get 50% off my rates.
+
+**Ready to ditch Windows frustration? [Contact me](/contact/) to discuss your Linux conversion.**
