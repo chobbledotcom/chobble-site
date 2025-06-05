@@ -25,6 +25,23 @@ Here's how I help with Wix sites:
 
 **Export your data safely** - If you decide Wix isn't right for you, I can help extract your content and get it ready for a better platform.
 
+## Specific Wix Features I Can Set Up
+
+If you need any of these implemented on your Wix site, I can dig through their interface and documentation to get them working properly:
+
+- **Online stores** using Wix eCommerce with payment processing and inventory management
+- **Booking systems** with Wix Scheduling for appointments, classes, or events
+- **Member-only areas** using Wix's permissions system for exclusive content
+- **Product databases** that populate your site automatically from spreadsheets or APIs
+- **Media galleries** for photos, videos, or music with proper optimization
+- **Contact forms** with custom fields, validation, and email automation
+- **Blog integration** with SEO-friendly URLs and social sharing
+- **Third-party integrations** connecting Wix to other tools you use
+- **Custom animations** and interactive elements (within Wix's constraints)
+- **Multi-language sites** with proper URL structure and content management
+
+The full scope of what's possible is huge - [Wix's developer documentation](https://dev.wix.com/) gives you an idea of just how much functionality they pack in. The problem is that finding and configuring what you actually need can take hours of clicking through menus and reading confusing help articles.
+
 ## The Honest Truth About Wix
 
 Wix works fine if your website isn't crucial to your business and you're happy with the ongoing costs. But if your site is an important sales funnel, you'll quickly hit its limitations. **Wix can change their prices or break your site's functionality overnight** - I've seen customers whose sites suddenly stopped working after Wix changed how their JavaScript worked. When they complained, Wix blamed the customer.
