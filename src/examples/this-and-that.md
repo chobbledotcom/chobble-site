@@ -1,11 +1,11 @@
 ---
 title: This & That Cafe
-snippet: How a simple, fast website keeps Manchester's most famous curry house busy
+snippet: A simple, fast website for Manchester's most famous curry house
 order: 1
 colour: white
 ---
 
-# This & That Cafe: A Restaurant Website That Actually Works
+# This & That Cafe Website
 
 **Proving that restaurants don't need complicated websites - just fast, honest ones that answer customer questions immediately**
 
@@ -58,6 +58,6 @@ For restaurants that focus on quality over gimmicks, this approach proves you do
 
 ## Source code
 
-The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that). If you'd like a site like it, you can clone the repo - but I'd advise starting from the newer [Chobble Template](https://git.chobble.com/chobble/chobble-template) instead. 
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that). If you'd like a site like it, you can clone the repo - but I'd advise starting from the newer [Chobble Template](https://git.chobble.com/chobble/chobble-template) instead.
 
 **Is your restaurant website slow, expensive, or constantly breaking? Tired of digital marketing companies trying to upsell you services you don't need? [Contact me](/contact/) to discuss a simple, reliable website that actually helps your business instead of creating more work for you.**
