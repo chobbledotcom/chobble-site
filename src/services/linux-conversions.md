@@ -19,7 +19,7 @@ Linux is people-centred rather than profit-centred. It's faster, more straightfo
 
 ## Success Stories
 
-I've breathed new life into machines that Windows had written off. One friend's **10+ year old media center PC** was gathering dust until I installed Ubuntu - now it's perfect for emails and web browsing and has been running happily for years. I helped a **parish council office migration** by switching them to Ubuntu with Nextcloud backups, saving them ongoing Microsoft licensing costs. I've also done **web server conversions** for local organizations like [Blue Pits](https://bluepitshousingaction.co.uk), migrating them from expensive Windows hosting to Linux static sites and **saving them £25+ monthly** in hosting costs.
+I've breathed new life into machines that Windows had written off. One friend's **10+ year old media center PC** was gathering dust until I installed Ubuntu - now it's perfect for emails and web browsing and has been running happily for years. I helped a **parish council office migration** by switching them to Ubuntu with Nextcloud backups, saving them ongoing Microsoft licensing costs. I've also done **web server conversions** for local organisations like [Blue Pits](https://bluepitshousingaction.co.uk), migrating them from expensive Windows hosting to Linux static sites and **saving them £25+ monthly** in hosting costs.
 
 ## What I Can Help With
 
