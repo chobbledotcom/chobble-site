@@ -43,6 +43,14 @@ All Wix work is done remotely. You'll give me temporary access to your site, I'l
 
 **If you're wrestling with Wix's interface or wondering whether it's the right fit for your business, [get in touch](/contact/) and I'll give you straight answers.**
 
+## Local Wix Help in Prestwich & Manchester
+
+While all my Wix work can be done remotely, **if you're based in Prestwich or nearby areas of Manchester**, I'm happy to meet up for a proper chat about your website strategy. Sometimes it's easier to explain complex technical concepts face-to-face, especially when we're weighing up whether to stick with Wix or move to something better.
+
+I can meet you at a local café, your office, or wherever suits you best. This works particularly well if you're trying to decide between platforms or need to understand the long-term implications of your website choices. **No obligation** - I'm always happy to help local businesses make informed decisions, even if that means recommending you sort your Wix issues yourself rather than paying me.
+
+Check out my other [Prestwich-focused services](/prestwich/) if you're a local business looking for broader web design or [SEO help](/prestwich/search-engine-optimisation/).
+
 ## Frequently Asked Questions
 
 **Q: How much does Wix help cost compared to just paying Wix directly?**
