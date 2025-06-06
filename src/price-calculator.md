@@ -85,30 +85,54 @@ You can either host your new website yourself or pay me to host it - either is t
 These prices are also **discounted 50%** for charities, co-operatives, artists, musicians, and sustainable businesses.
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  (function() {
+    let initialized = false;
     const itemsSelector = '.calculator-items input[type="checkbox"]:checked';
     const rateSelector = 'input[name="rate"]:checked';
     const inputsSelector = 'input[type="checkbox"], input[type="radio"]';
 
     const calculateTotal = () => {
-      const rate = document.querySelector(rateSelector).value;
+      const rateElement = document.querySelector(rateSelector);
+      if (!rateElement) return;
+      
+      const rate = rateElement.value;
 
       let totalHours = 0;
       document.querySelectorAll(itemsSelector).forEach(item => {
         totalHours += parseFloat(item.getAttribute('data-hours'));
       });
 
-      document.getElementById('total-hours').textContent = totalHours;
-      document.getElementById('hourly-rate').textContent = rate;
-      document.getElementById('total-cost').textContent = totalHours * rate;
+      const totalHoursEl = document.getElementById('total-hours');
+      const hourlyRateEl = document.getElementById('hourly-rate');
+      const totalCostEl = document.getElementById('total-cost');
+      
+      if (totalHoursEl) totalHoursEl.textContent = totalHours;
+      if (hourlyRateEl) hourlyRateEl.textContent = rate;
+      if (totalCostEl) totalCostEl.textContent = totalHours * rate;
     };
 
-    document.querySelectorAll(inputsSelector).forEach(input => {
-      input.addEventListener('change', calculateTotal);
-    });
+    const initCalculator = () => {
+      if (initialized) return;
+      
+      const inputs = document.querySelectorAll(inputsSelector);
+      if (inputs.length === 0) return;
+      
+      inputs.forEach(input => {
+        input.addEventListener('change', calculateTotal);
+      });
 
-    calculateTotal();
-  });
+      calculateTotal();
+      initialized = true;
+    };
+
+    const teardownCalculator = () => {
+      initialized = false;
+    };
+
+    document.addEventListener('DOMContentLoaded', initCalculator);
+    document.addEventListener('turbo:load', initCalculator);
+    document.addEventListener('turbo:before-cache', teardownCalculator);
+  })();
 </script>
 
 ---
