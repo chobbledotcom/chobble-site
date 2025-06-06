@@ -4,53 +4,75 @@
   let urls;
   let container;
   let placeId;
+  let resultsContainer;
+  let initialized = false;
+  let formListener = null;
+  
+  const cleanup = () => {
+    if (formListener && container) {
+      container.removeEventListener("submit", formListener, true);
+      formListener = null;
+    }
+    
+    if (urls) {
+      urls.querySelectorAll("input").forEach((input) => {
+        input.onfocus = null;
+        input.onmouseup = null;
+      });
+    }
+    
+    initialized = false;
+  };
 
   window.initGooglePlacesFinder = () => {
+    if (initialized) return;
+    
+    container = document.querySelector(".google-maps");
+    if (!container) return;
+    
     let map = new google.maps.Map(document.createElement("div"));
     service = new google.maps.places.PlacesService(map);
 
-    container = document.querySelector(".google-maps");
     urls = container.querySelector(".urls");
     placeId = container.querySelector(".place-id");
     resultsContainer = container.querySelector(".results-container");
 
     addFormEventListener();
     setInputFocusSelect();
+    initialized = true;
   };
 
   function addFormEventListener() {
-    container.addEventListener(
-      "submit",
-      (e) => {
-        e.preventDefault();
-        urls.style.display = "none";
-        placeId.style.display = "none";
-        resultsContainer.style.display = "none";
+    formListener = (e) => {
+      e.preventDefault();
+      if (urls) urls.style.display = "none";
+      if (placeId) placeId.style.display = "none";
+      if (resultsContainer) resultsContainer.style.display = "none";
 
-        const query = container.querySelector(".search-text").value;
-        if (!query) return;
+      const query = container.querySelector(".search-text").value;
+      if (!query) return;
 
-        const request = {
-          query: query,
-          fields: [
-            "place_id",
-            "name",
-            "formatted_address",
-            "rating",
-            "user_ratings_total",
-          ],
-        };
+      const request = {
+        query: query,
+        fields: [
+          "place_id",
+          "name",
+          "formatted_address",
+          "rating",
+          "user_ratings_total",
+        ],
+      };
 
-        service.textSearch(request, (results, status) => {
-          if (status === google.maps.places.PlacesServiceStatus.OK && results) {
-            loadResults(results);
-          } else {
-            alert("No results found");
-          }
-        });
-      },
-      true,
-    );
+      service.textSearch(request, (results, status) => {
+        if (status === google.maps.places.PlacesServiceStatus.OK && results) {
+          loadResults(results);
+        } else {
+          alert("No results found");
+        }
+      });
+    };
+    
+    container.addEventListener("submit", formListener, true);
   }
 
   function loadResults(places) {
@@ -118,6 +140,8 @@
   }
 
   function setInputFocusSelect() {
+    if (!urls) return;
+    
     urls.querySelectorAll("input").forEach((input) => {
       input.onfocus = () => {
         input.select();
@@ -132,4 +156,13 @@
       });
     });
   }
+  
+  // Turbo compatibility
+  document.addEventListener("turbo:load", () => {
+    if (window.google && window.google.maps && document.querySelector(".google-maps")) {
+      window.initGooglePlacesFinder();
+    }
+  });
+  
+  document.addEventListener("turbo:before-cache", cleanup);
 })();

@@ -47,47 +47,65 @@ Ready? Let's goooo!
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const fetchButton = document.getElementById('fetchButton');
-  const statusArea = document.getElementById('statusArea');
-  const resultArea = document.getElementById('resultArea');
-  const statusEl = document.getElementById('status');
-  const progressBar = document.getElementById('progressBar');
-  const progressContainer = progressBar.parentElement;
-  const resultJson = document.getElementById('resultJson');
-  const copyButton = document.getElementById('copyButton');
+(function() {
+  let initialized = false;
+  let fetchButtonListener = null;
+  let copyButtonListener = null;
 
-  fetchButton.addEventListener('click', async () => {
-    const checkatradeId = document.getElementById('checkatradeId').value.trim();
-
-    if (!checkatradeId) {
-      alert('Please enter a Checkatrade ID');
+  const initCheckatradeTool = () => {
+    if (initialized) return;
+    
+    const fetchButton = document.getElementById('fetchButton');
+    const statusArea = document.getElementById('statusArea');
+    const resultArea = document.getElementById('resultArea');
+    const statusEl = document.getElementById('status');
+    const progressBar = document.getElementById('progressBar');
+    const progressContainer = progressBar?.parentElement;
+    const resultJson = document.getElementById('resultJson');
+    const copyButton = document.getElementById('copyButton');
+    
+    if (!fetchButton || !statusArea || !resultArea || !statusEl || !progressBar || !resultJson || !copyButton) {
       return;
     }
 
-    statusArea.style.display = 'block';
-    resultArea.style.display = 'none';
-    progressContainer.style.display = 'none';
-    statusEl.textContent = 'Fetching reviews from Checkatrade API...';
+    fetchButtonListener = async () => {
+      const checkatradeId = document.getElementById('checkatradeId').value.trim();
 
-    try {
-      await fetchReviews(checkatradeId);
-    } catch (error) {
-      statusEl.textContent = `Error: ${error.message}`;
-    }
-  });
+      if (!checkatradeId) {
+        alert('Please enter a Checkatrade ID');
+        return;
+      }
 
-  copyButton.addEventListener('click', () => {
-    resultJson.select();
-    document.execCommand('copy');
+      statusArea.style.display = 'block';
+      resultArea.style.display = 'none';
+      progressContainer.style.display = 'none';
+      statusEl.textContent = 'Fetching reviews from Checkatrade API...';
 
-    // Visual feedback
-    const originalText = copyButton.textContent;
-    copyButton.textContent = 'Copied!';
-    setTimeout(() => {
-      copyButton.textContent = originalText;
-    }, 2000);
-  });
+      try {
+        await fetchReviews(checkatradeId);
+      } catch (error) {
+        statusEl.textContent = `Error: ${error.message}`;
+      }
+    };
+    
+    fetchButton.addEventListener('click', fetchButtonListener);
+
+    copyButtonListener = () => {
+      resultJson.select();
+      document.execCommand('copy');
+
+      // Visual feedback
+      const originalText = copyButton.textContent;
+      copyButton.textContent = 'Copied!';
+      setTimeout(() => {
+        copyButton.textContent = originalText;
+      }, 2000);
+    };
+    
+    copyButton.addEventListener('click', copyButtonListener);
+    
+    initialized = true;
+  };
 
   async function fetchReviews(checkatradeId) {
     const BASE_URL = `https://api.checkatrade.com/v1/consumer-public/reviews/${checkatradeId}`;
@@ -191,7 +209,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     return sum / reviews.length;
   }
-});
+  
+  const cleanupCheckatradeTool = () => {
+    const fetchButton = document.getElementById('fetchButton');
+    const copyButton = document.getElementById('copyButton');
+    
+    if (fetchButton && fetchButtonListener) {
+      fetchButton.removeEventListener('click', fetchButtonListener);
+      fetchButtonListener = null;
+    }
+    
+    if (copyButton && copyButtonListener) {
+      copyButton.removeEventListener('click', copyButtonListener);
+      copyButtonListener = null;
+    }
+    
+    initialized = false;
+  };
+  
+  document.addEventListener('DOMContentLoaded', initCheckatradeTool);
+  document.addEventListener('turbo:load', initCheckatradeTool);
+  document.addEventListener('turbo:before-cache', cleanupCheckatradeTool);
+})();
 </script>
 
 ---
