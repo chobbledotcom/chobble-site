@@ -65,7 +65,7 @@ I can usually get you from concept to live site in 3-10 hours of development tim
 I'll set you up with a blog system, game and adventure listings, newsletter signup, Stripe payments, responsive image processing, RSS feeds, JSON-LD structured data, mobile-responsive design, and automated deployment.
 
 **Is it easy to edit?**  
-Yes - I build them for easy content updates through simple text files. You won't need any technical knowledge for adding games or blog posts. If you want it even easier, I could set you up with [PagesCMS](https://pagescms.org/) - that gives you a visual editor so you can update content without touching any code files.
+Yes - I build them for easy content updates through simple text files. You won't need any technical knowledge for adding games or blog posts. If you want it even easier, I could set you up with PagesCMS ([pagescms.org](https://pagescms.org/)) - that gives you a visual editor so you can update content without touching any code files.
 
 **Template or custom build?**  
 I'd say try the template if you're comfortable with command line basics. Get me to do a custom build if that sounds intimidating, or ask a nerdy friend to set up the template for you.
