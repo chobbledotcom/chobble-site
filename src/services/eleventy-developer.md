@@ -70,7 +70,7 @@ I can **transform your WordPress, Wix, Squarespace** or other sites into a tidy 
 
 If you're using another static site generator like Jekyll or Hugo, it's probably pretty straightforward to **switch to Eleventy**. Since Eleventy is a very flexible generator you can store files in any location and it largely "just works". This makes switching from other SSGs to Eleventy is easier than the other way around.
 
-I've converted a bunch of sites from Jekyll to Eleventy - some examples are [Buttonkin](/examples/buttonkin) and [Vegan Prestwich](/examples/vegan-prestwich/). Jekyll is cool but I was frustrated at the slow pace of development, and extending it isn't as straightforward as writing JavaScript, so switching felt like the clear best long-term choice.
+I've converted a bunch of sites from Jekyll to Eleventy - some examples are [Buttonkin](/examples/button-kin) and [Vegan Prestwich](/examples/vegan-prestwich/). Jekyll is cool but I was frustrated at the slow pace of development, and extending it isn't as straightforward as writing JavaScript, so switching felt like the clear best long-term choice.
 
 **[Contact me if you need help switching to Eleventy!](/contact/)**
 
