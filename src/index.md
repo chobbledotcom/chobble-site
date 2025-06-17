@@ -5,6 +5,8 @@ heading: Web & Software Design in Prestwich
 description: Tech consultants and web developers in Prestwich, Manchester
 ---
 
+<div class="text-card">
+
 **I'm Stef, a web and software developer for over 20 years, based in Prestwich, Manchester.**
 
 I can help you succeed online by demystifying websites, hosting, online marketing, and tech in general.
@@ -19,6 +21,9 @@ I write [guides about building websites](/guides/), provide online marketing adv
 
 I am flexible and up for discussing anything.
 
+</div>
+<div class="text-card">
+
 ## Services On Offer
 
 - [Web design & development](/services/static-websites/) (eg Eleventy, Jekyll)
@@ -29,3 +34,5 @@ I am flexible and up for discussing anything.
 - [Expert advice](/services/technical-advice/)
 
 [Learn more about my services here](/services/) or [contact me](/contact/) to get started.
+
+</div>

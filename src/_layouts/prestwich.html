@@ -2,7 +2,7 @@
 layout: base.html
 ---
 
-<article class="prestwich">
+<article id="content" class="prestwich">
   {{ content }}
   <ul class="cards">
     {%- assign sorted_services = collections.prestwich | sort: 'data.order' -%}

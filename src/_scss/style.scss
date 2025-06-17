@@ -508,6 +508,7 @@ main {
 }
 
 .card,
+.text-card,
 .cards > * {
   margin: 0;
   background-color: $main-accent-bg;
@@ -568,6 +569,17 @@ main {
     img {
       filter: brightness(110%);
     }
+  }
+}
+
+.text-card {
+  padding: 1.5rem 2rem;
+  margin: 3rem 0;
+  &:hover {
+    animation: none;
+  }
+  @media (min-width: 769px) {
+    padding: 3rem 4rem;
   }
 }
 
@@ -917,7 +929,7 @@ form,
     shape-margin: 10px;
     max-width: 60%;
     margin-right: -10%;
-    margin-top: -3rem;
+    margin-top: -5rem;
   }
 }
 
