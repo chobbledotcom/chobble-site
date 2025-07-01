@@ -1,26 +1,73 @@
 ---
 title: Web Design in Prestwich
-snippet: I can build you a new brand website or spruce up your existing one
+snippet: Affordable websites from £600. Local developer, transparent pricing, you own the code.
 link_text: Web design
-description: Web designer born and raised in Prestwich, happy to help you build any type of website for your local organisation.
+description: Prestwich web designer offering affordable websites from £600. 20+ years experience. Meet in person, transparent pricing, you keep the code.
 ---
 
-# Web Design in Prestwich
+# Web design in Prestwich
 
-As a fellow Prestwichian, I can visit you at your location, you can come to mine, or we can meet at a local cafe or bar to discuss your web design requirements (I'll have a Shindigger at Cuckoo, please!).
+Looking for an affordable web designer in Prestwich? I can make you a website from as little as around **£600** (or **£300** for charities, cooperatives, artists, and sustainable businesses).
+
+As a fellow Prestwichian, I can visit you at your location, you can come to mine, or we can meet at a local cafe or bar to discuss your web design requirements (I'll have a Shindigger at Cuckoo, cheers).
 
 I pride myself on building fast, efficient, accessible and easily-understood websites - ideal for guiding visitors from search engines to the important information as quickly as possible.
 
+## How it works
+
+1. We meet to discuss your requirements (free)
+2. I send a detailed proposal breaking down exactly what you'll get
+3. I build your site in 1-2 days for a simple site
+4. You get training plus the complete source code and instructions
+
+Most delays come from content creation, but you'll have access to my [Patreon group](/services/patreon/) for guidance.
+
 Want a more complex, more visual website with lots going on? I'm happy to help with that too - I can source designers, turn paid-for templates into interactive sites, or build any advanced functionality with Ruby on Rails or other open source platforms.
+
+## Types of websites
+
+I've built sites for businesses across Greater Manchester:
+
+**Restaurants & cafes**: [This & That](/examples/this-and-that/), [Sally's Bakes](/examples/sallys-bakes/), [Avo Coffee](/examples/avo-coffee/)
+
+**Services**: [Renegade Solar](/examples/renegade-solar/) (solar panels), [Blue Pits](/examples/blue-pits/) (housing charity)
+
+**Community**: [Vegan Prestwich](/examples/vegan-prestwich/), [Crumpsall Folk Club](/examples/crumpsall-folk-club/)
+
+**Creative**: [Button Kin Games](/examples/buttonkin/)
+
+Each site is built to match the business needs - from simple brochure sites to booking systems.
+
+## Transparent pricing
+
+I charge a [flat hourly rate](/prices/) for all jobs and will be very transparent about what each hour of work covers.
+
+Typical costs:
+
+- **Basic website**: £600-800
+- **Website with custom design**: £1,400-1,600
+- **Complex functionality**: £2,000+
+
+I offer affordable web hosting from £10/month, or £40/month with ongoing support and full SEO guidance via [a free subscription to my Patreon marketing group](/services/patreon/). You can also host your site with Cloudflare pages for no monthly cost at all.
+
+I give a **50% discount** to charities, co-ops, artists, musicians, vegan businesses, and renewable energy companies.
+
+## Why work with me?
+
+**Local support**: Meet in person for training and support - I'm building local partnerships around Prestwich
+
+**No lock-in**: Unlike many web agencies, you get all the code and hosting instructions - you will own your website rather than just renting access to it
+
+**Proven results**: Like helping Renegade Solar rank #1 on Google for "Solar Panel installer Prestwich"
+
+**Platform freedom**: Build exactly what you need without wrestling with Wix or Squarespace limitations
 
 My aim is to build local partnerships with organisations and individuals around Prestwich and to become known as a useful and honest web consultant.
 
-## Transparent & Open Pricing
+## Your next step
 
-I charge a [flat hourly rate](/prices/) for all jobs and will be very transparent about what is involved in each hour.
+Ready to get your Prestwich business online properly?
 
-Unlike many web agencies I will also give you the **full source code** to your website, as well as **complete instructions** to allow you to re-build the site or to host wherever you like.
+**[Contact me for a free quote](/contact/) if you want to get planning your new website!**
 
-I offer affordable web hosting with full search engine optimisation guidance via [a free subscription to my Patreon marketing group](/services/patreon/), or you can host your site with a host like Cloudflare pages for no monthly cost at all.
-
-Check out some of the [example websites](/examples/) listed on this site, or [contact me](/contact/) if you want to get planning your new website!
+Check out more [example websites](/examples/) or see my [full pricing breakdown](/prices/) for complete transparency.
