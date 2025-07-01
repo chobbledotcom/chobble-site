@@ -1,5 +1,5 @@
 ---
-title: TTRPG Website Development - Button Kin Games Case Study
+title: Button Kin Games
 description: "Fast indie game website development in Prestwich. Free template download or custom build £300-£1,000. Stripe payments, mobile-responsive, beats WordPress speed."
 snippet: A friendly website for tabletop games and adventures
 order: 2
