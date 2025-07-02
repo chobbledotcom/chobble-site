@@ -7,42 +7,48 @@ order: 2
 
 # Linux Conversions in Prestwich & Manchester
 
-**Is your Windows PC running slow? Tired of Microsoft's bloatware and endless annoying updates? I can convert your laptop or desktop to Linux and give it new life.**
+Linux is a **community-made operating system** - an alternative to Microsoft's "Windows". If your Windows PC is running slow, or you're tired of Microsoft's bloat and adverts, and you want to feel in control of your computer, I can install Linux on it and give it new life.
 
-Based in Prestwich, I travel across Greater Manchester helping people escape Windows frustrations with fast, reliable Linux installations.
+I'm in Prestwich but can travel around Manchester - or you can come to me.
 
-## Why Switch to Linux?
+## Why switch to Linux?
 
-Most people come to me because their Windows machine has "gone slow" - usually because **Windows is bloated software** that struggles on budget PCs and older hardware, or because **resource-heavy drivers** from printers and scanners are constantly running in the background hogging CPU. Lately I'm also seeing people frustrated that **Windows 11 won't run** on their perfectly good but "unsupported" machine, plus growing **privacy concerns** about Microsoft's data collection and ads.
+People often tell me their Windows machine has "gone slow" - either just because **Windows is bloated with stuff you rarely use**, or else because **resource-heavy drivers** from printers and scanners are constantly running in the background.
 
-Linux is people-centred rather than profit-centred. It's faster, more straightforward, and doesn't treat you like a product to monetise.
+In 2025 people have also been frustrated that **Windows 11 won't run** on their perfectly good but "unsupported" machine, plus growing **privacy concerns** about Microsoft's data collection, forced Copilot software, and ads.
 
-## Success Stories
+Linux is people-centred rather than profit-centred. It's flexible, straightforward, and doesn't treat you like a product to squeeze money from. Its customisability means you can choose a flavour of Linux which suits your hardware, and older computers are supported for much longer than Microsoft or Apple offer.
 
-I've breathed new life into machines that Windows had written off. One friend's **10+ year old media center PC** was gathering dust until I installed Ubuntu - now it's perfect for emails and web browsing and has been running happily for years. I helped a **parish council office migration** by switching them to Ubuntu with Nextcloud backups, saving them ongoing Microsoft licensing costs. I've also done **web server conversions** for local organisations like [Blue Pits](https://bluepitshousingaction.co.uk), migrating them from expensive Windows hosting to Linux static sites and **saving them £25+ monthly** in hosting costs.
+## Success stories
 
-## What I Can Help With
+**The super low maintenance computer:** I set my friend up with a tiny Ubuntu machine which plugged into his TV and which he used for web browsing and YouTube - and it was still ticking along 10+ years later, updating itself silently in the background and requiring no maintenance.
+
+**Reviving an exhausted Windows laptop:** A community organisation was working from a low-cost and underpowered (for Windows) laptop, paying each month for expensive Microsoft licenses. I installed Ubuntu and switched to LibreOffice (a free Microsoft Office alternative) with Nextcloud backups, which made the laptop run as though it was brand new.
+
+**The savvy retiree:** I helped a retiree build a [Framework laptop](/services/framework-laptops/) to their custom specification. They were keen to become a more savvy internet user after seeing friends fall victim to online scams. We installed Ubuntu Linux, learned about the Bitwarden password manager, and the owner now feels confident browsing the internet.
+
+**The gaming machine:** I built a gaming desktop with a high-end graphics card, running Pop!\_OS, a customised Linux distribution specialised for games. Its youngster owner had no problem getting to grips with the "alternative" operating system.
+
+## What I can help with
 
 For **laptop and desktop conversions**, I typically do full Windows replacement with Ubuntu (recommended for beginners), handle data migration from whatever software you're currently using, and check hardware compatibility with advice on printer/scanner support. My turnaround is quick - usually 1-2 days maximum.
 
 I also offer **advanced Linux services** like **NixOS installations** for technically adventurous users (I use it myself - see [my blog](https://blog.chobble.com/blog/)), **web server migrations** from Windows to Linux hosting, and **dual-boot setups** (though I recommend full conversion where possible). I'm happy to help with custom configurations and ongoing support.
 
-I collect and deliver throughout North Manchester - Prestwich, Bury, Whitefield, Radcliffe, and across the wider Manchester area. There's need to travel to me unless you're outside the region.
+I collect and deliver throughout North Manchester - Prestwich, Bury, Whitefield, Radcliffe, and across the wider Manchester area. There's no need to travel to me unless you're outside the region.
 
-## The Conversion Process
+## The conversion process
 
 My process is straightforward: I start with **data backup** to preserve all your documents, photos, and important files, then do the **Ubuntu installation** as a complete Windows replacement with the latest Long Term Support version. Next comes **software setup** where I install free alternatives to your existing programs and Firefox with ad-blocking built in. I follow up with **hardware testing** to ensure everything works properly before handover, and finish with **basic training** to show you the essentials so you can get started confidently.
 
-## Honest Hardware Advice
+## Honest hardware advice
 
-Some older peripherals only work with Windows - if that's your situation, I'll help you find better, universally-compatible alternatives. Companies that make Windows-only drivers are usually rubbish anyway.
+A minority of computer peripherals only work with Windows - if that's your situation, I'll help you find better, universally-compatible alternatives. It might be the case that you're out of luck and are stuck with windows. Such is life.
 
-For unsupported hardware, I can recommend replacement options that work better with Linux and are often higher quality and more user-focused.
+## Flexible service & pricing
 
-## Flexible Service & Pricing
-
-I charge my standard [hourly rate](/prices/) with no packages or upselling. Need something specific? Want to learn about command line usage or server administration? I'm happy to figure out documentation together - my years of Linux experience make tackling new challenges straightforward.
+I charge my standard [hourly rate](/prices/) with no packages or upselling. Need something specific? Want to learn about command line usage or server administration? I'm happy to figure out documentation together - my years of Linux / hardware / nerdy experience make tackling new challenges straightforward.
 
 If you're running a charity, co-operative, or sustainable business, you get 50% off my rates.
 
-**Ready to ditch Windows frustration? [Contact me](/contact/) to discuss your Linux conversion.**
+**Ready to escape the frustration of Windows? [Contact me](/contact/) to supercharge your tech with Linux.**
