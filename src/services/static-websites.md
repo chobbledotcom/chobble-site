@@ -9,7 +9,7 @@ order: -1
 
 **Most websites don't need to change for every visitor - they just need to convey information to visitors as efficiently as possible.** Their content is mostly "static" text and images, rather than "dynamic" and constantly changing, like on a social media website.
 
-Desite this, these websites are often built on heavy frameworks that require expensive infrastructure and ongoing costs, like Wordpress, Wix, Squarespace, Joomla or Django. These platforms are designed to cover many possibilities, but 90% of their technology isn't needed for static websites.
+Despite this, these websites are often built on heavy frameworks that require expensive infrastructure and ongoing costs, like Wordpress, Wix, Squarespace, Joomla or Django. These platforms are designed to cover many possibilities, but 90% of their technology isn't needed for static websites.
 
 This results in websites that _could_ have been fast and affordable to host, but are either expensive to accommodate their infrastructure requirements, or slow because they're on a server that can't keep up.
 
