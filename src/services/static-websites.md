@@ -17,7 +17,7 @@ I skip the heavy frameworks and build fast, stable, and mobile-friendly websites
 
 This results in sites which are super fast to load, AND which be hosted on very affordable web hosts.
 
-**Some examples: [This & That Cafe](/examples/this-and-that), [Blue Pits](/examples/blue-pits) and [Vegan Prestwich](/examples/vegan-prestwich).**
+**Some examples: [This & That Cafe](/examples/this-and-that/), [Blue Pits](/examples/blue-pits/) and [Vegan Prestwich](/examples/vegan-prestwich/).**
 
 ## How do I edit the site?
 
