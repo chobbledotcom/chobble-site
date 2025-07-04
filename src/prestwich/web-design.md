@@ -7,7 +7,7 @@ description: Prestwich web designer offering affordable websites from £600. 20+
 
 # Web design in Prestwich
 
-Looking for an affordable web designer in Prestwich? I can make you a website from as little as around **£600** (or **£300** for charities, cooperatives, artists, and sustainable businesses).
+Looking for an affordable web designer in Prestwich? I can make you a website from as little as around **£600** (or **£300** for charities, cooperatives, artists, and [vegan businesses](/services/vegan-business-websites/#content) or otherwise sustainable businesses).
 
 As a fellow Prestwichian, I can visit you at your location, you can come to mine, or we can meet at a local cafe or bar to discuss your web design requirements (I'll have a Shindigger at Cuckoo, cheers).
 
@@ -15,10 +15,11 @@ I pride myself on building fast, efficient, accessible and easily-understood web
 
 ## How it works
 
-1. We meet to discuss your requirements (free)
+1. We meet to discuss your requirements _(for free!)_
 2. I send a detailed proposal breaking down exactly what you'll get
 3. I build your site in 1-2 days for a simple site
 4. You get training plus the complete source code and instructions
+5. I can host your new site, or you or someone else can
 
 Most delays come from content creation, but you'll have access to my [Patreon group](/services/patreon/) for guidance.
 
@@ -42,7 +43,7 @@ Each site is built to match the business needs - from simple brochure sites to b
 
 I charge a [flat hourly rate](/prices/) for all jobs and will be very transparent about what each hour of work covers.
 
-Typical costs:
+Check out my [price calculator](/price-calculator/) for a proper estimate, but typical costs are around:
 
 - **Basic website**: £600-800
 - **Website with custom design**: £1,400-1,600
@@ -54,7 +55,7 @@ I give a **50% discount** to charities, co-ops, artists, musicians, vegan busine
 
 ## Why work with me?
 
-**Local support**: Meet in person for training and support - I'm building local partnerships around Prestwich
+**Local support**: Meet in person for training and support - I want to build local partnerships around Prestwich
 
 **No lock-in**: Unlike many web agencies, you get all the code and hosting instructions - you will own your website rather than just renting access to it
 
