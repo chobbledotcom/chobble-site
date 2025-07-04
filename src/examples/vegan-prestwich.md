@@ -18,7 +18,7 @@ Back then, Prestwich's vegan scene was already good, but hard to discover - we s
 
 The Facebook group has grown to 800+ members and our Instagram has 500+ followers. Activity fluctuates, but 2025's been surprisingly busy - hopefully because more people are going vegan! My wife usually handles Instagram while I sort the Facebook and website.
 
-<iframe src="https://veganprestwich.co.uk"></iframe>
+![The Vegan Prestwich website homepage, listing business names and links to subcategories 'Delivery/Takeaways', 'Restaurants', 'Shops', 'Tags'](/assets/examples/vegan-prestwich.png)
 
 ## My Solution
 

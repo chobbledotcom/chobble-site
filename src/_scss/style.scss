@@ -481,7 +481,8 @@ main {
   }
 }
 
-.cards {
+.cards,
+.vegan-business-websites .examples ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
@@ -509,7 +510,8 @@ main {
 
 .card,
 .text-card,
-.cards > * {
+.cards > *,
+.vegan-business-websites .examples ul > * {
   margin: 0;
   background-color: $main-accent-bg;
   padding: 1.5rem;
@@ -772,7 +774,8 @@ footer {
 }
 
 // examples.html
-.example-thumb {
+.example-thumb,
+.vegan-business-websites .examples ul li picture {
   display: block;
   aspect-ratio: 296/205;
   position: relative;
@@ -1026,5 +1029,18 @@ form,
     left: 0;
     height: 100%;
     border-radius: 0;
+  }
+}
+
+.vegan-business-websites {
+  #content blockquote {
+    max-width: 30rem;
+    margin: 0 auto 2rem;
+    display: block;
+
+    @media (min-width: 1000px) {
+      max-width: 30%;
+      float: left;
+    }
   }
 }

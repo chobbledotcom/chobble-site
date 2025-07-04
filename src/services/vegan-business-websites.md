@@ -10,23 +10,24 @@ snippet: Half-price websites for ethical businesses
 
 My prices are 100% transparent - check out my [price calculator](/price-calculator/). For just **£20/month** to host unlimited vegan static websites with me, you'll also get free access to my [marketing advice Patreon group](/services/patreon/) for up-to-date advice on promoting your new website.
 
-I've been vegan for 15+ years and vegetarian my whole life, so I'm personally invested in helping vegan businesses succeed - your success means a better planet for all. I'll help you put your values front and centre to attract visitors searching Google for ethical options.
+I've been vegan since 2009 and vegetarian my whole life so I'm personally invested in helping vegan businesses succeed. I'll help you put your values front and centre to attract visitors Googling for ethical options.
 
-## Proven track record
+Vegans are savvy searchers - you have to be - so it's important to ensure your site's meta data and social media mentions are up to scratch, and that your listings across social media and places like HappyCow are accurate and complete. I can help with all of that, too.
 
-**[Sally's Bakes](/examples/sallys-bakes)** in Bury got a site with clear ingredient lists, perfect Lighthouse scores, HappyCow integration, and simple self-maintenance.
+**If you run a non-vegan restaurant but you still have great vegan options - awesome!** I'll give you plenty of help to highlight those, but unfortunately you won't be eligible for that 50% discount until you've gone 100% veggie!
 
-**[Southport Organics](/examples/southport-organics)** aim to avoid Etsy fees with their own direct sales site, complete with easy product management and full ownership of their newsletter setup.
+## Some examples
 
-**[Vegan Prestwich](/examples/vegan-prestwich)**, the community platform I run, has grown to 800+ Facebook members and 500+ Instagram followers. We helped convince Joseph Holts to make their beers vegan!
+I build straightforward, fast-loading, and really easy to update websites, hosted on ultra-reliable and low maintenance servers.
 
-## Real SEO results
+<div class="examples">
 
-My vegan clients do great on local searches:
+- ![The homepage of Sally's Bakes, showing a colourful green and pink design with pictures of her cakes and pasties front and centre. There's a Facebook feed, links to social media pages, and "Home", "Menu", "Blog" and "Contact" pages](/assets/examples/sallys-bakes.png) **[Sally's Bakes](/examples/sallys-bakes)** has a site with clear ingredients, HappyCow integration, and simple updates. Her site ranks #1 on Google for all sorts of search terms like "vegan bakery Bury".
+- ![Southport Organics website - a dark and simple theme with large graphics](/assets/examples/southport-organics.png) **[Southport Organics](/examples/southport-organics)** aim to avoid Etsy fees with their own direct sales site, with easy product management and full ownership of their newsletter. The site is only fairly new but it's ranking on Google already.
+- ![The Vegan Prestwich website homepage, listing business names and links to subcategories 'Delivery/Takeaways', 'Restaurants', 'Shops', 'Tags'](/assets/examples/vegan-prestwich.png) **[Vegan Prestwich](/examples/vegan-prestwich)**, the community platform I run, has grown to 800+ Facebook members and 500+ Instagram followers, and the site gets a steady stream of visitors. We helped convince Joseph Holts to make their beers vegan!
+- ![Avo Coffee homepage, showing "Home", "Menu", "About", "Reviews", "News", and "Contact" pages, along with a a photo of the cafe and a welcoming introduction paragraph](/assets/examples/avo-coffee.png) **[Avo Coffee](/examples/avo-coffee/)** and **[This & That](/examples/this-and-that/)** aren't vegan businesses, but both have great options nonetheless. Their websites highlight their veggie-friendliness clearly through text, metadata, and reviews, and as a result both rank great on Google for vegan-related search terms.
 
-- Sally's Bakes ranks #1 for "Vegan Baker Bury"
-- This & That sits at #4-5 for "Vegan Curry Manchester"
-- Vegan Prestwich is #1 for "Vegan Prestwich"
+</div>
 
 I use Google Search Console, SerpBear results tracking, Lighthouse audits and years of experience to make sure Google fully understands your site and properly focuses each page towards a specific "vegan" search term. Straightforward, mobile-friendly designs ensure your customers find the information they need quick sharp, reducing "bounce" rates.
 
