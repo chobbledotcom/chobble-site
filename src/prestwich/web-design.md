@@ -34,7 +34,7 @@ I've built sites for businesses across Greater Manchester:
 
 **Community**: [Vegan Prestwich](/examples/vegan-prestwich/), [Crumpsall Folk Club](/examples/crumpsall-folk-club/)
 
-**Creative**: [Button Kin Games](/examples/buttonkin/)
+**Creative**: [Button Kin Games](/examples/button-kin/)
 
 Each site is built to match the business needs - from simple brochure sites to booking systems.
 
