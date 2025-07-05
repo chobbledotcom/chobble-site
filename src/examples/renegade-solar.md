@@ -14,7 +14,7 @@ colour: white
 
 Renegade Solar install solar panels and batteries for businesses and homes across Manchester, with Ashley covering anywhere in the city but focusing mainly on north Manchester from his base here in Prestwich.
 
-<iframe src="https://renegade-solar.co.uk"></iframe>
+![Renegade Solar homepage with top links - Home, About, Services, Reviews, Gallery, Contact - and a photo of a solar panel install on a bright Manchester day](/assets/examples/renegade-solar.png)
 
 Ashley's different from a lot of solar installers because he's been doing this for ages and runs a fully independent company. While many solar companies are basically agencies with call centres that farm the work out to random subcontractors who've never worked together before, Ashley has worked with the same trusted parties for years. You get his expertise directly, not some call centre taking a margin.
 
