@@ -10,6 +10,10 @@ As Chobble is a pretty new business I don't have lots of reviews, but this page 
 
 **You can leave a review on [Trustpilot](https://uk.trustpilot.com/review/chobble.com), [Facebook](https://www.facebook.com/profile.php?id=61571286130366) or [Google Maps](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8).**
 
+> "What a pleasure to be working with Stefan again. Stefan is a problem solver by nature who works hard to find solutions to problems. Thank you and looking forward to the next time."
+
+> "I've known Stefan for the last 7 years. He's genius for ranking well SEO work. He knows everything about ranking well on different platforms due to my old business. Since I've launched my new business, I got my new website done of him really well presented seo everything about it was perfect, he's the best at what he does, anything I need to know about media sharing content tags ect always ask for his knowledge, he's happy to guide me no that's what now that's what you call a service, good luck with your new adventure, will defo recommend 🫶🏼"
+
 > I've worked with Stef at Chobble over the years and can confidently say he's one of the most transparent, trustworthy, and knowledgeable developers out there.
 >
 > Highly recommend Stef to any business or individual looking for reliable and ethical web and software support. I wouldn’t hesitate to work with him again!
