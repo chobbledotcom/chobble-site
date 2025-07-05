@@ -12,26 +12,25 @@ colour: white
 - **Website:** [VeganPrestwich.co.uk](https://veganprestwich.co.uk)
 - **Source Code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/vegan-prestwich)
 
-Vegan Prestwich is a website, [Instagram page](https://www.instagram.com/veganprestwich) and [Facebook group](https://www.facebook.com/groups/veganprestwich), which I've been running with my wife since 2018.
+Vegan Prestwich is a website, [Instagram page](https://www.instagram.com/veganprestwich) and [Facebook group](https://www.facebook.com/groups/veganprestwich) I've been running with my wife since 2018.
 
-Back then, Prestwich's vegan scene was already good, but hard to discover - we started the site because I'd built directory sites before (like [bouncycastlehire.co.uk](https://www.bouncycastlehire.co.uk)) and knew they could help businesses rank better and drive traffic. In 2018 it was all about "did you know this is vegan?" posts, but now that veganism's gone mainstream, we focus more on highlighting the businesses that have exceptionally good vegan options.
+Back then, Prestwich's vegan scene was already good, but hard to discover - we started the site because I'd built directory sites before (like [bouncycastlehire.co.uk](https://www.bouncycastlehire.co.uk)) and knew they could help businesses rank better and drive traffic.
 
-The Facebook group has grown to 800+ members and our Instagram has 500+ followers. Activity fluctuates, but 2025's been surprisingly busy - hopefully because more people are going vegan! My wife usually handles Instagram while I sort the Facebook and website.
+The Facebook group has since grown to 800+ members and our Instagram has 500+ followers. Group activity fluctuates, but 2025's been surprisingly busy - hopefully because more people are going vegan. My wife usually handles Instagram while I sort the Facebook and website.
 
 ![The Vegan Prestwich website homepage, listing business names and links to subcategories 'Delivery/Takeaways', 'Restaurants', 'Shops', 'Tags'](/assets/examples/vegan-prestwich.png)
 
-## My Solution
+## My solution
 
-I maintain a curated directory of local businesses and their vegan offerings. It's completely manual work - I keep an eye on the Facebook group and update the website when people post about the scran or supermarket products they've found. Each business listing includes:
+I maintain a directory of local businesses and their vegan offerings. It's completely manual work - I keep an eye on the Facebook group and update the website when people post about the scran or supermarket products they've found. Each business listing includes:
 
 - Quotes from social media and customer reviews
 - Photos of meals and menus
 - Links to websites and social media
 - Address and phone details
 - Opening times
-- What makes their vegan offerings special
 
-The community side is just as important as the directory. The Facebook group creates a feedback loop where business owners often post to share their vegan updates and get direct feedback on how well they're catering to vegans. It's a welcoming space for people at all stages of their vegan journey - from curious beginners to long-term vegans.
+The community side is more important than the directory, really. The Facebook group creates a feedback loop where business owners often post to share their vegan updates and members comment on how well they're catering to vegans. It's a welcoming space for people at all stages of their vegan journey - from curious newcomers to long-term veegs.
 
 We've had some brilliant wins over the years. One highlight was emailing Joseph Holts (who own most of Prestwich's pubs) to ask about their beers going vegan - and they actually updated their recipes to make most of their beers vegan! We've also organised real-life meetups and members have hired each other for catering and events.
 
@@ -60,3 +59,7 @@ The project shows how a local directory can become a thriving community hub, whi
 ## Source Code
 
 The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/vegan-prestwich), so others can learn from it.
+
+## Want your own directory?
+
+**I can help you build and manage an online directory of businesses, or locations, or anything else - [get in touch](/contact/) to discuss your ideas.**
