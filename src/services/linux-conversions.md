@@ -43,7 +43,7 @@ My process is straightforward: I start with **data backup** to preserve all your
 
 ## Honest hardware advice
 
-A minority of computer peripherals only work with Windows - if that's your situation, I'll help you find better, universally-compatible alternatives. It might be the case that you're out of luck and are stuck with windows. Such is life.
+A minority of computer peripherals only work with Windows - if that's your situation, I can help you find better, universally-compatible alternatives. In the very rare case that this isn't an option, you might be stuck with Windows. Boo!
 
 ## Flexible service & pricing
 
