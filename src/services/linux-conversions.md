@@ -7,9 +7,9 @@ order: 2
 
 # Linux Conversions in Prestwich & Manchester
 
-Linux is a **community-made operating system** - an alternative to Microsoft's "Windows". If your Windows PC is running slow, or you're tired of Microsoft's bloat and adverts, and you want to feel in control of your computer, I can install Linux on it and give it new life.
+Linux is a **community-made operating system** - an alternative to Microsoft's "Windows". If your Windows PC is running slow, or you're tired of Microsoft's bloat and adverts, and you want to feel in control of your computer - I can install Linux on it and give it new life.
 
-I'm in Prestwich but can travel around Manchester - or you can come to me.
+I'm in Prestwich but can travel around Manchester, or you can come to me.
 
 ## Why switch to Linux?
 
@@ -27,7 +27,7 @@ Linux is people-centred rather than profit-centred. It's flexible, straightforwa
 
 **The savvy retiree:** I helped a retiree build a [Framework laptop](/services/framework-laptops/) to their custom specification. They were keen to become a more savvy internet user after seeing friends fall victim to online scams. We installed Ubuntu Linux, learned about the Bitwarden password manager, and the owner now feels confident browsing the internet.
 
-**The gaming machine:** I built a gaming desktop with a high-end graphics card, running Pop!\_OS, a customised Linux distribution specialised for games. Its youngster owner had no problem getting to grips with the "alternative" operating system.
+**The gaming machine:** I built a gaming desktop with a high-end graphics card, running Pop!\_OS ([system76.com/pop](https://system76.com/pop/)), a Linux "distribution" tweaked especially for gaming and ease of use. Its youngster owner had no problem getting to grips with the "alternative" operating system.
 
 ## What I can help with
 
