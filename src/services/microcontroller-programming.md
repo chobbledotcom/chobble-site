@@ -1,5 +1,6 @@
 ---
 title: Microcontroller Programming
+meta_title: Microcontrollers and IoT Programming | Automations | Prestwich, Manchester | Chobble
 description: Internet of things, home automation, ESP32s, Home Assistant and more, from Chobble in Prestwich
 snippet: IoT devices, automations, and other little gadgets
 order: 3

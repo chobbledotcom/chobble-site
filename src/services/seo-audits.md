@@ -1,5 +1,6 @@
 ---
 title: SEO Audits
+meta_title: Search Engine Optimisation | Prestwich, Manchester | Chobble
 snippet: Get clear instructions for improving your search rankings
 description: I'll evaluate your site using industry-standard SEO tools to give you clear instructions for improving your ranking in search engines.
 order: 0

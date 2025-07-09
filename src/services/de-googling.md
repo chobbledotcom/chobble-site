@@ -1,5 +1,6 @@
 ---
 title: De-Googling Services
+meta_title: Google Alternatives | Prestwich, Manchester | Chobble
 snippet: Escape surveillance capitalism and take control of your digital life
 description: Complete Google alternatives setup - email, search, storage, media and more
 order: 2

@@ -1,5 +1,6 @@
 ---
 title: Framework Laptop Builds
+meta_title: Framework Laptop Builds | Prestwich, Manchester | Chobble
 snippet: Repairable, upgradeable, and customised to your exact specs
 description: Framework Laptop builds in Prestwich, Manchester - custom upgradeable and repairable laptops
 order: 13

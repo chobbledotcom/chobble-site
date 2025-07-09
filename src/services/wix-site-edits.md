@@ -1,5 +1,6 @@
 ---
 title: Wix Website Edits & Help
+meta_title: Wix Website Help | Prestwich, Manchester | Chobble
 description: Struggling with Wix's overwhelming interface? I'll help you navigate the complex features without the marketing fluff or vendor lock-in.
 snippet: Navigate Wix's confusing interface with unbiased expert help
 order: 3

@@ -1,5 +1,6 @@
 ---
 title: Freelance Eleventy Developer
+meta_title: Freelance Eleventy Developer | Prestwich, Manchester, UK | Chobble
 description: Expert development services for Eleventy static sites - whether building new sites or adding features to existing websites
 snippet: I can help you own or upgrade a fast, affordable Eleventy website
 order: 10

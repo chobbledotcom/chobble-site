@@ -1,5 +1,6 @@
 ---
 title: Online Marketing Advice Club
+meta_title: Online Marketing Advice Patreon | Prestwich, Manchester | Chobble
 description: £20 a month for online marketing advice and guides specific to running an online business in the UK.
 snippet: Weekly online marketing tips and more
 order: 3
@@ -33,7 +34,7 @@ Here's a sample of what members have been learning about:
 - [Targeting Local Areas](https://www.patreon.com/posts/targeting-local-119714736) - Getting found by customers in your region
 - [Using AI Effectively](https://www.patreon.com/posts/using-ai-120755818) - How to use AI tools without hurting your site's credibility
 
-Each guide is written specifically for UK businesses, with practical advice that works in our market. I focus on techniques that are sustainable long-term and won't get your site penalised when Google updates its algorithms. 
+Each guide is written specifically for UK businesses, with practical advice that works in our market. I focus on techniques that are sustainable long-term and won't get your site penalised when Google updates its algorithms.
 
 Every post includes an audio version so you can listen to the content while you're working, driving, or doing other tasks - perfect for busy business owners who don't have time to sit and read lengthy articles.
 

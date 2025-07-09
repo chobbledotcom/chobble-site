@@ -1,5 +1,6 @@
 ---
 title: Static Website Development
+meta_title: Static Website Development | Prestwich, Manchester | Chobble
 description: Static websites are flexible, affordable, and easy to edit.
 snippet: Fast and responsive websites to promote your business
 order: -1

@@ -1,13 +1,14 @@
 ---
 title: Chobble Website Template
-description: A free website template for small business websites, built with Eleventy, Nix, Formspring and more
-snippet: A free website template for small business websites
+meta_title: Chobble Website Template | Eleventy Starter for Businesses | Prestwich, Manchester
+description: A free website template for business websites, built with Eleventy, Nix, Formspring and more
+snippet: A free website template for business websites
 order: 3
 ---
 
 # Chobble Template
 
-A free and open source template for small business websites, which you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
+A free and open source template for business websites, which you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
 
 - Live demo: **[example.chobble.com](https://example.chobble.com)**
 - Source code: **[git.chobble.com](https://git.chobble.com/chobble/chobble-template/)**
@@ -17,7 +18,7 @@ A free and open source template for small business websites, which you can build
 
 ## Background
 
-While building [static websites](/services/static-websites/) for small businesses I realised I was creating the same type of components each time - I was making Eleventy sites, with features like a news system, a contact form, social media links, header images, per-page styles, etc etc.
+While building [static websites](/services/static-websites/) for local businesses I realised I was creating the same type of components each time - I was making Eleventy sites, with features like a news system, a contact form, social media links, header images, per-page styles, etc etc.
 
 I was keeping an informal repository of these code snippets on my computers, and realised I could provide some value to the open source community by compiling each of those snippets into a demo site, and releasing the source code under the AGPL3 license.
 
