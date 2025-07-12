@@ -22,26 +22,30 @@ This results in sites which are super fast to load, AND which be hosted on very 
 
 ## How do I edit the site?
 
-The site's contents can be edited through a simple admin interface or directly as text files on your computer. You'll edit the source code of the website directly! This might sound scary, but it's actually very straightforward - and everything is backed up anyway so we can restore to any earlier state.
+The site's contents can be edited through a simple admin interface ([PagesCMS.org](https://pagescms.org/)) or directly as text files on your computer. You'll edit the source code of the website directly! This might sound scary, but it's actually really straightforward - and everything is backed up anyway so we can restore to any earlier state.
 
 ## Can you tell me how it works?
 
-I will gladly explain every aspect of your site to you - from templating to stylesheets and anything else besides. My aim is for you to become confident in taking charge of your site's growth, and adding new areas to its code yourself.
+I will happily explain every aspect of your site to you - from templating to stylesheets and anything else besides. My aim is for you to become confident in taking charge of your site's growth, and adding new areas to its content and code yourself.
 
-To really succeed online you need to know some fundamentals about structuring your website and creating content - and understanding how web pages are built is a key part of that.
+To really succeed online you need to know some fundamentals about structuring your website and updating its pages - and understanding how your site is built is a key part of that.
 
 **If you're in Prestwich** we can even meet over a coffee and cake in a local cafe of your choice to dig into specifics of how to update your site. Bring a laptop along!
 
-**If you host with me** I'll give you a free year's access to my [Patreon marketing club](/services/patreon/) for advice and guidance about online marketing and search engine optimisation.
+**If you host with me** I'll give you free access to my [Patreon marketing club](/services/patreon/) for advice and guidance about online marketing and search engine optimisation.
 
 ## What is the process?
 
-1. You choose a template or employ a designer
-2. I build your website using Eleventy
+1. I build your website using Eleventy on the [Chobble Template](/services/chobble-template/)
+2. Or you can employ a designer to design a fully customised site
 3. Its content is stored in simple text files
-4. You can edit the content yourself or send me changes
+4. You can edit the content yourself via PagesCMS or send me changes
 5. Backups are handled automatically
 6. You get the full source code
+
+This setup means that you can employ any web developer to expand your site, or ask anyone for help with your content - it's an open and collaborative platform you can easily share with new people.
+
+While you are more than welcome to host with me forever, you might also like to DIY it - and I will make that process easy if you do.
 
 ## Static Website Prices
 
@@ -68,4 +72,4 @@ Not all of these stages will be necessary for every site, and you might be able 
 
 ## Let's do it!
 
-If static website development sounds right for your business, [contact me](/contact/) today and we can start planning.
+**If static website development sounds right for your business, [contact me](/contact/) today and we can start planning.**
