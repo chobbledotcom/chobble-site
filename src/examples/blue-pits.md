@@ -1,5 +1,7 @@
 ---
 title: Blue Pits Housing Action
+meta_title: Blue Pits Housing Action - Charity Website on Jekyll for £20/month
+meta_description: A registered charity's website built with Jekyll at 50% discount rates. Email-based updates go live in 24 hours. Over 14 years of technical support included.
 snippet: Affordable charity website development and ongoing support
 order: 2
 colour: white

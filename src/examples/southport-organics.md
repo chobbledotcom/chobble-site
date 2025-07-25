@@ -1,5 +1,7 @@
 ---
 title: Southport Organics
+meta_title: Southport Organics - Eleventy E-commerce Site with PagesCMS
+meta_description: An organic cosmetics website built with Eleventy and the Chobble Template. Features PagesCMS for easy editing, Bunny CDN hosting, and Stripe integration for direct sales.
 snippet: A 'Chobble Template' CMS website for an organic cosmetics company
 order: 10
 colour: "#111"
