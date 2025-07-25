@@ -16,9 +16,16 @@ This results in websites that _could_ have been fast and affordable to host, but
 
 I skip the heavy frameworks and build fast, stable, and mobile-friendly websites specific for your business, using minimalist and tidy code, using the "Eleventy" static site generator.
 
-This results in sites which are super fast to load, AND which be hosted on very affordable web hosts.
+This results in sites which are super fast to load AND which can be hosted on very affordable web hosts.
 
-**Some examples: [This & That Cafe](/examples/this-and-that/), [Blue Pits](/examples/blue-pits/) and [Vegan Prestwich](/examples/vegan-prestwich/).**
+**Some examples:**
+
+<div class="examples">
+
+- ![This & That homepage, showing "Home", "Menu", and a photo of the alley where the This & That Indian cafe is hidden away](/assets/examples/this-and-that.png) I've been hosting the **[This & That](/examples/this-and-that/)** site for a nearly a decade now. It changes very gradually, just like the cafe's decor and menu. But it always loads quickly, and is really easy to navigate.
+- ![The Blue Pits website homepage showing lots of text and a blue and green theme](/assets/examples/blue-pits.png) The **[Blue Pits](/examples/blue-pits)** website contains tonnes of information for people wanting to learn more about the housing charity. The team send me occasional updates, or new files to add, and I handle it for them.
+- ![The Vegan Prestwich website homepage, listing business names and links to subcategories 'Delivery/Takeaways', 'Restaurants', 'Shops', 'Tags'](/assets/examples/vegan-prestwich.png) **[Vegan Prestwich](/examples/vegan-prestwich)**, the community platform I run with my wife, contains tonnes of info about local businesses and their menus. It's organised in a really easy to edit structure so I can easily keep on top of updates.
+</div>
 
 ## How do I edit the site?
 
@@ -32,7 +39,13 @@ To really succeed online you need to know some fundamentals about structuring yo
 
 **If you're in Prestwich** we can even meet over a coffee and cake in a local cafe of your choice to dig into specifics of how to update your site. Bring a laptop along!
 
-**If you host with me** I'll give you free access to my [Patreon marketing club](/services/patreon/) for advice and guidance about online marketing and search engine optimisation.
+## Will I rank well on Google?
+
+Static websites are great for ranking well on Google - especially ones built like mine that are super fast loading, easy to add to, and which include contact forms. This is because Google likes fast, up-to-date, straightforward websites.
+
+But your website is just a tool you use - ultimately SEO all comes down to the work you put in - writing content, building links, doing the socials, yadda yadda.
+
+**You'll get plenty of free help with this if you host with me** - because I'll give you access to my [Patreon marketing club](/services/patreon/) for advice and guidance about online marketing and search engine optimisation, and I'll be on hand if you have questions.
 
 ## What is the process?
 
@@ -67,6 +80,8 @@ Like every job, I will provide estimates and charge a [flat hourly rate](/prices
   - Setting up email accounts with your host of choice
 - **1-6 hours: Content**
   - Populating your site content, sourcing copywriters
+
+**[Use my static website price calculator to figure out how much your website build will cost](/price-calculator/#content)**
 
 Not all of these stages will be necessary for every site, and you might be able to do some yourself - and I'll be there to guide you if you do.
 
