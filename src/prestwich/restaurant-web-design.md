@@ -3,6 +3,8 @@ title: Restaurant Website Design in Prestwich | Chobble
 link_text: Restaurant Web Design
 snippet: Fast, affordable restaurant websites with easy menu updates
 description: Fast, affordable restaurant websites built by a Prestwich local. Easy menu updates, no PDFs, mobile-friendly. From £600. Will work for food!
+meta_title: Restaurant Web Design Prestwich | Easy Menu Updates | £600
+meta_description: Prestwich restaurant websites - no PDF menus, easy updates, fast loading - £600 (£300 for vegan places) - will work for food - local developer
 ---
 
 # Restaurant web design in Prestwich

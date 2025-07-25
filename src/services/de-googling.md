@@ -4,6 +4,7 @@ meta_title: Google Alternatives | Prestwich, Manchester | Chobble
 snippet: Escape surveillance capitalism and take control of your digital life
 description: Complete Google alternatives setup - email, search, storage, media and more
 order: 2
+meta_description: Escape Google's data harvesting - Nextcloud setup, open source alternatives, ad-free browsing - take back control of your data - Manchester tech consultant
 ---
 
 # Take Back Control From Big Tech

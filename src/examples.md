@@ -2,6 +2,8 @@
 layout: examples.html
 title: Example Websites I Host
 description: Examples of websites designed and developed by Chobble, a Prestwich web agency
+meta_title: Website Portfolio | Examples of My Work | Chobble
+meta_description: Real websites I've built for Prestwich businesses, charities and artists - all open source - see the code on my Git repository
 ---
 
 # Web Design Examples

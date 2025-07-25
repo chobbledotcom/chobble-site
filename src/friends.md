@@ -2,6 +2,8 @@
 layout: page.html
 title: Recommended Suppliers for Online Services
 description: "Chobble's recommendations for other honest, skilled businesses"
+meta_title: Recommended Suppliers | Trusted Partners | Chobble
+meta_description: Trusted partners for copywriting, solar panels, branded adverts - people I've worked with for years - honest recommendations from Prestwich web developer
 ---
 
 # Friends and Recommended Suppliers

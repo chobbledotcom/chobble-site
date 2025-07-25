@@ -3,6 +3,8 @@ layout: home.html
 title: Website Design & Tech Consultancy in Prestwich
 heading: Web & Software Design in Prestwich
 description: Tech consultants and web developers in Prestwich, Manchester
+meta_title: Web Developer Prestwich | Open Source Websites Manchester | Chobble
+meta_description: Prestwich web developer building open source apps and websites with no lock-in - Ruby on Rails, Eleventy, SEO & Linux help - 50% discount for artist, musicians, charities and co-operatives
 ---
 
 <div class="text-card">

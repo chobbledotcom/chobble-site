@@ -2,6 +2,8 @@
 layout: page.html
 title: Prices for Web and Software Development
 description: "Transparent pricing for web development and tech services in Prestwich. I charge a flat hourly rate with 50% discounts for charities, artists and more."
+meta_title: Web Development Prices Prestwich | Transparent Hourly Rates
+meta_description: £200/hour web development (£100 for charities, artists, vegan businesses) - transparent pricing, no hidden fees - hosting from £10/month - you own the code
 ---
 
 # Web Development Prices

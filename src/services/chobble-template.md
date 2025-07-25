@@ -4,6 +4,7 @@ meta_title: Chobble Website Template | Eleventy Starter for Businesses | Prestwi
 description: A free website template for business websites, built with Eleventy, Nix, Formspring and more
 snippet: A free website template for business websites
 order: 3
+meta_description: Free open source website template - Eleventy, fast loading, SEO ready - clone it yourself or hire me to build on it - Manchester web developer
 ---
 
 # Chobble Template

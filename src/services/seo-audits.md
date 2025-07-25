@@ -4,6 +4,7 @@ meta_title: Search Engine Optimisation | Prestwich, Manchester | Chobble
 snippet: Get clear instructions for improving your search rankings
 description: I'll evaluate your site using industry-standard SEO tools to give you clear instructions for improving your ranking in search engines.
 order: 0
+meta_description: SEO audits from £200 - clear, jargon-free advice - no false promises - 20+ years helping sites rank - Manchester web developer
 ---
 
 # SEO Audits

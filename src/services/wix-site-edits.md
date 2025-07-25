@@ -4,6 +4,7 @@ meta_title: Wix Website Help | Prestwich, Manchester | Chobble
 description: Struggling with Wix's overwhelming interface? I'll help you navigate the complex features without the marketing fluff or vendor lock-in.
 snippet: Navigate Wix's confusing interface with unbiased expert help
 order: 3
+meta_description: Stuck with Wix? I'll help navigate the confusing menus - honest advice about staying or leaving - no affiliation with Wix - Manchester web developer
 ---
 
 # Stuck With Your Wix Site? I Can Help

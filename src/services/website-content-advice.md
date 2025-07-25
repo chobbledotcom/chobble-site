@@ -4,6 +4,7 @@ meta_title: Website Content Advice | Prestwich, Manchester | Chobble
 snippet: I'll tell you what needs changing on your site
 description: I'll give your site a once-over and tell you what needs fixing - and you can make the changes, or I can.
 order: 0
+meta_description: Website content review £200 - clear list of fixes in priority order - meet in Prestwich cafes to work together - no jargon, just plain advice
 ---
 
 # Website Content Advice

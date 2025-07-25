@@ -2,6 +2,8 @@
 title: Static Website Price Calculator | Chobble Web Development Prestwich
 layout: page.html
 description: Estimate the cost of your new static website with this easy to use price calculator from Chobble. I charge a flat rate with no surprises.
+meta_title: Website Price Calculator | Get a Quote in Seconds | Chobble
+meta_description: Work out your website cost instantly - £200/hour (£100 for charities) - no hidden extras - includes design, migration, SEO setup - Manchester web developer
 ---
 
 # How much does a static website cost?

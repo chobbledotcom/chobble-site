@@ -5,6 +5,8 @@ link_text: Tools
 description: Misc services created by Chobble web design in Manchester, provided for free.
 order: 99
 permalink: "/tools/"
+meta_title: Free Tools & Widgets | Chobble Web Developer Manchester
+meta_description: Free tools I've built - PAT test logger, review scrapers, QR code generators - open source code available - Manchester web developer
 ---
 
 # Tools, Widgets, & Doodads

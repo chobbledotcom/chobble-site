@@ -4,6 +4,7 @@ meta_title: Technical Consultant & Advice | Prestwich, Manchester | Chobble
 description: Expert guidance on website hosting, domain management, backups, open source alternatives, and more.
 snippet: Clear, practical tech advice without the jargon
 order: 2
+meta_description: Tech advice without the waffle - websites, hosting, backups, open source alternatives - 20+ years experience - Prestwich consultant - free initial chat
 ---
 
 # Technical Consultancy in Prestwich

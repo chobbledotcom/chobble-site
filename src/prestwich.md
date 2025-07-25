@@ -1,6 +1,8 @@
 ---
 layout: prestwich.html
 title: Services for Prestwich Companies
+meta_title: Prestwich Web Developer | Local Website Design & Tech Help
+meta_description: Prestwich born and raised web developer - meet at Costa or Cuckoo for a brew - websites, SEO, tech advice for local businesses - 50% off for charities
 ---
 
 # Web Services for Prestwich Companies

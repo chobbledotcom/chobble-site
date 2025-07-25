@@ -3,6 +3,8 @@ title: Web Design in Prestwich
 snippet: Affordable websites from £600. Local developer, transparent pricing, you own the code.
 link_text: Web design
 description: Prestwich web designer offering affordable websites from £600. 20+ years experience. Meet in person, transparent pricing, you keep the code.
+meta_title: Web Design Prestwich | Websites from £600 | Local Developer
+meta_description: Prestwich web designer - websites from £600 - meet at Cuckoo for a brew - 20+ years building sites - you own all the code - 50% off for charities
 ---
 
 # Web design in Prestwich

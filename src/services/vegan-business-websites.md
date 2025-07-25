@@ -3,6 +3,7 @@ title: Vegan Business Websites
 meta_title: Vegan Web Design Discount | 50% Off | Prestwich, Manchester | Chobble
 description: 50% discount for vegan businesses - expert web development from a lifelong veggie and supporter of animal rights
 snippet: Half-price websites for ethical businesses
+meta_description: 50% off websites for vegan businesses - £300 for a simple site - lifelong veggie helping ethical businesses thrive - Manchester web developer
 ---
 
 # Vegan Business Websites

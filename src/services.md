@@ -2,6 +2,8 @@
 layout: services.html
 title: Web Development Services from Chobble
 description: I have decades of experience and can help you with any technical challenge.
+meta_title: Web Development Services Prestwich | Websites, SEO & Tech Help
+meta_description: Prestwich web developer offering new websites, SEO audits, server setup, online marketing advice - transparent flat rate pricing - you own all your code
 ---
 
 # Web Design & Technology Services

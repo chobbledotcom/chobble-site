@@ -3,6 +3,8 @@ title: SEO Specialist in Prestwich & North Manchester
 link_text: Search Engine Optimisation (SEO)
 snippet: Local SEO expert helping Prestwich businesses get found on Google
 description: Prestwich-based SEO specialist with 20+ years experience helping local businesses rank higher on Google and attract more customers online.
+meta_title: SEO Prestwich | Get Found on Google | Local SEO Expert
+meta_description: Prestwich SEO specialist - 20+ years getting local businesses ranking - no dodgy tactics, just proper content and fast sites - free advice via Patreon
 ---
 
 # SEO Specialist in Prestwich & North Manchester

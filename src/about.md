@@ -2,6 +2,8 @@
 layout: about.html
 title: About Stefan from Chobble - a web developer in Prestwich
 description: I've been building websites and software for decades, for companies of all sizes.
+meta_title: About Chobble | Web & Ruby Developer Manchester
+meta_description: Manchester web dev with 20+ years building sites from local charities to Bandcamp - open source everything, flat rate pricing, you own your code - no sneaky contracts
 ---
 
 # About Chobble

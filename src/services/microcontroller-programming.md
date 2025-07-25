@@ -4,6 +4,7 @@ meta_title: Microcontrollers and IoT Programming | Automations | Prestwich, Manc
 description: Internet of things, home automation, ESP32s, Home Assistant and more, from Chobble in Prestwich
 snippet: IoT devices, automations, and other little gadgets
 order: 3
+meta_description: Smart home gadgets and IoT programming - ESP32, Home Assistant, custom automations - open source, no cloud spying - Prestwich tech consultant
 ---
 
 # Microcontroller Programming

@@ -4,6 +4,7 @@ meta_title: Linux Installations & Conversions | Prestwich, Manchester | Chobble
 description: Switch your slow Windows PC to fast, secure Linux. Serving Greater Manchester with laptop conversions, web server migrations, and Ubuntu support.
 snippet: Fix your slow Windows machine by installing Linux
 order: 2
+meta_description: Revive your slow Windows laptop with Linux - no more forced updates or ads - Ubuntu installations across Manchester - 50% off for charities
 ---
 
 # Linux Conversions in Prestwich & Manchester

@@ -4,6 +4,7 @@ meta_title: Online Marketing Advice Patreon | Prestwich, Manchester | Chobble
 description: £20 a month for online marketing advice and guides specific to running an online business in the UK.
 snippet: Weekly online marketing tips and more
 order: 3
+meta_description: Weekly-ish SEO tips for UK businesses - £20/month - no jargon, no dodgy tactics - real advice that works - free with hosting - Manchester web developer
 ---
 
 # Online Marketing Advice Club

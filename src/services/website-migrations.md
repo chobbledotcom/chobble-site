@@ -4,6 +4,7 @@ meta_title: Website Migrations | Prestwich, Manchester | Chobble
 description: Move your website to an low-cost host and take control of its source code
 snippet: Mirror your website to a host you control
 order: 1
+meta_description: Escape expensive hosting - migrate from Wix, WordPress, Squarespace to static sites - hosting from £10/month or free - Manchester web developer
 ---
 
 # Website Migration Service
