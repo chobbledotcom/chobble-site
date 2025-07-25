@@ -1,6 +1,8 @@
 ---
 title: Building a website for a tradesperson
 snippet: A clean, tidy website to highlight your services and accreditations, and to collect enquiries.
+meta_title: How to Build a Tradesperson Website | Free Guide | Chobble
+meta_description: Guide to building tradesperson websites - services, accreditations, location pages - Eleventy static site - source code included - Manchester web developer
 ---
 
 # How To: Make a Tradesperson Website

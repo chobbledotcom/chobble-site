@@ -3,6 +3,8 @@ title: play-test
 snippet: A safety inspection tool for inflatable play equipment built with Rails
 order: 12
 colour: "#f4d3ff"
+meta_title: play-test | Safety Inspection Tool | Chobble
+meta_description: Rails app for bouncy castle safety inspections - EN 14960 compliant - open source AGPLv3 - Manchester web development example
 ---
 
 # play-test

@@ -1,6 +1,8 @@
 ---
 layout: page.html
 title: Checkatrade Reviews Fetcher / Scraper
+meta_title: Checkatrade Reviews Scraper | Free Export Tool
+meta_description: Export all your Checkatrade reviews to JSON - runs in your browser, no data sent to servers - free tool from Manchester web developer
 ---
 
 # Checkatrade Reviews Scraper

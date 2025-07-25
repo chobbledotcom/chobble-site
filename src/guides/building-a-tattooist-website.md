@@ -1,6 +1,8 @@
 ---
 title: Building a website for a tattooist
 snippet: A straightforward website with a gallery, an FAQ, and a spam-protected contact form with attachment support.
+meta_title: How to Build a Tattoo Artist Website | Free Guide | Chobble
+meta_description: Step-by-step guide to building a tattoo website - Eleventy, responsive galleries, contact forms - full source code included - Manchester web developer
 ---
 
 # How To: Make a Tattooist Website
