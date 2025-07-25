@@ -4,6 +4,8 @@ description: "Fast indie game website development in Prestwich. Free template do
 snippet: A friendly website for tabletop games and adventures
 order: 2
 colour: "#f6dadf"
+meta_title: Button Kin Games | Indie Game Website | Chobble
+meta_description: Indie TTRPG website with Stripe payments - free template available - built with Eleventy - Manchester web design example
 ---
 
 # Indie Games Studio Website

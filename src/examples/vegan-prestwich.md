@@ -3,6 +3,8 @@ title: Vegan Prestwich
 snippet: A community of vegans based in Prestwich
 order: 1
 colour: white
+meta_title: Vegan Prestwich | Community Directory Website | Chobble
+meta_description: Community platform for vegan businesses - Eleventy build with 800+ Facebook members - ranks top on Google - Manchester web design example
 ---
 
 # Vegan Prestwich

@@ -1,5 +1,7 @@
 const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { configureScss } = require("./src/_lib/scss");
+const { configureScssFiles } = require("./src/_lib/scss-files");
 
 module.exports = async function (eleventyConfig) {
   const { eleventyImageTransformPlugin } = await import("@11ty/eleventy-img");
@@ -50,6 +52,10 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addFilter("dateToRfc822", function (date) {
     return new Date(date).toUTCString();
   });
+
+  // Configure SCSS
+  configureScss(eleventyConfig);
+  configureScssFiles(eleventyConfig);
 
   // Base configuration
   return {

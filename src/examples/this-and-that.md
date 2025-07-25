@@ -1,7 +1,7 @@
 ---
 title: This & That Cafe
-meta_title: This & That Cafe - Simple Jekyll Restaurant Website Since 2016
-meta_description: Manchester curry house website built with Jekyll. Menu loads instantly on any device, costs £10/month hosting. Social media management included.
+meta_title: This & That Cafe | Restaurant Website | Chobble
+meta_description: Manchester curry house website since 2016 - Jekyll build, instant menu loading - £10/month hosting - social media included
 snippet: A simple, fast website for Manchester's most famous curry house
 order: 1
 colour: white
