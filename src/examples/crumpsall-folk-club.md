@@ -3,6 +3,8 @@ title: Crumpsall Folk Club
 snippet: Monthly folk club with a modern, self-managed online presence
 order: 1
 colour: "#ede2d1"
+meta_title: Crumpsall Folk Club | Community Website Example | Chobble
+meta_description: Ghost-powered folk club website - events, newsletter, no Facebook dependency - affordable hosting - Manchester web design example
 ---
 
 # Crumpsall Folk Club

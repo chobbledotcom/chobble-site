@@ -6,97 +6,141 @@
   outputs =
     { self, nixpkgs }:
     let
-      systems = [
-        "x86_64-linux"
-        # "aarch64-linux"
-      ];
+      systems = [ "x86_64-linux" ];
+      forAllSystems = nixpkgs.lib.genAttrs systems;
 
-      forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f system);
+      # Shared configuration values
+      npmDepsHash = "sha256-ZSK4R8a7FyteYMHeJFEffdLtO7uXo0bxvp+3ITSEBPM=";
 
-      mkUtils =
-        system:
+      # Function to create nodeModules for a given pkgs
+      makeNodeModules =
+        pkgs:
+        pkgs.buildNpmPackage {
+          pname = "chobble-template-dependencies";
+          version = "1.0.0";
+          src = pkgs.runCommand "source" { } ''
+            mkdir -p $out
+            cp ${./package.json} $out/package.json
+            cp ${./package-lock.json} $out/package-lock.json
+          '';
+          inherit npmDepsHash;
+          installPhase = "mkdir -p $out && cp -r node_modules $out/";
+          dontNpmBuild = true;
+        };
+
+      # Function to create script packages
+      makeScriptPackages =
+        { pkgs, dependencies }:
         let
-          pkgs = import nixpkgs { inherit system; };
-          nodeDeps = import ./node-deps.nix { inherit pkgs; };
-          inherit (nodeDeps) packageJSON nodeModules;
-
-          deps = with pkgs; [
-            html-tidy
-            sass
-            yarn
-          ];
-
-          mkScript =
+          makeScript =
             name:
             let
-              base = pkgs.writeScriptBin name (builtins.readFile ./bin/${name});
-              patched = base.overrideAttrs (old: {
+              baseScript = pkgs.writeScriptBin name (builtins.readFile ./bin/${name});
+              patchedScript = baseScript.overrideAttrs (old: {
                 buildCommand = "${old.buildCommand}\n patchShebangs $out";
               });
             in
             pkgs.symlinkJoin {
-              inherit name;
-              paths = [ patched ] ++ deps;
+              name = name;
+              paths = [ patchedScript ] ++ dependencies;
               buildInputs = [ pkgs.makeWrapper ];
-              postBuild = "wrapProgram $out/bin/${name} --prefix PATH : $out/bin";
+              postBuild = ''
+                wrapProgram $out/bin/${name} --prefix PATH : $out/bin
+              '';
             };
+          scriptNames = builtins.attrNames (builtins.readDir ./bin);
+        in
+        nixpkgs.lib.genAttrs scriptNames makeScript;
 
-          scripts = [
-            "build"
-            "serve"
-            "dryrun"
-            "tidy_html"
-          ];
+      # Function to set up the common environment for a system
+      makeEnvForSystem =
+        system:
+        let
+          pkgs = import nixpkgs { system = system; };
 
-          scriptPkgs = builtins.listToAttrs (
-            map (name: {
-              inherit name;
-              value = mkScript name;
-            }) scripts
-          );
+          # Default dependencies for packages
+          defaultDependencies = with pkgs; [ nodejs_23 ];
 
-          site = pkgs.stdenv.mkDerivation {
-            name = "eleventy-site";
-            src = ./.;
-            buildInputs = deps ++ [ nodeModules ];
+          # Extended dependencies for development
+          devDependencies = defaultDependencies ++ (with pkgs; [ biome ]);
 
-            configurePhase = ''
-              ln -sf ${packageJSON} package.json
-              ln -sf ${nodeModules}/node_modules .
-            '';
-
-            buildPhase = ''
-              ${mkScript "build"}/bin/build
-              ${mkScript "tidy_html"}/bin/tidy_html
-            '';
-
-            installPhase = ''
-              cp -r _site $out
-            '';
-
-            dontFixup = true;
-          };
+          # Create node modules for this system
+          nodeModules = makeNodeModules pkgs;
         in
         {
-          inherit
-            pkgs
-            deps
-            mkScript
-            scripts
-            scriptPkgs
-            site
-            ;
-          inherit packageJSON nodeModules;
+          inherit pkgs nodeModules;
+
+          # For packages
+          packageEnv = {
+            inherit pkgs nodeModules;
+            dependencies = defaultDependencies;
+            scriptPackages = makeScriptPackages {
+              inherit pkgs;
+              dependencies = defaultDependencies;
+            };
+          };
+
+          # For dev shells
+          devEnv = {
+            inherit pkgs nodeModules;
+            dependencies = devDependencies;
+            scriptPackages = makeScriptPackages {
+              inherit pkgs;
+              dependencies = devDependencies;
+            };
+            scriptPackageList = builtins.attrValues (makeScriptPackages {
+              inherit pkgs;
+              dependencies = devDependencies;
+            });
+          };
         };
     in
     {
       packages = forAllSystems (
         system:
         let
-          u = mkUtils system;
-          inherit (u) scriptPkgs site;
+          env = makeEnvForSystem system;
+          inherit (env.packageEnv)
+            pkgs
+            dependencies
+            nodeModules
+            scriptPackages
+            ;
+
+          sitePackage = pkgs.stdenv.mkDerivation {
+            name = "chobble-template";
+            src = ./.;
+            buildInputs = dependencies ++ [ nodeModules ];
+
+            buildPhase = ''
+              mkdir -p $TMPDIR/build_dir
+              cd $TMPDIR/build_dir
+
+              cp -r $src/* .
+              cp $src/.eleventy.js .
+
+              ln -s ${nodeModules}/node_modules node_modules
+
+              mkdir -p src/_data
+              chmod -R +w src/_data
+
+              ${scriptPackages.build}/bin/build
+            '';
+
+            installPhase = ''
+              mkdir -p $out
+              mv $TMPDIR/build_dir/_site $out/
+            '';
+
+            dontFixup = true;
+          };
+
+          allPackages = {
+            site = sitePackage;
+            nodeModules = nodeModules;
+          } // scriptPackages;
         in
-        scriptPkgs // { inherit site; }
+        allPackages
       );
 
       defaultPackage = forAllSystems (system: self.packages.${system}.site);
@@ -104,32 +148,36 @@
       devShells = forAllSystems (
         system:
         let
-          u = mkUtils system;
-          inherit (u)
+          env = makeEnvForSystem system;
+          inherit (env.devEnv)
             pkgs
-            deps
-            scriptPkgs
-            packageJSON
+            dependencies
             nodeModules
+            scriptPackages
+            scriptPackageList
             ;
         in
-        rec {
-          default = dev;
-          dev = pkgs.mkShell {
-            buildInputs = deps ++ (builtins.attrValues scriptPkgs);
+        {
+          default = pkgs.mkShell {
+            buildInputs = dependencies ++ scriptPackageList;
 
             shellHook = ''
-              rm -rf node_modules package.json
-              ln -sf ${packageJSON} package.json
-              ln -sf ${nodeModules}/node_modules .
-              echo "Development environment ready!"
-              echo ""
-              echo "Available commands:"
-              echo " - 'serve'     - Start development server"
-              echo " - 'build'     - Build the site in the _site directory"
-              echo " - 'dryrun'    - Perform a dry run build"
-              echo " - 'tidy_html' - Format HTML files in _site"
-              echo ""
+              rm -rf node_modules
+              ln -s ${nodeModules}/node_modules node_modules
+              cat <<EOF
+
+              Development environment ready!
+
+              Available commands:
+               - 'serve'      - Start development server
+               - 'build'      - Build the site in the _site directory
+               - 'dryrun'     - Perform a dry run build
+               - 'test_flake' - Test building a site using flake.nix
+               - 'test_js'    - Run all JavaScript tests
+               - 'lint'       - Lint all files in src using Biome
+
+              EOF
+
               git pull
             '';
           };
