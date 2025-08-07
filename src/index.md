@@ -19,7 +19,7 @@ I have [very transparent and honest pricing](/prices/) with a flat hourly rate.
 
 My rate is **discounted 50% for charities, co-operatives, artists, musicians, and sustainable businesses.**
 
-I write [guides about building websites](/guides/), provide online marketing advice for [Patreon subscribers](/services/patreon/), and keep a [blog about my server setup](https://blog.chobble.com).
+I write [guides about building websites](/guides/), create [online marketing advice videos](/videos/), and keep a [blog about my server setup](https://blog.chobble.com).
 
 I am flexible and up for discussing anything.
 
