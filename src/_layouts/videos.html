@@ -1,0 +1,18 @@
+---
+layout: base.html
+---
+
+<article id="content">
+  {{ content }}
+  <ul class="cards videos">
+    {%- assign sorted_videos = collections.video | sort: 'data.order' -%}
+    {%- for video in sorted_videos -%}
+    <li>
+      <h2>
+        <a href="{{ video.url }}#content">{{ video.data.title }}</a>
+      </h2>
+      {{ video.data.snippet }}
+    </li>
+    {%- endfor -%}
+  </ul>
+</article>
