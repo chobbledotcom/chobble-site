@@ -10,7 +10,28 @@ meta_description: Spec out a page targeting "Fitness Classes in Whitefield" for 
 
 # Targeting Local Areas on Google SERPs: A Real-ish Example
 
-This video demonstrates creating location-specific service pages through a practical example: building a "Fitness Classes for Whitefield Residents" page for a fictional Prestwich gym. The systematic approach shown applies to any business wanting to attract customers from nearby areas.
+Losing customers to competitors in nearby towns because people can't find you when searching locally? Most service businesses stick to their immediate area, missing out on customers just a few miles away who would happily travel for the right service.
+
+## Why Watch This Video?
+
+If you provide services people will travel for but struggle to attract customers from neighbouring areas, this video shows exactly how to create location-specific pages that capture those searches - using a real example of a Prestwich gym targeting Whitefield residents.
+
+## What You'll Learn
+
+**Research Any Target Area Systematically:**
+- 9 essential questions to research before writing any location page
+- How to understand transport links, demographics, and local competition
+- Turn local knowledge into searchable content
+
+**Create Genuinely Different Content:**
+- Why copying and pasting location pages kills your SEO
+- Make each area page unique based on specific local research
+- Avoid the generic "we serve X area" mistake
+
+**Build Local Authority:**
+- Demonstrate genuine knowledge of each area you serve
+- Address area-specific concerns and logistics
+- Turn location pages into conversion tools, not just SEO exercises
 
 ## The Framework: 9 Research Questions
 
@@ -146,4 +167,16 @@ Before writing content, research each target area using these questions:
 - **Establishes local authority** in multiple areas
 - **Creates sustainable marketing assets**
 
+## Who This Helps
+
+**Service Businesses** wanting to attract customers from neighbouring towns and areas
+
+**Local Professionals** (dentists, solicitors, trainers) with services people will travel for
+
+**Tradespeople** whose skills are in demand beyond their immediate postcode
+
+**Any Business** tired of losing potential customers to competitors in nearby areas
+
 The systematic research approach ensures each location page provides genuine value to visitors whilst building strong local search presence across your entire service area.
+
+**If you'd like help creating location-specific content that attracts customers from your entire service area, [contact me](/contact/).**

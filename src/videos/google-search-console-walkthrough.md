@@ -10,7 +10,28 @@ meta_description: Google Search Console gives great insights into how your site 
 
 # Google Search Console Walkthrough for Small Businesses
 
-Google Search Console is a free tool that reveals how Google views your website. This comprehensive walkthrough covers the essential features every small business should monitor, from performance data to indexing issues, helping you make informed decisions about your online presence.
+Curious why your website isn't appearing in Google searches? Wondering which search terms actually bring visitors to your site? Google Search Console holds the answers, but most small business owners either don't know it exists or find it overwhelming.
+
+## Why Watch This Video?
+
+If you want to understand exactly how Google sees your website, discover which search terms work (and which don't), and catch problems before they cost you customers, this video walks you through the essential Google Search Console features that actually matter for small businesses.
+
+## What You'll Learn
+
+**Discover Your Search Performance:**
+- See exactly which search terms show your website
+- Find profitable search opportunities you're missing
+- Track which pages attract the most visitors
+
+**Catch Problems Before They Hurt You:**
+- Identify pages Google can't find or won't index
+- Get notified immediately when Google spots security issues
+- Fix broken internal links that damage your credibility
+
+**Make Data-Driven Decisions:**
+- Use 16 months of historical data to spot trends
+- Understand where your visitors come from geographically
+- Prioritise content improvements based on actual search data
 
 ## Getting Started
 
@@ -141,4 +162,16 @@ Google Search Console is a free tool that reveals how Google views your website.
 **Competitive Intelligence**: Understand what search terms work in your industry
 **Growth Planning**: Identify geographic markets and device preferences
 
+## Who This Helps
+
+**Small Business Owners** who want to understand how their website performs in Google searches
+
+**Anyone** frustrated by poor website visibility who needs concrete data to improve
+
+**Business Owners** tired of guessing what content to create or improve
+
+**Website Owners** who want to catch and fix problems before they lose customers
+
 Google Search Console transforms abstract SEO concepts into actionable business intelligence, making it an essential tool for any business serious about online visibility.
+
+**If you'd like help interpreting your Search Console data and developing an SEO strategy that drives more customers, [contact me](/contact/).**

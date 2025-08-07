@@ -10,7 +10,28 @@ meta_description: Using less words to convey your points is good - this video ex
 
 # Be Concise
 
-A demonstration of why verbose website content fails - and how to fix it.
+Is your website drowning visitors in words that say nothing? Most business websites use hundreds of words to communicate what could be said in twenty - and it's costing them customers.
+
+## Why Watch This Video?
+
+If you've ever wondered why your detailed website content isn't converting visitors into customers, this video reveals the fundamental problem: verbose content that wastes people's time while failing to communicate what makes your business different.
+
+## What You'll Learn
+
+**See Generic Website Content Exposed:**
+- Why AI-generated "fluff" content drives visitors away
+- How generic phrases make every business sound the same
+- The exact words and phrases that waste everyone's time
+
+**Master Concise Communication:**
+- Replace 200 words of waffle with 20 words of substance
+- Transform vague promises into specific, measurable claims
+- Communicate your unique value proposition clearly
+
+**Real Before & After Examples:**
+- Watch a typical loft conversion page get dissected
+- See the powerful rewrite that actually informs visitors
+- Learn the formula for meaningful business content
 
 ## The Problem: Words Without Substance
 
@@ -32,6 +53,16 @@ Compare the waffle to this rewrite:
 
 Real information in a fraction of the words.
 
+## Who This Helps
+
+**Small Business Owners** frustrated that their website content isn't converting visitors into enquiries
+
+**Content Creators** tired of writing long pieces that don't seem to engage readers
+
+**Marketing Teams** looking to improve website performance without massive rewrites
+
+**Anyone** whose business website uses generic phrases that could describe any company
+
 ## Why This Matters
 
 **For Visitors:** Being concise respects their time. They're not going to read walls of generic text.
@@ -42,4 +73,4 @@ Real information in a fraction of the words.
 
 Being concise means conveying needed information as straightforwardly as possible. Your visitors will thank you for it.
 
-Employ me - [https://chobble.com](/)
+**If you'd like help writing concise, effective website content that converts visitors into customers, [contact me](/contact/).**

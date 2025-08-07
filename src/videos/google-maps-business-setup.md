@@ -10,7 +10,28 @@ meta_description: A whistlestop tour of Google Business - essential for local se
 
 # Google Maps / Google Business Quick Setup & Walkthrough
 
-Google Business profiles dominate local search results, often appearing before organic listings. This complete setup and optimization guide shows why every local business needs a well-maintained Google Business presence and how to maximize its impact.
+Invisible to local customers searching online? Your competitors are probably showing up in the prime Google Business spots while you're buried in organic results - if you appear at all. Most local businesses don't realise Google Business listings get better visibility than traditional websites.
+
+## Why Watch This Video?
+
+If you're a local business struggling to appear when people search for your services in your area, this video shows why Google Business listings often appear above regular websites in search results - and exactly how to set up and optimise yours to capture more local customers.
+
+## What You'll Learn
+
+**Understand Google's Local Priority:**
+- See real examples of Google Business listings dominating search results
+- Learn why these listings appear before most websites
+- Discover how Google prioritises local businesses in search
+
+**Complete Professional Setup:**
+- Step-by-step verification process for immediate visibility
+- Essential information that Google requires vs optional details
+- Advanced features most businesses ignore but shouldn't
+
+**Optimise for Maximum Impact:**
+- Photo strategies that significantly improve performance
+- Review management that builds credibility and attracts customers
+- Performance tracking to measure and improve your local presence
 
 ## Why Google Business Matters
 
@@ -244,4 +265,18 @@ Google Business profiles dominate local search results, often appearing before o
 - **Performance monitoring**: Track metrics and adjust strategy
 - **Reputation management**: Proactive review responses
 
+## Who This Helps
+
+**Local Service Businesses** (plumbers, electricians, solicitors) competing for local customers
+
+**Retail Businesses** with physical locations wanting more foot traffic
+
+**Restaurant and Hospitality Owners** needing better visibility in local searches
+
+**Any Business** with a physical presence frustrated by poor local search visibility
+
+**Service Area Businesses** who travel to customers but want local authority
+
 Google Business profiles represent prime digital real estate for local businesses. A well-optimized, regularly maintained profile significantly improves local visibility, customer engagement, and business growth whilst requiring minimal ongoing investment.
+
+**If you'd like help setting up and optimising your Google Business listing for maximum local visibility, [contact me](/contact/).**

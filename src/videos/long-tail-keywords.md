@@ -10,7 +10,28 @@ meta_description: The competition for shorter search phrases is tougher than for
 
 # "Long Tail" Keywords
 
-How small businesses can compete with big brands by targeting specific search phrases.
+Tired of competing with Pizza Hut and Wikipedia for search rankings? Small businesses trying to rank for "pizza" or "plumber" are fighting an impossible battle against billion-pound brands.
+
+## Why Watch This Video?
+
+If you're frustrated watching big corporations dominate every search term in your industry, this video reveals the secret weapon small businesses use to bypass the competition entirely: long tail keywords that big brands ignore but customers actually use.
+
+## What You'll Learn
+
+**Escape the Impossible Competition:**
+- Why searching "pizza" shows Pizza Hut, not local restaurants
+- How billion-pound brands monopolise short search terms
+- The David vs Goliath problem every small business faces
+
+**Discover Your Competitive Advantage:**
+- Find search phrases where you can actually win
+- Target customers with specific needs (your specialty)
+- Turn your niche expertise into search visibility
+
+**Master Customer Intent:**
+- Decode what people really want when they search
+- Match your unique services to specific search phrases
+- Convert browsers into buyers with precise targeting
 
 ## Short Tail vs Long Tail
 
@@ -34,6 +55,16 @@ Long tail keywords reveal what people actually want:
 
 When someone searches "solicitor" - could want anything. But "no win no fee cycling accident solicitor Manchester" - you know exactly what they need.
 
+## Who This Helps
+
+**Small Business Owners** being crushed by big brand competition in search results
+
+**Local Service Providers** struggling to appear above national chains and directories
+
+**Niche Specialists** with unique expertise that gets lost in generic searches
+
+**Anyone** whose perfect customers can't find them because they're competing with Wikipedia
+
 ## How to Use Long Tail Keywords
 
 **Find Your Unique Selling Points:**
@@ -50,4 +81,4 @@ When someone searches "solicitor" - could want anything. But "no win no fee cycl
 
 The trick is matching what makes you special to what people are actually searching for. That's how browsing turns into business.
 
-To employ me to help your business do well online, hit me up at [https://chobble.com](/)
+**If you'd like help identifying profitable long tail keywords for your business and creating content that ranks, [contact me](/contact/).**

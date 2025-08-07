@@ -10,30 +10,25 @@ meta_description: What keyword stuffing is and a layman's overview of how Google
 
 # Keywords & Keyword Stuffing
 
-A practical explanation of how Google understands keywords and why cramming them into your content backfires.
+Stop worrying about cramming keywords into your content. Learn how to write naturally whilst still ranking well on Google.
 
-## What This Video Covers
+## Why Watch This Video?
 
-**Understanding Keywords:**
-- Keywords are simply the words people type into search engines
-- Google is clever enough to understand context - it doesn't need exact phrase matches
-- A recipe page can rank for "how to make pizza" without using that exact phrase
+If you're anxious about using the "right" keywords or worried you're not mentioning them enough, this video will put your mind at ease. You'll discover why Google actually penalises keyword stuffing and how to write content that ranks without sounding robotic.
 
-**Search Intent Matters:**
-- "Pizza" - vague intent, could be buying or learning
-- "How to make pizza" - clearly informational, won't buy anything
-- "Pizza in Prestwich" - transactional, likely to order
+## What You'll Learn
 
-**Why Keyword Stuffing Fails:**
-- Google specifically penalises keyword stuffing in their spam policies
-- Examples include listing cities/regions repeatedly or unnaturally repeating phrases
-- The goal is to be clear about what you offer without awkward repetition
+**Write Naturally and Still Rank**
+Google understands context - a recipe page can rank for "how to make pizza" without using that exact phrase. You don't need to force keywords where they don't belong.
 
-**Practical Advice:**
-- Write naturally about your products and services
-- Don't feel pressured to squeeze exact phrases into your content
-- A pizza shop doesn't need to say "pizza in Prestwich" repeatedly - just be clear you sell pizza and where you're located
+**Avoid Google Penalties**
+See real examples from Google's own spam policies showing what NOT to do. Many businesses accidentally stuff keywords thinking it helps - it doesn't.
 
-Google's own example of keyword stuffing is surprisingly mild - many sites do far worse. Focus on clear, natural content that helps your visitors.
+**Match Search Intent**
+Understand the difference between someone searching "pizza" (vague) versus "pizza in Prestwich" (ready to buy) and write accordingly.
 
-Hire me to help your business do well online: [https://chobble.com](/)
+## Who This Helps
+
+Perfect for business owners who've been told to "use more keywords" but find their content sounds unnatural. Also ideal if you've been penalised or your rankings have dropped after trying to optimise for keywords.
+
+**If you'd like help writing natural content that ranks well without keyword stuffing, [contact me](/contact/).**

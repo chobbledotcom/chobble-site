@@ -10,32 +10,25 @@ meta_description: AI can be really useful for automating tasks on your website l
 
 # Automating Things with AI
 
-Practical examples of using AI to automate simple website tasks - whilst avoiding the pitfalls.
+Save hours on repetitive website tasks using AI the right way - without the risks.
 
-## What AI Should NOT Do
+## Why Watch This Video?
 
-First, the warnings:
-- Don't put AI in charge of business decisions
-- Don't let it write public-facing content without full editing
-- Don't have it answer customer support queries directly
+If you're spending ages on tedious tasks like checking meta descriptions, rewriting emails, or analysing your site content, AI can help. But most people either avoid it completely or use it wrong. This video shows you the safe, practical middle ground.
 
-## What AI Excels At
+## What You'll Learn
 
-**Example 1: Sitemap & Meta Description Audit**
-- Give AI your sitemap URL (usually yoursite.com/sitemap.xml)
-- It fetches all page URLs and analyses each one
-- Checks for missing meta descriptions and title optimisation
-- Provides specific recommendations for improvements
-- A manual process that would take hours done in seconds
+**Audit Your Entire Site in Seconds**
+Give AI your sitemap and it'll check every page for missing meta descriptions, poor titles, and SEO issues. What would take you hours is done instantly.
 
-**Example 2: Message Rewriting**
-- Create a prompt telling AI your writing style preferences
-- Paste rough customer messages
-- Get back properly formatted, friendly responses
-- Example: "not available Saturday, but Sunday Monday Tuesday" becomes professional correspondence
+**Turn Rough Notes into Professional Messages**
+Quickly transform "not available Saturday but Sunday Monday Tuesday" into polished customer correspondence that matches your tone.
 
-## Key Takeaway
+**Avoid Costly AI Mistakes**
+Learn what AI should never do (business decisions, unedited public content, customer support) so you get the benefits without the risks.
 
-AI works best for automating simple, repetitive tasks that have clear parameters. It branches one instruction into multiple smaller jobs efficiently - like checking every URL in a sitemap. Use it as a time-saving tool, not a replacement for human judgment.
+## Who This Helps
 
-Works with Claude, ChatGPT, Gemini, or any modern AI model.
+Perfect for busy business owners who want to save time on repetitive tasks but are wary of AI. Also great if you've tried AI but found the results too generic or unreliable.
+
+**If you'd like help automating your website tasks safely with AI, [contact me](/contact/).**

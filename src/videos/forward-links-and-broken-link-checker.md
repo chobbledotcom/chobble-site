@@ -10,7 +10,28 @@ meta_description: A quick dig into the use of links in your website content and 
 
 # "Forward"-links and a Broken Link Checker
 
-Whilst everyone focuses on backlinks (other websites linking to yours), there's equal value in the links you create - both internal links to other pages on your site and external links to other websites. This video explores effective linking strategies and introduces a tool to maintain link quality.
+Are broken links on your website making you look unprofessional? While everyone obsesses over getting backlinks, most businesses ignore the linking strategy that's completely under their control - and it's costing them trust and conversions.
+
+## Why Watch This Video?
+
+If you want visitors to explore more of your content, trust your recommendations, and see you as a helpful resource (not just someone trying to sell them something), this video reveals linking strategies that transform browsers into buyers and one-time visitors into repeat customers.
+
+## What You'll Learn
+
+**Master Strategic Link Placement:**
+- Link at the exact moment of interest (not buried in navigation)
+- Create seamless pathways through your content
+- Guide visitors naturally to what they need next
+
+**Build Trust Through External Linking:**
+- Why linking to competitors actually helps your business
+- How external links demonstrate expertise and transparency
+- Turn researchers into customers with comprehensive resources
+
+**Maintain Professional Standards:**
+- Find and fix broken links that damage credibility
+- Use Dr. Link Check to automatically audit your entire website
+- Prevent the embarrassment of sending visitors to dead pages
 
 ## The Forgotten Side of Linking
 
@@ -85,6 +106,16 @@ When checking a restaurant website, Dr. Link Check found 12 broken links, mostly
 - **Focus on high-traffic pages** for maximum impact
 - **Replace rather than remove** when possible to maintain value
 
+## Who This Helps
+
+**Small Business Owners** whose website visitors bounce after reading one page
+
+**Service Providers** who want to be seen as industry experts, not just salespeople
+
+**Content Creators** looking to increase engagement and time spent on their website
+
+**Any Business** embarrassed by broken links that make them look outdated and unprofessional
+
 ## The Long Game
 
 Effective linking strategy serves multiple audiences:
@@ -93,3 +124,5 @@ Effective linking strategy serves multiple audiences:
 - **Future customers** who might employ you after initially learning from your content
 
 By providing comprehensive, well-maintained links, you become a trusted resource that attracts quality traffic and builds long-term business relationships.
+
+**If you'd like help developing a strategic linking strategy for your website that builds trust and drives conversions, [contact me](/contact/).**

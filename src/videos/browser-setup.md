@@ -10,7 +10,28 @@ meta_description: Setting your browser up properly can remove friction - four fa
 
 # Browser Setup: Block Adverts & Cookie Popups, Save Bookmarks, Use a Password Manager
 
-When you're promoting your business online, you'll spend considerable time browsing the internet, looking at websites, and working in your browser. This video demonstrates how to set up Firefox for a more efficient and pleasant browsing experience.
+Frustrated with slow-loading websites plastered with ads? Tired of clicking through cookie popups on every site? If you're spending significant time online for work, a poorly configured browser is costing you hours every week.
+
+## Why Watch This Video?
+
+If you're sick of intrusive advertising slowing down your browsing, annoying cookie banners interrupting your workflow, and the security risk of weak passwords, this video shows four essential browser improvements that will transform your internet experience.
+
+## What You'll Learn
+
+**Eliminate Digital Annoyances:**
+- Block intrusive ads that slow down websites (and your work)
+- Automatically dismiss GDPR cookie banners without clicking
+- Speed up page loading by blocking tracking scripts
+
+**Boost Your Productivity:**
+- Set up one-click access to frequently used websites
+- Sync bookmarks and passwords across all your devices
+- Create efficient workflows with strategic bookmark organisation
+
+**Improve Your Security:**
+- Use strong, unique passwords without memorisation
+- Choose between built-in Firefox sync and premium password managers
+- Migrate gradually from weak passwords to bulletproof security
 
 ## Why Firefox?
 
@@ -52,6 +73,18 @@ Firefox consistently makes improvements that benefit users, whilst browsers like
 - **Convenience**: Random passwords for every site without memorisation
 - **Migration**: Gradually move passwords over - no need to change everything at once
 
+## Who This Helps
+
+**Small Business Owners** spending hours daily browsing for work and research
+
+**Digital Workers** frustrated with slow, ad-heavy websites interrupting their productivity
+
+**Privacy-Conscious Users** tired of being tracked across the web by advertising networks
+
+**Anyone** using weak passwords or constantly logging into the same sites repeatedly
+
+**Older Computer Users** whose machines struggle with modern, script-heavy websites
+
 ## Results
 
 These four setup changes will make your internet browsing:
@@ -61,3 +94,5 @@ These four setup changes will make your internet browsing:
 - **More secure** - Strong, unique passwords for every account
 
 This setup is particularly beneficial if you have an older computer, as blocking ads and scripts significantly reduces the processing load.
+
+**If you'd like help optimising your digital tools and workflows for maximum productivity, [contact me](/contact/).**
