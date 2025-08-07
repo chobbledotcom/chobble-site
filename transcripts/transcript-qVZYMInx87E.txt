@@ -1,0 +1,331 @@
+Title: Keywords & Keyword Stuffing
+Video ID: qVZYMInx87E
+Channel: Chobble
+
+---
+
+[0:00 - 0:03] from patreon.com/trouble
+[0:03 - 0:05] keywords. So, I already did a post on
+[0:05 - 0:07] keywords and I've done a whole bunch of
+[0:07 - 0:09] posts where I kind of mention keywords,
+[0:09 - 0:12] but the first post was just a PDF and
+[0:12 - 0:14] reading back over it, I think it could
+[0:14 - 0:17] do with a video. So, what is a keyword?
+[0:17 - 0:18] Forgive me if any of this sounds really
+[0:18 - 0:21] obvious, but a keyword is basically a
+[0:21 - 0:24] string of words that a person might type
+[0:24 - 0:26] into a search engine. So, for example,
+[0:26 - 0:27] I'm looking at Google and let's say I
+[0:27 - 0:30] look for pizza. The results that come up
+[0:30 - 0:33] are about the search term pizza. Pizza
+[0:33 - 0:34] is the keyword. And why is Google
+[0:34 - 0:36] showing these results? Because Google
+[0:36 - 0:38] has analyzed those websites and thinks
+[0:38 - 0:40] that they're relevant to the search term
+[0:40 - 0:42] pizza. Let's see what the results are.
+[0:42 - 0:44] We've got a bunch of pizza places near
+[0:44 - 0:47] me in PressWitch because Google knows
+[0:47 - 0:49] that I'm in PressWitch. We can see here
+[0:49 - 0:50] it says results for PressWitch
+[0:50 - 0:52] Manchester. Google knows my IP address.
+[0:52 - 0:55] I'm also logged in so they know where I
+[0:55 - 0:56] am. And the results that it's showing
+[0:56 - 0:59] are, as you would expect, pizza
+[0:59 - 1:01] websites.
+[1:01 - 1:03] Trip Advisor talking about pizza places
+[1:03 - 1:05] in PressWitch. Wikipedia talking about
+[1:05 - 1:08] pizza. Domino's Pizza Express.
+[1:08 - 1:11] So that's a keyword. Now, the search
+[1:11 - 1:14] term pizza here is quite vague. Is the
+[1:14 - 1:17] person looking to buy pizza? Do they
+[1:17 - 1:18] want to learn about pizza? I've kind of
+[1:18 - 1:21] mentioned this before. So, there's a few
+[1:21 - 1:22] different intentions that a person might
+[1:22 - 1:25] have here. They might search for how to
+[1:25 - 1:28] make pizza.
+[1:28 - 1:29] And if they search for how to make
+[1:29 - 1:31] pizza, you can be pretty sure that this
+[1:31 - 1:33] person isn't going to buy anything.
+[1:33 - 1:36] They're looking for instructions.
+[1:36 - 1:38] They're not looking to make a sale. But
+[1:38 - 1:42] if they search for pizza in PressWitch,
+[1:42 - 1:43] you can be pretty sure here that this is
+[1:43 - 1:45] someone who's going to buy something
+[1:45 - 1:46] because they're searching for pizza near
+[1:46 - 1:48] them. That's a pretty strange thing to
+[1:48 - 1:51] do. unless the context of what you're
+[1:51 - 1:53] searching for is that you'd like a pizza
+[1:53 - 1:55] to be delivered to your house. And as
+[1:55 - 1:57] you'd expect, the results are pizza
+[1:57 - 1:59] places near me. Whereas, when I searched
+[1:59 - 2:01] for how to make pizza, the results
+[2:01 - 2:03] weren't anything to do with PressWitch.
+[2:03 - 2:04] These are just from the cold internet
+[2:04 - 2:07] because Google knows that these aren't
+[2:07 - 2:09] local search terms that PressWitch is
+[2:09 - 2:12] particularly relevant for. So, how does
+[2:12 - 2:15] Google decide that these results should
+[2:15 - 2:17] show up for how to make pizza? Well,
+[2:17 - 2:18] this is getting into some really
+[2:18 - 2:21] complicated kind of computer science,
+[2:21 - 2:24] but a very kind of broad overview would
+[2:24 - 2:26] be that Google has got a really clever
+[2:26 - 2:28] system that's able to categorize
+[2:28 - 2:30] websites in a way that doesn't
+[2:30 - 2:32] necessarily have to specifically line up
+[2:32 - 2:34] with the search terms that someone used.
+[2:34 - 2:36] So, here when I've searched for how to
+[2:36 - 2:38] make pizza, this first result here,
+[2:38 - 2:39] homemade pizza and pizza dough recipe,
+[2:39 - 2:41] if I click through, it doesn't actually
+[2:41 - 2:43] say the phrase how to make pizza on
+[2:43 - 2:48] here. If I search how to make pizza, you
+[2:48 - 2:49] see it's gone red. It doesn't match any
+[2:49 - 2:51] results.
+[2:51 - 2:52] But Google knows that when you're
+[2:52 - 2:54] searching for how to make something and
+[2:54 - 2:57] if that thing is a food, then recipes
+[2:57 - 2:58] are the kind of results that you're
+[2:58 - 3:00] looking for. And so it shows the page
+[3:00 - 3:03] which is relevant for a recipe. This is
+[3:03 - 3:05] simply recipes.com. It's all about
+[3:05 - 3:07] recipes. So we can see there that even
+[3:07 - 3:09] with this quite simple example, how to
+[3:09 - 3:11] make pizza. The first result, and
+[3:11 - 3:13] that'll be a really competitive search
+[3:13 - 3:15] term, doesn't say the phrase how to make
+[3:15 - 3:18] pizza on it. It instead is a page that
+[3:18 - 3:20] is about how to make pizza. And Google
+[3:20 - 3:22] is clever enough to know that a page
+[3:22 - 3:24] that's about how to make pizza is the
+[3:24 - 3:25] kind of thing that should show when
+[3:25 - 3:28] someone searches for how to make pizza.
+[3:28 - 3:29] I'm saying the phrase how to make pizza
+[3:29 - 3:32] an awful lot here. How to make pizza.
+[3:32 - 3:34] How to make pizza. How to make pizza.
+[3:34 - 3:37] I'll say it a few more times.
+[3:37 - 3:38] But we can see here that the third
+[3:38 - 3:41] result here does say learn how to make
+[3:41 - 3:43] homemade pizza. So it kind of partially
+[3:43 - 3:45] matches the search term exactly. But
+[3:45 - 3:48] anyway, so how does this relate to your
+[3:48 - 3:50] business? Well, I suppose what it means
+[3:50 - 3:52] is that Google's quite clever. So if
+[3:52 - 3:54] your business is doing pizza in
+[3:54 - 3:56] PressWitch, then what your website needs
+[3:56 - 3:58] to do is make sure that it's really
+[3:58 - 4:00] clear that you sell pizza and that
+[4:00 - 4:02] you're in PressWitch. It doesn't
+[4:02 - 4:04] necessarily need to say the phrase pizza
+[4:04 - 4:06] in PressWitch. And if it feels awkward
+[4:06 - 4:08] to say that on your website, which it
+[4:08 - 4:09] might do, that's kind of a strange thing
+[4:09 - 4:11] to say, pizza impressed as a page title
+[4:11 - 4:13] or whatever, you might want your tagline
+[4:13 - 4:16] to be a bit more creative than pizza
+[4:16 - 4:18] impressed witch. So, you shouldn't feel
+[4:18 - 4:20] any great pressure to squeeze the phrase
+[4:20 - 4:23] pizza in press into your site. Instead,
+[4:23 - 4:24] you should just, like I said, make it
+[4:24 - 4:26] clear that that's what you do. If you
+[4:26 - 4:29] did decide, despite my advice, that you
+[4:29 - 4:31] wanted to try and fit every single
+[4:31 - 4:33] keyword phrase that someone might use
+[4:33 - 4:36] into your website for the pizza example,
+[4:36 - 4:38] that might mean that your website says
+[4:38 - 4:41] pizza impress, margarita impress,
+[4:41 - 4:43] Hawaiian pizza impress, barbecue pizza
+[4:43 - 4:46] impress, and so on and so on and so on,
+[4:46 - 4:48] which I think would result in your the
+[4:48 - 4:50] content on your site reading quite
+[4:50 - 4:52] horribly. Whereas instead, if you just
+[4:52 - 4:54] list the types of pizzas that you do on
+[4:54 - 4:56] a menu page, for example, and you
+[4:56 - 4:58] describe that you're impressed with on
+[4:58 - 5:00] your contact page and on the text that's
+[5:00 - 5:01] on the other pages, Google will
+[5:01 - 5:02] understand that you're a pizzeria you're
+[5:02 - 5:04] impressed with. And if you need any more
+[5:04 - 5:06] persuading that you should try and write
+[5:06 - 5:08] naturally rather than squeezing lots of
+[5:08 - 5:11] keywords in. Here's the spam policies
+[5:11 - 5:13] page for Google on their documentation.
+[5:13 - 5:15] And if I scroll down a bit, you'll see
+[5:15 - 5:16] that they've got a section all about
+[5:16 - 5:18] keyword stuffing where they say, and let
+[5:18 - 5:20] me zoom in. Keyword stuffing refers to
+[5:20 - 5:22] the practice of filling a web page with
+[5:22 - 5:24] keywords or numbers in an attempt to
+[5:24 - 5:26] manipulate rankings in Google search
+[5:26 - 5:28] results. Often these keywords appear in
+[5:28 - 5:30] a list or group unnaturally or out of
+[5:30 - 5:32] context. Examples of keyword stuffing
+[5:32 - 5:33] include list of phone numbers without
+[5:33 - 5:36] substantial added value, blocks of text
+[5:36 - 5:38] that list citizen regions that a website
+[5:38 - 5:40] is trying to rank for, and repeating the
+[5:40 - 5:41] same words and phrases so often that it
+[5:41 - 5:44] sounds unnatural. For example, and then
+[5:44 - 5:46] they give this example. Try and think if
+[5:46 - 5:48] this reads like your website content.
+[5:48 - 5:51] And if it does, then bear in mind that
+[5:51 - 5:53] you're doing exactly what Google say not
+[5:53 - 5:56] to do. Their example says unlimited app
+[5:56 - 5:57] store credit. There are so many sites
+[5:57 - 5:59] that claim to offer app store credit for
+[5:59 - 6:01] 0, but they're all fake and always mess
+[6:01 - 6:02] up with users looking for unlimited app
+[6:02 - 6:04] store credits. You can get limitless
+[6:04 - 6:06] credits for app store here on the
+[6:06 - 6:09] website. Visit our unlimited app store
+[6:09 - 6:11] credit page and get it today. You'll see
+[6:11 - 6:12] that in the example that Google have
+[6:12 - 6:15] provided here about keyword stuffing.
+[6:15 - 6:17] It's not that bad. Like I see worse
+[6:17 - 6:20] websites all the time that have way more
+[6:20 - 6:22] keywords squeezed in way more
+[6:22 - 6:24] unnaturally than the example that Google
+[6:24 - 6:26] give. Another thing that I see all the
+[6:26 - 6:28] time is the second point, blocks of text
+[6:28 - 6:30] that list cities and regions that a web
+[6:30 - 6:33] page is trying to rank for. I see this
+[6:33 - 6:35] all the time on people's websites. So
+[6:35 - 6:37] you want to be trying to write naturally
+[6:37 - 6:39] and describe the products and services
+[6:39 - 6:40] that you do and the areas that you
+[6:40 - 6:42] deliver them to without repeating them
+[6:42 - 6:45] over and over.
+[6:45 - 6:47] So, we haven't really spoken too much
+[6:47 - 6:49] here about the content of the site in
+[6:49 - 6:51] terms of headings, meta descriptions,
+[6:51 - 6:53] metatitles, that kind of stuff. With
+[6:53 - 6:54] those, it's also easy to fall into the
+[6:54 - 6:56] trap of thinking you must fit your
+[6:56 - 7:00] keywords in no matter what. That isn't
+[7:00 - 7:02] the case. Like, we found Google is good
+[7:02 - 7:04] at determining what your page is about.
+[7:04 - 7:06] So, the headings and the text on your
+[7:06 - 7:09] site should be written for visitors. It
+[7:09 - 7:10] should be designed for visitors to
+[7:10 - 7:12] really quickly understand what your site
+[7:12 - 7:14] is about because Google is good enough
+[7:14 - 7:16] at figuring that stuff out as well.
+[7:16 - 7:18] Google treats your website like a
+[7:18 - 7:20] visitor would. So what does that look
+[7:20 - 7:22] like in practice? So if I click on this
+[7:22 - 7:24] first result here for pizza and press
+[7:24 - 7:26] Rudies, this is a nationwide chain.
+[7:26 - 7:28] They've got a whole bunch of spots. You
+[7:28 - 7:29] see that the heading on their page just
+[7:29 - 7:33] says PressWitch Manchester. If I inspect
+[7:33 - 7:35] this for the nerds, you'll see that this
+[7:35 - 7:38] is a heading one H1. The H1 is just the
+[7:38 - 7:40] word press switch. It's not pizza
+[7:40 - 7:42] impress. It's not anything keyword
+[7:42 - 7:45] stuffy. It's just press switch. I'm not
+[7:45 - 7:47] saying that that's what your pages
+[7:47 - 7:50] should be like, but again, it's about
+[7:50 - 7:52] looking at the actual examples that show
+[7:52 - 7:54] up on Google and deciding whether there
+[7:54 - 7:56] really are these hard and fast rules.
+[7:56 - 7:57] Now, despite what I said about that you
+[7:57 - 7:58] shouldn't be trying to squeeze keywords
+[7:58 - 8:00] into every heading, even if it doesn't
+[8:00 - 8:02] read naturally, you should probably try
+[8:02 - 8:03] and fit your keywords into your
+[8:03 - 8:05] headings. You know, there's two sides to
+[8:05 - 8:07] this coin. that is balancing the SEO
+[8:07 - 8:08] benefits and that's making it usable for
+[8:08 - 8:11] readers. And if you can fit a keyword
+[8:11 - 8:12] into your heading in a way that reads
+[8:12 - 8:14] naturally, then great. Looking at the
+[8:14 - 8:15] rest of the content on this readers
+[8:15 - 8:17] page, there's not an awful lot to it
+[8:17 - 8:19] really. You know, they list the menus
+[8:19 - 8:21] and the link off to deliver and Uber
+[8:21 - 8:22] Eats, but there's nothing specific in
+[8:22 - 8:24] here that's about press. And that's
+[8:24 - 8:26] because Google's taken a lot more into
+[8:26 - 8:28] account for this page's ranking than the
+[8:28 - 8:30] specific content that's on it. Like this
+[8:30 - 8:32] page hardly has any content on it
+[8:32 - 8:34] really. You know, it's got maybe six
+[8:34 - 8:36] lines of unique content on it. But
+[8:36 - 8:38] Google knows that Rudies is the biggest
+[8:38 - 8:41] chain, the biggest name, and the biggest
+[8:41 - 8:43] sit down place in Press Twitch to have a
+[8:43 - 8:46] pizza. So, despite there being much
+[8:46 - 8:48] better options, as far as I'm concerned,
+[8:48 - 8:50] that have been around for longer, that
+[8:50 - 8:52] are more local and independent, that
+[8:52 - 8:54] someone might actually prefer, the
+[8:54 - 8:57] domain name Rudy's Pizza.co.uk UK has so
+[8:57 - 8:59] much kudos in Google's eyes that this
+[8:59 - 9:02] page can rank despite not really having
+[9:02 - 9:04] any content on it about pizza in
+[9:04 - 9:06] PressWitch. It's kind of unfair. There's
+[9:06 - 9:07] a whole bunch of other places in
+[9:07 - 9:09] PressWitch that would be better and I
+[9:09 - 9:11] think should be showing instead. But
+[9:11 - 9:12] Google tries to prioritize the safest
+[9:12 - 9:15] results and the Rudy's Pizza domain name
+[9:15 - 9:17] will have people mentioning it all over
+[9:17 - 9:20] the UK in pretty positive terms.
+[9:20 - 9:21] Actually, none of the pressed places are
+[9:21 - 9:24] ranking that well. So, what's making
+[9:24 - 9:26] Rudy's rank well?
+[9:26 - 9:28] Well, as we said, aside from the
+[9:28 - 9:30] mentions of Rudy's Pizza all over the
+[9:30 - 9:32] internet, they've also got an awful lot
+[9:32 - 9:34] of Google reviews, especially
+[9:34 - 9:36] considering they've only been around for
+[9:36 - 9:39] less than a year. The two local places,
+[9:39 - 9:41] Cooku and Chroma, have got more. But in
+[9:41 - 9:43] the time span, Ruders have done an
+[9:43 - 9:44] amazing job of collecting so many
+[9:44 - 9:47] reviews really. So, that's kind of
+[9:47 - 9:48] testament to putting the effort into
+[9:48 - 9:50] trying to get some good Google reviews
+[9:50 - 9:52] because it'll bump you up the rankings
+[9:52 - 9:54] even if your web because it'll bump you
+[9:54 - 9:56] up the rankings regardless of the
+[9:56 - 9:59] content of your website. I'm diverting a
+[9:59 - 10:01] bit from keywords here, so forgive me.
+[10:01 - 10:03] Okay, I hope this has been helpful.
+[10:03 - 10:05] There's so much we could talk about in
+[10:05 - 10:07] terms of keywords really. I could be
+[10:07 - 10:09] going on for hours, but I think it's
+[10:09 - 10:11] probably better to keep each video kind
+[10:11 - 10:13] of reasonably quickly digestible.
+[10:13 - 10:15] So, I suppose the main takeaway from
+[10:15 - 10:17] this is to remember that Google's
+[10:17 - 10:19] algorithm is really clever and they're
+[10:19 - 10:21] not looking for exact matches. If you
+[10:21 - 10:24] can naturally fit an exact match for the
+[10:24 - 10:25] keyword that someone's searching for
+[10:25 - 10:27] into the text of your website, then
+[10:27 - 10:30] excellent. But don't fret too much if
+[10:30 - 10:32] you can't do it. It's better instead to
+[10:32 - 10:34] send lots of signals to Google that make
+[10:34 - 10:36] it really clear what you do for your
+[10:36 - 10:38] business and why your customer should
+[10:38 - 10:42] choose you. and also of course to try
+[10:42 - 10:44] and get lots of good Google Maps reviews
+[10:44 - 10:47] from real customers.
+[10:47 - 10:49] Okay, I hope this was helpful. I've put
+[10:49 - 10:51] a poll in the channel for some other
+[10:51 - 10:53] video ideas.
+[10:53 - 10:55] So, please do participate in that if you
+[10:55 - 10:57] get a second.
+[10:57 - 10:58] And if you enjoy this podcast, it'd be
+[10:58 - 11:00] great if you could tell a friend about
+[11:00 - 11:02] it. It's still bringing in hardly any
+[11:02 - 11:04] income really. And it would be nice if I
+[11:04 - 11:06] could make this be a more substantial
+[11:06 - 11:08] part of my wage really. Anyway, I'm
+[11:08 - 11:10] building up a library of useful guides
+[11:10 - 11:13] that hopefully future subscribers will
+[11:13 - 11:15] be able to use and I think and hopefully
+[11:15 - 11:19] provides a good bit of value.
+[11:20 - 11:22] Anyway, that's enough waffling. Over and
+[11:22 - 11:26] out. Take care.

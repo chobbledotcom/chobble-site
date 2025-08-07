@@ -1,0 +1,387 @@
+Title: "Forward"-links and a broken link checker
+Video ID: SKch5hhuwB0
+Channel: Chobble
+
+---
+
+[0:00 - 0:02] from patreon.com/jobble.
+[0:02 - 0:04] Forward links. I've spoken on this page
+[0:04 - 0:08] before about backlinks. That's when
+[0:08 - 0:11] another person's website links to yours
+[0:11 - 0:13] and it's the important metric. Well,
+[0:13 - 0:15] it's one of the important metrics that
+[0:15 - 0:16] helps Google decide where your site
+[0:16 - 0:19] should rank in terms of search results
+[0:19 - 0:21] pages. There's a lot of focus on
+[0:21 - 0:22] backlinks in the search engine
+[0:22 - 0:25] optimization kind of world. Since those
+[0:25 - 0:27] back links play an important role in
+[0:27 - 0:29] your rankings position, everyone just
+[0:29 - 0:31] focuses on backlinks and we don't really
+[0:31 - 0:32] talk about the other types of links that
+[0:32 - 0:35] make up the worldwide web which really
+[0:35 - 0:36] is a collection of things linking to
+[0:36 - 0:38] each other. The other side of backlinks
+[0:38 - 0:41] is you linking to things that might be
+[0:41 - 0:42] pages on your own website or you might
+[0:42 - 0:44] be linking off to someone else's
+[0:44 - 0:45] website. But both types of links,
+[0:45 - 0:47] whether those are internal ones to other
+[0:47 - 0:49] pages on your site or external ones to
+[0:49 - 0:51] other people's websites, both of them
+[0:51 - 0:53] have value both in terms of visitors to
+[0:53 - 0:55] your website and search engines really
+[0:55 - 0:57] that I'm going to try and keep the focus
+[0:57 - 0:58] on providing value to the visitors to
+[0:58 - 1:00] your website because ultimately that's
+[1:00 - 1:02] what results in good search engine
+[1:02 - 1:04] performance. I'm pretty convinced. So,
+[1:04 - 1:05] we're looking at my website here,
+[1:05 - 1:07] chbble.com, which really I could do with
+[1:07 - 1:09] making a bit more snazzy looking, I
+[1:09 - 1:12] think. But in any case, your website
+[1:12 - 1:13] probably has pretty similar stuff to
+[1:13 - 1:15] this on, you know, we've got a list of
+[1:15 - 1:17] links along the top, about services, and
+[1:17 - 1:18] then we've got bigger links on the
+[1:18 - 1:20] homepage, services and prices, examples,
+[1:20 - 1:22] contact page, and then we've got a load
+[1:22 - 1:25] of text underneath that. And that text
+[1:25 - 1:27] has got links in. So on my website, you
+[1:27 - 1:28] can spot the links in the text because
+[1:28 - 1:30] they're colored purple and they've got
+[1:30 - 1:31] an underline on them. And these links,
+[1:31 - 1:33] if I click through them, take me to
+[1:33 - 1:35] other pages on my website, or they might
+[1:35 - 1:37] take you to somewhere else entirely,
+[1:37 - 1:39] like my source code repository. Probably
+[1:39 - 1:41] when you edit your website, you use some
+[1:41 - 1:42] sort of text editor and it probably has
+[1:42 - 1:44] the ability for you to add these links
+[1:44 - 1:46] relatively straightforwardly. And if I'm
+[1:46 - 1:47] hosting your website and you don't know
+[1:47 - 1:49] how to do that, ask her and I'll explain
+[1:49 - 1:50] how you can add a link through the text
+[1:50 - 1:52] editor as well. So, let's talk about the
+[1:52 - 1:54] links that are on my homepage here to
+[1:54 - 1:57] explain a bit about them. And some of
+[1:57 - 1:59] this is going to feel very redundant,
+[1:59 - 2:01] but bear with me. So here we say I'm
+[2:01 - 2:02] just going to read out loud here. I'm
+[2:02 - 2:04] Steph, a web and software developer of
+[2:04 - 2:06] around 20 years based in Press
+[2:06 - 2:07] Manchester. I can help you succeed
+[2:07 - 2:09] online by demystifying websites,
+[2:09 - 2:11] hosting, online marketing, and tech in
+[2:11 - 2:13] general. Everything I do is released as
+[2:13 - 2:16] open source. Here's my source code. And
+[2:16 - 2:18] then we get to the first link. Here's my
+[2:18 - 2:20] source code. And it's linking off to the
+[2:20 - 2:23] place where the person who's viewing my
+[2:23 - 2:24] website can view that actual source
+[2:24 - 2:26] code. And that might seem
+[2:26 - 2:28] counterintuitive to you. If you've got a
+[2:28 - 2:30] really strict kind of marketing head-on
+[2:30 - 2:32] because make linking someone away to my
+[2:32 - 2:34] source code, you know, there's not any
+[2:34 - 2:36] buy buttons on my source code. There's
+[2:36 - 2:38] no way for them to buy anything from
+[2:38 - 2:41] there. And strict kind of marketing
+[2:41 - 2:42] speak would say that you should just try
+[2:42 - 2:44] and funnel everyone towards somewhere
+[2:44 - 2:46] where they can buy things all of the
+[2:46 - 2:48] time. I'm not convinced by that. I think
+[2:48 - 2:50] it's kind of obvious to visitors when
+[2:50 - 2:53] you're really forcing them to just look
+[2:53 - 2:55] at buy buttons. And I think there's a
+[2:55 - 2:58] lot of benefits to instead being open
+[2:58 - 3:00] with your visitors and saying, "Here's
+[3:00 - 3:01] how you can learn as much as you
+[3:01 - 3:03] possibly can about the subject that
+[3:03 - 3:04] you're interested in, which is hopefully
+[3:04 - 3:06] my services." And in the context of
+[3:06 - 3:08] that, I'll also be explaining why you
+[3:08 - 3:10] might want to pick me to provide those
+[3:10 - 3:11] services to you. On the next paragraph
+[3:11 - 3:13] here, I've got I have very transparent
+[3:13 - 3:15] and honest pricing. And that's also a
+[3:15 - 3:17] link which clicks through to my prices
+[3:17 - 3:18] page. So that's keeping the person on my
+[3:18 - 3:20] site, taking them directly to the place
+[3:20 - 3:22] where they can learn about prices. So
+[3:22 - 3:24] you see what we're doing here is in the
+[3:24 - 3:26] place where we're mentioning some aspect
+[3:26 - 3:28] of our business whether that's source
+[3:28 - 3:31] code or prices or in the next paragraph
+[3:31 - 3:33] we've got I write guides about building
+[3:33 - 3:36] websites and that's a link through to
+[3:36 - 3:37] the guides which there's only two of I
+[3:37 - 3:39] should probably add some more and what
+[3:39 - 3:41] we're doing is at the point when the
+[3:41 - 3:44] visitor is already kind of engaged with
+[3:44 - 3:46] our services as in that they're reading
+[3:46 - 3:48] the text on our website and you mention
+[3:48 - 3:50] something that they might be more
+[3:50 - 3:52] interested in then you provide the link
+[3:52 - 3:53] So they don't have to then search around
+[3:53 - 3:55] on your website to say where is the
+[3:55 - 3:56] prices page, where's the source code
+[3:56 - 3:58] page. They're already looking directly
+[3:58 - 4:00] at the link and it's kind of obvious
+[4:00 - 4:01] because it's purple and it's got this
+[4:01 - 4:03] underline on, you know, it looks like a
+[4:03 - 4:05] link. I see a lot of websites that kind
+[4:05 - 4:07] of miss this. you know, the text kind of
+[4:07 - 4:09] describes what the what they get up to.
+[4:09 - 4:11] But then if you've read the text and
+[4:11 - 4:13] you're interested, you've then got to
+[4:13 - 4:15] take yourself out of the text and click
+[4:15 - 4:17] around on the website and try and find
+[4:17 - 4:19] that thing that you were just reading
+[4:19 - 4:21] about, which is kind of frustrating user
+[4:21 - 4:22] experience. And even if they don't
+[4:22 - 4:24] directly find it frustrating, they might
+[4:24 - 4:26] not be able to succeed at it. Hopefully,
+[4:26 - 4:28] your website navigation is pretty
+[4:28 - 4:29] straightforward, but there's a chance
+[4:29 - 4:31] that they might read about a category
+[4:31 - 4:33] and then you've named it something else
+[4:33 - 4:35] somewhere else on your site and they
+[4:35 - 4:36] can't find the product that they're
+[4:36 - 4:38] interested in, even though they're sure
+[4:38 - 4:40] that you do it because they read it on
+[4:40 - 4:41] another page on your site. But whereas,
+[4:41 - 4:43] if you just link them from one place on
+[4:43 - 4:44] your site to another place on your
+[4:44 - 4:46] website, they would have clicked the
+[4:46 - 4:47] link and they'd already be on the spot
+[4:47 - 4:48] where they could learn more about the
+[4:48 - 4:49] service that they were interested in.
+[4:49 - 4:50] So, I'm going to click through to an
+[4:50 - 4:53] example of a page on my on my website
+[4:53 - 4:54] that I was just recently editing. This
+[4:54 - 4:57] is an example page on my website for
+[4:57 - 4:59] websites that I've made. And this one is
+[4:59 - 5:01] for a tabletop role playing game company
+[5:01 - 5:03] that my wife runs. And you see here
+[5:03 - 5:06] we've got a tech specs section. And in
+[5:06 - 5:08] here I'm describing the aspects of this
+[5:08 - 5:10] website because this page is targeting
+[5:10 - 5:13] two types of visitors. It's targeting
+[5:13 - 5:14] people who might want me to make them a
+[5:14 - 5:16] very similar website. But it's also
+[5:16 - 5:17] targeting people who just want to learn
+[5:17 - 5:20] about the process of making a website
+[5:20 - 5:22] for a role playing games company. the
+[5:22 - 5:24] people who want to learn about it and
+[5:24 - 5:26] make it themselves were never going to
+[5:26 - 5:28] be my customer anyway because they want
+[5:28 - 5:29] to do it themselves. But if I can
+[5:29 - 5:31] provide a useful service there, there's
+[5:31 - 5:33] other aspects of my business that they
+[5:33 - 5:34] might be interested in. You know, they
+[5:34 - 5:36] might not use me for the website build,
+[5:36 - 5:38] but they might employ me as a consultant
+[5:38 - 5:39] down the line when they've made their
+[5:39 - 5:41] own website themselves following my
+[5:41 - 5:43] guide. Or they might not ever pay for
+[5:43 - 5:44] any services from me, but they might
+[5:44 - 5:46] link to my website because it was
+[5:46 - 5:48] useful. So anyway, back onto these texts
+[5:48 - 5:51] I'm describing. It's an 11 website. And
+[5:51 - 5:53] at the 11 section, I click through and
+[5:53 - 5:55] I'm talking I've got a page here that
+[5:55 - 5:58] talks about how I can build 11 websites.
+[5:58 - 6:00] But right next to that, I also link to
+[6:00 - 6:03] 11.dev, which is the actual website for
+[6:03 - 6:06] the platform that I use 11.
+[6:06 - 6:08] So, we've got two links here. One of
+[6:08 - 6:10] them taking them off entirely to a
+[6:10 - 6:12] different website where they might never
+[6:12 - 6:13] come back to me and we might lose them
+[6:13 - 6:16] as a visitor. and another one that's
+[6:16 - 6:17] taken them through to a page on my site
+[6:17 - 6:19] where they might want to employ me. Both
+[6:19 - 6:21] of those, I think, are perfectly fine.
+[6:21 - 6:23] Some people would say, "Never link to an
+[6:23 - 6:25] external website because once they've
+[6:25 - 6:26] clicked away from your website, they
+[6:26 - 6:28] might never come back." That's true, but
+[6:28 - 6:30] I think it's more valuable to have that
+[6:30 - 6:32] through traffic be part of the overall
+[6:32 - 6:34] mix of the people who visit your website
+[6:34 - 6:37] compared to hyperfocusing on only the
+[6:37 - 6:39] profit funnel. We're playing a long game
+[6:39 - 6:42] here where aside from just the direct
+[6:42 - 6:44] traffic of people who know that they
+[6:44 - 6:46] want to buy a service that you offer, we
+[6:46 - 6:49] also want to get some of the people who
+[6:49 - 6:50] are passing through and are learning
+[6:50 - 6:52] about the service in question. And we
+[6:52 - 6:55] can get some of those customers by being
+[6:55 - 6:57] a useful resource that they can rely on.
+[6:57 - 6:59] So, I hope I've convinced you here a
+[6:59 - 7:01] little bit that you should add links to
+[7:01 - 7:03] the text of your website. But it brings
+[7:03 - 7:05] me to a problem that the second half of
+[7:05 - 7:06] this post is going to be talking about,
+[7:06 - 7:08] which is broken links. As you're
+[7:08 - 7:10] building up these links, whether those
+[7:10 - 7:12] are from one page of your site to
+[7:12 - 7:14] another or from your website to someone
+[7:14 - 7:16] else's website, you're building a big
+[7:16 - 7:18] long list there of potential places for
+[7:18 - 7:20] a link to break. Now, what does it mean
+[7:20 - 7:23] for a link to break? Basically, it means
+[7:23 - 7:25] that I click on a link and I don't see
+[7:25 - 7:26] the thing that I expected to see when I
+[7:26 - 7:28] click through. That could be for a
+[7:28 - 7:30] thousand reasons. It could be that the
+[7:30 - 7:33] person's website expired or the business
+[7:33 - 7:35] has show up shop so they don't host a
+[7:35 - 7:37] website anymore. It could be that they
+[7:37 - 7:39] just changed the file name of the page
+[7:39 - 7:41] that they were going to land on. Like if
+[7:41 - 7:43] I go to my services page here, it's
+[7:43 - 7:46] trouble.com/services.
+[7:46 - 7:47] But it could quite easily be
+[7:47 - 7:49] chubble.com/roucts
+[7:49 - 7:51] and I might change it from services to
+[7:51 - 7:53] products at some point and then not
+[7:53 - 7:54] really think about all those people who
+[7:54 - 7:57] were linking to my earlier page. So the
+[7:57 - 7:58] links that you've got on your website
+[7:58 - 8:00] can end up going out of date. It's a
+[8:00 - 8:02] kind of negative experience when someone
+[8:02 - 8:03] clicks a link on your site and it goes
+[8:03 - 8:05] off to an external website that's now
+[8:05 - 8:08] broken. But it's worse, I think, when
+[8:08 - 8:10] they were clicked an internal link and
+[8:10 - 8:12] it goes to a page on your website that
+[8:12 - 8:15] no longer exists. Cuz that implies that
+[8:15 - 8:16] you haven't kept your website up to
+[8:16 - 8:18] date. And it also implies that maybe you
+[8:18 - 8:21] don't do the service that they just read
+[8:21 - 8:23] about on your website and it kind of
+[8:23 - 8:25] implied that you did. So fixing those
+[8:25 - 8:28] internal links that are broken, I think
+[8:28 - 8:30] is very important. And then fixing the
+[8:30 - 8:31] external links that go to other people's
+[8:31 - 8:33] websites, I think is also pretty
+[8:33 - 8:35] important, but not quite as important as
+[8:35 - 8:37] having all of the internal links always
+[8:37 - 8:38] working. There's a service that I've
+[8:38 - 8:40] used that's really good for finding
+[8:40 - 8:42] these. It's called drlink check.com.
+[8:42 - 8:44] drlinkch check.com. Really
+[8:44 - 8:46] straightforward. It pops up with a
+[8:46 - 8:47] search box like this and you type your
+[8:47 - 8:49] website address in. So, I'll put
+[8:49 - 8:52] trouble.com and it immediately starts
+[8:52 - 8:53] searching through the links on your
+[8:53 - 8:55] website and following each of them. And
+[8:55 - 8:57] for each one that it follows, if it's
+[8:57 - 8:59] also on your website domain, it'll
+[8:59 - 9:00] follow all the links that they can find
+[9:00 - 9:03] from that as well. So, gradually kind of
+[9:03 - 9:05] spiders out over your whole website and
+[9:05 - 9:07] checks every single link that they can
+[9:07 - 9:08] find to see if any of them are pointing
+[9:08 - 9:10] to pages that no longer work anymore.
+[9:10 - 9:12] So, my website is a kind of a strange
+[9:12 - 9:15] example here because I've got
+[9:15 - 9:16] get.chubble.com, opchouble.com
+[9:16 - 9:19] which is a source code repository and
+[9:19 - 9:21] Dr. Link check kind of gets a bit stuck
+[9:21 - 9:23] searching in there. So I'm going to do a
+[9:23 - 9:25] search on another website that will
+[9:25 - 9:26] finish a bit faster and give you some
+[9:26 - 9:28] proper examples. So you can click the
+[9:28 - 9:31] plus in the top left to look for another
+[9:31 - 9:32] website. And here I'm going to search
+[9:32 - 9:34] for
+[9:34 - 9:36] this and that cafe the Indian curry cafe
+[9:36 - 9:38] that helped with the website that I
+[9:38 - 9:39] highly recommend. And then I click
+[9:39 - 9:42] create project
+[9:42 - 9:43] and Dr. to link check immediately start
+[9:43 - 9:45] scanning the links on the this and that
+[9:45 - 9:48] cafe website as well. So you'll see on
+[9:48 - 9:49] the left hand side here and in the
+[9:49 - 9:51] middle now we've got links with issues
+[9:51 - 9:53] too and I can click that and it brings
+[9:53 - 9:54] up the links that are no longer working
+[9:54 - 9:56] for this and that and there's way more
+[9:56 - 9:58] than two now and you'll see that these
+[9:58 - 9:59] are mostly
+[9:59 - 10:02] pages from the review section or the
+[10:02 - 10:04] news section of the this and that
+[10:04 - 10:06] website. You see it says news here and
+[10:06 - 10:08] news here. This is kind of normal
+[10:08 - 10:12] because news posts and news websites are
+[10:12 - 10:14] particularly bad at keeping their rules
+[10:14 - 10:16] up to date. I think that's because news
+[10:16 - 10:19] sites are all about what's current and
+[10:19 - 10:21] so there's not really any value to them
+[10:21 - 10:23] in maintaining old pages.
+[10:23 - 10:25] Slightly different from e-commerce
+[10:25 - 10:27] websites where the the link might exist
+[10:27 - 10:30] for years. And now if I go back to my
+[10:30 - 10:31] overview, I can see that it stopped
+[10:31 - 10:34] scanning and it's found 12 total links
+[10:34 - 10:35] with issues which are those ones that I
+[10:35 - 10:37] saw before.
+[10:37 - 10:39] And now it says where it's linked from.
+[10:39 - 10:42] And for each of these, I want to ideally
+[10:42 - 10:43] click through to the place where it says
+[10:43 - 10:45] it's linked from and then fix the broken
+[10:45 - 10:48] link. So here I'm guessing it's source.
+[10:48 - 10:50] And we can see here as well, it's also
+[10:50 - 10:53] mentioned images that are broken cuz I
+[10:53 - 10:54] was trying to embed an image from
+[10:54 - 10:56] someone else's website and now it no
+[10:56 - 10:58] longer works. So it seems like this
+[10:58 - 11:00] website has gone offline altogether. So
+[11:00 - 11:01] there should have been an image at the
+[11:01 - 11:02] top of here and it's no longer
+[11:02 - 11:04] displaying because the website has gone
+[11:04 - 11:07] offline. So yeah, using Dr. Link check
+[11:07 - 11:09] makes it really easy to go over the
+[11:09 - 11:11] links on your website and make sure that
+[11:11 - 11:13] none of them are broken, which adds to
+[11:13 - 11:15] the user experience, makes it less
+[11:15 - 11:17] frustrating to use. And that's the name
+[11:17 - 11:19] of the game really. It's all about
+[11:19 - 11:21] providing more value to the visitors,
+[11:21 - 11:22] which means that the links that are in
+[11:22 - 11:25] the content of your site should at the
+[11:25 - 11:27] point when the person is reading about a
+[11:27 - 11:29] service make it really easy for them to
+[11:29 - 11:32] click and read more about it from deeper
+[11:32 - 11:35] into your website. Okay, I hope this
+[11:35 - 11:36] post has been useful. I apologize for it
+[11:36 - 11:39] being delayed. I recorded it last week.
+[11:39 - 11:42] Um, then I had a I had a super couple of
+[11:42 - 11:44] busy weekends.
+[11:44 - 11:46] Um, and I recorded this last week and
+[11:46 - 11:48] then I got round to finally editing it
+[11:48 - 11:50] today and sat saw that the and found
+[11:50 - 11:53] that the audio was terrible.
+[11:53 - 11:56] So, I needed to start all over again.
+[11:56 - 11:58] And in my previous video, I did a whole
+[11:58 - 12:01] section about a browser extension that I
+[12:01 - 12:03] found that I thought was pretty cool.
+[12:03 - 12:06] And then Dr. Link check actually is way
+[12:06 - 12:07] better than the browser extension. So
+[12:07 - 12:09] all that work was totally wasted.
+[12:09 - 12:11] Anyway, I'm going to try and record
+[12:11 - 12:13] another Patreon video in quick
+[12:13 - 12:15] succession and hopefully another one
+[12:15 - 12:17] pretty soon after that to kind of catch
+[12:17 - 12:19] up a bit with the pace that I wanted to
+[12:19 - 12:22] keep up.
+[12:22 - 12:23] Anyway, enough explaining. I hope this
+[12:23 - 12:26] was useful. As always, any questions,
+[12:26 - 12:28] please drop me a message or any ideas
+[12:28 - 12:30] for future videos. I'm always keen for
+[12:30 - 12:35] your suggestions. All right, take care.

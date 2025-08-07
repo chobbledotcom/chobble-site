@@ -1,0 +1,214 @@
+Title: Guide to Ferdium - a very cool web app manager
+Video ID: kxGoSDZq_Pk
+Channel: Chobble
+
+---
+
+[0:01 - 0:02] Okay, so here we're going to go through
+[0:02 - 0:05] the process of installing Ferdium.
+[0:05 - 0:07] Dead easy. You open up your browser,
+[0:07 - 0:11] search for Ferdium. Fe dumm or you can
+[0:11 - 0:14] go to ferdium.org. Probably easier.
+[0:14 - 0:16] Click the get Ferdium button in the top
+[0:16 - 0:18] right and hit download.
+[0:18 - 0:21] It'll download to your computer.
+[0:21 - 0:23] Takes a second. And when it's
+[0:23 - 0:27] downloaded, you click the install
+[0:28 - 0:29] and it'll pop up with the installer
+[0:29 - 0:32] after a moment.
+[0:33 - 0:35] Then the default options will be fine.
+[0:35 - 0:39] Next, next install
+[0:39 - 0:40] and
+[0:40 - 0:42] bash sorted. So then you click finish
+[0:42 - 0:44] and it'll run Ferdium for the first
+[0:44 - 0:46] time. When it opens, there's nothing in
+[0:46 - 0:48] there. So you can click get started. And
+[0:48 - 0:51] here you'll see the default well some
+[0:51 - 0:53] like prioritized uh services that you
+[0:53 - 0:55] can add and then there's an all services
+[0:55 - 0:58] list that's got loads of things in
+[0:58 - 1:00] um most popular services will be in
+[1:00 - 1:02] there but you can also add custom
+[1:02 - 1:04] websites which I'll show you at the end.
+[1:04 - 1:06] So for now I'm going to add Instagram.
+[1:06 - 1:09] So let's search at the top for Insta.
+[1:09 - 1:10] Pops up. Click on it. They're
+[1:10 - 1:12] straightforward. Save service. And now
+[1:12 - 1:14] you see Instagram is loaded there in a
+[1:14 - 1:17] box. You'll have to log into this yet,
+[1:17 - 1:18] but for now we'll add some more
+[1:18 - 1:23] services. So, let's search for Facebook.
+[1:23 - 1:26] Save service. And you might see in the
+[1:26 - 1:27] background there is that popped up. And
+[1:27 - 1:29] I will you can also add Google. I don't
+[1:29 - 1:31] use any Google things, but there's tons
+[1:31 - 1:33] of Google options in here. Um, so you
+[1:33 - 1:34] might want to add Google Drive, for
+[1:34 - 1:37] example.
+[1:37 - 1:39] Save service.
+[1:39 - 1:42] And let's add Meta as well, which is the
+[1:42 - 1:44] business suite for talking to people on
+[1:44 - 1:46] Facebook. So down at the bottom, save
+[1:46 - 1:49] service. And let's close this out. And
+[1:49 - 1:51] then you see here, we've got the four
+[1:51 - 1:54] sites all loaded up in different tabs.
+[1:54 - 1:56] Each of them still needs me to log into
+[1:56 - 1:58] it yet.
+[1:58 - 2:01] So that's how we put the basic uh
+[2:01 - 2:04] standard services in.
+[2:04 - 2:06] You can click through them. And here's
+[2:06 - 2:10] me now on my home setup of Ferdium. And
+[2:10 - 2:13] you'll see that I've got Facebook,
+[2:13 - 2:15] Patreon, Instagram,
+[2:15 - 2:19] um Facebook for the not not pages,
+[2:19 - 2:21] LinkedIn,
+[2:21 - 2:24] um my Patreon page and Masterdon and
+[2:24 - 2:26] Blue Sky. So all the social networks
+[2:26 - 2:31] there in tabs dead easy to access.
+[2:31 - 2:34] Here's the settings for editing a um a
+[2:34 - 2:36] service. So, within here, you'll see
+[2:36 - 2:38] that there's a whole ton of options. The
+[2:38 - 2:40] ones that I think are really cool are
+[2:40 - 2:42] hibernation and wake up. What
+[2:42 - 2:45] hibernation does is after your system
+[2:45 - 2:46] has been inactive for a while, it'll
+[2:46 - 2:48] disable the service, which helps save on
+[2:48 - 2:50] your battery life if you're on a laptop
+[2:50 - 2:51] and just stops it running in the
+[2:51 - 2:53] background. And then wake up will
+[2:53 - 2:56] periodically wake up the service and
+[2:56 - 2:58] check for notifications. So, if there
+[2:58 - 3:00] are notifications, it'll show them in a
+[3:00 - 3:03] red icon on the side. Here we've got
+[3:03 - 3:05] this uh the ser system settings for the
+[3:05 - 3:07] hold of Fium. You can launch at the
+[3:07 - 3:08] start. You can have it run in the
+[3:08 - 3:10] background.
+[3:10 - 3:11] Um
+[3:11 - 3:14] you can start it minimized so it doesn't
+[3:14 - 3:17] pop up when your computer loads up.
+[3:17 - 3:19] Then in the services tab, we've got the
+[3:19 - 3:21] hibernation strategy down at the bottom.
+[3:21 - 3:23] And this says how long it is before a
+[3:23 - 3:25] service goes into hibernation mode. I've
+[3:25 - 3:27] got it set to 5 minutes, which means
+[3:27 - 3:28] that it's not very intrusive really. You
+[3:28 - 3:31] know, it's every um if I don't use the
+[3:31 - 3:33] service for a while, it'll hibernate.
+[3:33 - 3:34] And then the wake up strategy is how
+[3:34 - 3:35] often it'll wake up to check for
+[3:35 - 3:38] notifications.
+[3:38 - 3:39] Got appearance options as well where you
+[3:39 - 3:41] can change the colors. I really change
+[3:41 - 3:44] anything in here, but there's you can
+[3:44 - 3:45] hide different bits as well. So, if you
+[3:45 - 3:47] want to simplify the interface a bit,
+[3:47 - 3:49] you can do that through the appearance
+[3:49 - 3:52] tab.
+[3:52 - 3:54] Um, for the privacy bit, I don't think
+[3:54 - 3:56] there's anything here that you'd want to
+[3:56 - 3:57] change really. You might want to change
+[3:57 - 3:58] the search engine to start page because
+[3:58 - 4:00] then you'll get Google results that are
+[4:00 - 4:02] anonymized.
+[4:02 - 4:03] In the language, you'll want to change
+[4:03 - 4:05] this here to Great Britain. So, it'll
+[4:05 - 4:07] have spellch checking in in English
+[4:07 - 4:10] language or in British rather than
+[4:10 - 4:13] American English.
+[4:13 - 4:15] Then the advanced tab, you can import
+[4:15 - 4:17] and export your settings from here. You
+[4:17 - 4:18] probably only need to do that if you're
+[4:18 - 4:20] switching computer. And then you'll
+[4:20 - 4:22] probably want to enable updates from the
+[4:22 - 4:23] updates tab just so you always have the
+[4:23 - 4:26] latest version of Ferdium.
+[4:26 - 4:28] So now I'll go through a custom service
+[4:28 - 4:30] and how that works.
+[4:30 - 4:32] So here on the left hand side I've got
+[4:32 - 4:36] the editor for my website Neo Cities and
+[4:36 - 4:38] on the right hand side I've got an
+[4:38 - 4:40] existing custom website
+[4:40 - 4:42] um for my home automation stuff. You can
+[4:42 - 4:44] see there it's showing details from my
+[4:44 - 4:47] solar panels. So to add a new one, we go
+[4:47 - 4:49] to the add button as normal and type
+[4:49 - 4:51] custom. You'll see custom website pops
+[4:51 - 4:53] up. You give it a name. So I'll call it
+[4:53 - 4:55] Neo Cities, which is my web host, but
+[4:55 - 4:56] this could be the back end for your
+[4:56 - 4:58] website or anything else. Copy and paste
+[4:58 - 5:01] the for the editing page into the um
+[5:01 - 5:04] custom server box. And I'm going to
+[5:04 - 5:05] enable hibernation because I quite like
+[5:05 - 5:08] that. And open it as a new tab. And I'm
+[5:08 - 5:10] also going to enable to use the fabricon
+[5:10 - 5:12] of the website rather than an icon. That
+[5:12 - 5:14] saves you having to upload an icon and
+[5:14 - 5:15] it means it'll look prettier in the
+[5:15 - 5:17] sidebar basically. And you see there
+[5:17 - 5:19] we've got Neo Cities. It's popped up
+[5:19 - 5:21] with the login box after I click sign
+[5:21 - 5:24] in. And I'm going to sign into that and
+[5:24 - 5:27] sorted. Then I'll be into the editor
+[5:27 - 5:29] just the same as I would be in my
+[5:29 - 5:32] browser.
+[5:34 - 5:36] So to talk about some of the advantages
+[5:36 - 5:38] that using Ferdium gives you versus
+[5:38 - 5:40] checking all those websites individually
+[5:40 - 5:43] is that you can see at a glance whether
+[5:43 - 5:45] you've got notifications for any of the
+[5:45 - 5:48] services that are loaded into Ferdium.
+[5:48 - 5:50] You can also be logged into multiple
+[5:50 - 5:53] versions of the same system at once. So
+[5:53 - 5:54] you might be logged into multiple
+[5:54 - 5:56] Facebook pages or multiple Instagram
+[5:56 - 5:58] accounts which is quite difficult to do
+[5:58 - 6:01] with a browser. Another smaller
+[6:01 - 6:04] advantage is that the sites that are
+[6:04 - 6:05] you're using through this won't know
+[6:05 - 6:07] anything about your wider internet
+[6:07 - 6:09] browsing. So Facebook likes to track you
+[6:09 - 6:11] around the internet and link everything
+[6:11 - 6:13] to your profile. If you're just doing
+[6:13 - 6:14] everything through Ferdium, they only
+[6:14 - 6:16] know the things that you're doing
+[6:16 - 6:17] through Ferdium. It's not connected to
+[6:17 - 6:20] your main web browser. So I try and use
+[6:20 - 6:22] Ferdium for all of the websites that I
+[6:22 - 6:25] visit somewhat regularly. And rather
+[6:25 - 6:26] than having to do a whole load of
+[6:26 - 6:28] browsing around and logging into things,
+[6:28 - 6:31] I keep them all logged into Ferdium and
+[6:31 - 6:33] I just check that every day. The app
+[6:33 - 6:35] gets pretty regular updates. It's
+[6:35 - 6:38] improved a lot since I started using it.
+[6:38 - 6:40] The custom website functionality is much
+[6:40 - 6:42] better than it used to be. If there's
+[6:42 - 6:45] one downside to Ferium, it's that you
+[6:45 - 6:47] can't use browser extensions with it.
+[6:47 - 6:50] So, there's no ad blocking and my
+[6:50 - 6:52] password manager doesn't work in it. I
+[6:52 - 6:55] need to copy and paste login over. But
+[6:55 - 6:57] that aside, I find it really useful for
+[6:57 - 6:59] staying on top of accounts that I need
+[6:59 - 7:01] to check quite regularly. I'll put some
+[7:01 - 7:03] links in the text of this Patreon post
+[7:03 - 7:05] to some useful services that you might
+[7:05 - 7:07] want to add to your Ferdium. Those could
+[7:07 - 7:10] be things like Google Search Console,
+[7:10 - 7:12] which is a really useful place to check
+[7:12 - 7:14] whether there's any Google issues with
+[7:14 - 7:16] your site and to see how Google thinks
+[7:16 - 7:18] your site is performing search engine
+[7:18 - 7:20] wise. You might also want to add Google
+[7:20 - 7:22] Analytics or the back end of your
+[7:22 - 7:24] website or anything else that you use
+[7:24 - 7:26] for the day-to-day of running your
+[7:26 - 7:28] business. I hope you found this video
+[7:28 - 7:29] useful. Please leave any comments or any
+[7:29 - 7:31] questions. I'm happy to discuss Verdium.
+[7:31 - 7:33] I'm a big fan of the project. I think
+[7:33 - 7:36] it's really neat. It definitely saves me
+[7:36 - 7:38] a lot of time and I hope it'll save you
+[7:38 - 7:43] a lot of time as well. Cheers.

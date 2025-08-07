@@ -1,0 +1,347 @@
+Title: Automating things with AI
+Video ID: 5rMfU7EOdKg
+Channel: Chobble
+
+---
+
+[0:00 - 0:03] from patreon.com/tubble,
+[0:03 - 0:07] automating things with AI. So, I did a
+[0:07 - 0:10] poll in the Patreon channel about which
+[0:10 - 0:12] topics I should do a future video on.
+[0:12 - 0:15] And one of the top voted for results
+[0:15 - 0:18] with two votes was automating things
+[0:18 - 0:20] with AI. And I think that could be a
+[0:20 - 0:22] good one to talk about cuz I think AI
+[0:22 - 0:24] can be really useful if you use it in
+[0:24 - 0:26] the right type of context. I wouldn't
+[0:26 - 0:29] advise putting AI in charge of any
+[0:29 - 0:31] business decisions really and I wouldn't
+[0:31 - 0:34] have it write any public facing content
+[0:34 - 0:36] without you fully editing it first and I
+[0:36 - 0:38] wouldn't have it answer any support
+[0:38 - 0:40] queries from customers or anything like
+[0:40 - 0:44] that. But what AI is really good at is
+[0:44 - 0:46] automating simple jobs. So, I'm going to
+[0:46 - 0:48] run through a few examples that I've
+[0:48 - 0:51] just gone through in Claude, which is my
+[0:51 - 0:52] favorite AI model because it's
+[0:52 - 0:54] particularly good for coding stuff, but
+[0:54 - 0:56] really the stuff I'm talking about here
+[0:56 - 0:59] will work on any kind of modern frontier
+[0:59 - 1:02] as they call them AI model like Chat UBT
+[1:02 - 1:05] or Claude or Google's one, Gemini or
+[1:05 - 1:07] wherever. So, these are some things that
+[1:07 - 1:09] I think could be useful to an average
+[1:09 - 1:11] small business trying to manage their
+[1:11 - 1:13] own website and I'll go through them in
+[1:13 - 1:16] reverse order. So first up with that
+[1:16 - 1:18] sitemap meta description audit. So if I
+[1:18 - 1:20] go to the top of this page, this is the
+[1:20 - 1:22] full history of the chat here with fl
+[1:22 - 1:24] and I started it by saying fetch the
+[1:24 - 1:30] sitemap at https trouble.com/sitemap.xml
+[1:31 - 1:33] and scan the ears within and tell me
+[1:33 - 1:34] whether they have adequate
+[1:34 - 1:37] metadescriptions and/or titles. So the
+[1:37 - 1:40] one fiddly bit of this that I had to do
+[1:40 - 1:42] was know what my site map earl is. A
+[1:42 - 1:45] sitemap basically is a document that
+[1:45 - 1:48] tells search engines where every page on
+[1:48 - 1:50] your website is. For nearly every
+[1:50 - 1:52] website, it's your domain name
+[1:52 - 1:54] forward/sitemap.xml
+[1:54 - 1:56] if you have one. If you've got a website
+[1:56 - 1:58] from me or a roundcastle network website
+[1:58 - 2:01] or a WordPress website or a Wix one or
+[2:01 - 2:03] probably any of the big providers, it's
+[2:03 - 2:04] probably your domain
+[2:04 - 2:07] name.com/sitemap.xml.
+[2:08 - 2:10] So I told Claude there to fetch the site
+[2:10 - 2:13] map which contains all of the ears for
+[2:13 - 2:15] every page on the website and scanned
+[2:15 - 2:17] them all and tell them tell me whether
+[2:17 - 2:20] the meta descriptions and titles are any
+[2:20 - 2:22] good. And then we can see the claude
+[2:22 - 2:24] went away here and fetched the site map.
+[2:24 - 2:26] Then it checked a few samples of the
+[2:26 - 2:27] ears to analyze the meta descriptions
+[2:27 - 2:29] and titles. Started with the homepage
+[2:29 - 2:31] and a few key pages. So we got the
+[2:31 - 2:35] homepage, the about page, services page.
+[2:35 - 2:37] Then it got a prices page. Then it got a
+[2:37 - 2:39] page on a guide about how to make a
+[2:39 - 2:40] website for a tattooist, which is kind
+[2:40 - 2:42] of a strange choice. Then it got an
+[2:42 - 2:45] example page. Then it ran a tool over
+[2:45 - 2:47] these to analyze them, follow the metad
+[2:47 - 2:52] descriptions and uh titles.
+[2:52 - 2:53] So you don't actually have to know about
+[2:53 - 2:56] the code here cuz the cord will run the
+[2:56 - 2:59] code itself that it's run cuz you'll see
+[2:59 - 3:00] here it just carried on without me
+[3:00 - 3:02] getting involved. And then it also did a
+[3:02 - 3:04] bit of a research strangely into what
+[3:04 - 3:07] makes a good metad description and title
+[3:07 - 3:10] in 2025. And then it analyzed the pages
+[3:10 - 3:13] that it checked in regards to this data
+[3:13 - 3:15] that it found about meta titles and
+[3:15 - 3:17] metad description best practices. And it
+[3:17 - 3:19] tells me that the website has got title
+[3:19 - 3:20] tags for all the page are checked, which
+[3:20 - 3:21] is good. Titles are generally
+[3:21 - 3:23] descriptive and relevant to page
+[3:23 - 3:25] content, concise, most are under 60
+[3:25 - 3:27] characters, clear about what the page
+[3:27 - 3:30] offers. and some examples. My homepage,
+[3:30 - 3:32] web and software design and press switch
+[3:32 - 3:35] about about job services, web design
+[3:35 - 3:36] technology services, prices, web
+[3:36 - 3:38] development prices. Two, meta
+[3:38 - 3:41] descriptions. Based on my analysis, the
+[3:41 - 3:42] pace website appears to lack metad
+[3:42 - 3:45] descriptions on the pages I examined.
+[3:45 - 3:46] So, I should figure out why that is cuz
+[3:46 - 3:48] I did expect there to be metad
+[3:48 - 3:50] descriptions in there.
+[3:50 - 3:53] So, it could be that the tool is wrong,
+[3:53 - 3:54] but it could be that it's right and
+[3:54 - 3:55] those pages don't have metad
+[3:55 - 3:56] descriptions and I need to figure out
+[3:56 - 3:58] what's going on. And then it's got the
+[3:58 - 4:00] issues identified. The missing meta
+[4:00 - 4:03] descriptions most significant SEO issue.
+[4:03 - 4:04] I think it might be a mistake about
+[4:04 - 4:05] this, but I'll dig into it straight
+[4:05 - 4:08] after. And then it's suggesting title
+[4:08 - 4:10] type optimizations
+[4:10 - 4:11] saying that while the titles are
+[4:11 - 4:14] functional, they could be enhanced.
+[4:14 - 4:16] The homepage title, web and software
+[4:16 - 4:18] design, press switch could include more
+[4:18 - 4:21] keywords. Example pages like Avo Coffee
+[4:21 - 4:24] could be more descriptive. Eg. Avo cafe
+[4:24 - 4:25] website design case study. It's not
+[4:25 - 4:27] actually a vegan cafe. Well, okay, I get
+[4:27 - 4:29] it. Guide titles are good, but could
+[4:29 - 4:31] include year date for freshness signals.
+[4:31 - 4:32] And it's giving me some recommendations
+[4:32 - 4:34] here. Add met descriptions to each page.
+[4:34 - 4:36] It's giving me some examples which I
+[4:36 - 4:38] could choose to use or not. It's telling
+[4:38 - 4:40] me that it wants me to enhance the title
+[4:40 - 4:42] tags by adding location keywords, adding
+[4:42 - 4:44] primary service keywords, adding the
+[4:44 - 4:46] date 2025 to guides for freshness,
+[4:46 - 4:48] keeping the title tag under 60
+[4:48 - 4:49] characters, and then it's telling me
+[4:49 - 4:51] about a technical implementation of how
+[4:51 - 4:53] to actually add the meta description.
+[4:53 - 4:54] So, so forgive me for kind of getting
+[4:54 - 4:55] into the weeds of what Cloud's talking
+[4:55 - 4:57] about here, but the gist is I'm hope you
+[4:57 - 4:59] get that it's given me some quite
+[4:59 - 5:01] detailed instructions on how to improve
+[5:01 - 5:03] the meta titles and metad descriptions
+[5:03 - 5:06] on my site for a few pages. And all I
+[5:06 - 5:07] had to do was give it the site map and
+[5:07 - 5:09] tell it that I wanted to improve the
+[5:09 - 5:11] meta titles and metad descriptions and
+[5:11 - 5:13] it went from there and find found the
+[5:13 - 5:14] various ears and analyze a whole bunch
+[5:14 - 5:16] of them. That would have been quite a
+[5:16 - 5:20] timeconuming process for a person to do
+[5:20 - 5:22] manually. And the key bit really was
+[5:22 - 5:24] that it can analyze the site map as the
+[5:24 - 5:27] first step and then inside that site map
+[5:27 - 5:30] it contains a bunch of L's and then it
+[5:30 - 5:32] digs into each of those L's. So it can
+[5:32 - 5:34] from one step branch out into a whole
+[5:34 - 5:36] load of smaller jobs. Hope this is
+[5:36 - 5:39] making sense. Okay, the next example. I
+[5:39 - 5:42] made a project in Claude called text
+[5:42 - 5:44] tidier and I've given it a prompt to
+[5:44 - 5:46] start with that says I will paste
+[5:46 - 5:48] messages that I'm about to send to my
+[5:48 - 5:50] customers. You will rewrite them to be
+[5:50 - 5:52] full sentences, friendly, concise, and
+[5:52 - 5:53] written with a slight northern English
+[5:53 - 5:55] dialect. So, what this is going to allow
+[5:55 - 5:57] me to do is to really quickly throw
+[5:57 - 6:00] together a message to a customer and
+[6:00 - 6:02] have Claude rewrite it to be friendly,
+[6:02 - 6:04] full sentences, proper grammar, proper
+[6:04 - 6:06] spelling. You get the idea. And then the
+[6:06 - 6:08] example that I tried was scheduling
+[6:08 - 6:10] availability. So, let's say someone's
+[6:10 - 6:11] got in touch and asked when something is
+[6:11 - 6:13] available or when you're available. And
+[6:13 - 6:15] your response might be not available
+[6:15 - 6:16] Saturday, but Sunday, Monday, Tuesday
+[6:16 - 6:19] are okay. And then because I've prompted
+[6:19 - 6:21] Claude with this idea that it's going to
+[6:21 - 6:22] tidy my text and make it into full
+[6:22 - 6:24] sentences, Claude just replies straight
+[6:24 - 6:26] away with, "I'm afraid I'm not available
+[6:26 - 6:27] on Saturday, but I can do Sunday,
+[6:27 - 6:29] Monday, or Tuesday if any of those work
+[6:29 - 6:31] for you." So, you know, a friendlier
+[6:31 - 6:32] sentence that you can send on to the
+[6:32 - 6:34] customer. If you tend to be the kind of
+[6:34 - 6:36] person who writes, you know, quite
+[6:36 - 6:38] shorthand, using AI to make your
+[6:38 - 6:40] sentences a bit more grammatically
+[6:40 - 6:41] correct could be really handy. Okay,
+[6:41 - 6:44] next example. I made another project and
+[6:44 - 6:47] the prompt that I put is I'm going to
+[6:47 - 6:49] paste ears to my website to you and I
+[6:49 - 6:50] want you to search for other websites
+[6:50 - 6:52] that target those terms and tell me how
+[6:52 - 6:54] my website compares in terms of
+[6:54 - 6:56] addressing searcher intent and what I
+[6:56 - 6:57] could possibly do to make my site more
+[6:57 - 7:01] useful. So the idea here is that Claude
+[7:01 - 7:03] is going to analyze pages on my website
+[7:03 - 7:05] and then tell me how I can make the
+[7:05 - 7:07] pages better target the kind of things
+[7:07 - 7:09] that people are googling for the
+[7:09 - 7:11] searcher intent. And then for the first
+[7:11 - 7:13] example,
+[7:13 - 7:15] I gave it my static websites page, which
+[7:15 - 7:17] is a page on my site that talks about me
+[7:17 - 7:19] making a static website for you. So
+[7:19 - 7:21] Cloud starts off with I'll analyze it
+[7:21 - 7:23] and compare it with the competitors. So
+[7:23 - 7:26] it fetches my page. Then it searches for
+[7:26 - 7:28] static website development services.
+[7:28 - 7:30] Gets a whole bunch of those pages, 10
+[7:30 - 7:32] results here, then digs it in a bit more
+[7:32 - 7:35] into static site generators and 11, and
+[7:35 - 7:38] then looks into the pages CMS editor,
+[7:38 - 7:40] which I mentioned. And then once Claude
+[7:40 - 7:41] has researched a whole bunch of things
+[7:41 - 7:44] to do with my static website services
+[7:44 - 7:46] page, it gives me a report on how my
+[7:46 - 7:48] website compares, which tells me the
+[7:48 - 7:50] strengths of my approach, which is that
+[7:50 - 7:52] I'm being transparent, that I'm using
+[7:52 - 7:54] modern technology, that I've got local
+[7:54 - 7:56] support, I'm educating people, that I'm
+[7:56 - 7:59] using a modern CMS, and it goes into
+[7:59 - 8:02] detail about each of these as well. And
+[8:02 - 8:04] then it tells me on areas where my
+[8:04 - 8:06] competitors excel. So visual
+[8:06 - 8:08] presentation, this is true. Many
+[8:08 - 8:10] competitors showcase their work with
+[8:10 - 8:12] prominent portfolios, testimonials, and
+[8:12 - 8:13] visual demonstrations of their
+[8:13 - 8:15] capabilities. Your examples are text
+[8:15 - 8:17] links rather than visual showcases. It's
+[8:17 - 8:19] very true. I could definitely do with
+[8:19 - 8:20] improving the visual presentation of
+[8:20 - 8:23] that page. SEO and marketing services.
+[8:23 - 8:25] Competitors like Skynet and Nibble
+[8:25 - 8:26] Software, who I've never heard of,
+[8:26 - 8:29] emphasize SEO services and search engine
+[8:29 - 8:30] rankings more prominently in their
+[8:30 - 8:32] offerings. So, that's a good point. My
+[8:32 - 8:35] page doesn't really mention that Sassic
+[8:35 - 8:37] websites are quite SEO friendly. broader
+[8:37 - 8:39] service positioning. Web flow markets
+[8:39 - 8:41] itself as enabling stunning websites
+[8:41 - 8:43] quickly with AI assistance and visual
+[8:43 - 8:45] design tools appealing to a wider
+[8:45 - 8:47] audience. So me that's a thing that I
+[8:47 - 8:48] could mention. You know, I've got a
+[8:48 - 8:50] theme editor for my websites. I don't
+[8:50 - 8:52] mention it on that page. Performance
+[8:52 - 8:55] metrics. Competitors highlight that 11
+[8:55 - 8:56] is one of the fastest generators and
+[8:56 - 8:58] emphasize speed benefits more
+[8:58 - 9:00] prominently. I'm not sure too sure
+[9:00 - 9:03] anyone's too bothered about how long the
+[9:03 - 9:05] site takes to generate, but yeah. Okay,
+[9:05 - 9:06] fair point. And it gives me some
+[9:06 - 9:08] recommendations to improve my page.
+[9:08 - 9:10] Enhancing the visual appeal,
+[9:10 - 9:12] strengthening the value position,
+[9:12 - 9:14] improving the content structure,
+[9:14 - 9:16] expanding the technical credibility,
+[9:16 - 9:18] addressing common concerns, enhancing
+[9:18 - 9:21] the SEO content, improving call to
+[9:21 - 9:23] actions, leveraging social proof,
+[9:23 - 9:26] modernizing the offering,
+[9:26 - 9:27] differentiating your services. So,
+[9:27 - 9:30] there's tons of points here to get into.
+[9:30 - 9:32] Now obviously just because AI has
+[9:32 - 9:33] suggested something here doesn't mean
+[9:33 - 9:35] that you don't necessarily have to pay
+[9:35 - 9:39] any attention to AI suggestion. Um AI is
+[9:39 - 9:42] wrong pretty often.
+[9:42 - 9:44] But if you take it as being like you
+[9:44 - 9:47] know 75% decent enough suggestions and
+[9:47 - 9:49] you could ignore the other 25%. That
+[9:49 - 9:50] means there's probably still some pretty
+[9:50 - 9:53] good stuff in here that could help
+[9:53 - 9:55] improve this page. And I will take some
+[9:55 - 9:58] of these ideas on board. I analyzed this
+[9:58 - 9:59] page because I knew it was one that was
+[9:59 - 10:02] kind of rushed on my site. Okay, another
+[10:02 - 10:04] example. So, here is a really simple
+[10:04 - 10:06] query that you could ask AI. I win a
+[10:06 - 10:08] face painting business. Research which
+[10:08 - 10:09] characters from kids movies are big in
+[10:09 - 10:12] 2025 and which I should display examples
+[10:12 - 10:14] of on my social media. If you're like
+[10:14 - 10:16] me, you might be totally clueless about
+[10:16 - 10:19] what kids movies are popular nowadays.
+[10:19 - 10:21] AI can do the work of doing loads of
+[10:21 - 10:23] Google searches and compiling those
+[10:23 - 10:26] results and then drawing trends from
+[10:26 - 10:28] them and summarizing those here. So,
+[10:28 - 10:31] here Claude set off with, "I'll help you
+[10:31 - 10:32] identify the most kids movie characters
+[10:32 - 10:34] for 2025 that would be great for your
+[10:34 - 10:36] face painting business." Then they did a
+[10:36 - 10:38] bunch of searches on Google. And then it
+[10:38 - 10:40] came back with top movie characters for
+[10:40 - 10:42] 2025. And then we've got Minecraft
+[10:42 - 10:45] characters. Steve Creeper, Paddington
+[10:45 - 10:47] Bear, Lilo Miss Stitch, How to Train
+[10:47 - 10:50] Your Dragon, Dog Man from Captain
+[10:50 - 10:52] Underpants, Snow White, and the Evil
+[10:52 - 10:57] Queen, Zootopia characters, The Smurfs,
+[10:57 - 10:59] The Bad Guys, Too, I don't know who The
+[10:59 - 11:02] Bad Guys is, Ilio, Pixar, about a space
+[11:02 - 11:04] living boy, and there's some evergreen
+[11:04 - 11:06] popular face paint characters, right?
+[11:06 - 11:08] They're selling me a whole bunch of face
+[11:08 - 11:10] painting characters that are always
+[11:10 - 11:12] popular. And then a whole bunch of
+[11:12 - 11:14] social media strategy recommendations as
+[11:14 - 11:16] well that I didn't even ask for. So you
+[11:16 - 11:18] can see here that just from a pretty
+[11:18 - 11:21] sort of simple prompt, AI has given us
+[11:21 - 11:22] again a load of suggestions which maybe
+[11:22 - 11:25] we'll take with a pinch of salt, but
+[11:25 - 11:27] will help us brainstorm ideas for how we
+[11:27 - 11:29] could post on our social media page
+[11:29 - 11:31] about characters that we can do face
+[11:31 - 11:32] painting for. Okay, I hope this has
+[11:32 - 11:35] given you some ideas. It felt a little
+[11:35 - 11:36] bit like it was all over the place
+[11:36 - 11:38] really, but that often feels like the
+[11:38 - 11:41] case. So, I pay for premium version of
+[11:41 - 11:43] Claude cuz I use it quite a lot for
+[11:43 - 11:44] programming stuff, but you'll be able to
+[11:44 - 11:46] get similar results to this with the
+[11:46 - 11:48] free versions of AI. But if you use it a
+[11:48 - 11:50] lot, it might be worth paying for
+[11:50 - 11:52] whatever the lowest tier of the pro
+[11:52 - 11:54] version is because hitting the rate
+[11:54 - 11:56] limits when you're in the middle of
+[11:56 - 11:58] using it to do some automation is a real
+[11:58 - 12:00] pain. Okay, I hope this was useful. As
+[12:00 - 12:02] ever, any questions, please drop me a
+[12:02 - 12:06] message. Or any ideas for future videos,
+[12:06 - 12:08] please leave a comment.
+[12:08 - 12:11] Cheers.

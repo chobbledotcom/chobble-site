@@ -1,0 +1,420 @@
+Title: Google Maps / Google Business Quick Setup & Walkthrough
+Video ID: N8wvlbnE4sE
+Channel: Chobble
+
+---
+
+[0:00 - 0:02] Okay, today I'm going to talk about
+[0:02 - 0:05] Google business profile.
+[0:05 - 0:08] This is basically Google Maps. For lots
+[0:08 - 0:09] of search terms on Google, they'll give
+[0:09 - 0:13] a lot of priority to maps listings or
+[0:13 - 0:15] Google business listings. So here, for
+[0:15 - 0:17] example, I've searched for plumber. And
+[0:17 - 0:19] you can see that it's got this kind of
+[0:19 - 0:22] rubbish AI overview about what a plumber
+[0:22 - 0:24] is. And then the next result is check a
+[0:24 - 0:27] trade. And we've got some links to
+[0:27 - 0:30] search checker, trusted pilot, yell. And
+[0:30 - 0:33] then the next result is this list of
+[0:33 - 0:35] businesses. And these are all Google
+[0:35 - 0:38] business profiles.
+[0:38 - 0:40] So Northwest Plumbing, JC Plumbing,
+[0:40 - 0:41] Allen Plumbing, and you'll see as well
+[0:41 - 0:44] that these are all local to me.
+[0:44 - 0:45] Manchester, let's see where these guys
+[0:45 - 0:48] are on the list. So here's one over
+[0:48 - 0:50] towards Rushdale,
+[0:50 - 0:53] around me here, and up towards Bur. So
+[0:53 - 0:55] Google is knows without me having
+[0:55 - 0:58] written anything about PressWitch here
+[0:58 - 1:00] that I'm in Preswitch which is in
+[1:00 - 1:02] Manchester near and you can see here
+[1:02 - 1:04] it's also suggesting Bar Rcliffe these
+[1:04 - 1:06] local search terms and then it's
+[1:06 - 1:09] prioritizing these Google business
+[1:09 - 1:12] listings which appear before the organic
+[1:12 - 1:13] search results which is like that's
+[1:13 - 1:15] quite far down the page. So I had to
+[1:15 - 1:17] scroll there to see the organic search
+[1:17 - 1:19] results.
+[1:19 - 1:21] On this next tab I've got electrician.
+[1:21 - 1:23] Here I've searched for electrician. I've
+[1:23 - 1:26] got the AI overview thing as well. And
+[1:26 - 1:28] then the same kind of thing. Search,
+[1:28 - 1:29] check a trade, search trust a trader,
+[1:29 - 1:32] search bar, and then businesses. And
+[1:32 - 1:34] it's listing electricians near me. And
+[1:34 - 1:36] again, these are Google business
+[1:36 - 1:38] profiles. And then we've got the organic
+[1:38 - 1:40] results after those checker trade. The
+[1:40 - 1:42] organic results even are after the check
+[1:42 - 1:44] a trade bit and the FAQs about
+[1:44 - 1:46] electricians. And here I've got party
+[1:46 - 1:49] equipment higher. Again, it knows that
+[1:49 - 1:51] I'm in PressWitch
+[1:51 - 1:52] without me having searched for
+[1:52 - 1:55] PressWitch. And this is a fresh Firefox
+[1:55 - 1:58] tab with no history. And then in the
+[1:58 - 2:00] places list, it's listing a load of
+[2:00 - 2:03] places that are near me in PressWitch.
+[2:03 - 2:04] And then we've got the organic results
+[2:04 - 2:06] after that.
+[2:06 - 2:08] So, we can see that it would be really
+[2:08 - 2:11] good to be showing in these in this list
+[2:11 - 2:13] here. And these are the Google business
+[2:13 - 2:15] listings.
+[2:15 - 2:16] So, to get a Google business listing is
+[2:16 - 2:18] pretty straightforward. Verifying can be
+[2:18 - 2:20] pretty timeconuming, but it's nothing
+[2:20 - 2:23] too tricky and as long as your details
+[2:23 - 2:24] are accurate, you shouldn't have any
+[2:24 - 2:26] huge problems.
+[2:26 - 2:28] So, to sign up for Google Business, just
+[2:28 - 2:31] like any other Google product, you're
+[2:31 - 2:33] going to need a Google account. You've
+[2:33 - 2:34] probably got a Google account because
+[2:34 - 2:37] you'll need one for YouTube, for an
+[2:37 - 2:42] Android phone, for using Google Maps, or
+[2:42 - 2:44] um for using any Google services.
+[2:44 - 2:47] Basically, you'll need a Google account.
+[2:47 - 2:49] So, if you haven't got one, you should
+[2:49 - 2:51] probably get one anyway because you'll
+[2:51 - 2:54] also need one for Google Search Console,
+[2:54 - 2:55] which I've done a video about just
+[2:55 - 2:58] recently. So, once you've got your
+[2:58 - 2:59] Google account, you'll go to
+[2:59 - 3:02] google.com/business.
+[3:03 - 3:07] B U S I N SS. Google.com/business.
+[3:07 - 3:09] And it says stand out on Google with a
+[3:09 - 3:11] free business profile. And then we'll
+[3:11 - 3:15] click the big get started button.
+[3:15 - 3:17] Then we're going to sign in. I use a
+[3:17 - 3:19] password manager, so bear with me here
+[3:19 - 3:22] while I sign into my password manager.
+[3:22 - 3:23] You should probably use a password
+[3:23 - 3:27] manager as well, but that's too much to
+[3:27 - 3:30] get into now.
+[3:30 - 3:31] Okay, I'm going to sign in with my
+[3:31 - 3:33] password manager.
+[3:33 - 3:34] And yeah, you can see here you search
+[3:34 - 3:36] for your business name and your
+[3:36 - 3:38] category. So, I'm going to put some test
+[3:38 - 3:42] business in info here just to test test
+[3:42 - 3:46] business test category.
+[3:46 - 3:48] But it wants me to select a real
+[3:48 - 3:52] category. I'll put website.
+[3:54 - 3:55] It'll ask me some questions here like do
+[3:55 - 3:57] we have a location that people can
+[3:57 - 4:01] visit? So, I'll say no.
+[4:01 - 4:03] Where do we serve our customers? So here
+[4:03 - 4:05] we can select your delivery areas or
+[4:05 - 4:10] service areas. So I put up Manchester,
+[4:10 - 4:13] UK
+[4:14 - 4:17] or contact details.
+[4:17 - 4:18] I won't include my contact details for
+[4:18 - 4:21] now. Oh, must include a website address.
+[4:21 - 4:23] Okay, so I'm going to put this example
+[4:23 - 4:27] website example.tch.com.
+[4:27 - 4:29] But you put your actual website address
+[4:29 - 4:32] on there.
+[4:35 - 4:37] And now you get through to the mailing
+[4:37 - 4:39] verification bit where you'll have to
+[4:39 - 4:43] put in your actual uh street address.
+[4:43 - 4:44] You should continue with this. I'm going
+[4:44 - 4:46] to verify later because I haven't got
+[4:46 - 4:48] another street address to put in here.
+[4:48 - 4:49] And what they might do after this is
+[4:49 - 4:51] send you a postcard in the post to
+[4:51 - 4:54] verify your address. So here it's asking
+[4:54 - 4:55] me if I want to add any more services.
+[4:55 - 4:57] So I can say I do software development
+[4:57 - 4:59] as well.
+[4:59 - 5:01] and you fill in your business hours. You
+[5:01 - 5:04] should fill this in.
+[5:04 - 5:08] Add a business description.
+[5:08 - 5:11] This is just a test, but you should fill
+[5:11 - 5:13] in at least a brief description about
+[5:13 - 5:16] your business.
+[5:17 - 5:20] Add photos of your business. So, here
+[5:20 - 5:22] you want to at least upload a photo of
+[5:22 - 5:24] your logo
+[5:24 - 5:26] and hopefully a photo of some examples
+[5:26 - 5:30] of the work that you've done.
+[5:31 - 5:33] and then it'll warn you to sign up for
+[5:33 - 5:35] Google Ads.
+[5:35 - 5:37] You should skip this probably. It's a
+[5:37 - 5:39] bit of a rabbit hole to go down to and
+[5:39 - 5:40] immediately start making advertisements
+[5:40 - 5:42] for your business.
+[5:42 - 5:44] And then it'll also ask you then if you
+[5:44 - 5:46] wanted create a Google Workspace
+[5:46 - 5:48] account, which is Google's paid web
+[5:48 - 5:52] hosting and email address system. You
+[5:52 - 5:54] don't need to do this, so you can click
+[5:54 - 5:57] skip.
+[5:57 - 5:59] And then it'll tell me that my edit is
+[5:59 - 6:00] invisible once I'm verified because it's
+[6:00 - 6:03] waiting on my address to be verified,
+[6:03 - 6:06] which I haven't put in. Yeah.
+[6:06 - 6:08] And now that I finished, you can see
+[6:08 - 6:09] it's my business is not visible to
+[6:09 - 6:11] customers because it's waiting to verify
+[6:11 - 6:14] my address details. If I can click this
+[6:14 - 6:16] verify details, it wants me to put in a
+[6:16 - 6:18] postal address. So, you'll have to go
+[6:18 - 6:20] through this yourself and you'll put in
+[6:20 - 6:22] an actual postal address
+[6:22 - 6:26] and then it'll send you a postcard to
+[6:26 - 6:29] verify that address and verify that it
+[6:29 - 6:32] belongs to you.
+[6:32 - 6:34] So, there's a few ways that your
+[6:34 - 6:36] business can be verified. Google will
+[6:36 - 6:38] use an algorithm to decide which of
+[6:38 - 6:40] these ways it's going to use for your
+[6:40 - 6:42] business.
+[6:42 - 6:44] I would imagine that this will take into
+[6:44 - 6:45] account things like company's house
+[6:45 - 6:49] records or Google's existing idea of
+[6:49 - 6:52] where your business is and its location.
+[6:52 - 6:54] In the worst case, they can send you a
+[6:54 - 6:56] postcard in the post and the postcard
+[6:56 - 6:58] will contain a code that you need to
+[6:58 - 7:00] enter into the Google website to verify
+[7:00 - 7:03] your address, which can take a few days,
+[7:03 - 7:05] but otherwise it should be just a day or
+[7:05 - 7:08] two maximum to verify your business. And
+[7:08 - 7:10] it might even be immediate. I'm not too
+[7:10 - 7:12] experienced with the verification
+[7:12 - 7:15] process to be fair.
+[7:15 - 7:18] So, you've got your business verified
+[7:18 - 7:20] and now it's showing up on Google.
+[7:20 - 7:22] Here's what the trouble business listing
+[7:22 - 7:24] looks like. I'm still fairly new as a
+[7:24 - 7:26] business, so I don't have a massive
+[7:26 - 7:28] remark going on here, but it's the
+[7:28 - 7:30] example that I can show you. So, regard
+[7:30 - 7:32] what we got. So, let's go through each
+[7:32 - 7:34] of these sections in order. So, we've
+[7:34 - 7:37] got edit profile where you can edit the
+[7:37 - 7:39] details about your business which
+[7:39 - 7:40] includes your business name, your
+[7:40 - 7:43] category, your description, open date,
+[7:43 - 7:45] contact details, website address, all
+[7:45 - 7:47] that sort of stuff. You should fill in
+[7:47 - 7:50] as much of this as you possibly can. You
+[7:50 - 7:51] should especially make sure that your
+[7:51 - 7:52] service areas are filled in because this
+[7:52 - 7:55] tells Google directly which locations
+[7:55 - 7:57] your customers are in. And if you've got
+[7:57 - 7:59] opening hours that matter, then you
+[7:59 - 8:00] should fill in the opening hours
+[8:00 - 8:02] section, too.
+[8:02 - 8:04] There's tons of details that you can
+[8:04 - 8:06] fill in here that will apply to
+[8:06 - 8:08] different types of businesses.
+[8:08 - 8:11] For me, as a software developer at home,
+[8:11 - 8:12] you know, I don't deal with people at
+[8:12 - 8:15] loc at the location. So, there isn't a
+[8:15 - 8:17] lot for me to fill in here. But if you
+[8:17 - 8:19] ran, for example, a restaurant, there's
+[8:19 - 8:21] a whole bunch of details that you could
+[8:21 - 8:23] fill in about the various ways that your
+[8:23 - 8:25] business operates. So, that's your
+[8:25 - 8:28] business information.
+[8:28 - 8:30] Next up, we've got read reviews, where
+[8:30 - 8:31] you can see the reviews that people have
+[8:31 - 8:34] left on your business. It can be quite
+[8:34 - 8:37] nice to reply to your reviews. I don't
+[8:37 - 8:38] know if I've replied to everyone here.
+[8:38 - 8:40] No, I haven't. I really should get on
+[8:40 - 8:41] that. Thanks for everyone who's left me
+[8:41 - 8:44] a review. You should especially reply if
+[8:44 - 8:47] you get a negative review and you think
+[8:47 - 8:49] that it's unfounded because I think it's
+[8:49 - 8:52] worth raising that in your Google
+[8:52 - 8:56] business listing.
+[8:56 - 8:58] Next, we've got photos, where you can
+[8:58 - 9:00] upload photos that show off your
+[9:00 - 9:02] business. In here, I'd make sure to
+[9:02 - 9:04] upload at least your logo and a cover
+[9:04 - 9:07] photo, which will show in the header box
+[9:07 - 9:11] on your listing profile. And also upload
+[9:11 - 9:13] some examples of work that you've done
+[9:13 - 9:15] cuz that's what people who are searching
+[9:15 - 9:17] for your business will be looking for.
+[9:17 - 9:18] You might also want to upload a photo of
+[9:18 - 9:21] yourself if you've got a smart one.
+[9:21 - 9:23] photo. Listings that have got photos
+[9:23 - 9:25] look better than listings that don't
+[9:25 - 9:28] have photos. So, I think it's worth
+[9:28 - 9:30] doing.
+[9:30 - 9:32] Next, we've got performance, which tells
+[9:32 - 9:34] you some details about how your business
+[9:34 - 9:36] is doing on Google. For me, honestly,
+[9:36 - 9:40] it's not great. 44 clicks, 39 clicks, 66
+[9:40 - 9:41] clicks in January. I suppose that's
+[9:41 - 9:44] better, but not a lot of clicks every
+[9:44 - 9:45] month. Hopefully, yours will do better,
+[9:45 - 9:48] and hopefully mine will pick up. I
+[9:48 - 9:49] haven't really thought too much about
+[9:49 - 9:52] advertising locally and I should really
+[9:52 - 9:54] get on that. And here we show the search
+[9:54 - 9:56] terms that showed up your business
+[9:56 - 9:58] profile. For me, it's mostly people
+[9:58 - 10:00] searching for trouble. Few people
+[10:00 - 10:04] searching for web design press switch.
+[10:05 - 10:07] Got how many people called me? Zero.
+[10:07 - 10:09] Apparently
+[10:09 - 10:11] no bookings.
+[10:11 - 10:13] 167 people. It says asked for directions
+[10:13 - 10:14] to my business. I'm not really sure if
+[10:14 - 10:17] that makes sense because
+[10:17 - 10:19] not many people would want to come visit
+[10:19 - 10:22] my address for web design stuff. So, I
+[10:22 - 10:24] think that might be a bit of a mistake
+[10:24 - 10:27] on website clicks. Six clicks it says,
+[10:27 - 10:29] which I think surely there's got to be
+[10:29 - 10:30] more than that.
+[10:30 - 10:33] So, who knows how accurate this data is.
+[10:33 - 10:34] If it is accurate, that's a
+[10:34 - 10:35] disappointing amount of website clicks
+[10:35 - 10:39] for me. But there you go.
+[10:39 - 10:41] Okay. Next is advertise. I won't click
+[10:41 - 10:43] into that because that's Google Ads and
+[10:43 - 10:49] there's a whole week's worth of lessons.
+[10:50 - 10:52] Okay, next up is advertise. I won't
+[10:52 - 10:53] click through into that because that's
+[10:53 - 10:56] about Google Ads and there's hours that
+[10:56 - 10:58] we could spend talking about Google Ads.
+[10:58 - 11:00] Okay, so next up we've got edit
+[11:00 - 11:03] products. In here you can list products
+[11:03 - 11:05] that will appear in Google search and on
+[11:05 - 11:08] maps. How these show up I'm not actually
+[11:08 - 11:10] 100% sure. So, I'm going to get back to
+[11:10 - 11:12] yours and let you know once I've dug
+[11:12 - 11:14] into that. Next up, we've got edit
+[11:14 - 11:16] services. Here, you can list the various
+[11:16 - 11:18] services that your company provides. You
+[11:18 - 11:19] want to make sure that everything that
+[11:19 - 11:21] you do is covered in here. Google lets
+[11:21 - 11:23] you add more services, and then you can
+[11:23 - 11:25] add a custom service if Google isn't
+[11:25 - 11:28] suggesting one that exactly matches what
+[11:28 - 11:30] you're after. Next, we've got bookings.
+[11:30 - 11:32] If you've got a booking system, you can
+[11:32 - 11:34] add a link to it here, which will allow
+[11:34 - 11:36] customers to book directly through it.
+[11:36 - 11:37] You can also just link it to your
+[11:37 - 11:38] contact form if you haven't got a
+[11:38 - 11:41] booking system, which is what I've done.
+[11:41 - 11:44] Next up, we've got the Q&A. Customers or
+[11:44 - 11:46] you can ask questions of the business
+[11:46 - 11:48] and then you can leave a response as the
+[11:48 - 11:50] answer. Or I think visitors can even
+[11:50 - 11:53] leave a response as well. So here I have
+[11:53 - 11:56] asked myself what my hourly fee is and
+[11:56 - 11:57] then replied to it. And then if I click
+[11:57 - 12:00] through to my Google Maps listing here,
+[12:00 - 12:04] we can see that the Q&A shows up in the
+[12:04 - 12:06] listing itself. So, if you've got
+[12:06 - 12:07] questions that you're commonly getting
+[12:07 - 12:08] asked or that you think are good to tell
+[12:08 - 12:10] your visitors about up front before they
+[12:10 - 12:12] even click through to your website, the
+[12:12 - 12:14] Q&A section is the place to do that. Add
+[12:14 - 12:18] update. So, in here, we can post updates
+[12:18 - 12:20] that will appear as kind of mini blog
+[12:20 - 12:23] posts within Google Maps. It's hard to
+[12:23 - 12:24] remember to post updates to your Google
+[12:24 - 12:27] Maps listing because who's logging into
+[12:27 - 12:30] Google Maps on the regular? But if you
+[12:30 - 12:31] can remember when you do something
+[12:31 - 12:33] substantial with your business, it would
+[12:33 - 12:36] be nice to log in and go to add update
+[12:36 - 12:38] here and post something about your
+[12:38 - 12:40] business. So you might post about a new
+[12:40 - 12:42] service that you've got or a new product
+[12:42 - 12:44] that you're selling or some update to
+[12:44 - 12:47] your terms and conditions or anything
+[12:47 - 12:48] really. It's another little signal for
+[12:48 - 12:50] any visitors who see your Google Maps
+[12:50 - 12:52] listing that your business is active and
+[12:52 - 12:54] up to date. I know it can feel sometimes
+[12:54 - 12:56] like there's a million places to keep up
+[12:56 - 12:58] to date. That kind of is. So you can add
+[12:58 - 13:01] updates, offers or events. These are
+[13:01 - 13:02] just different templates really for
+[13:02 - 13:04] updates that appear on your Google Maps
+[13:04 - 13:05] listing. And then we've got the last
+[13:05 - 13:07] link, ask for reviews, which gives you a
+[13:07 - 13:09] little code that you can give to someone
+[13:09 - 13:10] that will immediately take them through
+[13:10 - 13:12] to the place where they can leave a
+[13:12 - 13:14] review for your business. Bizarrely, it
+[13:14 - 13:15] lets me leave a review for my own
+[13:15 - 13:18] business. Five stars. You can also share
+[13:18 - 13:21] a QR code here that links people
+[13:21 - 13:22] straight through to your Google Maps
+[13:22 - 13:25] listing for them to leave a review. So,
+[13:25 - 13:27] that's an overview of your Google
+[13:27 - 13:29] business profile. I think the main
+[13:29 - 13:31] things that are important here are to
+[13:31 - 13:32] try and encourage some people to leave
+[13:32 - 13:34] you some reviews because just one or two
+[13:34 - 13:37] reviews looks a lot better than none and
+[13:37 - 13:39] to make sure that your details on there
+[13:39 - 13:41] are filled out as best as you're
+[13:41 - 13:43] reasonably able to do. Obviously, it'll
+[13:43 - 13:45] be a huge amount of work to copy all of
+[13:45 - 13:47] your products onto Google Maps and to
+[13:47 - 13:49] copy every single one of your images
+[13:49 - 13:51] over and to keep it entirely up to date
+[13:51 - 13:53] with what your website says. And I think
+[13:53 - 13:54] that would probably be a bit
+[13:54 - 13:56] unreasonable to do, but keeping it
+[13:56 - 13:58] somewhat up to date, I think, is
+[13:58 - 14:00] worthwhile. And trying to get people to
+[14:00 - 14:01] leave you a review, I think, is
+[14:01 - 14:03] definitely worthwhile.
+[14:03 - 14:05] Speaking of which, if anyone fancies
+[14:05 - 14:07] leaving me a review, I'd really
+[14:07 - 14:09] appreciate it. I've only got four and
+[14:09 - 14:12] it'll be nice out for a few more. So,
+[14:12 - 14:14] that's Google Business. It's maybe worth
+[14:14 - 14:17] me mentioning Bing Places as well, which
+[14:17 - 14:20] is at bingplaces.com,
+[14:20 - 14:23] which is Bing, Microsoft Search Engine,
+[14:23 - 14:26] their equivalent of Google Business. You
+[14:26 - 14:28] can actually import your Google Business
+[14:28 - 14:30] listing straight over to Bing.
+[14:30 - 14:32] Admittedly, half the anyone is searching
+[14:32 - 14:35] on Bing, but some people are, so it's
+[14:35 - 14:36] worth having your business show up on
+[14:36 - 14:39] both.
+[14:39 - 14:41] I hope that's a good overview of how
+[14:41 - 14:44] Google Business works. Hopefully, it's
+[14:44 - 14:46] all very straightforward. Like, Google
+[14:46 - 14:47] will try and make this very easy for you
+[14:47 - 14:49] to do.
+[14:49 - 14:51] One question people have about Google
+[14:51 - 14:53] business listings is whether they have
+[14:53 - 14:55] to show their home address. You don't
+[14:55 - 14:58] have to. You can set the business to say
+[14:58 - 15:01] that you serve people at their address.
+[15:01 - 15:05] If I go to edit profile and
+[15:05 - 15:07] business address, I can untick show
+[15:07 - 15:09] business address to customers and it
+[15:09 - 15:12] won't show the address.
+[15:12 - 15:14] But you also then won't show up in maps
+[15:14 - 15:15] listing in the maps listing quite as
+[15:15 - 15:19] often. So this is your call. I've taken
+[15:19 - 15:20] the view that it's probably worth my
+[15:20 - 15:22] address showing up for the sake of
+[15:22 - 15:25] showing up a bit more often. Whether
+[15:25 - 15:27] that's accurate, I don't really know.
+[15:27 - 15:30] So to go over again, that website is
+[15:30 - 15:33] business.google.com.
+[15:33 - 15:36] Okay. As ever, I hope that was useful.
+[15:36 - 15:39] If you got any questions, please let me
+[15:39 - 15:41] know.
