@@ -16,6 +16,6 @@ Also covers smart bookmarking tricks like saving login pages directly instead of
 
 ## Mentioned Links
 
-Get [uBlock Origin](https://ublockorigin.com/) for blocking ads, ["I Still Don't Care About Cookies"](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) for dismissing cookie popups, [Bitwarden](https://bitwarden.com/) for password management, and [Firefox](https://www.mozilla.org/firefox/) for a better browsing experience.
+Get [uBlock Origin](https://github.com/gorhill/uBlock) for blocking ads, ["I Still Don't Care About Cookies"](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) for dismissing cookie popups, [Bitwarden](https://bitwarden.com/) for password management, and [Firefox](https://www.mozilla.org/firefox/) for a better browsing experience.
 
 **If you'd like help optimising your digital tools and workflows for maximum productivity, [contact me](/contact/).**

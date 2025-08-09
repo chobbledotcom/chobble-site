@@ -16,6 +16,6 @@ It's really simple to use - just enter your test results, it generates professio
 
 ## Mentioned Links
 
-Visit [PATLog.co.uk](https://patlog.co.uk/) for the free PAT testing logger, or check out the [source code on GitHub](https://github.com/FrancisTheCat/patlog) if you're interested in how it works.
+Visit [PATLog.co.uk](https://patlog.co.uk/) for the free PAT testing logger, or check out the [source code on GitHub](https://github.com/chobbledotcom/patlog) if you're interested in how it works.
 
 **If you'd like help setting up PATLog for your electrical business or need custom PAT testing solutions, [contact me](/contact/).**
