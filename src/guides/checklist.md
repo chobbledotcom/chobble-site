@@ -17,15 +17,15 @@ Okay, so lets kick it off, with:
 
 Your Google Maps, or Google Business, listing is a key part of your online presence and you should be very familiar with it. For local searchers there's a good chance the Maps results will show before any other listings so if you're not in there, you're missing out.
 
-If you've not got a Google Maps listing, or you're not sure if you do, then go to Google.com/Business and follow the steps to get set up. If you do have one, then you need to make sure that all of its data is up to date. Like, does it list your website? Is the website address accurate? What about your phone number, address, or opening times? Have you uploaded any photos? Do you have any reviews?
+If you've not got a Google Maps listing, or you're not sure if you do, then go to [Google.com/Business](https://www.google.com/business/) and follow the steps to get set up. If you do have one, then you need to make sure that all of its data is up to date. Like, does it list your website? Is the website address accurate? What about your phone number, address, or opening times? Have you uploaded any photos? Do you have any reviews?
 
 You should take stock of what things on your Maps listing are incomplete or look empty - like if you don't have any reviews, then make getting some a priority. Even one or two looks a lot better than none.
 
 ## Number 2: Google Search Console
 
-Next most important is another Google product, Google Search Console. This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website, I'm doing it and if you ask me I'll invite your Google account to be an admin too.
+Next most important is another Google product, [Google Search Console](https://search.google.com/search-console/). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website, I'm doing it and if you ask me I'll invite your Google account to be an admin too.
 
-Search Console will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving.
+[Search Console](https://search.google.com/search-console/) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving.
 
 ## Number 3: Good Homepage
 
@@ -51,7 +51,7 @@ If you've got empty or broken pages on your site, delete them. You can always re
 
 ## Number 7: Social Media Profiles and Other Links
 
-Ideally your site should link to all of your important social media profiles, review sites, and any other places important for your industry. So, things like Facebook, Google Maps, Tripadvisor, TrustPilot, or Checkatrade - anything that visitors are likely to recognise, all of these should be linked to prominently from your site. You should make it really easy for a visitor to check out your reviews, or your recent activity, or your food hygiene scores, or your public liability insurance, or whatever other thing they might want to check to reassure themselves that you're trusted and worth spending money with.
+Ideally your site should link to all of your important social media profiles, review sites, and any other places important for your industry. So, things like Facebook, Google Maps, [Tripadvisor](https://www.tripadvisor.com/), [TrustPilot](https://www.trustpilot.com/), or [Checkatrade](https://www.checkatrade.com/) - anything that visitors are likely to recognise, all of these should be linked to prominently from your site. You should make it really easy for a visitor to check out your reviews, or your recent activity, or your food hygiene scores, or your public liability insurance, or whatever other thing they might want to check to reassure themselves that you're trusted and worth spending money with.
 
 Like with the empty pages, if you've got social media icons on your site for websites you don't have a profile on, delete them! Everything on your site should work - including links to social profiles.
 
@@ -61,7 +61,7 @@ I was a bit hesitant about including this because it's not really specific to yo
 
 When a website is hacked and its users and passwords are leaked, hackers use scripts to try those same email addresses and passwords on loads of other important sites because they know lots of people use the same password for everything. If they break into your Facebook page they might use it for spam, which is embarassing, but if they got into places like your domain name or your Paypal account they could cause material problems for your business. The only way to protect against this password is to never reuse the same password for multiple sites.
 
-There are two methods for using random passwords I recommend - the first is a password manager, like Bitwarden at Bitwarden.com or 1Password at 1Password.com. These securely create and backup new passwords and hide them behind a single master password, so you only need to remember one. And the other option is just writing your passwords down in a notepad and keeping it somewhere safe in your house.
+There are two methods for using random passwords I recommend - the first is a password manager, like Bitwarden at [Bitwarden.com](https://bitwarden.com/) or 1Password at [1Password.com](https://1password.com/). These securely create and backup new passwords and hide them behind a single master password, so you only need to remember one. And the other option is just writing your passwords down in a notepad and keeping it somewhere safe in your house.
 
 ## Number 9: Site Content and Meta Tags
 
