@@ -73,7 +73,7 @@ The code will be open source by default under an AGPLv3 license, published on Gi
 
 I use a modular approach to save you money. Common patterns get extracted into reusable components - for example, my [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It literally won't let me hardcode text (everything must go through translation files), catches typos before runtime, and automatically checks that form fields match your database columns. Authentication systems, PDF generation, QR codes, image processing - all these common requirements get packaged into battle-tested modules. This means your project benefits from all the work I've done before - you're not paying for me to solve the same problems again.
 
-The internationalisation support deserves a special mention - every single user-facing string uses `I18n`, with no hard-coded text anywhere. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes the application much easier to maintain. Plus, if you ever need to support Welsh, French, or Mandarin, the infrastructure is already there waiting.
+The internationalisation support deserves a special mention - every single user-facing string uses `I18n`, with no hard-coded text anywhere. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes the application much easier to maintain. Plus, if you ever need to support Welsh, French, or Esperanto, the infrastructure is already there waiting.
 
 ## Development Process
 
