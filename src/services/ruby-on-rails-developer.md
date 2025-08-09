@@ -23,7 +23,7 @@ For an example of this approach, there's a recent project of mine [play-test](/e
 
 ## Common Problems I Solve
 
-**If your application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common web app headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I'm familiar enough with PHP, Classic ASP, .Net, and Python to handle migrations to modern Rails.
+**If your application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common web app headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I'm familiar enough with PHP, Classic ASP, .Net, Python, and probably others I've forgotten about to handle migrations to modern Rails.
 
 ## Pricing and Support
 
@@ -31,7 +31,7 @@ Rails applications are more complex than static websites, but my pricing isn't -
 
 For hosting, Rails applications need proper infrastructure. I can set up your application on anything from a £5/month VPS for smaller projects to multi-server deployments for enterprise scale. My standard setup uses [NixOS](https://nixos.org/) for reproducible deployments. On top of server costs, I charge £60 per month (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, quick text changes, and help when things go wrong. I'm still supporting clients I started working with in 2013 - proper support too, not just 'monitoring'. When something breaks on a Saturday afternoon (it happens), you can actually reach me - and I'll fix it as soon as I can.
 
-The beauty of open source development is that you're never locked in. You own the complete source code and deployment configuration. Another developer can add features without breaking your checkout, thanks to the comprehensive test suite. You can host it yourself, fork it, or take it wherever you need.
+The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and deployment configuration. If you want to hire another developer to add features, they can - the comprehensive test suite means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, go for it.
 
 **The rest of this page gets really into the technical nitty-gritty of how I build dynamic web applications. I've written jargon-free explanations above each nerdy paragraph - if you're not technically minded, you might want to just read those bits.**
 
@@ -59,21 +59,21 @@ _**Jargon-free summary:** I build open source systems that multiple organisation
 
 The play-test system shows how open source development benefits everyone. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that actually works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds an edge case, the fix helps everyone.
 
-Developing software in the open means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. The code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work behind closed repositories. The AGPLv3 license ensures improvements come back to the community.
+Developing software in the open also means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. More importantly, it means the code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work behind closed repositories. The AGPLv3 license ensures that improvements come back to the community, and I can reuse battle-tested components across projects without licensing headaches, which saves you time and money.
 
 ## What This Means For You
 
 _**Jargon-free summary:** Your application gets all these safety nets from day one, you own the code outright, and I'll reuse components I've already built so you don't pay for the same work twice._
 
-When I build a Rails application for your organisation, you get all of this infrastructure and tooling from day one. Your application will have comprehensive test coverage - not added as an afterthought when things start breaking. It'll have type checking to catch errors before they happen. It'll have security scanning to identify vulnerabilities. It'll have automated deployments so updates go live in seconds after passing all tests.
+When I build a Rails application for your organisation, you get all of this infrastructure and tooling as standard. Your application will have comprehensive test coverage from day one - not added as an afterthought when things start breaking. It'll have type checking to catch errors before they happen. It'll have security scanning to identify vulnerabilities. It'll have automated deployments so updates go live in seconds (after passing all tests, naturally).
 
 I've worked both as a solo developer and leading teams - I mentored junior developers at Bouncy Castle Network for years. If you need someone to augment your existing team, review your codebase, or help establish better development practices, I can do that too. I bring the engineering standards from Bandcamp (where every change gets reviewed) with the flexibility of a freelancer.
 
-You'll own the code completely under an AGPLv3 license, published on GitHub where you can see every change, test result, and deployment. The AGPLv3 license creates a virtuous cycle where improvements benefit the whole community.
+The code will be open source by default under an AGPLv3 license, published on GitHub where you can see every change, every test result, every deployment. You'll own it completely - take it to another developer, modify it yourself, learn from it. The AGPLv3 means if someone uses your code to run a web service, they have to share their improvements back to the community. Your investment in open source helps everyone.
 
-I use a modular approach with battle-tested components. My [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem makes building accessible, semantic HTML forms incredibly fast - it won't let me hardcode text, catches typos before runtime, and automatically validates form fields against your database. Authentication, PDF generation, QR codes, image processing - these common requirements are packaged into reusable modules, so you're not paying for me to solve the same problems again.
+I use a modular approach to save you money. Common patterns get extracted into reusable components - for example, my [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It literally won't let me hardcode text (everything must go through translation files), catches typos before runtime, and automatically checks that form fields match your database columns. Authentication systems, PDF generation, QR codes, image processing - all these common requirements get packaged into battle-tested modules. This means your project benefits from all the work I've done before - you're not paying for me to solve the same problems again.
 
-Every user-facing string uses `I18n` internationalisation - no hard-coded text. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes maintenance much easier. Plus, if you ever need multiple languages, the infrastructure is already there.
+The internationalisation support deserves a special mention - every single user-facing string uses `I18n`, with no hard-coded text anywhere. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes the application much easier to maintain. Plus, if you ever need to support Welsh, French, or Mandarin, the infrastructure is already there waiting.
 
 ## Development Process
 
