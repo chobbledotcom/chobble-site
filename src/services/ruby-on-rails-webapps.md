@@ -3,7 +3,7 @@ title: Ruby on Rails Web Applications
 meta_title: Ruby on Rails Development | Manchester | Chobble
 description: Rails applications with comprehensive test suites, type checking, and automated deployments that actually work
 snippet: Web applications that won't fall over when you get busy
-order: 2
+order: 0
 meta_description: Ruby on Rails applications with 90%+ test coverage, type checking, automated deployments - Manchester developer - 50% off for charities
 ---
 
