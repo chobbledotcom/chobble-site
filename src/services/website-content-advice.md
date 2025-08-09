@@ -22,7 +22,7 @@ I can look at your website from the point of view of both search engines and pot
 I'll work on compiling this list for an hour, and will aim to generate around 10-20 ideas of things that need fixing. The result might look something like:
 
 > 1. **(10 mins) Tidy top navigation links.** The main links on your website are messy and difficult for visitors to read. You should tidy these up so they fit on one line, and less important links are moved elsewhere.
-> 2. **(30 mins) Fix homepage content.** Your homepage text is a big block of writing which is hard to scan and which repeats its "SEO" keywords in an unnatural way. This will dissuade visitors who read it from choosing you. You should re-write this page so it sounds more natural, and break up big chunks of text with paragraphs, headings, bold text, links, and bullet point lists.
+> 2. **(30 mins) Fix homepage content.** Your homepage text is a big block of writing which is hard to scan and which repeats its "SEO" keywords in an unnatural way. This will dissuade visitors who read it from choosing you. You should re-write this page so it sounds more natural (see my [keywords guide](/guides/keywords-and-keyword-stuffing/)), and break up big chunks of text with paragraphs, headings, bold text, links, and bullet point lists.
 > 3. **(10 mins) Fix contact page content.** Your contact page doesn't mention some of the important ways to contact you, and it contains a lot of "SEO optimised" text which pushes the contact form off the page. This will dissuade visitors from using the contact form. You should re-write it to include crucial information, while remaining concise.
 > 4. **(20 mins) Fix your Widgets category text.** Etcetera, etcetera.
 
@@ -40,7 +40,7 @@ No. Promoting your business is an ongoing job, and you should never think of you
 
 I'm happy to make the changes for you! While I would prefer for you to take charge of your own content because I think it gives the best long term results, I realise that some people just don't have the time.
 
-You'll need to give me access to your site's control panel, and if I'm writing new content I might need to ask you some questions about your business.
+You'll need to give me access to your site's control panel, and if I'm writing new content I might need to ask you some questions about your business. I'll write in a natural way that avoids [keyword stuffing](/guides/keywords-and-keyword-stuffing/) while still helping you rank well.
 
 ## Can we meet in Prestwich to discuss this?
 

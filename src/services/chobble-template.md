@@ -25,7 +25,7 @@ I was keeping an informal repository of these code snippets on my computers, and
 
 ## Features
 
-The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost.
+The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost. For more on effective SEO strategies, check out my [free guides](/guides/).
 
 To that end, here's a run-down of some of its features _(accurate as of April 2025)_:
 

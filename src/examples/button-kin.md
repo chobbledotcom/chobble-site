@@ -56,7 +56,7 @@ This site was **free**, because it was for my wife and I love her very much!
 
 If you're not my wife and you want a similar site for your own indie games studio you'd qualify for my **50% discounted** rate (see [prices](/prices/)) as an artist. Depending on how much customisation you want the site would take between three and ten hours, meaning a price somewhere **between £300 and £1,000**.
 
-You could host the site for free if you used something like Github Pages or Netlify, or you could host with me for **£20/month** and I'll handle backups and monitoring, and give you free [SEO advice](/services/patreon/) too.
+You could host the site for free if you used something like Github Pages or Netlify, or you could host with me for **£20/month** and I'll handle backups and monitoring, plus provide personal support to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/).
 
 ## FAQ
 

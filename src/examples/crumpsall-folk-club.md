@@ -46,7 +46,7 @@ I deliberately chose options with low ongoing costs and ease of use rather than 
 
 ## Ongoing Support
 
-I help out with tech bits when needed and keep an eye on security and performance. The club gets access to my Patreon marketing club for promotion ideas. We keep track of their search rankings and visitor numbers using Google Search Console and SerpBear.
+I help out with tech bits when needed and keep an eye on security and performance. The club gets personal support to implement promotion strategies from my [free marketing guides](/guides/) and [videos](/videos/). We keep track of their search rankings and visitor numbers using Google Search Console and SerpBear.
 
 ## Results
 

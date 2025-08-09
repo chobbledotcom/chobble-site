@@ -4,7 +4,7 @@ link_text: Search Engine Optimisation (SEO)
 snippet: Local SEO expert helping Prestwich businesses get found on Google
 description: Prestwich-based SEO specialist with 20+ years experience helping local businesses rank higher on Google and attract more customers online.
 meta_title: SEO Prestwich | Get Found on Google | Local SEO Expert
-meta_description: Prestwich SEO specialist - 20+ years getting local businesses ranking - no dodgy tactics, just proper content and fast sites - free advice via Patreon
+meta_description: Prestwich SEO specialist - 20+ years getting local businesses ranking - no dodgy tactics, just proper content and fast sites - free guides available
 ---
 
 # SEO Specialist in Prestwich & North Manchester
@@ -71,9 +71,9 @@ I'll handle all the technical changes, content optimisation, and ongoing monitor
 
 Being based here means I can be **hands-on with training and support** rather than trying to explain everything over email or video calls.
 
-## Free SEO Knowledge via Patreon
+## Free SEO Knowledge
 
-I also run a **[Patreon group](/services/patreon)** where I share SEO knowledge for free if you want to do the work yourself. The businesses that see the most success are typically those who implement strategies from my Patreon content and then contact me to figure out the fiddly technical bits.
+I share my SEO knowledge through **[free guides](/guides/)** and **[videos](/videos/)** if you want to do the work yourself. You can also find more on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom). The businesses that see the most success are typically those who implement strategies from my guides and then contact me to figure out the fiddly technical bits.
 
 ## How I Measure Success
 

@@ -40,7 +40,7 @@ I track his search positions with SerpBear, monitoring how he ranks for his targ
 
 ## Ongoing support
 
-Ashley gets free access to my marketing advice Patreon as part of his package. We're constantly working on ways to differentiate his business from the faceless agencies and call centres that dominate the solar market. This includes expanding his service offerings through the website and helping him communicate why working with an independent, experienced installer matters.
+Ashley gets personal support to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/) as part of his package. We're constantly working on ways to differentiate his business from the faceless agencies and call centres that dominate the solar market. This includes expanding his service offerings through the website and helping him communicate why working with an independent, experienced installer matters.
 
 I help him avoid the common trap of racing to the bottom on price by focusing on the value he provides - his years of experience, direct involvement in every job, and working with the same trusted team. We're also expanding the range of services promoted through the site, making sure potential customers understand the full scope of what he can do.
 

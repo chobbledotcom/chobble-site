@@ -22,7 +22,7 @@ Avo Coffee is a vegan- and Halal-friendly cafe in Haslingden, Rossendale. I buil
 
 As I have hosted the [This & That website](/examples/this-and-that/) for many years I know that visitors need to quickly find the menu and contact details, so I put the address at the very top of the Avo Coffee site and made the menu really easy to read - no PDF downloads or other awkward navigation.
 
-The site is really easily edited - the content is written in plain text, and I'm available for any questions the cafe has about editing their pages. Like all of my "Website & Support" customers, the cafe also gets access to my [Patreon group for online marketing advice](/services/patreon/) for plenty of ideas about how to attract more website visitors.
+The site is really easily edited - the content is written in plain text, and I'm available for any questions the cafe has about editing their pages. Like all of my "Website & Support" customers, the cafe gets personal support to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/) to attract more website visitors.
 
 ## Technical Details
 

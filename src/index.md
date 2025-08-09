@@ -34,6 +34,7 @@ I am flexible and up for discussing anything.
 - Dynamic websites (Ruby on Rails)
 - Hosting solutions and [migrations](/services/website-migrations/)
 - [Expert advice](/services/technical-advice/)
+- Online marketing / content [guides](/guides/) and [videos](/videos/)
 
 [Learn more about my services here](/services/) or [contact me](/contact/) to get started.
 

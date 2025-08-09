@@ -44,9 +44,9 @@ To really succeed online you need to know some fundamentals about structuring yo
 
 Static websites are great for ranking well on Google - especially ones built like mine that are super fast loading, easy to add to, and which include contact forms. This is because Google likes fast, up-to-date, straightforward websites.
 
-But your website is just a tool you use - ultimately SEO all comes down to the work you put in - writing content, building links, doing the socials, yadda yadda.
+But your website is just a tool you use - ultimately SEO all comes down to the work you put in - [writing content](/guides/keywords-and-keyword-stuffing/), [building links](/guides/backlinks/), doing the socials, yadda yadda.
 
-**You'll get plenty of free help with this if you host with me** - because I'll give you access to my [Patreon marketing club](/services/patreon/) for advice and guidance about online marketing and search engine optimisation, and I'll be on hand if you have questions.
+**You'll get plenty of help with this if you host with me** - you can use my [free marketing guides](/guides/) and [videos](/videos/) to learn SEO strategies, and I'll provide personal support to help you implement them and answer any questions.
 
 ## What is the process?
 

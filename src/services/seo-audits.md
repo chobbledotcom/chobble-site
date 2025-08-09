@@ -26,14 +26,14 @@ The services I can offer as **full site** audit could include:
 - **+1 hour: Prioritising the scan output** ([Buy with Stripe](https://buy.stripe.com/7sI8x50gw5SYecg9AD))
   - I'll formatting the raw scan output into prioritised items in easily understood, jargon-free language so you will know what needs doing most urgently.
 - **1 hour: Backlink profile analysis** ([Buy with Stripe](https://buy.stripe.com/7sI4gPfbqdlq2tyaEI))
-  - I'll analyse the backlink profile of a website (maybe your competitor's?) and grade the quality of their links, to give you insight into places worth building links for your business.
+  - I'll analyse the backlink profile of a website (maybe your competitor's?) and grade the quality of their links, to give you insight into places worth building links for your business. For more on this topic, see my [guide to finding backlinks](/guides/backlinks/).
 
 ## Single Keyword SEO Audits
 
 I can also do specific **keyword audits** to help you improve your ranking for a specific term:
 
 - **1 hour: Evaluating existing content** ([Buy with Stripe](https://buy.stripe.com/cN25kTgfugxCb044gl))
-  - I will read your existing page and give jargon-free instructions on how to improve its quality and relevance, which should boost it up search results.
+  - I will read your existing page and give jargon-free instructions on how to improve its quality and relevance, which should boost it up search results. Common issues include [keyword stuffing](/guides/keywords-and-keyword-stuffing/) and poor structure.
 - **2 hours: Evaluating your competition** ([Buy with Stripe](https://buy.stripe.com/00g8x56EUa9e3xCcMS))
   - I will compare your site's performance for a given keyword to your competitor's, and explain where your site is falling short.
 

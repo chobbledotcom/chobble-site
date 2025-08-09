@@ -1,47 +1,49 @@
 ---
-title: Online Marketing Advice Club
-meta_title: Online Marketing Advice Patreon | Prestwich, Manchester | Chobble
-description: £20 a month for online marketing advice and guides specific to running an online business in the UK.
-snippet: Weekly online marketing tips and more
+title: Free Marketing Guides & Videos
+meta_title: Free SEO & Marketing Guides | Prestwich, Manchester | Chobble
+description: Free online marketing guides and videos for UK businesses - no jargon, no dodgy tactics, real advice that works.
+snippet: Free SEO and marketing resources
 order: 3
-meta_description: Weekly-ish SEO tips for UK businesses - £20/month - no jargon, no dodgy tactics - real advice that works - free with hosting - Manchester web developer
+meta_description: Free SEO guides and videos for UK businesses - no jargon, no dodgy tactics - real advice that works - Manchester web developer
 ---
 
-# Online Marketing Advice Club
+# Free Marketing Guides & Videos
 
 Trying to get your head around terms like "SEO", "link building", "keywords" or "SERPs" can be overwhelming, and might dissuade you from going "all in" on promoting your website.
 
-I've started the [Chobble marketing advice club](https://www.patreon.com/Chobble) on Patreon.com to provide weekly tips on search engine optimisation, online marketing, and website maintenance specifically for UK small businesses.
+I've created a collection of **completely free** marketing guides and videos to help UK small businesses understand search engine optimisation, online marketing, and website maintenance.
 
-For **£20 per month** you will get full access to past and future posts and videos, live streams, and any other ways I use the platform. And if you pay me to host a website for you, you'll get **free** access for a year!
+All of my content that was previously on Patreon is now available for free:
+- Written guides in the [guides section](/guides/)
+- Video tutorials in the [videos section](/videos/)
+- More videos on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom)
 
 ## What's Included
 
-- **Weekly actionable tips** that you can implement straight away
+- **Actionable tips** that you can implement straight away
 - **Detailed guides** on SEO, content creation, and local marketing
-- **Audio versions** of each post so you can listen while working
+- **Video versions** of guides so you can learn in your preferred format
 - **Real-world examples** from businesses I've helped
 - **British-focused advice** (not American marketing that doesn't work here)
 - **No-nonsense explanations** in plain English without the jargon
-- **Direct access** to me for questions about your specific situation
 - **No spammy techniques** that could get your site penalised
 
-## Recent Topics Covered
+## Popular Guides
 
-Here's a sample of what members have been learning about:
+Here's a sample of what you can learn about:
 
-- [Keywords & Keyword Stuffing](https://www.patreon.com/posts/keyword-keyword-121654491) - How to use keywords effectively without overdoing it
-- [Backlinks](https://www.patreon.com/posts/backlinks-120218288) - Finding quality links from reputable sources
-- [Targeting Local Areas](https://www.patreon.com/posts/targeting-local-119714736) - Getting found by customers in your region
-- [Using AI Effectively](https://www.patreon.com/posts/using-ai-120755818) - How to use AI tools without hurting your site's credibility
+- [Keywords & Keyword Stuffing](/guides/keywords-and-keyword-stuffing/) - How to use keywords effectively without overdoing it
+- [Finding Backlinks](/guides/backlinks/) - Finding quality links from reputable sources
+- [Targeting Specific Areas](/guides/targeting-specific-areas/) - Getting found by customers in your region
+- [Using AI Effectively](/guides/using-ai-effectively/) - How to use AI tools without hurting your site's credibility
+- [Google Business](/guides/google-business/) - Setting up and optimising your Google Maps listing
+- [SEO Checklist](/guides/checklist/) - A practical, prioritised list of SEO tasks
 
 Each guide is written specifically for UK businesses, with practical advice that works in our market. I focus on techniques that are sustainable long-term and won't get your site penalised when Google updates its algorithms.
 
-Every post includes an audio version so you can listen to the content while you're working, driving, or doing other tasks - perfect for busy business owners who don't have time to sit and read lengthy articles.
-
 ## Who Is This For?
 
-This club is perfect for:
+These resources are perfect for:
 
 - Small business owners who want more enquiries from their website
 - People who are willing to put in a bit of work but need direction
@@ -62,14 +64,14 @@ I believe in honest, sustainable marketing that prioritises providing real value
 
 Instead, I focus on helping you understand what your customers are actually looking for, and how to provide that to them in a way that Google will recognise and reward.
 
-## How It Works
+## Need Personal Support?
 
-There is no contract or other obligations. You don't have to have a website from me, or use any specific provider - you just need to be able to create and edit pages on your existing website, and to be able to dedicate a bit of time to the process.
+While all the guides and videos are free, **website customers get personal support** to help them understand and implement these strategies. I'm available to answer specific questions about your situation and help you apply the advice to your business.
 
 Whether you're based in Prestwich or anywhere else in the UK, I'm sure I can help, regardless of your industry.
 
-## Join the Club
+## Get Started
 
-**[Click here to subscribe on Patreon.com for £20 a month.](https://www.patreon.com/Chobble)**
+**[Browse the free guides](/guides/)** or **[watch the videos](/videos/)** to start improving your website's performance today.
 
-If you have any questions before joining, [get in touch](/contact/) and I'll be happy to help.
+If you'd like a website built with ongoing support to implement these strategies, [get in touch](/contact/) and I'll be happy to help.

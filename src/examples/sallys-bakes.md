@@ -38,7 +38,7 @@ Sally needed a website she could easily edit herself, and so this site is edited
 
 ## Ongoing Support
 
-As a website customer Sally receives free access to my Patreon marketing club for business promotion advice. I provide occasional technical help, though her Git-based workflow is largely self-sufficient. We optimised the site for local search terms and it's already ranking pretty well on Google.
+As a website customer Sally receives personal support to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/) for business promotion. I provide occasional technical help, though her Git-based workflow is largely self-sufficient. We optimised the site for local search terms and it's already ranking pretty well on Google.
 
 ## Results
 

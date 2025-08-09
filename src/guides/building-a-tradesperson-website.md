@@ -51,7 +51,7 @@ By breaking each service into its own page we have the potential to write some r
 
 I added a "location" collection for pages targeting specific service areas. The team can add pages here to target those areas in search results, by providing valuable information specific to people from those areas looking for solar panel installers.
 
-It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be actually useful and unique. This requires some thinking about - fortunately Renegade gets free access to my [Patreon marketing guides](/services/patreon/) for being a website customer, where I've covered these pages in some detail!
+It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be actually useful and unique. This requires some thinking about - my [marketing guides](/guides/) and [videos](/videos/) cover these pages in detail (and they're free for everyone!). As a website customer, Renegade also gets my personal support to help them understand and implement these strategies.
 
 ## Contact Form
 
@@ -90,4 +90,4 @@ You'll need to adjust this for your preferred build tool, unless you also want t
 
 **If you're a tradesperson and you want me to build a website for you, just like the one mentioned in this guide, please [contact me](/contact/) to get the ball rolling.**
 
-My pricing is very transparent and at the end you'll have full access to the source code behind your site. You can host with me and get free [marketing advice](/services/patreon/), like Renegade are doing, or wherever you like - totally fine either way.
+My pricing is very transparent and at the end you'll have full access to the source code behind your site. You can host with me and get personal support to help you understand and implement the strategies in my [marketing guides](/guides/) and [videos](/videos/) (which are free for everyone!), like Renegade are doing, or host wherever you like - totally fine either way.

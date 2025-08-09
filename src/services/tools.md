@@ -33,7 +33,7 @@ There's no straightforward way to export reviews from Checkatrade, so I built a 
 - **[/tools/google-reviews](/tools/google-reviews)**
 - [source code](https://git.chobble.com/chobble/chobble-site/raw/branch/main/src/tools/google-reviews.md)
 
-Shortly after I made this tool to find the _"Leave a Review"_ and _"Read Reviews"_ links for Google Maps listings, they released their own in-house method of doing it and emailed me about it for the Chobble listing! Bah.
+Shortly after I made this tool to find the _"Leave a Review"_ and _"Read Reviews"_ links for Google Maps listings, they released their own in-house method of doing it and emailed me about it for the Chobble listing! Bah. Learn more about setting up and optimizing your listing in my [Google Business guide](/guides/google-business/).
 
 ## Libregig (WIP)
 

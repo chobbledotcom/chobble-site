@@ -31,7 +31,7 @@ You can host up to 20 static websites with me for **£40** per month, or **£20 
 - **Provide support** when you have questions about editing your site
 - Make any **quick changes** to your site, at your request
 - **Fix any bugs** that you or I spot.
-- Provide **free online marketing advice** via my [Patreon page](/services/patreon/)
+- Provide **personal support** to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/)
 
 You may choose to host elsewhere since you will have the full source code - that's totally fine. I recommend and support [Netlify](https://netlify.com), [Neocities](https://neocities.org), [Bunny.net](https://bunny.net/), [Pico.sh](https://pico.sh/pgs), and [Surge](https://surge.sh) - but I will help you host wherever you like.
 
@@ -42,7 +42,7 @@ If you're not planning on updating your site very often, want to pay someone els
 - **Host and back up** ONE static website.
 - **Fix any bugs** that you or I spot.
 
-You won't get access to the Patreon group or any free changes included - but you can edit your site yourself, or pay me or my brother Kevin at [KevinBurkeServices.com](https://kevinburkeservices.com) for content changes ad-hoc.
+You won't get personal marketing support or any free changes included - but you can edit your site yourself, use my [free marketing guides](/guides/) and [videos](/videos/), or pay me or my brother Kevin at [KevinBurkeServices.com](https://kevinburkeservices.com) for content changes ad-hoc.
 
 ## Service charges (dynamic sites)
 
@@ -54,7 +54,7 @@ I will charge **£60** per month (or **£30 if discounted**) on top of whatever 
 - **Back up your code** via Git, mirrored to two hosts
 - **Back up your database every day** and email the backup to you
 - Make any **quick changes** to your system, at your request
-- Provide **free online marketing advice** via my [Patreon page](/services/patreon/)
+- Provide **personal support** to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/)
 
 You can also host the Ruby site yourself, as you will have the full source code. I am happy to help you get set up on any host.
 

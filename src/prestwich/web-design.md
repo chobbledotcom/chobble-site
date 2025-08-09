@@ -23,7 +23,7 @@ I pride myself on building fast, efficient, accessible and easily-understood web
 4. You get training plus the complete source code and instructions
 5. I can host your new site, or you or someone else can
 
-Most delays come from content creation, but you'll have access to my [Patreon group](/services/patreon/) for guidance.
+Most delays come from content creation, but you can use my [free guides](/guides/) and [videos](/videos/) for help.
 
 Want a more complex, more visual website with lots going on? I'm happy to help with that too - I can source designers, turn paid-for templates into interactive sites, or build any advanced functionality with Ruby on Rails or other open source platforms.
 
@@ -51,7 +51,7 @@ Check out my [price calculator](/price-calculator/) for a proper estimate, but t
 - **Website with custom design**: £1,400-1,600
 - **Complex functionality**: £2,000+
 
-I offer affordable web hosting from £10/month, or £40/month with ongoing support and full SEO guidance via [a free subscription to my Patreon marketing group](/services/patreon/). You can also host your site with Cloudflare pages for no monthly cost at all.
+I offer affordable web hosting from £10/month, or £40/month with ongoing support and personal help implementing the strategies in my [free marketing guides](/guides/) and [videos](/videos/). You can also host your site with Cloudflare pages for no monthly cost at all.
 
 I give a **50% discount** to charities, co-ops, artists, musicians, vegan businesses, and renewable energy companies.
 

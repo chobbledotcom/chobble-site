@@ -10,7 +10,7 @@ meta_description: 50% off websites for vegan businesses - £300 for a simple sit
 
 **Get 50% off if you run a vegan business.** That's £100/hour instead of £200/hour, meaning a simple restaurant website design could be as little as **£300**.
 
-My prices are 100% transparent - check out my [price calculator](/price-calculator/). For just **£20/month** to host unlimited vegan static websites with me, you'll also get free access to my [marketing advice Patreon group](/services/patreon/) for up-to-date advice on promoting your new website.
+My prices are 100% transparent - check out my [price calculator](/price-calculator/). For just **£20/month** to host unlimited vegan static websites with me, you'll get personal support to implement the strategies in my [free marketing guides](/guides/) and [videos](/videos/) to help promote your new website.
 
 I've been vegan since 2009 and vegetarian my whole life so I'm personally invested in helping vegan businesses succeed. I'll help you put your values front and centre to attract visitors Googling for ethical options.
 
@@ -32,7 +32,7 @@ I build straightforward, fast-loading, and really easy to update websites, hoste
 
 </div>
 
-I use Google Search Console, SerpBear results tracking, Lighthouse audits and years of experience to make sure Google fully understands your site and properly focuses each page towards a specific "vegan" search term. Straightforward, mobile-friendly designs ensure your customers find the information they need quick sharp, reducing "bounce" rates.
+I use [Google Search Console](/guides/google-search-console/), [SerpBear results tracking](/videos/serpbear-results-tracking/), Lighthouse audits and years of experience to make sure Google fully understands your site and properly focuses each page towards a specific "vegan" search term. Straightforward, mobile-friendly designs ensure your customers find the information they need quick sharp, reducing "bounce" rates.
 
 ## Easy to edit vegan websites
 

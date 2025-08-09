@@ -82,7 +82,7 @@ This is an estimate only, but if it sounds good please **[get in touch for a pro
 You can either host your new website yourself or pay me to host it - either is totally fine. If you'd like me to host it, my prices are:
 
 - **£10/month:** Hosting only, with no support or marketing advice. You can make changes yourself or employ someone to help you.
-- **£40/month:** Hosting, support, uptime alerts, search position tracking, Google Search Console monitoring, and [marketing advice](/services/patreon/). I'll support you with any day to day maintenance and expansion of your site.
+- **£40/month:** Hosting, support, uptime alerts, search position tracking, Google Search Console monitoring, and personal help implementing the strategies in my [free marketing guides](/guides/) and [videos](/videos/). I'll support you with any day to day maintenance and expansion of your site.
 
 These prices are also **discounted 50%** for charities, co-operatives, artists, musicians, and sustainable businesses.
 

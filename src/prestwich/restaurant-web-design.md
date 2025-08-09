@@ -44,7 +44,7 @@ That's it. No calling developers. No waiting days. No extra charges. Using [Page
 
 A basic restaurant website starts at about **£600** and just **£300** for vegan businesses - that gets you a professional design based on my proven [Chobble template](/services/chobble-template/), an easy menu management system, mobile-first responsive design, contact form with spam protection, plus setup and training.
 
-Hosting is from **£10/month** for simple sites with paid support, or **£40/month** if you want ongoing support, updates, and marketing advice via my [Patreon group](/services/patreon/).
+Hosting is from **£10/month** for simple sites with paid support, or **£40/month** if you want ongoing support, updates, and personal help implementing the strategies in my [free marketing guides](/guides/) and [videos](/videos/).
 
 **Special offer**: I'm always happy to discuss reducing prices in exchange for meals at your restaurant!
 
