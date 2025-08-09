@@ -37,6 +37,8 @@ You should always expect total transparency from any marketing agency you choose
 
 If they won't tell you what they're up to it's probably because it's something you wouldn't like!
 
+## What Legitimate Marketers Actually Do
+
 So what are some jobs that a legitimate marketer might do for you, and how much could you expect them to cost?
 
 Copywriters are, or at least should be, really good at researching your products and services and then writing text which describes them nicely and is easily understood by search engines. In an hour you could probably expect them to write the pages for one or maybe two products or categories if writing it all manually. Nowadays it's normal for copywriters to use AI to increase the amount of content they can provide to you for your money, but they'll prompt the AI with plenty of your business details and will edit its output to make sure it reads nicely.

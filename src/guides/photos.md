@@ -33,7 +33,7 @@ These photos of your products "in action" should show that you stick to a high s
 
 Smartphones are usually pretty bad at taking photos in the dark. The darkness causes lots of noise, and muddies the colours of your products. You might be able to fix some of this with post production, but really the simplest option is just to take your photos in bright conditions. The light source should be behind you - don't face towards the sun or everything will be really washed out.
 
-## Mistake #5: Low resolution and high compression
+## Mistake #4: Low resolution and high compression
 
 I see a lot of photos on websites that are really low resolution. To get into the weeds a bit, the resolution of digital photos is the number of pixels it contains - and each pixel is a dot of colour. In a low resolution photo, it can be hard to make out the details, because there just aren't enough pixels to fully represent the item in the photo.
 

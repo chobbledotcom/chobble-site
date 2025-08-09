@@ -10,10 +10,10 @@ meta_description: Using less words to convey your points is good - this video ex
 
 # Be Concise
 
-Most business websites waffle on for ages without saying anything useful. This video tears apart a typical loft conversion page that uses hundreds of words to say absolutely nothing - no prices, no timescales, just generic rubbish like "create your dream room" that could describe any company.
+Most business websites have a skewed "waffle to useful content" ratio - especially in the age of AI, which makes it really easy to generate paragraphs of text. This video uses a fictional example from a building company to explain how you can use less words to convey more information and make your site more valuable to its visitors.
 
 **Prefer a comprehensive guide on writing effective service pages? [Click here to read it (9-minute read)](/guides/writing-a-good-service-category-page/).**
 
-I'll show you how to replace 200 words of AI-generated fluff with 20 words that actually matter - like "6-8 weeks completion, averaging £30,000" or "15-year insurance-backed guarantee". Real information that visitors actually want. It takes 5 minutes to watch, could transform how you write website content.
+It'll show you how to replace 200 words of AI-generated fluff with 20 words that actually matter - information that visitors actually want. It takes 10 minutes to watch, could transform how you write website content.
 
 **If you'd like help writing concise, effective website content that converts visitors into customers, [contact me](/contact/).**

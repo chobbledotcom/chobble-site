@@ -63,7 +63,7 @@ Some examples that come to mind are Amazon, tracking their sellers to see which 
 
 Your interactions with customers on these platforms add to the knowledge the platform has about your customers, but that knowledge isn't shared with you. Facebook won't tell you why it costs a certain amount to boost a certain post, or anything about who saw it. They won't give you an email address for the customer so you can contact them outside of the platform, and they won't tell you how they landed on your page or what they were interested in. And if the customer deletes their Facebook account, it's like they never existed as far as you can tell. But you can collect that data through your own site - and you can do it in a way which is anonymous and protects the privacy of your site visitors, and which is under your full control.
 
-## Okay, so where to start?
+## Where to Start
 
 So hopefully you're slightly more convinced to put some effort into your website and online presence now, but where should you start? Well, you can check out our [guides](/guides/) and [videos](/videos/) for helpful tips, including our SEO checklist!
 
@@ -77,13 +77,13 @@ It's about spreading the effort out to multiple places on the internet, includin
 
 It's worth remembering throughout this that you probably won't see instant results on your website. It takes a while for search engines to find the new content, and then for people to find it, and then for them to tell their friends, or book with you - it's a slower burn than social media sites where a post either does well or it doesn't within a couple of days. Don't be too disheartened by this - like I said before it's about the cumulative effort, and if you track things on a week to week or month to month scale you'll see visitor numbers to your site climb and more conversions coming in.
 
-## How much time should I spend on this?
+## Time Investment
 
 You should try and improve something to do with your web presence reasonably regularly, maybe once a week. This might be as simple as adding a couple of lines to a product description to address a question you've been asked a few times, or responding to reviews on your Google Maps listing, to as complex as recording a video walkthrough of how to use one of your products or adding a whole new category to your site. Remember what I said before about the effort being cumulative? So even if you just do a tiny bit each week, 52 times a tiny bit adds up to a pretty big bit over the year. And remember to mix it up - don't just spend all year working on product descriptions, spend some of that time improving your maps listing, or your news posts, or your profiles on industry websites.
 
 Improving your web presence is like exercising - the important thing is to do _something_ reasonably regularly, and it doesn't really matter whether that's something big or small. Consistency is key. It's a marathon, not a sprint. Slow and steady wins the race. You know all the cliches, but they're true.
 
-## How do I measure success?
+## Measuring Success
 
 Ultimately, the three metrics that matter are how many people found your site, how many of those got in touch with you, and how many of THOSE were able to pay for your services. It's worth setting up some sort of way to measure this - maybe that's as simple as using Google Search Console to see how many times your site showed in results and was clicked, and counting the number of enquiries you get.
 

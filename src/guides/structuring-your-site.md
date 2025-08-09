@@ -17,6 +17,8 @@ The tree structure is also really useful for search engines, because the links l
 
 The other major benefit is that a tree structure is easy to manage as you grow. You'll know where each new bit of content belongs, meaning you can have a really large site covering a lot of topics without getting lost.
 
+## Planning Your Site Structure
+
 So, lets discuss how to plan and implement an effective website structure that works for both visitors and search engines!
 
 First up - planning. This can save a lot of trouble later. First, you should list everything your site needs to include. This might be things like your products, your services, your locations, and any other key information about your business.
@@ -31,7 +33,11 @@ There's an industry saying that you might have heard, that everything on your si
 
 And if your site is very small then maybe you don't even need that, and everything can be reached within one click of your homepage. But probably, if you're trying to write content to do well on search engines, you'll quickly grow past this size.
 
+## Navigation and Menus
+
 It's likely that your site has a main menu that appears on every page. This is crucial real estate on your site, so you need to make sure every page it's linking to is worthy of the spot. I'd generally advise linking to your main categories from here, because it's the first place visitors will look to click. And I'd generally advise against linking to pages that only a minority of visitors will be interested in - link to those pages from a branch instead.
+
+## Common Pitfalls to Avoid
 
 Let's talk about some common pitfalls that you can run into when structuring your site. The first and most serious is orphaned pages - this is when you've got a page on your site that isn't linked from anywhere. Search engines struggle to find these pages, and so will your visitors. Each page on your site needs at least one link from elsewhere to it.
 
@@ -39,7 +45,11 @@ The next problem I see a bunch is when there are multiple pages that are basical
 
 Some sites also end up with lots of categories with barely any content in them, which means the pathway to their products passes through a page which is hard for Google to categorise. You might instead want to merge these thin pages into one larger category with more depth.
 
+## Interlinking Your Content
+
 Let's talk about interlinking for a second. It's one thing to have this overarching tree structure to your products, but you can also provide value to your visitors by interlinking the various branches when it makes sense. For example if one product is regularly hired alongside another, you should probably link them together in their descriptions. By interlinking your products like this you make it really easy for visitors to discover other products they might be interested in.
+
+## Summary
 
 So, there we have it - a hopefully solid approach to structuring your website that works for both visitors and search engines. It's not just a technical consideration, it's about creating clear pathways for your visitors to find exactly what they're looking for, and it's a way to know exactly where to logically fit in any new information you think your site should contain.
 
