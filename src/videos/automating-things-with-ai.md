@@ -10,25 +10,8 @@ meta_description: AI can be really useful for automating tasks on your website l
 
 # Automating Things with AI
 
-Save hours on repetitive website tasks using AI the right way - without the risks.
+AI's really useful for automating boring website tasks if you know what you're doing. This video shows practical examples like feeding your sitemap to AI and having it check every page for missing meta descriptions or dodgy titles - what would take hours done in seconds.
 
-## Why Watch This Video?
-
-If you're spending ages on tedious tasks like checking meta descriptions, rewriting emails, or analysing your site content, AI can help. But most people either avoid it completely or use it wrong. This video shows you the safe, practical middle ground.
-
-## What You'll Learn
-
-**Audit Your Entire Site in Seconds**
-Give AI your sitemap and it'll check every page for missing meta descriptions, poor titles, and SEO issues. What would take you hours is done instantly.
-
-**Turn Rough Notes into Professional Messages**
-Quickly transform "not available Saturday but Sunday Monday Tuesday" into polished customer correspondence that matches your tone.
-
-**Avoid Costly AI Mistakes**
-Learn what AI should never do (business decisions, unedited public content, customer support) so you get the benefits without the risks.
-
-## Who This Helps
-
-Perfect for busy business owners who want to save time on repetitive tasks but are wary of AI. Also great if you've tried AI but found the results too generic or unreliable.
+Also covers turning rough notes into proper emails, and more importantly, what NOT to use AI for (like unedited public content or making business decisions). It shows you the safe middle ground between avoiding AI completely and trusting it with everything. Very handy if you're spending ages on repetitive tasks.
 
 **If you'd like help automating your website tasks safely with AI, [contact me](/contact/).**

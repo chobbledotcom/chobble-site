@@ -10,25 +10,8 @@ meta_description: What keyword stuffing is and a layman's overview of how Google
 
 # Keywords & Keyword Stuffing
 
-Stop worrying about cramming keywords into your content. Learn how to write naturally whilst still ranking well on Google.
+Stop cramming keywords everywhere thinking it'll help you rank - it won't. This video explains how Google actually understands keywords these days (spoiler: they're clever enough to know a pizza recipe page is about making pizza without you saying it 50 times).
 
-## Why Watch This Video?
-
-If you're anxious about using the "right" keywords or worried you're not mentioning them enough, this video will put your mind at ease. You'll discover why Google actually penalises keyword stuffing and how to write content that ranks without sounding robotic.
-
-## What You'll Learn
-
-**Write Naturally and Still Rank**
-Google understands context - a recipe page can rank for "how to make pizza" without using that exact phrase. You don't need to force keywords where they don't belong.
-
-**Avoid Google Penalties**
-See real examples from Google's own spam policies showing what NOT to do. Many businesses accidentally stuff keywords thinking it helps - it doesn't.
-
-**Match Search Intent**
-Understand the difference between someone searching "pizza" (vague) versus "pizza in Prestwich" (ready to buy) and write accordingly.
-
-## Who This Helps
-
-Perfect for business owners who've been told to "use more keywords" but find their content sounds unnatural. Also ideal if you've been penalised or your rankings have dropped after trying to optimise for keywords.
+I'll show you examples straight from Google's spam policies of what not to do, and why writing naturally works better than forcing keywords where they don't belong. Also covers the difference between someone searching "pizza" (could want anything) versus "pizza in Prestwich" (wants to order now). Really useful if you've been told to "use more keywords" but your content sounds like a robot wrote it.
 
 **If you'd like help writing natural content that ranks well without keyword stuffing, [contact me](/contact/).**
