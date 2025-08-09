@@ -1,25 +1,35 @@
 ---
 title: Ruby on Rails Web Applications
-meta_title: Ruby on Rails Development | Manchester | Chobble
+meta_title: Ruby on Rails Developer Manchester | Rails Freelancer | Chobble
 description: Rails applications with comprehensive test suites, type checking, and automated deployments that actually work
 snippet: Web applications that won't fall over when you get busy
 order: 2
-meta_description: Ruby on Rails applications with 90%+ test coverage, type checking, automated deployments - Manchester developer - 50% off for charities
+meta_description: Ruby on Rails developer Manchester - I build web applications with 90%+ test coverage - 5 years at Bandcamp, 10 years at BCN - Rails freelancer £200/hour
 ---
 
 # Ruby on Rails Web Applications
 
-**When you need more than a static website - when you need a proper web application with user accounts, databases, complex business logic, and dynamic functionality - that's where Ruby on Rails comes in.** I build Rails applications that won't fall over when you get busy, can be modified without breaking everything else, and handle 10 users or 10,000 without a rewrite.
+**I'm a Ruby on Rails developer based in Prestwich, Manchester.** I've been building web applications since 2007 - I spent 10 years as technical lead at Bouncy Castle Network, growing their platform from 1 customer to 1,200 (handling 6,700 bookings daily), then 5 years at Bandcamp working on Ruby systems that process about $200 million annually. Now I build Rails applications for Manchester businesses that won't fall over when you get busy, can be modified without breaking everything else, and handle 10 users or 10,000 without a rewrite.
 
-The way I approach Rails development is a bit different from what you might find elsewhere. I don't just write code that works today and hope for the best - I write tests for all the business logic aiming for 90%+ coverage, use type checking that spots typos before the code even runs, and run automatic security scans on every change. This isn't about being precious about code - it's about building systems you can change on a Tuesday without ruining everyone's Wednesday.
+## Why Work With a Freelance Rails Developer?
 
-I've built several Rails applications that demonstrate this approach. Take [play-test](/examples/play-test) - it's a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. Or [patlog](/videos/patlog-pat-testing) - a free tool for electricians to log portable appliance tests with professional certificates and QR codes. Both handle thousands of users without crashing, generate PDFs without memory leaks, and you can see exactly how they work because they're open source.
+I've worked both in-house and freelance since 2012. You get someone who knows how big companies do things (proper testing, deployment pipelines, code reviews) but without the agency overhead. Just me, in Prestwich, charging by the hour. No account managers, no juniors doing the actual work, no surprise bills. When you email me, you get me. When there's a problem, I fix it. 
+
+The way I approach Rails development comes from years of experience at scale. At Bandcamp I worked on performance - making pages load faster, fixing database queries that were taking too long, optimising code that millions of musicians depend on. I write tests for all the business logic aiming for 90%+ coverage, use type checking that spots typos before the code even runs, and run automatic security scans on every change. This isn't about being precious about code - it's about building systems you can change on a Tuesday without ruining everyone's Wednesday.
+
+## Real Rails Applications I've Built
+
+I've built several Rails applications that demonstrate this approach. Take [play-test](/examples/play-test) - it's a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. Or [patlog](/videos/patlog-pat-testing) - a free tool for electricians to log portable appliance tests with professional certificates and QR codes. Both handle thousands of users without crashing, generate PDFs without memory leaks, and you can see exactly how they work because they're open source. The booking system I built for Bouncy Castle Network in 2009 still processes thousands of bookings daily - I build things to last.
+
+## Common Rails Problems I Solve
+
+**If your Rails application is getting slow, breaking when you deploy, or stuck on an old version,** I can help. I've dealt with all the common Rails headaches - applications stuck on Rails 4 that need upgrading, N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I've migrated systems from PHP and Classic ASP to Rails. At Metro Salvage, the system I built generated £200k in new revenue their first year - sometimes fixing these problems properly makes a real difference to your business.
 
 ## Pricing and Support
 
 Rails applications are more complex than static websites, but the pricing model remains simple - it's my standard [flat hourly rate](/prices/) of £200 per hour (£100 for charities, artists, vegan businesses, and renewable energy companies). You'll know exactly what you're paying for, with detailed breakdowns of time spent on different features.
 
-For hosting, Rails applications need a proper server rather than static hosting. I'll set up your application on an affordable VPS running [NixOS](https://nixos.org/), with costs starting around £5 per month for the server itself. On top of that, I charge £60 per month (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, daily database backups emailed to you, quick text changes, and help when things go wrong.
+For hosting, Rails applications need a proper server rather than static hosting. I'll set up your application on an affordable VPS running [NixOS](https://nixos.org/), with costs starting around £5 per month for the server itself. On top of that, I charge £60 per month (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, daily database backups emailed to you, quick text changes, and help when things go wrong. I'm still supporting clients I started working with in 2013 - proper support too, not just 'monitoring'. When something breaks on a Saturday afternoon (it happens), you can actually reach me.
 
 The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you have the complete source code and deployment configuration. If you want to hire another developer to add features, you can - the comprehensive test suite means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, you can.
 
@@ -57,6 +67,8 @@ Developing software in the open means everything is transparent - you can see th
 
 When I build a Rails application for your business, you get all of this infrastructure and tooling as standard. Your application will have comprehensive test coverage from day one - not added as an afterthought when things start breaking. It'll have type checking to catch errors before they happen. It'll have security scanning to identify vulnerabilities. It'll have automated deployments so updates go live in seconds after passing all tests.
 
+I've worked both as a solo developer and leading teams - I mentored junior developers at Bouncy Castle Network for years. If you need someone to augment your existing team, review your codebase, or help establish better development practices, I can do that too. I bring the engineering standards from Bandcamp (where every change gets reviewed) with the flexibility of a freelancer.
+
 The code will be open source by default under an AGPLv3 license, published on GitHub where you can see every change, every test result, every deployment. You'll own the code completely - you can take it to another developer, you can modify it yourself, you can learn from it. The AGPLv3 license means if anyone (including competitors) uses your code to run a web service, they have to share their improvements - so your investment in open source benefits the whole community. The test suite means you can make changes with confidence, knowing that if something breaks, the tests will catch it.
 
 I use a modular approach to building these applications. Common patterns get extracted into reusable components - I've even created my own [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It won't let me hardcode text (everything goes through translation files), catches typos before runtime, and automatically checks that form fields match your database columns. This means I can create complex forms in minutes rather than hours, and they're guaranteed to be accessible and consistent across your entire application.
@@ -91,6 +103,8 @@ My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable en
 
 **Jargon-free summary:** If you need a web application that won't crash when you're busy, get in touch.
 
-**If you need a Rails application with tests for every bit of business logic, type checking, and the ability to handle your business doubling overnight, [contact me](/contact/).**
+**If you need a Rails application built by someone who's actually done this before at scale, [contact me](/contact/).** I've been in Prestwich most of my life - happy to meet at one of the cafes on Bury New Road to chat through what you need.
+
+Whether you need a new Rails application built properly from the start, an existing one fixed, or help upgrading from Rails 4 to 7, I bring the same approach: comprehensive tests, proper infrastructure, and code that the next developer (maybe you) can actually understand.
 
 The [play-test](/examples/play-test) and [patlog](/videos/patlog-pat-testing) systems show what's possible with this approach - complex applications that handle thousands of inspections without crashing, generate PDFs without memory leaks, and process images without timing out. Your application will be built the same way.
