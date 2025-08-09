@@ -16,4 +16,8 @@ Can't find your business when folk search locally? That's because Google Busines
 
 I'll show you exactly why these listings appear before most websites (with real examples), then walk you through the whole setup process - from verification to getting your photos sorted, managing reviews, and all the bits that actually make a difference. Really useful if you're a local business that needs to show up when people search for your services nearby. It takes about 15 minutes to watch, could transform your local visibility.
 
+## Mentioned Links
+
+Set up your free listing at [Google Business Profile](https://www.google.com/business/) to appear in local searches and on Google Maps.
+
 **If you'd like help setting up and optimising your Google Business listing for maximum local visibility, [contact me](/contact/).**

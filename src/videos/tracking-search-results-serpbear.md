@@ -14,4 +14,8 @@ Want to track your Google rankings like the pros but don't fancy paying £50-200
 
 I'll walk you through the whole setup - it takes about 20 minutes but once it's running you can track dozens of keywords automatically, see historical data, and actually know if your SEO work's making a difference. Perfect if you're sick of manually checking rankings and getting different results every time. You get 5,000 free searches a month with ScrapingRobot which is loads for most small businesses.
 
+## Mentioned Links
+
+Check out [SerpBear](https://github.com/towfiqi/serpbear) for open-source rank tracking, [Pikapods](https://www.pikapods.com/) for simple hosting, and [ScrapingRobot](https://scrapingrobot.com/) for affordable search result scraping.
+
 **If you'd like help setting up professional SEO tracking systems or interpreting your ranking data, [contact me](/contact/).**

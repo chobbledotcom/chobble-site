@@ -14,4 +14,8 @@ Fed up with ads everywhere and cookie popups on every website? This video shows 
 
 Also covers smart bookmarking tricks like saving login pages directly instead of homepages, and why you should use a password manager like Bitwarden (free and open source). It takes about 10 minutes to set all this up, but it'll save you hours every week. It works best with Firefox, which isn't constantly trying to make your life worse like Chrome does.
 
+## Mentioned Links
+
+Get [uBlock Origin](https://ublockorigin.com/) for blocking ads, ["I Still Don't Care About Cookies"](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) for dismissing cookie popups, [Bitwarden](https://bitwarden.com/) for password management, and [Firefox](https://www.mozilla.org/firefox/) for a better browsing experience.
+
 **If you'd like help optimising your digital tools and workflows for maximum productivity, [contact me](/contact/).**
