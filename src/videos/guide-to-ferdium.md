@@ -10,8 +10,8 @@ meta_description: Quick run-down of Ferdium's main features - an app for managin
 
 # Guide to Ferdium - A Very Cool Web App Manager
 
-Got too many browser tabs open? Sick of logging in and out of different business accounts all day? Ferdium puts all your web apps - Facebook, Instagram, Google Analytics, whatever - into one tidy window. Proper handy for managing multiple social media accounts without the faff.
+Got too many browser tabs open? Sick of logging in and out of different business accounts all day? Ferdium puts all your web apps - Facebook, Instagram, Google Analytics, whatever - into one tidy window. Really handy for managing multiple social media accounts without the faff.
 
-I'll show you how to set it up, add all your services, and configure it so you don't drain your battery. Also covers adding custom websites like your admin panels or Google Search Console. Main benefit is you stay logged into everything, see all notifications at a glance, and Facebook can't track you around the rest of the internet. Takes about 10 minutes to set up, saves you ages every day.
+I'll show you how to set it up, add all your services, and configure it so you don't drain your battery. Also covers adding custom websites like your admin panels or Google Search Console. The main benefit is you stay logged into everything, see all notifications at a glance, and Facebook can't track you around the rest of the internet. It takes about 10 minutes to set up, saves you ages every day.
 
 **If you'd like help setting up efficient digital workflows and productivity systems for your business, [contact me](/contact/).**

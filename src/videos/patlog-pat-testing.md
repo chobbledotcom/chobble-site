@@ -10,8 +10,8 @@ meta_description: Free site at patlog.co.uk for logging Portable Appliance Tests
 
 # PATLog.co.uk - A Free and Open Source Website to Log Your PAT Tests
 
-Stop paying daft money for PAT testing software. PATLog is a completely free website I built where you can log all your PAT test results, generate proper PDF certificates, and create QR codes for each appliance. No monthly fees, no catches - it's open source so you can see exactly how it works.
+Stop paying daft money for PAT testing software. PATLog is a completely free website I built where you can log all your PAT test results, generate PDF certificates, and create QR codes for each appliance. No monthly fees, no catches - it's open source so you can see exactly how it works.
 
-Dead simple to use - just enter your test results, it generates professional certificates automatically, and you can search through all your past inspections. Works on any device with a browser. Proper useful if you're an electrician doing PAT testing or a business that needs to keep compliance records without getting ripped off by expensive software.
+It's really simple to use - just enter your test results, it generates professional certificates automatically, and you can search through all your past inspections. It works on any device with a browser. Very useful if you're an electrician doing PAT testing or a business that needs to keep compliance records without getting ripped off by expensive software.
 
 **If you'd like help setting up PATLog for your electrical business or need custom PAT testing solutions, [contact me](/contact/).**

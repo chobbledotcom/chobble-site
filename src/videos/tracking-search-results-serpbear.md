@@ -10,8 +10,8 @@ meta_description: How to set up SerpBear on Pikapods and connect it to ScrapingR
 
 # Tracking Search Results with SerpBear & ScrapingRobot, Hosted on Pikapods
 
-Want to track your Google rankings like the pros but don't fancy paying £50-200 a month for it? This video shows you how to set up proper rank tracking for under two quid a month using SerpBear on Pikapods with ScrapingRobot. Gets you the same data as expensive tools for a fraction of the cost.
+Want to track your Google rankings like the pros but don't fancy paying £50-200 a month for it? This video shows you how to set up rank tracking for under two quid a month using SerpBear on Pikapods with ScrapingRobot. It gets you the same data as expensive tools for a fraction of the cost.
 
-I'll walk you through the whole setup - takes about 20 minutes but once it's running you can track dozens of keywords automatically, see historical data, and actually know if your SEO work's making a difference. Perfect if you're sick of manually checking rankings and getting different results every time. You get 5,000 free searches a month with ScrapingRobot which is loads for most small businesses.
+I'll walk you through the whole setup - it takes about 20 minutes but once it's running you can track dozens of keywords automatically, see historical data, and actually know if your SEO work's making a difference. Perfect if you're sick of manually checking rankings and getting different results every time. You get 5,000 free searches a month with ScrapingRobot which is loads for most small businesses.
 
 **If you'd like help setting up professional SEO tracking systems or interpreting your ranking data, [contact me](/contact/).**

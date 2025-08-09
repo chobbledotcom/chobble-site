@@ -12,6 +12,6 @@ meta_description: The competition for shorter search phrases is tougher than for
 
 Trying to rank for "pizza" or "plumber"? Good luck competing with Pizza Hut and billion-pound brands. This video explains why longer, more specific search phrases are your secret weapon - stuff like "vegan pizza delivery in Prestwich" where local businesses can actually compete.
 
-When someone searches "solicitor" they could want owt, but "no win no fee cycling accident solicitor Manchester" - that's someone who knows exactly what they need. I'll show you how to find these long tail keywords for your business and why they're dead useful for getting actual customers, not just random browsers. Takes the fight away from the big boys and lets you compete where you've got a chance.
+When someone searches "solicitor" they could want anything, but "no win no fee cycling accident solicitor Manchester" - that's someone who knows exactly what they need. I'll show you how to find these long tail keywords for your business and why they're really useful for getting actual customers, not just random browsers. It takes the fight away from the big boys and lets you compete where you've got a chance.
 
 **If you'd like help identifying profitable long tail keywords for your business and creating content that ranks, [contact me](/contact/).**

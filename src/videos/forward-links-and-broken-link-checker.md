@@ -10,8 +10,8 @@ meta_description: A quick dig into the use of links in your website content and 
 
 # "Forward"-links and a Broken Link Checker
 
-Everyone bangs on about backlinks, but what about the links you control on your own website? This video shows you how to use internal and external links properly - like linking at the exact moment someone's interested in something, not making them hunt through menus. Also covers why linking to competitors can actually help your business (sounds daft but it builds trust).
+Everyone talks about backlinks, but what about the links you control on your own website? This video shows you how to use internal and external links properly - like linking at the exact moment someone's interested in something, not making them hunt through menus. Also covers why linking to competitors can actually help your business (sounds daft but it builds trust).
 
-Then I'll show you Dr. Link Check, a free tool that finds all your broken links automatically. Nothing makes you look more amateur than sending folk to dead pages. Takes minutes to run, shows you exactly what needs fixing. Proper useful if you want visitors to actually explore your site instead of bouncing after one page.
+Then I'll show you Dr. Link Check, a free tool that finds all your broken links automatically. Nothing makes you look more amateur than sending folk to dead pages. It takes minutes to run, shows you exactly what needs fixing. Really useful if you want visitors to actually explore your site instead of bouncing after one page.
 
 **If you'd like help developing a strategic linking strategy for your website that builds trust and drives conversions, [contact me](/contact/).**
