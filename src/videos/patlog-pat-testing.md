@@ -14,4 +14,8 @@ Stop paying daft money for PAT testing software. PATLog is a completely free web
 
 It's really simple to use - just enter your test results, it generates professional certificates automatically, and you can search through all your past inspections. It works on any device with a browser. Very useful if you're an electrician doing PAT testing or a business that needs to keep compliance records without getting ripped off by expensive software.
 
+## Mentioned Links
+
+Visit [PATLog.co.uk](https://patlog.co.uk/) for the free PAT testing logger, or check out the [source code on GitHub](https://github.com/chobbledotcom/patlog) if you're interested in how it works.
+
 **If you'd like help setting up PATLog for your electrical business or need custom PAT testing solutions, [contact me](/contact/).**

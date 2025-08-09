@@ -16,4 +16,8 @@ Want to know why your website's not showing up in Google? Or which search terms 
 
 This video walks you through the bits that actually matter - like seeing exactly what people search for to find you (sometimes really surprising), checking if Google's indexed all your pages properly, and getting alerts when something goes wrong. It shows you 16 months of data about your site's performance, where visitors come from, and which pages work best. It takes about 20 minutes to understand the basics, but it'll change how you think about your website. Also covers the crucial email settings - turn them on or you'll miss important warnings about your site.
 
+## Mentioned Links
+
+Access [Google Search Console](https://search.google.com/search-console) to monitor your site's performance and get alerts about issues directly from Google.
+
 **If you'd like help interpreting your Search Console data and developing an SEO strategy that drives more customers, [contact me](/contact/).**

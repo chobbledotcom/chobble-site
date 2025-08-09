@@ -14,4 +14,8 @@ Got too many browser tabs open? Sick of logging in and out of different business
 
 I'll show you how to set it up, add all your services, and configure it so you don't drain your battery. Also covers adding custom websites like your admin panels or Google Search Console. The main benefit is you stay logged into everything, see all notifications at a glance, and Facebook can't track you around the rest of the internet. It takes about 10 minutes to set up, saves you ages every day.
 
+## Mentioned Links
+
+Download [Ferdium](https://ferdium.org/) - the free, open-source app for managing all your web services and social media accounts in one place.
+
 **If you'd like help setting up efficient digital workflows and productivity systems for your business, [contact me](/contact/).**
