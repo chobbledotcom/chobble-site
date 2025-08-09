@@ -19,7 +19,7 @@ But ideally, everyone involved in your website should have access to Google Sear
 
 ## Signing Up
 
-Anyway, before we get stuck into the weeds about GSC, lets start at the start - getting signed up. You'll need a Google account - you probably have one already if you've got a Gmail address, or a YouTube account, or an Android phone. You need to visit https://search.google.com/search-console, click "Start now", and log into your Google account.
+Anyway, before we get stuck into the weeds about GSC, lets start at the start - getting signed up. You'll need a Google account - you probably have one already if you've got a Gmail address, or a YouTube account, or an Android phone. You need to visit [https://search.google.com/search-console](https://search.google.com/search-console), click "Start now", and log into your Google account.
 
 Once you're in, Google will ask you to add a "property". This is just another word for a website, really. Google wants to verify that you own this website, so they give some options for how to accomplish this. There's two options - "Domain" and "URL Prefix". For most small businesses that just have one main website, there isn't much difference in how these work and either will be fine.
 
@@ -73,7 +73,7 @@ For example, redirects - one page might redirect to another page, like when the 
 
 Or, it might be "Not Found", a 404 error page. This isn't neccessarily a bad thing either - it might be a page you've deleted, which is fine to show a not found message for, although you might want to test that message yourself and make sure it's friendly.
 
-Or, a page could be blocked by robots.txt or by a noindex tag - two technical measures that your web host might use to stop Google from indexing pages which shouldn't show up in the index anyway, like the "Thank You" page for your contact form perhaps, which wouldn't make sense for someone to land on from Google. But if pages you think are important are showing as noindexed or blocked by robots.txt, then something is wrong.
+Or, a page could be blocked by [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro) or by a noindex tag - two technical measures that your web host might use to stop Google from indexing pages which shouldn't show up in the index anyway, like the "Thank You" page for your contact form perhaps, which wouldn't make sense for someone to land on from Google. But if pages you think are important are showing as noindexed or blocked by robots.txt, then something is wrong.
 
 These examples I've talked about will all show "Website" in the "Source" column under the reasons. This means Google interpreted a signal from the website about which pages to show or not. But, there could also be pages in there with "Google systems" as the source, meaning Google's algorithm determined that the page shouldn't be indexed. These might say things like "Crawled - currently not indexed" or "Discovered - currently not indexed".
 

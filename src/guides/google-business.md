@@ -41,7 +41,7 @@ It'll also ask you if you want to create a Google Workspace account, which is Go
 
 ## Verifying Your Listing
 
-None of these steps will be too complicated or technical, although as I mentioned before it can be a bit of a pain to get "verified". There are a few ways that your business can be verified - Google will use an algorithm to decide which it's going to use for your business. I would imagine that this will take into account things like Companies House records, or Google's existing idea of where your business is and its location.
+None of these steps will be too complicated or technical, although as I mentioned before it can be a bit of a pain to get "verified". There are a few ways that your business can be verified - Google will use an algorithm to decide which it's going to use for your business. I would imagine that this will take into account things like [Companies House](https://www.gov.uk/government/organisations/companies-house) records, or Google's existing idea of where your business is and its location.
 
 In the worst case, they can send you a postcard in the post, and the postcard will contain a code that you need to enter to verify your address, which can take a few days, but otherwise it'll should be just a day or two maximum to verify your business. And it might even be immediate - I'm not too experienced with the verification process to be fair.
 
@@ -107,7 +107,7 @@ It would be a huge amount of work to copy all of your products onto Google Maps,
 
 But keeping it somewhat up to date is worthwhile, and trying to get people to leave a review is definitely worthwhile. Speaking of which - if anyone fancies leaving me a review I'd really appreciate it. I could always do with more!
 
-It's worth me mentioning Bing places as well, which is at [BingPlaces.com](https://www.bingplaces.com), which is the Bing search engine equivalent of Google Business. You can actually import your Google Business listing straight over to Bing. Admittedly, hardly anyone is searching on Bing.. But some people are, so it's worth having your business show up on both.
+It's worth me mentioning [Bing places](https://www.bingplaces.com) as well, which is at [BingPlaces.com](https://www.bingplaces.com), which is the Bing search engine equivalent of Google Business. You can actually import your Google Business listing straight over to Bing. Admittedly, hardly anyone is searching on Bing.. But some people are, so it's worth having your business show up on both.
 
 I hope that's a good overview of how Google business works. Hopefully it's all very straightforward. Google will try and make this very easy for you to do.
 

@@ -48,7 +48,7 @@ The site uses the `@11ty/eleventy-img` plugin to create optimised versions of ea
 
 I like to avoid using JavaScript wherever possible, and so I challenged myself to make a "pop up" gallery system in pure HTML and CSS. I managed this after learning about the `popover` system ([link](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover)) which is well supported on modern browsers.
 
-I ran into some frustrating behaviour with my `.popover-container` which is the element that the images rendered inside. Because the image might be smaller than the container, clicking that unused space wouldn't close the popover. I fixed this by setting the `width` and `height` of the container to `fit-content`, which meant I needed to do a `transform: translate:(-50%, -50%)` to re-center it.
+I ran into some frustrating behaviour with my `.popover-container` which is the element that the images rendered inside. Because the image might be smaller than the container, clicking that unused space wouldn't close the popover. I fixed this by setting the `width` and `height` of the container to `fit-content`, which meant I needed to do a `transform: translate(-50%, -50%)` to re-center it.
 
 That fix probably took up the majority of the time dealing with the gallery - overall, a pretty straightforward way to display popover images with a dimmed background!
 
