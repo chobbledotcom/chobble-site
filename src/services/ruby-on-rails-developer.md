@@ -23,7 +23,7 @@ For an example of this approach, there's a recent project of mine [play-test](/e
 
 ## Common Problems I Solve
 
-**If your application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common web app headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I've migrated systems from PHP, Classic ASP, .Net, and Python to modern Rails.
+**If your application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common web app headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I'm familiar enough with PHP, Classic ASP, .Net, and Python to handle migrations to modern Rails.
 
 ## Pricing and Support
 
