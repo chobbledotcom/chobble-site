@@ -61,7 +61,7 @@ The internationalisation support deserves a special mention - every single user-
 
 The development process happens in the open - you can see every commit, every test result, every deployment. We'll start by understanding what your application needs to do - not just the features, but the business logic, the edge cases, the future possibilities. I'll create a development environment where you can see progress as it happens, not just at milestone deliveries.
 
-As I build, I write tests first - this test-driven development approach means I have to think through how features should work before implementing them. The tests document the expected behaviour, so the next developer (maybe you) can understand what's happening. When requirements change (and they always do), the tests ensure we don't break the login form while adding a new report.
+As I build, I write tests alongside the code - every new feature gets tests that verify it works correctly. The tests document the expected behaviour, so the next developer (maybe you) can understand what's happening. When requirements change (and they always do), the tests ensure we don't break the login form while adding a new report.
 
 Code reviews happen automatically - the pipeline runs 10+ different checks on every change, catching issues a human reviewer might miss. Once code passes all checks, it deploys automatically. No waiting for Friday afternoon deployment windows, no forgetting to run migrations.
 
@@ -74,6 +74,18 @@ Rails applications are more complex than static websites, but the pricing model 
 For hosting, Rails applications need a proper server rather than static hosting. I'll set up your application on an affordable VPS running [NixOS](https://nixos.org/), with costs starting around £5 per month for the server itself. On top of that, I charge £60 per month (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, daily database backups emailed to you, quick text changes, and help when things go wrong.
 
 The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you have the complete source code and deployment configuration. If you want to hire another developer to add features, you can - the comprehensive test suite means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, you can.
+
+## Infrastructure That Actually Works
+
+*Jargon-free summary: Your code and data are backed up in multiple places, you get 10GB of storage included, and everything runs on servers powered by renewable energy.*
+
+I don't mess about with infrastructure. Your source code lives on GitHub where you can see every change, and gets backed up to my own Git server in case GitHub has a bad day. Docker images are stored in three places - DockerHub, my server, and GitHub's registry - so deployment never fails because one service is down.
+
+Your database gets backed up to [Hetzner](https://www.hetzner.com/)'s S3-compatible storage every single day. Hetzner stores everything in the EU (German data protection laws), and I've been using them for years without a single problem. These backups are kept for 60 days - if you accidentally delete all your customers on a Friday, we can restore Wednesday's data on Monday. Your uploaded files (images, PDFs, whatever) go to the same place.
+
+You get 10GB of storage included in the monthly price. If you need more, we'll work out a fair price based on what you actually use. If you're paranoid about data loss, I can mirror everything to another geographic location for a bit extra.
+
+My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable energy, but I can host your application wherever you prefer - AWS, DigitalOcean, your own servers, wherever. The entire server configuration is managed with NixOS, which means I can show you exactly how everything is set up, and you can reproduce the entire server setup yourself if needed.
 
 ## Let's Build Something Solid
 
