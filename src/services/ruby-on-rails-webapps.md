@@ -3,7 +3,7 @@ title: Ruby on Rails Web Applications
 meta_title: Ruby on Rails Developer UK | Enterprise Rails Applications | Chobble
 description: Rails applications with comprehensive test suites, type checking, and automated deployments that actually work
 snippet: Web applications that scale from 10 to 100,000 users
-order: 2
+order: 0
 meta_description: Ruby on Rails developer UK - I build enterprise-scale applications with 90%+ test coverage - 5 years at Bandcamp ($200m/year), 10 years at BCN - £200/hour
 ---
 
