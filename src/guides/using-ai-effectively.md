@@ -7,7 +7,7 @@ meta_description: Guide to using AI effectively - understand limitations, avoid 
 
 # Using AI effectively
 
-AI Chatbots (like ChatGPT, Claude AI, or Google Gemini) can do some quite impressive tasks, and can be really useful for helping you write content for your website and brainstorming new ideas.
+AI Chatbots (like [ChatGPT](https://chat.openai.com/), [Claude AI](https://claude.ai/), or [Google Gemini](https://gemini.google.com/)) can do some quite impressive tasks, and can be really useful for helping you write content for your website and brainstorming new ideas.
 
 **Want to see practical examples of automating with AI? [Click here to watch it](/videos/automating-things-with-ai/).**
 
@@ -196,7 +196,7 @@ Just be sure to double- and triple-check their output to be certain that it:
 
 ## Appendix 1: Which chatbot does Stefan recommend?
 
-A service for using AI chatbots is [openrouter.ai](https://openrouter.ai). This service lets you test dozens of chatbots, with lower prices than you would pay going to the provider directly. Claude AI 3.5 Sonnet is great for nerdy topics, but ChatGPT and Google Gemini are also great options.
+A service for using AI chatbots is [openrouter.ai](https://openrouter.ai). This service lets you test dozens of chatbots, with lower prices than you would pay going to the provider directly. [Claude AI](https://claude.ai/) 3.5 Sonnet is great for nerdy topics, but [ChatGPT](https://chat.openai.com/) and [Google Gemini](https://gemini.google.com/) are also great options.
 
 ## Appendix 2: Copyright and ethics
 
