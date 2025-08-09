@@ -107,4 +107,4 @@ My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable en
 
 Whether you're a startup that needs to build for growth from day one, an enterprise that needs systems that actually work, or a professional body that needs industry-wide infrastructure, I bring the same approach: comprehensive tests, proper infrastructure, and code that scales.
 
-The [play-test](/examples/play-test) and [patlog](/videos/patlog-pat-testing) systems show what's possible - professional-grade applications processing thousands of critical safety inspections, generating compliance documents that stand up to scrutiny. Your application will be built to the same standards.
+The [play-test](/examples/play-test) and [patlog](/videos/patlog-pat-testing) systems show what's possible with this approach - complex applications that handle thousands of inspections without crashing, generate PDFs without memory leaks, and process images without timing out. Your application will be built the same way.
