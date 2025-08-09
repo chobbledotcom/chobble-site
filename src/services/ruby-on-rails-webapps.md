@@ -47,11 +47,11 @@ The Docker setup uses a multi-stage build to keep download sizes small, includes
 
 ## The RPII Partnership
 
-**Jargon-free summary:** A professional body is funding development of an open-source system, which means they're not locked into using me, and the quality has to be excellent because everyone can see it.
+**Jargon-free summary:** A professional body is funding development of an open-source system, which means they're not locked into using me, and I can build in lots of safeguards without raising the price.
 
 The development of play-test is now being supported by the Register of Play Inspectors International (RPII), which creates an interesting dynamic that benefits everyone. Because the system is open source, they're not locked into using me as the sole developer - they could hire anyone to work on it. And I'm not locked into developing only what they need - I can add features that benefit other users or my own interests. This open approach means the system gets features users actually want, not what I think they need.
 
-When you develop software in the open like this, it has to be good. Anyone can look at the code, see the test coverage reports, check if the deployments are working. There's nowhere to hide shoddy work - if I write rubbish code, everyone can see it.
+Developing software in the open means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. The AGPLv3 license means if someone improves the code, they have to share those improvements back with everyone. This creates a virtuous cycle where the software keeps getting better, and because I can reuse these improvements across projects, I can build in more safeguards and features without increasing costs.
 
 ## What This Means For You
 
@@ -59,7 +59,7 @@ When you develop software in the open like this, it has to be good. Anyone can l
 
 When I build a Rails application for your business, you get all of this infrastructure and tooling as standard. Your application will have comprehensive test coverage from day one - not added as an afterthought when things start breaking. It'll have type checking to catch errors before they happen. It'll have security scanning to identify vulnerabilities. It'll have automated deployments so updates go live in seconds after passing all tests.
 
-The code will be open source by default, published on GitHub where you can see every change, every test result, every deployment. You'll own the code completely - you can take it to another developer, you can modify it yourself, you can learn from it. The test suite means you can make changes with confidence, knowing that if something breaks, the tests will catch it.
+The code will be open source by default under an AGPLv3 license, published on GitHub where you can see every change, every test result, every deployment. You'll own the code completely - you can take it to another developer, you can modify it yourself, you can learn from it. The AGPLv3 license means if anyone (including competitors) uses your code to run a web service, they have to share their improvements - so your investment in open source benefits the whole community. The test suite means you can make changes with confidence, knowing that if something breaks, the tests will catch it.
 
 I use a modular approach to building these applications. Common patterns get extracted into reusable components - I've even created my own [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It won't let me hardcode text (everything goes through translation files), catches typos before runtime, and automatically checks that form fields match your database columns. This means I can create complex forms in minutes rather than hours, and they're guaranteed to be accessible and consistent across your entire application.
 
