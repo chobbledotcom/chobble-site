@@ -9,7 +9,7 @@ meta_description: Ruby on Rails developer Manchester - I build web applications 
 
 # Ruby on Rails Web Applications
 
-**I'm a Ruby on Rails developer based in Prestwich, Manchester.** I've been building web applications since 2007 - I spent 10 years as technical lead at Bouncy Castle Network, growing their platform from 1 customer to 1,200 (handling 6,700 bookings daily), then 5 years at Bandcamp working on Ruby systems that process about $200 million annually. Now I build Rails applications for Manchester businesses that won't fall over when you get busy, can be modified without breaking everything else, and handle 10 users or 10,000 without a rewrite.
+**I'm a Ruby on Rails developer, Prestwich born and bred.** I've been building web applications since 2007 - I spent 10 years as technical lead at Bouncy Castle Network, growing their platform from 1 customer to 1,200 (handling 6,700 bookings daily), then 5 years at Bandcamp working on Ruby systems that process about $200 million annually. Now I build Rails applications for Manchester businesses that won't fall over when you get busy, can be modified without breaking everything else, and handle 10 users or 10,000 without a rewrite.
 
 ## Why Work With a Freelance Rails Developer?
 
@@ -23,7 +23,7 @@ I've built several Rails applications that demonstrate this approach. Take [play
 
 ## Common Rails Problems I Solve
 
-**If your Rails application is getting slow, breaking when you deploy, or stuck on an old version,** I can help. I've dealt with all the common Rails headaches - applications stuck on Rails 4 that need upgrading, N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I've migrated systems from PHP and Classic ASP to Rails. At Metro Salvage, the system I built generated £200k in new revenue their first year - sometimes fixing these problems properly makes a real difference to your business.
+**If your Rails application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common Rails headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I've migrated systems from PHP and Classic ASP to Rails. At Metro Salvage, the system I built generated £200k in new revenue their first year - sometimes fixing these problems properly makes a real difference to your business.
 
 ## Pricing and Support
 
@@ -103,8 +103,8 @@ My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable en
 
 **Jargon-free summary:** If you need a web application that won't crash when you're busy, get in touch.
 
-**If you need a Rails application built by someone who's actually done this before at scale, [contact me](/contact/).** I've been in Prestwich most of my life - happy to meet at one of the cafes on Bury New Road to chat through what you need.
+**If you need a Rails application built by someone who's actually done this before at scale, [contact me](/contact/).** Happy to meet for a coffee or a pint at Cuckoo to chat through what you need.
 
-Whether you need a new Rails application built properly from the start, an existing one fixed, or help upgrading from Rails 4 to 7, I bring the same approach: comprehensive tests, proper infrastructure, and code that the next developer (maybe you) can actually understand.
+Whether you need a new Rails application built properly from the start or an existing one fixed, I bring the same approach: comprehensive tests, proper infrastructure, and code that the next developer (maybe you) can actually understand.
 
 The [play-test](/examples/play-test) and [patlog](/videos/patlog-pat-testing) systems show what's possible with this approach - complex applications that handle thousands of inspections without crashing, generate PDFs without memory leaks, and process images without timing out. Your application will be built the same way.
