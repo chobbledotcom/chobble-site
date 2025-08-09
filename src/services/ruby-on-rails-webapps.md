@@ -13,11 +13,9 @@ meta_description: Ruby on Rails applications with 90%+ test coverage, type check
 
 The way I approach Rails development is a bit different from what you might find elsewhere. I don't just write code that works today and hope for the best - I write tests for all the business logic aiming for 90%+ coverage, use type checking that spots typos before the code even runs, and run automatic security scans on every change. This isn't about being precious about code - it's about building systems you can change on a Tuesday without ruining everyone's Wednesday.
 
-I've built several Rails applications that demonstrate this approach. Take [play-test](https://play-test.co.uk) - it's a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. Or [PATLog](https://patlog.co.uk) - a free tool for electricians to log portable appliance tests with professional certificates and QR codes. Both handle thousands of users without crashing, generate PDFs without memory leaks, and you can see exactly how they work because they're open source.
+I've built several Rails applications that demonstrate this approach. Take [play-test](/examples/play-test) - it's a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. Or [PATLog](/videos/patlog-pat-testing) - a free tool for electricians to log portable appliance tests with professional certificates and QR codes. Both handle thousands of users without crashing, generate PDFs without memory leaks, and you can see exactly how they work because they're open source.
 
 ## Pricing and Support
-
-**Jargon-free summary:** You pay my hourly rate for development, then a monthly fee for hosting and maintenance - but you're never locked in because you own everything.
 
 Rails applications are more complex than static websites, but the pricing model remains simple - it's my standard [flat hourly rate](/prices/) of £200 per hour (£100 for charities, artists, vegan businesses, and renewable energy companies). You'll know exactly what you're paying for, with detailed breakdowns of time spent on different features.
 
@@ -95,4 +93,4 @@ My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable en
 
 **If you need a Rails application with tests for every bit of business logic, type checking, and the ability to handle your business doubling overnight, [contact me](/contact/).**
 
-The play-test and PATLog systems show what's possible with this approach - complex applications that handle thousands of inspections without crashing, generate PDFs without memory leaks, and process images without timing out. Your application will be built the same way.
+The [play-test](/examples/play-test) and [PATLog](/videos/patlog-pat-testing) systems show what's possible with this approach - complex applications that handle thousands of inspections without crashing, generate PDFs without memory leaks, and process images without timing out. Your application will be built the same way.
