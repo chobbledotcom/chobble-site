@@ -19,7 +19,7 @@ The way I approach Rails development comes from years of experience at scale. At
 
 ## Real Rails Applications I've Built
 
-I've built several Rails applications that demonstrate this approach. Take [play-test](/examples/play-test) - it's becoming the industry standard system for managing safety inspections of inflatable play equipment, handling equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. Or [patlog](/videos/patlog-pat-testing) - a tool for electricians that's processing thousands of portable appliance tests with professional certificates and QR codes. Both systems are built to handle serious volume without breaking, generate PDFs without memory leaks, and you can see exactly how they work because they're open source. The booking system I built for Bouncy Castle Network in 2009 still processes thousands of bookings daily - I build infrastructure that lasts decades, not months.
+I've built several Rails applications that demonstrate this approach. Take [play-test](/examples/play-test) - a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. It's being used by professional safety inspectors who need reliable compliance tools. Or [patlog](/videos/patlog-pat-testing) - a tool for electricians that's processing thousands of portable appliance tests with professional certificates and QR codes. Both systems are built to handle serious volume without breaking, generate PDFs without memory leaks, and you can see exactly how they work because they're open source. The booking system I built for Bouncy Castle Network in 2009 still processes thousands of bookings daily - I build infrastructure that lasts decades, not months.
 
 ## Common Rails Problems I Solve
 
@@ -53,13 +53,13 @@ All of this runs automatically through [GitHub Actions](https://github.com/featu
 
 The Docker setup uses a multi-stage build to keep download sizes small, includes [supercronic](https://github.com/aptible/supercronic) for scheduled tasks like nightly backups, and runs as a non-root user so hackers can't take over your server. The application uses [Solid Queue](https://github.com/rails/solid_queue) for background job processing, has built-in S3-compatible storage support for file uploads, and includes error tracking with [Sentry](https://github.com/getsentry/sentry-ruby) (or the open-source [BugSink](https://github.com/bugsink/bugsink) alternative).
 
-## A Real World Example
+## Why Open Source Development Works
 
-**Jargon-free summary:** An international professional body is funding development of an industry-wide system, which shows the scale of projects I work on.
+**Jargon-free summary:** I build open source systems that multiple organisations can use, which means the code gets battle-tested in real production environments.
 
-The development of play-test is now being supported by the Register of Play Inspectors International (RPII) - an international professional body setting safety standards across the industry. This creates an interesting dynamic that benefits everyone. Because the system is open source, they're not locked into using me as the sole developer - they could hire anyone to work on it. And I'm not locked into developing only what they need - I can add features that benefit other users or my own interests. This open approach means the system gets features users actually want, not what I think they need.
+The play-test system shows how open source development benefits everyone. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that actually works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds an edge case, the fix helps everyone.
 
-Developing software in the open means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. The AGPLv3 license means if someone improves the code, they have to share those improvements back with everyone. This creates a virtuous cycle where the software keeps getting better, and because I can reuse these improvements across projects, I can build in more safeguards and features without increasing costs.
+Developing software in the open also means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. More importantly, it means the code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work behind closed repositories. The AGPLv3 license ensures that if anyone improves the code, those improvements come back to the community. This approach means I can reuse battle-tested components across projects, reducing development time and costs.
 
 ## What This Means For You
 
@@ -107,4 +107,4 @@ My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable en
 
 Whether you're a startup that needs to build for growth from day one, an enterprise that needs systems that actually work, or a professional body that needs industry-wide infrastructure, I bring the same approach: comprehensive tests, proper infrastructure, and code that scales.
 
-The [play-test](/examples/play-test) and [patlog](/videos/patlog-pat-testing) systems show what's possible - applications handling entire industries, processing thousands of critical safety inspections, generating compliance documents at scale. Your application will be built to the same standards.
+The [play-test](/examples/play-test) and [patlog](/videos/patlog-pat-testing) systems show what's possible - professional-grade applications processing thousands of critical safety inspections, generating compliance documents that stand up to scrutiny. Your application will be built to the same standards.
