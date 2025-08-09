@@ -13,7 +13,7 @@ meta_description: Ruby on Rails applications with 90%+ test coverage, type check
 
 The way I approach Rails development is a bit different from what you might find elsewhere. I don't just write code that works today and hope for the best - I write code that's comprehensively tested, type-checked, and monitored for quality at every step. This isn't about being precious about code - it's about building systems that you can rely on and modify without fear of breaking things.
 
-Take the play-test system I've been developing - it's a Rails application for managing safety inspections of inflatable play equipment. Sounds simple enough, but it handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, complex safety calculations, and more. The reason it all works reliably is because of the development approach I use.
+I've built several Rails applications that demonstrate this approach. Take [play-test](https://play-test.co.uk) - it's a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. Or [PATLog](https://patlog.co.uk) - a free tool for electricians to log portable appliance tests with professional certificates and QR codes. Both applications work reliably because of the development approach I use, and both are completely open source so you can see exactly how they're built.
 
 ## How I Build Rails Applications
 
@@ -49,7 +49,9 @@ When I build a Rails application for your business, you get all of this infrastr
 
 The code will be open source by default, published on GitHub where you can see every change, every test result, every deployment. You'll own the code completely - you can take it to another developer, you can modify it yourself, you can learn from it. The test suite means you can make changes with confidence, knowing that if something breaks, the tests will catch it.
 
-I use a modular approach to building these applications. Common patterns get extracted into reusable components. Forms follow consistent patterns with proper internationalisation. Authentication systems can be shared across projects. This means your project benefits from all the work I've done before - you're not paying for me to solve the same problems again.
+I use a modular approach to building these applications. Common patterns get extracted into reusable components - I've even created my own [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It enforces strict internationalisation (no hardcoded strings allowed), provides type safety with Sorbet, and ensures forms match your database structure perfectly. This means I can create complex forms in minutes rather than hours, and they're guaranteed to be accessible and consistent across your entire application.
+
+Authentication systems, PDF generation, QR codes, image processing - all these common requirements get packaged into reusable modules. This means your project benefits from all the work I've done before - you're not paying for me to solve the same problems again.
 
 The internationalisation support deserves a special mention - every single user-facing string in the applications I build uses I18n. No hardcoded text anywhere. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes the application much easier to maintain. Plus, if you ever need to support multiple languages, the infrastructure is already there.
 
@@ -79,4 +81,4 @@ The beauty of open source development is that you're never locked in. If you wan
 
 **If you need a Rails application that's built to last, tested to the hilt, and designed to grow with your business, [contact me](/contact/) and we'll discuss what you need.**
 
-The play-test system shows what's possible when you combine Rails with modern development practices - a complex application that handles real-world requirements reliably, with the confidence that comes from comprehensive testing and quality control. Your application will be built with the same attention to detail, the same comprehensive testing, and the same commitment to quality.
+The play-test and PATLog systems show what's possible when you combine Rails with modern development practices - complex applications that handle real-world requirements reliably, with the confidence that comes from comprehensive testing and quality control. Your application will be built with the same attention to detail, the same comprehensive testing, and the same commitment to quality.
