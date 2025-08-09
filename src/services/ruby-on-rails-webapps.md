@@ -45,7 +45,7 @@ All of this runs automatically through [GitHub Actions](https://github.com/featu
 
 The Docker setup uses a multi-stage build to keep download sizes small, includes [supercronic](https://github.com/aptible/supercronic) for scheduled tasks like nightly backups, and runs as a non-root user so hackers can't take over your server. The application uses [Solid Queue](https://github.com/rails/solid_queue) for background job processing, has built-in S3-compatible storage support for file uploads, and includes error tracking with [Sentry](https://github.com/getsentry/sentry-ruby) (or the open-source [BugSink](https://github.com/bugsink/bugsink) alternative).
 
-## The RPII Partnership
+## A Real World Example
 
 **Jargon-free summary:** A professional body is funding development of an open-source system, which means they're not locked into using me, and I can build in lots of safeguards without raising the price.
 
