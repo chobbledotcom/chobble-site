@@ -15,7 +15,7 @@ meta_description: Ruby on Rails developer UK - I build enterprise-scale applicat
 
 I've worked both in-house and freelance since 2012. You get someone who knows how big companies do things (proper testing, deployment pipelines, code reviews) but without the agency overhead. Just me, in Prestwich, charging by the hour. No account managers, no juniors doing the actual work, no surprise bills. When you email me, you get me. When there's a problem, I fix it. 
 
-The way I approach Rails development comes from years of experience at scale. At Bandcamp I worked on performance - making pages load faster, fixing database queries that were taking too long, and optimising grizzly bits of code. I write tests for all the business logic, aiming for 90%+ coverage. I use type checking that spots typos before the code even runs, and run automatic security scans on every change. I try and write code that isn't going to cause problens for me or my customer, even in the far future.
+The way I approach Rails development comes from years of experience at scale. At Bandcamp I worked on performance - making pages load faster, fixing database queries that were taking too long, and optimising grizzly bits of code. I write tests for all the business logic, aiming for 90%+ coverage. I use type checking that spots typos before the code even runs, and run automatic security scans on every change. I try and write code that isn't going to cause problems for me or my customer, even in the far future.
 
 ## Real Rails Applications I've Built
 
@@ -23,7 +23,7 @@ For an example of this approach, there's a recent project of mine [play-test](/e
 
 ## Common Problems I Solve
 
-**If your application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common web app headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I've migrated systems from PHP, Classic ASP, .Net, Python, and probably more that I can't remember right now.
+**If your application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common web app headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I've migrated systems from PHP, Classic ASP, .Net, and Python to modern Rails.
 
 ## Pricing and Support
 
@@ -31,7 +31,7 @@ Rails applications are more complex than static websites, but my pricing isn't -
 
 For hosting, Rails applications need proper infrastructure. I can set up your application on anything from a £5/month VPS for smaller projects to multi-server deployments for enterprise scale. My standard setup uses [NixOS](https://nixos.org/) for reproducible deployments. On top of server costs, I charge £60 per month (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, quick text changes, and help when things go wrong. I'm still supporting clients I started working with in 2013 - proper support too, not just 'monitoring'. When something breaks on a Saturday afternoon (it happens), you can actually reach me - and I'll fix it as soon as I can.
 
-The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you have the complete source code and deployment configuration. If you want to hire another developer to add features, you can - the comprehensive test suite means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, you can.
+The beauty of open source development is that you're never locked in. You own the complete source code and deployment configuration. Another developer can add features without breaking your checkout, thanks to the comprehensive test suite. You can host it yourself, fork it, or take it wherever you need.
 
 **The rest of this page gets really into the technical nitty-gritty of how I build dynamic web applications. I've written jargon-free explanations above each nerdy paragraph - if you're not technically minded, you might want to just read those bits.**
 
@@ -59,23 +59,21 @@ _**Jargon-free summary:** I build open source systems that multiple organisation
 
 The play-test system shows how open source development benefits everyone. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that actually works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds an edge case, the fix helps everyone.
 
-Developing software in the open also means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. More importantly, it means the code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work behind closed repositories. The AGPLv3 license ensures that if anyone improves the code, those improvements come back to the community. This approach means I can reuse battle-tested components across projects without worrying about restrictive licenses, reducing development time and costs.
+Developing software in the open means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. The code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work behind closed repositories. The AGPLv3 license ensures improvements come back to the community.
 
 ## What This Means For You
 
 _**Jargon-free summary:** Your application gets all these safety nets from day one, you own the code outright, and I'll reuse components I've already built so you don't pay for the same work twice._
 
-When I build a Rails application for your organisation, you get all of this infrastructure and tooling as standard. Your application will have comprehensive test coverage from day one - not added as an afterthought when things start breaking. It'll have type checking to catch errors before they happen. It'll have security scanning to identify vulnerabilities. It'll have automated deployments so updates go live in seconds after passing all tests.
+When I build a Rails application for your organisation, you get all of this infrastructure and tooling from day one. Your application will have comprehensive test coverage - not added as an afterthought when things start breaking. It'll have type checking to catch errors before they happen. It'll have security scanning to identify vulnerabilities. It'll have automated deployments so updates go live in seconds after passing all tests.
 
 I've worked both as a solo developer and leading teams - I mentored junior developers at Bouncy Castle Network for years. If you need someone to augment your existing team, review your codebase, or help establish better development practices, I can do that too. I bring the engineering standards from Bandcamp (where every change gets reviewed) with the flexibility of a freelancer.
 
-The code will be open source by default under an AGPLv3 license, published on GitHub where you can see every change, every test result, every deployment. You'll own the code completely - you can take it to another developer, you can modify it yourself, you can learn from it. The AGPLv3 license means if anyone (including competitors) uses your code to run a web service, they have to share their improvements - so your investment in open source benefits the whole community. The test suite means you can make changes with confidence, knowing that if something breaks, the tests will catch it.
+You'll own the code completely under an AGPLv3 license, published on GitHub where you can see every change, test result, and deployment. The AGPLv3 license creates a virtuous cycle where improvements benefit the whole community.
 
-I use a modular approach to building these applications. Common patterns get extracted into reusable components - for example, my own [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It won't let me hardcode text (everything goes through translation files), catches typos before runtime, and automatically checks that form fields match your database columns. This means I can create complex forms really quickly, and they're guaranteed to be accessible and consistent across your entire application.
+I use a modular approach with battle-tested components. My [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem makes building accessible, semantic HTML forms incredibly fast - it won't let me hardcode text, catches typos before runtime, and automatically validates form fields against your database. Authentication, PDF generation, QR codes, image processing - these common requirements are packaged into reusable modules, so you're not paying for me to solve the same problems again.
 
-Authentication systems, PDF generation, QR codes, image processing - all these common requirements get packaged into reusable modules. This means your project benefits from all the work I've done before - you're not paying for me to solve the same problems again.
-
-The internationalisation support deserves a special mention - every single user-facing string in the applications I build uses `I18n` - there's very little hard-coded text anywhere. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes the application much easier to maintain. Plus, if you ever need to support multiple languages, the infrastructure is already there.
+Every user-facing string uses `I18n` internationalisation - no hard-coded text. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes maintenance much easier. Plus, if you ever need multiple languages, the infrastructure is already there.
 
 ## Development Process
 
@@ -91,7 +89,7 @@ Code reviews happen automatically - the pipeline runs 10+ different checks on ev
 
 _**Jargon-free summary:** Your code and data are backed up in multiple places, you get 10GB of storage included, and everything runs on servers powered by renewable energy._
 
-I don't take chances with bottom-tier infrastructure. Your source code lives on GitHub where you can see every change, and gets backed up to my own Git server in case GitHub has a bad day. Docker images are stored in three places - DockerHub, my server, and GitHub's registry - so deployment never fails because one service is down.
+I don't take chances with bottom-tier infrastructure. Your source code lives on GitHub where you can see every change, and is backed up to my own Git server in case GitHub has a bad day. Docker images are stored in three places - DockerHub, my server, and GitHub's registry - so deployment never fails because one service is down.
 
 Your database gets backed up to [Hetzner](https://www.hetzner.com/)'s S3-compatible storage every single day. Hetzner stores everything in the EU (German data protection laws), and I've been using them for years without issue. These backups are kept for 60 days - if you accidentally delete all your customers on a Friday, we can restore Wednesday's data on Monday. Your uploaded files (images, PDFs, whatever) go to the same place.
 
