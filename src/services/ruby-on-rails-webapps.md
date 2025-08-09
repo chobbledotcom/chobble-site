@@ -1,7 +1,7 @@
 ---
 title: Ruby on Rails Web Applications
 meta_title: Ruby on Rails Development | Manchester | Chobble
-description: Rails applications with 900+ tests, type checking, and automated deployments that actually work
+description: Rails applications with comprehensive test suites, type checking, and automated deployments that actually work
 snippet: Web applications that won't fall over when you get busy
 order: 2
 meta_description: Ruby on Rails applications with 90%+ test coverage, type checking, automated deployments - Manchester developer - 50% off for charities
@@ -11,7 +11,7 @@ meta_description: Ruby on Rails applications with 90%+ test coverage, type check
 
 **When you need more than a static website - when you need a proper web application with user accounts, databases, complex business logic, and dynamic functionality - that's where Ruby on Rails comes in.** I build Rails applications that won't fall over when you get busy, can be modified without breaking everything else, and handle 10 users or 10,000 without a rewrite.
 
-The way I approach Rails development is a bit different from what you might find elsewhere. I don't just write code that works today and hope for the best - I write code with 900+ tests that catch bugs before they hit production, type checking that spots typos before the code even runs, and automatic security scans on every change. This isn't about being precious about code - it's about building systems you can change on a Tuesday without ruining everyone's Wednesday.
+The way I approach Rails development is a bit different from what you might find elsewhere. I don't just write code that works today and hope for the best - I write tests for all the business logic aiming for 90%+ coverage, use type checking that spots typos before the code even runs, and run automatic security scans on every change. This isn't about being precious about code - it's about building systems you can change on a Tuesday without ruining everyone's Wednesday.
 
 I've built several Rails applications that demonstrate this approach. Take [play-test](https://play-test.co.uk) - it's a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. Or [PATLog](https://patlog.co.uk) - a free tool for electricians to log portable appliance tests with professional certificates and QR codes. Both handle thousands of users without crashing, generate PDFs without memory leaks, and you can see exactly how they work because they're open source.
 
@@ -19,7 +19,7 @@ I've built several Rails applications that demonstrate this approach. Take [play
 
 *Jargon-free summary: I use automated tests that catch mistakes before they reach your customers.*
 
-Every Rails application I build comes with tools that catch bugs before deployment, prevent security breaches, and stop your site slowing down as it grows. When you look at the play-test codebase, you'll find over 900 [RSpec](https://rspec.info/) tests covering more than 90% of the codebase. These aren't just unit tests either - there are feature tests using [Capybara](https://github.com/teamcapybara/capybara) that simulate real user interactions, controller tests, model tests, service tests, even tests for the helper methods and PDF generation. The tests run in parallel using [parallel_tests](https://github.com/grosser/parallel_tests) to save time, and they generate coverage reports with [SimpleCov](https://github.com/simplecov-ruby/simplecov) that get published automatically so you can see exactly what's tested and what isn't.
+Every Rails application I build comes with tools that catch bugs before deployment, prevent security breaches, and stop your site slowing down as it grows. When you look at the play-test codebase, you'll find comprehensive [RSpec](https://rspec.info/) tests covering over 90% of the codebase - every bit of business logic has a test. These aren't just unit tests either - there are feature tests using [Capybara](https://github.com/teamcapybara/capybara) that simulate real user interactions, controller tests, model tests, service tests, even tests for the helper methods and PDF generation. The tests run in parallel using [parallel_tests](https://github.com/grosser/parallel_tests) to save time, and they generate coverage reports with [SimpleCov](https://github.com/simplecov-ruby/simplecov) that get published automatically so you can see exactly what's tested and what isn't.
 
 *Jargon-free summary: Beyond testing, automated tools check for security holes, catch typos, and spot code that would make your site run slowly.*
 
@@ -73,12 +73,12 @@ Rails applications are more complex than static websites, but the pricing model 
 
 For hosting, Rails applications need a proper server rather than static hosting. I'll set up your application on an affordable VPS running [NixOS](https://nixos.org/), with costs starting around £5 per month for the server itself. On top of that, I charge £60 per month (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, daily database backups emailed to you, quick text changes, and help when things go wrong.
 
-The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you have the complete source code and deployment configuration. If you want to hire another developer to add features, you can - the 900+ tests mean they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, you can.
+The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you have the complete source code and deployment configuration. If you want to hire another developer to add features, you can - the comprehensive test suite means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, you can.
 
 ## Let's Build Something Solid
 
 *Jargon-free summary: If you need a web application that won't crash when you're busy, get in touch.*
 
-**If you need a Rails application with 900+ tests, type checking, and the ability to handle your business doubling overnight, [contact me](/contact/).**
+**If you need a Rails application with tests for every bit of business logic, type checking, and the ability to handle your business doubling overnight, [contact me](/contact/).**
 
 The play-test and PATLog systems show what's possible with this approach - complex applications that handle thousands of inspections without crashing, generate PDFs without memory leaks, and process images without timing out. Your application will be built the same way.
