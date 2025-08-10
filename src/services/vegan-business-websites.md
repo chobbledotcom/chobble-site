@@ -32,7 +32,7 @@ I build straightforward, fast-loading, and really easy to update websites, hoste
 
 </div>
 
-I use [Google Search Console](/guides/google-search-console/), [SerpBear results tracking](/videos/serpbear-results-tracking/), Lighthouse audits and years of experience to make sure Google fully understands your site and properly focuses each page towards a specific "vegan" search term. Straightforward, mobile-friendly designs ensure your customers find the information they need quick sharp, reducing "bounce" rates.
+I use [Google Search Console](/guides/google-search-console/), [SerpBear results tracking](/videos/tracking-search-results-serpbear/), Lighthouse audits and years of experience to make sure Google fully understands your site and properly focuses each page towards a specific "vegan" search term. Straightforward, mobile-friendly designs ensure your customers find the information they need quick sharp, reducing "bounce" rates.
 
 ## Easy to edit vegan websites
 
