@@ -8,7 +8,7 @@ meta_description: Prestwich web developer offering new websites, SEO audits, ser
 
 # Web Design & Technology Services
 
-You can hire me to make an [entirely new website](/services/static-websites/), improve an existing one, help you [set up a server](/services/technical-advice/), advise you about [search engine optimisation](/services/seo-audits/), get my input on a techy decision at your job, or maybe write totally bespoke web software for you. Check out my [free marketing guides and videos](/guides/) to learn about online marketing.
+You can hire me to make an [entirely new website](/services/static-websites/#content), improve an existing one, help you [set up a server](/services/technical-advice/#content), advise you about [search engine optimisation](/services/seo-audits/#content), get my input on a techy decision at your job, or maybe write [totally bespoke web software](/services/ruby-on-rails-developer/#content) for you.
 
 In any case you'll get the benefit of my decades of experience building and maintaining web software for businesses of all sizes, with a commitment to honesty and straightforwardness.
 
@@ -24,4 +24,4 @@ In any case you'll get the benefit of my decades of experience building and main
 
 ## Services
 
-I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in:
+I'm up for [discussing anything you think I can help you with](/contact/#content) - but here are some of the main services you may be interested in:

@@ -9,7 +9,7 @@ layout: base.html
   {% for guide in collections.guide %}
     <li>
       <h2>
-        <a href="{{ guide.url }}">{{ guide.data.title }}</a>
+        <a href="{{ guide.url }}#content">{{ guide.data.title }}</a>
       </h2>
       {{ guide.data.snippet }}
     </li>
