@@ -65,9 +65,9 @@ Your interactions with customers on these platforms add to the knowledge the pla
 
 ## Where to Start
 
-So hopefully you're slightly more convinced to put some effort into your website and online presence now, but where should you start? Well, you can check out our [guides](/guides/) and [videos](/videos/) for helpful tips, including our SEO checklist!
+So hopefully you're slightly more convinced to put some effort into your website and online presence now, but where should you start? Well, you can check out our [guides](/guides/) and [videos](/videos/) for helpful tips, including our [SEO checklist](/guides/checklist/#content)!
 
-But if you've done the things in that list and are wondering how to replicate your social media stuff on your site, I think it might be worth re-thinking that a bit. Your site and your social media are two separate things, and it's usually the case that they'll have different things on them. Check out our guide "What To Blog About" in the [guides section](/guides/), where I mention that it's pretty redundant to make a blog post which just describes a product - you're better off spending that time improving the product page.
+But if you've done the things in that list and are wondering how to replicate your social media stuff on your site, I think it might be worth re-thinking that a bit. Your site and your social media are two separate things, and it's usually the case that they'll have different things on them. Check out our guide "[What To Blog About](/guides/what-to-blog-about/#content)" in the guides section, where I mention that it's pretty redundant to make a blog post which just describes a product - you're better off spending that time improving the product page.
 
 So in terms of linking your social media posts to your website promotion, what might be a good approach could be to, when you're considering posting something to social media that basically just advertises a product, first looking at how that product or service is represented on your website, improving the website version however you can, and then linking to the new improved version from the social media post. You're improving the website version, and then showing the new improved version off on social media.
 

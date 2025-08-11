@@ -15,7 +15,7 @@ Okay, so lets kick it off, with:
 
 ## Number 1: Your Google Maps Listing
 
-Your Google Maps, or Google Business, listing is a key part of your online presence and you should be very familiar with it. For local searchers there's a good chance the Maps results will show before any other listings so if you're not in there, you're missing out.
+Your [Google Maps, or Google Business](/guides/google-business/#content), listing is a key part of your online presence and you should be very familiar with it. For local searchers there's a good chance the Maps results will show before any other listings so if you're not in there, you're missing out.
 
 If you've not got a Google Maps listing, or you're not sure if you do, then go to [Google.com/Business](https://www.google.com/business/) and follow the steps to get set up. If you do have one, then you need to make sure that all of its data is up to date. Like, does it list your website? Is the website address accurate? What about your phone number, address, or opening times? Have you uploaded any photos? Do you have any reviews?
 
@@ -23,9 +23,9 @@ You should take stock of what things on your Maps listing are incomplete or look
 
 ## Number 2: Google Search Console
 
-Next most important is another Google product, [Google Search Console](https://search.google.com/search-console/). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website, I'm doing it and if you ask me I'll invite your Google account to be an admin too.
+Next most important is another Google product, [Google Search Console](/guides/google-search-console/#content). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website, I'm doing it and if you ask me I'll invite your Google account to be an admin too.
 
-[Search Console](https://search.google.com/search-console/) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving.
+[Search Console](/guides/google-search-console/#content) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving.
 
 ## Number 3: Good Homepage
 
@@ -69,7 +69,7 @@ It feels a bit weird to be all the way at nine before mentioning the website con
 
 At the bare minimum you should check that each page has a meta title, that the page starts with a heading, and that the content of the page mentions the thing it's about at least once. This really isn't much but I'm surprised by how often I see pages on websites that are almost empty, and really even two sentences looks much more reassuring to visitors and search engines than nothing at all.
 
-For a deeper dive into writing content you might wanna check out my other guides about keywords, writing a good product page, and using AI, but in terms of a "go live" checklist, I think just making sure there's _something_ down will do.
+For a deeper dive into writing content you might wanna check out my other guides about [keywords](/guides/keywords-and-keyword-stuffing/#content), [writing a good product page](/guides/writing-a-good-service-category-page/#content), and [using AI](/guides/using-ai-effectively/#content), but in terms of a "go live" checklist, I think just making sure there's _something_ down will do.
 
 ## Number 10: Site Navigation
 

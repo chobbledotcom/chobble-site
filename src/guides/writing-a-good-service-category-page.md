@@ -56,7 +56,7 @@ Keyword stuffed pages use the same words or phrases too often. This is done in a
 
 Neither search engines or your potential customers like this practice - it was an effective search engine technique back in 2010, but nowadays Google doesn't analyse how many times a keyword appears on your page. Instead, they look for evidence that your page addresses the customer's "intent", and for product pages that means evidence that it answers _The Why Question_.
 
-**There's a guide all about "Keywords & Keyword Stuffing" in the [guides section](/guides/).**
+**There's a guide all about "[Keywords & Keyword Stuffing](/guides/keywords-and-keyword-stuffing/#content)" in the guides section.**
 
 ### Problem #3: AI Waffle
 
@@ -74,7 +74,7 @@ Or even better - **write the page yourself first**, and then pass it onto the AI
 
 > "Here is a page I wrote about widget hire in Prestwich. Tell me if I have missed any important information, or could write things in a more concise way. Tell me if there are any spelling or grammatical mistakes, or if any sentences are hard to read."
 
-**Check out the guide about using AI effectively in the [guides section](/guides/).**
+**Check out the guide about [using AI effectively](/guides/using-ai-effectively/#content) in the guides section.**
 
 ## Personality
 

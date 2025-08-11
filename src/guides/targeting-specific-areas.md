@@ -130,7 +130,7 @@ By all means use AI to help brainstorm ideas or structure your content, but alwa
 
 ## Google maps / business profile
 
-You should ensure that you have a business listing on Google, and that you have filled out the 'service areas' inside that listing. You can log in at [business.google.com](https://business.google.com/), and then fill in the service areas when you click to edit your profile.
+You should ensure that you have a [business listing on Google](/guides/google-business/#content), and that you have filled out the 'service areas' inside that listing. You can log in at [business.google.com](https://business.google.com/), and then fill in the service areas when you click to edit your profile.
 
 While you're in there, **make sure all of the data is up-to-date and accurate**. Google rewards businesses that make the most of their profile, so fill in as much as you can and be sure to check in periodically to make sure everything is still correct.
 
