@@ -169,7 +169,7 @@ For businesses covering multiple areas, **dedicated location pages** work wonder
 - Manchester Page: _"Our Manchester team offers [specific service] with [unique perk, e.g., weekend availability]."_
 - Prestwich Page: _"Serving Prestwich clients with [different perk, e.g., free same-day setup]."_
 
-**For (much) more about local SEO, check out the "Targeting Specific Areas" guide in the [guides section](/guides/).**
+**For (much) more about local SEO, check out the "[Targeting Specific Areas](/guides/targeting-specific-areas/#content)" guide in the guides section.**
 
 ---
 
