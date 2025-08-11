@@ -51,7 +51,7 @@ Copywriters and legitimate marketers will never promise you a certain ranking po
 
 Hopefully this gives you lots of ideas about how to evaluate a copywriter or marketer! To summarise, you want them to be transparent with the work they're doing, and it should largely revolve around improving the content on your site and building reputable backlinks. You should be very wary of anything very cheap because these are skilled jobs that pay decent wages, and you shouldn't trust anyone who sends you a spammy email because reputable people don't advertise themselves like that.
 
-Okay, so as promised, back onto my brother Kevin. If you don't want to read a plug for Kev you can skip to the next section!
+Okay, so as promised, back onto my brother Kevin. If you don't want to read a plug for Kev you should stop reading now!
 
 ## KevinBurkeServices.com
 
