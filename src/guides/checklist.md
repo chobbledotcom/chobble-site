@@ -9,7 +9,7 @@ meta_description: Practical SEO checklist for small businesses - Google Maps, Se
 
 I thought it could be good to make something practical that people can work through, because across various SEO guides there's often not much of an underlying structure and if you've got a brand new website then it might be hard to figure out what the most important things to do are.
 
-So this post is going to be a list of things you should get sorted, in priority order. If you hear a suggestion and you've already done it, then awesome, but I'd still advise double checking your work to see if there's anything you can improve.
+So this post is going to be a list of things you should get sorted, in priority order. If you see a suggestion and you've already done it, then awesome, but I'd still advise double checking your work to see if there's anything you can improve.
 
 Okay, so lets kick it off, with:
 
