@@ -12,8 +12,8 @@ meta_description: Free open source website template - Eleventy, fast loading, SE
 A free and open source template for business websites, which you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
 
 - Live demo: **[example.chobble.com](https://example.chobble.com)**
-- Source code: **[git.chobble.com](https://git.chobble.com/chobble/chobble-template/)**
 - Source code: **[Github](https://github.com/chobble-mirror/chobble-template/)**
+- Source code: **[git.chobble.com](https://git.chobble.com/chobble/chobble-template/)**
 
 ![Screenshot of the example page for the Chobble template](/assets/examples/template.png)
 
@@ -47,6 +47,6 @@ I have a lot of ideas about future things the template could do, such as:
 
 ## How can I use it?
 
-If you're technically-minded, you can clone the [source code](https://git.chobble.com/chobble/chobble-template/) and start playing away! It's set up for Nix at the moment, but it should be easy to adapt to use whichever Node build process you like.
+If you're technically-minded, you can clone the [source code](https://github.com/chobbledotcom/chobble-template/) and start playing away! It's set up for Nix at the moment, but it should be easy to adapt to use whichever Node build process you like.
 
 **If you want me to make a website for you based off this template, [get in touch](/contact/).** I charge a flat hourly fee for all jobs, and much of the work of building a website has already been completed with this template, so you'll get great value for money.
