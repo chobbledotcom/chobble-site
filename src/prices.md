@@ -20,7 +20,7 @@ That rate is **discounted 50%** at **£100 per hour** for:
 - 🌞 Renewable energy businesses
 </div>
 
-**[Click here to estimate the cost of a website build.](/price-calculator/)**
+**[Click here to estimate the cost of a website build, from as low as £100 (discounted).](/price-calculator/)**
 
 ## Service charges (static sites)
 
