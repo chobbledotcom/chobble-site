@@ -1,37 +1,39 @@
 ---
 title: Ruby on Rails Development
-meta_title: Ruby on Rails Developer UK | Enterprise Rails Applications | Chobble
+meta_title: Ruby on Rails Freelancer Manchester | Wep Applications | Chobble
 description: Rails applications with comprehensive test suites, type checking, and automated deployments that actually work
 snippet: Web applications that scale from 10 to 100,000 users
 order: 0
-meta_description: Ruby on Rails developer UK - I build enterprise-scale applications with 90%+ test coverage - 5 years at Bandcamp ($200m/year), 10 years at BCN - £200/hour
+meta_description: Ruby on Rails freelancer in Manchester - I build enterprise-scale applications with 90%+ test coverage - 5 years at Bandcamp ($200m/year), 10 years at BCN - £200/hour
 ---
 
-# Ruby on Rails Web Applications
+# Ruby on Rails Freelancer
 
-**I'm a Ruby on Rails developer, Prestwich born and bred.** I've been building web applications since 2007 - I spent 10 years as technical lead at Bouncy Castle Network, growing their platform from 1 customer to 1,200 (handling 6,700 bookings daily), then 5 years at Bandcamp working on Ruby systems that process about $200 million annually. Now I build Rails applications for organisations across the UK - systems that won't fall over when you get busy, can be modified without breaking everything else, and scale from 10 users to 10,000 (or 100,000) without a rewrite.
+**[Drop me a message](/contact/) if you need a freelance Ruby on Rails developer in Manchester (or anywhere, really)**
 
-## Why Work With a Freelance Rails Developer?
+I've been writing web applications since 2007 - 10 years as the technical lead on the [Bouncy Castle Network](https://www.bouncycastlenetwork.com) booking system / CRM, growing from a startup to 1,200 customers, followed by five years at [Bandcamp.com](https://bandcamp.com) working on their Ruby music store that processes over $200m every year.
 
-I've worked both in-house and freelance since 2012. You get someone who knows how big companies do things (proper testing, deployment pipelines, code reviews) but without the agency overhead. Just me, in Prestwich, charging by the hour. No account managers, no juniors doing the actual work, no surprise bills. When you email me, you get me. When there's a problem, I fix it. 
+I'm now a freelance Rails developer - check out [Play-Test](/examples/play-test/#content) for an example of a current project.
 
-The way I approach Rails development comes from years of experience at scale. At Bandcamp I worked on performance - making pages load faster, fixing database queries that were taking too long, and optimising grizzly bits of code. I write tests for all the business logic, aiming for 90%+ coverage. I use type checking that spots typos before the code even runs, and run automatic security scans on every change. I try and write code that isn't going to cause problems for me or my customer, even in the far future.
+## Why Employ Me?
 
-## Real Rails Applications I've Built
+I've been writing code for _ages_, for companies of all sizes. This means that whether you're a big organisation with loads of processes in place already or you're smaller and haven't really considered these things, I can advise a solution that suits your current scale and future plans.
 
-For an example of this approach, there's a recent project of mine [play-test](/examples/play-test) - a system for managing safety inspections of inflatable play equipment that handles equipment records, seven different types of assessment forms, photo management, PDF generation with QR codes, and complex safety calculations. It's being used by professional safety inspectors who need reliable compliance tools. The booking system I built for Bouncy Castle Network in 2009 still processes thousands of bookings every week - I build infrastructure that lasts decades, not months.
+I'm not afraid of gnarly or legacy codebases, server moves, or whatever else you might need - I've dealt with pretty much everything web-appy over my 20 years.
 
-## Common Problems I Solve
-
-**If your application is getting slow, breaking when you deploy, or something's just not right,** I can help. I've dealt with all the common web app headaches - N+1 queries that make pages take 30 seconds to load, memory leaks that crash your server every few hours, test suites that take an hour to run (or don't exist at all). I'm familiar enough with PHP, Classic ASP, .Net, Python, and probably others I've forgotten about to handle migrations to modern Rails.
+And on the other end of the spectrum, I can help you get started from absolute scratch - setting up your infrastructure and services, planning your databases, whatever is needed.
 
 ## Pricing and Support
 
-Rails applications are more complex than static websites, but my pricing isn't - it's my standard [flat hourly rate](/prices/) of £200 per hour (£100 for charities, artists, vegan businesses, and renewable energy companies). You'll know exactly what you're paying for, with detailed breakdowns of time spent on different features.
+Rails applications are more complex than static websites, but my pricing isn't - it's my standard [flat hourly rate](/prices/) of **£200 per hour (£100 for charities, artists, vegan businesses, and renewable energy companies)**.
 
-For hosting, Rails applications need proper infrastructure. I can set up your application on anything from a £5/month VPS for smaller projects to multi-server deployments for enterprise scale. My standard setup uses [NixOS](https://nixos.org/) for reproducible deployments. On top of server costs, I charge £60 per month (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, quick text changes, and help when things go wrong. I'm still supporting clients I started working with in 2013 - proper support too, not just 'monitoring'. When something breaks on a Saturday afternoon (it happens), you can actually reach me - and I'll fix it as soon as I can.
+You'll know exactly what you're paying for, with detailed breakdowns of time spent on different features.
 
-The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and deployment configuration. If you want to hire another developer to add features, they can - the comprehensive test suite means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, go for it.
+For hosting, I can set up your application on anything from a £5/month VPS for smaller projects to multi-server deployments for enterprise scale. My standard setup uses [NixOS](https://nixos.org/) for reproducible deployments. On top of server costs, I charge **£60 per month** (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, quick changes, and help when things go wrong.
+
+## Open Source
+
+I write open source code, building on the work that clever and generous nerds have done before me. The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and deployment configuration. If you want to hire another developer to add features, they can - tests means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, go for it - it's yours.
 
 **The rest of this page gets really into the technical nitty-gritty of how I build dynamic web applications. I've written jargon-free explanations above each nerdy paragraph - if you're not technically minded, you might want to just read those bits.**
 
