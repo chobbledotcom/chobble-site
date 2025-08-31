@@ -60,4 +60,4 @@ The site only needs a few content updates each year, so this approach works perf
 
 As with all my projects, the complete source code [is available](https://git.chobble.com/hosted-by-chobble/blue-pits) under the AGPL license, helping other charities and developers learn from my work.
 
-**Is your charity paying too much for an inadequate website? Want honest advice about your tech setup without the sales pressure? [Contact me](/contact/) to discuss how I can help your organisation save money and work more effectively online.**
+**Is your charity paying too much for an inadequate website? Want honest advice about your tech setup without the sales pressure? [Learn more about my charity web development services](/services/charity-web-development/) or [contact me](/contact/) to discuss how I can help your organisation save money and work more effectively online.**

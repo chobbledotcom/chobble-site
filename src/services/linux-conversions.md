@@ -15,7 +15,7 @@ I'm in Prestwich but can travel around Manchester, or you can come to me.
 
 ## Pricing
 
-The base price is **£200 for an hour's work, or £100 if discounted for charities, coops, artists, and sustainable businesses**.
+The base price is **£200 for an hour's work, or £100 if discounted for charities, coops, artists, and sustainable businesses** ([see my charity web development services](/services/charity-web-development/)).
 
 An hour is probably plenty of time to wipe everything and get Linux up and running on one computer - but that price will be higher if you need me to handle backups and restores, as these can take a long time.
 

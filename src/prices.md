@@ -14,7 +14,7 @@ That rate is **discounted 50%** at **£100 per hour** for:
 
 <div class="emoji-list" markdown>
 
-- 🌍 Charities and co-operatives
+- 🌍 Charities and co-operatives ([see dedicated charity services](/services/charity-web-development/))
 - 🎸 Musicians, artists, and writers
 - 💚 Vegan businesses
 - 🌞 Renewable energy businesses
