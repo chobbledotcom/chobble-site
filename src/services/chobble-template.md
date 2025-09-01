@@ -27,22 +27,22 @@ I was keeping an informal repository of these code snippets on my computers, and
 
 The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost. For more on effective SEO strategies, check out my [free guides](/guides/).
 
-To that end, here's a run-down of some of its features _(accurate as of April 2025)_:
+Since I released the template it's grown a lot. The current version _(December 2024)_ includes pretty much everything a small business website needs:
 
-- Automatically responsive and lazy-loading images thanks to Eleventy's image plugin.
-- A pretty RSS feed with instructions, and a sitemap.
-- Pages with tiered navigation, header images, and per-layout themes (if wanted).
-- Minimal CSS from MVP.css, and semantic HTML when possible
-- Product and category pages, with image galleries
-- Turbo for instant page loads
-- A contact form using Formspark for affordable deliveries, and Botpoison to block spammers
-- Fast builds with Nix flakes via Forgejo Actions
+**Content management:** The template has built-in collections for news posts, products with galleries, team member profiles, and multiple pages with automatic navigation. If you're running a restaurant or cafe, there's a complete menu system with categories, individual items, pricing, and dietary flags (vegan, gluten-free). Events are handled with both one-off dates and recurring schedules (like "every first Wednesday"), and they generate iCal feeds so people can subscribe to your calendar.
 
-I have a lot of ideas about future things the template could do, such as:
+**Design and presentation:** Images are automatically responsive and lazy-loading thanks to Eleventy's image plugin, with base64 placeholders that appear while the full image loads. The template comes with several pre-built themes you can switch between - Neon (dark with bright accents), 90s Computer, Floral, Hacker, Monochrome, and Retro. You can even use different themes on different pages if you want. There's a theme editor at `/theme-editor/` where you can test changes live.
 
-- Encrypted pages for login-only access.
-- Product sales via Stripe and Trolley
-- Event systems with calendar feeds
+**Technical bits:** The template uses semantic HTML and minimal CSS from MVP.css, which keeps things fast. Turbo makes page transitions instant. Contact forms use Formspark for delivery and Botpoison to block spammers. Behind the scenes there's Schema.org structured data for better SEO, SCSS support for advanced styling, and automatic navigation generation. The code gets tidied up by Prettier and checked by Biome linting. It builds quickly with Nix flakes and works with both GitHub Actions and Forgejo Actions for automated deployment.
+
+**Business features:** Opening hours display nicely on every page. Social media links (Facebook, Instagram, TikTok, WhatsApp, Mastodon, Google Maps) appear in the footer. Reviews and testimonials have their own section. The RSS feed has clear instructions for subscribers, and there's a proper sitemap for search engines.
+
+**Hosting flexibility:** The template works on loads of different hosts. There are example sites running on Neocities (free), Pico.sh Pages, and Bunny.net. The PagesCMS editor integration means you can update content without touching code if you prefer.
+
+I have a few ideas about future additions:
+
+- Encrypted pages for login-only access
+- Product sales via Stripe for sites that don't need live stock tracking
 - YouTube and audio embeds
 
 ## How can I use it?
