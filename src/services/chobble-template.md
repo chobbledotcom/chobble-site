@@ -9,7 +9,7 @@ meta_description: Free open source website template - Eleventy, fast loading, SE
 
 # Chobble Template
 
-A free and open source Eleventy starter template for business websites, which you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
+A free and open source Eleventy starter for business websites - a template you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
 
 - Live demo: **[example.chobble.com](https://example.chobble.com)**
 - Source code: **[Github](https://github.com/chobble-mirror/chobble-template/)**
@@ -19,9 +19,15 @@ A free and open source Eleventy starter template for business websites, which yo
 
 ## Background
 
-While building [static websites](/services/static-websites/) for local businesses I realised I was creating the same type of components each time - I was making Eleventy sites, with features like a news system, a contact form, social media links, header images, per-page styles, etc etc.
+While building [static websites](/services/static-websites/) for local businesses in Manchester I realised I was creating the same type of components each time - I was making Eleventy sites, with features like a news system, a contact form, social media links, header images, per-page styles, etc etc.
 
 I was keeping an informal repository of these code snippets on my computers, and realised I could provide some value to the open source community by compiling each of those snippets into a demo site, and releasing the source code under the AGPL3 license.
+
+## Examples
+
+Nearly every static site listed on my [examples](/examples/#content) page is using the Chobble Template, either partially or completely. Because I've built it all to be modular, it's easy to swap components in and out of other Eleventy sites.
+
+For an example of a restaurant / cafe site fully using the template to list food items on menu pages, check out [House of Desserts](/examples/house-of-desserts/#content) and for an ecommerce site listing products and categories, check out [Southport Organics](/examples/southport-organics/#content). [Renegade Solar](/examples/renegade-solar/#content) pre-dates the template but its development strongly influenced it.
 
 ## Features
 
@@ -47,6 +53,6 @@ I have a few ideas about future additions:
 
 ## How can I use it?
 
-If you're technically-minded, you can clone the [source code](https://github.com/chobbledotcom/chobble-template/) and start playing away! It's set up for Nix at the moment, but it should be easy to adapt to use whichever Node build process you like.
+[Click here to read full-ish instructions for building and hosting a simple site with this template](https://example.chobble.com/instructions/). You won't need to touch any code unless you want to edit the theme or customise the layouts. If you want to run the template locally you'll need to install Node - I've provided a Nix flake which sets that up and more.
 
-**If you want me to make a website for you based off this template, [get in touch](/contact/).** I charge a flat hourly fee for all jobs, and much of the work of building a website has already been completed with this template, so you'll get great value for money.
+**If you want me to make a website for you based off this Eleventy starter, [get in touch](/contact/). I charge a totally transparent flat hourly fee for all job, and since much of the work of building a website has already been completed with this template you'll get great value for money.**
