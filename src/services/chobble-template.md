@@ -9,7 +9,7 @@ meta_description: Free open source website template - Eleventy, fast loading, SE
 
 # Chobble Template
 
-A free and open source Eleventy starter for business websites - a template you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
+A free and open source Eleventy starter for business websites - a template you can build on (or [employ me](/contact/#content) to work on) to create a website for your own business really easily.
 
 - Live demo: **[example.chobble.com](https://example.chobble.com)**
 - Source code: **[Github](https://github.com/chobble-mirror/chobble-template/)**
@@ -19,7 +19,7 @@ A free and open source Eleventy starter for business websites - a template you c
 
 ## Background
 
-While building [static websites](/services/static-websites/) for local businesses in Manchester I realised I was creating the same type of components each time - I was making Eleventy sites, with features like a news system, a contact form, social media links, header images, per-page styles, etc etc.
+While building [static websites](/services/static-websites/#content) for local businesses in Manchester I realised I was creating the same type of components each time - I was making Eleventy sites, with features like a news system, a contact form, social media links, header images, per-page styles, etc etc.
 
 I was keeping an informal repository of these code snippets on my computers, and realised I could provide some value to the open source community by compiling each of those snippets into a demo site, and releasing the source code under the AGPL3 license.
 
@@ -31,7 +31,7 @@ For an example of a restaurant / cafe site fully using the template to list food
 
 ## Features
 
-The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost. For more on effective SEO strategies, check out my [free guides](/guides/).
+The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost. For more on effective SEO strategies, check out my [free guides](/guides/#content).
 
 Since I released the template it's grown a lot. The current version _(accurate August 2025)_ includes pretty much everything a small business website needs:
 
@@ -55,4 +55,4 @@ I have a few ideas about future additions:
 
 [Click here to read full-ish instructions for building and hosting a simple site with this template](https://example.chobble.com/instructions/). You won't need to touch any code unless you want to edit the theme or customise the layouts. If you want to run the template locally you'll need to install Node - I've provided a Nix flake which sets that up and more.
 
-**If you want me to make a website for you based off this Eleventy starter, [get in touch](/contact/). I charge a totally transparent flat hourly fee for all job, and since much of the work of building a website has already been completed with this template you'll get great value for money.**
+**If you want me to make a website for you based off this Eleventy starter, [get in touch](/contact/#content). I charge a totally transparent flat hourly fee for all job, and since much of the work of building a website has already been completed with this template you'll get great value for money.**
