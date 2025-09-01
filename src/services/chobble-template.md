@@ -27,7 +27,7 @@ I was keeping an informal repository of these code snippets on my computers, and
 
 The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost. For more on effective SEO strategies, check out my [free guides](/guides/).
 
-Since I released the template it's grown a lot. The current version _(December 2024)_ includes pretty much everything a small business website needs:
+Since I released the template it's grown a lot. The current version _(accurate August 2025)_ includes pretty much everything a small business website needs:
 
 **Content management:** The template has built-in collections for news posts, products with galleries, team member profiles, and multiple pages with automatic navigation. If you're running a restaurant or cafe, there's a complete menu system with categories, individual items, pricing, and dietary flags (vegan, gluten-free). Events are handled with both one-off dates and recurring schedules (like "every first Wednesday"), and they generate iCal feeds so people can subscribe to your calendar.
 
