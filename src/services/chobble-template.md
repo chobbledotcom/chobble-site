@@ -9,7 +9,7 @@ meta_description: Free open source website template - Eleventy, fast loading, SE
 
 # Chobble Template
 
-A free and open source template for business websites, which you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
+A free and open source Eleventy starter template for business websites, which you can build on (or [employ me](/contact/) to work on) to create a website for your own business really easily.
 
 - Live demo: **[example.chobble.com](https://example.chobble.com)**
 - Source code: **[Github](https://github.com/chobble-mirror/chobble-template/)**
