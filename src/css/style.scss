@@ -483,7 +483,8 @@ main {
 
 .cards,
 .vegan-business-websites .examples ul,
-.static-websites .examples ul {
+.static-websites .examples ul,
+.restaurant-web-design .examples ul, {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
@@ -512,7 +513,8 @@ main {
 .card,
 .text-card,
 .cards > *,
-.vegan-business-websites .examples ul > * {
+.vegan-business-websites .examples ul > *,
+.restaurant-web-design .examples ul > * {
   margin: 0;
   background-color: $main-accent-bg;
   padding: 1.5rem;
