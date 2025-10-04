@@ -29,10 +29,10 @@ Once built it's pushed to **Bunny CDN** ([bunny.net](https://bunny.net/)) - a pr
 
 - **Has sensible defaults.** It handles HTTPS certificates automatically, redirects the `www` version of the domain, redirects `/index.html` pages to "pretty" URLs, shows a `not_found.html` page for 404s, etc.
 - **Is very reliable and fast.** I'm using their SSD services for super low latency, and the uptime is excellent.
-- **Provides detailed insights.** Much better visibility into traffic patterns, errors, and performance metrics.
+- **Provides detailed insights.** Good visibility into traffic patterns, errors, and performance metrics.
 - **Supports edge scripting.** This allows for advanced features like URL rewriting when needed.
-- **Has better spam controls.** Country blocking helps keep unwanted traffic away from client sites.
-- **Is a more professional outfit.** They've built a solid reputation in the hosting industry.
+- **Has solid spam controls.** Country blocking helps keep unwanted traffic away from client sites.
+- **Is a professional outfit.** They've built a solid reputation in the hosting industry.
 
 ## Responsive images
 

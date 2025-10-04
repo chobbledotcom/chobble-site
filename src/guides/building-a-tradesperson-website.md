@@ -29,7 +29,7 @@ Or, if you'd like me to build a similar site for your business, please [contact 
 
 The website is built with **Eleventy** ([11ty.dev](https://www.11ty.dev/)), a static site generator built with NodeJS (JavaScript). Eleventy is fast, has great defaults, and has some really handy plugins for things like image resizing.
 
-Once built it's pushed to **Bunny CDN** ([bunny.net](https://bunny.net/)) - a professional hosting platform that provides excellent performance, detailed traffic insights, and solid uptime. The SSD services offer super low latency, and features like edge scripting and country blocking give better control over the site.
+Once built it's pushed to **Bunny CDN** ([bunny.net](https://bunny.net/)) - a professional hosting platform that provides excellent performance, detailed traffic insights, and solid uptime. The SSD services offer super low latency, and features like edge scripting and country blocking give good control over the site.
 
 Because I use **NixOS**, the development of the site happens in a `nix develop` shell powered by `direnv` ([source code](https://git.chobble.com/hosted-by-chobble/renegade-solar/src/branch/main/flake.nix)). This means I can work on the site on any of my machines, and it will behave the same everywhere because the tooling is exactly the same - Nix is awesome.
 
