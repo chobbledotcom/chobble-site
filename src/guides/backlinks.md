@@ -69,7 +69,7 @@ This will search for all exact mentions of `stefanswidgets.com` or `"Stefan's Wi
 
 While a mention isn't _exactly_ the same as a backlink, they're pretty close - and mentions are valuable to Google too.
 
-So, let's do that for a site I made for an Indian curry cafe in Manchester, [thisandthatcafe.co.uk](https://thisandthatcafe.co.uk) (which I'll refer to as 'T&T' for readability's sake). [Here is a link to that search - click here to see for yourself](https://www.google.com/search?q=%22thisandthatcafe.co.uk%22+-site%3Athisandthatcafe.co.uk).
+So, let's do that for a site I made for an Indian curry cafe in Manchester, [thisandthatcafe.co.uk](https://www.thisandthatcafe.co.uk) (which I'll refer to as 'T&T' for readability's sake). [Here is a link to that search - click here to see for yourself](https://www.google.com/search?q=%22thisandthatcafe.co.uk%22+-site%3Athisandthatcafe.co.uk).
 
 The results you'll see are things like:
 

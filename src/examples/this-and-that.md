@@ -13,7 +13,7 @@ colour: white
 
 - **Client:** This & That Cafe, Manchester
 - **Services:** Website hosting and social media management
-- **Website:** [ThisAndThatCafe.co.uk](https://thisandthatcafe.co.uk)
+- **Website:** [ThisAndThatCafe.co.uk](https://www.thisandthatcafe.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/this-and-that)
 
 This & That is a Manchester institution, famous for its "rice and three" curry dishes. Operating since 1984, it's a beloved part of the Northern Quarter's culinary landscape.
