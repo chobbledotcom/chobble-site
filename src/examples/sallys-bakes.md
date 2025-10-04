@@ -11,7 +11,7 @@ colour: "#ffbee6"
 
 - **Client:** Sally's Bakes, Bury
 - **Services:** Website development and hosting
-- **Website:** [SallysBakesBury.co.uk](https://sallysbakesbury.co.uk)
+- **Website:** [SallysBakesBury.co.uk](https://www.sallysbakesbury.co.uk)
 - **Source Code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/sallys-bakes)
 
 Sally's Bakes is a local vegan bakery in Bury, Manchester. She makes really delicious vegan pies and pasties, as well as cakes, cookies, and cream eggs, and delivers them to businesses and homes across Manchester and nearby.
