@@ -64,9 +64,9 @@ I donate 10% of my income to charity, so your money goes further than just getti
 
 **[Blue Pits Housing Action](/examples/blue-pits/)** - A CQC-registered care provider and social housing charity I've been supporting for 14 years. Their site provides clear eligibility criteria and all legally required information. Updates go live within 24 hours of their email requests.
 
-**[Freehold Cottage](https://freeholdcottage.com)** - A residential care home in Rochdale providing 24-hour support for adults with mental health conditions. I've hosted their website since 2005, helping them maintain a professional online presence that reflects their commitment to dignity and independence.
+**[Freehold Cottage](https://www.freeholdcottage.com)** - A residential care home in Rochdale providing 24-hour support for adults with mental health conditions. I've hosted their website since 2005, helping them maintain a professional online presence that reflects their commitment to dignity and independence.
 
-**[Newbarn Ltd](https://newbarnltd.co.uk)** - A supported housing organisation providing accommodation and support for vulnerable adults with mental health needs and learning disabilities. I've been hosting their site since 2010, ensuring their services are clearly presented to potential residents and funding bodies.
+**[Newbarn Ltd](https://www.newbarnltd.co.uk)** - A supported housing organisation providing accommodation and support for vulnerable adults with mental health needs and learning disabilities. I've been hosting their site since 2010, ensuring their services are clearly presented to potential residents and funding bodies.
 
 **[Crumpsall Folk Club](/examples/crumpsall-folk-club/)** - Not a charity but a nonprofit community group that needed an affordable way to share events and build a mailing list without depending on Facebook. Built on Ghost CMS for easy self-management.
 

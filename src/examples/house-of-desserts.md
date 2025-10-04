@@ -11,7 +11,7 @@ colour: "#fff8dc"
 
 - **Client:** House of Desserts
 - **Services:** Website setup and content writing
-- **Website:** [House-of-Desserts.co.uk](https://house-of-desserts.co.uk)
+- **Website:** [House-of-Desserts.co.uk](https://www.house-of-desserts.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/house-of-desserts)
 
 Lutterworth's newest dessert shop came to me seeking a new, easy to update, and super fast loading website to show off their menus and contact information.
