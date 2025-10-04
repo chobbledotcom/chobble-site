@@ -29,7 +29,7 @@ Or, if you'd like me to build a similar site for your business, please [contact 
 
 The website is built with **Eleventy** ([11ty.dev](https://www.11ty.dev/)), a static site generator built with NodeJS (JavaScript). Eleventy is fast, has great defaults, and has some really handy plugins for things like image resizing.
 
-Once built it's pushed to **Neocities** ([neocities.org](https://neocities.org/)) - a static web host that has been around for over a decade and proven itself as a really reliable, straightforward place to host static sites.
+Once built it's pushed to **Bunny CDN** ([bunny.net](https://bunny.net/)) - a professional hosting platform that provides excellent performance, detailed traffic insights, and solid uptime. The SSD services offer super low latency, and features like edge scripting and country blocking give good control over the site.
 
 Because I use **NixOS**, the development of the site happens in a `nix develop` shell powered by `direnv` ([source code](https://git.chobble.com/hosted-by-chobble/renegade-solar/src/branch/main/flake.nix)). This means I can work on the site on any of my machines, and it will behave the same everywhere because the tooling is exactly the same - Nix is awesome.
 
@@ -73,16 +73,11 @@ The site's code is edited through **Markdown**, directly through the login for t
 
 After a quick phone run-through of how to edit files I left Renegade to replace some dummy content I'd added, and then once they were done I tidied those files up ready for production. Because we're both directly editing via Git, it was really easy for me to tell what had changed on each commit, and easy to roll back changes too.
 
-## Pushing to Neocities
+## Pushing to Bunny
 
-Like most of my static websites, the Renegade site is hosted on Neocities, connected to a custom domain. While you _could_ copy and paste the HTML files into the editor on the Neocities site, I prefer to automate this process using the Neocities CLI (Command Line Interface) ([link](https://neocities.org/cli)).
+Like most of my static websites, the Renegade site is hosted on Bunny, connected to a custom domain. I automate this deployment process through their API for reliable and efficient updates.
 
-I automated this process using my "NixOS Site Builder" flake ([source code](https://git.chobble.com/chobble/nixos-site-builder)). Every five minutes or so, this script clones the site from Git, checks for changes, and if there are any it builds the site using Nix into `/var/www/example.com`, then uploads the site to Neocities. The key lines which handle the upload are in `lib/mkSiteBuilder.nix` in that repository, where we do:
-
-```
-export NEOCITIES_API_KEY=<key>
-neocities push --prune <site_directory>
-```
+I automated this process using my "NixOS Site Builder" flake ([source code](https://git.chobble.com/chobble/nixos-site-builder)). Every five minutes or so, this script clones the site from Git, checks for changes, and if there are any it builds the site using Nix into `/var/www/example.com`, then uploads the site to Bunny via their API.
 
 You'll need to adjust this for your preferred build tool, unless you also want to use my NixOS setup, which would be awesome (please let me know if you do!).
 

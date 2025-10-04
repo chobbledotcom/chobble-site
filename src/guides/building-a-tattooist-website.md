@@ -25,12 +25,14 @@ The website is built with **Eleventy** ([11ty.dev](https://www.11ty.dev/)), a st
 - **It does a lot by default.** You can configure the data behind the site or different collections really easily ([docs](https://www.11ty.dev/docs/data/)).
 - **It has some nice plugins.** Being able to make responsively-sized images automatically is very cool.
 
-Once built it's pushed to **Neocities** ([neocities.org](https://neocities.org/)) - a web host that continues the legacy of Geocities and Angelfire and similar static hosts from back in the day. Neocities is cool because it:
+Once built it's pushed to **Bunny CDN** ([bunny.net](https://bunny.net/)) - a professional hosting platform with excellent performance and features. Bunny is great because it:
 
-- **Has sensible defaults.** It does a bunch of things automatically - handles HTTPS certificates automatically, redirects the `www` version of the domain, redirects `/index.html` pages to "pretty" URLs, shows a `not_found.html` page for 404s, etc.
-- **Is very reliable and fast.** I've been monitoring my sites for years and Neocities has had very little downtime, and the pages always respond quickly.
-- **Supports open source.** The whole site is open sourced and it has some great developer tools.
-- **Is almost 12 years old.** I'm always a little wary of using hosts that have only been around for a short period - is their business sustainable?
+- **Has sensible defaults.** It handles HTTPS certificates automatically, redirects the `www` version of the domain, redirects `/index.html` pages to "pretty" URLs, shows a `not_found.html` page for 404s, etc.
+- **Is very reliable and fast.** I'm using their SSD services for super low latency, and the uptime is excellent.
+- **Provides detailed insights.** Good visibility into traffic patterns, errors, and performance metrics.
+- **Supports edge scripting.** This allows for advanced features like URL rewriting when needed.
+- **Has solid spam controls.** Country blocking helps keep unwanted traffic away from client sites.
+- **Is a professional outfit.** They've built a solid reputation in the hosting industry.
 
 ## Responsive images
 
@@ -76,16 +78,11 @@ My template uses **Markdown** files for page content, which is really easy to ed
 
 The gallery is populated by uploading images to the `src/images` folder, and then displayed in reverse sorted order so newer photos will appear at the top. One downside to this approach is that the images don't have any metadata, so are missing `alt` tags. A more thorough approach could be to create a data file alongside each image, containing its alt text.
 
-## Pushing to Neocities
+## Pushing to Bunny
 
-Now that you've got your new tattoo website built on your computer, it's time to push the files out to Neocities. You _could_ just copy and paste the HTML files to the editor on the Neocities site, but I prefer to automate this process using the Neocities CLI (Command Line Interface) ([link](https://neocities.org/cli)).
+Now that you've got your new tattoo website built on your computer, it's time to push the files out to Bunny. I automate this process through their API, which provides reliable and efficient deployment.
 
-Because I love NixOS, I automated this process using my "NixOS Site Builder" flake ([source code](https://git.chobble.com/chobble/nixos-site-builder)). Every five minutes-ish, this script clones the site from Git, checks for changes, and if there are any it builds the site using Nix into `/var/www/example.com`, then uploads the site to Neocities. The key lines which handle the upload are in `lib/mkSiteBuilder.nix` in that repository, where we do:
-
-```
-export NEOCITIES_API_KEY=<key>
-neocities push --prune <site_directory>
-```
+Because I love NixOS, I automated this process using my "NixOS Site Builder" flake ([source code](https://git.chobble.com/chobble/nixos-site-builder)). Every five minutes-ish, this script clones the site from Git, checks for changes, and if there are any it builds the site using Nix into `/var/www/example.com`, then uploads the site to Bunny via their API.
 
 You'll want to adjust this for your preferred build tool, unless you also want to use my NixOS setup, which would be awesome (please let me know if you do!).
 

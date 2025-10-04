@@ -18,7 +18,7 @@ My brother [Kevin](https://kevinburkeservices.com) had worked with Andy and Sall
 
 ![A&S Home Furnings website - a simple, mostly text website with clear links to learn about the home clearance services they offer](/assets/examples/as-home-furnishings.png)
 
-The were paying for quite expensive hosting for their CMS website, even though its content very rarely changed and the contact form didn't load properly. I proposed migrating their website to an Eleventy static site, which I would host on Neocities for them at [a low monthly cost](/prices/), with my brother handling support.
+The were paying for quite expensive hosting for their CMS website, even though its content very rarely changed and the contact form didn't load properly. I proposed migrating their website to an Eleventy static site, which I would host on Bunny for them at [a low monthly cost](/prices/), with my brother handling support.
 
 ## The Migration Process
 
@@ -40,7 +40,7 @@ This resulted in Markdown files that were _mostly_ good but needed a bit of tidy
 
 **Fixing the bugs:** I could then run `serve` to start an Eleventy development server with live-reloading, and I used this to iron out the bugs on the pages - mostly quirks to do with image paths and the dropdown menu for services.
 
-**Host on Neocities:** My Forgejo server [automatically builds](https://git.chobble.com/hosted-by-chobble/as-home-furnishings/src/branch/main/.forgejo/workflows/neocities.yaml) the site whenever I commit a change to the source code. It builds the site with Nix, and then uses an action to push the completed site to Neocities.
+**Host on Bunny:** My Forgejo server [automatically builds](https://git.chobble.com/hosted-by-chobble/as-home-furnishings/src/branch/main/.forgejo/workflows/neocities.yaml) the site whenever I commit a change to the source code. It builds the site with Nix, and then pushes the completed site to Bunny via their API.
 
 **DNS switching:** I helped Andy get set up with a Krystal account, and the I helped migrate his domain into it. Combining this with the open souce website I made means A&S now have full control over their web presence, now and forever.
 

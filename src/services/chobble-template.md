@@ -43,7 +43,7 @@ Since I released the template it's grown a lot. The current version _(accurate A
 
 **Business features:** Opening hours display nicely on every page. Social media links (Facebook, Instagram, TikTok, WhatsApp, Mastodon, Google Maps) appear in the footer. Reviews and testimonials have their own section. The RSS feed has clear instructions for subscribers, and there's a proper sitemap for search engines.
 
-**Hosting flexibility:** The template works on loads of different hosts. There are example sites running on Neocities (free), Pico.sh Pages, and Bunny.net. The PagesCMS editor integration means you can update content without touching code if you prefer.
+**Hosting flexibility:** The template works on loads of different hosts. There are example sites running on Bunny.net, Pico.sh Pages, and other platforms. The PagesCMS editor integration means you can update content without touching code if you prefer.
 
 I have a few ideas about future additions:
 

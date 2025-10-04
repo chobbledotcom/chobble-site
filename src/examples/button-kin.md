@@ -30,7 +30,7 @@ It loads super fast compared to those heavy WordPress or Squarespace sites that 
 - It's an **[Eleventy](/services/eleventy-developer/)** website ([11ty.dev](https://www.11ty.dev/)) - a fast, customisable framework using JavaScript.
 - It is loosely based on the **[Chobble Template](/services/chobble-template/)** with plenty of customisations. This meant we get some nice things out of the box, like RSS feeds, Sitemaps, and responsive images.
 - The site is automatically re-built and re-deployed whenever its source code is modified, using **Forgejo Actions** (which as basically the same as Github actions).
-- It is hosted on **Neocities** ([neocities.org/site/buttonkin](https://neocities.org/site/buttonkin)) - the perfect home for a quirky, indie website.
+- It is hosted on **Bunny CDN** - providing excellent performance and reliability for the site.
 - It collects subscriptions to a **Buttondown newsletter** list.
 - It gets **Lighthouse scores of 95+** - Google's system for determining how fast, accessible, and search engine friendly a website is.
 - I've set up **Stripe payment links** embedded directly - all the product management happens in the Stripe dashboard, and customers select their postage during checkout

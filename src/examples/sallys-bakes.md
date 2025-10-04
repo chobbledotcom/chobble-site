@@ -1,7 +1,7 @@
 ---
 title: Sally's Bakes
 meta_title: Sally's Bakes | Vegan Bakery Website | Chobble
-meta_description: Jekyll website for Bury vegan bakery - Git-based editing, perfect performance scores - hosted on Neocities - Manchester web design example
+meta_description: Jekyll website for Bury vegan bakery - Git-based editing, perfect performance scores - hosted on Bunny - Manchester web design example
 snippet: Vegan cakes and pies in Bury, Manchester
 order: 1
 colour: "#ffbee6"
@@ -27,7 +27,7 @@ Sally needed a website she could easily edit herself, and so this site is edited
 ## Technical Details
 
 - Static website built with Jekyll
-- Hosted on Neocities
+- Hosted on Bunny CDN
 - Perfect Lighthouse performance scores
 - Contact form built with FormSpark
 - Spam protection via BotPoison
