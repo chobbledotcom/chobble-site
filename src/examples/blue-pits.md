@@ -13,7 +13,7 @@ colour: white
 
 - **Client:** Blue Pits Housing Action (Registered Charity)
 - **Services:** Website development, hosting and ongoing technical consultation
-- **Website:** [BluePitsHousingAction.co.uk](https://bluepitshousingaction.co.uk)
+- **Website:** [BluePitsHousingAction.co.uk](https://www.bluepitshousingaction.co.uk)
 - **Source code:** [Open source on git.chobble.com](https://git.chobble.com/hosted-by-chobble/blue-pits)
 
 Blue Pits is a CQC-registered personal care provider and social housing provider, based in Rochdale, Middleton and Heywood since 2011. I've been their technical consultant for over 14 years, helping them navigate everything from website changes to GDPR compliance.
