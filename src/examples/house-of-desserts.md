@@ -1,7 +1,7 @@
 ---
 title: House of Desserts
 meta_title: House of Desserts | Restaurant Website | Chobble
-meta_description: Restaurant / cafe website with PagesCMS editing - Eleventy build, Neocities hosting - built using the flexible Chobble Template
+meta_description: Restaurant / cafe website with PagesCMS editing - Eleventy build, Bunny hosting - built using the flexible Chobble Template
 snippet: Using the 'Chobble Template' menu system for a dessert shop
 order: 11
 colour: "#fff8dc"
