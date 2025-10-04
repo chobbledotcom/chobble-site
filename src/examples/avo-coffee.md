@@ -11,7 +11,7 @@ meta_description: Simple cafe website with easy menu updates - built with Eleven
 
 - **Client:** Avo Coffee Cafe
 - **Services:** Website hosting and SEO advice
-- **Website:** [AvoCoffee.co.uk](https://avocoffee.co.uk)
+- **Website:** [AvoCoffee.co.uk](https://www.avocoffee.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/avo-coffee)
 
 Avo Coffee is a vegan- and Halal-friendly cafe in Haslingden, Rossendale. I built their website using the [Chobble Template](https://git.chobble.com/chobble/chobble-template/) which meant a lot of the technical groundwork was already done so I could focus on the simple and friendly design.

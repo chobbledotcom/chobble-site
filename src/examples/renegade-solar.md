@@ -11,7 +11,7 @@ meta_description: Solar panel installer website - escaped slow Wix site - now ge
 
 - **Client:** Renegade Solar, Manchester
 - **Services:** Website development and marketing advice
-- **Website:** [RenegadeSolar.co.uk](https://renegade-solar.co.uk)
+- **Website:** [RenegadeSolar.co.uk](https://www.renegade-solar.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/renegade-solar)
 
 Renegade Solar install solar panels and batteries for businesses and homes across Manchester, with Ashley covering anywhere in the city but focusing mainly on north Manchester from his base here in Prestwich.

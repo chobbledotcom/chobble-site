@@ -7,7 +7,7 @@ meta_description: Guide to building tradesperson websites - services, accreditat
 
 # How To: Make a Tradesperson Website
 
-Renegade Solar ([renegade-solar.co.uk](https://renegade-solar.co.uk)) is a solar panel installer from Manchester. They had a Wix site but were finding it hard to tidily showcase all of the aspects of the business through the Wix editor, so the site was quite thin on content and wasn't attracting many visitors.
+Renegade Solar ([renegade-solar.co.uk](https://www.renegade-solar.co.uk)) is a solar panel installer from Manchester. They had a Wix site but were finding it hard to tidily showcase all of the aspects of the business through the Wix editor, so the site was quite thin on content and wasn't attracting many visitors.
 
 I built an easily-expanded "Eleventy" site which features three "collection" types:
 
