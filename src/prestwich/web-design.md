@@ -25,7 +25,7 @@ I pride myself on building fast, efficient, accessible and easily-understood web
 
 Most delays come from content creation, but you can use my [free guides](/guides/) and [videos](/videos/) for help.
 
-Want a more complex, more visual website with lots going on? I'm happy to help with that too - I can source designers, turn paid-for templates into interactive sites, or build any advanced functionality with Ruby on Rails or other open source platforms.
+Want a more complex, more visual website with lots going on? I'm happy to help with that too - I can source designers, turn paid-for templates into interactive sites, or build any advanced functionality with Ruby on Rails or other open source platforms. Check out my [software development services](/services/software-developer/) for custom applications and integrations.
 
 ## Types of websites
 

@@ -40,6 +40,7 @@ Beyond websites, I can assist with:
 - Finding [open source alternatives](/services/de-googling/) to expensive software
 - Implementing simple security measures to protect your business
 - Creating sustainable technical plans that grow with your business
+- Advising on [custom software development](/services/software-developer/) for bespoke business tools
 </div>
 
 <div class="card margins">

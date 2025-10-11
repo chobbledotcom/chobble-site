@@ -11,6 +11,8 @@ meta_description: Ruby on Rails freelancer in Manchester - I build enterprise-sc
 
 **[Drop me a message](/contact/) if you need a freelance Ruby on Rails developer in Manchester (or anywhere, really)**
 
+Rails development is part of my broader [software development services](/services/software-developer/) - check that page if you're not sure whether Rails is the right fit for your project.
+
 I've been writing web applications since 2007 - 10 years as the technical lead on the [Bouncy Castle Network](https://www.bouncycastlenetwork.com) booking system / CRM, growing from a startup to 1,200 customers, followed by five years at [Bandcamp.com](https://bandcamp.com) working on their Ruby music store that processes over $200m every year.
 
 I'm now a freelance Rails developer - check out [Play-Test](/examples/play-test/#content) for an example of a current project.

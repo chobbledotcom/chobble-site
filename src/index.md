@@ -28,6 +28,7 @@ I am flexible and up for discussing anything.
 
 ## Services On Offer
 
+- [Custom software development](/services/software-developer/) (web apps, automation, APIs)
 - [Web design & development](/services/static-websites/) (eg Eleventy, Jekyll)
 - [SEO Audits](/services/seo-audits/)
 - [Website Content Advice](/services/website-content-advice/)

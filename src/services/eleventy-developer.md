@@ -13,6 +13,8 @@ meta_description: Eleventy developer in Manchester - build fast static sites, co
 
 Eleventy ([11ty.dev](https://www.11ty.dev/)) is my static site generator of choice for creating websites that load really quickly, rank well in search engines, and can be hosted on easy-to-use web hosts at a very low cost. As an experienced Eleventy developer I can help whether you're building a brand new site or updating an existing one.
 
+Eleventy development is part of my broader [software development services](/services/software-developer/) - check that page if you need custom applications or more complex integrations beyond static sites.
+
 - [Building new Eleventy sites](#building)
 - [Adding features to existing Eleventy sites](#adding)
 - [Converting CMS websites to Eleventy](#converting)
