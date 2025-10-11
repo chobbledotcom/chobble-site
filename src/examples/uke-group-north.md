@@ -2,7 +2,7 @@
 title: Uke Group North
 snippet: Community ukulele workshops with PagesCMS for easy content updates
 order: 8
-colour: "#e8f4ea"
+colour: "#faece1"
 meta_title: Music Teacher Websites | Uke Group North Example | Chobble
 meta_description: Website for music teachers and workshops - session listings, songbooks, testimonials - PagesCMS for easy updates - 50% discount for musicians
 ---
