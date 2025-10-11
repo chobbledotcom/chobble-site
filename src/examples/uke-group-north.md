@@ -22,6 +22,8 @@ If you teach music - whether that's workshops, one-to-one lessons, or both - you
 
 Uke Group North runs ukulele workshops across Greater Manchester and Lancashire. They needed a website to promote their weekly sessions, share downloadable songbooks, and help people find their nearest group.
 
+![Uke Group North website homepage showing a welcoming header "Join Our Musical Community" with details of weekly Sing & Strum Sessions at four locations across Greater Manchester. The page features information about beginner workshops, one-to-one lessons with Ben, and the benefits of learning ukulele. Navigation links include Workshops, Events, News, About, Reviews, Learn, Support and Contact.](/assets/examples/uke-group-north.png)
+
 ### What the site does
 
 The site covers workshop listings with session times and locations, information about one-to-one lessons, and downloadable songbooks in PDF format. There's a news section for updates and events, testimonials from students, and a contact form for enquiries.
