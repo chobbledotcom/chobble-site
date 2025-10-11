@@ -11,7 +11,7 @@ meta_description: Website for music teachers and workshops - session listings, s
 
 If you teach music - whether that's workshops, one-to-one lessons, or both - you need a website that makes it easy for students to find you, see your session times, and get in touch. I build websites for music teachers that are straightforward to update yourself and handle all the practical bits you need.
 
-**Musicians get 50% off my standard rates** - so a basic site starts from around £100-£200, with hosting from £5/month. [Full pricing details here](/prices/).
+**Musicians get 50% off my standard rates** - so a basic site starts from around £100-£200, with hosting from £5/month. [Full pricing details here](/prices/#content).
 
 ## Uke Group North example
 
@@ -32,7 +32,7 @@ I set the site up with [PagesCMS](https://pagescms.org), which means Uke Group N
 
 ### Technical details
 
-The site is a [static website](/services/static-websites/) built on the [Chobble Template](/services/chobble-template/). Here's what's under the bonnet:
+The site is a [static website](/services/static-websites/#content) built on the [Chobble Template](/services/chobble-template/#content). Here's what's under the bonnet:
 
 - Built with **Eleventy** - a static site generator using Node JS
 - Uses **PagesCMS** for content editing - connects to GitHub and provides a visual editor
@@ -71,8 +71,8 @@ I charge £200/hour for web development (£100/hour for musicians, artists, and 
 
 Hosting is £10/month for unmanaged (bug fixes only) or £40/month for managed hosting (updates, marketing support, bug fixes). Both are 50% off for musicians, so £5/month or £20/month respectively.
 
-[Full pricing details here](/prices/)
+[Full pricing details here](/prices/#content)
 
 ## Get in touch
 
-If you teach music and want a website that's easy to manage and affordable to run, [get in touch](/contact/). I can build something similar to the Uke Group North site, tailored to how you teach and what your students need to know.
+If you teach music and want a website that's easy to manage and affordable to run, [get in touch](/contact/#content). I can build something similar to the Uke Group North site, tailored to how you teach and what your students need to know.
