@@ -43,7 +43,7 @@ I set the site up with [PagesCMS](https://pagescms.org), which means UKE Group N
 - Add student testimonials
 - Update contact details
 
-They don't need to know any code or mess about with complicated WordPress dashboards. Changes go through GitHub which means there's a review step before anything goes live, keeping the site accurate.
+They don't need to know any code or mess about with complicated WordPress dashboards. Changes go through GitHub which means every change is backed up and can be undone - there's no way to permanently break things. It's easy to roll back to any point in the site's history.
 
 ### Technical details
 
