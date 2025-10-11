@@ -1,9 +1,9 @@
 ---
-title: UKE Group North
+title: Uke Group North
 snippet: Community ukulele workshops with PagesCMS for easy content updates
 order: 8
 colour: "#e8f4ea"
-meta_title: Music Teacher Websites | UKE Group North Example | Chobble
+meta_title: Music Teacher Websites | Uke Group North Example | Chobble
 meta_description: Website for music teachers and workshops - session listings, songbooks, testimonials - PagesCMS for easy updates - 50% discount for musicians
 ---
 
@@ -13,14 +13,14 @@ If you teach music - whether that's workshops, one-to-one lessons, or both - you
 
 **Musicians get 50% off my standard rates** - so a basic site starts from around £100-£200, with hosting from £5/month. [Full pricing details here](/prices/).
 
-## UKE Group North example
+## Uke Group North example
 
-- **Client:** UKE Group North Community Interest Company
+- **Client:** Uke Group North Community Interest Company
 - **Services:** Website development and hosting
-- **Website:** [UKEGroupNorth.com](https://www.ukegroupnorth.com)
+- **Website:** [UkeGroupNorth.com](https://www.ukegroupnorth.com)
 - **Source code:** [on GitHub](https://github.com/chobbledotcom/uke-group-north)
 
-UKE Group North runs ukulele workshops across Greater Manchester and Lancashire. They needed a website to promote their weekly sessions, share downloadable songbooks, and help people find their nearest group.
+Uke Group North runs ukulele workshops across Greater Manchester and Lancashire. They needed a website to promote their weekly sessions, share downloadable songbooks, and help people find their nearest group.
 
 ### What the site does
 
@@ -28,7 +28,7 @@ The site covers workshop listings with session times and locations, information 
 
 ### Easy content management
 
-I set the site up with [PagesCMS](https://pagescms.org), which means UKE Group North can edit everything themselves through a friendly web interface. They can add news posts, change workshop times and locations, upload new songbooks, add testimonials, and update contact details. They don't need to know any code or mess about with complicated WordPress dashboards. Changes go through GitHub which means every change is backed up and can be undone - there's no way to permanently break things. It's easy to roll back to any point in the site's history.
+I set the site up with [PagesCMS](https://pagescms.org), which means Uke Group North can edit everything themselves through a friendly web interface. They can add news posts, change workshop times and locations, upload new songbooks, add testimonials, and update contact details. They don't need to know any code or mess about with complicated WordPress dashboards. Changes go through GitHub which means every change is backed up and can be undone - there's no way to permanently break things. It's easy to roll back to any point in the site's history.
 
 ### Technical details
 
@@ -51,7 +51,7 @@ The static approach means low hosting costs, no security patches to worry about,
 
 ## What music teachers need
 
-Based on working with UKE Group North, here's what I've learned matters for music teaching websites.
+Based on working with Uke Group North, here's what I've learned matters for music teaching websites.
 
 People need to quickly find when and where lessons happen. Clear timetables and location details are crucial. Students want to know what to expect, whether you cater to beginners, and what style of teaching you offer.
 
@@ -75,4 +75,4 @@ Hosting is £10/month for unmanaged (bug fixes only) or £40/month for managed h
 
 ## Get in touch
 
-If you teach music and want a website that's easy to manage and affordable to run, [get in touch](/contact/). I can build something similar to the UKE Group North site, tailored to how you teach and what your students need to know.
+If you teach music and want a website that's easy to manage and affordable to run, [get in touch](/contact/). I can build something similar to the Uke Group North site, tailored to how you teach and what your students need to know.
