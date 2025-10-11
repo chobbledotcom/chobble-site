@@ -75,4 +75,4 @@ Hosting is £10/month for unmanaged (bug fixes only) or £40/month for managed h
 
 ## Get in touch
 
-If you teach music and want a website that's easy to manage and affordable to run, [get in touch](/contact/#content). I can build something similar to the Uke Group North site, tailored to how you teach and what your students need to know.
+**If you teach music and want a website that's easy to manage and affordable to run, [get in touch](/contact/#content). I can build something similar to the Uke Group North site, tailored to how you teach and what your students need to know.**
