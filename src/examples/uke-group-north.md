@@ -24,26 +24,11 @@ UKE Group North runs ukulele workshops across Greater Manchester and Lancashire.
 
 ### What the site does
 
-The site covers everything a music teaching business needs:
-
-- **Workshop listings** - session times, locations, and what to expect
-- **One-to-one lessons** - information about private tuition
-- **Downloadable resources** - songbooks and teaching materials in PDF format
-- **Testimonials** - quotes from students about their experience
-- **News updates** - blog posts about events and developments
-- **Contact form** - for enquiries about lessons or bookings
+The site covers workshop listings with session times and locations, information about one-to-one lessons, and downloadable songbooks in PDF format. There's a news section for updates and events, testimonials from students, and a contact form for enquiries.
 
 ### Easy content management
 
-I set the site up with [PagesCMS](https://pagescms.org), which means UKE Group North can edit everything themselves through a friendly web interface. They can:
-
-- Add and update news posts
-- Change workshop times and locations
-- Upload new songbooks
-- Add student testimonials
-- Update contact details
-
-They don't need to know any code or mess about with complicated WordPress dashboards. Changes go through GitHub which means every change is backed up and can be undone - there's no way to permanently break things. It's easy to roll back to any point in the site's history.
+I set the site up with [PagesCMS](https://pagescms.org), which means UKE Group North can edit everything themselves through a friendly web interface. They can add news posts, change workshop times and locations, upload new songbooks, add testimonials, and update contact details. They don't need to know any code or mess about with complicated WordPress dashboards. Changes go through GitHub which means every change is backed up and can be undone - there's no way to permanently break things. It's easy to roll back to any point in the site's history.
 
 ### Technical details
 
@@ -76,13 +61,9 @@ A simple contact form or clear email address is essential, plus phone number if 
 
 ## Why this approach works for musicians
 
-You can edit it yourself. PagesCMS gives you a straightforward editor, so you don't need to pay someone every time you want to add a songbook or update session times.
+You can edit it yourself - PagesCMS gives you a straightforward editor, so you don't need to pay someone every time you want to add a songbook or update session times. Static hosting is affordable at £5/month for unmanaged hosting (bug fixes only) or £20/month for managed hosting with ongoing support and marketing help.
 
-Static hosting is affordable - £5/month for unmanaged hosting (bug fixes only) or £20/month for managed hosting with ongoing support and marketing help.
-
-The site's source code is yours, hosted on GitHub. If you want to move elsewhere or hire a different developer, you can.
-
-Static sites don't have databases to hack or WordPress plugins to update. They're quick to load and stable.
+The site's source code is yours, hosted on GitHub. If you want to move elsewhere or hire a different developer, you can. Static sites don't have databases to hack or WordPress plugins to update, so they're quick to load and stable.
 
 ## 50% discount for musicians
 
