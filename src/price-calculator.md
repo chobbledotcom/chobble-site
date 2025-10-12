@@ -19,14 +19,14 @@ For more complex jobs like custom web applications we will need to create a prop
 <ul class="calculator-items">
   <li>
     <label>
-      <input type="radio" name="rate" value="200" checked="true">
+      <input type="radio" name="rate" value="200" id="rate-standard" checked="true">
       <strong>£200/hr:</strong>
       Standard rate
     </label>
   </li>
   <li>
     <label>
-      <input type="radio" name="rate" value="100">
+      <input type="radio" name="rate" value="100" id="rate-discounted">
       <strong>£100/hr:</strong>
       Discounted rate
     </label>
@@ -69,9 +69,9 @@ I'll give you a login to edit your site and as much advice as I can.
 
 ## Totals
 
-- **Total Hours:** <span id="total-hours">0</span>
-- **Hourly Rate:** £<span id="hourly-rate">200</span>
-- **Estimated Cost:** £<span id="total-cost">0</span>
+- **Total Hours:** <output id="total-hours" for="">0</output>
+- **Hourly Rate:** £<output id="hourly-rate" for="rate-standard rate-discounted">200</output>
+- **Estimated Cost:** £<output id="total-cost" for="">0</output>
 
 This is an estimate only, but if it sounds good please **[get in touch for a proper quote!](/contact/)**
 
@@ -93,10 +93,22 @@ These prices are also **discounted 50%** for charities, co-operatives, artists, 
     const rateSelector = 'input[name="rate"]:checked';
     const inputsSelector = 'input[type="checkbox"], input[type="radio"]';
 
+    const updateOutputForAttributes = () => {
+      const checkboxes = document.querySelectorAll('.calculator-items input[type="checkbox"]');
+      const checkboxIds = Array.from(checkboxes).map(cb => cb.id).join(' ');
+      const rateIds = 'rate-standard rate-discounted';
+
+      const totalHoursEl = document.getElementById('total-hours');
+      const totalCostEl = document.getElementById('total-cost');
+
+      if (totalHoursEl) totalHoursEl.setAttribute('for', checkboxIds);
+      if (totalCostEl) totalCostEl.setAttribute('for', `${checkboxIds} ${rateIds}`.trim());
+    };
+
     const calculateTotal = () => {
       const rateElement = document.querySelector(rateSelector);
       if (!rateElement) return;
-      
+
       const rate = rateElement.value;
 
       let totalHours = 0;
@@ -107,7 +119,7 @@ These prices are also **discounted 50%** for charities, co-operatives, artists, 
       const totalHoursEl = document.getElementById('total-hours');
       const hourlyRateEl = document.getElementById('hourly-rate');
       const totalCostEl = document.getElementById('total-cost');
-      
+
       if (totalHoursEl) totalHoursEl.textContent = totalHours;
       if (hourlyRateEl) hourlyRateEl.textContent = rate;
       if (totalCostEl) totalCostEl.textContent = totalHours * rate;
@@ -115,10 +127,12 @@ These prices are also **discounted 50%** for charities, co-operatives, artists, 
 
     const initCalculator = () => {
       if (initialized) return;
-      
+
       const inputs = document.querySelectorAll(inputsSelector);
       if (inputs.length === 0) return;
-      
+
+      updateOutputForAttributes();
+
       inputs.forEach(input => {
         input.addEventListener('change', calculateTotal);
       });

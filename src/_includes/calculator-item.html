@@ -1,6 +1,6 @@
 <li>
   <label>
-    <input type="checkbox" data-hours="{{ hours }}">
+    <input type="checkbox" data-hours="{{ hours }}" id="item-{{ hours }}-{{ description | slugify }}">
     <strong>{{ hours }} hour{% if hours != 1 %}s{% endif %}:</strong>
     {{ description }}
   </label>
