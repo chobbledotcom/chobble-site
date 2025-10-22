@@ -26,4 +26,4 @@ As Chobble is a pretty new business I don't have lots of reviews, but this page 
 
 > Stefan has always been very helpful and knowledgeable regarding websites and SEO since we first met him, probably around 2013. It was a no brainer to work with him when he started Chobble as the tips and information provided are extremely helpful.
 
-**If you'd like to work with me to make something awesome for your business, please [get in touch!](/contact/)**
+**If you'd like to work with me to make something awesome for your business, please fill in the form below!**

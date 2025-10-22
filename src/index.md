@@ -37,6 +37,6 @@ I am flexible and up for discussing anything.
 - [Expert advice](/services/technical-advice/)
 - Online marketing / content [guides](/guides/) and [videos](/videos/)
 
-[Learn more about my services here](/services/) or [contact me](/contact/) to get started.
+[Learn more about my services here](/services/) or fill in the form below to get started.
 
 </div>

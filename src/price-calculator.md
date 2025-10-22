@@ -12,7 +12,7 @@ I charge [a flat hourly rate](/prices/) for all jobs, discounted **50%** for cha
 
 This flat fee means I can be completely transparent about what's involved in each job, and static websites are generally easy to spec and affordable to host.
 
-For more complex jobs like custom web applications we will need to create a proper spec - [get in touch](/contact/) to talk about your requirements.
+For more complex jobs like custom web applications we will need to create a proper spec - fill in the form below to talk about your requirements.
 
 ## Your rate
 
@@ -73,7 +73,7 @@ I'll give you a login to edit your site and as much advice as I can.
 - **Hourly Rate:** £<output id="hourly-rate" for="rate-standard rate-discounted">200</output>
 - **Estimated Cost:** £<output id="total-cost" for="">0</output>
 
-This is an estimate only, but if it sounds good please **[get in touch for a proper quote!](/contact/)**
+This is an estimate only, but if it sounds good please **fill in the form below for a proper quote!**
 
 ---
 

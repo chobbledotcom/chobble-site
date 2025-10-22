@@ -58,4 +58,4 @@ The complete source code for this project is available [on my Git forge](https:/
 
 ## Sounds good?
 
-**If you'd like a website for your renewable energy business, my prices would be discounted 50% for you too! [Contact me](/contact/) to get the ball rolling.**
+**If you'd like a website for your renewable energy business, my prices would be discounted 50% for you too! fill in the form below to get the ball rolling.**

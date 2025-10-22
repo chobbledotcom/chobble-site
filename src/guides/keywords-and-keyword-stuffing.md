@@ -205,4 +205,4 @@ With that in mind, there are still some ways you can make your site more useful 
 - **Mix up** your keywords to stop your text sounding repetitive
 - **Break up** long pages with headings and sub-headings
 
-**If you want help optimising your website content without keyword stuffing, [get in touch](/contact/).**
+**If you want help optimising your website content without keyword stuffing, fill in the form below.**

@@ -60,7 +60,7 @@ All Wix work is done remotely. You'll give me temporary access to your site, I'l
 
 **Worried about technical SEO issues?** My [SEO audit service](/services/seo-audits/) uses industry-standard tools to identify performance problems that Wix's built-in analytics won't show you.
 
-**If you're wrestling with Wix's interface or wondering whether it's the right fit for your business, [get in touch](/contact/) and I'll give you straight answers.**
+**If you're wrestling with Wix's interface or wondering whether it's the right fit for your business, fill in the form below and I'll give you straight answers.**
 
 ## Local Wix Help in Prestwich & Manchester
 
@@ -112,4 +112,4 @@ A: You're stuck with whatever Wix decides to do - it's their platform, their rul
 
 A: Probably not. Wix's interface is overkill for simple sites, and you'll pay monthly fees forever for features you don't need. A [static website](/services/static-websites) would cost less upfront, load faster, and have no ongoing hosting fees. Save Wix for when you actually need dynamic features like booking systems or member areas.
 
-**Still got questions? [Get in touch](/contact/) - I'm happy to chat about your specific situation without any obligation.**
+**Still got questions? fill in the form below - I'm happy to chat about your specific situation without any obligation.**

@@ -37,4 +37,4 @@ Because the site is based on the Chobble Template a tonne of other functionality
 
 ..And more to come! I'm always improving and updating the template, and because it uses Git, every change and version is stored - so we can roll back to any point in time to fix any issues you have.
 
-**If you want a website for your restaurant or cafe, check out the [Chobble Template](/services/chobble-template/) - it's open source and free for anyone to use. And if you want me to build you a website based on it then [get in touch](/contact/)!**
+**If you want a website for your restaurant or cafe, check out the [Chobble Template](/services/chobble-template/) - it's open source and free for anyone to use. And if you want me to build you a website based on it then fill in the form below!**

@@ -208,4 +208,4 @@ The legal ramifications of using AI content have yet to be properly tested in co
 
 Everything I wrote here is accurate at the time of writing. To my nerdy brain, it seems as though AI's capabilities have hit a bit of a plateau and are unlikely to get substantially more impressive any time soon. But, I might be wrong, and it might be the case that in the future you can ask a Chatbot to write something in a Manchester dialect without it reading like a ridiculous Yorkshire sterotype.
 
-**If you want help using AI effectively for your website content, [get in touch](/contact/).**
+**If you want help using AI effectively for your website content, fill in the form below.**

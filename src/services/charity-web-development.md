@@ -78,6 +78,6 @@ Everything is transparent - you'll know exactly what each hour of work involves.
 
 ## Get started
 
-**Want professional web development at charity rates with complete transparency? [Contact me](/contact/) to discuss your organisation's website needs.**
+**Want professional web development at charity rates with complete transparency? fill in the form below to discuss your organisation's website needs.**
 
 I'm based in Prestwich, Manchester but work with charities anywhere. If you're local, we can meet for coffee to discuss your needs properly.

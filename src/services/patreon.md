@@ -74,4 +74,4 @@ Whether you're based in Prestwich or anywhere else in the UK, I'm sure I can hel
 
 **[Browse the free guides](/guides/)** or **[watch the videos](/videos/)** to start improving your website's performance today.
 
-If you'd like a website built with ongoing support to implement these strategies, [get in touch](/contact/) and I'll be happy to help.
+If you'd like a website built with ongoing support to implement these strategies, fill in the form below and I'll be happy to help.

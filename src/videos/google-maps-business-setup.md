@@ -20,4 +20,4 @@ I'll show you exactly why these listings appear before most websites (with real 
 
 Set up your free listing at [Google Business Profile](https://www.google.com/business/) to appear in local searches and on Google Maps.
 
-**If you'd like help setting up and optimising your Google Business listing for maximum local visibility, [contact me](/contact/).**
+**If you'd like help setting up and optimising your Google Business listing for maximum local visibility, fill in the form below.**

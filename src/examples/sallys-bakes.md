@@ -46,4 +46,4 @@ The site gives Sally a professional online presence where customers can easily f
 
 ## Source Code
 
-The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/sallys-bakes). If you own a small food business you can use it to build a website for yourself. Or, you can [get in touch with me](/contact/) and I can make a site for you too!
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/sallys-bakes). If you own a small food business you can use it to build a website for yourself. Or, you can fill in the form below and I can make a site for you too!

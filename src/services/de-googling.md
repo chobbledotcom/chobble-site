@@ -61,4 +61,4 @@ Basically - whatever your level of comfort with nerdy stuff, there's an open sou
 
 I bill by the hour, and setting up a Nextcloud installation, using Hetzner servers, and connecting to a custom domain takes about [two hours](/prices/). You'll set up a monthly recurring charge to the web host, which can be as cheap as £2 per month for a small server. Or I can manage the whole process - we'll have to discuss prices but I'll be 100% transparent.
 
-**If you want to switch away from Google and Big Tech for storing your documents, organising your media, talking to your friends, browsing the internet, or anything else, [contact me to get the ball rolling!](/contact/)**
+**If you want to switch away from Google and Big Tech for storing your documents, organising your media, talking to your friends, browsing the internet, or anything else, fill in the form below to get the ball rolling!**

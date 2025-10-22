@@ -18,4 +18,4 @@ Then I'll show you Dr. Link Check, a free tool that finds all your broken links 
 
 Use [Dr. Link Check](https://www.drlinkcheck.com/) to scan your website for broken links - it's free for smaller sites and shows you exactly what needs fixing.
 
-**If you'd like help developing a strategic linking strategy for your website that builds trust and drives conversions, [contact me](/contact/).**
+**If you'd like help developing a strategic linking strategy for your website that builds trust and drives conversions, fill in the form below.**

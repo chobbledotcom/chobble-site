@@ -16,4 +16,4 @@ Want to find out where your competitors get their backlinks from? Really handy G
 
 Also covers how to get around Google's personalised results that hide what you're really after, plus some clever ways to audit any website and find content gaps. It takes you from basic searches to competitive research in about 10 minutes. If you're sick of wondering how competitors rank better than you, this'll give you the tools to figure it out yourself.
 
-**If you'd like help conducting competitive research and implementing advanced SEO strategies for your business, [contact me](/contact/).**
+**If you'd like help conducting competitive research and implementing advanced SEO strategies for your business, fill in the form below.**

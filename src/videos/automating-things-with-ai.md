@@ -16,4 +16,4 @@ AI's really useful for automating boring website tasks if you know what you're d
 
 Also covers turning rough notes into proper emails, and more importantly, what NOT to use AI for (like unedited public content or making business decisions). It shows you the safe middle ground between avoiding AI completely and trusting it with everything. Very handy if you're spending ages on repetitive tasks.
 
-**If you'd like help automating your website tasks safely with AI, [contact me](/contact/).**
+**If you'd like help automating your website tasks safely with AI, fill in the form below.**

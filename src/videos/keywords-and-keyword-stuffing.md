@@ -16,4 +16,4 @@ Stop cramming keywords everywhere thinking it'll help you rank - it won't. This 
 
 I'll show you examples straight from Google's spam policies of what not to do, and why writing naturally works better than forcing keywords where they don't belong. Also covers the difference between someone searching "pizza" (could want anything) versus "pizza in Prestwich" (wants to order now). Really useful if you've been told to "use more keywords" but your content sounds like a robot wrote it.
 
-**If you'd like help writing natural content that ranks well without keyword stuffing, [contact me](/contact/).**
+**If you'd like help writing natural content that ranks well without keyword stuffing, fill in the form below.**

@@ -76,4 +76,4 @@ If you're local to Prestwich and want me to visit your premises to help you with
 
 I take 50% of the total fee before starting working, with the other 50% due on completion. I'll send you a link to pay by card - I don't take cheques or cash.
 
-**If this all sounds fair, [contact me](/contact/) and we'll get things moving!**
+**If this all sounds fair, fill in the form below and we'll get things moving!**

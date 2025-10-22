@@ -55,4 +55,4 @@ I'm being totally transparent about money and direction. I am a software develop
 
 AGPLv3 licensed - use it, change it, share it, but share your improvements too. Safety tools should be accessible to everyone.
 
-**If you'd like an account on play-test, or you'd like me to make a similar open source project for your industry, please [get in touch!](/contact/)**
+**If you'd like an account on play-test, or you'd like me to make a similar open source project for your industry, please fill in the form below!**

@@ -21,7 +21,7 @@ The site also includes a straightforward contact form with spam protection, powe
 
 This page details some of the decisions I made when building the site, so I hope you find it it helpful if you're making a website for a tradesperson too.
 
-Or, if you'd like me to build a similar site for your business, please [contact me](/contact/)!
+Or, if you'd like me to build a similar site for your business, please fill in the form below!
 
 ![Screenshot of the homepage of Renegade-Solar.co.uk](/assets/guides-renegade-screenshot.webp)
 
@@ -83,6 +83,6 @@ You'll need to adjust this for your preferred build tool, unless you also want t
 
 ## Can you do this for me?
 
-**If you're a tradesperson and you want me to build a website for you, just like the one mentioned in this guide, please [contact me](/contact/) to get the ball rolling.**
+**If you're a tradesperson and you want me to build a website for you, just like the one mentioned in this guide, please fill in the form below to get the ball rolling.**
 
 My pricing is very transparent and at the end you'll have full access to the source code behind your site. You can host with me and get personal support to help you understand and implement the strategies in my [marketing guides](/guides/) and [videos](/videos/) (which are free for everyone!), like Renegade are doing, or host wherever you like - totally fine either way.

@@ -93,4 +93,4 @@ No honest SEO expert should "guarantee" specific search positions. We don't have
 
 **Ethical SEO is a long-term process** requiring continuous work and evaluation. But with the right strategy and execution, most local businesses can dramatically improve their online visibility.
 
-**Ready to get your Prestwich business found on Google? [Contact me](/contact/) and we'll create a plan that actually works.**
+**Ready to get your Prestwich business found on Google? fill in the form below and we'll create a plan that actually works.**

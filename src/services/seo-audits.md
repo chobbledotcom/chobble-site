@@ -45,7 +45,7 @@ I do not guarantee improvements to search engine rankings and you should not tru
 
 I will never prioritise one customer over another - everyone pays the same [flat hourly fee](/prices/) and gets the same high quality of service.
 
-**If this sounds like a good fit for your website, please [contact me](/contact/) and we can get the ball rolling!**
+**If this sounds like a good fit for your website, please fill in the form below and we can get the ball rolling!**
 
 <div class="card margins" markdown>
 

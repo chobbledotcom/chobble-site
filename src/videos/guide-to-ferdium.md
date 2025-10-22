@@ -18,4 +18,4 @@ I'll show you how to set it up, add all your services, and configure it so you d
 
 Download [Ferdium](https://ferdium.org/) - the free, open-source app for managing all your web services and social media accounts in one place.
 
-**If you'd like help setting up efficient digital workflows and productivity systems for your business, [contact me](/contact/).**
+**If you'd like help setting up efficient digital workflows and productivity systems for your business, fill in the form below.**

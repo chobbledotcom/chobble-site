@@ -9,7 +9,7 @@ meta_description: Ruby on Rails freelancer in Manchester - I build enterprise-sc
 
 # Ruby on Rails Freelancer
 
-**[Drop me a message](/contact/) if you need a freelance Ruby on Rails developer in Manchester (or anywhere, really)**
+**fill in the form below if you need a freelance Ruby on Rails developer in Manchester (or anywhere, really)**
 
 Rails development is part of my broader [software development services](/services/software-developer/) - check that page if you're not sure whether Rails is the right fit for your project.
 
@@ -103,6 +103,6 @@ My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable en
 
 ## Let's build something!
 
-**If you need a Rails application built by someone who's actually done this before, at scale - [contact me](/contact/).** If you're local to Prestwich or Manchester, I'm happy to meet for a coffee and to chat through what you need.
+**If you need a Rails application built by someone who's actually done this before, at scale - fill in the form below.** If you're local to Prestwich or Manchester, I'm happy to meet for a coffee and to chat through what you need.
 
 Whether you're a startup that needs to build for growth from day one, a charity with a limited budget, an enterprise that needs systems that actually work, or a professional body that needs industry-wide infrastructure, you'll get the same approach: comprehensive tests, proper infrastructure, and code that scales.

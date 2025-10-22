@@ -63,4 +63,4 @@ How often should you post? Well if you've got loads to say, then feel free to po
 
 Actually, speaking of that, it's worth mentioning that there's a good chance that these blog posts will get pretty low visitor numbers in your website analytics. Don't be too disheartened by this. It's always frustrating when people don't see your hard work, but bear in mind that the people who DO see the post in search results, and click through, are likely to have searched for something very close to the blog post's topic and could be a really high value visitor.
 
-**If you need ideas for blog content that drives traffic to your site, [get in touch](/contact/).**
+**If you need ideas for blog content that drives traffic to your site, fill in the form below.**

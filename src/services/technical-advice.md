@@ -62,4 +62,4 @@ I won't bamboozle you with jargon or push you toward services you don't need. If
 
 Initial consultations are free, and I'm happy to chat about any tech challenges you're facing. You'll get clear explanations of your options without any pressure.
 
-**Having a technical headache? [Get in touch](/contact/) and let's sort it out together.**
+**Having a technical headache? fill in the form below and let's sort it out together.**

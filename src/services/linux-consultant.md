@@ -31,4 +31,4 @@ I can help you spec and build open source hardware solutions for things like sec
 
 I can debug Linux problems, fix performance issues, and help recover broken systems. I can help you build reproducible development setups, build systems, and deployment pipelines.
 
-**Whatever your Linux consulting needs are, wherever you are - [contact me](/contact/) to discuss your project.**
+**Whatever your Linux consulting needs are, wherever you are - fill in the form below to discuss your project.**
