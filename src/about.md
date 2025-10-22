@@ -34,4 +34,4 @@ Either "to chew food", "to talk loudly" or "to calm down" - but really I just ch
 
 ## How do I hire you?
 
-Click here to [contact me](/contact/) to discuss your web project and we can get things moving ASAP!
+Just fill in the form below to get in touch and we can get things moving ASAP!

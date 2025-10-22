@@ -19,7 +19,7 @@ If you'd like to "smart"-ify the electronics in your home or business, I can hel
 
 ## Who might be interested in this?
 
-If your day-to-day business involves electronic devices and you want to customise the way they behave, then [drop me a message](/contact/). I'm not an electrician but I can work with you to figure out what's possible and get a prototype working.
+If your day-to-day business involves electronic devices and you want to customise the way they behave, then drop me a message through the contact form on this page. I'm not an electrician but I can work with you to figure out what's possible and get a prototype working.
 
 ## What are some real examples?
 
@@ -38,6 +38,6 @@ If you're local to Prestwich, even better! We can test your device together on-p
 
 ## Let's talk!
 
-If this sounds good then **[drop me a message to get the ball rolling](/contact/)**. We'll come up with a plan, build a prototype, and iterate on it until we've got something perfect for your needs.
+If this sounds good then **drop me a message through the contact form on this page to get the ball rolling**. We'll come up with a plan, build a prototype, and iterate on it until we've got something perfect for your needs.
 
 I use open source tools which give you complete ownership over your data and code, so you'll own it forever.

@@ -73,7 +73,7 @@ I'll give you a login to edit your site and as much advice as I can.
 - **Hourly Rate:** £<output id="hourly-rate" for="rate-standard rate-discounted">200</output>
 - **Estimated Cost:** £<output id="total-cost" for="">0</output>
 
-This is an estimate only, but if it sounds good please **[get in touch for a proper quote!](/contact/)**
+This is an estimate only, but if it sounds good please **drop me a message through the contact form on this page for a proper quote!**
 
 ---
 

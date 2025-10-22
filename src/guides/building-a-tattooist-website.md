@@ -15,7 +15,7 @@ He needed a simple site which shows off his very unique style of tattoos in an e
 
 **You can view the full source code for the Noktorum site [here at git.chobble.com](https://git.chobble.com/hosted-by-chobble/noktorum).**
 
-This page explains some of the process that went into building this site, which you can use as inspiration for your own projects. Or, if you want a similar site made for your own tattoo studio, [contact me](/contact/)!
+This page explains some of the process that went into building this site, which you can use as inspiration for your own projects. Or, if you want a similar site made for your own tattoo studio, drop me a message through the contact form on this page!
 
 ## Base technology
 
@@ -88,4 +88,4 @@ You'll want to adjust this for your preferred build tool, unless you also want t
 
 ## Can you do this for me?
 
-**If you've read this guide and want me to build a website for you using this process, please [contact me](/contact/).** My [prices are very transparent](/prices/) and artists get a 50% discount. You will have full control over the site I build for you and can host wherever you like - or you can pay me to host and get free access to my [marketing guides](/guides/) and [videos](/videos/) to help promote your new site!
+**If you've read this guide and want me to build a website for you using this process, please drop me a message through the contact form on this page.** My [prices are very transparent](/prices/) and artists get a 50% discount. You will have full control over the site I build for you and can host wherever you like - or you can pay me to host and get free access to my [marketing guides](/guides/) and [videos](/videos/) to help promote your new site!

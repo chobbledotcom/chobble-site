@@ -54,4 +54,4 @@ As a lifelong Prestwichian, I can offer something different from remote agencies
 
 ## Lets get started!
 
-**You deserve a website that helps your business thrive and a technical partner who works in your interest. [Contact me to discuss your restaurant website requirements](/contact/).**
+**You deserve a website that helps your business thrive and a technical partner who works in your interest. Fill in the form below to discuss your restaurant website requirements.**

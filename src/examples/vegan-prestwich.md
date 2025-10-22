@@ -64,4 +64,4 @@ The complete source code for this project is available [on my Git forge](https:/
 
 ## Want your own directory?
 
-**I can help you build and manage an online directory of businesses, or locations, or anything else - [get in touch](/contact/) to discuss your ideas.**
+**I can help you build and manage an online directory of businesses, or locations, or anything else - just fill in the form below to get in touch to discuss your ideas.**

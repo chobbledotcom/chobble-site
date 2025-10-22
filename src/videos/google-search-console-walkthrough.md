@@ -20,4 +20,4 @@ This video walks you through the bits that actually matter - like seeing exactly
 
 Access [Google Search Console](https://search.google.com/search-console) to monitor your site's performance and get alerts about issues directly from Google.
 
-**If you'd like help interpreting your Search Console data and developing an SEO strategy that drives more customers, [contact me](/contact/).**
+**If you'd like help interpreting your Search Console data and developing an SEO strategy that drives more customers, [get in touch](/contact/).**

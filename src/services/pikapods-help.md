@@ -35,4 +35,4 @@ Maybe you want to **host a discussion forum** for your customers, free from the 
 
 Or maybe you need some way to **coordinate group meetings** for your organisation? [Rally](https://rallly.co) can do that - or if you need to collaborate on a wiki, I've heard great things about [Wiki.js](https://js.wiki).
 
-**These examples only cover a fraction of the things PikaPods is capable of. Whatever your needs are, there's probably an open source solution out there that I can help you get hosted at low cost. [Drop me a message](/contact/) to talk about your requirements.**
+**These examples only cover a fraction of the things PikaPods is capable of. Whatever your needs are, there's probably an open source solution out there that I can help you get hosted at low cost. just fill in the form below to get in touch to talk about your requirements.**

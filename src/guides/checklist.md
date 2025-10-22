@@ -75,4 +75,4 @@ For a deeper dive into writing content you might wanna check out my other guides
 
 Any visitor to your site that doesn't land on the exact thing they want is going to have to deal with your site's navigation, so you should make sure that this behaves really intuitively. Check your site on both desktop and mobile and make sure that each item on the navigation is visible, that it describes its destination well, that you're not going to overwhelm visitors with choice, and that the order of items makes sense. As a guide for order, I think people expect to see a "Home" or "About" link first, and a "Contact" last, but this is your call - as long as you've considered it.
 
-**If you'd like help implementing this SEO checklist for your website, [get in touch](/contact/).**
+**If you'd like help implementing this SEO checklist for your website, drop me a message through the contact form on this page.**

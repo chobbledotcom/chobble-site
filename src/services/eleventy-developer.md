@@ -50,7 +50,7 @@ I can implement **new layouts and collections** to expand your site's capabiliti
 
 Whatever you need building, my changes will integrate seamlessly with your existing codebase while maintaining Eleventy's excellent performance.
 
-**[Click here to contact me about upgrading your existing website](/contact/)**
+**Fill in the form below to discuss upgrading your existing website**
 
 </div>
 
@@ -76,7 +76,7 @@ If you're using another static site generator like Jekyll or Hugo, it's probably
 
 I've converted a bunch of sites from Jekyll to Eleventy - some examples are [Buttonkin](/examples/button-kin) and [Vegan Prestwich](/examples/vegan-prestwich/). Jekyll is cool but I was frustrated at the slow pace of development, and extending it isn't as straightforward as writing JavaScript, so switching felt like the clear best long-term choice.
 
-**[Contact me if you need help switching to Eleventy!](/contact/)**
+**Fill in the form below if you need help switching to Eleventy!**
 
 </div>
 
@@ -124,4 +124,4 @@ Training sessions can be conducted in person (if you're in Prestwich) or remotel
 
 Whether you're starting fresh or improving what you already have, I'll help you create and own a website that's fast, affordable, and built to last.
 
-**[Get in touch](/contact/) with me today and let's talk about your Eleventy project!**
+**drop me a message through the contact form on this page with me today and let's talk about your Eleventy project!**

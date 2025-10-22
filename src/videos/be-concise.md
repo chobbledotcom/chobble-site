@@ -16,4 +16,4 @@ Most business websites have a skewed "waffle to useful content" ratio - especial
 
 It'll show you how to replace 200 words of AI-generated fluff with 20 words that actually matter - information that visitors actually want. It takes 10 minutes to watch, could transform how you write website content.
 
-**If you'd like help writing concise, effective website content that converts visitors into customers, [contact me](/contact/).**
+**If you'd like help writing concise, effective website content that converts visitors into customers, drop me a message through the contact form on this page.**

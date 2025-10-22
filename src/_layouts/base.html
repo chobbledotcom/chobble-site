@@ -18,9 +18,7 @@
     <link href="/assets/fonts/font.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.png" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    {% if contact -%}
     <script src="https://unpkg.com/@botpoison/browser" async></script>
-    {% endif -%}
     <script>
       window.goatcounter = {no_onload: true}
       const trackPageView = () => {
@@ -43,7 +41,10 @@
     </header>
 
     <main>
-      <div class="container">{{ content }}</div>
+      <div class="container">
+        {{ content }}
+        {% include "contact-form.html" %}
+      </div>
     </main>
 
     <footer>

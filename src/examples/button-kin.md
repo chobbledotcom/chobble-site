@@ -74,6 +74,6 @@ I'd say try the template if you're comfortable with command line basics. Get me 
 
 ## Let's do it!
 
-Alright - glad to have convinced you! [Contact me via your preferred method](/contact/) to get the ball rolling. I take 50% payment up front and 50% on completion, and I can probably get started pretty quickly.
+Alright - glad to have convinced you! Fill in the form below to get the ball rolling. I take 50% payment up front and 50% on completion, and I can probably get started pretty quickly.
 
 **Want the free template instead?** [Download it here](https://git.chobble.com/hosted-by-chobble/buttonkin)

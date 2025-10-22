@@ -115,4 +115,4 @@ One question people have about Google Business listings is whether they _have_ t
 
 But, you then won't show up in maps listing in the maps listing quite as often, so this is your call. I've taken the view that it's _probably_ worth my address showing up for the sake of showing up a bit more often. Whether that's accurate, I don't really know.
 
-**If you want assistance setting up or optimising your Google Business listing, [get in touch](/contact/).**
+**If you want assistance setting up or optimising your Google Business listing, [contact me](/contact/).**

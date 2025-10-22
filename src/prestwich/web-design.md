@@ -71,6 +71,6 @@ My aim is to build local partnerships with organisations and individuals around 
 
 Ready to get your Prestwich business online properly?
 
-**[Contact me for a free quote](/contact/) if you want to get planning your new website!**
+**Fill in the form below for a free quote if you want to get planning your new website!**
 
 Check out more [example websites](/examples/) or see my [full pricing breakdown](/prices/) for complete transparency.

@@ -69,4 +69,4 @@ My expertise is websites, but through Vegan Prestwich I've learned what works on
 
 Let's build something that helps the vegan community find you.
 
-**[Get in touch](/contact/) and mention you're a vegan business. I'll get back to you within a day.**
+**use the contact form below to get in touch and mention you're a vegan business. I'll get back to you within a day.**
