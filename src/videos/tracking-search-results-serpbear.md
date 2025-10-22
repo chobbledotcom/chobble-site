@@ -18,4 +18,4 @@ I'll walk you through the whole setup - it takes about 20 minutes but once it's 
 
 Check out [SerpBear](https://docs.serpbear.com/) for open-source rank tracking, [Pikapods](https://www.pikapods.com/) for simple hosting, and [ScrapingRobot](https://scrapingrobot.com/) for affordable search result scraping.
 
-**If you'd like help setting up professional SEO tracking systems or interpreting your ranking data, fill in the form below.**
+**If you'd like help setting up professional SEO tracking systems or interpreting your ranking data, just fill in the form below to get in touch.**

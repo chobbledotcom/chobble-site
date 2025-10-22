@@ -18,7 +18,7 @@ You will need your Checkatrade ID. You can find this by:
 - Typing `ctrl+f` or `cmd+f` (mac) to search for `companyId`
 - The numbers immediately following this are your ID.
 
-_(Accurate May 2025 - fill in the form below if this doesn't work.)_
+_(Accurate May 2025 - send me a message through the form below if this doesn't work.)_
 
 Ready? Let's goooo!
 
@@ -445,4 +445,4 @@ The downside is that if Checkatrade changes their API, the scraper might stop wo
 
 ## Interested?
 
-If you'd like a custom review or data scraper, or any other automation for your business, fill in the form below. This Checkatrade example is straightforward but I have written much more complex scrapers for clients in the past and am always up for a challenge.
+If you'd like a custom review or data scraper, or any other automation for your business, send me a message through the form below. This Checkatrade example is straightforward but I have written much more complex scrapers for clients in the past and am always up for a challenge.

@@ -19,7 +19,7 @@ The base price is **£200 for an hour's work, or £100 if discounted for chariti
 
 An hour is probably plenty of time to wipe everything and get Linux up and running on one computer - but that price will be higher if you need me to handle backups and restores, as these can take a long time.
 
-So - for the best price, handle your own backups. You should have a good backup strategy, anyway - I can help (fill in the form below) if you don't.
+So - for the best price, handle your own backups. You should have a good backup strategy, anyway - I can help ([get in touch](/contact/)) if you don't.
 
 ## Why switch to Linux?
 
@@ -53,6 +53,6 @@ My process is straightforward: If requested, I start with **data backup** to pre
 
 A minority of computer peripherals only work with Windows - if that's your situation, I can help you find better, universally-compatible alternatives. In the very rare case that this isn't an option, you might be stuck with Windows. Boo!
 
-**Ready to escape the frustration of Windows? fill in the form below to supercharge your tech with Linux.**
+**Ready to escape the frustration of Windows? [get in touch](/contact/) to supercharge your tech with Linux.**
 
 For advanced Linux consulting services, server administration, or custom configurations, see my [Linux consulting services](/services/linux-consultant/).

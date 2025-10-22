@@ -124,4 +124,4 @@ Training sessions can be conducted in person (if you're in Prestwich) or remotel
 
 Whether you're starting fresh or improving what you already have, I'll help you create and own a website that's fast, affordable, and built to last.
 
-**fill in the form below with me today and let's talk about your Eleventy project!**
+**drop me a message through the contact form on this page with me today and let's talk about your Eleventy project!**

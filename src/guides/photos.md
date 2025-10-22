@@ -75,4 +75,4 @@ You might be tempted to just copy paste images from someone else's site onto you
 
 Alright, I hope this gives you plenty to think about when it comes to the photos on your site. Honestly, I'd sometimes say that having no photo is better than having a bad one. Bad photos can make your site look unprofessional, and might make your products look low quality. You don't have to take professional photographer grade photos for most industries, but you can at least take good cameraphone ones.
 
-**If you need help with product photography for your website, fill in the form below.**
+**If you need help with product photography for your website, use the contact form below to get in touch.**

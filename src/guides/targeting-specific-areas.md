@@ -181,4 +181,4 @@ Attracting visitors from specific areas is a long-term project and takes real wo
 - Local endorsements that customers might recognise
 - Partnerships with friendly businesses
 
-**If you need help targeting specific areas for your local business, fill in the form below.**
+**If you need help targeting specific areas for your local business, use the contact form below to get in touch.**

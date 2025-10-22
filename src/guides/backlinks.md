@@ -229,4 +229,4 @@ If you want to read more about search engine rankings, Google has some great adv
 
 ## The end
 
-**If you'd like professional help building quality backlinks for your website, fill in the form below.**
+**If you'd like professional help building quality backlinks for your website, [get in touch](/contact/).**

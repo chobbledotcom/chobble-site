@@ -16,4 +16,4 @@ Missing out on customers from nearby towns because they can't find you when they
 
 I've got 9 questions you need to answer about each area you want to target - stuff like transport links, local competition, what makes you different. Then I show you how to turn that research into a page that's genuinely useful, not just "we also serve X area" rubbish. One good location page a month beats ten copy-paste jobs. It works for any business where people will travel a bit for your service.
 
-**If you'd like help creating location-specific content that attracts customers from your entire service area, fill in the form below.**
+**If you'd like help creating location-specific content that attracts customers from your entire service area, send me a message through the form below.**

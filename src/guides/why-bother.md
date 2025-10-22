@@ -91,4 +91,4 @@ The annoying reality with web marketing is that it's often very hard to pinpoint
 
 Of course, a good way around this is to just ask customers how they found you - which is probably the most accurate way to measure your success, with the bonus side effect of probably giving you new ideas of how to market yourself.
 
-**If you're ready to start promoting your website properly, fill in the form below.**
+**If you're ready to start promoting your website properly, use the contact form below to get in touch.**

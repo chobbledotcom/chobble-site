@@ -16,4 +16,4 @@ Trying to rank for "pizza" or "plumber"? Good luck competing with Pizza Hut and 
 
 When someone searches "solicitor" they could want anything, but "no win no fee cycling accident solicitor Manchester" - that's someone who knows exactly what they need. I'll show you how to find these long tail keywords for your business and why they're really useful for getting actual customers, not just random browsers. It takes the fight away from the big boys and lets you compete where you've got a chance.
 
-**If you'd like help identifying profitable long tail keywords for your business and creating content that ranks, fill in the form below.**
+**If you'd like help identifying profitable long tail keywords for your business and creating content that ranks, use the contact form below to get in touch.**

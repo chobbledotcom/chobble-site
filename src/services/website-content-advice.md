@@ -9,7 +9,7 @@ meta_description: Website content review £200 - clear list of fixes in priority
 
 # Website Content Advice
 
-**Summary: I will spend [an hour](/prices/) giving your site a once-over, to create a list of tasks to do in priority order - plus how long it would take me to do each. fill in the form below if this sounds like a good fit for your site!**
+**Summary: I will spend [an hour](/prices/) giving your site a once-over, to create a list of tasks to do in priority order - plus how long it would take me to do each. [contact me](/contact/) if this sounds like a good fit for your site!**
 
 When I talk to small business owners about improving their existing websites they often feel overwhelmed by the apparent size of the task ahead of them.
 
@@ -54,4 +54,4 @@ You will pay **100% up front for my initial read over your site**. If you decide
 
 ## Let's do this!
 
-Great! fill in the form below to get the ball rolling.
+Great! [contact me](/contact/) to get the ball rolling.

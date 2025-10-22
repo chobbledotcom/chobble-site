@@ -99,4 +99,4 @@ Alright, hopefully that gives you a pretty good overview of Google Search Consol
 
 For a few months after you first sign up for Google Search Console they'll send you occasional emails about how your site is performing, and these can contain some pretty interesting statistics and details. But long term, they'll also email you if something needs your attention about your website. Google Search Console is the only way to get notified if your site gets penalised for doing something spammy, for example, or if something changes on your site by mistake and your pages end up not being indexable - this is the only place you'll find out. So keep those notifications turned on, and pay attention to the emails they send!
 
-**If you need help setting up or understanding Google Search Console, fill in the form below.**
+**If you need help setting up or understanding Google Search Console, just fill in the form below to get in touch.**

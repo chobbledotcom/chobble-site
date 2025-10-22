@@ -59,4 +59,4 @@ Kev is a copywriter and marketer who has been doing this about 15 years and real
 
 His website is at [KevinBurkeServices.com](https://kevinburkeservices.com). Tell him that Stef sent you!
 
-**If you need help finding a trustworthy marketing partner for your website, fill in the form below.**
+**If you need help finding a trustworthy marketing partner for your website, just fill in the form below to get in touch.**

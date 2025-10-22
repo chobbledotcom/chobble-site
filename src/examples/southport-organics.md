@@ -34,4 +34,4 @@ Right now the Southport Organics website links through to Etsy for sales, but I 
 
 **If you want an e-commerce site we can use Stripe to let you sell directly to your customers without involving marketplaces like Etsy or Ebay.**
 
-fill in the form below to get the ball rolling on your new ecommerce site!
+drop me a message through the contact form on this page to get the ball rolling on your new ecommerce site!

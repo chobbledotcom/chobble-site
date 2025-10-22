@@ -48,4 +48,4 @@ This resulted in Markdown files that were _mostly_ good but needed a bit of tidy
 
 The new site is super fast, very reliable, and its hosting is cheap at just £10 per month. It can be edited through the Forgejo web interface by changing simple text files, although A&S handle all maintenance of the site through Kevin, which means they don't have to learn anything technical.
 
-**If you're currently paying a high hosting cost price for a website that's not working for you then fill in the form below to arrange a migration. It's your website - you should own it.**
+**If you're currently paying a high hosting cost price for a website that's not working for you then send me a message through the form below to arrange a migration. It's your website - you should own it.**

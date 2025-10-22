@@ -45,4 +45,4 @@ For businesses in Manchester, Framework laptops make more sense than Dell or HP 
 
 ## Let's do it!
 
-**If you want to build your own Framework laptop and would like someone sat next to you who's done it before and is familiar with what goes where, fill in the form below and we'll get things planned.**
+**If you want to build your own Framework laptop and would like someone sat next to you who's done it before and is familiar with what goes where, send me a message through the form below and we'll get things planned.**

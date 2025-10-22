@@ -150,4 +150,4 @@ I hope the above gives you plenty to think about when writing your product, cate
 
 **"For this product / service / category specifically, why should the visitor choose your business over someone else?"**
 
-**If you want help writing service pages that convert visitors into customers, fill in the form below.**
+**If you want help writing service pages that convert visitors into customers, send me a message through the form below.**

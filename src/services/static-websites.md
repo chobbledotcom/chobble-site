@@ -88,4 +88,4 @@ Not all of these stages will be necessary for every site, and you might be able 
 
 ## Let's do it!
 
-**If static website development sounds right for your business, fill in the form below today and we can start planning.**
+**If static website development sounds right for your business, just fill in the form below to get in touch today and we can start planning.**

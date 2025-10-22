@@ -24,4 +24,4 @@ In any case you'll get the benefit of my decades of experience building and main
 
 ## Services
 
-I'm up for discussing anything you think I can help you with (just fill in the form below) - but here are some of the main services you may be interested in:
+I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in:

@@ -55,4 +55,4 @@ So, there we have it - a hopefully solid approach to structuring your website th
 
 Don't worry if you need to revisit and adjust your structure as you go! That's a normal part of your site's evolution. The important thing is to be thinking about this deliberately, rather than letting your site grow wild and chaotic.
 
-**If you'd like help structuring your website for better navigation and SEO, fill in the form below.**
+**If you'd like help structuring your website for better navigation and SEO, send me a message through the form below.**
