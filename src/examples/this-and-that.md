@@ -62,4 +62,4 @@ For restaurants that focus on quality over gimmicks, this approach proves you do
 
 The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that). If you'd like a site like it, you can clone the repo - but I'd advise starting from the newer [Chobble Template](https://git.chobble.com/chobble/chobble-template) instead.
 
-**Is your restaurant website slow, expensive, or constantly breaking? Tired of digital marketing companies trying to upsell you services you don't need? [contact me](/contact/) to discuss a simple, reliable website that actually helps your business instead of creating more work for you.**
+**Is your restaurant website slow, expensive, or confusing? [Contact me](/contact/) to discuss a simple, reliable website that works for your business and is really easy to manage.**
