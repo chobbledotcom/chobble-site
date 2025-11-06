@@ -67,6 +67,4 @@ My expertise is websites, but through Vegan Prestwich I've learned what works on
 
 ## Ready to get started?
 
-Let's build something that helps the vegan community find you.
-
-**use the contact form below to get in touch and mention you're a vegan business. I'll get back to you within a day.**
+**Use the contact form below to get in touch and I'll get back to you within a day or so.**
