@@ -25,7 +25,7 @@ Here's how I help with Wix sites:
 
 **Improve site performance** - I'll identify what's slowing your site down and work within Wix's constraints to speed things up where possible.
 
-**Export your data safely** - If you decide Wix isn't right for you, I can help extract your content and get it ready for a better platform.
+**Export your data safely** - If you decide Wix isn't right for you, I can help extract your content and get it ready for a better-suited platform.
 
 ## Specific Wix Features I Can Set Up
 
