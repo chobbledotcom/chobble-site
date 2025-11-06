@@ -59,7 +59,7 @@
           pkgs = import nixpkgs { system = system; };
 
           # Default dependencies for packages
-          defaultDependencies = with pkgs; [ nodejs_23 ];
+          defaultDependencies = with pkgs; [ nodejs_24 ];
 
           # Extended dependencies for development
           devDependencies = defaultDependencies ++ (with pkgs; [ biome ]);
