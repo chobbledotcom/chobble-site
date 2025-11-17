@@ -17,7 +17,7 @@ Making edits to this site might be slightly more difficult than editing your dyn
 
 I can even build a [static site generator](/services/static-websites/) around your archived site, making edits easier but still allowing for very low cost hosting options.
 
-**use the contact form below to get in touch if this sounds like a good fit for your site.**
+**Use the contact form below to get in touch if this sounds like a good fit for your site.**
 
 ## Dynamic / static / what??
 
