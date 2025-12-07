@@ -1,34 +1,34 @@
 {
-  "items": [
-    {
-      "text": "About",
-      "url": "/about/",
-      "section": "about"
-    },
-    {
-      "text": "Services",
-      "url": "/services/",
-      "section": "services"
-    },
-    {
-      "text": "Reviews",
-      "url": "/reviews/",
-      "section": "reviews"
-    },
-    {
-      "text": "Examples",
-      "url": "/examples/",
-      "section": "examples"
-    },
-    {
-      "text": "Prices",
-      "url": "/prices/",
-      "section": "prices"
-    },
-    {
-      "text": "Contact",
-      "url": "/contact/",
-      "section": "contact"
-    }
-  ]
+	"items": [
+		{
+			"text": "Principles",
+			"url": "/principles/",
+			"section": "principles"
+		},
+		{
+			"text": "Services",
+			"url": "/services/",
+			"section": "services"
+		},
+		{
+			"text": "Reviews",
+			"url": "/reviews/",
+			"section": "reviews"
+		},
+		{
+			"text": "Examples",
+			"url": "/examples/",
+			"section": "examples"
+		},
+		{
+			"text": "Prices",
+			"url": "/prices/",
+			"section": "prices"
+		},
+		{
+			"text": "Contact",
+			"url": "/contact/",
+			"section": "contact"
+		}
+	]
 }

@@ -1,12 +1,32 @@
 ---
 layout: about.html
+redirect_from:
+  - "/about/"
 title: About Stefan from Chobble - a web developer in Prestwich
 description: I've been building websites and software for decades, for companies of all sizes.
 meta_title: About Chobble | Web & Ruby Developer Manchester
 meta_description: Manchester web dev with 20+ years building sites from local charities to Bandcamp - open source everything, flat rate pricing, you own your code - no sneaky contracts
 ---
 
-# About Chobble
+# Chobble's Principles
+
+This business works to a set of straightforward principles:
+
+- **Transparency:** No secrets are kept from customers. The software powering their website is theirs to inspect.
+- **Own, not rent:** Our income comes from building things and providing services - not from charging rent.
+- **Fair prices:** Our prices are flat for all jobs and are set at the market rate for an experienced freelance programmer - with a 50% discount for charities, cooperatives, and artists.
+- **Freedom:** Customers have full control of their data and can move it to any provider.
+
+The goal of these principles is to **encourage customers to choose Chobble based on the quality of our work**. This might sound like a strange thing to have to spell out, but it's actually quite different from how many companies operate by
+
+- Locking you in with a contract
+- Holding your data hostage by making it hard to move
+- Ratcheting up the ongoing costs
+- Providing the minimal level of service to not lose your custom
+
+For more information about the principles behind Chobble, you might want to read the Wikipedia pages for [Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism) and [Anarchism](https://en.wikipedia.org/wiki/Anarchism).
+
+## Who is Chobble?
 
 Chobble is me, Stef, from Prestwich, Manchester ([here's my CV](https://www.stefn.co.uk/cv/)) - a [freelance software developer](/services/software-developer/) with over 20 years of experience working on websites of all sizes - from local charities like [Blue Pits](https://www.bluepitshousingaction.co.uk) and social groups like [Vegan Prestwich](https://veganprestwich.co.uk) to busy web applications like [Bouncy Castle Network](https://www.bouncycastlenetwork.com) and huge international storefronts like [Bandcamp.com](https://bandcamp.com).
 

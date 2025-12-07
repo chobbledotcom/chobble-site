@@ -287,16 +287,11 @@ header {
         }
       }
       @media (min-width: 900px) {
-        li:first-child a {
-          padding-left: 1.5rem;
-        }
-        li:last-child a {
-          padding-right: 1.5rem;
-        }
+        padding: 0 0.5rem;
       }
       @media (min-width: 1200px) {
         a {
-          padding: 1rem 1.5rem;
+          padding: 1rem;
         }
       }
     }
@@ -484,7 +479,7 @@ main {
 .cards,
 .vegan-business-websites .examples ul,
 .static-websites .examples ul,
-.restaurant-web-design .examples ul, {
+.restaurant-web-design .examples ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
