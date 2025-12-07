@@ -2,9 +2,8 @@
 layout: about.html
 redirect_from:
   - "/about/"
-title: About Stefan from Chobble - a web developer in Prestwich
-description: I've been building websites and software for decades, for companies of all sizes.
-meta_title: About Chobble | Web & Ruby Developer Manchester
+title: Principles
+meta_title: Principles | Chobble | Web & Ruby Developer Manchester
 meta_description: Manchester web dev with 20+ years building sites from local charities to Bandcamp - open source everything, flat rate pricing, you own your code - no sneaky contracts
 ---
 
@@ -12,19 +11,22 @@ meta_description: Manchester web dev with 20+ years building sites from local ch
 
 This business works to a set of straightforward principles:
 
-- **Transparency:** No secrets are kept from customers. The software powering their website is theirs to inspect.
-- **Own, not rent:** Our income comes from building things and providing services - not from charging rent.
-- **Fair prices:** Our prices are flat for all jobs and are set at the market rate for an experienced freelance programmer - with a 50% discount for charities, cooperatives, and artists.
+- **Transparency:** No secrets are kept from customers. The software powering they rely on is theirs to keep.
+- **Own, not rent:** Its income comes from building things and providing services - not from charging rent.
+- **Fair prices:** Its prices are flat for all jobs and are set at the market rate for an experienced freelance programmer - with a 50% discount for charities, cooperatives, and artists.
 - **Freedom:** Customers have full control of their data and can move it to any provider.
 
-The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's actually quite different from how many companies operate by
+The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's actually quite different from how many companies operate by:
 
 - Locking you in with a contract
-- Holding your data hostage by making it hard to move
+- Making it hard to move which holds your data hostage
 - Ratcheting up the ongoing costs
+- Taking a cut of your profits
 - Providing the minimal level of service to not lose your custom
 
-For more information about the principles behind Chobble, you might want to read the Wikipedia pages for [Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism) and [Anarchism](https://en.wikipedia.org/wiki/Anarchism).
+Chobble was founded to try and create a sustainable tech business that doesn't fall into any of these bad habits. And by writing these priciples out in public, I make it easier for customers and potential customers to hold me to them.
+
+For a deep dive into the -isms behind Chobble, you might want to read the Wikipedia pages for [Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism) and [Anarchism](https://en.wikipedia.org/wiki/Anarchism).
 
 ## Who is Chobble?
 
