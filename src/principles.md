@@ -12,13 +12,16 @@ meta_description: Manchester web dev with 20+ years building sites from local ch
 This business works to a set of straightforward principles:
 
 - **Transparency:** No secrets are kept from customers. The tools they rely on are theirs to keep.
+- **Honesty:** If you don't need my services or if some other provider would serve you better, I'll tell you.
 - **Own, not rent:** My income comes from building things and providing services - not from charging rent.
 - **Fair prices:** My prices are flat for all jobs and are set at the market rate for an experienced freelance programmer - with a 50% discount for charities, cooperatives, and artists.
 - **Freedom:** Customers have full control of their data and can move it to any provider.
+- **No harmful industries:** I will not participate in the exploitation of humans or animals.
 
 The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's actually quite different from how many companies operate by:
 
 - Locking you in with a contract
+- Hiding the inner workings from you
 - Making it hard to move which holds your data hostage
 - Ratcheting up the ongoing costs
 - Taking a cut of your profits
@@ -48,7 +51,7 @@ I do not force you to host on my server, and I provide instructions for hosting 
 
 I am happy to explain as much about how your website works as you like, and will share all source code by default - [here's my source repository](https://git.chobble.com).
 
-I know many other [tech-adjacent people](/friends/) (eg designers, copywriters, marketers) and are happy to connect you with them if you need their services.
+I know many other [tech-adjacent people](/friends/) (eg designers, copywriters, marketers) and am happy to connect you with them if you need their services.
 
 ## What does "Chobble" mean?
 
