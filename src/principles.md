@@ -11,9 +11,9 @@ meta_description: Manchester web dev with 20+ years building sites from local ch
 
 This business works to a set of straightforward principles:
 
-- **Transparency:** No secrets are kept from customers. The software powering they rely on is theirs to keep.
-- **Own, not rent:** Its income comes from building things and providing services - not from charging rent.
-- **Fair prices:** Its prices are flat for all jobs and are set at the market rate for an experienced freelance programmer - with a 50% discount for charities, cooperatives, and artists.
+- **Transparency:** No secrets are kept from customers. The tools they rely on are theirs to keep.
+- **Own, not rent:** My income comes from building things and providing services - not from charging rent.
+- **Fair prices:** My prices are flat for all jobs and are set at the market rate for an experienced freelance programmer - with a 50% discount for charities, cooperatives, and artists.
 - **Freedom:** Customers have full control of their data and can move it to any provider.
 
 The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's actually quite different from how many companies operate by:
@@ -24,7 +24,7 @@ The goal of these principles is to **encourage customers to choose Chobble based
 - Taking a cut of your profits
 - Providing the minimal level of service to not lose your custom
 
-Chobble was founded to try and create a sustainable tech business that doesn't fall into any of these bad habits. And by writing these priciples out in public, I make it easier for customers and potential customers to hold me to them.
+Chobble was founded to try and create a sustainable tech business that doesn't fall into any of these bad habits. And by writing these principles out in public, I make it easier for customers and potential customers to hold me to them.
 
 For a deep dive into the -isms behind Chobble, you might want to read the Wikipedia pages for [Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism) and [Anarchism](https://en.wikipedia.org/wiki/Anarchism).
 
