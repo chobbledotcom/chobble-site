@@ -12,7 +12,7 @@ meta_description: Manchester web dev with 20+ years building sites from local ch
 This business works to a set of straightforward principles:
 
 - **Transparency:** No secrets are kept from customers. The tools they rely on are theirs to keep.
-- **Honesty:** If you don't need my services or if some other provider would serve you better, I'll tell you.
+- **Honesty:** If you don't need my services or another provider would suit you better, I'll tell you.
 - **Own, not rent:** My income comes from building things and providing services - not from charging rent.
 - **Fair prices:** My prices are flat for all jobs and are set at the market rate for an experienced freelance programmer - with a 50% discount for charities, cooperatives, and artists.
 - **Freedom:** Customers have full control of their data and can move it to any provider.
