@@ -18,9 +18,9 @@ This business works to a set of straightforward principles:
 - **Freedom:** Customers have full control of their data and can move it to any provider.
 - **No harmful industries:** I will not participate in the exploitation of humans or animals.
 
-The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's actually quite different from how many companies operate by:
+The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's actually quite different from what many tech companies do:
 
-- Locking you in with a contract
+- Locking you in with contracts
 - Hiding the inner workings from you
 - Making it hard to move which holds your data hostage
 - Ratcheting up the ongoing costs
