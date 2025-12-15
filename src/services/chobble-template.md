@@ -33,22 +33,23 @@ For an example of a restaurant / cafe site fully using the template to list food
 
 The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost. For more on effective SEO strategies, check out my [free guides](/guides/#content).
 
-Since I released the template it's grown a lot. The current version _(accurate August 2025)_ includes pretty much everything a small business website needs:
+Since I released the template it's grown a lot. The current version _(accurate December 2025)_ includes pretty much everything a small business website needs:
 
-**Content management:** The template has built-in collections for news posts, products with galleries, team member profiles, and multiple pages with automatic navigation. If you're running a restaurant or cafe, there's a complete menu system with categories, individual items, pricing, and dietary flags (vegan, gluten-free). Events are handled with both one-off dates and recurring schedules (like "every first Wednesday"), and they generate iCal feeds so people can subscribe to your calendar.
+**Content management:** The template has built-in collections for news posts, products with galleries, team member profiles, and multiple pages with automatic navigation. Products can have options (like size or colour) with individual pricing, FAQs, specifications, and features lists. If you're running a restaurant or cafe, there's a menu system with categories, items, pricing, and dietary flags (vegan, gluten-free). Events work with both one-off dates and recurring schedules, and generate subscribable iCal feeds. There's also a locations system for multi-site businesses, and a properties system for holiday lets. Reusable content blocks (snippets) can be included across pages.
 
-**Design and presentation:** Images are automatically responsive and lazy-loading thanks to Eleventy's image plugin, with base64 placeholders that appear while the full image loads. The template comes with several pre-built themes you can switch between - Neon (dark with bright accents), 90s Computer, Floral, Hacker, Monochrome, and Retro. You can even use different themes on different pages if you want. There's a theme editor at `/theme-editor/` where you can test changes live.
+**Shopping and payments:** The template includes a shopping cart that stores items in the browser. Customers can add products, adjust quantities, and check out via Stripe or PayPal. There's also a quote/enquiry mode where customers build a cart and submit it as a request instead of paying online. An optional Node.js backend handles payment processing, with Docker support for deployment. Products use auto-generated SKUs for tracking.
 
-**Technical bits:** The template uses semantic HTML and minimal CSS from MVP.css, which keeps things fast. Turbo makes page transitions instant. Contact forms use Formspark for delivery and Botpoison to block spammers. Behind the scenes there's Schema.org structured data for better SEO, SCSS support for advanced styling, and automatic navigation generation. The code gets tidied up by Prettier and checked by Biome linting. It builds quickly with Nix flakes and works with both GitHub Actions and Forgejo Actions for automated deployment.
+**Design and presentation:** Images are automatically responsive and lazy-loading, with base64 placeholders while loading. There are 10 pre-built themes: Default, Neon, 90s Computer, Floral, Hacker, Monochrome, Ocean, Old Mac, Rainbow, and Sunset. You can use different themes on different pages. The theme editor at `/theme-editor/` lets you customise colours, fonts, borders, and layout, then download your changes as a file. Galleries have thumbnail navigation and full-size overlays. There's a slider component for horizontal scrolling, and scroll-fade animations (which respect reduced motion preferences).
 
-**Business features:** Opening hours display nicely on every page. Social media links (Facebook, Instagram, TikTok, WhatsApp, Mastodon, Google Maps) appear in the footer. Reviews and testimonials have their own section. The RSS feed has clear instructions for subscribers, and there's a proper sitemap for search engines.
+**Technical bits:** The template uses semantic HTML and minimal CSS from MVP.css. Turbo makes page transitions instant. Contact forms use Formspark for delivery and Botpoison to block spam. Schema.org structured data covers products (with reviews and ratings), events, FAQs, and organisation details. SCSS support for styling, automatic navigation generation, and keyword-based search are included. Biome handles linting and there's duplicate code detection via jscpd. A test suite with 17+ test files runs in CI. It builds with Nix flakes and works with GitHub Actions and Forgejo Actions.
 
-**Hosting flexibility:** The template works on loads of different hosts. There are example sites running on Bunny.net, Pico.sh Pages, and other platforms. The PagesCMS editor integration means you can update content without touching code if you prefer.
+**Business features:** Opening hours display on every page. Social media links appear in the footer - the template supports 14 platforms including Facebook, Instagram, TikTok, WhatsApp, Mastodon, YouTube, LinkedIn, and more. Reviews link to specific products and show aggregate ratings. The RSS feed has instructions for subscribers, and there's a sitemap for search engines. Navigation can be horizontal or in a left sidebar, with sticky mobile nav as an option.
+
+**Hosting flexibility:** The template works on different hosts. There are example sites running on Bunny.net, Pico.sh Pages, and other platforms. PagesCMS integration means you can update content without touching code.
 
 I have a few ideas about future additions:
 
 - Encrypted pages for login-only access
-- Product sales via Stripe for sites that don't need live stock tracking
 - YouTube and audio embeds
 
 ## How can I use it?
