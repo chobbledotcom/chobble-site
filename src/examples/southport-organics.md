@@ -3,7 +3,7 @@ title: Southport Organics
 meta_title: Southport Organics | E-commerce Website | Chobble
 meta_description: Organic cosmetics site with PagesCMS editing - Eleventy build, Bunny CDN hosting - avoid Etsy fees with direct sales - e-commerce example
 snippet: A 'Chobble Template' CMS website for an organic cosmetics company
-order: 10
+order: 4
 colour: "#111"
 ---
 

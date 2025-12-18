@@ -1,7 +1,7 @@
 ---
 title: Avo Coffee
 snippet: A straightforward website for a friendly cafe in Haslingden
-order: 2
+order: 10
 colour: "#fcf8d7"
 meta_title: Avo Coffee Website | Cafe Web Design Example | Chobble
 meta_description: Simple cafe website with easy menu updates - built with Eleventy - fast loading, no PDFs - Haslingden cafe web design example

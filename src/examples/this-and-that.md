@@ -3,7 +3,7 @@ title: This & That Cafe
 meta_title: This & That Cafe | Restaurant Website | Chobble
 meta_description: Manchester curry house website since 2016 - Jekyll build, instant menu loading - social media management included
 snippet: A simple, fast website for Manchester's most famous curry house
-order: 1
+order: 4
 colour: white
 ---
 

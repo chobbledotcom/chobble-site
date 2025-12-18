@@ -3,7 +3,7 @@ title: A&S Home Furnishings
 meta_title: A&S Home Furnishings | Website Migration | Chobble
 meta_description: Migrated expensive CMS to fast Eleventy static site - wget backup, pandoc conversion - affordable hosting - website migration example
 snippet: An expensive CMS site to an affordable static one
-order: 10
+order: 7
 colour: "#ebe3d8"
 ---
 

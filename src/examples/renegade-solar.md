@@ -1,7 +1,7 @@
 ---
 title: Renegade Solar
 snippet: Solar panel and battery installer covering the North West UK
-order: 4
+order: 3
 colour: white
 meta_title: Renegade Solar | Solar Installer Website | Chobble
 meta_description: Solar panel installer website - escaped slow Wix site - now gets weekly enquiries - Eleventy build with PagesCMS - Manchester web design example

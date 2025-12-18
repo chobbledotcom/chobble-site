@@ -3,7 +3,7 @@ title: Blue Pits Housing Action
 meta_title: Blue Pits Housing Action | Charity Website | Chobble
 meta_description: Registered charity website built with Jekyll - charity discount rates - email updates live in 24 hours - 14+ years support
 snippet: Affordable charity website development and ongoing support
-order: 2
+order: 9
 colour: white
 ---
 
