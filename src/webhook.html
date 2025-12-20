@@ -4,78 +4,46 @@ permalink: "/webhook/"
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>HTML Poster</title>
-    <meta name="robots" content="noindex" />
-    <style>
-      body {
-        font-family: sans-serif;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        gap: 0.5rem;
-        box-sizing: border-box;
-        margin: 0;
-      }
-      textarea {
-        flex: 1;
-        padding: 0.5rem;
-        font-family: monospace;
-        font-size: 14px;
-      }
-      .row {
-        display: flex;
-        gap: 0.5rem;
-      }
-      input {
-        flex: 1;
-        padding: 0.5rem;
-      }
-      button {
-        padding: 0.5rem 1rem;
-        background: #3b82f6;
-        color: white;
-        border: none;
-        cursor: pointer;
-      }
-      button:disabled {
-        opacity: 0.5;
-      }
-    </style>
-  </head>
-  <body>
-    <textarea id="html-input" placeholder="Paste HTML here..."></textarea>
-    <div class="row">
-      <input type="text" id="endpoint" placeholder="Endpoint URL" />
-      <button id="btn" onclick="postHtml()">Post</button>
-    </div>
-    <textarea
-      id="response"
-      placeholder="Response will appear here..."
-      readonly
-    ></textarea>
+<head>
+  <title>HTML Poster</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    body { font-family: sans-serif; padding: 1rem; display: flex; flex-direction: column; height: 100vh; gap: 0.5rem; box-sizing: border-box; margin: 0; }
+    textarea { flex: 1; padding: 0.5rem; font-family: monospace; font-size: 14px; }
+    .row { display: flex; gap: 0.5rem; }
+    input { flex: 1; padding: 0.5rem; }
+    button { padding: 0.5rem 1rem; background: #3b82f6; color: white; border: none; cursor: pointer; }
+    button:disabled { opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <textarea id="html-input" placeholder="Paste HTML here..."></textarea>
+  <div class="row">
+    <input type="text" id="endpoint" placeholder="Endpoint URL">
+    <button id="btn" onclick="postHtml()">Post</button>
+  </div>
+  <textarea id="response" placeholder="Response will appear here..." readonly></textarea>
 
-    <script>
-      async function postHtml() {
-        const btn = document.getElementById("btn");
-        const endpoint = document.getElementById("endpoint").value;
-        const html = document.getElementById("html-input").value;
-        btn.disabled = true;
-        btn.textContent = "Posting...";
-        try {
-          const res = await fetch(endpoint, {
-            method: "POST",
-            headers: { "Content-Type": "text/html" },
-            body: html,
-          });
-          document.getElementById("response").value = await res.text();
-        } catch (e) {
-          document.getElementById("response").value = "Error: " + e.message;
-        }
-        btn.disabled = false;
-        btn.textContent = "Post";
+  <script>
+    async function postHtml() {
+      const btn = document.getElementById('btn');
+      const endpoint = document.getElementById('endpoint').value;
+      const html = document.getElementById('html-input').value;
+      btn.disabled = true;
+      btn.textContent = 'Posting...';
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain' },
+          body: html
+        });
+        document.getElementById('response').value = await res.text();
+      } catch (e) {
+        document.getElementById('response').value = 'Error: ' + e.message;
       }
-    </script>
-  </body>
+      btn.disabled = false;
+      btn.textContent = 'Post';
+    }
+  </script>
+</body>
 </html>
