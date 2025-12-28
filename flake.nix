@@ -1,11 +1,10 @@
 {
-  inputs = {
-    nixpkgs.url = "nixpkgs";
-  };
+  inputs = { };
 
   outputs =
-    { self, nixpkgs }:
+    { self }:
     let
+      nixpkgs = builtins.getFlake "nixpkgs";
       systems = [ "x86_64-linux" ];
       forAllSystems = nixpkgs.lib.genAttrs systems;
 
