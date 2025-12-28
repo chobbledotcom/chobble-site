@@ -5,7 +5,7 @@ permalink: "/webhook/"
 <!doctype html>
 <html>
   <head>
-    <title>HTML Poster</title>
+    <title>SEO Diagnosis</title>
     <meta name="robots" content="noindex" />
     <style>
       body {
@@ -57,8 +57,8 @@ permalink: "/webhook/"
   <body>
     <textarea id="html-input" placeholder="Paste HTML here..."></textarea>
     <div class="row">
-      <input type="text" id="endpoint" placeholder="Endpoint URL" />
-      <button id="btn" onclick="postHtml()">Post</button>
+      <input type="text" id="secret-key" placeholder="Secret Key" />
+      <button id="btn" onclick="postHtml()">Diagnose</button>
       <span id="timer"></span>
     </div>
     <textarea
@@ -73,9 +73,22 @@ permalink: "/webhook/"
         Notification.requestPermission();
       }
 
+      // Pre-fill secret key from hash if present
+      (function () {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith("#key=")) {
+          const key = hash.substring(5);
+          document.getElementById("secret-key").value = key;
+        }
+      })();
+
+      function isValidGuid(str) {
+        return /^[a-f0-9-]{36}$/i.test(str);
+      }
+
       function showNotification(success) {
         if ("Notification" in window && Notification.permission === "granted") {
-          new Notification("HTML Poster", {
+          new Notification("SEO Diagnosis", {
             body: success ? "Request completed!" : "Request failed!",
             icon: success ? undefined : undefined,
           });
@@ -86,13 +99,21 @@ permalink: "/webhook/"
 
       async function postHtml() {
         const btn = document.getElementById("btn");
-        const endpoint = document.getElementById("endpoint").value;
+        const secretKey = document.getElementById("secret-key").value.trim();
         const html = document.getElementById("html-input").value;
         const responseBox = document.getElementById("response");
         const timerEl = document.getElementById("timer");
 
+        if (!isValidGuid(secretKey)) {
+          responseBox.value =
+            "Error: Invalid secret key. Must be a valid GUID (36 characters, containing a-f, 0-9, and dashes).";
+          return;
+        }
+
+        const endpoint = `https://auto.chobble.com/webhooks/flows/${secretKey}/sync`;
+
         btn.disabled = true;
-        btn.textContent = "Posting...";
+        btn.textContent = "Diagnosing...";
         responseBox.classList.add("waiting");
 
         // Start timer
@@ -122,7 +143,7 @@ permalink: "/webhook/"
 
         responseBox.classList.remove("waiting");
         btn.disabled = false;
-        btn.textContent = "Post";
+        btn.textContent = "Diagnose";
 
         showNotification(success);
       }
