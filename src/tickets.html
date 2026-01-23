@@ -1,0 +1,740 @@
+---
+permalink: "/tickets/"
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickets Setup Guide</title>
+    <meta name="robots" content="noindex" />
+    <meta
+      name="description"
+      content="Setup guide for the Chobble Tickets system"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        color: #333;
+      }
+      h1 {
+        color: #1a1a1a;
+        border-bottom: 2px solid #3b82f6;
+        padding-bottom: 0.5rem;
+      }
+      h2 {
+        color: #1a1a1a;
+        margin-top: 2rem;
+      }
+      .intro {
+        background: #f0f9ff;
+        border-left: 4px solid #3b82f6;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .mode-selector {
+        display: flex;
+        gap: 1rem;
+        margin: 1.5rem 0;
+        flex-wrap: wrap;
+      }
+      .mode-btn {
+        flex: 1;
+        min-width: 200px;
+        padding: 1rem;
+        border: 2px solid #ddd;
+        background: white;
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: all 0.2s;
+      }
+      .mode-btn:hover {
+        border-color: #3b82f6;
+      }
+      .mode-btn.active {
+        border-color: #3b82f6;
+        background: #eff6ff;
+      }
+      .section {
+        display: none;
+        animation: fadeIn 0.3s ease;
+      }
+      .section.visible {
+        display: block;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .step {
+        background: #fafafa;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .step-number {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        background: #3b82f6;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 28px;
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+      .copyable {
+        display: flex;
+        gap: 0.5rem;
+        margin: 0.5rem 0;
+        align-items: stretch;
+      }
+      .copyable input,
+      .copyable code {
+        flex: 1;
+        padding: 0.75rem;
+        font-family: monospace;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background: white;
+      }
+      .copyable code {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+      .copy-btn {
+        padding: 0.75rem 1rem;
+        background: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+      .copy-btn:hover {
+        background: #2563eb;
+      }
+      .copy-btn.copied {
+        background: #22c55e;
+      }
+      .generate-btn {
+        padding: 0.75rem 1.5rem;
+        background: #22c55e;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+      }
+      .generate-btn:hover {
+        background: #16a34a;
+      }
+      .warning {
+        background: #fef3c7;
+        border-left: 4px solid #f59e0b;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .success {
+        background: #dcfce7;
+        border-left: 4px solid #22c55e;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .info {
+        background: #f0f9ff;
+        border-left: 4px solid #3b82f6;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      a {
+        color: #3b82f6;
+      }
+      .config-form {
+        background: #fafafa;
+        padding: 1rem;
+        border-radius: 8px;
+        margin: 1rem 0;
+      }
+      .config-form label {
+        display: block;
+        margin: 0.75rem 0 0.25rem;
+        font-weight: 500;
+      }
+      .config-form input {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-family: monospace;
+      }
+      .link-output {
+        margin-top: 1rem;
+        padding: 1rem;
+        background: #eff6ff;
+        border-radius: 4px;
+        word-break: break-all;
+      }
+      .hidden {
+        display: none;
+      }
+      details {
+        margin: 1rem 0;
+      }
+      summary {
+        cursor: pointer;
+        font-weight: 500;
+        padding: 0.5rem 0;
+      }
+      .secret-item {
+        margin: 1rem 0;
+        padding: 1rem;
+        background: #f9fafb;
+        border-radius: 4px;
+      }
+      .secret-item h4 {
+        margin: 0 0 0.5rem 0;
+        font-family: monospace;
+        color: #1a1a1a;
+      }
+      .secret-item p {
+        margin: 0 0 0.5rem 0;
+        font-size: 0.9rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tickets Setup Guide</h1>
+
+    <div class="intro">
+      <strong>Tickets</strong> is a simple event ticketing system. This guide
+      will help you get it running on your own domain.
+    </div>
+
+    <h2>Which applies to you?</h2>
+    <div class="mode-selector">
+      <button class="mode-btn" onclick="setMode('customer')">
+        <strong>I'm a Chobble customer</strong><br />
+        <small>I was given a setup link</small>
+      </button>
+      <button class="mode-btn" onclick="setMode('self')">
+        <strong>Self-hosting</strong><br />
+        <small>I'm setting this up myself</small>
+      </button>
+      <button class="mode-btn" onclick="setMode('admin')">
+        <strong>I'm Chobble</strong><br />
+        <small>Generate a customer link</small>
+      </button>
+    </div>
+
+    <!-- CUSTOMER SECTION -->
+    <div id="customer-section" class="section">
+      <h2>Your Configuration</h2>
+
+      <div id="config-display"></div>
+
+      <div id="no-config" class="warning">
+        <strong>No configuration found.</strong> If you're a Chobble customer,
+        you should have received a link with your configuration included. Please
+        check the link you were given.
+      </div>
+
+      <h2>Step 1: Generate Your Encryption Key</h2>
+      <div class="step">
+        <p>
+          Click the button below to generate a secure encryption key. This key
+          encrypts sensitive data in your database.
+        </p>
+        <button class="generate-btn" onclick="generateKey()">
+          Generate Encryption Key
+        </button>
+        <div id="key-output" class="hidden">
+          <div class="copyable">
+            <input type="text" id="encryption-key" readonly />
+            <button class="copy-btn" onclick="copyToClipboard('encryption-key', this)">
+              Copy
+            </button>
+          </div>
+          <div class="warning" style="margin-top: 1rem">
+            <strong>Save this key securely!</strong> You'll need it in the next
+            step, and if you ever need to restore your system. I won't be able
+            to recover it for you.
+          </div>
+        </div>
+      </div>
+
+      <h2>Step 2: Fork the Repository</h2>
+      <div class="step">
+        <p>
+          <span class="step-number">1</span>
+          Go to
+          <a
+            href="https://github.com/chobbledotcom/tickets/fork"
+            target="_blank"
+            >github.com/chobbledotcom/tickets/fork</a
+          >
+        </p>
+        <p><span class="step-number">2</span> Click "Create fork"</p>
+        <p>
+          <small
+            >(You'll need a GitHub account - it's free to create one)</small
+          >
+        </p>
+      </div>
+
+      <h2>Step 3: Add Your Secrets</h2>
+      <div class="step">
+        <p>In your forked repository:</p>
+        <p>
+          <span class="step-number">1</span> Go to <strong>Settings</strong> (tab
+          at the top)
+        </p>
+        <p>
+          <span class="step-number">2</span> Click
+          <strong>Secrets and variables</strong> in the left sidebar
+        </p>
+        <p><span class="step-number">3</span> Click <strong>Actions</strong></p>
+        <p>
+          <span class="step-number">4</span> For each secret below, click
+          <strong>"New repository secret"</strong>
+        </p>
+
+        <div id="secrets-list"></div>
+      </div>
+
+      <h2>Step 4: Deploy</h2>
+      <div class="step">
+        <p><span class="step-number">1</span> Go to the <strong>Actions</strong> tab</p>
+        <p>
+          <span class="step-number">2</span> Click
+          <strong>"I understand my workflows, go ahead and enable them"</strong>
+        </p>
+        <p><span class="step-number">3</span> Click <strong>Deploy</strong> in the left sidebar</p>
+        <p>
+          <span class="step-number">4</span> Click
+          <strong>"Run workflow"</strong> button on the right
+        </p>
+        <p><span class="step-number">5</span> Click the green <strong>"Run workflow"</strong> button</p>
+      </div>
+
+      <div class="success">
+        <strong>That's it!</strong> Once the workflow completes (usually under a
+        minute), your ticketing system will be live at your domain. Visit it to
+        complete the initial setup.
+      </div>
+    </div>
+
+    <!-- SELF-HOSTING SECTION -->
+    <div id="self-section" class="section">
+      <h2>Self-Hosting Requirements</h2>
+
+      <div class="info">
+        You'll need to set up these services yourself:
+        <ul>
+          <li>
+            <strong>Turso Database</strong> - Create a free account at
+            <a href="https://turso.tech" target="_blank">turso.tech</a>
+          </li>
+          <li>
+            <strong>Bunny Edge Scripting</strong> - Sign up at
+            <a href="https://bunny.net" target="_blank">bunny.net</a>
+          </li>
+          <li><strong>A domain name</strong> - Pointed at Bunny</li>
+        </ul>
+      </div>
+
+      <h2>Step 1: Create Your Database</h2>
+      <div class="step">
+        <p><span class="step-number">1</span> Sign up at <a href="https://turso.tech" target="_blank">turso.tech</a></p>
+        <p><span class="step-number">2</span> Create a new database</p>
+        <p><span class="step-number">3</span> Copy your database URL (looks like <code>libsql://your-db.turso.io</code>)</p>
+        <p><span class="step-number">4</span> Create an auth token and copy it</p>
+      </div>
+
+      <h2>Step 2: Set Up Bunny Edge Scripting</h2>
+      <div class="step">
+        <p><span class="step-number">1</span> In your Bunny dashboard, go to Edge Scripting</p>
+        <p><span class="step-number">2</span> Create a new script</p>
+        <p><span class="step-number">3</span> Note your Script ID (from the URL)</p>
+        <p><span class="step-number">4</span> Create an API key with deploy permissions</p>
+        <p><span class="step-number">5</span> Set up your domain to point to this script</p>
+      </div>
+
+      <h2>Step 3: Generate Your Encryption Key</h2>
+      <div class="step">
+        <button class="generate-btn" onclick="generateKey()">
+          Generate Encryption Key
+        </button>
+        <div id="key-output-self" class="hidden">
+          <div class="copyable">
+            <input type="text" id="encryption-key-self" readonly />
+            <button
+              class="copy-btn"
+              onclick="copyToClipboard('encryption-key-self', this)"
+            >
+              Copy
+            </button>
+          </div>
+          <div class="warning" style="margin-top: 1rem">
+            <strong>Save this key securely!</strong> You'll need it in the next
+            step, and if you ever need to restore your system.
+          </div>
+        </div>
+      </div>
+
+      <h2>Step 4: Fork and Configure</h2>
+      <div class="step">
+        <p>
+          <span class="step-number">1</span> Fork
+          <a
+            href="https://github.com/chobbledotcom/tickets/fork"
+            target="_blank"
+            >github.com/chobbledotcom/tickets</a
+          >
+        </p>
+        <p><span class="step-number">2</span> Go to Settings → Secrets and variables → Actions</p>
+        <p><span class="step-number">3</span> Add these secrets:</p>
+
+        <div class="secret-item">
+          <h4>ALLOWED_DOMAIN</h4>
+          <p>Your domain (e.g., tickets.example.com)</p>
+        </div>
+        <div class="secret-item">
+          <h4>DB_URL</h4>
+          <p>Your Turso database URL</p>
+        </div>
+        <div class="secret-item">
+          <h4>DB_TOKEN</h4>
+          <p>Your Turso auth token</p>
+        </div>
+        <div class="secret-item">
+          <h4>DB_ENCRYPTION_KEY</h4>
+          <p>The key you generated above</p>
+        </div>
+        <div class="secret-item">
+          <h4>BUNNY_SCRIPT_ID</h4>
+          <p>Your Bunny Edge Script ID</p>
+        </div>
+        <div class="secret-item">
+          <h4>BUNNY_SCRIPT_KEY</h4>
+          <p>Your Bunny API key</p>
+        </div>
+      </div>
+
+      <h2>Step 5: Deploy</h2>
+      <div class="step">
+        <p><span class="step-number">1</span> Go to Actions tab → Enable workflows</p>
+        <p><span class="step-number">2</span> Click Deploy → Run workflow</p>
+      </div>
+
+      <div class="success">
+        Once deployed, visit your domain to complete the initial setup
+        (admin password, optional Stripe configuration, etc).
+      </div>
+    </div>
+
+    <!-- ADMIN SECTION (for generating customer links) -->
+    <div id="admin-section" class="section">
+      <h2>Generate Customer Setup Link</h2>
+      <p>Fill in the customer's configuration, then share the generated link.</p>
+
+      <div class="config-form">
+        <label for="admin-domain">ALLOWED_DOMAIN</label>
+        <input
+          type="text"
+          id="admin-domain"
+          placeholder="tickets.customer.com"
+          oninput="updateLink()"
+        />
+
+        <label for="admin-db-url">DB_URL</label>
+        <input
+          type="text"
+          id="admin-db-url"
+          placeholder="libsql://db-name.turso.io"
+          oninput="updateLink()"
+        />
+
+        <label for="admin-db-token">DB_TOKEN</label>
+        <input
+          type="text"
+          id="admin-db-token"
+          placeholder="eyJ..."
+          oninput="updateLink()"
+        />
+
+        <label for="admin-bunny-id">BUNNY_SCRIPT_ID</label>
+        <input
+          type="text"
+          id="admin-bunny-id"
+          placeholder="123456"
+          oninput="updateLink()"
+        />
+
+        <label for="admin-bunny-key">BUNNY_SCRIPT_KEY</label>
+        <input
+          type="text"
+          id="admin-bunny-key"
+          placeholder="abc123..."
+          oninput="updateLink()"
+        />
+
+        <div id="generated-link" class="link-output hidden">
+          <strong>Customer link:</strong><br />
+          <code id="link-text"></code>
+          <div style="margin-top: 0.5rem">
+            <button class="copy-btn" onclick="copyToClipboard('link-text', this)">
+              Copy Link
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="info">
+        <strong>What happens:</strong> The customer opens this link, generates
+        their own encryption key (which you'll never see), adds all the secrets
+        to their GitHub fork, and deploys. You can then use the DB credentials
+        to access their data - but anything encrypted will be unreadable without
+        their key.
+      </div>
+    </div>
+
+    <script>
+      let currentMode = null;
+      let customerConfig = null;
+
+      function setMode(mode) {
+        currentMode = mode;
+        document.querySelectorAll(".mode-btn").forEach((btn) => {
+          btn.classList.remove("active");
+        });
+        document
+          .querySelector(`.mode-btn[onclick="setMode('${mode}')"]`)
+          .classList.add("active");
+
+        document.querySelectorAll(".section").forEach((s) => {
+          s.classList.remove("visible");
+        });
+        document.getElementById(`${mode}-section`).classList.add("visible");
+
+        if (mode === "customer") {
+          renderCustomerConfig();
+        }
+      }
+
+      function generateKey() {
+        const bytes = new Uint8Array(32);
+        crypto.getRandomValues(bytes);
+        const key = btoa(String.fromCharCode(...bytes));
+
+        // Update both key outputs (customer and self-hosting sections)
+        const keyFields = ["encryption-key", "encryption-key-self"];
+        keyFields.forEach((id) => {
+          const field = document.getElementById(id);
+          if (field) {
+            field.value = key;
+          }
+        });
+
+        document.querySelectorAll('[id^="key-output"]').forEach((el) => {
+          el.classList.remove("hidden");
+        });
+
+        // Update the secrets list if we're in customer mode
+        if (currentMode === "customer") {
+          renderSecretsList();
+        }
+      }
+
+      function copyToClipboard(elementId, button) {
+        const element = document.getElementById(elementId);
+        const text = element.value || element.textContent;
+        navigator.clipboard.writeText(text).then(() => {
+          const originalText = button.textContent;
+          button.textContent = "Copied!";
+          button.classList.add("copied");
+          setTimeout(() => {
+            button.textContent = originalText;
+            button.classList.remove("copied");
+          }, 2000);
+        });
+      }
+
+      function parseConfig() {
+        const hash = window.location.hash;
+        if (!hash || !hash.startsWith("#config=")) {
+          return null;
+        }
+        try {
+          const encoded = hash.substring(8);
+          const json = atob(encoded);
+          return JSON.parse(json);
+        } catch (e) {
+          console.error("Failed to parse config:", e);
+          return null;
+        }
+      }
+
+      function renderCustomerConfig() {
+        const config = parseConfig();
+        customerConfig = config;
+
+        const displayEl = document.getElementById("config-display");
+        const noConfigEl = document.getElementById("no-config");
+
+        if (!config) {
+          displayEl.innerHTML = "";
+          noConfigEl.classList.remove("hidden");
+          return;
+        }
+
+        noConfigEl.classList.add("hidden");
+
+        displayEl.innerHTML = `
+          <div class="success">
+            <strong>Configuration loaded!</strong> Your system will be set up for:
+            <br><br>
+            <strong>Domain:</strong> ${escapeHtml(config.domain || "Not specified")}
+          </div>
+        `;
+
+        renderSecretsList();
+      }
+
+      function renderSecretsList() {
+        const config = customerConfig || {};
+        const encryptionKey =
+          document.getElementById("encryption-key")?.value || "";
+
+        const secrets = [
+          {
+            name: "ALLOWED_DOMAIN",
+            value: config.domain || "",
+            desc: "Your domain name",
+          },
+          {
+            name: "DB_URL",
+            value: config.dbUrl || "",
+            desc: "Database connection URL",
+          },
+          {
+            name: "DB_TOKEN",
+            value: config.dbToken || "",
+            desc: "Database authentication token",
+          },
+          {
+            name: "DB_ENCRYPTION_KEY",
+            value: encryptionKey,
+            desc: "Your encryption key (generated above)",
+          },
+          {
+            name: "BUNNY_SCRIPT_ID",
+            value: config.bunnyId || "",
+            desc: "Bunny Edge Script ID",
+          },
+          {
+            name: "BUNNY_SCRIPT_KEY",
+            value: config.bunnyKey || "",
+            desc: "Bunny API key",
+          },
+        ];
+
+        const listEl = document.getElementById("secrets-list");
+        listEl.innerHTML = secrets
+          .map(
+            (s) => `
+          <div class="secret-item">
+            <h4>${escapeHtml(s.name)}</h4>
+            <p>${escapeHtml(s.desc)}</p>
+            ${
+              s.value
+                ? `
+              <div class="copyable">
+                <code id="secret-${s.name}">${escapeHtml(s.value)}</code>
+                <button class="copy-btn" onclick="copySecretValue('${s.name}', this)">Copy</button>
+              </div>
+            `
+                : `<p style="color: #dc2626; font-style: italic;">${s.name === "DB_ENCRYPTION_KEY" ? "Generate your key above first" : "Not provided - contact Chobble"}</p>`
+            }
+          </div>
+        `
+          )
+          .join("");
+      }
+
+      function copySecretValue(name, button) {
+        const el = document.getElementById(`secret-${name}`);
+        if (el) {
+          navigator.clipboard.writeText(el.textContent).then(() => {
+            const originalText = button.textContent;
+            button.textContent = "Copied!";
+            button.classList.add("copied");
+            setTimeout(() => {
+              button.textContent = originalText;
+              button.classList.remove("copied");
+            }, 2000);
+          });
+        }
+      }
+
+      function updateLink() {
+        const config = {
+          domain: document.getElementById("admin-domain").value.trim(),
+          dbUrl: document.getElementById("admin-db-url").value.trim(),
+          dbToken: document.getElementById("admin-db-token").value.trim(),
+          bunnyId: document.getElementById("admin-bunny-id").value.trim(),
+          bunnyKey: document.getElementById("admin-bunny-key").value.trim(),
+        };
+
+        const hasAnyValue = Object.values(config).some((v) => v);
+        const linkOutput = document.getElementById("generated-link");
+        const linkText = document.getElementById("link-text");
+
+        if (!hasAnyValue) {
+          linkOutput.classList.add("hidden");
+          return;
+        }
+
+        const encoded = btoa(JSON.stringify(config));
+        const url = `${window.location.origin}/tickets/#config=${encoded}`;
+
+        linkText.textContent = url;
+        linkOutput.classList.remove("hidden");
+      }
+
+      function escapeHtml(text) {
+        const div = document.createElement("div");
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      // On page load, check for config in URL and auto-select customer mode
+      (function () {
+        const config = parseConfig();
+        if (config) {
+          setMode("customer");
+        }
+      })();
+    </script>
+  </body>
+</html>
