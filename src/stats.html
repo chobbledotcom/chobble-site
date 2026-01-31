@@ -1,0 +1,143 @@
+---
+layout: page.html
+title: Site Stats
+meta_title: Site Stats Dashboard | Chobble
+meta_description: Lighthouse scores and uptime monitoring for sites managed by Chobble
+---
+
+<h1>Site Stats</h1>
+
+<p>
+  Lighthouse performance scores and uptime monitoring for sites managed by
+  Chobble. Stats are updated monthly via automated checks.
+</p>
+
+{% if stats.lastUpdated %}
+<p class="stats-updated">
+  Last updated:
+  {{ stats.lastUpdated | date: "%e %B %Y" }}
+</p>
+{% endif %}
+
+{% if stats.sites.size > 0 %}
+<div class="stats-table-wrapper">
+  <table class="stats-table">
+    <thead>
+      <tr>
+        <th>Site</th>
+        <th>Status</th>
+        <th>Response</th>
+        <th>Perf</th>
+        <th>A11y</th>
+        <th>BP</th>
+        <th>SEO</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for site in stats.sites %}
+      <tr>
+        <td>
+          <a href="{{ site.url }}">{{ site.name }}</a>
+        </td>
+        <td>
+          {% if site.uptime.status == "up" %}
+          <span class="status-up">Up</span>
+          {% elsif site.uptime.status == "down" %}
+          <span class="status-down">Down</span>
+          {% else %}
+          <span class="status-unknown">?</span>
+          {% endif %}
+        </td>
+        <td>
+          {% if site.uptime.responseTime %}
+          {{ site.uptime.responseTime }}ms
+          {% else %} - {% endif %}
+        </td>
+        <td>
+          {% if site.lighthouse %}
+          <span class="score score-{{ site.lighthouse.performance | divided_by: 50 }}">
+            {{ site.lighthouse.performance }}
+          </span>
+          {% else %} - {% endif %}
+        </td>
+        <td>
+          {% if site.lighthouse %}
+          <span class="score score-{{ site.lighthouse.accessibility | divided_by: 50 }}">
+            {{ site.lighthouse.accessibility }}
+          </span>
+          {% else %} - {% endif %}
+        </td>
+        <td>
+          {% if site.lighthouse %}
+          <span class="score score-{{ site.lighthouse.bestPractices | divided_by: 50 }}">
+            {{ site.lighthouse.bestPractices }}
+          </span>
+          {% else %} - {% endif %}
+        </td>
+        <td>
+          {% if site.lighthouse %}
+          <span class="score score-{{ site.lighthouse.seo | divided_by: 50 }}">
+            {{ site.lighthouse.seo }}
+          </span>
+          {% else %} - {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}
+<p><em>No stats data available yet. Stats will appear after the first automated update.</em></p>
+{% endif %}
+
+<style>
+  .stats-updated {
+    font-style: italic;
+    opacity: 0.7;
+  }
+  .stats-table-wrapper {
+    overflow-x: auto;
+  }
+  .stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+  }
+  .stats-table th,
+  .stats-table td {
+    padding: 0.5em 0.75em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .stats-table th {
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .stats-table td:not(:first-child) {
+    text-align: center;
+  }
+  .status-up {
+    color: #0a0;
+    font-weight: bold;
+  }
+  .status-down {
+    color: #c00;
+    font-weight: bold;
+  }
+  .status-unknown {
+    color: #999;
+  }
+  .score {
+    font-weight: bold;
+  }
+  .score-0 {
+    color: #c00;
+  }
+  .score-1 {
+    color: #e60;
+  }
+  .score-2,
+  .score-3 {
+    color: #0a0;
+  }
+</style>

@@ -1,0 +1,50 @@
+name: Update Site Stats
+
+on:
+  schedule:
+    - cron: "0 6 1 * *" # 6am on the 1st of each month
+  workflow_dispatch: # allow manual trigger
+
+jobs:
+  update-stats:
+    name: Update Stats
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: latest
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+
+      - name: Install Lighthouse
+        run: npm install -g lighthouse
+
+      - name: Fetch Uptime Kuma stats
+        env:
+          UPTIME_KUMA_API_KEY: ${{ secrets.UPTIME_KUMA_API_KEY }}
+        run: node scripts/fetch-uptime.js
+
+      - name: Fetch Lighthouse scores
+        run: node scripts/fetch-lighthouse.js
+
+      - name: Merge stats
+        run: node scripts/merge-stats.js
+
+      - name: Commit and push updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/_data/stats.json src/_data/uptime.json src/_data/lighthouse.json
+          git diff --staged --quiet || git commit -m "Update site stats (automated)"
+          git push
