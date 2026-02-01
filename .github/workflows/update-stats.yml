@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -32,6 +34,8 @@ jobs:
 
       - name: Fetch Uptime Kuma stats
         env:
+          UPTIME_KUMA_USERNAME: ${{ secrets.UPTIME_KUMA_USERNAME }}
+          UPTIME_KUMA_PASSWORD: ${{ secrets.UPTIME_KUMA_PASSWORD }}
           UPTIME_KUMA_API_KEY: ${{ secrets.UPTIME_KUMA_API_KEY }}
         run: node scripts/fetch-uptime.js
 
