@@ -1,20 +1,18 @@
 #!/usr/bin/env node
 
 // Fetches uptime stats from Uptime Kuma:
-// - Socket.io API for monitor list (name -> ID mapping)
-// - Prometheus /metrics for status, response time, cert days
+// - Prometheus /metrics for monitor IDs, status, response time, cert days
 // - Badge API for precise 7-day uptime percentages
+//
+// Requires UPTIME_KUMA_API_KEY environment variable.
 
 const https = require("https");
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const { io } = require("socket.io-client");
 
 const UPTIME_KUMA_URL =
   process.env.UPTIME_KUMA_URL || "https://uptime.chobble.com";
-const UPTIME_KUMA_USERNAME = process.env.UPTIME_KUMA_USERNAME || "";
-const UPTIME_KUMA_PASSWORD = process.env.UPTIME_KUMA_PASSWORD || "";
 const UPTIME_KUMA_API_KEY = process.env.UPTIME_KUMA_API_KEY || "";
 
 function httpGet(url, headers = {}) {
@@ -39,43 +37,6 @@ function httpGet(url, headers = {}) {
   });
 }
 
-function getMonitorList(url, username, password) {
-  return new Promise((resolve, reject) => {
-    const socket = io(url, { transports: ["websocket"] });
-    const timeout = setTimeout(() => {
-      socket.disconnect();
-      reject(new Error("Socket.io connection timed out"));
-    }, 30000);
-
-    socket.on("connect", () => {
-      socket.emit(
-        "login",
-        { username, password, token: "" },
-        (loginRes) => {
-          if (!loginRes.ok) {
-            clearTimeout(timeout);
-            socket.disconnect();
-            reject(new Error("Login failed: " + (loginRes.msg || "unknown")));
-            return;
-          }
-
-          socket.emit("getMonitorList", (res) => {
-            clearTimeout(timeout);
-            socket.disconnect();
-            resolve(res);
-          });
-        }
-      );
-    });
-
-    socket.on("connect_error", (err) => {
-      clearTimeout(timeout);
-      socket.disconnect();
-      reject(new Error("Socket.io connect error: " + err.message));
-    });
-  });
-}
-
 function parsePrometheusMetrics(text) {
   const monitors = {};
 
@@ -95,9 +56,16 @@ function parsePrometheusMetrics(text) {
     }
 
     const name = labels.monitor_name;
-    if (!name) continue;
+    const id = labels.monitor_id;
+    if (!name || !id) continue;
 
-    if (!monitors[name]) monitors[name] = {};
+    if (!monitors[name]) {
+      monitors[name] = {
+        id: parseInt(id),
+        name,
+        url: labels.monitor_url,
+      };
+    }
 
     if (metric === "monitor_status") {
       monitors[name].status = value === 1 ? "up" : "down";
@@ -127,10 +95,8 @@ async function fetchUptimePercent(monitorId, duration) {
 }
 
 async function main() {
-  if (!UPTIME_KUMA_USERNAME || !UPTIME_KUMA_PASSWORD) {
-    console.error(
-      "Error: UPTIME_KUMA_USERNAME and UPTIME_KUMA_PASSWORD environment variables are required"
-    );
+  if (!UPTIME_KUMA_API_KEY) {
+    console.error("Error: UPTIME_KUMA_API_KEY environment variable is required");
     process.exit(1);
   }
 
@@ -138,71 +104,78 @@ async function main() {
   const sitesPath = path.join(dataDir, "sites.json");
   const sites = JSON.parse(fs.readFileSync(sitesPath, "utf-8"));
 
-  // Get monitor list from socket.io API (gives us name -> ID mapping)
-  console.log(`Connecting to ${UPTIME_KUMA_URL}...`);
-  const monitorList = await getMonitorList(
-    UPTIME_KUMA_URL,
-    UPTIME_KUMA_USERNAME,
-    UPTIME_KUMA_PASSWORD
-  );
+  // Fetch Prometheus metrics (includes monitor IDs)
+  console.log(`Fetching metrics from ${UPTIME_KUMA_URL}/metrics`);
+  const auth = Buffer.from(`:${UPTIME_KUMA_API_KEY}`).toString("base64");
+  const metricsText = await httpGet(`${UPTIME_KUMA_URL}/metrics`, {
+    Authorization: `Basic ${auth}`,
+  });
+  const monitors = parsePrometheusMetrics(metricsText);
 
-  const monitorsByName = {};
-  for (const [id, monitor] of Object.entries(monitorList)) {
-    monitorsByName[monitor.name] = { ...monitor, id: parseInt(id) };
+  const monitorCount = Object.keys(monitors).length;
+  if (monitorCount === 0) {
+    console.error("Error: Prometheus /metrics returned no monitor data - check UPTIME_KUMA_API_KEY");
+    process.exit(1);
   }
-  console.log(`Found ${Object.keys(monitorsByName).length} monitors`);
+  console.log(`Found ${monitorCount} monitors`);
 
-  // Get real-time stats from Prometheus metrics
-  let prometheusData = {};
-  if (UPTIME_KUMA_API_KEY) {
-    try {
-      const auth = Buffer.from(`:${UPTIME_KUMA_API_KEY}`).toString("base64");
-      const metricsText = await httpGet(`${UPTIME_KUMA_URL}/metrics`, {
-        Authorization: `Basic ${auth}`,
-      });
-      prometheusData = parsePrometheusMetrics(metricsText);
-      console.log("Fetched Prometheus metrics");
-    } catch (err) {
-      console.log(`Prometheus metrics unavailable: ${err.message}`);
-    }
+  // Verify our sites.json names actually match monitors
+  const matched = sites.filter((s) => monitors[s.uptimeMonitor]);
+  if (matched.length === 0) {
+    console.error(
+      "Error: none of the uptimeMonitor names in sites.json matched any monitors"
+    );
+    console.error(
+      "  Sites expect:",
+      sites.map((s) => s.uptimeMonitor).slice(0, 5).join(", "),
+      "..."
+    );
+    console.error(
+      "  Prometheus has:",
+      Object.keys(monitors).slice(0, 5).join(", "),
+      "..."
+    );
+    process.exit(1);
   }
 
   // Fetch 7-day uptime percentages from badge API
   console.log("Fetching 7-day uptime percentages...");
   const results = {};
+  let uptimeSuccesses = 0;
 
   for (const site of sites) {
-    const monitor = monitorsByName[site.uptimeMonitor];
-    const prom = prometheusData[site.uptimeMonitor] || {};
+    const monitor = monitors[site.uptimeMonitor];
 
     if (monitor) {
       const uptimePercent = await fetchUptimePercent(monitor.id, "168");
+      if (uptimePercent !== null) uptimeSuccesses++;
 
       results[site.url] = {
-        status: prom.status || (monitor.active !== false ? "up" : "down"),
-        responseTime: prom.responseTime || null,
-        certDaysRemaining: prom.certDaysRemaining || null,
+        status: monitor.status || "unknown",
+        responseTime: monitor.responseTime || null,
+        certDaysRemaining: monitor.certDaysRemaining || null,
         uptimePercent,
       };
       console.log(
-        `  ${site.name}: ID ${monitor.id}, ${results[site.url].status}, ${prom.responseTime || "-"}ms, 7d uptime ${uptimePercent !== null ? uptimePercent + "%" : "N/A"}`
+        `  ${site.name}: ID ${monitor.id}, ${monitor.status}, ${monitor.responseTime || "-"}ms, 7d uptime ${uptimePercent !== null ? uptimePercent + "%" : "N/A"}`
       );
     } else {
-      results[site.url] = {
-        status: "unknown",
-        responseTime: null,
-        certDaysRemaining: null,
-        uptimePercent: null,
-      };
       console.log(
-        `  ${site.name}: monitor "${site.uptimeMonitor}" not found`
+        `  ${site.name}: monitor "${site.uptimeMonitor}" not found in Uptime Kuma`
       );
     }
   }
 
+  if (uptimeSuccesses === 0) {
+    console.error("Error: badge API returned no uptime percentages for any monitor");
+    process.exit(1);
+  }
+
   const outputPath = path.join(dataDir, "uptime.json");
   fs.writeFileSync(outputPath, JSON.stringify(results, null, 2) + "\n");
-  console.log(`\nWrote uptime data to ${outputPath}`);
+  console.log(
+    `\nWrote uptime data to ${outputPath} (${Object.keys(results).length} sites, ${uptimeSuccesses} with uptime %)`
+  );
 }
 
 main().catch((err) => {
