@@ -9,7 +9,7 @@ meta_description: Lighthouse scores and uptime monitoring for sites managed by C
 
 <p>
   Lighthouse performance scores and uptime monitoring for sites managed by
-  Chobble. Stats are updated monthly via automated checks.
+  Chobble. Stats are updated daily via automated checks.
 </p>
 
 {% if stats.lastUpdated %}
@@ -26,6 +26,7 @@ meta_description: Lighthouse scores and uptime monitoring for sites managed by C
       <tr>
         <th>Site</th>
         <th>Status</th>
+        <th>7d</th>
         <th>Response</th>
         <th>Perf</th>
         <th>A11y</th>
@@ -47,6 +48,13 @@ meta_description: Lighthouse scores and uptime monitoring for sites managed by C
           {% else %}
           <span class="status-unknown">?</span>
           {% endif %}
+        </td>
+        <td>
+          {% if site.uptime.uptimePercent %}
+          <span class="score score-{{ site.uptime.uptimePercent | divided_by: 50 }}">
+            {{ site.uptime.uptimePercent }}%
+          </span>
+          {% else %} - {% endif %}
         </td>
         <td>
           {% if site.uptime.responseTime %}
