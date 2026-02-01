@@ -45,6 +45,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/_data/stats.json src/_data/uptime.json src/_data/uptime-history.json src/_data/lighthouse.json
+          git add src/_data/stats.json src/_data/uptime.json src/_data/lighthouse.json
           git diff --staged --quiet || git commit -m "Update site stats (automated)"
           git push

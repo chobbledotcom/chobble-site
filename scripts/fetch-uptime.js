@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 // Fetches uptime stats from Uptime Kuma's Prometheus metrics endpoint
-// and writes results to src/_data/uptime.json
+// and 7-day uptime percentages from the badge API.
 //
-// Maintains a rolling 30-day history in src/_data/uptime-history.json
-// to calculate uptime percentages.
+// The badge API uses numeric monitor IDs which we auto-discover by
+// iterating through IDs and matching monitor names to our sites.
 
 const https = require("https");
 const http = require("http");
@@ -14,9 +14,9 @@ const path = require("path");
 const UPTIME_KUMA_URL =
   process.env.UPTIME_KUMA_URL || "https://uptime.chobble.com";
 const UPTIME_KUMA_API_KEY = process.env.UPTIME_KUMA_API_KEY || "";
-const HISTORY_DAYS = 30;
+const MAX_MONITOR_ID = 100;
 
-function fetch(url, headers) {
+function fetch(url, headers = {}) {
   return new Promise((resolve, reject) => {
     const mod = url.startsWith("https") ? https : http;
     const req = mod.get(url, { headers }, (res) => {
@@ -24,14 +24,14 @@ function fetch(url, headers) {
       res.on("data", (chunk) => (data += chunk));
       res.on("end", () => {
         if (res.statusCode >= 400) {
-          reject(new Error(`HTTP ${res.statusCode}: ${data}`));
+          reject(new Error(`HTTP ${res.statusCode}`));
         } else {
           resolve(data);
         }
       });
     });
     req.on("error", reject);
-    req.setTimeout(30000, () => {
+    req.setTimeout(15000, () => {
       req.destroy();
       reject(new Error("Request timed out"));
     });
@@ -44,9 +44,7 @@ function parsePrometheusMetrics(text) {
   for (const line of text.split("\n")) {
     if (line.startsWith("#") || line.trim() === "") continue;
 
-    const match = line.match(
-      /^(\w+)\{([^}]*)\}\s+(.+)$/
-    );
+    const match = line.match(/^(\w+)\{([^}]*)\}\s+(.+)$/);
     if (!match) continue;
 
     const [, metric, labelsStr, valueStr] = match;
@@ -81,55 +79,76 @@ function parsePrometheusMetrics(text) {
   return monitors;
 }
 
-function loadHistory(historyPath) {
+function parseUptimeFromBadgeSvg(svg) {
+  // Badge SVGs contain text like "99.97%" or "100%"
+  const match = svg.match(/(\d+(?:\.\d+)?)%/);
+  return match ? parseFloat(match[1]) : null;
+}
+
+function parseNameFromBadgeSvg(svg) {
+  // The badge title contains the monitor name, e.g. <title>example.com | Uptime</title>
+  // Or the first text element has the label
+  const titleMatch = svg.match(/<title>([^|<]+)/);
+  if (titleMatch) return titleMatch[1].trim();
+  return null;
+}
+
+async function discoverMonitorIds(monitorNames) {
+  const nameToId = {};
+  const targetNames = new Set(monitorNames);
+  let found = 0;
+  let consecutiveMisses = 0;
+
+  console.log("Discovering monitor IDs from badge API...");
+
+  for (let id = 1; id <= MAX_MONITOR_ID; id++) {
+    if (found >= targetNames.size) break;
+    // Stop after 10 consecutive 404s to avoid wasting time
+    if (consecutiveMisses > 10) break;
+
+    try {
+      const url = `${UPTIME_KUMA_URL}/api/badge/${id}/uptime`;
+      const svg = await fetch(url);
+      const name = parseNameFromBadgeSvg(svg);
+      consecutiveMisses = 0;
+
+      if (name && targetNames.has(name)) {
+        nameToId[name] = id;
+        found++;
+        console.log(`  Found: ${name} = ID ${id}`);
+      }
+    } catch (_) {
+      consecutiveMisses++;
+    }
+  }
+
+  return nameToId;
+}
+
+async function fetchUptimePercent(monitorId, duration) {
   try {
-    return JSON.parse(fs.readFileSync(historyPath, "utf-8"));
+    const url = `${UPTIME_KUMA_URL}/api/badge/${monitorId}/uptime/${duration}`;
+    const svg = await fetch(url);
+    return parseUptimeFromBadgeSvg(svg);
   } catch (_) {
-    return {};
+    return null;
   }
-}
-
-function updateHistory(history, url, status) {
-  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-
-  if (!history[url]) {
-    history[url] = [];
-  }
-
-  // Don't add duplicate entries for the same day
-  const lastEntry = history[url][history[url].length - 1];
-  if (lastEntry && lastEntry.date === today) {
-    lastEntry.status = status;
-  } else {
-    history[url].push({ date: today, status });
-  }
-
-  // Keep only the last 30 days
-  if (history[url].length > HISTORY_DAYS) {
-    history[url] = history[url].slice(-HISTORY_DAYS);
-  }
-}
-
-function calculateUptimePercent(history, url) {
-  const entries = history[url];
-  if (!entries || entries.length === 0) return null;
-
-  const upCount = entries.filter((e) => e.status === "up").length;
-  return Math.round((upCount / entries.length) * 100);
 }
 
 async function main() {
   if (!UPTIME_KUMA_API_KEY) {
-    console.error("Error: UPTIME_KUMA_API_KEY environment variable is required");
+    console.error(
+      "Error: UPTIME_KUMA_API_KEY environment variable is required"
+    );
     process.exit(1);
   }
 
   const dataDir = path.join(__dirname, "..", "src", "_data");
   const sitesPath = path.join(dataDir, "sites.json");
-  const historyPath = path.join(dataDir, "uptime-history.json");
 
   const sites = JSON.parse(fs.readFileSync(sitesPath, "utf-8"));
 
+  // Fetch Prometheus metrics for status, response time, cert days
   const auth = Buffer.from(`:${UPTIME_KUMA_API_KEY}`).toString("base64");
   const metricsUrl = `${UPTIME_KUMA_URL}/metrics`;
 
@@ -139,28 +158,35 @@ async function main() {
   });
 
   const monitors = parsePrometheusMetrics(metricsText);
-  const history = loadHistory(historyPath);
+
+  // Discover monitor IDs for badge API
+  const monitorNames = sites.map((s) => s.uptimeMonitor);
+  const nameToId = await discoverMonitorIds(monitorNames);
+
+  // Fetch 7-day uptime percentages from badge API
+  console.log("\nFetching 7-day uptime percentages...");
+  const uptimePercents = {};
+  for (const site of sites) {
+    const id = nameToId[site.uptimeMonitor];
+    if (id) {
+      uptimePercents[site.uptimeMonitor] = await fetchUptimePercent(id, "168");
+    }
+  }
 
   const results = {};
   for (const site of sites) {
     const monitor = monitors[site.uptimeMonitor];
-    const status = monitor?.status || "unknown";
-
-    if (status !== "unknown") {
-      updateHistory(history, site.url, status);
-    }
-
-    const uptimePercent = calculateUptimePercent(history, site.url);
+    const uptimePercent = uptimePercents[site.uptimeMonitor] ?? null;
 
     if (monitor) {
       results[site.url] = {
-        status,
+        status: monitor.status || "unknown",
         responseTime: monitor.responseTime || null,
         certDaysRemaining: monitor.certDaysRemaining || null,
         uptimePercent,
       };
       console.log(
-        `  ${site.name}: ${status}, ${monitor.responseTime}ms, cert ${monitor.certDaysRemaining}d, 30d uptime ${uptimePercent !== null ? uptimePercent + "%" : "N/A"}`
+        `  ${site.name}: ${monitor.status}, ${monitor.responseTime}ms, cert ${monitor.certDaysRemaining}d, 7d uptime ${uptimePercent !== null ? uptimePercent + "%" : "N/A"}`
       );
     } else {
       results[site.url] = {
@@ -169,16 +195,15 @@ async function main() {
         certDaysRemaining: null,
         uptimePercent,
       };
-      console.log(`  ${site.name}: monitor "${site.uptimeMonitor}" not found`);
+      console.log(
+        `  ${site.name}: monitor "${site.uptimeMonitor}" not found`
+      );
     }
   }
 
   const outputPath = path.join(dataDir, "uptime.json");
   fs.writeFileSync(outputPath, JSON.stringify(results, null, 2) + "\n");
   console.log(`\nWrote uptime data to ${outputPath}`);
-
-  fs.writeFileSync(historyPath, JSON.stringify(history, null, 2) + "\n");
-  console.log(`Wrote uptime history to ${historyPath}`);
 }
 
 main().catch((err) => {
