@@ -42,10 +42,16 @@ function httpGet(url, headers = {}) {
 function getMonitorList(url, username, password) {
   return new Promise((resolve, reject) => {
     const socket = io(url, { transports: ["websocket"] });
+    const monitors = {};
     const timeout = setTimeout(() => {
       socket.disconnect();
       reject(new Error("Socket.io connection timed out"));
     }, 30000);
+
+    // Monitor data arrives via monitorList events, not the callback
+    socket.on("monitorList", (data) => {
+      Object.assign(monitors, data);
+    });
 
     socket.on("connect", () => {
       socket.emit(
@@ -59,10 +65,14 @@ function getMonitorList(url, username, password) {
             return;
           }
 
-          socket.emit("getMonitorList", (res) => {
-            clearTimeout(timeout);
-            socket.disconnect();
-            resolve(res);
+          // Request the monitor list; data arrives via monitorList events above
+          socket.emit("getMonitorList", () => {
+            // Give a moment for monitorList events to arrive
+            setTimeout(() => {
+              clearTimeout(timeout);
+              socket.disconnect();
+              resolve(monitors);
+            }, 1000);
           });
         }
       );
@@ -148,16 +158,22 @@ async function main() {
     UPTIME_KUMA_PASSWORD
   );
 
+  const entries = Object.entries(monitorList);
+  if (entries.length === 0) {
+    console.error("Error: getMonitorList returned no monitors - check credentials");
+    process.exit(1);
+  }
+
+  // Log first monitor's structure to help debug field name mismatches
+  const [sampleId, sampleMonitor] = entries[0];
+  console.log(`Sample monitor (ID ${sampleId}): name="${sampleMonitor.name}", hostname="${sampleMonitor.hostname}", url="${sampleMonitor.url}"`);
+
   const monitorsByName = {};
-  for (const [id, monitor] of Object.entries(monitorList)) {
+  for (const [id, monitor] of entries) {
     monitorsByName[monitor.name] = { ...monitor, id: parseInt(id) };
   }
 
   const monitorCount = Object.keys(monitorsByName).length;
-  if (monitorCount === 0) {
-    console.error("Error: getMonitorList returned no monitors - check credentials");
-    process.exit(1);
-  }
   console.log(`Found ${monitorCount} monitors`);
 
   // Verify our sites.json names actually match monitors in Uptime Kuma
