@@ -2,7 +2,7 @@ name: Update Site Stats
 
 on:
   schedule:
-    - cron: "0 6 1 * *" # 6am on the 1st of each month
+    - cron: "0 6 * * *" # 6am daily
   workflow_dispatch: # allow manual trigger
 
 jobs:
