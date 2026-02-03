@@ -26,5 +26,12 @@
     "bestPractices": 100,
     "seo": 100,
     "lastUpdated": "2026-02-02T06:57:28.887Z"
+  },
+  "https://blog.chobble.com": {
+    "performance": 75,
+    "accessibility": 100,
+    "bestPractices": 96,
+    "seo": 100,
+    "lastUpdated": "2026-02-03T06:43:10.013Z"
   }
 }
