@@ -21,9 +21,11 @@ Everything I build is open source, which means you own the complete source code 
 
 ### Custom web applications
 
-I build dynamic web applications using Ruby on Rails with test coverage, automated deployments, and proper infrastructure. These are bespoke systems designed around your specific business processes, whether that's booking systems, CRMs, inventory management, or industry-specific tools.
+I build dynamic web applications using Ruby on Rails or JavaScript with test coverage, automated deployments, and solid "pro" infrastructure. These are bespoke systems designed around your specific business processes, whether that's booking systems, CRMs, inventory management, or industry-specific tools.
 
-My current project [Play-Test](/examples/play-test/#content) is a compliance and inspection system used by professional inspectors across the UK, with complex calculations, PDF generation, QR code tracking, and offline capability for tablets in the field. Check out my [Ruby on Rails development page](/services/ruby-on-rails-developer/#content) for more technical details about how I build scalable applications.
+My current project [Play-Test](/examples/play-test/#content) is a compliance and inspection system used by bouncy castle and inflatable play equipment inspectors across the UK, with complex assessments, PDF generation, and QR code tracking. Check out my [Ruby on Rails development page](/services/ruby-on-rails-developer/#content) for more technical details about how I build scalable applications.
+
+I've recently started building Edge Scripts on Bunny's network, which are really fast, performant, JavaScript-powered sites. The constraints of the "edge" network force you to write minimal, performant code - and I like that challenge.
 
 </div>
 
@@ -44,6 +46,8 @@ I've built my own [Chobble Template](/services/chobble-template/#content) that i
 Many businesses need their various systems to talk to each other - connecting your CRM to your accounting software, pulling data from APIs, automating repetitive tasks, or building custom integrations between services. I can build middleware that connects your existing tools or create entirely new APIs for your applications.
 
 I'm experienced with REST and GraphQL APIs, webhook systems, scheduled jobs, data synchronization, and building automation that handles errors properly. I can connect payment processors, inventory systems, or build custom dashboards that pull data from multiple sources.
+
+I use "Automatisch" for this - a flexible and open source alternative to Zapier. With a bit of creative connecting code between resource you'd be surprised how much is achievable without needing any complex infrastructure or incomprehensible code.
 
 </div>
 
