@@ -32,7 +32,7 @@ I maintain a directory of local businesses and their vegan offerings. It's compl
 - Address and phone details
 - Opening times
 
-The community side is more important than the directory, really. The Facebook group creates a feedback loop where business owners often post to share their vegan updates and members comment on how well they're catering to vegans. It's a welcoming space for people at all stages of their vegan journey - from curious newcomers to long-term veegs.
+The community side is more important than the directory, really. The Facebook group creates a feedback loop where business owners often post to share their vegan updates and members comment on how well they're catering to vegans. It's a welcoming space for everyone - from curious newcomers to long-term veegs.
 
 We've had some brilliant wins over the years. One highlight was emailing Joseph Holts (who own most of Prestwich's pubs) to ask about their beers going vegan - and they actually updated their recipes to make most of their beers vegan! We've also organised real-life meetups and members have hired each other for catering and events.
 
@@ -56,7 +56,7 @@ The site and community have had a real impact on Prestwich's vegan scene:
 - **Real Connections:** The group has led to real life meetups and friendships
 - **Technical Performance:** Consistent high performance scores and strong Google rankings for vegan-related searches in Prestwich
 
-The project shows how a local directory can become a thriving community hub, while encouraging businesses to improve their vegan offerings and helping vegans discover great food in their area.
+The project shows how a local directory can become a proper community resource, encouraging businesses to improve their vegan offerings and helping vegans discover great food in their area.
 
 ## Source Code
 
