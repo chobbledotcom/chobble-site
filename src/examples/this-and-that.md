@@ -16,7 +16,7 @@ colour: white
 - **Website:** [ThisAndThatCafe.co.uk](https://www.thisandthatcafe.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/this-and-that)
 
-This & That is a Manchester institution, famous for its "rice and three" curry dishes. Operating since 1984, it's a beloved part of the Northern Quarter's culinary landscape.
+This & That is a Manchester institution, famous for its "rice and three" curry dishes. Operating since 1984, it's a beloved part of the Northern Quarter's food scene.
 
 ![This & That's website homepage. The cafe is easy to miss, so the photo shows the alley visitors need to find as its header image. There are two main links, "Home" and "Menu", and we can see TripAdvisor reviews and the start of a description of the business](/assets/examples/this-and-that.png)
 

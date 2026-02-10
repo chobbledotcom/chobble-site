@@ -9,7 +9,7 @@ meta_description: Eleventy developer in Manchester - build fast static sites, co
 
 # Freelance Eleventy Developer
 
-**Looking for an experienced Eleventy developer to build a super-fast, affordable website?** I've used Eleventy for lots of projects and can help you harness its full potential for your business.
+**Looking for an experienced Eleventy developer to build a super-fast, affordable website?** I've used Eleventy for lots of projects and can help you get the most out of it for your business.
 
 Eleventy ([11ty.dev](https://www.11ty.dev/)) is my static site generator of choice for creating websites that load really quickly, rank well in search engines, and can be hosted on easy-to-use web hosts at a very low cost. As an experienced Eleventy developer I can help whether you're building a brand new site or updating an existing one.
 
@@ -48,7 +48,7 @@ If you've already got an Eleventy site (awesome, nice choice!) then I can help i
 
 I can implement **new layouts and collections** to expand your site's capabilities. Your site could showcase products with **fast image galleries** and product showcases that load quickly. I could create **custom shortcodes** for special content blocks that make updating content easier. Need a blog? I can set up **complete blog functionality** with tags and categories for organizing your content. I can integrate **third-party services** like payment processors, booking systems, NPM packages, and more. Your site might benefit from **improved performance** and search engine visibility through technical optimisations. I can add **interactive elements** with vanilla JavaScript that enhance user experience without slowing down your site.
 
-Whatever you need building, my changes will integrate seamlessly with your existing codebase while maintaining Eleventy's excellent performance.
+Whatever you need building, my changes will fit right into your existing codebase without hurting Eleventy's excellent performance.
 
 **Fill in the form below to discuss upgrading your existing website**
 
