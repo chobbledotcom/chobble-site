@@ -96,7 +96,7 @@ Running a season of events? A weekend festival with multiple sessions? You can s
 
 ### Registration deadlines
 
-Need to close ticket sales 48 hours before your event? Or open them on a specific date? You can set registration windows so bookings only happen when you want them to.
+Need to close ticket sales 48 hours before your event? You can set a registration deadline so bookings close when you want them to.
 
 ### CSV export
 
