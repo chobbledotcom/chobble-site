@@ -26,7 +26,7 @@ faqs:
 
 # Chobble Tickets
 
-**Selling tickets for your event shouldn't cost you a fortune in fees.** Platforms like Eventbrite charge around 6.95% + £0.49 per ticket sold, and that adds up fast. If you sell 200 tickets at £10 each, Eventbrite takes roughly £237 in fees. With Chobble Tickets, you pay a flat **£50 per year** and keep every penny of your ticket sales.
+**Selling tickets for your event shouldn't cost you a fortune in fees.** Platforms like Eventbrite charge around 6.95% + £0.49 per ticket sold, and that adds up fast. If you sell 200 tickets at £10 each, Eventbrite takes roughly £237 in fees. With Chobble Tickets, you pay a flat **£50 per year** and keep everything except Stripe's standard processing fees.
 
 Chobble Tickets is an event ticketing platform I built and maintain. You get your own admin panel to create and manage events, and your attendees get a clean, fast booking experience. Embed it into your own website or share a direct link, either way it just works.
 
