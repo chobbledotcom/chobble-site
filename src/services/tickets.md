@@ -74,7 +74,7 @@ The £50/year gets you everything you need to start selling tickets:
 
 It's self-service once set up. You don't need to tell me anything about your events or ask permission to create new ones. The admin panel is yours to use however you like.
 
-I keep the platform running, updated, and maintained as part of the £50/year, but at that price I can't offer hands-on support. If you need help embedding it into your site or want me to tweak something, that's a quick job at my standard rates (usually about half an hour's work, so **£100**, or **£50** for community groups, charities, artists and musicians).
+I keep the platform running and maintained as part of the £50/year, but at that price I can't offer hands-on support. If you need help embedding it into your site or want me to tweak something, that's a quick job at my standard rates (usually about half an hour's work, so **£100**, or **£50** for community groups, charities, artists and musicians).
 
 </div>
 
@@ -140,7 +140,7 @@ The platform runs on [Bunny Edge Scripting](https://bunny.net/), which means it 
 
 ## Pricing
 
-**£50/year.** That's it. No setup fees, no per-ticket charges, no hidden costs. This covers your own Chobble Tickets instance, ongoing maintenance and updates, and as many events and tickets as you need.
+**£50/year.** That's it. No setup fees, no per-ticket charges, no hidden costs. This covers your own Chobble Tickets instance, ongoing maintenance, and as many events and tickets as you need. When you renew for another year, I'll upgrade you to the latest version.
 
 **50% off for community groups, charities, artists and musicians, at just £25/year.**
 
