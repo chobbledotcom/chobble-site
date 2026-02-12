@@ -44,6 +44,17 @@
       <div class="container">
         {{ content }}
         {% include "contact-form.html" %}
+        {% if faqs.size > 0 %}
+        <section id="faqs">
+          <h2>Frequently asked questions</h2>
+          {% for faq in faqs %}
+          <details>
+            <summary><strong>{{ faq.q }}</strong></summary>
+            <p>{{ faq.a | markdownify }}</p>
+          </details>
+          {% endfor %}
+        </section>
+        {% endif %}
       </div>
     </main>
 

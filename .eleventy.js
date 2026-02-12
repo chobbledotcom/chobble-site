@@ -4,6 +4,11 @@ const { configureScss } = require("./src/_lib/scss");
 const { configureScssFiles } = require("./src/_lib/scss-files");
 
 module.exports = async function (eleventyConfig) {
+  const markdownIt = require("markdown-it");
+  const md = markdownIt();
+  eleventyConfig.addFilter("markdownify", (str) =>
+    str ? md.renderInline(str) : "",
+  );
   const { eleventyImageTransformPlugin } = await import("@11ty/eleventy-img");
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["webp", "jpeg", "png", "svg"],

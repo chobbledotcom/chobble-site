@@ -5,6 +5,23 @@ description: A fast, encrypted event ticketing platform with no per-ticket fees 
 snippet: Event ticketing for community groups and small orgs
 order: 3
 meta_description: Event ticketing without per-ticket fees - £50/year flat rate, encrypted attendee data, QR check-in, Stripe payments - 50% off for charities and community groups
+faqs:
+  - q: What types of events can I use this for?
+    a: "Anything — village fetes, charity fundraisers, gigs, workshops, community theatre, sports club dinners, supper clubs, classes, festivals. The system handles both one-off events and recurring ones with per-date capacity. If people need tickets, this works."
+  - q: Do I need my own website?
+    a: "No. You can share a direct booking link with your attendees — post it on social media, put it in emails, print it on flyers. Embedding into a website is optional. If you do want a website, I can [build you one](/services/static-websites/)."
+  - q: What if I only run free events?
+    a: "Free events work perfectly. You still get capacity management, QR check-in, attendee tracking, and CSV exports — you just don't need to set up Stripe or Square. It's a proper ticketing system even without payments."
+  - q: Can I use my own Stripe account?
+    a: "Yes. Payments go through your own Stripe (or Square) account, so the money goes directly to you. Chobble never touches your ticket revenue."
+  - q: What happens if I stop paying?
+    a: "The platform is open source, so you always have the option to self-host it. Your data is yours — you can export attendee lists as CSV anytime. There's no lock-in."
+  - q: Is there a limit on the number of events or tickets?
+    a: "No limits. Create as many events as you want, sell as many tickets as you need. The flat £50/year covers everything."
+  - q: How do attendees receive their tickets?
+    a: "Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, print it, screenshot it — whatever works for them."
+  - q: Can I self-host it instead?
+    a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. You'll need a Bunny.net account for the edge scripting and a libsql database. The README walks you through setup. Self-hosting is completely free — you just handle your own infrastructure."
 ---
 
 # Chobble Tickets
@@ -22,6 +39,7 @@ Chobble Tickets is an event ticketing platform I built and maintain. You get you
 - [Pricing](#pricing)
 - [Customisation](#customisation)
 - [Open source](#open-source)
+- [FAQs](#faqs)
 - [Get started](#get-started)
 
 <div class="card margins" id="why">
@@ -166,64 +184,6 @@ Attendee data (names, emails, phone numbers) is encrypted at rest using strong e
 The entire platform builds into a single JavaScript file and runs on edge infrastructure, which is why it's so fast. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
 
 </div>
-
-## Frequently asked questions
-
-<details>
-<summary><strong>What types of events can I use this for?</strong></summary>
-
-Anything — village fetes, charity fundraisers, gigs, workshops, community theatre, sports club dinners, supper clubs, classes, festivals. The system handles both one-off events and recurring ones with per-date capacity. If people need tickets, this works.
-
-</details>
-
-<details>
-<summary><strong>Do I need my own website?</strong></summary>
-
-No. You can share a direct booking link with your attendees — post it on social media, put it in emails, print it on flyers. Embedding into a website is optional. If you do want a website, I can [build you one](/services/static-websites/).
-
-</details>
-
-<details>
-<summary><strong>What if I only run free events?</strong></summary>
-
-Free events work perfectly. You still get capacity management, QR check-in, attendee tracking, and CSV exports — you just don't need to set up Stripe or Square. It's a proper ticketing system even without payments.
-
-</details>
-
-<details>
-<summary><strong>Can I use my own Stripe account?</strong></summary>
-
-Yes. Payments go through your own Stripe (or Square) account, so the money goes directly to you. Chobble never touches your ticket revenue.
-
-</details>
-
-<details>
-<summary><strong>What happens if I stop paying?</strong></summary>
-
-The platform is open source, so you always have the option to self-host it. Your data is yours — you can export attendee lists as CSV anytime. There's no lock-in.
-
-</details>
-
-<details>
-<summary><strong>Is there a limit on the number of events or tickets?</strong></summary>
-
-No limits. Create as many events as you want, sell as many tickets as you need. The flat £50/year covers everything.
-
-</details>
-
-<details>
-<summary><strong>How do attendees receive their tickets?</strong></summary>
-
-Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, print it, screenshot it — whatever works for them.
-
-</details>
-
-<details>
-<summary><strong>Can I self-host it instead?</strong></summary>
-
-Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. You'll need a Bunny.net account for the edge scripting and a libsql database. The README walks you through setup. Self-hosting is completely free — you just handle your own infrastructure.
-
-</details>
 
 ## Get started
 
