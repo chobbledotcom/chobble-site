@@ -69,7 +69,7 @@ The £50/year gets you everything you need to start selling tickets:
 1. **I set you up** with your own Chobble Tickets instance and admin account
 2. **You create your events** through a straightforward admin panel, setting the name, capacity, dates, ticket price, and what info you need from attendees
 3. **You embed it** into your own website (as an iframe) or share a direct booking link. The [README](https://github.com/chobbledotcom/tickets/) explains how
-4. **Attendees book tickets** and pay through Stripe (or Square if you prefer). Each ticket gets a unique QR code
+4. **Attendees book tickets** and pay through Stripe (or Square if you prefer). They get a confirmation email with their unique QR code ticket
 5. **You manage everything** from checking people in by scanning QR codes, to tracking capacity, exporting attendee lists, and more
 
 It's self-service once set up. You don't need to tell me anything about your events or ask permission to create new ones. The admin panel is yours to use however you like.
@@ -109,6 +109,10 @@ You decide what information to collect from attendees. Need just a name and emai
 ### Payment processing
 
 Stripe is the default payment processor and works brilliantly for most events. Square is also supported if you prefer it. For free events, you don't need to set up any payment integration at all, and attendees just register and get their tickets.
+
+### Email confirmations
+
+Attendees get a simple confirmation email when they book, with a link to their ticket. The emails come from an address I manage, with the reply-to set to your address so any replies go straight to you. This is handled through webhooks using [Automatisch](https://automatisch.io/) and [Notifuse](https://notifuse.com/), and you could set up your own email pipeline if you wanted to. If you'd like custom email templates, I can do that as part of a customisation job.
 
 ### Activity logs
 
