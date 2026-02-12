@@ -21,7 +21,7 @@ faqs:
   - q: How do attendees receive their tickets?
     a: "Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, print it, or screenshot it, whatever works for them."
   - q: Can I self-host it instead?
-    a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. You'll need a Bunny.net account for the edge scripting and a libsql database. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
+    a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. The whole thing runs on Bunny.net, using their edge scripting and hosted databases, so you just need a Bunny account. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
 ---
 
 # Chobble Tickets
@@ -185,7 +185,7 @@ Chobble Tickets is fully open source under the [AGPL licence](https://github.com
 
 Attendee data (names, emails, phone numbers) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. This isn't just good practice, it means that even in the unlikely event of a data breach, personal information stays protected.
 
-The entire platform builds into a single JavaScript file and runs on edge infrastructure, which is why it's so fast. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
+The entire platform builds into a single JavaScript file and runs on [Bunny.net](https://bunny.net/), using their edge scripting for the application and their hosted databases for storage. The whole infrastructure runs through Bunny, which keeps it fast and very cheap to operate. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
 
 </div>
 
