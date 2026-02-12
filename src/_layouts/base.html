@@ -50,7 +50,9 @@
           {% for faq in faqs %}
           <details>
             <summary><strong>{{ faq.q }}</strong></summary>
-            <p>{{ faq.a | markdownify }}</p>
+            {% renderTemplate "liquid,md", faq %}
+{{ a }}
+            {% endrenderTemplate %}
           </details>
           {% endfor %}
         </section>
