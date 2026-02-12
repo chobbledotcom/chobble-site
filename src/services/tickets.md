@@ -7,30 +7,30 @@ order: 3
 meta_description: Event ticketing without per-ticket fees - £50/year flat rate, encrypted attendee data, QR check-in, Stripe payments - 50% off for charities and community groups
 faqs:
   - q: What types of events can I use this for?
-    a: "Anything — village fetes, charity fundraisers, gigs, workshops, community theatre, sports club dinners, supper clubs, classes, festivals. The system handles both one-off events and recurring ones with per-date capacity. If people need tickets, this works."
+    a: "Anything from village fetes and charity fundraisers to gigs, workshops, community theatre, sports club dinners, supper clubs, classes, and festivals. The system handles both one-off events and recurring ones with per-date capacity. If people need tickets, this works."
   - q: Do I need my own website?
-    a: "No. You can share a direct booking link with your attendees — post it on social media, put it in emails, print it on flyers. Embedding into a website is optional. If you do want a website, I can [build you one](/services/static-websites/)."
+    a: "No. You can share a direct booking link with your attendees and post it on social media, put it in emails, or print it on flyers. Embedding into a website is optional. If you do want a website, I can [build you one](/services/static-websites/)."
   - q: What if I only run free events?
-    a: "Free events work perfectly. You still get capacity management, QR check-in, attendee tracking, and CSV exports — you just don't need to set up Stripe or Square. It's a proper ticketing system even without payments."
+    a: "Free events work perfectly. You still get capacity management, QR check-in, attendee tracking, and CSV exports without needing to set up Stripe or Square. It's a proper ticketing system even without payments."
   - q: Can I use my own Stripe account?
     a: "Yes. Payments go through your own Stripe (or Square) account, so the money goes directly to you. Chobble never touches your ticket revenue."
   - q: What happens if I stop paying?
-    a: "The platform is open source, so you always have the option to self-host it. Your data is yours — you can export attendee lists as CSV anytime. There's no lock-in."
+    a: "The platform is open source, so you always have the option to self-host it. Your data is yours, and you can export attendee lists as CSV anytime. There's no lock-in."
   - q: Is there a limit on the number of events or tickets?
     a: "No limits. Create as many events as you want, sell as many tickets as you need. The flat £50/year covers everything."
   - q: How do attendees receive their tickets?
-    a: "Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, print it, screenshot it — whatever works for them."
+    a: "Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, print it, or screenshot it, whatever works for them."
   - q: Can I self-host it instead?
-    a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. You'll need a Bunny.net account for the edge scripting and a libsql database. The README walks you through setup. Self-hosting is completely free — you just handle your own infrastructure."
+    a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. You'll need a Bunny.net account for the edge scripting and a libsql database. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
 ---
 
 # Chobble Tickets
 
-**Selling tickets for your event shouldn't cost you a fortune in fees.** Platforms like Eventbrite charge around 6.95% + £0.49 per ticket sold — that adds up fast. If you sell 200 tickets at £10 each, Eventbrite takes roughly £237 in fees. With Chobble Tickets, you pay a flat **£50 per year** and keep every penny of your ticket sales.
+**Selling tickets for your event shouldn't cost you a fortune in fees.** Platforms like Eventbrite charge around 6.95% + £0.49 per ticket sold, and that adds up fast. If you sell 200 tickets at £10 each, Eventbrite takes roughly £237 in fees. With Chobble Tickets, you pay a flat **£50 per year** and keep every penny of your ticket sales.
 
-Chobble Tickets is an event ticketing platform I built and maintain. You get your own admin panel to create and manage events, and your attendees get a clean, fast booking experience. Embed it into your own website or share a direct link — either way, it just works.
+Chobble Tickets is an event ticketing platform I built and maintain. You get your own admin panel to create and manage events, and your attendees get a clean, fast booking experience. Embed it into your own website or share a direct link, either way it just works.
 
-**Community groups, charities, artists and musicians get 50% off — just £25/year.**
+**Community groups, charities, artists and musicians get 50% off at just £25/year.**
 
 - [Why Chobble Tickets?](#why)
 - [How it works](#how-it-works)
@@ -46,7 +46,7 @@ Chobble Tickets is an event ticketing platform I built and maintain. You get you
 
 ## Why Chobble Tickets?
 
-Most ticketing platforms make their money by taking a cut of every ticket you sell. That model punishes success — the more tickets you sell, the more you pay.
+Most ticketing platforms make their money by taking a cut of every ticket you sell. That model punishes success, because the more tickets you sell, the more you pay.
 
 **Eventbrite's fees** are currently around 6.95% + £0.49 per paid ticket. Here's what that looks like in practice:
 
@@ -54,7 +54,7 @@ Most ticketing platforms make their money by taking a cut of every ticket you se
 - **200 tickets at £10 each** = roughly £237 in Eventbrite fees
 - **500 tickets at £15 each** = roughly £765 in Eventbrite fees
 
-With Chobble Tickets, you pay **£50/year** regardless of how many tickets you sell or how many events you run. The only other fees are Stripe's standard payment processing charges (1.5% + 20p per transaction in the UK) — and Chobble takes nothing on top of that.
+With Chobble Tickets, you pay **£50/year** regardless of how many tickets you sell or how many events you run. The only other fees are Stripe's standard payment processing charges (1.5% + 20p per transaction in the UK), and Chobble takes nothing on top of that.
 
 If you're a **community group, charity, artist or musician**, that drops to just **£25/year**.
 
@@ -67,14 +67,14 @@ If you're a **community group, charity, artist or musician**, that drops to just
 The £50/year gets you everything you need to start selling tickets:
 
 1. **I set you up** with your own Chobble Tickets instance and admin account
-2. **You create your events** through a straightforward admin panel — set the name, capacity, dates, ticket price, and what info you need from attendees
-3. **You embed it** into your own website (as an iframe) or share a direct booking link — the [README](https://github.com/chobbledotcom/tickets/) explains how
+2. **You create your events** through a straightforward admin panel, setting the name, capacity, dates, ticket price, and what info you need from attendees
+3. **You embed it** into your own website (as an iframe) or share a direct booking link. The [README](https://github.com/chobbledotcom/tickets/) explains how
 4. **Attendees book tickets** and pay through Stripe (or Square if you prefer). Each ticket gets a unique QR code
-5. **You manage everything** — check people in by scanning QR codes, track capacity, export attendee lists, and more
+5. **You manage everything** from checking people in by scanning QR codes, to tracking capacity, exporting attendee lists, and more
 
 It's self-service once set up. You don't need to tell me anything about your events or ask permission to create new ones. The admin panel is yours to use however you like.
 
-I keep the platform running, updated, and maintained as part of the £50/year — but at that price I can't offer hands-on support. If you need help embedding it into your site or want me to tweak something, that's a quick job at my standard rates (usually about half an hour's work — **£100**, or **£50** for community groups, charities, artists and musicians).
+I keep the platform running, updated, and maintained as part of the £50/year, but at that price I can't offer hands-on support. If you need help embedding it into your site or want me to tweak something, that's a quick job at my standard rates (usually about half an hour's work, so **£100**, or **£50** for community groups, charities, artists and musicians).
 
 </div>
 
@@ -84,11 +84,11 @@ I keep the platform running, updated, and maintained as part of the £50/year �
 
 ### QR code check-in
 
-Every ticket gets a unique URL and QR code. At the door, your staff or volunteers just scan the code with any phone — no special app needed. The system confirms the ticket is valid and marks it as checked in. It's that simple.
+Every ticket gets a unique URL and QR code. At the door, your staff or volunteers just scan the code with any phone, no special app needed. The system confirms the ticket is valid and marks it as checked in. It's that simple.
 
 ### No overbooking, ever
 
-The system uses atomic capacity checks, which means two people can't grab the last ticket at the same time. When you set a capacity of 100, exactly 100 tickets can be sold — no more.
+The system uses atomic capacity checks, which means two people can't grab the last ticket at the same time. When you set a capacity of 100, exactly 100 tickets can be sold, no more.
 
 ### Multi-event bookings
 
@@ -104,11 +104,11 @@ Download your full attendee list as a CSV file anytime. Useful for your own reco
 
 ### Configurable contact fields
 
-You decide what information to collect from attendees. Need just a name and email? Fine. Need phone numbers too? Add it. Only collect what you actually need — there's no reason to ask for data you won't use.
+You decide what information to collect from attendees. Need just a name and email? Fine. Need phone numbers too? Add it. Only collect what you actually need, because there's no reason to ask for data you won't use.
 
 ### Payment processing
 
-Stripe is the default payment processor and works brilliantly for most events. Square is also supported if you prefer it. For free events, you don't need to set up any payment integration at all — attendees just register and get their tickets.
+Stripe is the default payment processor and works brilliantly for most events. Square is also supported if you prefer it. For free events, you don't need to set up any payment integration at all, and attendees just register and get their tickets.
 
 ### Activity logs
 
@@ -132,7 +132,7 @@ If you've got a team helping to run events, the owner can invite additional mana
 
 <!-- TODO: Add screenshots of booking flow, admin panel, and QR check-in -->
 
-The platform runs on [Bunny Edge Scripting](https://bunny.net/), which means it loads fast for your attendees no matter where they are. It's built to handle events of any size — from a 20-person workshop to a 2,000-person festival.
+The platform runs on [Bunny Edge Scripting](https://bunny.net/), which means it loads fast for your attendees no matter where they are. It's built to handle events of any size, from a 20-person workshop to a 2,000-person festival.
 
 </div>
 
@@ -140,11 +140,11 @@ The platform runs on [Bunny Edge Scripting](https://bunny.net/), which means it 
 
 ## Pricing
 
-**£50/year** — that's it. No setup fees, no per-ticket charges, no hidden costs. This covers your own Chobble Tickets instance, ongoing maintenance and updates, and as many events and tickets as you need.
+**£50/year.** That's it. No setup fees, no per-ticket charges, no hidden costs. This covers your own Chobble Tickets instance, ongoing maintenance and updates, and as many events and tickets as you need.
 
-**50% off for community groups, charities, artists and musicians — just £25/year.**
+**50% off for community groups, charities, artists and musicians, at just £25/year.**
 
-The only additional cost is Stripe's standard processing fee of **1.5% + 20p per transaction** (UK rates) for paid events. This goes directly to Stripe — Chobble doesn't add anything on top. Free events have no fees at all.
+The only additional cost is Stripe's standard processing fee of **1.5% + 20p per transaction** (UK rates) for paid events. This goes directly to Stripe, and Chobble doesn't add anything on top. Free events have no fees at all.
 
 ### Need hands-on help?
 
@@ -164,10 +164,10 @@ If you need a website to embed your tickets into, check out my [static website](
 The base £50/year gets you the standard Chobble Tickets platform, which handles most use cases out of the box. But if you need something more, I'm happy to customise:
 
 - **Custom branding and styling** to match your organisation's look
-- **Custom form fields** — dietary requirements, accessibility needs, t-shirt sizes, whatever your event requires
-- **Custom domains** — use tickets.yourorg.com instead of a chobble.com URL
-- **Website integration** — embedded widgets, custom styling to blend seamlessly with your existing site
-- **Anything else you can think of** — if you have an idea, just ask
+- **Custom form fields** for dietary requirements, accessibility needs, t-shirt sizes, or whatever your event requires
+- **Custom domains** so you can use tickets.yourorg.com instead of a chobble.com URL
+- **Website integration** with embedded widgets and custom styling to blend seamlessly with your existing site
+- **Anything else you can think of**, just ask
 
 Customisation work is charged at my [standard rates](/prices/). And here's a bonus: if you suggest a feature that's good enough to build into the base platform for everyone, **I'll halve the development cost** for you.
 
@@ -179,7 +179,7 @@ Customisation work is charged at my [standard rates](/prices/). And here's a bon
 
 Chobble Tickets is fully open source under the [AGPL licence](https://github.com/chobbledotcom/tickets/). You can read every line of code that handles your attendees' data. If you're technically inclined, you can even host it yourself for free.
 
-Attendee data (names, emails, phone numbers) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it — it can't be read from the database directly. This isn't just good practice, it means that even in the unlikely event of a data breach, personal information stays protected.
+Attendee data (names, emails, phone numbers) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. This isn't just good practice, it means that even in the unlikely event of a data breach, personal information stays protected.
 
 The entire platform builds into a single JavaScript file and runs on edge infrastructure, which is why it's so fast. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
 
