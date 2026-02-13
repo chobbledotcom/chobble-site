@@ -96,5 +96,12 @@
     "bestPractices": 77,
     "seo": 100,
     "lastUpdated": "2026-02-12T06:55:32.222Z"
+  },
+  "https://www.noktorum.com": {
+    "performance": 95,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 92,
+    "lastUpdated": "2026-02-13T06:53:52.695Z"
   }
 }
