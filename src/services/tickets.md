@@ -137,15 +137,15 @@ Running a similar event next month? Copy an existing event's configuration in on
 
 If you've got a team helping to run events, the owner can invite additional managers to the admin panel via time-limited invitation links.
 
-## Daily Events & Holidays
+### Daily Events & Holidays
 
 If you've got events which repeat each week you can set a schedule up and set holidays to let visitors book for upcoming events.
 
-## Refunds & Transparency
+### Refunds & Transparency
 
 You can refund payments or view payment IDs to view the payments in your payment system's dashboard.
 
-## Editing Attendees
+### Editing Attendees
 
 You can manually add attendees to events or edit their data if something needs correcting.
 
