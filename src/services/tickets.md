@@ -26,15 +26,17 @@ faqs:
 
 # Chobble Tickets
 
-**If you're fed up with companies taking a cut of your ticket sales, you might like Chobble Tickets.**. I've worked with loads of people who run ticketed events over my years, and I know that for cheaper events especially the fees can really eat into your profits.
+**If you're fed up with companies like Eventbrite taking a cut of your ticket sales, read on.**
 
-It doesn't need to be this way, because the actual job of hosting a platform to manage ticket sales isn't very complicated and it doesn't really make a difference to the host whether you sell ten or ten thousand tickets.
+Chobble Tickets is a simple, minimalist, and open source ticket sales platform I made. I can host it for you for just **£50 per year** regardless of how many tickets you sell, and the only other charges are card processing fees.
 
-I've made [Chobble Tickets](https://github.com/chobbledotcom/tickets) - a simple, minimalist, open source web platform for selling tickets. You get your own admin panel to create and manage events, and your attendees get a clean, fast, and simple booking experience.
+This could save you thousands of pounds every year if you run a lot of events.
 
-I charge **£50 per year** for hosting - and you set it up and manage it yourself. **Community groups, charities, artists and musicians get 50% off at just £25/year.**
+You'll register with a payments provider (Stripe or Square), and I give you an admin panel to create and manage events and attendee lists. People can book online, and the money goes straight to your account.
 
-And if you want to customise the platform, I'll do that at my normal [fixed hourly rates](/prices/) - or you can employ some other nerd to do that, because it's open source.
+**Community groups, charities, artists and musicians get 50% off at just £25/year.**
+
+And if you want to **customise the platform** or if you **need support**, I'll do that at my normal [fixed hourly rates](/prices/) - or you can employ some other nerd to do that, because it's open source.
 
 - [Why Chobble Tickets?](#why)
 - [How it works](#how-it-works)
@@ -60,7 +62,7 @@ Eventbrite's fees are currently around 6.95% + £0.49 per paid ticket. So if you
 
 With Chobble Tickets, you pay **£50/year** regardless of how many tickets you sell or how many events you run. I'm not involved in your sales at all - the money goes straight to your account.
 
-The only other fees are Stripe or Square's standard payment processing charges (for Stripe that's 1.5% + 20p per transaction in the UK) - Chobble takes nothing on top of that.
+The only other fees are Stripe or Square's standard payment processing charges (for Stripe that's 1.5% + 20p per transaction in the UK).
 
 If you're a **community group, charity, artist or musician**, that drops to just **£25/year**.
 
@@ -79,7 +81,7 @@ The £50/year gets you everything you need to start selling tickets:
 5. **Attendees book tickets** and pay online. They get a confirmation email with their unique QR code ticket
 6. **You manage everything** from checking people in by scanning QR codes, to tracking capacity, exporting attendee lists, and more
 
-It's totally self-service. You don't need to tell me anything about your events or ask permission to create new ones. The admin panel is yours to use however you like.
+It's fully self-service. You don't need to tell me anything about your events or ask permission to create new ones. The admin panel is yours to use however you like.
 
 I keep the platform running and maintained as part of the £50/year, but at that price I can't offer hands-on support. If you need help embedding it into your site or want me to tweak something, that's a quick job at my standard rates - **£200/hr**, or **£100/hr** for community groups, charities, artists and musicians.
 
@@ -95,7 +97,7 @@ I'm always adding and tweaking things but this list is accurate in _February 202
 
 Every ticket gets a unique URL and QR code. At the door, your staff or volunteers just log into the site and scan the code with their phone. The system confirms the ticket is valid and marks it as checked in. It's really easy.
 
-### No overbooking, ever
+### No overbooking
 
 The system uses "atomic" capacity checks, which means two people can't grab the last ticket at the same time. Tickets are reserved for five minutes for the visitor to complete their sale.
 
@@ -109,7 +111,7 @@ You can set a registration deadline so bookings close when you want them to.
 
 ### CSVs & Webhooks
 
-You can download your full attendee list as a CSV file whenever you like, or set up a webhook for notifications when people register.
+You can download your full attendee list as a CSV file whenever you like, or set up a webhook to trigger any type of web event when people register.
 
 ### Configurable contact fields
 
@@ -154,8 +156,6 @@ You can manually add attendees to events or edit their data if something needs c
 ## See it in action
 
 **[View a live demo ticket →](https://tix.chobble.com/ticket/13ga2)**
-
-<!-- TODO: Add screenshots of booking flow, admin panel, and QR check-in -->
 
 The platform runs on [Bunny Edge Scripting](https://bunny.net/), which means it loads fast for your attendees no matter where they are. It's built to handle events of any size, from a 20-person workshop to a 2,000-person festival.
 
