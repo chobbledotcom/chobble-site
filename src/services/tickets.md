@@ -38,6 +38,8 @@ You'll register with a payments provider (Stripe or Square), and I give you an a
 
 And if you want to **customise the platform** or if you **need support**, I'll do that at my normal [fixed hourly rates](/prices/) - or you can employ some other nerd to do that, because it's open source.
 
+**[✨ Click here to read an early review of the system by Spencer from Elliott's Bouncy Castle Hire ✨](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)**
+
 - [Why Chobble Tickets?](#why)
 - [How it works](#how-it-works)
 - [Features](#features)
