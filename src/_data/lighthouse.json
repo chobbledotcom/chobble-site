@@ -131,5 +131,12 @@
     "bestPractices": 100,
     "seo": 100,
     "lastUpdated": "2026-02-17T06:52:19.220Z"
+  },
+  "https://rpii.play-test.co.uk": {
+    "performance": 97,
+    "accessibility": 85,
+    "bestPractices": 92,
+    "seo": 92,
+    "lastUpdated": "2026-02-18T06:56:07.108Z"
   }
 }
