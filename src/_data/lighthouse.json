@@ -166,5 +166,12 @@
     "bestPractices": 100,
     "seo": 92,
     "lastUpdated": "2026-02-22T06:40:22.195Z"
+  },
+  "https://www.thisandthatcafe.co.uk": {
+    "performance": 83,
+    "accessibility": 100,
+    "bestPractices": 96,
+    "seo": 100,
+    "lastUpdated": "2026-02-23T06:58:35.053Z"
   }
 }
