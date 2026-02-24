@@ -41,6 +41,10 @@ After years of working in other companies I decided to fully commit to freelanci
 - Provide honest advice and guidance
 - Contribute to the wider open source community
 
+In 2026, Chobble became a registered [Community Interest Company (CIC)](https://find-and-update.company-information.service.gov.uk/company/17050113), a type of company designed to benefit the community rather than private shareholders. This means Chobble is regulated to ensure its work serves the public interest, with an "asset lock" preventing profits from being extracted for private gain. Any surplus gets reinvested into community interest activities like developing open-source software and reducing costs for community-focused clients.
+
+The CIC is set up to benefit small businesses, charities, co-operatives, and community organisations, particularly those in the Greater Manchester area, who need affordable, transparent, and open-source web development.
+
 ## Transparent & flexible
 
 I charge a [flat per-hour rate](/prices/) for all web development services and tell you exactly what's included for each hour.
