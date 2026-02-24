@@ -80,11 +80,15 @@
         }
       };
       document.addEventListener("DOMContentLoaded", trackPageView);
+      {% if site.clicky_navigation %}
       document.addEventListener("turbo:load", trackPageView);
+      {% endif %}
     </script>
     <script data-goatcounter="https://analytics.chobble.com/count"
       async src="https://analytics.chobble.com/count.js"></script>
+    {% if site.clicky_navigation %}
     <script type="module" async src="/assets/turbo.es2017-esm.min.js"></script>
+    {% endif %}
   </head>
   <body class="{{ page.fileSlug }}">
     <header>
