@@ -1007,6 +1007,27 @@ form,
   }
 }
 
+.image-gallery {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+
+  > * {
+    flex: 0 0 auto;
+  }
+
+  img {
+    display: block;
+    height: 300px;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
 .calculator-items {
   list-style-type: none;
   display: flex;
