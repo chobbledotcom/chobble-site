@@ -40,3 +40,14 @@ I am flexible and up for discussing anything.
 [Learn more about my services here](/services/) or [contact me](/contact/) to get started.
 
 </div>
+<div class="text-card">
+
+## Community Interest Company
+
+Chobble is a registered [Community Interest Company (CIC)](https://find-and-update.company-information.service.gov.uk/company/17050113), a type of business that's regulated to benefit the community rather than private shareholders.
+
+That means my work is formally committed to serving small businesses, charities, co-operatives, and community organisations, especially in the Greater Manchester area. Any surplus gets reinvested into open-source development and reducing costs for community-focused clients, not extracted as private profit.
+
+Read more about [my principles](/principles/) or [get in touch](/contact/).
+
+</div>
