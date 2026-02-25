@@ -30,11 +30,17 @@ faqs:
 
 **[Open source](https://github.com/chobbledotcom/tickets/) event ticketing with no per-ticket fees.** Managed hosting for £50/year, or self-host for free.
 
-If you're fed up with companies like Eventbrite taking a cut of your ticket sales, read on.
+**If you're fed up with companies like Eventbrite taking a cut of your ticket sales, read on.**
 
-Chobble Tickets is a simple, minimalist ticketing platform I built. You get your own admin panel to create and manage events, attendees book online, and the money goes straight to your Stripe or Square account. I'm not involved in the sale at all.
+Chobble Tickets is a simple, minimalist, and open source ticket sales platform I made. I can host it for you for just **£50 per year** regardless of how many tickets you sell, and the only other charges are card processing fees.
+
+This could save you thousands of pounds every year if you run a lot of events.
+
+You'll register with a payments provider (Stripe or Square), and I give you an admin panel to create and manage events and attendee lists. People can book online, and the money goes straight to your account. I'm not involved in the sale at all.
 
 **Community groups, charities, artists and musicians get 50% off at just £25/year.**
+
+And if you want to **customise the platform** or if you **need support**, I'll do that at my normal [fixed hourly rates](/prices/) - or you can employ some other nerd to do that, because it's open source.
 
 **[✨ Click here to read an early review of the system by Spencer from Elliott's Bouncy Castle Hire ✨](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)**
 
@@ -52,7 +58,7 @@ Chobble Tickets is a simple, minimalist ticketing platform I built. You get your
 
 ## Why Chobble Tickets?
 
-Most ticketing platforms make their money by taking a cut of every ticket you sell.
+Most ticketing platforms make their money by taking a cut of every ticket you sell by inserting themselves in the sale.
 
 Eventbrite's fees are currently around 6.95% + £0.49 per paid ticket. So if you sell:
 
@@ -60,7 +66,11 @@ Eventbrite's fees are currently around 6.95% + £0.49 per paid ticket. So if you
 - **200 tickets at £10 each** that's roughly £237 in Eventbrite fees
 - **500 tickets at £15 each** that's roughly £765 in Eventbrite fees
 
-With Chobble Tickets, you pay **£50/year** regardless of how many tickets you sell or how many events you run. The only other fees are your payment provider's standard processing charges (for Stripe, that's 1.5% + 20p per transaction in the UK).
+With Chobble Tickets, you pay **£50/year** regardless of how many tickets you sell or how many events you run. I'm not involved in your sales at all - the money goes straight to your account.
+
+The only other fees are Stripe or Square's standard payment processing charges (for Stripe that's 1.5% + 20p per transaction in the UK).
+
+If you're a **community group, charity, artist or musician**, that drops to just **£25/year**.
 
 </div>
 
@@ -68,14 +78,18 @@ With Chobble Tickets, you pay **£50/year** regardless of how many tickets you s
 
 ## How it works
 
+The £50/year gets you everything you need to start selling tickets:
+
 1. **I set you up** with your own Chobble Tickets instance
 2. **You create your admin password** which encrypts your attendee records
 3. **You create events** through a straightforward interface, setting the name, capacity, dates, ticket price, and what info you need from attendees
-4. **You share the booking link** or embed it into your own website
-5. **Attendees book tickets** and pay online, getting a confirmation with their unique QR code ticket
+4. **You share the booking link** or embed it into your own website (as an iframe), or use the built-in public site
+5. **Attendees book tickets** and pay online. They get a confirmation email with their unique QR code ticket
 6. **You manage everything** from checking people in by scanning QR codes, to tracking capacity, exporting attendee lists, issuing refunds, and more
 
 It's fully self-service. You don't need to tell me anything about your events or ask permission to create new ones. The admin panel is yours to use however you like.
+
+I keep the platform running and maintained as part of the £50/year, but at that price I can't offer hands-on support. If you need help embedding it into your site or want me to tweak something, that's a quick job at my standard rates - **£200/hr**, or **£100/hr** for community groups, charities, artists and musicians.
 
 </div>
 
@@ -83,77 +97,87 @@ It's fully self-service. You don't need to tell me anything about your events or
 
 ## Features
 
-### Events
+I'm always adding and tweaking things but this list is accurate in _February 2026_.
 
-**Standard events** have a fixed capacity for a single occasion. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or recurring activities. You can set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted.
+### QR code check-in
 
-Set a **registration deadline** to close bookings at a specific time. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** to display on the booking page. **Duplicate** an existing event to create a similar one without starting from scratch.
+Every ticket gets a unique URL and QR code. At the door, your staff or volunteers just log into the site and scan the code with their phone using the **built-in QR scanner**. The system confirms the ticket is valid and marks it as checked in. It's really easy. The scanner is intentionally check-in only - no accidental check-outs from double-scans at a busy door. If someone shows a ticket for a different event, you'll get a warning and can decide what to do.
 
-### Groups & Multi-event Bookings
+### No overbooking
 
-**Groups** let you bundle related events under a single URL. Attendees see all active events in the group on one page. You can also create **multi-event booking links** that combine specific events into a single form and checkout, so attendees fill in their details once and pay once for multiple events.
+The system uses "atomic" capacity checks, which means two people can't grab the last ticket at the same time. Tickets are reserved for five minutes for the visitor to complete their sale. If someone finishes paying after the event fills up, they're automatically refunded.
 
-### QR Code Check-in
+### Standard & daily events
 
-Every ticket gets a unique URL and QR code. At the door, staff log in and scan codes with the **built-in QR scanner** using their phone camera. The scanner is intentionally check-in only - no accidental check-outs from double-scans at a busy door. If someone shows a ticket for a different event, the system warns you and lets you decide.
+**Standard events** are your typical one-off occasions with a fixed capacity. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or anything that runs regularly. You set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted.
 
-### No Overbooking
+### Groups & multi-event bookings
 
-The system uses atomic capacity checks - two people can't grab the last ticket at the same time. Places are reserved for five minutes while attendees complete payment. If someone finishes paying after the event fills up, they're automatically refunded.
+**Groups** let you bundle related events under a single URL - attendees see all active events in the group on one page. You can also create **multi-event booking links** that combine specific events into a single form and checkout, so attendees fill in their details once and pay once for multiple events. There's a link builder on the dashboard so you don't have to construct the URLs yourself.
 
-### Payments & Refunds
+### Registration deadlines & capacity
 
-**Stripe** is recommended and works with minimal setup - just paste in your secret key and the webhook configures itself. **Square** is also supported. For free events, no payment setup is needed at all.
+You can set a registration deadline so bookings close when you want them to. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** to display on the booking page.
 
-You can issue **full refunds** for individual attendees or **bulk refund** all attendees for an event. The system also handles **automatic refunds** if capacity is exceeded after payment or if the event price changes during checkout.
+### Payment processing
 
-### Configurable Contact Fields
+Stripe is the default payment processor and works great for most events - just paste in your secret key and the webhook configures itself. Square is also supported if you prefer it. For free events, you don't need to set up any payment integration at all, and attendees just register and get their tickets.
 
-Collect any combination of name, email, phone, postal address, and special instructions. All of this data is included in CSV exports and webhook payloads.
+### Refunds
 
-### Public Site
+You can issue **full refunds** for individual attendees or **bulk refund** all attendees for an event in one go. The system also handles **automatic refunds** if capacity is exceeded after payment or if the event price changes during someone's checkout. You can also view payment IDs to check things in your payment provider's dashboard.
 
-Enable the **built-in public site** to get a homepage, events listing, terms & conditions page, and contact page on your domain - no separate website needed. Choose a **light or dark theme**. Or keep it disabled and just share direct booking links.
+### Configurable contact fields
+
+You can collect the attendee's name, email, phone, address, special requests, or any combination of those - and that data is all exported to the CSVs and webhooks too.
+
+### Public site
+
+Don't have a website? Enable the **built-in public site** to get a homepage, events listing, terms & conditions page, and contact page on your domain. Choose a **light or dark theme**. Or keep it disabled and just share direct booking links. If you want something more bespoke, I can [build you a website](/services/static-websites/).
 
 ### Embedding
 
-Embed booking forms into your existing website using the provided **embed script** or **iframe code**. Configure which domains are allowed to embed your forms.
+Already have a website? Embed booking forms into it using the provided **embed script** or **iframe code**. You configure which domains are allowed to embed your forms in the settings.
 
-### CSV Exports & Webhooks
+### CSVs & webhooks
 
-Download your full attendee list as a CSV file at any time, with filters for date and check-in status. Set up **webhooks** to send a POST request to any URL whenever someone registers - useful for email notifications, Slack messages, or updating a spreadsheet.
+You can download your full attendee list as a CSV file whenever you like, with filters for date and check-in status. Set up a **webhook** to trigger any type of web event when people register - useful for email notifications, Slack messages, or updating a spreadsheet.
 
-### Email Confirmations
+### Email confirmations
 
-Attendees get a confirmation email with a link to their ticket. Replies go straight to your address. This is handled through webhooks using [Automatisch](https://automatisch.io/) and [Notifuse](https://notifuse.com/), and you could set up your own email pipeline if you wanted to.
+Attendees get a simple confirmation email when they book with a link to their ticket. The emails come from an address I manage, with the reply-to set to your address so any replies go straight to you. This is handled through webhooks using [Automatisch](https://automatisch.io/) and [Notifuse](https://notifuse.com/), and you could set up your own email pipeline if you wanted to. If you'd like custom email templates, I can do that as part of a paid customisation job.
 
-### Multi-user Access
+### Invite managers
 
-**Owners** have full access to everything. **Managers** can see events and the calendar but can't change settings or manage users. Invite team members via time-limited links that expire after 7 days.
+If you've got a team helping to run events, the owner can invite additional managers to the admin panel via time-limited invitation links. **Owners** get full access to everything. **Managers** can see events and the calendar but can't change settings or manage users.
 
-### Manual Attendees
+### Editing attendees
 
-Add attendees directly from the admin panel for walk-ins, comps, or manual corrections - bypassing the booking form and payment flow.
+You can manually add attendees to events for walk-ins, comps, or manual corrections - bypassing the booking form and payment flow. You can also edit their data if something needs correcting.
 
-### Activity Log
+### Duplicate events
 
-Every admin action is logged: event creation, attendee changes, check-ins, exports, settings updates. Each event also has its own log. Useful when you're running events with a committee or team.
+Running a similar event next month? Copy an existing event's configuration in one click rather than setting everything up from scratch.
 
-### Calendar View
+### Activity log
+
+The admin panel keeps a log of actions taken, so if you're running events with a committee or team, you've got a clear record of what happened and when. Each event also has its own log.
+
+### Calendar view
 
 The admin calendar shows every attendee booked across all events on a given day. Especially useful for daily events - you can see who's coming, manage check-ins, and export the day's attendees as CSV.
 
-### Terms & Conditions
+### Terms & conditions
 
 Set global terms that attendees must agree to before booking. Groups can have their own terms that override the global ones.
 
-### Custom Redirects
+### Custom redirects
 
 Set a custom thank-you URL on any event to redirect attendees to your own page after booking, instead of the default confirmation page.
 
 ### Encryption
 
-All personal information (names, emails, phone numbers, addresses) is encrypted at rest using hybrid RSA + AES-256 encryption. Only authenticated admins can decrypt it. Even payment IDs, API keys, and check-in status are encrypted. A database breach alone does not expose personal data.
+All personal information (names, emails, phone numbers, addresses) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. This isn't just good practice - it means that even in the unlikely event of a data breach, personal information stays protected. Even payment IDs, API keys, and check-in status are encrypted.
 
 </div>
 
@@ -179,9 +203,14 @@ The only additional cost is your payment provider's standard processing fee (for
 
 ### Need hands-on help?
 
-Customisation, embedding, or support is available at my [standard rates](/prices/) - or you can employ some other nerd to do it, because it's open source.
+If you want me to embed the ticket system into your website, customise the styling, or make other tweaks, I will bill you at my hourly rate (by the half hour):
+
+- **£200** at my standard rate
+- **£100** for community groups, charities, artists and musicians
 
 If you need a website to embed your tickets into, check out my [static website](/services/static-websites/) or [charity web development](/services/charity-web-development/) services.
+
+The code is **open source** and released under the **AGPLv3** license, so any other nerd can modify it too - as long as their code is also open source.
 
 </div>
 
@@ -205,9 +234,9 @@ Customisation work is charged at my [standard rates](/prices/). And here's a bon
 
 ## Open source
 
-Chobble Tickets is fully open source under the [AGPL licence](https://github.com/chobbledotcom/tickets/). You can read every line of code that handles your attendees' data. If you're technically inclined, you can self-host it for free.
+Chobble Tickets is fully open source under the [AGPL licence](https://github.com/chobbledotcom/tickets/). You can read every line of code that handles your attendees' data. If you're technically inclined, you can even host it yourself for free.
 
-The entire platform builds into a single JavaScript file and runs on [Bunny.net](https://bunny.net/), using their edge scripting for the application and their hosted databases for storage. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
+The entire platform builds into a single JavaScript file and runs on [Bunny.net](https://bunny.net/), using their edge scripting for the application and their hosted databases for storage. The whole infrastructure runs through Bunny, which keeps it fast and very cheap to operate. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
 
 </div>
 

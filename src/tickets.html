@@ -335,82 +335,87 @@ permalink: "/tickets/"
     </div>
 
     <p>
-      Most ticketing platforms take a cut of every sale. Chobble Tickets is a flat
-      &pound;50/year &mdash; you keep your ticket revenue. Payments go through your own
-      Stripe or Square account, so the money goes straight to you.
+      Most ticketing platforms take a cut of every sale by inserting themselves
+      in the transaction. Chobble Tickets is a flat &pound;50/year &mdash; I'm not
+      involved in your sales at all. Payments go through your own Stripe or
+      Square account, so the money goes straight to you. This could save you
+      thousands of pounds every year if you run a lot of events.
     </p>
 
     <p>
       The entire platform is
-      <a href="https://github.com/chobbledotcom/tickets/">open source under the AGPL licence</a>,
-      so you can read every line of code, self-host it for free, or pay for managed hosting
-      and let me handle the infrastructure.
+      <a href="https://github.com/chobbledotcom/tickets/">open source under the AGPL licence</a>.
+      You can read every line of code, self-host it for free, or pay for managed
+      hosting and let me handle the infrastructure. If you want to customise it,
+      I'll do that at my normal rates &mdash; or you can employ some other nerd,
+      because it's open source.
     </p>
 
     <div class="features-grid">
       <div class="feature-card">
         <h3>QR Check-in</h3>
-        <p>Every ticket gets a unique QR code. Staff scan with their phone using the built-in scanner. Check-in only &mdash; no accidental check-outs.</p>
+        <p>Every ticket gets a unique QR code. Your staff just scan it with their phone using the built-in scanner. It's really easy. Check-in only &mdash; no accidental check-outs from double-scans.</p>
       </div>
       <div class="feature-card">
         <h3>No Overbooking</h3>
-        <p>Atomic capacity checks prevent two people grabbing the last ticket. Places reserved for 5 minutes during payment, then released if abandoned.</p>
+        <p>Two people can't grab the last ticket at the same time. Places are reserved for 5 minutes while someone pays, then released if they abandon.</p>
       </div>
       <div class="feature-card">
         <h3>Stripe &amp; Square</h3>
-        <p>Paste in your Stripe key and the webhook configures itself. Square also supported. Free events need no payment setup at all.</p>
+        <p>Paste in your Stripe key and the webhook configures itself. Square's also supported. Free events don't need any payment setup at all.</p>
       </div>
       <div class="feature-card">
         <h3>Encrypted Data</h3>
-        <p>All personal info encrypted at rest with RSA + AES-256. A database breach alone can't expose attendee data.</p>
+        <p>All personal info is encrypted at rest. Even if the database were compromised, attendee data stays protected. This isn't marketing fluff &mdash; it's how the system actually works.</p>
       </div>
       <div class="feature-card">
         <h3>Daily &amp; One-off Events</h3>
-        <p>Standard events for one-off occasions. Daily events with a calendar picker, per-date capacity, and holiday blackout dates.</p>
+        <p>Standard events for one-off occasions. Daily events let attendees pick a date from a calendar, with per-date capacity and holiday blackout dates.</p>
       </div>
       <div class="feature-card">
         <h3>Multi-event Bookings</h3>
-        <p>Combine events into one URL. Attendees fill in details once, pay once, and get all their tickets together.</p>
+        <p>Combine events into one URL so attendees fill in their details once, pay once, and get all their tickets together. There's a link builder so you don't have to construct the URLs by hand.</p>
       </div>
       <div class="feature-card">
         <h3>Groups</h3>
-        <p>Bundle related events under a single page. Share one link and attendees see everything available.</p>
+        <p>Bundle related events under a single page. Share one link and attendees see everything that's available.</p>
       </div>
       <div class="feature-card">
-        <h3>CSV &amp; Webhooks</h3>
-        <p>Export attendee lists as CSV. Webhooks fire on every registration for email notifications, Slack, or spreadsheets.</p>
+        <h3>CSVs &amp; Webhooks</h3>
+        <p>Download attendee lists as CSV whenever you like. Set up webhooks to fire on every registration &mdash; handy for email notifications, Slack, or spreadsheets.</p>
       </div>
       <div class="feature-card">
-        <h3>Multi-user Admin</h3>
-        <p>Owners get full control. Invite managers via time-limited links. Activity logs track every admin action.</p>
+        <h3>Invite Managers</h3>
+        <p>Got a team? Invite managers to the admin panel. Owners get full control, managers can see events and the calendar. Activity logs track everything.</p>
       </div>
       <div class="feature-card">
         <h3>Refunds</h3>
-        <p>One-click individual refunds, bulk refund entire events, and automatic refunds if capacity is exceeded after payment.</p>
+        <p>Refund individual attendees, bulk refund an entire event, or let the system handle it automatically if the event fills up while someone's paying.</p>
       </div>
       <div class="feature-card">
         <h3>Embeddable</h3>
-        <p>Embed booking forms into your existing website with the provided embed script or iframe code.</p>
+        <p>Already got a website? Embed the booking form with the provided embed script or iframe code. No website? Use the built-in public site instead.</p>
       </div>
       <div class="feature-card">
         <h3>Built-in Public Site</h3>
-        <p>Optional homepage, events listing, and contact page on your domain. Light and dark themes. No separate website needed.</p>
+        <p>Don't need a separate website? Enable the public site for a homepage, events listing, and contact page on your domain. Light and dark themes included.</p>
       </div>
     </div>
 
     <div class="info">
-      <strong>Scales effortlessly.</strong> The platform runs on
-      <a href="https://bunny.net/">Bunny Edge Scripting</a>, a global edge network, so
-      it's fast everywhere and scales up automatically. High-traffic event launches won't
-      break a sweat &mdash; atomic database operations mean no overbooking even under
-      heavy load, and edge hosting means there's no single server to overload.
+      The whole thing runs on
+      <a href="https://bunny.net/">Bunny Edge Scripting</a>, a global edge network,
+      so it's fast for your attendees no matter where they are. There's no single
+      server to overload &mdash; it handles a 20-person workshop and a high-traffic
+      festival launch equally well.
     </div>
 
     <p>
-      Also includes: configurable contact fields, registration deadlines, max tickets per purchase,
-      event images, duplicate events, manual attendee creation for walk-ins, terms &amp; conditions,
-      custom thank-you redirects, calendar view across all events, per-event activity logs,
-      session management, and a built-in admin guide.
+      There's loads more too: configurable contact fields, registration deadlines,
+      max tickets per purchase, event images, duplicate events in one click, manually
+      adding attendees for walk-ins and comps, terms &amp; conditions, custom
+      thank-you redirects, a calendar view across all events, per-event activity
+      logs, session management, and a built-in admin guide.
     </p>
 
     <p>
