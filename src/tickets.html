@@ -7,11 +7,11 @@ permalink: "/tickets/"
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tickets Setup Guide</title>
+    <title>Chobble Tickets - Event Ticketing Without Per-Ticket Fees</title>
     <meta name="robots" content="noindex" />
     <meta
       name="description"
-      content="Setup guide for the Chobble Tickets system"
+      content="Open source event ticketing with no per-ticket fees. Stripe and Square payments, QR check-in, encrypted attendee data, and more. Managed hosting for £50/year or self-host for free."
     />
     <style>
       * {
@@ -33,6 +33,96 @@ permalink: "/tickets/"
       h2 {
         color: #1a1a1a;
         margin-top: 2rem;
+      }
+      .hero {
+        text-align: center;
+        padding: 2rem 0;
+      }
+      .hero h1 {
+        border-bottom: none;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      .hero .subtitle {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 1.5rem;
+      }
+      .hero .cta-btn {
+        display: inline-block;
+        padding: 0.75rem 2rem;
+        background: #3b82f6;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        transition: background 0.2s;
+        margin: 0.25rem;
+      }
+      .hero .cta-btn:hover {
+        background: #2563eb;
+      }
+      .hero .cta-btn.secondary {
+        background: white;
+        color: #3b82f6;
+        border: 2px solid #3b82f6;
+      }
+      .hero .cta-btn.secondary:hover {
+        background: #eff6ff;
+      }
+      .features-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1.5rem 0;
+      }
+      @media (max-width: 600px) {
+        .features-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .feature-card {
+        background: #f9fafb;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        padding: 1rem;
+      }
+      .feature-card h3 {
+        margin: 0 0 0.25rem 0;
+        font-size: 1rem;
+        color: #1a1a1a;
+      }
+      .feature-card p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #555;
+      }
+      .pricing-box {
+        background: #eff6ff;
+        border: 2px solid #3b82f6;
+        border-radius: 12px;
+        padding: 1.5rem;
+        text-align: center;
+        margin: 1.5rem 0;
+      }
+      .pricing-box .price {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #1a1a1a;
+      }
+      .pricing-box .price-note {
+        color: #555;
+        font-size: 0.95rem;
+      }
+      .pricing-box .discount {
+        background: #dcfce7;
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        color: #166534;
       }
       .intro {
         background: #f0f9ff;
@@ -221,14 +311,124 @@ permalink: "/tickets/"
         font-size: 0.9rem;
         color: #666;
       }
+      hr {
+        border: none;
+        border-top: 2px solid #e5e5e5;
+        margin: 3rem 0;
+      }
     </style>
   </head>
   <body>
-    <h1>Tickets Setup Guide</h1>
+    <div class="hero">
+      <h1>Chobble Tickets</h1>
+      <p class="subtitle">
+        Event ticketing without per-ticket fees. Open source. Encrypted.
+      </p>
+      <a href="https://tix.chobble.com/ticket/ef447" class="cta-btn">See a live demo</a>
+      <a href="https://github.com/chobbledotcom/tickets/" class="cta-btn secondary">View on GitHub</a>
+    </div>
+
+    <div class="pricing-box">
+      <div class="price">&pound;50/year</div>
+      <div class="price-note">Managed hosting. No per-ticket fees. No limits on events or tickets.</div>
+      <div class="discount">50% off for charities, community groups, artists &amp; musicians</div>
+    </div>
+
+    <p>
+      Most ticketing platforms take a cut of every sale by inserting themselves
+      in the transaction. Chobble Tickets is a flat &pound;50/year &mdash; I'm not
+      involved in your sales at all. Payments go through your own Stripe or
+      Square account, so the money goes straight to you. This could save you
+      thousands of pounds every year if you run a lot of events.
+    </p>
+
+    <p>
+      The entire platform is
+      <a href="https://github.com/chobbledotcom/tickets/">open source under the AGPL licence</a>.
+      You can read every line of code, self-host it for free, or pay for managed
+      hosting and let me handle the infrastructure. If you want to customise it,
+      I'll do that at my normal rates &mdash; or you can employ some other nerd,
+      because it's open source.
+    </p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>QR Check-in</h3>
+        <p>Every ticket gets a unique QR code. Your staff just scan it with their phone using the built-in scanner. It's really easy. Check-in only &mdash; no accidental check-outs from double-scans.</p>
+      </div>
+      <div class="feature-card">
+        <h3>No Overbooking</h3>
+        <p>Two people can't grab the last ticket at the same time. Places are reserved for 5 minutes while someone pays, then released if they abandon.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Stripe &amp; Square</h3>
+        <p>Paste in your Stripe key and the webhook configures itself. Square's also supported. Free events don't need any payment setup at all.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Encrypted Data</h3>
+        <p>All personal info is encrypted at rest. Even if the database were compromised, attendee data stays protected. This isn't marketing fluff &mdash; it's how the system actually works.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Daily &amp; One-off Events</h3>
+        <p>Standard events for one-off occasions. Daily events let attendees pick a date from a calendar, with per-date capacity and holiday blackout dates.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Multi-event Bookings</h3>
+        <p>Combine events into one URL so attendees fill in their details once, pay once, and get all their tickets together. There's a link builder so you don't have to construct the URLs by hand.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Groups</h3>
+        <p>Bundle related events under a single page. Share one link and attendees see everything that's available.</p>
+      </div>
+      <div class="feature-card">
+        <h3>CSVs &amp; Webhooks</h3>
+        <p>Download attendee lists as CSV whenever you like. Set up webhooks to fire on every registration &mdash; handy for email notifications, Slack, or spreadsheets.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Invite Managers</h3>
+        <p>Got a team? Invite managers to the admin panel. Owners get full control, managers can see events and the calendar. Activity logs track everything.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Refunds</h3>
+        <p>Refund individual attendees, bulk refund an entire event, or let the system handle it automatically if the event fills up while someone's paying.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Embeddable</h3>
+        <p>Already got a website? Embed the booking form with the provided embed script or iframe code. No website? Use the built-in public site instead.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Built-in Public Site</h3>
+        <p>Don't need a separate website? Enable the public site for a homepage, events listing, and contact page on your domain. Light and dark themes included.</p>
+      </div>
+    </div>
+
+    <div class="info">
+      The whole thing runs on
+      <a href="https://bunny.net/">Bunny Edge Scripting</a>, a global edge network,
+      so it's fast for your attendees no matter where they are. There's no single
+      server to overload &mdash; it handles a 20-person workshop and a high-traffic
+      festival launch equally well.
+    </div>
+
+    <p>
+      There's loads more too: configurable contact fields, registration deadlines,
+      max tickets per purchase, event images, duplicate events in one click, manually
+      adding attendees for walk-ins and comps, terms &amp; conditions, custom
+      thank-you redirects, a calendar view across all events, per-event activity
+      logs, session management, and a built-in admin guide.
+    </p>
+
+    <p>
+      For the full feature list and pricing details, see the
+      <a href="https://chobble.com/services/tickets/">Chobble Tickets service page</a>.
+    </p>
+
+    <hr />
+
+    <h1>Setup Guide</h1>
 
     <div class="intro">
-      <strong>Tickets</strong> is a simple event ticketing system. This guide
-      will help you get it running on your own domain.
+      Ready to get started? Choose the option that applies to you below.
     </div>
 
     <h2>Which applies to you?</h2>
@@ -263,7 +463,7 @@ permalink: "/tickets/"
       <div class="step">
         <p>
           Click the button below to generate a secure encryption key. This key
-          encrypts sensitive data in your database.
+          encrypts all personal data in your database.
         </p>
         <button class="generate-btn" onclick="generateKey()">
           Generate Encryption Key
@@ -276,9 +476,9 @@ permalink: "/tickets/"
             </button>
           </div>
           <div class="warning" style="margin-top: 1rem">
-            <strong>Save this key securely!</strong> You'll need it in the next
-            step, and if you ever need to restore your system. I won't be able
-            to recover it for you.
+            <strong>Save this key somewhere safe!</strong> You'll need it in the
+            next step, and if you ever need to restore your system. Nobody can
+            recover it for you &mdash; it's the only way to decrypt your attendee data.
           </div>
         </div>
       </div>
@@ -297,7 +497,7 @@ permalink: "/tickets/"
         <p><span class="step-number">2</span> Click "Create fork"</p>
         <p>
           <small
-            >(You'll need a GitHub account - it's free to create one)</small
+            >(You'll need a GitHub account &mdash; it's free to create one)</small
           >
         </p>
       </div>
@@ -340,7 +540,21 @@ permalink: "/tickets/"
       <div class="success">
         <strong>That's it!</strong> Once the workflow completes (usually under a
         minute), your ticketing system will be live at your domain. Visit it to
-        complete the initial setup.
+        set your admin password and configure your payment provider.
+      </div>
+
+      <h2>Step 5: First Login</h2>
+      <div class="step">
+        <p><span class="step-number">1</span> Visit your domain and go to <code>/setup/</code></p>
+        <p><span class="step-number">2</span> Set your admin password and choose your currency</p>
+        <p><span class="step-number">3</span> Go to <strong>Settings</strong> to configure Stripe or Square</p>
+        <p><span class="step-number">4</span> Create your first event and share the booking link</p>
+      </div>
+
+      <div class="info">
+        <strong>Need help?</strong> The admin panel has a built-in guide at
+        <code>/admin/guide</code> with answers to common questions about events,
+        payments, check-in, and more.
       </div>
     </div>
 
@@ -352,15 +566,19 @@ permalink: "/tickets/"
         You'll need to set up these services yourself:
         <ul>
           <li>
-            <strong>Turso Database</strong> - Create a free account at
+            <strong>Turso Database</strong> &mdash; Create a free account at
             <a href="https://turso.tech" target="_blank">turso.tech</a>
           </li>
           <li>
-            <strong>Bunny Edge Scripting</strong> - Sign up at
+            <strong>Bunny Edge Scripting</strong> &mdash; Sign up at
             <a href="https://bunny.net" target="_blank">bunny.net</a>
           </li>
-          <li><strong>A domain name</strong> - Pointed at Bunny</li>
+          <li><strong>A domain name</strong> &mdash; Pointed at Bunny</li>
         </ul>
+        <p>
+          Full technical details are in the
+          <a href="https://github.com/chobbledotcom/tickets/" target="_blank">GitHub repository README</a>.
+        </p>
       </div>
 
       <h2>Step 1: Create Your Database</h2>
@@ -382,6 +600,10 @@ permalink: "/tickets/"
 
       <h2>Step 3: Generate Your Encryption Key</h2>
       <div class="step">
+        <p>
+          This key encrypts all personal data in your database. Keep it safe &mdash;
+          without it, attendee data is permanently unreadable.
+        </p>
         <button class="generate-btn" onclick="generateKey()">
           Generate Encryption Key
         </button>
@@ -396,8 +618,8 @@ permalink: "/tickets/"
             </button>
           </div>
           <div class="warning" style="margin-top: 1rem">
-            <strong>Save this key securely!</strong> You'll need it in the next
-            step, and if you ever need to restore your system.
+            <strong>Save this key somewhere safe!</strong> You'll need it in the
+            next step, and if you ever need to restore your system.
           </div>
         </div>
       </div>
@@ -412,7 +634,7 @@ permalink: "/tickets/"
             >github.com/chobbledotcom/tickets</a
           >
         </p>
-        <p><span class="step-number">2</span> Go to Settings → Secrets and variables → Actions</p>
+        <p><span class="step-number">2</span> Go to Settings &rarr; Secrets and variables &rarr; Actions</p>
         <p><span class="step-number">3</span> Add these secrets:</p>
 
         <div class="secret-item">
@@ -443,13 +665,23 @@ permalink: "/tickets/"
 
       <h2>Step 5: Deploy</h2>
       <div class="step">
-        <p><span class="step-number">1</span> Go to Actions tab → Enable workflows</p>
-        <p><span class="step-number">2</span> Click Deploy → Run workflow</p>
+        <p><span class="step-number">1</span> Go to the Actions tab and enable workflows</p>
+        <p><span class="step-number">2</span> Click Deploy &rarr; Run workflow</p>
       </div>
 
       <div class="success">
-        Once deployed, visit your domain to complete the initial setup
-        (admin password, optional Stripe configuration, etc).
+        Once deployed, visit your domain and go to <code>/setup/</code> to set
+        your admin password and currency. Then go to <strong>Settings</strong> to
+        configure Stripe or Square.
+      </div>
+
+      <div class="info">
+        <strong>Optional environment variables:</strong>
+        <code>STORAGE_ZONE_NAME</code> and <code>STORAGE_ZONE_KEY</code> for
+        Bunny CDN image uploads, <code>WEBHOOK_URL</code> for a global webhook,
+        and <code>NTFY_URL</code> for error notifications. See the
+        <a href="https://github.com/chobbledotcom/tickets/" target="_blank">README</a>
+        for full details.
       </div>
     </div>
 
@@ -514,8 +746,8 @@ permalink: "/tickets/"
         <strong>What happens:</strong> The customer opens this link, generates
         their own encryption key (which you'll never see), adds all the secrets
         to their GitHub fork, and deploys. You can then use the DB credentials
-        to access their data - but anything encrypted will be unreadable without
-        their key.
+        to access their data &mdash; but anything encrypted will be unreadable
+        without their key.
       </div>
     </div>
 
