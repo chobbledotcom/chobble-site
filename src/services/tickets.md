@@ -184,7 +184,7 @@ The admin panel has a built-in guide covering events, payments, check-in, and mo
 
 ### Encryption
 
-All personal information (names, emails, phone numbers, addresses) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. This isn't just good practice - it means that even in the unlikely event of a data breach, personal information stays protected. Even payment IDs, API keys, and check-in status are encrypted.
+All personal information (names, emails, phone numbers, addresses) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information stays protected. Even payment IDs, API keys, and check-in status are encrypted.
 
 </div>
 
@@ -194,7 +194,7 @@ All personal information (names, emails, phone numbers, addresses) is encrypted 
 
 **[View a live demo ticket →](https://tix.chobble.com/)**
 
-The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch without breaking a sweat. Atomic capacity checks mean no overbooking even under heavy load.
+The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch equally well. Atomic capacity checks mean no overbooking even under heavy load.
 
 </div>
 
@@ -225,7 +225,7 @@ The code is **open source** and released under the **AGPLv3** license, so any ot
 
 ## Customisation
 
-The standard platform handles most use cases out of the box. But if you need something more, I'm happy to customise:
+The standard platform handles most use cases. But if you need something more, I'm happy to customise:
 
 - **Custom branding and styling** to match your organisation's look
 - **Custom form fields** for dietary requirements, accessibility needs, t-shirt sizes, or whatever your event requires

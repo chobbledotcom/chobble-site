@@ -312,7 +312,7 @@ permalink: "/tickets/"
 
     <p>
       Most ticketing platforms take a cut of every sale by inserting themselves
-      in the transaction. Chobble Tickets is a flat &pound;50/year &mdash; I'm not
+      in the transaction. Chobble Tickets is a flat &pound;50/year, and I'm not
       involved in your sales at all. Payments go through your own Stripe or
       Square account, so the money goes straight to you. This could save you
       thousands of pounds every year if you run a lot of events.
@@ -323,14 +323,14 @@ permalink: "/tickets/"
       <a href="https://github.com/chobbledotcom/tickets/">open source under the AGPL licence</a>.
       You can read every line of code, self-host it for free, or pay for managed
       hosting and let me handle the infrastructure. If you want to customise it,
-      I'll do that at my normal rates &mdash; or you can employ some other nerd,
+      I'll do that at my normal rates, or you can employ some other nerd,
       because it's open source.
     </p>
 
     <div class="features-grid">
       <div class="feature-card">
         <h3>QR Check-in</h3>
-        <p>Every ticket gets a unique QR code. Your staff just scan it with their phone using the built-in scanner. It's really easy. Check-in only &mdash; no accidental check-outs from double-scans.</p>
+        <p>Every ticket gets a unique QR code. Your staff just scan it with their phone using the built-in scanner. It's really easy. Check-in only, with no accidental check-outs from double-scans.</p>
       </div>
       <div class="feature-card">
         <h3>No Overbooking</h3>
@@ -342,7 +342,7 @@ permalink: "/tickets/"
       </div>
       <div class="feature-card">
         <h3>Encrypted Data</h3>
-        <p>All personal info is encrypted at rest. Even if the database were compromised, attendee data stays protected. This isn't marketing fluff &mdash; it's how the system actually works.</p>
+        <p>All personal info is encrypted at rest. Even if the database were compromised, attendee data stays protected. The system encrypts data at every level.</p>
       </div>
       <div class="feature-card">
         <h3>Daily &amp; One-off Events</h3>
@@ -358,7 +358,7 @@ permalink: "/tickets/"
       </div>
       <div class="feature-card">
         <h3>CSVs &amp; Webhooks</h3>
-        <p>Download attendee lists as CSV whenever you like. Set up webhooks to fire on every registration &mdash; handy for email notifications, Slack, or spreadsheets.</p>
+        <p>Download attendee lists as CSV whenever you like. Set up webhooks to fire on every registration, handy for email notifications, Slack, or spreadsheets.</p>
       </div>
       <div class="feature-card">
         <h3>Invite Managers</h3>
@@ -378,7 +378,7 @@ permalink: "/tickets/"
       </div>
       <div class="feature-card">
         <h3>Markdown Descriptions</h3>
-        <p>Format your event descriptions with Markdown &mdash; headings, bold, links, lists. It just renders nicely, no HTML needed.</p>
+        <p>Format your event descriptions with Markdown, including headings, bold, links, and lists. It just renders nicely, no HTML needed.</p>
       </div>
       <div class="feature-card">
         <h3>Header Images</h3>
@@ -390,7 +390,7 @@ permalink: "/tickets/"
       The whole thing runs on
       <a href="https://bunny.net/">Bunny Edge Scripting</a>, a global edge network,
       so it's fast for your attendees no matter where they are. There's no single
-      server to overload &mdash; it handles a 20-person workshop and a high-traffic
+      server to overload, and it handles a 20-person workshop and a high-traffic
       festival launch equally well.
     </div>
 
@@ -415,11 +415,11 @@ permalink: "/tickets/"
     <div class="mode-selector">
       <button class="mode-btn" onclick="setMode('hosted')">
         <strong>Chobble handles everything</strong><br />
-        <small>Easiest &mdash; just sign up and go</small>
+        <small>Easiest, just sign up and go</small>
       </button>
       <button class="mode-btn" onclick="setMode('customer')">
         <strong>You handle deployments</strong><br />
-        <small>Ultra-secure &mdash; you control code updates via GitHub</small>
+        <small>Ultra-secure, you control code updates via GitHub</small>
       </button>
       <button class="mode-btn" onclick="setMode('self')">
         <strong>Fully self-hosted</strong><br />
@@ -462,7 +462,7 @@ permalink: "/tickets/"
       <div class="info">
         <strong>For the ultra-secure.</strong> I set up the infrastructure
         (database, hosting, domain), but you control deployments through your
-        own GitHub fork. This means nobody &mdash; not even me &mdash; can
+        own GitHub fork. This means nobody, not even me, can
         push code updates to your instance without your involvement.
       </div>
 
@@ -505,7 +505,7 @@ permalink: "/tickets/"
           <div class="warning" style="margin-top: 1rem">
             <strong>Save this key somewhere safe!</strong> You'll need it in the
             next step, and if you ever need to restore your system. Nobody can
-            recover it for you &mdash; it's the only way to decrypt your attendee data.
+            recover it for you, and it's the only way to decrypt your attendee data.
           </div>
         </div>
       </div>
@@ -524,7 +524,7 @@ permalink: "/tickets/"
         <p><span class="step-number">2</span> Click "Create fork"</p>
         <p>
           <small
-            >(You'll need a GitHub account &mdash; it's free to create one)</small
+            >(You'll need a GitHub account, and it's free to create one)</small
           >
         </p>
       </div>
@@ -553,7 +553,7 @@ permalink: "/tickets/"
         <strong>Note:</strong> The runtime secrets (<code>DB_URL</code>,
         <code>DB_TOKEN</code>, <code>DB_ENCRYPTION_KEY</code>, and
         <code>ALLOWED_DOMAIN</code>) are configured as Bunny native secrets
-        in the Bunny dashboard &mdash; Chobble will have set these up for you
+        in the Bunny dashboard, and Chobble will have set these up for you
         already. Only <code>BUNNY_SCRIPT_ID</code>,
         <code>BUNNY_ACCESS_KEY</code>, and <code>DB_ENCRYPTION_KEY</code>
         need to go in GitHub.
@@ -585,7 +585,7 @@ permalink: "/tickets/"
         <p><span class="step-number">1</span> Visit your domain and go to <code>/setup/</code></p>
         <p><span class="step-number">2</span> Choose an admin username and password (minimum 8 characters)</p>
         <p><span class="step-number">3</span> Choose your currency (defaults to GBP)</p>
-        <p><span class="step-number">4</span> Accept the data controller agreement &mdash; this confirms you're responsible for your attendees' data</p>
+        <p><span class="step-number">4</span> Accept the data controller agreement, which confirms you're responsible for your attendees' data</p>
         <p><span class="step-number">5</span> Go to <strong>Settings</strong> to configure Stripe or Square</p>
         <p><span class="step-number">6</span> Create your first event and share the booking link</p>
       </div>
@@ -624,7 +624,7 @@ permalink: "/tickets/"
       <div class="step">
         <p>
           You'll need a database encryption key. This encrypts all personal data
-          in your database &mdash; names, emails, phone numbers, addresses, and
+          in your database, including names, emails, phone numbers, addresses, and
           more. Click below to generate one, then add it to your environment
           variables as <code>DB_ENCRYPTION_KEY</code>.
         </p>
