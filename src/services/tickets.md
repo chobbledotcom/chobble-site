@@ -36,6 +36,8 @@ Chobble Tickets is a simple, minimalist, and open source ticket sales platform I
 
 This could save you thousands of pounds every year if you run a lot of events.
 
+**[Sign up here](https://tix.chobble.com/ticket/ef447)** and I'll have you up and running within a couple of days.
+
 You'll register with a payments provider (Stripe or Square), and I give you an admin panel to create and manage events and attendee lists. People can book online, and the money goes straight to your account. I'm not involved in the sale at all.
 
 **Community groups, charities, artists and musicians get 50% off at just £25/year.**
@@ -52,7 +54,8 @@ And if you want to **customise the platform** or if you **need support**, I'll d
 - [Customisation](#customisation)
 - [Open source](#open-source)
 - [FAQs](#faqs)
-- [Get started](#get-started)
+- [Get started: hosted](#get-started-hosted)
+- [Get started: self-host](#get-started-diy)
 
 <div class="card margins" id="why">
 
@@ -240,6 +243,37 @@ The entire platform builds into a single JavaScript file and runs on [Bunny.net]
 
 </div>
 
-## Get started
+<div class="card margins" id="get-started-hosted">
 
-**Ready to stop paying per-ticket fees?** Drop me a message through the contact form below and I'll get you set up. Mention if you're a community group, charity, artist or musician for the 50% discount.
+## Get started: hosted
+
+**Ready to stop paying per-ticket fees?** Sign up and I'll set up your own Chobble Tickets instance. I'll be in touch within a couple of days to get you going.
+
+**[Sign up here](https://tix.chobble.com/ticket/ef447)**
+
+Mention if you're a community group, charity, artist or musician for the 50% discount.
+
+</div>
+
+<div class="card margins" id="get-started-diy">
+
+## Get started: self-host
+
+Chobble Tickets is fully open source and you can self-host it for free. The whole platform runs on [Bunny.net](https://bunny.net/) using their edge scripting and [Turso](https://turso.tech/) (libsql) for the database.
+
+You'll need these environment variables:
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `DB_URL` | Yes | libsql database URL |
+| `DB_TOKEN` | Yes* | Database auth token (\*remote databases only) |
+| `DB_ENCRYPTION_KEY` | Yes | 32-byte base64-encoded AES-256 key |
+| `ALLOWED_DOMAIN` | Yes | Domain for security validation |
+
+There are also optional variables for image uploads (`STORAGE_ZONE_NAME`, `STORAGE_ZONE_KEY`), a global webhook (`WEBHOOK_URL`), and error notifications (`NTFY_URL`).
+
+On first launch, visit `/setup/` to set your admin credentials and currency. Payment providers are configured at `/admin/settings`.
+
+For full setup instructions, all environment variables, deployment steps, and development commands, see the **[README on GitHub](https://github.com/chobbledotcom/tickets/)**.
+
+</div>
