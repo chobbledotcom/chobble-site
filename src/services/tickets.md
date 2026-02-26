@@ -112,15 +112,15 @@ The system uses "atomic" capacity checks, which means two people can't grab the 
 
 ### Standard & daily events
 
-**Standard events** are your typical one-off occasions with a fixed capacity. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or anything that runs regularly. You set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted.
+**Standard events** are your typical one-off occasions with a fixed capacity. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or anything that runs regularly. You set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted. Events can have optional **date and location fields** that are displayed on the ticket page.
 
 ### Groups & multi-event bookings
 
-**Groups** let you bundle related events under a single URL - attendees see all active events in the group on one page. You can also create **multi-event booking links** that combine specific events into a single form and checkout, so attendees fill in their details once and pay once for multiple events. There's a link builder on the dashboard so you don't have to construct the URLs yourself.
+**Groups** let you bundle related events under a single URL - attendees see all active events in the group on one page. Groups also show **attendee stats** with totals across all their events. You can also create **multi-event booking links** that combine specific events into a single form and checkout, so attendees fill in their details once and pay once for multiple events. Attendees who book multiple events get a **combined ticket view**. There's a link builder on the dashboard so you don't have to construct the URLs yourself.
 
 ### Registration deadlines & capacity
 
-You can set a registration deadline so bookings close when you want them to. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** to display on the booking page.
+You can set a registration deadline so bookings close when you want them to. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** to display on the booking page, or set a **header image** in your site settings. Event descriptions support **Markdown** formatting.
 
 ### Payment processing
 
@@ -128,7 +128,7 @@ Stripe is the default payment processor and works great for most events - just p
 
 ### Refunds
 
-You can issue **full refunds** for individual attendees or **bulk refund** all attendees for an event in one go. The system also handles **automatic refunds** if capacity is exceeded after payment or if the event price changes during someone's checkout. You can also view payment IDs to check things in your payment provider's dashboard.
+You can issue **full refunds** for individual attendees or **bulk refund** all attendees for an event in one go. The system also handles **automatic refunds** if capacity is exceeded after payment or if the event price changes during someone's checkout. Failed payments are tracked separately so they don't clutter your attendee list. You can also view payment IDs to check things in your payment provider's dashboard.
 
 ### Configurable contact fields
 
@@ -152,7 +152,7 @@ Attendees get a simple confirmation email when they book with a link to their ti
 
 ### Invite managers
 
-If you've got a team helping to run events, the owner can invite additional managers to the admin panel via time-limited invitation links. **Owners** get full access to everything. **Managers** can see events and the calendar but can't change settings or manage users.
+If you've got a team helping to run events, the owner can invite additional managers to the admin panel via time-limited invitation links. **Owners** get full access to everything. **Managers** can see events and the calendar but can't change settings or manage users. There's also **session management** so you can view active sessions and kill any you don't recognise.
 
 ### Editing attendees
 
@@ -177,6 +177,10 @@ Set global terms that attendees must agree to before booking. Groups can have th
 ### Custom redirects
 
 Set a custom thank-you URL on any event to redirect attendees to your own page after booking, instead of the default confirmation page.
+
+### Built-in admin guide
+
+The admin panel includes a built-in guide with answers to common questions about events, payments, check-in, and more. No need to look things up externally.
 
 ### Encryption
 
