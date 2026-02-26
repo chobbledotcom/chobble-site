@@ -324,7 +324,8 @@ permalink: "/tickets/"
       <p class="subtitle">
         Event ticketing without per-ticket fees. Open source. Encrypted.
       </p>
-      <a href="https://tix.chobble.com/ticket/ef447" class="cta-btn">See a live demo</a>
+      <a href="https://tix.chobble.com/ticket/ef447" class="cta-btn">Sign up here</a>
+      <a href="https://tix.chobble.com/ticket/ef447" class="cta-btn secondary">See a live demo</a>
       <a href="https://github.com/chobbledotcom/tickets/" class="cta-btn secondary">View on GitHub</a>
     </div>
 
@@ -400,6 +401,14 @@ permalink: "/tickets/"
         <h3>Built-in Public Site</h3>
         <p>Don't need a separate website? Enable the public site for a homepage, events listing, and contact page on your domain. Light and dark themes included.</p>
       </div>
+      <div class="feature-card">
+        <h3>Markdown Descriptions</h3>
+        <p>Format your event descriptions with Markdown &mdash; headings, bold, links, lists. It just renders nicely, no HTML needed.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Header Images</h3>
+        <p>Upload a header image in settings to brand your site, and add images to individual event booking pages.</p>
+      </div>
     </div>
 
     <div class="info">
@@ -412,10 +421,10 @@ permalink: "/tickets/"
 
     <p>
       There's loads more too: configurable contact fields, registration deadlines,
-      max tickets per purchase, event images, duplicate events in one click, manually
+      max tickets per purchase, event date and location fields, duplicate events in one click, manually
       adding attendees for walk-ins and comps, terms &amp; conditions, custom
       thank-you redirects, a calendar view across all events, per-event activity
-      logs, session management, and a built-in admin guide.
+      logs, session management, failed payment tracking, and a built-in admin guide.
     </p>
 
     <p>
@@ -425,10 +434,73 @@ permalink: "/tickets/"
 
     <hr />
 
-    <h1>Setup Guide</h1>
+    <h1>Get Started</h1>
+
+    <h2>Get started: hosted</h2>
+
+    <p>
+      <strong>Ready to stop paying per-ticket fees?</strong> Sign up and I'll
+      set up your own Chobble Tickets instance. I'll be in touch within a
+      couple of days to get you going.
+    </p>
+
+    <p>
+      <a href="https://tix.chobble.com/ticket/ef447" class="cta-btn">Sign up here</a>
+    </p>
+
+    <p>
+      Mention if you're a community group, charity, artist or musician for the
+      50% discount.
+    </p>
+
+    <h2>Get started: self-host</h2>
+
+    <p>
+      Chobble Tickets is fully open source and you can self-host it for free.
+      The whole platform runs on
+      <a href="https://bunny.net/">Bunny.net</a> using their edge scripting
+      and <a href="https://turso.tech/">Turso</a> (libsql) for the database.
+    </p>
+
+    <h3>Essential environment variables</h3>
+
+    <table>
+      <thead>
+        <tr><th>Variable</th><th>Required</th><th>Description</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>DB_URL</code></td><td>Yes</td><td>libsql database URL</td></tr>
+        <tr><td><code>DB_TOKEN</code></td><td>Yes*</td><td>Database auth token (*remote databases only)</td></tr>
+        <tr><td><code>DB_ENCRYPTION_KEY</code></td><td>Yes</td><td>32-byte base64-encoded AES-256 key</td></tr>
+        <tr><td><code>ALLOWED_DOMAIN</code></td><td>Yes</td><td>Domain for security validation</td></tr>
+      </tbody>
+    </table>
+
+    <p>
+      There are also optional variables for image uploads
+      (<code>STORAGE_ZONE_NAME</code>, <code>STORAGE_ZONE_KEY</code>),
+      a global webhook (<code>WEBHOOK_URL</code>), and error notifications
+      (<code>NTFY_URL</code>).
+    </p>
+
+    <p>
+      On first launch, visit <code>/setup/</code> to set your admin
+      credentials and currency. Payment providers are configured at
+      <code>/admin/settings</code>.
+    </p>
+
+    <p>
+      For full setup instructions, all environment variables, deployment steps,
+      and development commands, see the
+      <strong><a href="https://github.com/chobbledotcom/tickets/">README on GitHub</a></strong>.
+    </p>
+
+    <hr />
+
+    <h1>Customer Setup Guide</h1>
 
     <div class="intro">
-      Ready to get started? Choose the option that applies to you below.
+      Already signed up? Use the setup guide below to deploy your instance.
     </div>
 
     <h2>Which applies to you?</h2>
@@ -502,9 +574,9 @@ permalink: "/tickets/"
         </p>
       </div>
 
-      <h2>Step 3: Add Your Secrets</h2>
+      <h2>Step 3: Add Your GitHub Secrets</h2>
       <div class="step">
-        <p>In your forked repository:</p>
+        <p>In your forked repository, add the deployment secrets so GitHub Actions can deploy to Bunny:</p>
         <p>
           <span class="step-number">1</span> Go to <strong>Settings</strong> (tab
           at the top)
@@ -520,6 +592,16 @@ permalink: "/tickets/"
         </p>
 
         <div id="secrets-list"></div>
+      </div>
+
+      <div class="info">
+        <strong>Note:</strong> The runtime secrets (<code>DB_URL</code>,
+        <code>DB_TOKEN</code>, <code>DB_ENCRYPTION_KEY</code>, and
+        <code>ALLOWED_DOMAIN</code>) are configured as Bunny native secrets
+        in the Bunny dashboard &mdash; Chobble will have set these up for you
+        already. Only <code>BUNNY_SCRIPT_ID</code>,
+        <code>BUNNY_ACCESS_KEY</code>, and <code>DB_ENCRYPTION_KEY</code>
+        need to go in GitHub.
       </div>
 
       <h2>Step 4: Deploy</h2>
@@ -546,9 +628,17 @@ permalink: "/tickets/"
       <h2>Step 5: First Login</h2>
       <div class="step">
         <p><span class="step-number">1</span> Visit your domain and go to <code>/setup/</code></p>
-        <p><span class="step-number">2</span> Set your admin password and choose your currency</p>
-        <p><span class="step-number">3</span> Go to <strong>Settings</strong> to configure Stripe or Square</p>
-        <p><span class="step-number">4</span> Create your first event and share the booking link</p>
+        <p><span class="step-number">2</span> Choose an admin username and password (minimum 8 characters)</p>
+        <p><span class="step-number">3</span> Choose your currency (defaults to GBP)</p>
+        <p><span class="step-number">4</span> Accept the data controller agreement &mdash; this confirms you're responsible for your attendees' data</p>
+        <p><span class="step-number">5</span> Go to <strong>Settings</strong> to configure Stripe or Square</p>
+        <p><span class="step-number">6</span> Create your first event and share the booking link</p>
+      </div>
+
+      <div class="warning">
+        <strong>Important:</strong> If you lose your admin password, your
+        encrypted attendee data will be permanently unreadable. There is no
+        password recovery. Keep your password safe.
       </div>
 
       <div class="info">
@@ -624,26 +714,13 @@ permalink: "/tickets/"
         </div>
       </div>
 
-      <h2>Step 4: Fork and Configure</h2>
+      <h2>Step 4: Configure Bunny Native Secrets</h2>
       <div class="step">
-        <p>
-          <span class="step-number">1</span> Fork
-          <a
-            href="https://github.com/chobbledotcom/tickets/fork"
-            target="_blank"
-            >github.com/chobbledotcom/tickets</a
-          >
-        </p>
-        <p><span class="step-number">2</span> Go to Settings &rarr; Secrets and variables &rarr; Actions</p>
-        <p><span class="step-number">3</span> Add these secrets:</p>
+        <p>In your Bunny Edge Script settings, add these as <strong>native secrets</strong> (environment variables):</p>
 
         <div class="secret-item">
-          <h4>ALLOWED_DOMAIN</h4>
-          <p>Your domain (e.g., tickets.example.com)</p>
-        </div>
-        <div class="secret-item">
           <h4>DB_URL</h4>
-          <p>Your Turso database URL</p>
+          <p>Your Turso database URL (e.g., <code>libsql://your-db.turso.io</code>)</p>
         </div>
         <div class="secret-item">
           <h4>DB_TOKEN</h4>
@@ -654,25 +731,53 @@ permalink: "/tickets/"
           <p>The key you generated above</p>
         </div>
         <div class="secret-item">
-          <h4>BUNNY_SCRIPT_ID</h4>
-          <p>Your Bunny Edge Script ID</p>
-        </div>
-        <div class="secret-item">
-          <h4>BUNNY_SCRIPT_KEY</h4>
-          <p>Your Bunny API key</p>
+          <h4>ALLOWED_DOMAIN</h4>
+          <p>Your domain (e.g., tickets.example.com)</p>
         </div>
       </div>
 
-      <h2>Step 5: Deploy</h2>
+      <h2>Step 5: Fork and Add GitHub Secrets</h2>
       <div class="step">
-        <p><span class="step-number">1</span> Go to the Actions tab and enable workflows</p>
-        <p><span class="step-number">2</span> Click Deploy &rarr; Run workflow</p>
+        <p>
+          <span class="step-number">1</span> Fork
+          <a
+            href="https://github.com/chobbledotcom/tickets/fork"
+            target="_blank"
+            >github.com/chobbledotcom/tickets</a
+          >
+        </p>
+        <p><span class="step-number">2</span> Go to Settings &rarr; Secrets and variables &rarr; Actions</p>
+        <p><span class="step-number">3</span> Add these secrets for deployment:</p>
+
+        <div class="secret-item">
+          <h4>BUNNY_SCRIPT_ID</h4>
+          <p>Your Bunny Edge Script ID (from the URL in your Bunny dashboard)</p>
+        </div>
+        <div class="secret-item">
+          <h4>BUNNY_ACCESS_KEY</h4>
+          <p>Your Bunny API key (with deploy permissions)</p>
+        </div>
+      </div>
+
+      <h2>Step 6: Deploy</h2>
+      <div class="step">
+        <p><span class="step-number">1</span> Go to the <strong>Actions</strong> tab in your forked repository</p>
+        <p><span class="step-number">2</span> Click <strong>"I understand my workflows, go ahead and enable them"</strong></p>
+        <p><span class="step-number">3</span> Click <strong>Deploy</strong> in the left sidebar</p>
+        <p><span class="step-number">4</span> Click <strong>"Run workflow"</strong> and then the green <strong>"Run workflow"</strong> button</p>
       </div>
 
       <div class="success">
         Once deployed, visit your domain and go to <code>/setup/</code> to set
-        your admin password and currency. Then go to <strong>Settings</strong> to
-        configure Stripe or Square.
+        your admin username, password (minimum 8 characters), and currency.
+        You'll need to accept the data controller agreement. Then go to
+        <strong>Settings</strong> to configure Stripe or Square.
+      </div>
+
+      <div class="warning">
+        <strong>Important:</strong> If you lose your admin password, your
+        encrypted attendee data will be permanently unreadable. There is no
+        password recovery. Keep your password safe.
       </div>
 
       <div class="info">
@@ -723,7 +828,7 @@ permalink: "/tickets/"
           oninput="updateLink()"
         />
 
-        <label for="admin-bunny-key">BUNNY_SCRIPT_KEY</label>
+        <label for="admin-bunny-key">BUNNY_ACCESS_KEY</label>
         <input
           type="text"
           id="admin-bunny-key"
@@ -885,7 +990,7 @@ permalink: "/tickets/"
             desc: "Bunny Edge Script ID",
           },
           {
-            name: "BUNNY_SCRIPT_KEY",
+            name: "BUNNY_ACCESS_KEY",
             value: config.bunnyKey || "",
             desc: "Bunny API key",
           },
