@@ -574,9 +574,9 @@ permalink: "/tickets/"
         </p>
       </div>
 
-      <h2>Step 3: Add Your Secrets</h2>
+      <h2>Step 3: Add Your GitHub Secrets</h2>
       <div class="step">
-        <p>In your forked repository:</p>
+        <p>In your forked repository, add the deployment secrets so GitHub Actions can deploy to Bunny:</p>
         <p>
           <span class="step-number">1</span> Go to <strong>Settings</strong> (tab
           at the top)
@@ -592,6 +592,16 @@ permalink: "/tickets/"
         </p>
 
         <div id="secrets-list"></div>
+      </div>
+
+      <div class="info">
+        <strong>Note:</strong> The runtime secrets (<code>DB_URL</code>,
+        <code>DB_TOKEN</code>, <code>DB_ENCRYPTION_KEY</code>, and
+        <code>ALLOWED_DOMAIN</code>) are configured as Bunny native secrets
+        in the Bunny dashboard &mdash; Chobble will have set these up for you
+        already. Only <code>BUNNY_SCRIPT_ID</code>,
+        <code>BUNNY_ACCESS_KEY</code>, and <code>DB_ENCRYPTION_KEY</code>
+        need to go in GitHub.
       </div>
 
       <h2>Step 4: Deploy</h2>
@@ -618,9 +628,17 @@ permalink: "/tickets/"
       <h2>Step 5: First Login</h2>
       <div class="step">
         <p><span class="step-number">1</span> Visit your domain and go to <code>/setup/</code></p>
-        <p><span class="step-number">2</span> Set your admin password and choose your currency</p>
-        <p><span class="step-number">3</span> Go to <strong>Settings</strong> to configure Stripe or Square</p>
-        <p><span class="step-number">4</span> Create your first event and share the booking link</p>
+        <p><span class="step-number">2</span> Choose an admin username and password (minimum 8 characters)</p>
+        <p><span class="step-number">3</span> Choose your currency (defaults to GBP)</p>
+        <p><span class="step-number">4</span> Accept the data controller agreement &mdash; this confirms you're responsible for your attendees' data</p>
+        <p><span class="step-number">5</span> Go to <strong>Settings</strong> to configure Stripe or Square</p>
+        <p><span class="step-number">6</span> Create your first event and share the booking link</p>
+      </div>
+
+      <div class="warning">
+        <strong>Important:</strong> If you lose your admin password, your
+        encrypted attendee data will be permanently unreadable. There is no
+        password recovery. Keep your password safe.
       </div>
 
       <div class="info">
@@ -696,26 +714,13 @@ permalink: "/tickets/"
         </div>
       </div>
 
-      <h2>Step 4: Fork and Configure</h2>
+      <h2>Step 4: Configure Bunny Native Secrets</h2>
       <div class="step">
-        <p>
-          <span class="step-number">1</span> Fork
-          <a
-            href="https://github.com/chobbledotcom/tickets/fork"
-            target="_blank"
-            >github.com/chobbledotcom/tickets</a
-          >
-        </p>
-        <p><span class="step-number">2</span> Go to Settings &rarr; Secrets and variables &rarr; Actions</p>
-        <p><span class="step-number">3</span> Add these secrets:</p>
+        <p>In your Bunny Edge Script settings, add these as <strong>native secrets</strong> (environment variables):</p>
 
         <div class="secret-item">
-          <h4>ALLOWED_DOMAIN</h4>
-          <p>Your domain (e.g., tickets.example.com)</p>
-        </div>
-        <div class="secret-item">
           <h4>DB_URL</h4>
-          <p>Your Turso database URL</p>
+          <p>Your Turso database URL (e.g., <code>libsql://your-db.turso.io</code>)</p>
         </div>
         <div class="secret-item">
           <h4>DB_TOKEN</h4>
@@ -726,25 +731,53 @@ permalink: "/tickets/"
           <p>The key you generated above</p>
         </div>
         <div class="secret-item">
-          <h4>BUNNY_SCRIPT_ID</h4>
-          <p>Your Bunny Edge Script ID</p>
-        </div>
-        <div class="secret-item">
-          <h4>BUNNY_SCRIPT_KEY</h4>
-          <p>Your Bunny API key</p>
+          <h4>ALLOWED_DOMAIN</h4>
+          <p>Your domain (e.g., tickets.example.com)</p>
         </div>
       </div>
 
-      <h2>Step 5: Deploy</h2>
+      <h2>Step 5: Fork and Add GitHub Secrets</h2>
       <div class="step">
-        <p><span class="step-number">1</span> Go to the Actions tab and enable workflows</p>
-        <p><span class="step-number">2</span> Click Deploy &rarr; Run workflow</p>
+        <p>
+          <span class="step-number">1</span> Fork
+          <a
+            href="https://github.com/chobbledotcom/tickets/fork"
+            target="_blank"
+            >github.com/chobbledotcom/tickets</a
+          >
+        </p>
+        <p><span class="step-number">2</span> Go to Settings &rarr; Secrets and variables &rarr; Actions</p>
+        <p><span class="step-number">3</span> Add these secrets for deployment:</p>
+
+        <div class="secret-item">
+          <h4>BUNNY_SCRIPT_ID</h4>
+          <p>Your Bunny Edge Script ID (from the URL in your Bunny dashboard)</p>
+        </div>
+        <div class="secret-item">
+          <h4>BUNNY_ACCESS_KEY</h4>
+          <p>Your Bunny API key (with deploy permissions)</p>
+        </div>
+      </div>
+
+      <h2>Step 6: Deploy</h2>
+      <div class="step">
+        <p><span class="step-number">1</span> Go to the <strong>Actions</strong> tab in your forked repository</p>
+        <p><span class="step-number">2</span> Click <strong>"I understand my workflows, go ahead and enable them"</strong></p>
+        <p><span class="step-number">3</span> Click <strong>Deploy</strong> in the left sidebar</p>
+        <p><span class="step-number">4</span> Click <strong>"Run workflow"</strong> and then the green <strong>"Run workflow"</strong> button</p>
       </div>
 
       <div class="success">
         Once deployed, visit your domain and go to <code>/setup/</code> to set
-        your admin password and currency. Then go to <strong>Settings</strong> to
-        configure Stripe or Square.
+        your admin username, password (minimum 8 characters), and currency.
+        You'll need to accept the data controller agreement. Then go to
+        <strong>Settings</strong> to configure Stripe or Square.
+      </div>
+
+      <div class="warning">
+        <strong>Important:</strong> If you lose your admin password, your
+        encrypted attendee data will be permanently unreadable. There is no
+        password recovery. Keep your password safe.
       </div>
 
       <div class="info">
@@ -795,7 +828,7 @@ permalink: "/tickets/"
           oninput="updateLink()"
         />
 
-        <label for="admin-bunny-key">BUNNY_SCRIPT_KEY</label>
+        <label for="admin-bunny-key">BUNNY_ACCESS_KEY</label>
         <input
           type="text"
           id="admin-bunny-key"
@@ -957,7 +990,7 @@ permalink: "/tickets/"
             desc: "Bunny Edge Script ID",
           },
           {
-            name: "BUNNY_SCRIPT_KEY",
+            name: "BUNNY_ACCESS_KEY",
             value: config.bunnyKey || "",
             desc: "Bunny API key",
           },
