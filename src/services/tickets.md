@@ -192,7 +192,7 @@ All personal information (names, emails, phone numbers, addresses) is encrypted 
 
 ## See it in action
 
-**[View a live demo ticket →](https://tix.chobble.com/ticket/register)**
+**[View a live demo ticket →](https://tix.chobble.com/)**
 
 The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch without breaking a sweat. Atomic capacity checks mean no overbooking even under heavy load.
 
