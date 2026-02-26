@@ -187,5 +187,12 @@
     "bestPractices": 100,
     "seo": 92,
     "lastUpdated": "2026-02-25T06:56:44.172Z"
+  },
+  "https://wordpress.chobble.com": {
+    "performance": 74,
+    "accessibility": 95,
+    "bestPractices": 96,
+    "seo": 92,
+    "lastUpdated": "2026-02-26T06:53:53.669Z"
   }
 }
