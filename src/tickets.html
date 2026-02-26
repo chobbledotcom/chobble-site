@@ -838,16 +838,6 @@ permalink: "/tickets/"
         div.textContent = text;
         return div.innerHTML;
       }
-
-      // On page load, check for config in URL or default to hosted
-      (function () {
-        const config = parseConfig();
-        if (config) {
-          setMode("customer");
-        } else {
-          setMode("hosted");
-        }
-      })();
     </script>
   </body>
 </html>
