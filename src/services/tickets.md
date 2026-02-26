@@ -36,7 +36,7 @@ Chobble Tickets is a simple, minimalist, and open source ticket sales platform I
 
 This could save you thousands of pounds every year if you run a lot of events.
 
-**[Sign up here](https://tix.chobble.com/ticket/ef447)** and I'll have you up and running within a couple of days.
+**[Sign up here](https://tix.chobble.com/ticket/register)** and I'll have you up and running within a couple of days.
 
 You'll register with a payments provider (Stripe or Square), and I give you an admin panel to create and manage events and attendee lists. People can book online, and the money goes straight to your account. I'm not involved in the sale at all.
 
@@ -184,7 +184,7 @@ The admin panel has a built-in guide covering events, payments, check-in, and mo
 
 ### Encryption
 
-All personal information (names, emails, phone numbers, addresses) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. This isn't just good practice - it means that even in the unlikely event of a data breach, personal information stays protected. Even payment IDs, API keys, and check-in status are encrypted.
+All personal information (names, emails, phone numbers, addresses) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information stays protected. Even payment IDs, API keys, and check-in status are encrypted.
 
 </div>
 
@@ -192,9 +192,9 @@ All personal information (names, emails, phone numbers, addresses) is encrypted 
 
 ## See it in action
 
-**[View a live demo ticket →](https://tix.chobble.com/ticket/ef447)**
+**[View a live demo ticket →](https://tix.chobble.com/)**
 
-The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch without breaking a sweat. Atomic capacity checks mean no overbooking even under heavy load.
+The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch equally well. Atomic capacity checks mean no overbooking even under heavy load.
 
 </div>
 
@@ -225,7 +225,7 @@ The code is **open source** and released under the **AGPLv3** license, so any ot
 
 ## Customisation
 
-The standard platform handles most use cases out of the box. But if you need something more, I'm happy to customise:
+The standard platform handles most use cases. But if you need something more, I'm happy to customise:
 
 - **Custom branding and styling** to match your organisation's look
 - **Custom form fields** for dietary requirements, accessibility needs, t-shirt sizes, or whatever your event requires
@@ -253,7 +253,7 @@ The entire platform builds into a single JavaScript file and runs on [Bunny.net]
 
 **Ready to stop paying per-ticket fees?** Sign up and I'll set up your own Chobble Tickets instance. I'll be in touch within a couple of days to get you going.
 
-**[Sign up here](https://tix.chobble.com/ticket/ef447)**
+**[Sign up here](https://tix.chobble.com/ticket/register)**
 
 Mention if you're a community group, charity, artist or musician for the 50% discount.
 
