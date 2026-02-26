@@ -259,31 +259,6 @@ permalink: "/tickets/"
       a {
         color: #3b82f6;
       }
-      .config-form {
-        background: #fafafa;
-        padding: 1rem;
-        border-radius: 8px;
-        margin: 1rem 0;
-      }
-      .config-form label {
-        display: block;
-        margin: 0.75rem 0 0.25rem;
-        font-weight: 500;
-      }
-      .config-form input {
-        width: 100%;
-        padding: 0.5rem;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        font-family: monospace;
-      }
-      .link-output {
-        margin-top: 1rem;
-        padding: 1rem;
-        background: #eff6ff;
-        border-radius: 4px;
-        word-break: break-all;
-      }
       .hidden {
         display: none;
       }
@@ -436,99 +411,79 @@ permalink: "/tickets/"
 
     <h1>Get Started</h1>
 
-    <h2>Get started: hosted</h2>
-
-    <p>
-      <strong>Ready to stop paying per-ticket fees?</strong> Sign up and I'll
-      set up your own Chobble Tickets instance. I'll be in touch within a
-      couple of days to get you going.
-    </p>
-
-    <p>
-      <a href="https://tix.chobble.com/ticket/ef447" class="cta-btn">Sign up here</a>
-    </p>
-
-    <p>
-      Mention if you're a community group, charity, artist or musician for the
-      50% discount.
-    </p>
-
-    <h2>Get started: self-host</h2>
-
-    <p>
-      Chobble Tickets is fully open source and you can self-host it for free.
-      The whole platform runs on
-      <a href="https://bunny.net/">Bunny.net</a> using their edge scripting
-      and <a href="https://turso.tech/">Turso</a> (libsql) for the database.
-    </p>
-
-    <h3>Essential environment variables</h3>
-
-    <table>
-      <thead>
-        <tr><th>Variable</th><th>Required</th><th>Description</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><code>DB_URL</code></td><td>Yes</td><td>libsql database URL</td></tr>
-        <tr><td><code>DB_TOKEN</code></td><td>Yes*</td><td>Database auth token (*remote databases only)</td></tr>
-        <tr><td><code>DB_ENCRYPTION_KEY</code></td><td>Yes</td><td>32-byte base64-encoded AES-256 key</td></tr>
-        <tr><td><code>ALLOWED_DOMAIN</code></td><td>Yes</td><td>Domain for security validation</td></tr>
-      </tbody>
-    </table>
-
-    <p>
-      There are also optional variables for image uploads
-      (<code>STORAGE_ZONE_NAME</code>, <code>STORAGE_ZONE_KEY</code>),
-      a global webhook (<code>WEBHOOK_URL</code>), and error notifications
-      (<code>NTFY_URL</code>).
-    </p>
-
-    <p>
-      On first launch, visit <code>/setup/</code> to set your admin
-      credentials and currency. Payment providers are configured at
-      <code>/admin/settings</code>.
-    </p>
-
-    <p>
-      For full setup instructions, all environment variables, deployment steps,
-      and development commands, see the
-      <strong><a href="https://github.com/chobbledotcom/tickets/">README on GitHub</a></strong>.
-    </p>
-
-    <hr />
-
-    <h1>Customer Setup Guide</h1>
-
-    <div class="intro">
-      Already signed up? Use the setup guide below to deploy your instance.
-    </div>
-
-    <h2>Which applies to you?</h2>
+    <h2>Choose your deployment model</h2>
     <div class="mode-selector">
+      <button class="mode-btn" onclick="setMode('hosted')">
+        <strong>Chobble handles everything</strong><br />
+        <small>Easiest &mdash; just sign up and go</small>
+      </button>
       <button class="mode-btn" onclick="setMode('customer')">
-        <strong>I'm a Chobble customer</strong><br />
-        <small>I was given a setup link</small>
+        <strong>You handle deployments</strong><br />
+        <small>Ultra-secure &mdash; you control code updates via GitHub</small>
       </button>
       <button class="mode-btn" onclick="setMode('self')">
-        <strong>Self-hosting</strong><br />
-        <small>I'm setting this up myself</small>
-      </button>
-      <button class="mode-btn" onclick="setMode('admin')">
-        <strong>I'm Chobble</strong><br />
-        <small>Generate a customer link</small>
+        <strong>Fully self-hosted</strong><br />
+        <small>Set up everything yourself for free</small>
       </button>
     </div>
 
-    <!-- CUSTOMER SECTION -->
+    <!-- HOSTED SECTION -->
+    <div id="hosted-section" class="section">
+      <h2>Chobble Handles Everything</h2>
+
+      <p>
+        The simplest option. Sign up and I'll set up your own Chobble Tickets
+        instance, handle all the infrastructure, and keep it running and
+        maintained. You just create events and sell tickets.
+      </p>
+
+      <p style="text-align: center">
+        <a href="https://tix.chobble.com/ticket/ef447" class="cta-btn">Sign up here</a>
+      </p>
+
+      <p>
+        I'll be in touch within a couple of days to get you going. Mention if
+        you're a community group, charity, artist or musician for the 50%
+        discount.
+      </p>
+
+      <div class="info">
+        <strong>What you get:</strong> Your own Chobble Tickets instance,
+        ongoing maintenance, updates to the latest version when you renew,
+        and as many events and tickets as you need. I handle the hosting,
+        the database, and deployments.
+      </div>
+    </div>
+
+    <!-- CUSTOMER DEPLOYS SECTION -->
     <div id="customer-section" class="section">
-      <h2>Your Configuration</h2>
+      <h2>You Handle Deployments via GitHub</h2>
+
+      <div class="info">
+        <strong>For the ultra-secure.</strong> I set up the infrastructure
+        (database, hosting, domain), but you control deployments through your
+        own GitHub fork. This means nobody &mdash; not even me &mdash; can
+        push code updates to your instance without your involvement.
+      </div>
+
+      <p>
+        This is more work than the fully-managed option, but it provides an
+        extra layer of protection: even if someone compromised my accounts,
+        they couldn't push a tainted update to your system to access your
+        data. You review and deploy every change yourself.
+      </p>
+
+      <p>
+        <a href="https://tix.chobble.com/ticket/ef447">Sign up here</a> and
+        mention you'd like to handle your own deployments.
+      </p>
 
       <div id="config-display"></div>
 
-      <div id="no-config" class="warning">
-        <strong>No configuration found.</strong> If you're a Chobble customer,
-        you should have received a link with your configuration included. Please
-        check the link you were given.
+      <div id="no-config" class="warning hidden">
+        <strong>No configuration found.</strong> If you've already signed up
+        for this plan, you should have received a link with your configuration
+        included. Please check the link you were given.
       </div>
 
       <h2>Step 1: Generate Your Encryption Key</h2>
@@ -650,49 +605,28 @@ permalink: "/tickets/"
 
     <!-- SELF-HOSTING SECTION -->
     <div id="self-section" class="section">
-      <h2>Self-Hosting Requirements</h2>
+      <h2>Fully Self-Hosted</h2>
 
-      <div class="info">
-        You'll need to set up these services yourself:
-        <ul>
-          <li>
-            <strong>Turso Database</strong> &mdash; Create a free account at
-            <a href="https://turso.tech" target="_blank">turso.tech</a>
-          </li>
-          <li>
-            <strong>Bunny Edge Scripting</strong> &mdash; Sign up at
-            <a href="https://bunny.net" target="_blank">bunny.net</a>
-          </li>
-          <li><strong>A domain name</strong> &mdash; Pointed at Bunny</li>
-        </ul>
-        <p>
-          Full technical details are in the
-          <a href="https://github.com/chobbledotcom/tickets/" target="_blank">GitHub repository README</a>.
-        </p>
-      </div>
+      <p>
+        Chobble Tickets is fully open source and you can self-host it for free.
+        The whole platform runs on
+        <a href="https://bunny.net/">Bunny.net</a> using their edge scripting
+        and <a href="https://turso.tech/">Turso</a> (libsql) for the database.
+      </p>
 
-      <h2>Step 1: Create Your Database</h2>
-      <div class="step">
-        <p><span class="step-number">1</span> Sign up at <a href="https://turso.tech" target="_blank">turso.tech</a></p>
-        <p><span class="step-number">2</span> Create a new database</p>
-        <p><span class="step-number">3</span> Copy your database URL (looks like <code>libsql://your-db.turso.io</code>)</p>
-        <p><span class="step-number">4</span> Create an auth token and copy it</p>
-      </div>
+      <p>
+        Follow the setup instructions in the
+        <strong><a href="https://github.com/chobbledotcom/tickets/">README on GitHub</a></strong>
+        to get your instance running.
+      </p>
 
-      <h2>Step 2: Set Up Bunny Edge Scripting</h2>
-      <div class="step">
-        <p><span class="step-number">1</span> In your Bunny dashboard, go to Edge Scripting</p>
-        <p><span class="step-number">2</span> Create a new script</p>
-        <p><span class="step-number">3</span> Note your Script ID (from the URL)</p>
-        <p><span class="step-number">4</span> Create an API key with deploy permissions</p>
-        <p><span class="step-number">5</span> Set up your domain to point to this script</p>
-      </div>
-
-      <h2>Step 3: Generate Your Encryption Key</h2>
+      <h2>Generate Your Database Encryption Key</h2>
       <div class="step">
         <p>
-          This key encrypts all personal data in your database. Keep it safe &mdash;
-          without it, attendee data is permanently unreadable.
+          You'll need a database encryption key. This encrypts all personal data
+          in your database &mdash; names, emails, phone numbers, addresses, and
+          more. Click below to generate one, then add it to your environment
+          variables as <code>DB_ENCRYPTION_KEY</code>.
         </p>
         <button class="generate-btn" onclick="generateKey()">
           Generate Encryption Key
@@ -708,151 +642,18 @@ permalink: "/tickets/"
             </button>
           </div>
           <div class="warning" style="margin-top: 1rem">
-            <strong>Save this key somewhere safe!</strong> You'll need it in the
-            next step, and if you ever need to restore your system.
-          </div>
-        </div>
-      </div>
-
-      <h2>Step 4: Configure Bunny Native Secrets</h2>
-      <div class="step">
-        <p>In your Bunny Edge Script settings, add these as <strong>native secrets</strong> (environment variables):</p>
-
-        <div class="secret-item">
-          <h4>DB_URL</h4>
-          <p>Your Turso database URL (e.g., <code>libsql://your-db.turso.io</code>)</p>
-        </div>
-        <div class="secret-item">
-          <h4>DB_TOKEN</h4>
-          <p>Your Turso auth token</p>
-        </div>
-        <div class="secret-item">
-          <h4>DB_ENCRYPTION_KEY</h4>
-          <p>The key you generated above</p>
-        </div>
-        <div class="secret-item">
-          <h4>ALLOWED_DOMAIN</h4>
-          <p>Your domain (e.g., tickets.example.com)</p>
-        </div>
-      </div>
-
-      <h2>Step 5: Fork and Add GitHub Secrets</h2>
-      <div class="step">
-        <p>
-          <span class="step-number">1</span> Fork
-          <a
-            href="https://github.com/chobbledotcom/tickets/fork"
-            target="_blank"
-            >github.com/chobbledotcom/tickets</a
-          >
-        </p>
-        <p><span class="step-number">2</span> Go to Settings &rarr; Secrets and variables &rarr; Actions</p>
-        <p><span class="step-number">3</span> Add these secrets for deployment:</p>
-
-        <div class="secret-item">
-          <h4>BUNNY_SCRIPT_ID</h4>
-          <p>Your Bunny Edge Script ID (from the URL in your Bunny dashboard)</p>
-        </div>
-        <div class="secret-item">
-          <h4>BUNNY_ACCESS_KEY</h4>
-          <p>Your Bunny API key (with deploy permissions)</p>
-        </div>
-      </div>
-
-      <h2>Step 6: Deploy</h2>
-      <div class="step">
-        <p><span class="step-number">1</span> Go to the <strong>Actions</strong> tab in your forked repository</p>
-        <p><span class="step-number">2</span> Click <strong>"I understand my workflows, go ahead and enable them"</strong></p>
-        <p><span class="step-number">3</span> Click <strong>Deploy</strong> in the left sidebar</p>
-        <p><span class="step-number">4</span> Click <strong>"Run workflow"</strong> and then the green <strong>"Run workflow"</strong> button</p>
-      </div>
-
-      <div class="success">
-        Once deployed, visit your domain and go to <code>/setup/</code> to set
-        your admin username, password (minimum 8 characters), and currency.
-        You'll need to accept the data controller agreement. Then go to
-        <strong>Settings</strong> to configure Stripe or Square.
-      </div>
-
-      <div class="warning">
-        <strong>Important:</strong> If you lose your admin password, your
-        encrypted attendee data will be permanently unreadable. There is no
-        password recovery. Keep your password safe.
-      </div>
-
-      <div class="info">
-        <strong>Optional environment variables:</strong>
-        <code>STORAGE_ZONE_NAME</code> and <code>STORAGE_ZONE_KEY</code> for
-        Bunny CDN image uploads, <code>WEBHOOK_URL</code> for a global webhook,
-        and <code>NTFY_URL</code> for error notifications. See the
-        <a href="https://github.com/chobbledotcom/tickets/" target="_blank">README</a>
-        for full details.
-      </div>
-    </div>
-
-    <!-- ADMIN SECTION (for generating customer links) -->
-    <div id="admin-section" class="section">
-      <h2>Generate Customer Setup Link</h2>
-      <p>Fill in the customer's configuration, then share the generated link.</p>
-
-      <div class="config-form">
-        <label for="admin-domain">ALLOWED_DOMAIN</label>
-        <input
-          type="text"
-          id="admin-domain"
-          placeholder="tickets.customer.com"
-          oninput="updateLink()"
-        />
-
-        <label for="admin-db-url">DB_URL</label>
-        <input
-          type="text"
-          id="admin-db-url"
-          placeholder="libsql://db-name.turso.io"
-          oninput="updateLink()"
-        />
-
-        <label for="admin-db-token">DB_TOKEN</label>
-        <input
-          type="text"
-          id="admin-db-token"
-          placeholder="eyJ..."
-          oninput="updateLink()"
-        />
-
-        <label for="admin-bunny-id">BUNNY_SCRIPT_ID</label>
-        <input
-          type="text"
-          id="admin-bunny-id"
-          placeholder="123456"
-          oninput="updateLink()"
-        />
-
-        <label for="admin-bunny-key">BUNNY_ACCESS_KEY</label>
-        <input
-          type="text"
-          id="admin-bunny-key"
-          placeholder="abc123..."
-          oninput="updateLink()"
-        />
-
-        <div id="generated-link" class="link-output hidden">
-          <strong>Customer link:</strong><br />
-          <code id="link-text"></code>
-          <div style="margin-top: 0.5rem">
-            <button class="copy-btn" onclick="copyToClipboard('link-text', this)">
-              Copy Link
-            </button>
+            <strong>Save this key somewhere safe!</strong> If you lose it,
+            your encrypted attendee data will be permanently unreadable.
+            Nobody can recover it for you.
           </div>
         </div>
       </div>
 
       <div class="info">
-        <strong>What happens:</strong> The customer opens this link, generates
-        their own encryption key (which you'll never see), adds all the secrets
-        to their GitHub fork, and deploys. You can then use the DB credentials
-        to access their data &mdash; but anything encrypted will be unreadable
-        without their key.
+        The README covers all environment variables, deployment steps, and
+        development commands. On first launch, visit <code>/setup/</code> to
+        set your admin credentials and currency. Payment providers are
+        configured at <code>/admin/settings</code>.
       </div>
     </div>
 
@@ -865,14 +666,14 @@ permalink: "/tickets/"
         document.querySelectorAll(".mode-btn").forEach((btn) => {
           btn.classList.remove("active");
         });
-        document
-          .querySelector(`.mode-btn[onclick="setMode('${mode}')"]`)
-          .classList.add("active");
+        const activeBtn = document.querySelector(`.mode-btn[onclick="setMode('${mode}')"]`);
+        if (activeBtn) activeBtn.classList.add("active");
 
         document.querySelectorAll(".section").forEach((s) => {
           s.classList.remove("visible");
         });
-        document.getElementById(`${mode}-section`).classList.add("visible");
+        const section = document.getElementById(`${mode}-section`);
+        if (section) section.classList.add("visible");
 
         if (mode === "customer") {
           renderCustomerConfig();
@@ -884,7 +685,6 @@ permalink: "/tickets/"
         crypto.getRandomValues(bytes);
         const key = btoa(String.fromCharCode(...bytes));
 
-        // Update both key outputs (customer and self-hosting sections)
         const keyFields = ["encryption-key", "encryption-key-self"];
         keyFields.forEach((id) => {
           const field = document.getElementById(id);
@@ -897,7 +697,6 @@ permalink: "/tickets/"
           el.classList.remove("hidden");
         });
 
-        // Update the secrets list if we're in customer mode
         if (currentMode === "customer") {
           renderSecretsList();
         }
@@ -1034,44 +833,11 @@ permalink: "/tickets/"
         }
       }
 
-      function updateLink() {
-        const config = {
-          domain: document.getElementById("admin-domain").value.trim(),
-          dbUrl: document.getElementById("admin-db-url").value.trim(),
-          dbToken: document.getElementById("admin-db-token").value.trim(),
-          bunnyId: document.getElementById("admin-bunny-id").value.trim(),
-          bunnyKey: document.getElementById("admin-bunny-key").value.trim(),
-        };
-
-        const hasAnyValue = Object.values(config).some((v) => v);
-        const linkOutput = document.getElementById("generated-link");
-        const linkText = document.getElementById("link-text");
-
-        if (!hasAnyValue) {
-          linkOutput.classList.add("hidden");
-          return;
-        }
-
-        const encoded = btoa(JSON.stringify(config));
-        const url = `${window.location.origin}/tickets/#config=${encoded}`;
-
-        linkText.textContent = url;
-        linkOutput.classList.remove("hidden");
-      }
-
       function escapeHtml(text) {
         const div = document.createElement("div");
         div.textContent = text;
         return div.innerHTML;
       }
-
-      // On page load, check for config in URL and auto-select customer mode
-      (function () {
-        const config = parseConfig();
-        if (config) {
-          setMode("customer");
-        }
-      })();
     </script>
   </body>
 </html>
