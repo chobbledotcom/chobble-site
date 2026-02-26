@@ -112,15 +112,15 @@ The system uses "atomic" capacity checks, which means two people can't grab the 
 
 ### Standard & daily events
 
-**Standard events** are your typical one-off occasions with a fixed capacity. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or anything that runs regularly. You set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted. Events can have optional **date and location fields** that are displayed on the ticket page.
+**Standard events** are your typical one-off occasions with a fixed capacity. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or anything that runs regularly. You set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted. You can also set **date and location fields** which show up on the ticket page.
 
 ### Groups & multi-event bookings
 
-**Groups** let you bundle related events under a single URL - attendees see all active events in the group on one page. Groups also show **attendee stats** with totals across all their events. You can also create **multi-event booking links** that combine specific events into a single form and checkout, so attendees fill in their details once and pay once for multiple events. Attendees who book multiple events get a **combined ticket view**. There's a link builder on the dashboard so you don't have to construct the URLs yourself.
+**Groups** let you bundle related events under a single URL - attendees see all active events in the group on one page, and you get **attendee stats** across the whole group. You can also create **multi-event booking links** that combine specific events into a single form and checkout, so attendees fill in their details once, pay once, and get a **combined ticket view**. There's a link builder on the dashboard so you don't have to construct the URLs yourself.
 
 ### Registration deadlines & capacity
 
-You can set a registration deadline so bookings close when you want them to. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** to display on the booking page, or set a **header image** in your site settings. Event descriptions support **Markdown** formatting.
+You can set a registration deadline so bookings close when you want them to. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** to display on the booking page, or set a **header image** in your site settings. You can format event descriptions with **Markdown** too.
 
 ### Payment processing
 
@@ -180,7 +180,7 @@ Set a custom thank-you URL on any event to redirect attendees to your own page a
 
 ### Built-in admin guide
 
-The admin panel includes a built-in guide with answers to common questions about events, payments, check-in, and more. No need to look things up externally.
+The admin panel has a built-in guide covering events, payments, check-in, and more, so you don't need to go looking things up elsewhere.
 
 ### Encryption
 
