@@ -95,6 +95,14 @@
       <div class="container">
         {{ content }}
         {% include "contact-form.html" %}
+        {% if social_profiles %}
+        <p>
+          Find me on
+          <a href="https://directory.socialenterprise.org.uk/s/detail/001PK00000nT5T8YAK">Social Enterprise Directory</a>
+          and
+          <a href="https://www.goodmarket.global/chobble">Good Market</a>.
+        </p>
+        {% endif %}
         {% if faqs.size > 0 %}
         <section id="faqs">
           <h2>Frequently asked questions</h2>
