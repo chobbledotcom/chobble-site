@@ -41,7 +41,7 @@ The same approach works for locations. Fun Pro UK covers the whole of the UK fro
 
 ## Product pages in depth
 
-Each of the 88 product pages is packed with structured data. Take the Batak Pro as an example: it has a subtitle, tiered pricing across multiple hire durations, physical specifications covering space requirements, power consumption, setup time, guest capacity, and surface requirements. There are add-on options for branded panels and button surrounds with their own pricing. Each product has multiple high-resolution images served through Cloudinary CDN, embedded Vimeo videos, and a set of FAQs specific to that product. Products are tagged across multiple categories and event types so they surface wherever they are relevant.
+Each of the 88 product pages is packed with structured data. Take the Batak Pro as an example: it has a subtitle, tiered pricing across multiple hire durations, physical specifications covering space requirements, power consumption, setup time, guest capacity, and surface requirements. There are add-on options for branded panels and button surrounds with their own pricing. Each product has multiple high-resolution images served through Bunny's CDN, occasional embedded Vimeo videos, and a set of FAQs specific to that product. Products are tagged across multiple categories and event types so they surface wherever they are relevant.
 
 ## Reviews and social proof
 
@@ -49,9 +49,9 @@ The site pulls in 147 customer reviews going back to 2015, which feed into the t
 
 ## Technical details
 
-The whole site is built on the Chobble Template using Eleventy as the static site generator, with content editable through PagesCMS. Despite the sheer volume of content the site builds and deploys automatically through GitHub Actions whenever content is updated. Images are served through Cloudinary for optimised delivery. The custom SCSS theme runs to hundreds of lines covering breakpoints at 650px, 768px, 1000px, and 1500px, with a full design token system for spacing, typography, colours, and component dimensions.
+The whole site is built on the Chobble Template using Eleventy as the static site generator, with content editable through PagesCMS. Despite the sheer volume of content the site builds and deploys automatically through GitHub Actions whenever content is updated. Images are served through Cloudinary for optimised delivery. The custom SCSS theme runs to hundreds of lines covering breakpoints at different device szies, with a full design token system for spacing, typography, colours, and component dimensions.
 
-The site uses Bunny.net for video delivery on the homepage, Vimeo for product videos, and Cloudinary for product images. Contact forms are handled through custom Automatisch rules — Automatisch being a free, self-hosted alternative to Zapier — which check BotPoison for spam protection and send nicely formatted receipt emails to both the client and the enquirer. The whole thing is deployed to a CDN so page loads are consistently fast regardless of where in the UK the visitor is.
+The site uses is hosted on the Bunny.net CDN which means it responds really quickly, and it uses Bunny Stream for video delivery on the homepage, and Vimeo or YouTube for product videos. Contact forms are handled through custom Automatisch rules — Automatisch being an open source alternative to Zapier — which check BotPoison for spam protection and send nicely formatted receipt emails to both the client and the enquirer.
 
 ## Why this matters
 
