@@ -19,7 +19,7 @@ faqs:
   - q: Is there a limit on the number of events or tickets?
     a: "No limits. Create as many events as you want, sell as many tickets as you need. The flat £50/year covers everything."
   - q: How do attendees receive their tickets?
-    a: "Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, print it, or screenshot it, whatever works for them."
+    a: "Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, add it to Apple or Google Wallet, print it, or screenshot it, whatever works for them."
   - q: Can I self-host it instead?
     a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. The recommended setup runs on Bunny.net, but you can also deploy via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno-compatible host. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
   - q: How secure is my attendee data?
@@ -84,10 +84,10 @@ If you're a **community group, charity, artist or musician**, that drops to just
 The £50/year gets you everything you need to start selling tickets:
 
 1. **I set you up** with your own Chobble Tickets instance
-2. **You create your admin password** which encrypts your attendee records
+2. **You create your admin password** which encrypts your attendee records, and **set your currency**
 3. **You create events** through a straightforward interface, setting the name, capacity, dates, ticket price, and what info you need from attendees
 4. **You share the booking link** or embed it into your own website (as an iframe), or use the built-in public site
-5. **Attendees book tickets** and pay online. They get a confirmation email with their unique QR code ticket
+5. **Attendees book tickets** and pay online. If email is configured, they get a confirmation email with a link to their unique QR code ticket
 6. **You manage everything** from checking people in by scanning QR codes, to tracking capacity, exporting attendee lists, issuing refunds, and more
 
 It's fully self-service. You don't need to tell me anything about your events or ask permission to create new ones. The admin panel is yours to use however you like.
@@ -120,7 +120,7 @@ The system uses "atomic" capacity checks, which means two people can't grab the 
 
 ### Registration deadlines & capacity
 
-You can set a registration deadline so bookings close when you want them to. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** to display on the booking page, or set a **header image** in your site settings. You can format event descriptions with **Markdown** too.
+You can set a registration deadline so bookings close when you want them to. Control **max tickets per purchase** so one person can book multiple places in a single transaction. Add an **event image** or **file attachments** to display on the booking page (encrypted and stored on Bunny CDN), or set a **header image** in your site settings. You can format event descriptions with **Markdown** too.
 
 ### Payment processing
 
@@ -132,7 +132,7 @@ You can issue **full refunds** for individual attendees or **bulk refund** all a
 
 ### Configurable contact fields
 
-You can collect the attendee's name, email, phone, address, special requests, or any combination of those - and that data is all exported to the CSVs and webhooks too.
+You can collect the attendee's name, email, phone, address, special instructions, or any combination of those - and that data is all exported to the CSVs and webhooks too.
 
 ### Public site
 
@@ -140,7 +140,7 @@ Don't have a website? Enable the **built-in public site** to get a homepage, eve
 
 ### Embedding
 
-Already have a website? Embed booking forms into it using the provided **embed script** or **iframe code**. You configure which domains are allowed to embed your forms in the settings.
+Already have a website? Embed booking forms into it using the provided **embed script** or **iframe code**. You configure which domains are allowed to embed your forms via **CSP frame-ancestors** in the settings.
 
 ### CSVs & webhooks
 
@@ -148,7 +148,7 @@ You can download your full attendee list as a CSV file whenever you like, with f
 
 ### Email confirmations
 
-Attendees get a simple confirmation email when they book with a link to their ticket, and admins get notified of each registration too. The system supports five email providers: **Resend**, **Postmark**, **SendGrid**, and **Mailgun** (US and EU). Email templates use **Liquid syntax** with built-in filters for currency and pluralisation, and you can customise the subject, HTML, and text body. Email is optional - the system works fine without it.
+Attendees get a simple confirmation email when they book with a link to their ticket, and admins get notified of each registration too. The system supports five email provider options: **Resend**, **Postmark**, **SendGrid**, **Mailgun US**, and **Mailgun EU**. Email templates use **Liquid syntax** with built-in filters for currency and pluralisation, and you can customise the subject, HTML, and text body. Email is optional - the system works fine without it.
 
 ### Invite managers
 
@@ -156,19 +156,19 @@ If you've got a team helping to run events, the owner can invite additional mana
 
 ### Editing attendees
 
-You can manually add attendees to events for walk-ins, comps, or manual corrections - bypassing the booking form and payment flow. You can also edit their data if something needs correcting.
+You can manually add attendees to events for walk-ins, comps, or manual corrections - bypassing the booking form and payment flow. You can also edit their name, contact details, and quantity, or **reassign them to a different event**.
 
 ### Duplicate events
 
-Running a similar event next month? Copy an existing event's configuration in one click rather than setting everything up from scratch.
+Running a similar event next month? Copy an existing event's configuration in one click rather than setting everything up from scratch. You can also **deactivate** events to hide them without deleting, and reactivate them later. Deleting an event requires typing the event name as a safety check.
 
 ### Activity log
 
-The admin panel keeps a log of actions taken, so if you're running events with a committee or team, you've got a clear record of what happened and when. Each event also has its own log.
+The admin panel keeps a log of actions including event creation, updates, check-ins, CSV exports, refunds, and deletions, so if you're running events with a committee or team, you've got a clear record of what happened and when. Each event also has its own log. You can also enable **Ntfy error notifications** for production monitoring.
 
 ### Calendar view
 
-The admin calendar shows every attendee booked across all events on a given day. Especially useful for daily events - you can see who's coming, manage check-ins, and export the day's attendees as CSV.
+The admin calendar shows **per-date attendee counts** across all events. Especially useful for daily events - you can see who's coming, manage check-ins, and export the day's attendees as CSV.
 
 ### Terms & conditions
 
@@ -181,6 +181,14 @@ Set a custom thank-you URL on any event to redirect attendees to your own page a
 ### Built-in admin guide
 
 The admin panel has a built-in guide covering events, payments, check-in, and more, so you don't need to go looking things up elsewhere.
+
+### QR code posters
+
+Each event has a **downloadable QR code SVG** that links to its booking page. Print it on posters, flyers, or table cards so people can scan and book on the spot.
+
+### Custom domains
+
+Set up a **custom domain** like tickets.yourorg.com in the admin settings, instead of using the default Bunny CDN domain.
 
 ### Apple & Google Wallet
 
@@ -241,7 +249,6 @@ The standard platform handles most use cases. But if you need something more, I'
 
 - **Custom branding and styling** to match your organisation's look
 - **Custom form fields** for dietary requirements, accessibility needs, t-shirt sizes, or whatever your event requires
-- **Custom domains** so you can use tickets.yourorg.com instead of a strange-looking Bunny CDN domain
 - **Website integration** with embedded widgets and custom styling to blend seamlessly with your existing site
 - **Anything else you can think of**, just ask
 
