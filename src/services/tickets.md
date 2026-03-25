@@ -21,14 +21,14 @@ faqs:
   - q: How do attendees receive their tickets?
     a: "Each attendee gets a unique ticket URL with a QR code. They can save it to their phone, print it, or screenshot it, whatever works for them."
   - q: Can I self-host it instead?
-    a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. The whole thing runs on Bunny.net, using their edge scripting and hosted databases, so you just need a Bunny account. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
+    a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. The recommended setup runs on Bunny.net, but you can also deploy via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno-compatible host. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
   - q: How secure is my attendee data?
-    a: "All personal information is encrypted at rest using hybrid RSA + AES-256 encryption. Only authenticated admins with the private key can decrypt it. Even if the database were compromised, personal data stays protected. The system also uses CSRF protection, rate limiting, and constant-time password comparison."
+    a: "All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption. Only authenticated admins with the private key can decrypt it. Even if the database were compromised, personal data stays protected. Passwords are hashed with PBKDF2 (600,000 iterations). The system also uses CSRF protection, rate limiting (5 failed logins trigger a 15-minute IP lockout), constant-time password comparison, and session tokens are hashed before storage."
 ---
 
 # Chobble Tickets
 
-**[Open source](https://github.com/chobbledotcom/tickets/) event ticketing with no per-ticket fees.** Managed hosting for £50/year, or self-host for free.
+**[Open source](https://github.com/chobbledotcom/tickets/) event ticketing with no per-ticket fees.** Managed hosting for £50/year, or self-host for free. Find out more at **[tickets.chobble.com](https://tickets.chobble.com)**.
 
 **If you're fed up with companies like Eventbrite taking a cut of your ticket sales, read on.**
 
@@ -100,11 +100,11 @@ I keep the platform running and maintained as part of the £50/year, but at that
 
 ## Features
 
-I'm always adding and tweaking things but this list is accurate in _February 2026_.
+I'm always adding and tweaking things but this list is accurate in _March 2026_.
 
 ### QR code check-in
 
-Every ticket gets a unique URL and QR code. At the door, your staff or volunteers just log into the site and scan the code with their phone using the **built-in QR scanner**. The system confirms the ticket is valid and marks it as checked in. It's really easy. The scanner is intentionally check-in only - no accidental check-outs from double-scans at a busy door. If someone shows a ticket for a different event, you'll get a warning and can decide what to do.
+Every ticket gets a unique URL and QR code. At the door, your staff or volunteers just log into the site and scan the code with their phone using the **built-in QR scanner**. The system confirms the ticket is valid and marks it as checked in. It's really easy. The scanner defaults to check-in-only mode to prevent accidental double-scans at a busy door, but staff can also toggle check-out when needed. If someone shows a ticket for a different event, you'll get a warning and can decide what to do.
 
 ### No overbooking
 
@@ -112,7 +112,7 @@ The system uses "atomic" capacity checks, which means two people can't grab the 
 
 ### Standard & daily events
 
-**Standard events** are your typical one-off occasions with a fixed capacity. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or anything that runs regularly. You set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted. You can also set **date and location fields** which show up on the ticket page.
+**Standard events** are your typical one-off occasions with a fixed capacity. **Daily events** let attendees pick a date from a calendar, with capacity applied separately to each day - ideal for classes, workshops, or anything that runs regularly. You set which days of the week are bookable and define holiday/blackout dates when no bookings are accepted. You can also set **date and location fields** which show up on the ticket page. Events can optionally be marked as **non-transferable**, requiring ID verification at check-in.
 
 ### Groups & multi-event bookings
 
@@ -124,7 +124,7 @@ You can set a registration deadline so bookings close when you want them to. Con
 
 ### Payment processing
 
-Stripe is the default payment processor and works great for most events - just paste in your secret key and the webhook configures itself. Square is also supported if you prefer it. For free events, you don't need to set up any payment integration at all, and attendees just register and get their tickets.
+Stripe is the default payment processor and works great for most events - just paste in your secret key and the webhook configures itself. Square is also supported if you prefer it, with a pluggable provider architecture. You can set **configurable booking fees** per transaction and offer **"pay what you want" pricing** with optional minimum and maximum thresholds. For free events, you don't need to set up any payment integration at all, and attendees just register and get their tickets.
 
 ### Refunds
 
@@ -144,15 +144,15 @@ Already have a website? Embed booking forms into it using the provided **embed s
 
 ### CSVs & webhooks
 
-You can download your full attendee list as a CSV file whenever you like, with filters for date and check-in status. Set up a **webhook** to trigger any type of web event when people register - useful for email notifications, Slack messages, or updating a spreadsheet.
+You can download your full attendee list as a CSV file whenever you like, with filters for date and check-in status. Set up a **webhook** (per-event or global) to trigger any type of web event when people register - useful for email notifications, Slack messages, or updating a spreadsheet. Multi-event bookings are consolidated into a single webhook call.
 
 ### Email confirmations
 
-Attendees get a simple confirmation email when they book with a link to their ticket. The emails come from an address I manage, with the reply-to set to your address so any replies go straight to you. This is handled through webhooks using [Automatisch](https://automatisch.io/) and [Notifuse](https://notifuse.com/), and you could set up your own email pipeline if you wanted to. If you'd like custom email templates, I can do that as part of a paid customisation job.
+Attendees get a simple confirmation email when they book with a link to their ticket, and admins get notified of each registration too. The system supports five email providers: **Resend**, **Postmark**, **SendGrid**, and **Mailgun** (US and EU). Email templates use **Liquid syntax** with built-in filters for currency and pluralisation, and you can customise the subject, HTML, and text body. Email is optional - the system works fine without it.
 
 ### Invite managers
 
-If you've got a team helping to run events, the owner can invite additional managers to the admin panel via time-limited invitation links. **Owners** get full access to everything. **Managers** can see events and the calendar but can't change settings or manage users. There's also **session management** so you can view active sessions and kill any you don't recognise.
+If you've got a team helping to run events, the owner can invite additional managers to the admin panel via time-limited invitation links (7-day expiry). **Owners** get full access to everything. **Managers** can see events and the calendar but can't change settings or manage users. There's also **session management** so you can view active sessions, terminate any you don't recognise, or terminate all other sessions at once. Sessions expire after 24 hours.
 
 ### Editing attendees
 
@@ -182,9 +182,21 @@ Set a custom thank-you URL on any event to redirect attendees to your own page a
 
 The admin panel has a built-in guide covering events, payments, check-in, and more, so you don't need to go looking things up elsewhere.
 
+### Apple & Google Wallet
+
+Attendees can add their tickets to **Apple Wallet** or **Google Wallet** directly from their ticket page. Passes include event details and barcodes, and Apple Wallet passes support automatic updates via a standards-compliant web service API.
+
+### Calendar & RSS feeds
+
+The system provides an **ICS calendar feed** at `/feeds/events.ics` and an **RSS feed** at `/feeds/events.rss`, so attendees or organisers can subscribe to upcoming events in their calendar app or feed reader.
+
+### Public API
+
+A **RESTful JSON API** is available for listing events, checking availability, and creating bookings programmatically. The API is CORS-enabled and doesn't require an API key, making it easy to integrate with other tools or build custom frontends.
+
 ### Encryption
 
-All personal information (names, emails, phone numbers, addresses) is encrypted at rest using strong encryption. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information stays protected. Even payment IDs, API keys, and check-in status are encrypted.
+All personal information (names, emails, phone numbers, addresses) is encrypted at rest using **hybrid RSA-OAEP + AES-256-GCM encryption**. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information stays protected. Payment IDs, API keys, and check-in status are also encrypted with AES-256-GCM. The system includes **rate limiting** (5 failed logins trigger a 15-minute IP lockout), CSRF protection via double-submit cookies, and content-type validation on all POST endpoints.
 
 </div>
 
@@ -192,9 +204,9 @@ All personal information (names, emails, phone numbers, addresses) is encrypted 
 
 ## See it in action
 
-**[View a live demo ticket →](https://tix.chobble.com/)**
+**[View a live demo ticket →](https://tix.chobble.com/)** | **[Read more about Chobble Tickets →](https://tickets.chobble.com)**
 
-The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch equally well. Atomic capacity checks mean no overbooking even under heavy load.
+The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. It can also be deployed via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno environment. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch equally well. Atomic capacity checks mean no overbooking even under heavy load.
 
 </div>
 
@@ -243,7 +255,7 @@ Customisation work is charged at my [standard rates](/prices/). And here's a bon
 
 Chobble Tickets is fully open source under the [AGPL licence](https://github.com/chobbledotcom/tickets/). You can read every line of code that handles your attendees' data. If you're technically inclined, you can even host it yourself for free.
 
-The entire platform builds into a single JavaScript file and runs on [Bunny.net](https://bunny.net/), using their edge scripting for the application and their hosted databases for storage. The whole infrastructure runs through Bunny, which keeps it fast and very cheap to operate. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
+The platform is built with **Deno** and uses **esbuild** to compile into a single JavaScript file. The recommended deployment runs on [Bunny.net](https://bunny.net/) using their edge scripting and hosted databases, but it also runs via **Docker**, **Fly.io**, **DigitalOcean**, **Heroku**, **Koyeb**, **Render**, or any Deno-compatible host. It uses **libsql** (local SQLite or remote Turso) for storage. If you want to dig into the technical details, the [GitHub repository](https://github.com/chobbledotcom/tickets/) has everything.
 
 </div>
 
@@ -263,7 +275,7 @@ Mention if you're a community group, charity, artist or musician for the 50% dis
 
 ## Get started: self-host
 
-Chobble Tickets is fully open source and you can self-host it for free. The whole platform runs on [Bunny.net](https://bunny.net/) using their edge scripting and [Turso](https://turso.tech/) (libsql) for the database.
+Chobble Tickets is fully open source and you can self-host it for free. The recommended setup runs on [Bunny.net](https://bunny.net/) using their edge scripting, but you can also deploy via **Docker**, **Fly.io**, **DigitalOcean**, **Heroku**, **Koyeb**, **Render**, or any Deno-compatible host. The database uses [libsql](https://turso.tech/) (local SQLite or remote Turso).
 
 You'll need these environment variables:
 
@@ -272,9 +284,8 @@ You'll need these environment variables:
 | `DB_URL` | Yes | libsql database URL |
 | `DB_TOKEN` | Yes* | Database auth token (\*remote databases only) |
 | `DB_ENCRYPTION_KEY` | Yes | 32-byte base64-encoded AES-256 key |
-| `ALLOWED_DOMAIN` | Yes | Domain for security validation |
 
-There are also optional variables for image uploads (`STORAGE_ZONE_NAME`, `STORAGE_ZONE_KEY`), a global webhook (`WEBHOOK_URL`), and error notifications (`NTFY_URL`).
+There are also optional variables for image uploads (`STORAGE_ZONE_NAME`, `STORAGE_ZONE_KEY`), a global webhook (`WEBHOOK_URL`), error notifications (`NTFY_URL`), email providers, and Apple Wallet configuration.
 
 On first launch, visit `/setup/` to set your admin credentials and currency. Payment providers are configured at `/admin/settings`.
 
