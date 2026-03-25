@@ -196,7 +196,7 @@ A **RESTful JSON API** is available for listing events, checking availability, a
 
 ### Encryption
 
-All personal information (names, emails, phone numbers, addresses) is encrypted at rest using **hybrid RSA-OAEP + AES-256-GCM encryption**. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information stays protected. Payment IDs, API keys, and check-in status are also encrypted with AES-256-GCM. The system includes **rate limiting** (5 failed logins trigger a 15-minute IP lockout), CSRF protection via double-submit cookies, and content-type validation on all POST endpoints.
+All personal information (names, emails, phone numbers, addresses) is stored in an encrypted **PII blob** using **hybrid RSA-OAEP + AES-256-GCM encryption**. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information stays protected. Payment IDs and API keys are also encrypted with AES-256-GCM. The system includes **rate limiting** (5 failed logins trigger a 15-minute IP lockout), CSRF protection via double-submit cookies, and content-type validation on all POST endpoints.
 
 </div>
 
