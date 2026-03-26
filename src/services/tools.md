@@ -9,11 +9,11 @@ meta_title: Free Tools & Widgets | Chobble Web Developer Manchester
 meta_description: Free tools I've built - PAT test logger, review scrapers, QR code generators - open source code available - Manchester web developer
 ---
 
-# Tools, Widgets, & Doodads
+# Tools, widgets, & doodads
 
 I've made lots of different widgets and tools over the years. Most have been lost to the sands of time or are owned by companies I used to work for, but I'm still hosting a few. Listed in order of usefulness.
 
-## Portable Appliance Test Logger
+## Portable appliance test logger
 
 - **[patlog.co.uk](https://patlog.co.uk)**
 
@@ -21,7 +21,7 @@ I've made lots of different widgets and tools over the years. Most have been los
 
 I made a simple, free website where users can log PAT tests with accompanying PDF certificates and QR code links. It also explains that PAT tests might not be necessary on its 'about' page.
 
-## Checkatrade Review Scraper
+## Checkatrade review scraper
 
 - **[/tools/checkatrade-reviews](/tools/checkatrade-reviews)**
 - [source code](https://git.chobble.com/chobble/chobble-site/raw/branch/main/src/tools/checkatrade-reviews.md)

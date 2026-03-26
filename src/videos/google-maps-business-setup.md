@@ -8,15 +8,15 @@ youtube_id: N8wvlbnE4sE
 meta_description: A whistlestop tour of Google Business - essential for local searches as Google really prioritises these listings
 ---
 
-# Google Maps / Google Business Quick Setup & Walkthrough
+# Google Maps / Google Business quick setup & walkthrough
 
-Can't find your business when folk search locally? That's because Google Business listings get pride of place in search results, way above normal websites. This video sorts you out with a walkthrough of setting up and optimising your Google Business profile, so local customers can actually find you.
+Can't find your business when folk search locally? That's because Google Business listings get pride of place in search results, way above normal websites. This video sorts you out with a walkthrough of setting up and optimising your Google Business profile, so local customers can find you.
 
 **Prefer to read at your own pace? [Click here to read my guide (7-minute read)](/guides/google-business/).**
 
-I'll show you exactly why these listings appear before most websites (with real examples), then walk you through the whole setup process - from verification to getting your photos sorted, managing reviews, and all the bits that actually make a difference. Really useful if you're a local business that needs to show up when people search for your services nearby. It takes about 15 minutes to watch, could transform your local visibility.
+I'll show you exactly why these listings appear before most websites (with real examples), then walk you through the whole setup process - from verification to getting your photos sorted, managing reviews, and all the bits that make a difference. Really useful if you're a local business that needs to show up when people search for your services nearby. It takes about 15 minutes to watch, could transform your local visibility.
 
-## Mentioned Links
+## Mentioned links
 
 Set up your free listing at [Google Business Profile](https://www.google.com/business/) to appear in local searches and on Google Maps.
 

@@ -7,7 +7,7 @@ meta_description: Restaurant web design Manchester - no PDF menus, easy updates,
 order: 2
 ---
 
-# Restaurant Web Design
+# Restaurant web design
 
 **Running a restaurant is hard enough without your website giving you grief.** You need something that shows your menu, hours and location as straightforwardly as possible. This means cutting back on the animations, heavy graphics, and PDFs that won't open on phones - making it as easy as poss for hungry customers to find what they need.
 
@@ -64,7 +64,7 @@ The menu system is clever, if I do say so myself. You can have multiple menus - 
 
 For special events, there's a whole events system built in. Whether it's a one-off wine tasting or your regular quiz night every Tuesday, it all goes on the site. Each event can have its own Google Maps location, and customers can download calendar reminders for individual events so they don't forget.
 
-The opening hours show up on every page, right in the footer where people expect them. All your social media links are there too - Facebook, Instagram, WhatsApp for bookings, Google Maps for directions. There's a proper contact form with spam protection that actually works. And you can showcase your best reviews and testimonials to build trust with new customers.
+The opening hours show up on every page, right in the footer where people expect them. All your social media links are there too - Facebook, Instagram, WhatsApp for bookings, Google Maps for directions. There's a proper contact form with spam protection that works. And you can showcase your best reviews and testimonials to build trust with new customers.
 
 Photo galleries let you show off your best dishes and the atmosphere of your place. News posts keep regulars informed about specials and what's new. Everything loads instantly thanks to some clever tech under the hood, and it all works perfectly on phones where most of your customers are looking.
 

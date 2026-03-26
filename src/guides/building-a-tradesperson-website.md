@@ -5,7 +5,7 @@ meta_title: How to Build a Tradesperson Website | Free Guide | Chobble
 meta_description: Guide to building tradesperson websites - services, accreditations, location pages - Eleventy static site - source code included - Manchester web developer
 ---
 
-# How To: Make a Tradesperson Website
+# How to: make a tradesperson website
 
 Renegade Solar ([renegade-solar.co.uk](https://www.renegade-solar.co.uk)) is a solar panel installer from Manchester. They had a Wix site but were finding it hard to tidily showcase all of the aspects of the business through the Wix editor, so the site was quite thin on content and wasn't attracting many visitors.
 
@@ -33,7 +33,7 @@ Once built it's pushed to **Bunny CDN** ([bunny.net](https://bunny.net/)) - a pr
 
 Because I use **NixOS**, the development of the site happens in a `nix develop` shell powered by `direnv` ([source code](https://git.chobble.com/hosted-by-chobble/renegade-solar/src/branch/main/flake.nix)). This means I can work on the site on any of my machines, and it will behave the same everywhere because the tooling is exactly the same - Nix is awesome.
 
-## Accreditations Pages
+## Accreditations pages
 
 I wanted to put the various trade standards or certifications that Renegade has achieved "front and centre", and so created an Eleventy collections for "accreditations". Each accreditation gets a full page on the site, and their logos are displayed prominently (with links through to their pages) all over the shop.
 
@@ -41,19 +41,19 @@ The benefit of giving each accreditation its own page is that it encourages Rene
 
 By having substantive content about each accreditation, the Renegade Solar site stands a good chance of ranking well on Google when people search for the names of those accreditations.
 
-## Services Pages
+## Services pages
 
 A very typical type of page for a service-based business, the "services" collection in Eleventy gives each page an icon and a full page of information about that service.
 
 By breaking each service into its own page we have the potential to write some really in-depth information about each - an ongoing job for the team at Renegade, but one that should pay off handsomely in terms of attracting visitors from search results pages.
 
-## Location Pages
+## Location pages
 
 I added a "location" collection for pages targeting specific service areas. The team can add pages here to target those areas in search results, by providing valuable information specific to people from those areas looking for solar panel installers.
 
-It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be actually useful and unique. This requires some thinking about - my [marketing guides](/guides/) and [videos](/videos/) cover these pages in detail (and they're free for everyone!). As a website customer, Renegade also gets my personal support to help them understand and implement these strategies.
+It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be genuinely useful and unique. This requires some thinking about - my [marketing guides](/guides/) and [videos](/videos/) cover these pages in detail (and they're free for everyone!). As a website customer, Renegade also gets my personal support to help them understand and implement these strategies.
 
-## Contact Form
+## Contact form
 
 I discovered **Formspark** ([formspark.io](https://formspark.io)) while building this site and so used them for its contact page ([source code](https://git.chobble.com/hosted-by-chobble/renegade-solar/src/branch/main/src/_includes/contact-form-form.html)). Formspark let you create custom contact forms which they deliver as emails - which is often the only bit of "dynamic" functionality needed on a website. Their pricing is great, too - you just buy the credits you need and they're used when people hit the forms - no monthly charges.
 

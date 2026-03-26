@@ -10,6 +10,6 @@ meta_description: Watch videos about web development, technology tutorials, and 
 
 Here you'll find a collection of videos covering web development, technology topics, and insights from my experience building web software for businesses of all sizes.
 
-## Video Collection
+## Video collection
 
 Browse through the videos below to find topics that interest you:

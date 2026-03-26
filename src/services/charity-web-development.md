@@ -7,7 +7,7 @@ order: 1
 meta_description: Charity web development at £100/hour (50% off) - transparent pricing, open source tech, no vendor lock-in - hosting from £20/month - Manchester developer
 ---
 
-# Charity Web Development
+# Charity web development
 
 **I offer charities and nonprofits a 50% discount on all my web development work** because I believe every organisation should have access to quality technology regardless of budget. I charge **£100 per hour** (half my standard rate) and provide complete transparency about what work is involved.
 
@@ -15,15 +15,16 @@ I've been working with charities and community organisations for over a decade, 
 
 ## Why charities benefit from open source
 
-I use open source technology exclusively. This approach brings several advantages:
+I build with open source tools rather than proprietary platforms. There are no "open core" gotchas or freemium tiers - everything is fully open and unencumbered. This means:
 
-- **You own the code** - take it to another developer anytime
-- **No license fees** - the software is free, you just pay for the work
-- **Community support** - thousands of developers contribute improvements
-- **No vendor lock-in** - host anywhere, modify anything
-- **Proven technology** - battle-tested by millions of organisations
+- **You own everything** - you get the full source code via GitHub, and can take it to another developer anytime
+- **No licence fees** - the tools are free, you just pay for the work
+- **No lock-in** - host anywhere, modify anything, leave whenever you want
+- **Widely supported** - thousands of developers know these tools, so you're never dependent on one person
+- **Proven and reliable** - the same tools used by millions of organisations worldwide
+- **Privacy is your choice** - my tools and templates are public, but your website's repository can be private if you prefer
 
-Open source aligns perfectly with charity values of transparency and community benefit. The same way charities exist to help people rather than make profit, open source software exists to solve problems rather than extract rent.
+This approach aligns with charity values: transparency, community benefit, and making the most of limited budgets.
 
 ## Completely transparent pricing
 
@@ -74,7 +75,7 @@ Each of these organisations benefits from having full control of their website, 
 
 ## No surprises, no lock-in
 
-Everything is transparent - you'll know exactly what each hour of work involves. The source code is published openly (usually on GitHub), backups are automatic, and you can take your site to another developer anytime. Most charities stay with me long-term because they value the honest approach and reliable service.
+Everything is transparent - you'll know exactly what each hour of work covers. You get the full source code via GitHub (private or public - your choice), backups are automatic, and you can take your site to another developer anytime. Most charities stay with me long-term because they value the honest approach and reliable service.
 
 ## Get started
 

@@ -7,7 +7,7 @@ order: 13
 meta_description: Build your own repairable laptop - Framework DIY kits - I'll help you assemble it - save money, learn tech - Prestwich laptop builder
 ---
 
-# Framework Laptop Builds in Prestwich, Manchester
+# Framework laptop builds in Prestwich, Manchester
 
 As a lifelong nerd I've build dozens of computers over the years and repaired just as many. It's much cheaper to build and repair your own PC than to buy something "off the shelf" with an expensive maintenance contract.
 
@@ -33,13 +33,13 @@ This will arrive as an unassembled kit, and you'll need to fit your own memory a
 
 **It's fun!** It's like Lego, and you'll learn a bit about how your computer works as we go.
 
-## Customised Laptops in Prestwich
+## Customised laptops in Prestwich
 
 Framework laptops are **fully customisable**. Never mind just the screen size or processor - you can even pick your ports (USB-C, USB-A, HDMI, DisplayPort, Ethernet, MicroSD, etc.) and swap them as needed. Choose your colours - bezels come in black, grey, orange, green, purple, or transparent.
 
 I'll install **Ubuntu Linux** (easy), **NixOS** (advanced), or **Windows** (boo!). Framework offer options from basic durable builds for students or kids, to high end setups for development work or mobile gaming. We can sit down together in Prestwich and browse the Framework store to assemble the exact laptop you need.
 
-## Framework Laptops for Business Fleets
+## Framework laptops for business fleets
 
 For businesses in Manchester, Framework laptops make more sense than Dell or HP contracts. Keep a small stock of Framework parts (screens, keyboards, batteries, mainboards) and your IT team can do repairs in-house in minutes instead of shipping laptops away for weeks. A broken screen costs £179 to fix yourself versus £500+ through Dell ProSupport. Standardise on one Framework model across your fleet and you can swap components between machines - dead laptop becomes spare parts. No more extended warranties, no more waiting for technicians, no more writing off perfectly good machines because one component failed. I can help set up your initial fleet and train your team on repairs.
 

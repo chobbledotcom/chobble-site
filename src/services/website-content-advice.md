@@ -7,7 +7,7 @@ order: 0
 meta_description: Website content review £200 - clear list of fixes in priority order - meet in Prestwich cafes to work together - no jargon, just plain advice
 ---
 
-# Website Content Advice
+# Website content advice
 
 **Summary: I will spend [an hour](/prices/) giving your site a once-over, to create a list of tasks to do in priority order - plus how long it would take me to do each. [Contact me](/contact/) if this sounds like a good fit for your site!**
 

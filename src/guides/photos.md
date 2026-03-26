@@ -15,13 +15,13 @@ But that's fine - your website probably doesn't need professional grade photogra
 
 Alright, as usual I'm going to talk about some common website photo mistakes up front, and then I'll talk about places you can find images to use on your site without needing to pay expensive licenses or worrying about copyright.
 
-## Mistake #1: Bad Framing
+## Mistake #1: Bad framing
 
 Okay so first things first, framing. At a bare minimum this means the subject of your photograph should be fully in shot. This mean if you're taking a photo of a unit you hire out, you should be able to see the top, bottom, and both sides of the unit in the photograph.
 
 You should hold the camera horizontally, in landscape mode, not vertically, in portrait. Use portrait mode for taking actual portrait photos - photos of people. But when you're taking photos of products, landscape mode is nearly always the best way. And be sure to hold your camera straight, not at a wonky angle.
 
-## Mistake #2: Bad Location
+## Mistake #2: Bad location
 
 If your business hires out products for childrens parties, and the products are normally used on grassy gardens or in town halls, then the photos of those products on your site should show them in action in those same sort of situations. If the photos show the products in a warehouse, or an industrial estate, or on sale at a trade show, they're probably not doing a great job of selling themselves. Visitors to your site will want to imagine themselves hiring out your product for a party and it being the main attraction and looking great in the party location - so your photos should show the product doing exactly that.
 
@@ -29,7 +29,7 @@ Likewise, if your website sells yourself as the product, then your photos should
 
 These photos of your products "in action" should show that you stick to a high standard. If the product need to be secured, they should be secured in photographs. If you need to wear a hard hat while doing something dangerous, you should be wearing a hard hat in the photo of you doing the thing. You get the idea. Don't give your visitors any reason to think you half-ass your jobs.
 
-## Mistake #3: Bad Lighting
+## Mistake #3: Bad lighting
 
 Smartphones are usually pretty bad at taking photos in the dark. The darkness causes lots of noise, and muddies the colours of your products. You might be able to fix some of this with post production, but really the simplest option is just to take your photos in bright conditions. The light source should be behind you - don't face towards the sun or everything will be really washed out.
 
@@ -53,21 +53,21 @@ You should use the best camera you have available - which might mean borrowing s
 
 This might sound like a lot of steps, and if you wanted to photograph every single one of your products in one go, it certainly would be. Instead, you might instead want to just keep in mind when you do a job that maybe you should try and get some photos of the completed set-up if it's looking particulary smart. And if you rarely see the completed set-ups because you send your staff out, then give them this guide and ask them to take photos for you.
 
-## Buying Images
+## Buying images
 
 You might be tempted to just buy some stock photos and call it job done. I understand the impulse, and this can work alright if you choose good photos, but good photos are expensive. Like, you might end up paying more for stock photos than your website cost - a single good photo can be a hundred quid or more.
 
 Stock photos can also sometimes look really obviously stock, which might dissuade visitors or make your site look quite generic. If you do end up choosing stock photos for your site, I would try and buy a bunch of photos from the same photographer so they have a similar aesthetic and vibe - you don't want to end up with a bunch of expensive photos that don't look consistent.
 
-## Free Images
+## Free images
 
 You can also find free stock photos - a great site for this is Pexels.com. This might be a better choice if the stock images are mostly there as a placeholder until you take some photos yourself to replace them.
 
-## AI Images
+## AI images
 
 If you're considering using AI to generate photos for your site, you should be careful. They're getting more convincing every day, but AI photos have some common flaws that visitors might spot, and which could dissuade them from using you if it seems like you're faking it. If you do use AI photos, you should triple check them to make sure that they don't have any distorted faces, extra fingers, extra limbs, and other AI hallucinations. If the photos don't contain any humans, they're more likely to be convincing, but even then - give them a check.
 
-## Stealing Images
+## Stealing images
 
 You might be tempted to just copy paste images from someone else's site onto yours, without getting their permission. This is a little risky. Ignorance about copyright is not a valid excuse for breaking it, and there's a chance the owner of the image could take you to court for the profit you've made off their photos. Or, maybe even worse, they might slate you on social media or cause drama for you.
 

@@ -5,7 +5,7 @@ meta_title: Checkatrade Reviews Scraper | Free Export Tool
 meta_description: Export all your Checkatrade reviews to JSON - runs in your browser, no data sent to servers - free tool from Manchester web developer
 ---
 
-# Checkatrade Reviews Scraper
+# Checkatrade reviews scraper
 
 You might want to **export all of your Checkatrade reviews to JSON**, for example to import them into your [static website's data files](/services/static-websites).
 
@@ -237,11 +237,11 @@ Ready? Let's goooo!
 
 ---
 
-## How the Checkatrade Scraper Works
+## How the Checkatrade scraper works
 
 The code behind the scraper is pretty straightforward - it uses plain "Vanilla" JavaScript, with no complicated framework or server-side processing. You can view all of the code involved by right clicking this page and choosing _"View Source"_ or by [clicking here to view it on Git](https://git.chobble.com/chobble/chobble-site/src/branch/main/src/tools/checkatrade-reviews.md).
 
-### Setting Things Up
+### Setting things up
 
 When the page loads, first I grab references to all the HTML elements I'll need to interact with:
 
@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 This is a common pattern in vanilla JavaScript - wait for the DOM to be fully loaded before trying to access any elements. This ensures everything's in place before I start attaching event listeners.
 
-### Handling the Button Click
+### Handling the button click
 
 The fun begins when you click the _"Fetch Reviews"_ button:
 
@@ -283,7 +283,7 @@ fetchButton.addEventListener("click", async () => {
 
 First, it validates that you've entered an ID, then sets up the UI to show progress, and finally calls the main function that does all the heavy lifting.
 
-### Dealing with Pagination
+### Dealing with pagination
 
 One of the trickier bits with fetching reviews is that Checkatrade (like most APIs) doesn't give you all reviews at once. Instead, they use pagination - returning reviews in "pages" of 25 at a time:
 
@@ -325,7 +325,7 @@ if (data.data && Array.isArray(data.data)) {
 
 With this information, I can calculate how many pages I need to fetch and update the progress bar accordingly. This bit of visual feedback means the short delay while the reviews are fetched feels much faster.
 
-### Fetching the Rest
+### Fetching the rest
 
 Now comes the loop to fetch all remaining pages:
 
@@ -360,7 +360,7 @@ A couple of interesting bits here:
 
 2. That small delay between requests helps ensure we are being nice web citizens. APIs often have rate limits, and hammering them with requests as fast as possible is a good way to get your IP temporarily blocked. The one-second delay is a polite pause that keeps everyone happy and doesn't hold the script up too much.
 
-### Organizing the Results
+### Organizing the results
 
 After fetching all reviews, I need to organize them into a useful structure:
 
@@ -382,7 +382,7 @@ The sorting is worth noting - I'm sorting by date, most recent first. The `new D
 
 The second parameter to `JSON.stringify` is a replacer function (which I'm not using here, hence `null`), and the third parameter (`2`) specifies the number of spaces to use for indentation. This gives us nicely formatted JSON that's easy to read.
 
-### Helper Functions
+### Helper functions
 
 My script includes two helper functions. First, there's `updateProgress`:
 
@@ -413,7 +413,7 @@ function calculateAverageRating(reviews) {
 
 This uses the array's `reduce` method to sum up all ratings, and then divides by the number of reviews to get the average. The optional chaining operator (`?.`) is a nifty bit of modern JavaScript that prevents errors if a review doesn't have a rating property.
 
-### Copying to the Clipboard
+### Copying to the clipboard
 
 Once you've fetched all your reviews, you'll want to save them. I've added a simple copy-to-clipboard function:
 
@@ -433,7 +433,7 @@ copyButton.addEventListener("click", () => {
 
 This selects all text in the textarea and uses the (admittedly deprecated but still widely supported) `execCommand('copy')` method to copy it to the clipboard. It also provides visual feedback by temporarily changing the button text.
 
-### Why This Approach?
+### Why this approach?
 
 You might wonder why I'm doing this client-side in the browser instead of on a server. There are a few good reasons:
 

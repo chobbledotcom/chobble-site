@@ -18,7 +18,7 @@ meta_description: Rails app for bouncy castle safety inspections - EN 14960 comp
 
 ![play-test inspection dashboard showing a list of inspections](/assets/examples/play-test.png)
 
-## My Solution
+## My solution
 
 A primary goal was to make repeat inspections fast - measurements don't change much between tests, so the system remembers everything from the previous test and pre-fills the form fields. I wanted inspectors to always know what to do next, so the interface guides them through each step.
 
@@ -26,7 +26,7 @@ A tricky bit was turning EN 14960 safety specs into Ruby methods. Every calculat
 
 The platform is very open - each unit or inspection can be viewed by the public in both PDF and JSON formats, and data can be exported to CSV with one click.
 
-## Technical Details
+## Technical details
 
 play-test is built with modern Rails practices while keeping dependencies minimal:
 
@@ -38,11 +38,11 @@ play-test is built with modern Rails practices while keeping dependencies minima
 - **Full internationalisation** support built in
 - **Progressive enhancement** so it works without JavaScript
 
-## What's Next?
+## What's next?
 
 The software is free and open source, but I charge for hosting - either for individuals or whole companies who want their own branded version.
 
-Future plans (based on what users actually want):
+Future plans (based on what users want):
 
 - Owner logins to see their own test history
 - Email reminders for expiring tests
@@ -51,7 +51,7 @@ Future plans (based on what users actually want):
 
 I'm being totally transparent about money and direction. I am a software developer, not a inflatable inspector or even a bouncy castle hirer, although I do have a lot of experience in that industry. For that reason, my aim is simply to make the best testing platform for the users of the platform - they should choose how it develops, not me.
 
-## Open Source
+## Open source
 
 AGPLv3 licensed - use it, change it, share it, but share your improvements too. Safety tools should be accessible to everyone.
 

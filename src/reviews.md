@@ -6,7 +6,7 @@ meta_title: Reviews | Chobble Web Developer Prestwich Manchester
 meta_description: What clients say about Chobble - transparent SEO advice, websites that work, no tech waffle - Prestwich web developer with 20+ years experience
 ---
 
-# Lovely Reviews
+# Lovely reviews
 
 As Chobble is a pretty new business I don't have lots of reviews, but this page includes some nice words people have said about my web development / search engine optimisation work over recent months.
 

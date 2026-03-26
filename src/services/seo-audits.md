@@ -7,7 +7,7 @@ order: 0
 meta_description: SEO audits from £200 - clear, jargon-free advice - no false promises - 20+ years helping sites rank - Manchester web developer
 ---
 
-# SEO Audits
+# SEO audits
 
 With decades of experience helping sites rank well on Google, I know what works and what is a waste of effort.
 
@@ -17,7 +17,7 @@ I can do an SEO audit of your existing website and give you a list of tasks to h
 
 Like all of my services, I charge a [flat hourly rate](/prices/) and will tell you exactly what we I do for that hour. You can choose to employ as much or as little of my services as you like.
 
-## Full Site SEO Audits
+## Full site SEO audits
 
 The services I can offer as **full site** audit could include:
 
@@ -28,7 +28,7 @@ The services I can offer as **full site** audit could include:
 - **1 hour: Backlink profile analysis** ([Buy with Stripe](https://buy.stripe.com/7sI4gPfbqdlq2tyaEI))
   - I'll analyse the backlink profile of a website (maybe your competitor's?) and grade the quality of their links, to give you insight into places worth building links for your business. For more on this topic, see my [guide to finding backlinks](/guides/backlinks/).
 
-## Single Keyword SEO Audits
+## Single keyword SEO audits
 
 I can also do specific **keyword audits** to help you improve your ranking for a specific term:
 
@@ -37,7 +37,7 @@ I can also do specific **keyword audits** to help you improve your ranking for a
 - **2 hours: Evaluating your competition** ([Buy with Stripe](https://buy.stripe.com/00g8x56EUa9e3xCcMS))
   - I will compare your site's performance for a given keyword to your competitor's, and explain where your site is falling short.
 
-## Ethics and Honesty
+## Ethics and honesty
 
 If your site doesn't need any improvements I will tell you - and you won't be charged.
 

@@ -7,7 +7,7 @@ order: 3
 meta_description: Expert Linux consultant in Manchester offering server management, web hosting, infrastructure deployment, security, backups & automation. £200/hr (50% off for charities). Remote support available worldwide.
 ---
 
-# Linux Consultant in Manchester
+# Linux consultant in Manchester
 
 I've been using Linux as my personal operating system, and for my servers, for years. If you need a Linux consultant in Greater Manchester, or remote advice anywhere in the world, get in touch - I can help you set up servers, manage your infrastructure, lower your costs, and automate repetitive jobs.
 
@@ -25,7 +25,7 @@ We can get you set up with a private, secure network so your team members can ac
 
 ## Hardware & automation
 
-I can help you spec and build open source hardware solutions for things like security, monitoring, networking, or anything else. There's usually an open source, community-driven alternative to proprietary and expensive server software.
+I can help you choose and set up hardware for security, monitoring, networking, and more. There's usually an open source, affordable alternative to expensive proprietary server software.
 
 ## Troubleshooting & development
 

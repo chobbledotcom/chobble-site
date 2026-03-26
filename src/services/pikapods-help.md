@@ -7,7 +7,7 @@ order: 2
 meta_description: PikaPods help and advice from Chobble. Host webapps like Nextcloud, PhotoPrism, WordPress and more
 ---
 
-# PikaPods Hosting & Advice
+# PikaPods hosting & advice
 
 [PikaPods.com](https://www.pikapods.com) is an awesome service. Their web interface lets you host your own private instances of popular open source webapps like Nextcloud, Wordpress, PhotoPrism, and dozens more.
 
@@ -19,13 +19,13 @@ Hosting with PikaPods instead of my own server means they handle the server infr
 
 And aside from my own tools, I also use PikaPods to host the Ghost newsletter platforms for [Crumpsall Folk Club](/examples/crumpsall-folk-club/) and [Southport Organics](/examples/southport-organics/).
 
-## How Can I Help You?
+## How can I help you?
 
 If you'd like your own version of any of the apps that PikaPods hosts ([here's the full list](https://www.pikapods.com/apps)) then **I can help you get them set up**. Once the app is up-and-running there's really not much work to do, since PikaPods handle the updates for you.
 
 Or if you prefer, **I can manage the whole setup for you and host it under my own PikaPods account**. I'll charge you an hourly [setup fee](/prices/) (probably one or two hours depending on the pod) and then monthly fee for maintenance (£10) and you won't have to get your hands dirty at all.
 
-## Real Examples
+## Real examples
 
 Let's talk specifics. Let's say you're **looking for a CRM** to manage your customer information. I could get you set up with [Twenty](https://twenty.com) - a really flexible customer relationship manager that I use myself and could advise you about.
 

@@ -7,7 +7,7 @@ order: 3
 meta_description: Free SEO guides and videos for UK businesses - no jargon, no dodgy tactics - real advice that works - Manchester web developer
 ---
 
-# Free Marketing Guides & Videos
+# Free marketing guides & videos
 
 Trying to get your head around terms like "SEO", "link building", "keywords" or "SERPs" can be overwhelming, and might dissuade you from going "all in" on promoting your website.
 
@@ -18,7 +18,7 @@ All of my content that was previously on Patreon is now available for free:
 - Video tutorials in the [videos section](/videos/)
 - More videos on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom)
 
-## What's Included
+## What's included
 
 - **Actionable tips** that you can implement straight away
 - **Detailed guides** on SEO, content creation, and local marketing
@@ -28,7 +28,7 @@ All of my content that was previously on Patreon is now available for free:
 - **No-nonsense explanations** in plain English without the jargon
 - **No spammy techniques** that could get your site penalised
 
-## Popular Guides
+## Popular guides
 
 Here's a sample of what you can learn about:
 
@@ -41,7 +41,7 @@ Here's a sample of what you can learn about:
 
 Each guide is written specifically for UK businesses, with practical advice that works in our market. I focus on techniques that are sustainable long-term and won't get your site penalised when Google updates its algorithms.
 
-## Who Is This For?
+## Who is this for?
 
 These resources are perfect for:
 
@@ -53,7 +53,7 @@ These resources are perfect for:
 
 As a full-time nerd who has been helping businesses improve their online presence for decades, I can help you make the most of the time you spend working on your web presence.
 
-## The Chobble Approach to Marketing
+## The Chobble approach to marketing
 
 I believe in honest, sustainable marketing that prioritises providing real value to your visitors. I will never tell you to:
 
@@ -62,15 +62,15 @@ I believe in honest, sustainable marketing that prioritises providing real value
 - Use manipulative techniques that will eventually backfire
 - Waste money on services that don't deliver results
 
-Instead, I focus on helping you understand what your customers are actually looking for, and how to provide that to them in a way that Google will recognise and reward.
+Instead, I focus on helping you understand what your customers are looking for, and how to provide that to them in a way that Google will recognise and reward.
 
-## Need Personal Support?
+## Need personal support?
 
 While all the guides and videos are free, **website customers get personal support** to help them understand and implement these strategies. I'm available to answer specific questions about your situation and help you apply the advice to your business.
 
 Whether you're based in Prestwich or anywhere else in the UK, I'm sure I can help, regardless of your industry.
 
-## Get Started
+## Get started
 
 **[Browse the free guides](/guides/)** or **[watch the videos](/videos/)** to start improving your website's performance today.
 
