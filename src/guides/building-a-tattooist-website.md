@@ -5,7 +5,7 @@ meta_title: How to Build a Tattoo Artist Website | Free Guide | Chobble
 meta_description: Step-by-step guide to building a tattoo website - Eleventy, responsive galleries, contact forms - full source code included - Manchester web developer
 ---
 
-# How To: Make a Tattooist Website
+# How to: make a tattooist website
 
 I made a website at [noktorum.com](https://noktorum.com) for my friend "Noktorum", a tattooist and artist from Liverpool, now working in Berlin.
 
@@ -64,7 +64,7 @@ My script works _fine_. If you have hundreds of images, and you want them to be 
 
 Ultimately that shortcoming didn't end up mattering anyway - Noktorum picked 16 photos to represent their work, and they all had the same dimensions! So it looks super smart now, and scales nicely for tablets and phones.
 
-## Contact Form
+## Contact form
 
 I'm a fan of **Formspark** ([formspark.io](https://formspark.io)) and used them for the contact form on this site ([source code](https://git.chobble.com/hosted-by-chobble/noktorum/src/branch/main/src/_includes/contact-form.html)). Formspark let you create custom contact forms which direct to a given email address - which is often the only bit of "dynamic" functionality needed on a website. Their pricing is great, too - you just buy the credits you need and they're used when people hit the forms - no monthly charges.
 

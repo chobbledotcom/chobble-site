@@ -7,7 +7,7 @@ order: 2
 meta_description: Revive your slow Windows laptop with Linux - no more forced updates or ads - Ubuntu installations across Manchester - 50% off for charities
 ---
 
-# Linux Conversions in Prestwich & Manchester
+# Linux conversions in Prestwich & Manchester
 
 Linux is a **community-made operating system** - an alternative to Microsoft's "Windows". If your Windows PC is running slow, or you're tired of Microsoft's bloat and adverts, and you want to feel in control of your computer - I can install Linux on it and give it new life.
 

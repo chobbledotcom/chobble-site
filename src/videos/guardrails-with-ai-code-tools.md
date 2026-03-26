@@ -8,7 +8,7 @@ youtube_id: NLrQSRoVKSg
 meta_description: 20-minute talk from the 11ty Meetup on using biome, jscpd, knip, TypeScript, and custom code quality checks to stop AI tools writing messy code in an Eleventy codebase
 ---
 
-# Using Guardrails with AI Code Tools - 11ty Meetup Talk
+# Using guardrails with AI code tools - 11ty Meetup talk
 
 I gave this talk at the [11ty Meetup](https://11tymeetup.dev/) in February 2026 about the guardrails I've set up around my [Chobble Template](/services/chobble-template/) to stop AI code tools making a mess of things. It's about 20 minutes long.
 
@@ -32,9 +32,9 @@ The talk walks through six layers of guardrails I use when getting Claude Code t
 
 **Layer 6 - The ratchet:** One exceptions file with a big scary warning telling the AI not to add to it. Exceptions can only be removed, never added by the AI.
 
-The practical workflow is: ask Claude to build something, it pushes to GitHub, the action fails, then it churns away fixing violations until the code actually fits your in-house style. At that point you start reviewing - but you're reviewing fewer, cleaner lines of code that match how you'd write it yourself.
+The practical workflow is: ask Claude to build something, it pushes to GitHub, the action fails, then it churns away fixing violations until the code fits your in-house style. At that point you start reviewing - but you're reviewing fewer, cleaner lines of code that match how you'd write it yourself.
 
-## Mentioned Links
+## Mentioned links
 
 - [Chobble Template on GitHub](https://github.com/chobbledotcom/chobble-template/) - the Eleventy template discussed in the talk
 - [11ty Meetup](https://11tymeetup.dev/) - where the talk was given

@@ -7,19 +7,19 @@ meta_description: Guide to finding genuine SEO help - avoid spammy marketers, un
 
 # Finding a reputable online marketing partner
 
-If you're anything like me you probably get unsolicited emails every day offering to help you with your website, but can those people actually help you? And what about marketing agencies? There's loads of them and their prices span the whole spectrum, with people that'll promise you a top ranking position for the price of a Costa Coffee each week, and others that won't promise anything but charge hundreds of pounds.
+If you're anything like me you probably get unsolicited emails every day offering to help you with your website, but can those people help you? And what about marketing agencies? There's loads of them and their prices span the whole spectrum, with people that'll promise you a top ranking position for the price of a Costa Coffee each week, and others that won't promise anything but charge hundreds of pounds.
 
 I'm gonna mention up front that my brother Kevin is an online marketer who I've worked with loads over the years, and I would definitely recommend him, but this isn't just a long winded advertisement for Kev, it hopefully contains useful information that you can use to evaluate anyone offering to help you do well on Google.
 
-## Spammy Emails
+## Spammy emails
 
 First off, let's talk about those unsolicited, spammy emails I mentioned before - if you're lucky enough not to get them I'm jealous, but these will generally say something like "We can get the top spots on Google!" and will imply that your website isn't ranking well. Let's be clear - these are spam emails and the sender hasn't even visited your website. They just ran a script which found emails online, like on your contact page, and they sent the same email to every address they found. I would really doubt that these spammers would do anything at all if you transferred them some money, other than try and get more money out of you. Good marketing companies never, ever send cold emails to random businesses - their work comes from word of mouth and reputation. Suffice to say, you should bin these emails when they come in - don't even reply, because showing any interest at all will just invite more spam emails.
 
-## Very Cheap Backlinks
+## Very cheap backlinks
 
 Next up we've got the actual businesses who might do SOMETHING for your money - how do we tell which of these are offering something decent? Again, lets start with the shadiest of the bunch - people you can find on [Fiverr.com](https://www.fiverr.com) and other freelancing websites who offer to build thousands of backlinks for a few quid. These guys are doing what's called "black hat" search engine optimisation, which means stuff that Google really hates and could penalise you for if you get caught. To make thousands of backlinks for very low prices they rely on computer scripts that will spam your website name into the comment forms of other sites, or into profiles they make on random message boards. It's all automated, and there's nothing specific to your business about the process, they just pass the name and link through to a script and then the script spams the link everywhere. The best case scenario with these very low-quality links is that Google just discounts them altogether and your money was wasted, but the worst case scenario is that Google penalises your site, and you can only find out about that penalty if you've got [Google Search Console](/guides/google-search-console/#content) set up and remember to check it. Getting penalised can be really painful, because there's basically no way for you to remove these links once they're up. It's worth bearing in mind that getting a single backlink from a reputable source will take some time - so you can only get thousands by either spamming, or by going viral somehow.
 
-## Pay Per Click
+## Pay per click
 
 Okay, so we've ruled out the spammers and the cheap backlink builders, but who else is out there? Well, one other thing I see advertised very often is people who can help you with "pay per click" adverts. These companies aren't spammy, but they're usually very overpriced and not at all transparent. They generally work by setting up advertisements on [Google's Adwords platform](https://ads.google.com) for you, and then they add their own margin on top of the adverts they buy on your behalf. What they don't tell you is that setting up Adwords is really easy, and that once it's running it's basically totally hands-off, which means they're taking money off you each month and doing literally nothing for it. They can never be transparent with you about how much of their fees goes on adverts and how much just goes straight into their pockets, because you'd quite rightly find it pretty scandalous.
 
@@ -27,7 +27,7 @@ If you do want to buy paid advertisements then I advise giving [Adwords](https:/
 
 The thing to remember about [Adwords](https://ads.google.com) is that if you ever stop paying for them, you're kinda back to square one. No amount of spending money on Adwords will help your site rank better on Google. It's a good way to get traffic to your site in the immediate term but I'd probably advise trying to improve your ranking in the organic results as a long term strategy.
 
-## Legit Copywriters
+## Legit copywriters
 
 So now lets talk about the people who offer to improve your content and market your site, who aren't just outright spammers or adding their own markup on paid advertisements. First, financials. The minimum wage in the UK is about twelve quid per hour at the time of writing, an average hourly rate for a copywriter is about fifty quid, and a good online marketer charges about a grand a month minimum. It's important to keep this in mind when you're evaluating marketing companies, because if they're charging you thirty pound a month then you can't realistically expect them to dedicate much time to your business. It's likely that a company charging such low prices is taking spammy or borderline spammy shortcuts which might bite you in the bum in the long run.
 
@@ -37,7 +37,7 @@ You should always expect total transparency from any marketing agency you choose
 
 If they won't tell you what they're up to it's probably because it's something you wouldn't like!
 
-## What Legitimate Marketers Actually Do
+## What legitimate marketers actually do
 
 So what are some jobs that a legitimate marketer might do for you, and how much could you expect them to cost?
 
@@ -47,7 +47,7 @@ Legit marketers might also offer backlink building services, but because they're
 
 Copywriters and legitimate marketers will never promise you a certain ranking position on Google, because they know that the only way to guarantee a high ranking spot is to spam your website all over the internet, and doing this is a great way to get penalised by Google. Instead they'll charge you for specific work they've done, things like writing 500 words, or writing and sending a press release, or tidying up two categories - you get the idea. They should give advice about what things they think will help push you up the rankings the most, but like with everything with Google it's about doing the right things and having faith in the long term outcome - there are no shortcuts.
 
-## In Summary
+## In summary
 
 Hopefully this gives you lots of ideas about how to evaluate a copywriter or marketer! To summarise, you want them to be transparent with the work they're doing, and it should largely revolve around improving the content on your site and building reputable backlinks. You should be very wary of anything very cheap because these are skilled jobs that pay decent wages, and you shouldn't trust anyone who sends you a spammy email because reputable people don't advertise themselves like that.
 

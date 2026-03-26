@@ -15,7 +15,7 @@ After all, it would certainly be simpler to just rely on Facebook or Instagram t
 
 As simple as that might sound, in this post I'm going to try and convince you to shift your mindset to think of your website as the primary place you promote yourself, and social media networks or industry websites as the secondary places.
 
-## First Reason - Cumulative Progress
+## First reason - cumulative progress
 
 First up is what I think is the most compelling reason to work on your own site first - all of the effort you put in builds on itself. This is unlike social media websites, where it's all about how active you're being right now, and how much you're spending right now, both in time and money.
 
@@ -25,7 +25,7 @@ Or, if you create a really useful page on your site that addresses a common sear
 
 This isn't how social media sites work - they prioritise recent content that's getting engagement over everything else. On Facebook your attention is the product because the longer you're on Facebook the more adverts you see and the more tempted you are to spend money to boost your posts, and so Meta, the owners of Facebook, want to keep your attention on Facebook for as long as possible. So for small business owners this means they want you to constantly re-visit Facebook to create new fresh content to feed the algorithm, which they can use to convince other people to spend more of their attention on Facebook. It's a hamster wheel, and as soon as you stop running, it stops and you've gone nowhere.
 
-## Second Reason - You Can't Trust Anyone Else
+## Second reason - you can't trust anyone else
 
 This sounds like a very cynical thing to say but I think it's fair when describing the modern internet. If we take Facebook as an example, they've been the target of numerous lawsuits for misleading advertisers about how many people have seen their posts. They also do a really terrible job of removing bots on the platform - in fact Mark Zukerberg shares posts from AI bots and seems to quite like them. Personally, I don't trust any Facebook stats about engagement, or views, or advert clicks, or anything else.
 
@@ -39,7 +39,7 @@ All in all this adds up to a pretty hostile environment to be marketing your bus
 
 Compare this to promoting your own site, where anything you post can be popular, where you can measure the traffic yourself, and where visitors will always be able to find you. Admittedly you don't fully escape the algorithm since you ideally need to appeal to search engines, but at least that a system that people understand how to do well on, and at least there's multiple search engines out there even if Google does dominate that industry right now.
 
-## Third Reason - Easier Customers
+## Third reason - easier customers
 
 Facebook want everyone to spend as much time on Facebook as possible, which includes you when you're dealing with customers. The design of Facebook encourages your potential customers to message you on there, rather than clicking off and viewing your website. The same applies to Checkatrade or RatedPeople or Bark or any of those lead generating websites - they want the customer to complete the full experience without ever leaving the site.
 
@@ -47,7 +47,7 @@ This means that when someone messages you on those platforms, they might not kno
 
 Compare this to someone getting in touch after browsing your website. On your own site, you can totally control what visitors see. You can set up your order system to collect all of the information you need for the specific product the customer is interested in, and so the lead can arrive in your inbox with a lot of the details already figured out. You can save a lot of back-and-forth messaging and avoid some time waster customers by having them visit your website before getting in touch. Many business owners have told me that website customers are much easier to convert into sales than social media or lead generation site ones.
 
-## Fourth Reason - All your eggs in one basket
+## Fourth reason - all your eggs in one basket
 
 I should clarify that I'm not saying that you shouldn't have a Facebook or Instagram page, or that you shouldn't be on Checkatrade, or anything like that. You should definitely be on whatever platforms can bring you some business, even if the customers ask more questions or the algorithm is fickle or anything else I've said so far.
 
@@ -55,7 +55,7 @@ But, you should be careful not to entirely rely on one source for your business 
 
 By getting your business from a few different places you're protected against this, and you're also probably attracting different sets of customers too. Some people will search Facebook or Instagram for businesses, but I'd bet that more probably search Google, and there'll be others who only ever use review sites, or who find businesses on Google or Apple Maps, or maybe even their TomTom GPS, or from asking Siri, or a million other ways. You really ought to try and ensure your business shows up on whichever spots make sense for the type of work you do.
 
-## Fifth Reason - Data ownership and privacy
+## Fifth reason - data ownership and privacy
 
 I don't trust big tech companies. There have been too many examples of companies misusing user data, or the data of the sellers who use their platforms.
 
@@ -63,7 +63,7 @@ Some examples that come to mind are Amazon, tracking their sellers to see which 
 
 Your interactions with customers on these platforms add to the knowledge the platform has about your customers, but that knowledge isn't shared with you. Facebook won't tell you why it costs a certain amount to boost a certain post, or anything about who saw it. They won't give you an email address for the customer so you can contact them outside of the platform, and they won't tell you how they landed on your page or what they were interested in. And if the customer deletes their Facebook account, it's like they never existed as far as you can tell. But you can collect that data through your own site - and you can do it in a way which is anonymous and protects the privacy of your site visitors, and which is under your full control.
 
-## Where to Start
+## Where to start
 
 So hopefully you're slightly more convinced to put some effort into your website and online presence now, but where should you start? Well, you can check out our [guides](/guides/) and [videos](/videos/) for helpful tips, including our [SEO checklist](/guides/checklist/#content)!
 
@@ -77,13 +77,13 @@ It's about spreading the effort out to multiple places on the internet, includin
 
 It's worth remembering throughout this that you probably won't see instant results on your website. It takes a while for search engines to find the new content, and then for people to find it, and then for them to tell their friends, or book with you - it's a slower burn than social media sites where a post either does well or it doesn't within a couple of days. Don't be too disheartened by this - like I said before it's about the cumulative effort, and if you track things on a week to week or month to month scale you'll see visitor numbers to your site climb and more conversions coming in.
 
-## Time Investment
+## Time investment
 
 You should try and improve something to do with your web presence reasonably regularly, maybe once a week. This might be as simple as adding a couple of lines to a product description to address a question you've been asked a few times, or responding to reviews on your Google Maps listing, to as complex as recording a video walkthrough of how to use one of your products or adding a whole new category to your site. Remember what I said before about the effort being cumulative? So even if you just do a tiny bit each week, 52 times a tiny bit adds up to a pretty big bit over the year. And remember to mix it up - don't just spend all year working on product descriptions, spend some of that time improving your maps listing, or your news posts, or your profiles on industry websites.
 
 Improving your web presence is like exercising - the important thing is to do _something_ reasonably regularly, and it doesn't really matter whether that's something big or small. Consistency is key. It's a marathon, not a sprint. Slow and steady wins the race. You know all the cliches, but they're true.
 
-## Measuring Success
+## Measuring success
 
 Ultimately, the three metrics that matter are how many people found your site, how many of those got in touch with you, and how many of THOSE were able to pay for your services. It's worth setting up some sort of way to measure this - maybe that's as simple as using Google Search Console to see how many times your site showed in results and was clicked, and counting the number of enquiries you get.
 

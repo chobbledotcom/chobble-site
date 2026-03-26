@@ -8,9 +8,9 @@ youtube_id: 12jZ1N_uvHA
 meta_description: Spec out a page targeting "Fitness Classes in Whitefield" for a fictional Prestwich business - adaptable for your service areas
 ---
 
-# Targeting Local Areas on Google SERPs: A Real-ish Example
+# Targeting local areas on Google SERPs: a real-ish example
 
-Missing out on customers from nearby towns because they can't find you when they search locally? This video walks through creating location pages using a real example - a Prestwich gym targeting folk in Whitefield. It shows you exactly how to research and write pages that actually work.
+Missing out on customers from nearby towns because they can't find you when they search locally? This video walks through creating location pages using a real example - a Prestwich gym targeting folk in Whitefield. It shows you exactly how to research and write pages that work.
 
 **Rather read about this in detail? [Click here to read my guide (8-minute read)](/guides/targeting-specific-areas/).**
 

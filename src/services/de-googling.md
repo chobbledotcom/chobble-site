@@ -7,7 +7,7 @@ order: 2
 meta_description: Escape Google's data harvesting - Nextcloud setup, open source alternatives, ad-free browsing - take back control of your data - Manchester tech consultant
 ---
 
-# Take Back Control From Big Tech
+# Take back control from big tech
 
 **Google is creepy.** They read your emails, log your searches, track your location, scan your photos, and sell your data to the highest bidder.
 
@@ -29,7 +29,7 @@ To take real examples from my own life, a normal day includes:
 
 I can help you get these examples or many others set up on your own devices or business infrastructure. I use these tools all day every day myself so am very familiar with the ecosystems around them.
 
-## Nextcloud Document Management
+## Nextcloud document management
 
 [Nextcloud](https://nextcloud.com/) is an online document storage and management system, like Google Docs or Dropbox. It lets you sync your files between devices, browse your media, share your files with others, edit some document types, store music, and other file management type jobs.
 
@@ -47,9 +47,9 @@ You'll get full administrative access so you can create as many users as you lik
 
 I'll go through the settings with you and show you around your new document management system, and you can reference [the Nextcloud documentation](https://nextcloud.com/support/) too.
 
-## Open Source App Hosting
+## Hosting your own apps
 
-The idea of hosting your own servers might sound really daunting, but there are ways to make it much easier. I love **Pikapods** ([pikapods.com](https://www.pikapods.com/)), a really easy way to spin up lots of open source apps at low cost. I can either host the pod in my own Pikapods account, or you can manage it entirely yourself.
+The idea of hosting your own tools might sound daunting, but there are ways to make it much easier. I love **Pikapods** ([pikapods.com](https://www.pikapods.com/)), which lets you set up open source apps at low cost with just a few clicks. I can either host things in my own Pikapods account, or you can manage it entirely yourself.
 
 I can also help you get set up with a home server or your own VPS. I have ran my own Yunohost server-in-a-box for many years, which can be a great way to ease yourself into self-hosting.
 

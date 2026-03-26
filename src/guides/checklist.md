@@ -5,7 +5,7 @@ meta_title: SEO Checklist for Small Businesses | Free Guide | Chobble
 meta_description: Practical SEO checklist for small businesses - Google Maps, Search Console, homepage optimisation - prioritised tasks - Manchester web developer
 ---
 
-# An SEO Checklist
+# An SEO checklist
 
 I thought it could be good to make something practical that people can work through, because across various SEO guides there's often not much of an underlying structure and if you've got a brand new website then it might be hard to figure out what the most important things to do are.
 
@@ -13,7 +13,7 @@ So this post is going to be a list of things you should get sorted, in priority 
 
 Okay, so lets kick it off, with:
 
-## Number 1: Your Google Maps Listing
+## Number 1: your Google Maps listing
 
 Your [Google Maps, or Google Business](/guides/google-business/#content), listing is a key part of your online presence and you should be very familiar with it. For local searchers there's a good chance the Maps results will show before any other listings so if you're not in there, you're missing out.
 
@@ -27,35 +27,35 @@ Next most important is another Google product, [Google Search Console](/guides/g
 
 [Search Console](/guides/google-search-console/#content) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving.
 
-## Number 3: Good Homepage
+## Number 3: good homepage
 
 Give your homepage a thorough read. This page is going to get the most traffic out of every page on your site so it should represent you well and give visitors somewhere clear to learn more about whichever aspect of your business they're interested in.
 
 At a minimum it should give a run down of the main services and products you offer, explain why you're a good choice, and link through to your contact form, or booking page, or wherever else is most valuable to send your visitors to.
 
-## Number 4: Contact Page
+## Number 4: contact page
 
 After your homepage, the next most important page on your site is probably your contact page, where people can get in touch with you. Firstly, you need to make sure that this page is easy to find from your homepage, and then you need to make sure that the ways it tells visitors to contact you are accurate. If people visit your business at its address, then you should make sure your opening times are accurate and easy to understand, and that you provide clear instructions for finding you.
 
-## Number 5: Calls To Action
+## Number 5: calls to action
 
 Speaking of contact forms - a "call to action" is the point on your site where you ask the visitor to move forwards with their order. Ideally, these should be really really obvious, so visitors who are scanning the page's text can find the next step really easily.
 
 Give the main pages on your site a scan and make sure they've got a call to action somewhere reasonably obvious. And, make sure that the CTA asks the visitor to do the most useful thing! For example, if you've got a contact form or booking system on your site, you ought to be sending visitors there - letting them know they can email you is fine, but you should direct them towards the contact method that has the least amount of friction, which is probably your contact form or booking system.
 
-## Number 6: Site Functionality
+## Number 6: site functionality
 
-There's no point sending people to your website if it's broken, so you should give all of your site's important functionality a test to make sure it actually works. If you've got a contact form you should send yourself a message and check that you receive it. If you've got a booking system, you should try and book something as a visitor. You should click through each your pages and make sure you've not got any filler or test data in there, like "Lorem Ipsum" text, and that each page accurately describes the thing it's meant to be about.
+There's no point sending people to your website if it's broken, so you should give all of your site's important functionality a test to make sure it works. If you've got a contact form you should send yourself a message and check that you receive it. If you've got a booking system, you should try and book something as a visitor. You should click through each your pages and make sure you've not got any filler or test data in there, like "Lorem Ipsum" text, and that each page accurately describes the thing it's meant to be about.
 
 If you've got empty or broken pages on your site, delete them. You can always re-add them later.
 
-## Number 7: Social Media Profiles and Other Links
+## Number 7: social media profiles and other links
 
 Ideally your site should link to all of your important social media profiles, review sites, and any other places important for your industry. So, things like Facebook, Google Maps, [Tripadvisor](https://www.tripadvisor.com/), [TrustPilot](https://www.trustpilot.com/), or [Checkatrade](https://www.checkatrade.com/) - anything that visitors are likely to recognise, all of these should be linked to prominently from your site. You should make it really easy for a visitor to check out your reviews, or your recent activity, or your food hygiene scores, or your public liability insurance, or whatever other thing they might want to check to reassure themselves that you're trusted and worth spending money with.
 
 Like with the empty pages, if you've got social media icons on your site for websites you don't have a profile on, delete them! Everything on your site should work - including links to social profiles.
 
-## Number 8: Secure Logins
+## Number 8: secure logins
 
 I was a bit hesitant about including this because it's not really specific to your website, but anyway, it's likely that you'll have to create a bunch of different accounts on various websites for things related to your business. Like you might have a Facebook account, a Google account, a Tripadvisor account, a domain name account, a Paypal account, you get the idea. You should be using unique passwords for each of these accounts, and the passwords should be random and complicated - ideally really big long strings of random letters.
 
@@ -63,7 +63,7 @@ When a website is hacked and its users and passwords are leaked, hackers use scr
 
 There are two methods for using random passwords I recommend - the first is a password manager, like Bitwarden at [Bitwarden.com](https://bitwarden.com/) or 1Password at [1Password.com](https://1password.com/). These securely create and backup new passwords and hide them behind a single master password, so you only need to remember one. And the other option is just writing your passwords down in a notepad and keeping it somewhere safe in your house.
 
-## Number 9: Site Content and Meta Tags
+## Number 9: site content and meta tags
 
 It feels a bit weird to be all the way at nine before mentioning the website content, but eh. There's really no point worrying about the text until the fundamentals are in order.
 
@@ -71,7 +71,7 @@ At the bare minimum you should check that each page has a meta title, that the p
 
 For a deeper dive into writing content you might wanna check out my other guides about [keywords](/guides/keywords-and-keyword-stuffing/#content), [writing a good product page](/guides/writing-a-good-service-category-page/#content), and [using AI](/guides/using-ai-effectively/#content), but in terms of a "go live" checklist, I think just making sure there's _something_ down will do.
 
-## Number 10: Site Navigation
+## Number 10: site navigation
 
 Any visitor to your site that doesn't land on the exact thing they want is going to have to deal with your site's navigation, so you should make sure that this behaves really intuitively. Check your site on both desktop and mobile and make sure that each item on the navigation is visible, that it describes its destination well, that you're not going to overwhelm visitors with choice, and that the order of items makes sense. As a guide for order, I think people expect to see a "Home" or "About" link first, and a "Contact" last, but this is your call - as long as you've considered it.
 

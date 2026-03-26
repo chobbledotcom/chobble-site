@@ -17,13 +17,13 @@ Crumpsall Folk Club meets monthly for folk music sessions. They wanted their own
 
 ![Crumpsall Folk Club website homepage screenshot showing a subscription form and links to 'About' and 'Upcoming'. The site's header image is a photograph of the audience watching a show at the club.](/assets/examples/crumpsall-folk-club.png)
 
-## My Solution
+## My solution
 
 I set up a Ghost-powered website on PikaPod, giving them a proper online home with really low running costs. The site has everything they need - event listings, a newsletter system, and a contact form.
 
 The club members can update content themselves without any tech knowledge. Adding events, news, and photos is dead easy with Ghost's simple editor. Their newsletter helps them build up a subscriber list and talk directly to their audience, so they don't have to depend on social media algorithms.
 
-## Technical Details
+## Technical details
 
 <img
 src="/assets/examples/crumpsall-folk-club-mobile.png"
@@ -44,7 +44,7 @@ class="right">
 
 I deliberately chose options with low ongoing costs and ease of use rather than using a bunch of expensive WordPress plugins that need constant updates and maintenance. This approach is fairly bombproof and affordable, perfect for a community club. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
 
-## Ongoing Support
+## Ongoing support
 
 I help out with tech bits when needed and keep an eye on security and performance. The club gets personal support to implement promotion strategies from my [free marketing guides](/guides/) and [videos](/videos/). We keep track of their search rankings and visitor numbers using Google Search Console and SerpBear.
 
@@ -52,6 +52,6 @@ I help out with tech bits when needed and keep an eye on security and performanc
 
 The site has helped the club break free from Facebook and establish their own online presence. Members can easily find out about upcoming events, and the newsletter connects them directly with their audience. The organisers can update the site themselves without much fuss.
 
-## Similar Solutions
+## Similar solutions
 
 I can build Ghost sites for anyone who wants a newsletter platform or blog. It's a brilliant alternative to Substack or Patreon, and you can even set up paid subscriptions if you want. Ghost is open source, so it's customisable and you're not locked into a proprietary system. It's perfect for creators, clubs, and small businesses who want to own their audience and content without all the technical headaches.

@@ -7,7 +7,7 @@ order: 3
 meta_description: Smart home gadgets and IoT programming - ESP32, Home Assistant, custom automations - open source, no cloud spying - Prestwich tech consultant
 ---
 
-# Microcontroller Programming
+# Microcontroller programming
 
 My home is full of devices like ESP32 microcontrollers, WLED strips, Tasmota lights, and ZigBee nodes.
 

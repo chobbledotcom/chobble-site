@@ -8,7 +8,7 @@ meta_title: Button Kin Games | Indie Game Website | Chobble
 meta_description: Indie TTRPG website with Stripe payments - free template available - built with Eleventy - Manchester web design example
 ---
 
-# Indie Games Studio Website
+# Indie games studio website
 
 - **Client:** Button Kin Games
 - **Services:** Website design and hosting
@@ -25,7 +25,7 @@ A site like this takes me between **3 and 10 hours** depending on how tricked ou
 
 It loads super fast compared to those heavy WordPress or Squarespace sites that bog down indie creators. And because it ranks above third-party stores, your customers can buy directly from you - meaning no commission fees.
 
-## Techie Speccies
+## Techie speccies
 
 - It's an **[Eleventy](/services/eleventy-developer/)** website ([11ty.dev](https://www.11ty.dev/)) - a fast, customisable framework using JavaScript.
 - It is loosely based on the **[Chobble Template](/services/chobble-template/)** with plenty of customisations. This meant we get some nice things out of the box, like RSS feeds, Sitemaps, and responsive images.

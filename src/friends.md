@@ -6,7 +6,7 @@ meta_title: Recommended Suppliers | Trusted Partners | Chobble
 meta_description: Trusted partners for copywriting, solar panels, branded adverts - people I've worked with for years - honest recommendations from Prestwich web developer
 ---
 
-# Friends and Recommended Suppliers
+# Friends and recommended suppliers
 
 I have worked with some very talented people over my decades in the web industry so can confidently vouch for the following businesses for services outside of my forte. In alphabetical order:
 

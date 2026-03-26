@@ -7,19 +7,19 @@ meta_title: SEO Prestwich | Get Found on Google | Local SEO Expert
 meta_description: Prestwich SEO specialist - 20+ years getting local businesses ranking - no dodgy tactics, just proper content and fast sites - free guides available
 ---
 
-# SEO Specialist in Prestwich & North Manchester
+# SEO specialist in Prestwich & North Manchester
 
-**Is your Prestwich business being outranked by competitors on Google? Want your website to actually bring in customers rather than just sit there looking pretty?**
+**Is your Prestwich business being outranked by competitors on Google? Want your website to bring in customers rather than just sit there looking pretty?**
 
 After 20+ years of building and optimising websites online, plus 10 years as lead developer at [Bouncy Castle Network](https://www.bouncycastlenetwork.com) pushing major SEO initiatives, I know exactly what makes websites rank well and attract local customers.
 
-## The Most Common SEO Problems I Fix
+## The most common SEO problems I fix
 
 Most Prestwich and Manchester businesses come to me with the same issues: websites that **take ages to load**, **have hardly any content**, or sites where the content is just **copied and pasted from somewhere else**. Google hates all of these things.
 
 I've had massive success simply **switching people over to fast-loading Eleventy sites with proper meta tags** - this normally gives an immediate ranking boost. But beyond the technical fixes, there's the deeper work of figuring out **what makes your company special** and integrating that into your website content so Google understands why customers should choose you.
 
-## My SEO Approach & Tools
+## My SEO approach & tools
 
 I use **Google Search Console, SerpBear, and GoatCounter** for ongoing monitoring, plus **SEO Spider** for comprehensive site audits. But tools are just the starting point - the real work is understanding your business and your local market.
 
@@ -27,7 +27,7 @@ I use **Google Search Console, SerpBear, and GoatCounter** for ongoing monitorin
 
 **For broader SEO** (competing nationally), it's trickier and requires more link building, having a genuinely excellent offering, and knowing how to sell yourself effectively online.
 
-## Proven Local Success Stories
+## Proven local success stories
 
 Here are recent Google rankings I've helped North Manchester businesses achieve:
 
@@ -49,13 +49,13 @@ Here are recent Google rankings I've helped North Manchester businesses achieve:
 
 - 1st for "Vegan Baker Bury"
 
-## Experience Across Local Business Types
+## Experience across local business types
 
 I've worked with **restaurants, tradespeople, shops, event hire companies**, and loads of other local business types. My decade at Bouncy Castle Network gave me deep experience with service businesses competing in local markets across the UK.
 
 When multiple local businesses compete for the same keywords, **it comes down to which one can sell themselves best**. I'm just facilitating the transfer of knowledge from your company to potential customers - it's up to you to tell me the things that make you more attractive than your competition.
 
-## Two Ways I Can Help Your Business
+## Two ways I can help your business
 
 **Option 1: SEO Mentoring & Training (Recommended)**
 
@@ -65,21 +65,21 @@ I'll audit your site, teach you what needs fixing, and guide you through impleme
 
 I'll handle all the technical changes, content optimisation, and ongoing monitoring myself. This works well for businesses that want results but don't have time to learn the process.
 
-## Why Local Prestwich Businesses Get Better Results
+## Why local Prestwich businesses get better results
 
 **I know the area intimately** - I can help you do the deep local research you'd need to compete effectively. I understand the local market dynamics, where your customers are likely searching from, and how to position your business against local competitors.
 
 Being based here means I can be **hands-on with training and support** rather than trying to explain everything over email or video calls.
 
-## Free SEO Knowledge
+## Free SEO knowledge
 
 I share my SEO knowledge through **[free guides](/guides/)** and **[videos](/videos/)** if you want to do the work yourself. You can also find more on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom). The businesses that see the most success are typically those who implement strategies from my guides and then contact me to figure out the fiddly technical bits.
 
-## How I Measure Success
+## How I measure success
 
 Simple: **more visitors and more enquiries**. I track actual business results, not just vanity metrics. Using Google Search Console and analytics, we can see exactly how many people are finding your business through different search terms and whether that's translating into actual customers.
 
-## Common Scenarios That Bring Businesses To Me
+## Common scenarios that bring businesses to me
 
 **Being outranked by competition** - the most common situation. Your competitors appear above you for searches that should bring you customers.
 
@@ -87,10 +87,10 @@ Simple: **more visitors and more enquiries**. I track actual business results, n
 
 Both are absolutely solvable problems. I've seen loads of businesses succeed online and I know it's achievable with the right approach.
 
-## No Ranking Guarantees (And Why That's Good)
+## No ranking guarantees (and why that's good)
 
 No honest SEO expert should "guarantee" specific search positions. We don't have insights into Google's algorithms, and rankings depend on many factors outside any SEO company's control. The only ways to "guarantee" rankings involve spammy short-term tactics that risk getting your site banned entirely.
 
 **Ethical SEO is a long-term process** requiring continuous work and evaluation. But with the right strategy and execution, most local businesses can dramatically improve their online visibility.
 
-**Ready to get your Prestwich business found on Google? use the contact form below to get in touch and we'll create a plan that actually works.**
+**Ready to get your Prestwich business found on Google? use the contact form below to get in touch and we'll create a plan that works.**

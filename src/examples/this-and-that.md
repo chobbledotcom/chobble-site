@@ -7,7 +7,7 @@ order: 4
 colour: white
 ---
 
-# This & That Cafe Website
+# This & That cafe website
 
 **Proving that restaurants don't need complicated websites - just fast, honest ones that answer customer questions immediately**
 

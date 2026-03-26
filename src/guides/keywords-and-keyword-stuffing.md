@@ -5,7 +5,7 @@ meta_title: Keywords & Avoiding Keyword Stuffing | Free Guide | Chobble
 meta_description: Guide to using keywords effectively - understand search terms, avoid keyword stuffing, write naturally - Manchester web developer
 ---
 
-# Keywords & Keyword Stuffing
+# Keywords & keyword stuffing
 
 The whole point of your website is to attract customers – but how do search engines decide who finds you? This guide should demystify "keywords" while helping you avoid "keyword stuffing", an outdated and ineffective tactic.
 
@@ -57,7 +57,7 @@ By focusing on **user intent** and **natural language**, you align with modern S
 
 ## 3. User intent: What are potential customers really searching for?
 
-User intent means _what your customers actually want_ when they type a search into Google. It's not just about the words they use – it's about the goal behind their search. Get this right, and your website becomes the answer they're looking for. Get it wrong, and you'll attract clicks that go nowhere.
+User intent means _what your customers want_ when they type a search into Google. It's not just about the words they use – it's about the goal behind their search. Get this right, and your website becomes the answer they're looking for. Get it wrong, and you'll attract clicks that go nowhere.
 
 **Interested in targeting specific, longer search phrases? [Click here to watch my video on long tail keywords](/videos/long-tail-keywords/).**
 
@@ -110,7 +110,7 @@ So, instead of repeating _"widget hire in Manchester"_ ten times, try:
 
 ---
 
-## 5. Headers (H1, H2, H3 Tags)
+## 5. Headers (H1, H2, H3 tags)
 
 Headers act like signposts for both visitors and search engines. Just like chapter titles in a book, they break up walls of text, making it easier for visitors to scan your content and understand what each section covers. Your H1 tag is your **main page title** – every page should have just one. Think of it as the bold headline on a shop front. A vague H1 like _"Services"_ doesn't say much, but _"Affordable Widget Hire in Prestwich & Manchester"_ instantly tells Google and visitors exactly what you offer.
 
@@ -122,7 +122,7 @@ Honestly – most pages won't need H3s, unless they are really long. Don't force
 
 ---
 
-### 6. Meta descriptions – Your site's "shop window" in search results
+### 6. Meta descriptions – your site's "shop window" in search results
 
 A meta description is the short blurb that appears under your website link in search engine results. Think of it as your **digital shop window** – a split-second chance to convince searchers to click your link over rivals. While Google might replace yours with a more relevant page snippet if they think it matches the searcher's intent better, you still need to craft a compelling meta description. Why? Because if Google _does_ show yours, a clear, benefit-packed one can **boost your click-through rate even if you're not ranking first**.
 
@@ -142,7 +142,7 @@ Alt text (alternative text) is a short, factual description of an image that ser
 
 Why bother? Over [43 million people](https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment) worldwide have visual impairments, and clear alt text ensures your site works for everyone. Plus, Google uses alt text to rank images in **Google Images**, so a well-described photo of _"Technician repairing a doodah in Whitefield"_ could bring in local customers.
 
-When writing alt tags, **stick to the facts**. Describe what's actually in the image (_"Three blue widgets stacked at a Manchester park"_), not your opinion (_"Best widget hire in Manchester"_). Keep it short (under 125 characters) and include location or action details where relevant, like _"Heaton Park event setup with widgets"_ or _"Technician loading widgets into a van in Whitefield"_. Skip phrases like _"image of"_ – screen readers already announce it's an image. For decorative graphics (e.g., dividers), leave the alt text empty.
+When writing alt tags, **stick to the facts**. Describe what's in the image (_"Three blue widgets stacked at a Manchester park"_), not your opinion (_"Best widget hire in Manchester"_). Keep it short (under 125 characters) and include location or action details where relevant, like _"Heaton Park event setup with widgets"_ or _"Technician loading widgets into a van in Whitefield"_. Skip phrases like _"image of"_ – screen readers already announce it's an image. For decorative graphics (e.g., dividers), leave the alt text empty.
 
 **BCN customers**: Your product images already have solid alt tags matching their names – nice!
 
@@ -150,7 +150,7 @@ When writing alt tags, **stick to the facts**. Describe what's actually in the i
 
 ---
 
-## 8. How to Structure Content Effectively
+## 8. How to structure content effectively
 
 Writing for humans means explaining your services as if you're chatting with a customer. Skip the jargon like _"Widget hire solutions for Manchester-based event facilitations"_ – it's vague and reads weirdly. Instead, aim for clarity: _"Need widgets for your Manchester event? We deliver same-day, with flexible pricing and no hidden fees."_ See the difference? One feels like a corporate brochure; the other solves a real problem.
 

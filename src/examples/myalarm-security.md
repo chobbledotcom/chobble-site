@@ -7,7 +7,7 @@ meta_title: Trades Website | MyAlarm Security Example | Chobble
 meta_description: Websites for local businesses - super fast speeds, easy to grow, and easy to edit
 ---
 
-# Websites for Local Businesses
+# Websites for local businesses
 
 [MyAlarm Security](https://www.myalarmsecurity.co.uk) are a burglar alarm and CCTV company who had an existing website but were pushing up against its limits, and needed something they could fully customise.
 

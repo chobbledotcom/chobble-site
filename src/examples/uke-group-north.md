@@ -7,7 +7,7 @@ meta_title: Music Teacher Websites | Uke Group North Example | Chobble
 meta_description: Website for music teachers and workshops - session listings, songbooks, testimonials - PagesCMS for easy updates - 50% discount for musicians
 ---
 
-# Websites for Music Teachers
+# Websites for music teachers
 
 If you teach music - whether that's workshops, one-to-one lessons, or both - you need a website that makes it easy for students to find you, see your session times, and get in touch. I build websites for music teachers that are straightforward to update yourself and handle all the practical bits you need.
 

@@ -1,19 +1,19 @@
 ---
 title: Software Developer
 meta_title: Freelance Software Developer in Prestwich, Manchester
-description: Experienced software developer building custom applications, websites, and automation tools - 20 years experience from startups to enterprise
-snippet: Custom software solutions from microcontrollers to enterprise apps
+description: Custom web applications, business tools, and automation - you own the code, with no ongoing licence fees
+snippet: Custom business tools, apps, and automation you fully own
 order: -2
-meta_description: Freelance software developer in Prestwich, Manchester - 20 years experience - custom web apps, APIs, automation - Ruby on Rails, JavaScript, IoT - transparent pricing - you own the code
+meta_description: Freelance software developer in Prestwich, Manchester - 20 years experience - custom web apps, booking systems, automation - transparent pricing - you own everything I build
 ---
 
-# Freelance Software Developer in Prestwich
+# Freelance software developer in Prestwich
 
-I'm Stef, a freelance software developer based in Prestwich, Manchester with over 20 years of experience building everything from small business websites to enterprise-scale applications processing millions in transactions.
+**Need a booking system, a customer database, or a tool that automates part of your business?** I build custom software that does exactly what you need - and you own all of it. No ongoing licence fees, no dependency on me.
 
-I've spent five years at [Bandcamp.com](https://bandcamp.com) working on their Ruby platform that handles over $200 million annually, and a decade as technical lead at [Bouncy Castle Network](https://www.bouncycastlenetwork.com) growing their booking system from startup to 1,200 customers. I'm now available for freelance software development work across Greater Manchester and remotely worldwide.
+I'm Stef, based in Prestwich, Manchester, with over 20 years of experience. I've built systems handling over $200 million annually at [Bandcamp.com](https://bandcamp.com), and grew a booking system from startup to 1,200 customers at [Bouncy Castle Network](https://www.bouncycastlenetwork.com). I'm now available for freelance work across Greater Manchester and remotely worldwide.
 
-Everything I build is open source, which means you own the complete source code with no vendor lock-in or ongoing license fees.
+Everything I build is based on my open source tools and templates (AGPLv3 licensed, no "open core" catches). You get the complete source code via GitHub - though your repository can be private if you prefer. You can hire another developer to work on it, host it yourself, or take it in a completely different direction. No lock-in, no mysterious annual fees.
 
 ## What I can build for you
 
@@ -21,33 +21,29 @@ Everything I build is open source, which means you own the complete source code 
 
 ### Custom web applications
 
-I build dynamic web applications using Ruby on Rails or JavaScript with test coverage, automated deployments, and solid "pro" infrastructure. These are bespoke systems designed around your specific business processes, whether that's booking systems, CRMs, inventory management, or industry-specific tools.
+I build web applications designed around your specific business processes - booking systems, customer databases, inventory management, or industry-specific tools. These are built to handle real business requirements, with automated testing and solid infrastructure so they work reliably.
 
-My current project [Play-Test](/examples/play-test/#content) is a compliance and inspection system used by bouncy castle and inflatable play equipment inspectors across the UK, with complex assessments, PDF generation, and QR code tracking. Check out my [Ruby on Rails development page](/services/ruby-on-rails-developer/#content) for more technical details about how I build scalable applications.
-
-I've recently started building Edge Scripts on Bunny's network, which are really fast, performant, JavaScript-powered sites. The constraints of the "edge" network force you to write minimal, performant code - and I like that challenge.
+My current project [Play-Test](/examples/play-test/#content) is a compliance and inspection system used by bouncy castle inspectors across the UK, with complex assessments, PDF generation, and QR code tracking. See my [web application development page](/services/ruby-on-rails-developer/#content) for more technical details.
 
 </div>
 
 <div class="card margins">
 
-### Static websites and content management
+### Websites and content management
 
-Not every project needs a full application stack. For businesses that need fast, affordable, and easy-to-maintain websites, I build static sites using Eleventy and other modern generators. These load quickly, are cheap to host, and give you complete control over your content.
+Not every project needs a full application. For businesses that need a fast, affordable, and easy-to-maintain website, I build sites that load quickly, cost very little to host, and give you complete control over your content.
 
-I've built my own [Chobble Template](/services/chobble-template/#content) that includes menu systems for restaurants, product listings for shops, event calendars, contact forms with spam protection, and automatic SEO optimization. My [Eleventy developer services](/services/eleventy-developer/#content) cover building new sites, converting from WordPress or Wix, and adding features to existing static sites.
+I've built my own [starter template](/services/chobble-template/#content) that includes menu systems for restaurants, product listings for shops, event calendars, contact forms with spam protection, and built-in search engine optimisation. I can also help with [converting from WordPress or Wix](/services/eleventy-developer/#content) and adding features to existing sites.
 
 </div>
 
 <div class="card margins">
 
-### API integrations and automation
+### Connecting your systems together
 
-Many businesses need their various systems to talk to each other - connecting your CRM to your accounting software, pulling data from APIs, automating repetitive tasks, or building custom integrations between services. I can build middleware that connects your existing tools or create entirely new APIs for your applications.
+Many businesses need their various tools to talk to each other - your customer database to your accounting software, your website to your payment processor, or automating repetitive tasks that eat up your time. I can build the connections between your existing tools or create custom dashboards that pull data from multiple sources.
 
-I'm experienced with REST and GraphQL APIs, webhook systems, scheduled jobs, data synchronization, and building automation that handles errors properly. I can connect payment processors, inventory systems, or build custom dashboards that pull data from multiple sources.
-
-I use "Automatisch" for this - a flexible and open source alternative to Zapier. With a bit of creative connecting code between resource you'd be surprised how much is achievable without needing any complex infrastructure or incomprehensible code.
+I use flexible, open source tools (rather than expensive services like Zapier) to wire things together. You'd be surprised how much can be automated without needing anything complicated.
 
 </div>
 
@@ -85,11 +81,11 @@ Planning sessions can help avoid expensive mistakes early on. I'll explain trade
 
 I've worked at every scale - from fresh startups with zero customers through to international platforms serving millions of users. This means I can advise solutions that suit your current reality and future plans, whether you're a big organisation with established processes or a smaller business just getting started.
 
-Everything I build is open source under permissive licenses. You get the complete source code, deployment configurations, and documentation. If you want to host it yourself, you can. If you want to hire another developer to add features, they can. If you want to take it in a completely different direction, it's yours to modify. No proprietary systems, no vendor lock-in, no mysterious annual fees.
+You get the complete source code, server setup instructions, and documentation for everything I build. If you want to host it yourself, you can. If you want to hire another developer to add features, they can. You're never locked in.
 
 My pricing is transparent - a flat [hourly rate](/prices/#content) of £200 per hour, or £100 per hour for charities, cooperatives, artists, musicians, vegan businesses, and renewable energy companies. You'll get detailed breakdowns of time spent on different features.
 
-I write tests, use automated deployments, implement proper error tracking, and build systems that scale. The code has detailed test coverage, clear documentation, and maintainable architecture. I'm not afraid of gnarly problems, server migrations, or whatever else you might need - I've dealt with pretty much everything web-related over my 20 years in software development.
+I build systems that are thoroughly tested, automatically deployed, and designed to grow with your business. I'm not afraid of messy problems, server moves, or inheriting someone else's work - I've dealt with pretty much everything web-related over my 20 years.
 
 ## Manchester and remote work
 
@@ -113,11 +109,9 @@ Want an estimate for a static website project? Use my [price calculator](/price-
 
 ## Technologies I use
 
-I work primarily with Ruby on Rails for web applications, JavaScript for frontend work, and Eleventy or Jekyll for static sites. I use PostgreSQL or SQLite for databases, Redis for caching and background jobs, and deploy with Docker on NixOS for reproducible infrastructure. I'm comfortable with AWS, Hetzner, Gandi, and various other hosting providers.
+For the technically minded: I work primarily with Ruby on Rails for web applications, JavaScript for frontend work, and Eleventy for websites. I use PostgreSQL or SQLite for databases, Redis for caching, and deploy with Docker on NixOS. I'm comfortable with AWS, Hetzner, Gandi, and various other hosting providers.
 
-For testing I use RSpec with Capybara for feature tests, Sorbet for type checking, and maintain over 90% test coverage. Deployments run through GitHub Actions with automated linting, security scanning, and parallel test execution. I use proper error tracking with Sentry or open source alternatives, automated backups to multiple locations, and monitoring systems to catch issues before they affect users.
-
-I'm also experienced with Linux system administration, web server hosting, background job processing, S3-compatible storage, email deliverability, DNS management, and pretty much everything needed to run production web applications reliably. My [Linux consultancy services](/services/linux-consultant/#content) cover server management and infrastructure separately if you need that.
+I maintain over 90% test coverage on my projects, with automated security scanning, and deployments that go live only after every check passes. I also handle [Linux server administration](/services/linux-consultant/#content), email setup, domain management, and everything else needed to keep web applications running reliably.
 
 ## Let's build something
 
