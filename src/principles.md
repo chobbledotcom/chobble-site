@@ -11,11 +11,11 @@ meta_description: Manchester web dev with 20+ years building sites from local ch
 
 This business works to a set of straightforward principles:
 
-- **Transparency:** You see exactly what you're paying for. The code and tools I build for you are yours to keep.
-- **Honesty:** If you don't need my services, or another provider would suit you better, I'll tell you.
-- **Own, not rent:** You pay me for the work I do, not for ongoing access to what I've built. Once your site is built, you can walk away with no further costs.
-- **Fair prices:** I charge a [flat hourly rate](/prices/) for all jobs - the same rate for everyone, with a 50% discount for charities, cooperatives, and artists.
-- **Freedom:** You have full control of your website and data. You can move to any hosting provider, hire any developer, or make changes yourself.
+- **Transparency:** No secrets are kept from customers. The tools they rely on are theirs to keep.
+- **Honesty:** If you don't need my services or another provider would suit you better, I'll tell you.
+- **Own, not rent:** My income should come from doing work, not from charging rent.
+- **Fair prices:** My prices are flat for all jobs and are set at the market rate for an experienced freelance programmer with a 50% discount for charities, cooperatives, and artists.
+- **Freedom:** Customers have full control of their data and can move it to any provider.
 - **No harmful industries:** I will not participate in the exploitation of humans or animals.
 
 The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's quite different from what many web companies do:

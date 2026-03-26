@@ -5,7 +5,7 @@ meta_title: Prestwich Web Developer | Local Website Design & Tech Help
 meta_description: Prestwich born and raised web developer - meet at Costa or Cuckoo for a brew - websites, SEO, tech advice for local businesses - 50% off for charities
 ---
 
-# Web Services for Prestwich Companies
+# Web services for Prestwich companies
 
 I am Prestwich born and raised, and I want to work with local organisations and individuals who need a trustworthy partner to guide through them through the complexities of running a business online or attracting new sales.
 

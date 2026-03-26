@@ -22,7 +22,7 @@ I also write [free guides about building websites](/guides/) and create [online 
 </div>
 <div class="text-card">
 
-## What I Can Do For You
+## What I can do for you
 
 - **[New websites](/services/static-websites/)** that load quickly and are easy for you to update
 - **[Custom web applications](/services/software-developer/)** - booking systems, databases, business tools
@@ -37,7 +37,7 @@ I also write [free guides about building websites](/guides/) and create [online 
 </div>
 <div class="text-card">
 
-## A Business Built to Serve the Community
+## A business built to serve the community
 
 Chobble is a registered [Community Interest Company (CIC)](https://find-and-update.company-information.service.gov.uk/company/17050113), which means it's regulated to benefit the community rather than private shareholders.
 

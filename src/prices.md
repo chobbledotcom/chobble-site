@@ -6,7 +6,7 @@ meta_title: Web Development Prices Prestwich | Transparent Hourly Rates
 meta_description: £200/hour web development (£100 for charities, artists, vegan businesses) - transparent pricing, no hidden fees - hosting from £10/month - you own the code
 ---
 
-# Web Development Prices
+# Web development prices
 
 You'll always know exactly what you're paying for. My flat rate is **£200 per hour** (charged in half-hour increments), and discussions before and after the job are free. I'll tell you exactly what each hour of work covers - no hidden fees, no surprise invoices.
 
