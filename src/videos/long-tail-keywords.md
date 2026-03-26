@@ -10,7 +10,7 @@ meta_description: The competition for shorter search phrases is tougher than for
 
 # "Long Tail" Keywords
 
-Trying to rank for "pizza" or "plumber"? Good luck competing with Pizza Hut and billion-pound brands. This video explains why longer, more specific search phrases are your secret weapon - stuff like "vegan pizza delivery in Prestwich" where local businesses can actually compete.
+Trying to rank for "pizza" or "plumber"? Good luck competing with Pizza Hut and billion-pound brands. This video explains why longer, more specific search phrases are your secret weapon - stuff like "vegan pizza delivery in Prestwich" where local businesses can compete.
 
 **Want to understand keyword strategy in more depth? [Click here to read my comprehensive guide (10-minute read)](/guides/keywords-and-keyword-stuffing/).**
 

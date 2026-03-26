@@ -153,7 +153,7 @@ For Manchester businesses, you get a developer who understands the local market 
 
 ## Ready to get started?
 
-Let's build a WordPress site that actually works properly.
+Let's build a WordPress site that works properly.
 
 **[Get in touch](/contact/#content) and tell me about your WordPress project. I'll get back to you within a day with honest advice and a clear quote.**
 

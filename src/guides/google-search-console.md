@@ -49,7 +49,7 @@ Alright, next up we've got Performance - this is probably the coolest page in GS
 
 By default this page shows the queries that people searched for. A lot of these are probably what you'd expect - people searching for your business name or variations of it, or searching for the exact service you offer. But you'll probably find that your site shows for things you never expected, like maybe a specific accreditation your site mentions, or a specific about a service you offer.
 
-Being informed about the kinds of queries that your site is already showing up for can be really useful in terms of helping you plan improvements to it. Like, maybe your site doesn't have as much good content on it about a certain service as the potential profits from that service could warrant. Just learning that people are actually searching for that profitable service might encourage you to think about how your site could address that searcher's needs somehow.
+Being informed about the kinds of queries that your site is already showing up for can be really useful in terms of helping you plan improvements to it. Like, maybe your site doesn't have as much good content on it about a certain service as the potential profits from that service could warrant. Just learning that people are searching for that profitable service might encourage you to think about how your site could address that searcher's needs somehow.
 
 The next tab along under performance is Pages, which shows the pages people landed on from search results. You might be surprised at which sections of your site attract visitors - and which don't.
 

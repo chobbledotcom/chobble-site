@@ -42,7 +42,7 @@ The domain is hosted with Web Architects Co-op, an ethical cooperative provider.
 
 ## Support model & long-term relationship
 
-**I've been working with Blue Pits for over a decade** - since the charity started - and with the organisation it grew from (Newbarn Ltd) for over two decades. This long-term relationship means I understand their sector deeply and can give advice that's actually useful.
+**I've been working with Blue Pits for over a decade** - since the charity started - and with the organisation it grew from (Newbarn Ltd) for over two decades. This long-term relationship means I understand their sector deeply and can give advice that's useful.
 
 Blue Pits just emails me when they need changes, and I sort them out quickly. **They're always thankful for how quickly changes get implemented** and how I break down technical concepts into simple language without pushing them toward expensive solutions they don't need.
 

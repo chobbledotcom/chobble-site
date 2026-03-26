@@ -9,7 +9,7 @@ If you run a local business, appearing in Google searches for your area is essen
 
 **Prefer to see a real example in action? [Click here to watch it](/videos/targeting-local-areas/).**
 
-This guide will show you how to properly target specific areas, using techniques that actually work rather than shortcuts that might harm your business.
+This guide will show you how to properly target specific areas, using techniques that work rather than shortcuts that might harm your business.
 
 You won't need any technical knowledge or paid tools, just the ability to edit your website's content and a willingness to do the work.
 
@@ -48,7 +48,7 @@ To make the page even more relevant to that area, you should also think about wh
 - Case studies or examples from customers in that area
 - Ways you adapt your service for that area
 
-You should put yourself in the mind of your customer, and imagine what they would like to see when searching for "Widget hire in Prestwich". They want to know that your business actually serves and understands their area.
+You should put yourself in the mind of your customer, and imagine what they would like to see when searching for "Widget hire in Prestwich". They want to know that your business serves and understands their area.
 
 Here's a rough outline of one of these pages:
 

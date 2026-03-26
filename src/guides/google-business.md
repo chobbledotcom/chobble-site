@@ -71,7 +71,7 @@ It also shows the search terms that showed your business profile. For me, it's m
 
 ## Products
 
-This section lets you list products that will appear in Google search and on Maps. I'm not actually sure how these products look, so I'm going to get back to you and let you know once I've dug into that.
+This section lets you list products that will appear in Google search and on Maps. I'm not sure how these products look, so I'm going to get back to you and let you know once I've dug into that.
 
 ## Services
 
@@ -107,7 +107,7 @@ It would be a huge amount of work to copy all of your products onto Google Maps,
 
 But keeping it somewhat up to date is worthwhile, and trying to get people to leave a review is definitely worthwhile. Speaking of which - if anyone fancies leaving me a review I'd really appreciate it. I could always do with more!
 
-It's worth me mentioning Bing places as well, which is at [BingPlaces.com](https://www.bingplaces.com), which is the Bing search engine equivalent of Google Business. You can actually import your Google Business listing straight over to Bing. Admittedly, hardly anyone is searching on Bing.. But some people are, so it's worth having your business show up on both.
+It's worth me mentioning Bing places as well, which is at [BingPlaces.com](https://www.bingplaces.com), which is the Bing search engine equivalent of Google Business. You can import your Google Business listing straight over to Bing. Admittedly, hardly anyone is searching on Bing.. But some people are, so it's worth having your business show up on both.
 
 I hope that's a good overview of how Google business works. Hopefully it's all very straightforward. Google will try and make this very easy for you to do.
 

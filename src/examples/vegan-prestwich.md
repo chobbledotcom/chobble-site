@@ -34,7 +34,7 @@ I maintain a directory of local businesses and their vegan offerings. It's compl
 
 The community side is more important than the directory, really. The Facebook group creates a feedback loop where business owners often post to share their vegan updates and members comment on how well they're catering to vegans. It's a welcoming space for everyone - from curious newcomers to long-term veegs.
 
-We've had some brilliant wins over the years. One highlight was emailing Joseph Holts (who own most of Prestwich's pubs) to ask about their beers going vegan - and they actually updated their recipes to make most of their beers vegan! We've also organised real-life meetups and members have hired each other for catering and events.
+We've had some brilliant wins over the years. One highlight was emailing Joseph Holts (who own most of Prestwich's pubs) to ask about their beers going vegan - and they updated their recipes to make most of their beers vegan! We've also organised real-life meetups and members have hired each other for catering and events.
 
 ## Technical Details
 

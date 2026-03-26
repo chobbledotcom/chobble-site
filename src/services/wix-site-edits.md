@@ -9,7 +9,7 @@ meta_description: Stuck with Wix? I'll help navigate the confusing menus - hones
 
 # Stuck With Your Wix Site? I Can Help
 
-**The problem with Wix isn't that it's rubbish** - it's that the interface can feel completely overwhelming. Because Wix supports everything under the sun, finding what you actually need feels like hunting for a needle in a haystack. There's often three different and non-obvious ways to do the same thing.
+**The problem with Wix isn't that it's rubbish** - it's that the interface can feel completely overwhelming. Because Wix supports everything under the sun, finding what you need feels like hunting for a needle in a haystack. There's often three different and non-obvious ways to do the same thing.
 
 If you've got graphic design skills, you can make a Wix site look decent. But making it perform well is where most people get stuck. Wix imports loads of JavaScript libraries whether you need them or not, which makes sites feel sluggish. Getting around these limitations means reading and understanding lots of technical documentation - which is where I come in.
 
@@ -42,7 +42,7 @@ If you need any of these implemented on your Wix site, I can dig through their i
 - **Custom animations** and interactive elements (within Wix's constraints)
 - **Multi-language sites** with proper URL structure and content management
 
-The full scope of what's possible is huge - [Wix's developer documentation](https://dev.wix.com/) gives you an idea of just how much functionality they pack in. The problem is that finding and configuring what you actually need can take hours of clicking through menus and reading confusing help articles.
+The full scope of what's possible is huge - [Wix's developer documentation](https://dev.wix.com/) gives you an idea of just how much functionality they pack in. The problem is that finding and configuring what you need can take hours of clicking through menus and reading confusing help articles.
 
 ## The Honest Truth About Wix
 
@@ -56,7 +56,7 @@ All Wix work is done remotely. You'll give me temporary access to your site, I'l
 
 **Need broader website strategy advice?** I've used Wix, WordPress, Squarespace, and I've built at least a hundred custom websites in my career. My [technical consultancy](/services/technical-advice) service can help you choose the right platform for your actual needs, not just what's easiest to sell you.
 
-**Already know your site needs improvement but not sure where to start?** A [website content audit](/services/website-content-advice) will give you a prioritised list of what's actually worth fixing.
+**Already know your site needs improvement but not sure where to start?** A [website content audit](/services/website-content-advice) will give you a prioritised list of what's worth fixing.
 
 **Worried about technical SEO issues?** My [SEO audit service](/services/seo-audits/) uses industry-standard tools to identify performance problems that Wix's built-in analytics won't show you.
 
@@ -88,7 +88,7 @@ A: Depends entirely on your needs and tolerance for ongoing costs. Wix is fine f
 
 A: Not if you plan ahead. I can export your content, images, and data in formats that work with other platforms. The sooner you make this change, the easier it is. Leaving Wix after five years of adding content is much more complex than leaving after one.
 
-**Q: How does remote Wix work actually work?**
+**Q: How does remote Wix work?**
 
 A: You'll give me temporary editor access to your Wix site (not your login details - Wix has proper collaboration tools). I'll do the work, document exactly what I changed, then remove my access. You stay in control of your site throughout. Most jobs take a few hours to a couple of days depending on complexity.
 
@@ -110,6 +110,6 @@ A: You're stuck with whatever Wix decides to do - it's their platform, their rul
 
 **Q: I just want a simple brochure site - should I even bother with Wix?**
 
-A: Probably not. Wix's interface is overkill for simple sites, and you'll pay monthly fees forever for features you don't need. A [static website](/services/static-websites) would cost less upfront, load faster, and have no ongoing hosting fees. Save Wix for when you actually need dynamic features like booking systems or member areas.
+A: Probably not. Wix's interface is overkill for simple sites, and you'll pay monthly fees forever for features you don't need. A [static website](/services/static-websites) would cost less upfront, load faster, and have no ongoing hosting fees. Save Wix for when you need dynamic features like booking systems or member areas.
 
 **Still got questions? send me a message through the form below - I'm happy to chat about your specific situation without any obligation.**

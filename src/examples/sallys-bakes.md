@@ -22,7 +22,7 @@ Sally's Bakes is a local vegan bakery in Bury, Manchester. She makes really deli
 
 I created a simple website that clearly shows Sally's menu (with clicks through to ingredients) and makes it really easy for customers to learn more and get in touch. The site includes all the important information about her products, delivery areas, and how to place orders.
 
-Sally needed a website she could easily edit herself, and so this site is edited through simple text files in a "Git" interface, which might sound technical but is actually really straightforward.
+Sally needed a website she could easily edit herself, and so this site is edited through simple text files in a "Git" interface, which might sound technical but is really straightforward.
 
 ## Technical Details
 

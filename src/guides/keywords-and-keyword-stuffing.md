@@ -57,7 +57,7 @@ By focusing on **user intent** and **natural language**, you align with modern S
 
 ## 3. User intent: What are potential customers really searching for?
 
-User intent means _what your customers actually want_ when they type a search into Google. It's not just about the words they use – it's about the goal behind their search. Get this right, and your website becomes the answer they're looking for. Get it wrong, and you'll attract clicks that go nowhere.
+User intent means _what your customers want_ when they type a search into Google. It's not just about the words they use – it's about the goal behind their search. Get this right, and your website becomes the answer they're looking for. Get it wrong, and you'll attract clicks that go nowhere.
 
 **Interested in targeting specific, longer search phrases? [Click here to watch my video on long tail keywords](/videos/long-tail-keywords/).**
 
@@ -142,7 +142,7 @@ Alt text (alternative text) is a short, factual description of an image that ser
 
 Why bother? Over [43 million people](https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment) worldwide have visual impairments, and clear alt text ensures your site works for everyone. Plus, Google uses alt text to rank images in **Google Images**, so a well-described photo of _"Technician repairing a doodah in Whitefield"_ could bring in local customers.
 
-When writing alt tags, **stick to the facts**. Describe what's actually in the image (_"Three blue widgets stacked at a Manchester park"_), not your opinion (_"Best widget hire in Manchester"_). Keep it short (under 125 characters) and include location or action details where relevant, like _"Heaton Park event setup with widgets"_ or _"Technician loading widgets into a van in Whitefield"_. Skip phrases like _"image of"_ – screen readers already announce it's an image. For decorative graphics (e.g., dividers), leave the alt text empty.
+When writing alt tags, **stick to the facts**. Describe what's in the image (_"Three blue widgets stacked at a Manchester park"_), not your opinion (_"Best widget hire in Manchester"_). Keep it short (under 125 characters) and include location or action details where relevant, like _"Heaton Park event setup with widgets"_ or _"Technician loading widgets into a van in Whitefield"_. Skip phrases like _"image of"_ – screen readers already announce it's an image. For decorative graphics (e.g., dividers), leave the alt text empty.
 
 **BCN customers**: Your product images already have solid alt tags matching their names – nice!
 

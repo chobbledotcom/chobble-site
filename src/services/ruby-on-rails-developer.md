@@ -61,7 +61,7 @@ The Docker setup uses a multi-stage build to keep download sizes small, includes
 
 _**In plain English:** I build systems that multiple organisations can use, which means the code gets tested in real-world conditions by real users._
 
-The Play-Test system shows how this works in practice. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that actually works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds a problem, the fix helps everyone.
+The Play-Test system shows how this works in practice. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds a problem, the fix helps everyone.
 
 Building in the open also means everything is transparent - you can see the code, the test results, and check if everything is working. More importantly, it means the code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work. I can reuse proven components across projects, which saves you time and money because you're not paying me to solve the same problems twice.
 
@@ -97,12 +97,12 @@ I don't take chances with bottom-tier infrastructure. Your source code lives on 
 
 Your database gets backed up to [Hetzner](https://www.hetzner.com/)'s S3-compatible storage every single day. Hetzner stores everything in the EU (German data protection laws), and I've been using them for years without issue. These backups are kept for 60 days - if you accidentally delete all your customers on a Friday, we can restore Wednesday's data on Monday. Your uploaded files (images, PDFs, whatever) go to the same place.
 
-You get 10GB of storage included in the monthly price. If you need more, we'll work out a fair price based on what you actually use. If you're paranoid about data loss, I can mirror everything to another geographic location for a bit extra.
+You get 10GB of storage included in the monthly price. If you need more, we'll work out a fair price based on what you use. If you're paranoid about data loss, I can mirror everything to another geographic location for a bit extra.
 
 My main server runs on [Gandi](https://www.gandi.net/) who use 100% renewable energy, but I can host your application wherever you prefer - AWS, Azure, Google Cloud, your own data centres, wherever your compliance requirements dictate. The entire server configuration is managed with NixOS, which means I can show you exactly how everything is set up, and you can reproduce the entire server setup yourself if needed.
 
 ## Let's build something!
 
-**If you need a Rails application built by someone who's actually done this before, at scale - send me a message through the form below.** If you're local to Prestwich or Manchester, I'm happy to meet for a coffee and to chat through what you need.
+**If you need a Rails application built by someone who's done this before, at scale - send me a message through the form below.** If you're local to Prestwich or Manchester, I'm happy to meet for a coffee and to chat through what you need.
 
-Whether you're a startup that needs to build for growth from day one, a charity with a limited budget, an enterprise that needs systems that actually work, or a professional body that needs industry-wide infrastructure, you'll get the same approach: comprehensive tests, proper infrastructure, and code that scales.
+Whether you're a startup that needs to build for growth from day one, a charity with a limited budget, an enterprise that needs systems that work, or a professional body that needs industry-wide infrastructure, you'll get the same approach: comprehensive tests, proper infrastructure, and code that scales.

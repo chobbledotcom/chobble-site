@@ -45,7 +45,7 @@ Give the main pages on your site a scan and make sure they've got a call to acti
 
 ## Number 6: Site Functionality
 
-There's no point sending people to your website if it's broken, so you should give all of your site's important functionality a test to make sure it actually works. If you've got a contact form you should send yourself a message and check that you receive it. If you've got a booking system, you should try and book something as a visitor. You should click through each your pages and make sure you've not got any filler or test data in there, like "Lorem Ipsum" text, and that each page accurately describes the thing it's meant to be about.
+There's no point sending people to your website if it's broken, so you should give all of your site's important functionality a test to make sure it works. If you've got a contact form you should send yourself a message and check that you receive it. If you've got a booking system, you should try and book something as a visitor. You should click through each your pages and make sure you've not got any filler or test data in there, like "Lorem Ipsum" text, and that each page accurately describes the thing it's meant to be about.
 
 If you've got empty or broken pages on your site, delete them. You can always re-add them later.
 

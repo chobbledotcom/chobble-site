@@ -24,7 +24,7 @@ His old Wix site was letting him down badly - it was painfully slow, ranking for
 
 ## My solution
 
-I built Ashley a super-fast static Eleventy site that actually works for his business. Unlike with Wix, this one loads quickly and lets him easily update content through [PagesCMS.org](https://pagescms.org) - he just logs in with his email and can add new accreditations, update service areas, or tweak his messaging without wrestling with clunky drag-and-drop editors.
+I built Ashley a super-fast static Eleventy site that works for his business. Unlike with Wix, this one loads quickly and lets him easily update content through [PagesCMS.org](https://pagescms.org) - he just logs in with his email and can add new accreditations, update service areas, or tweak his messaging without wrestling with clunky drag-and-drop editors.
 
 The site now properly showcases all his certifications and qualifications instead of hiding them away, and clearly explains his service areas across Manchester. The HTML is totally flexible, so if Ashley ever wants to add features like solar calculators or interactive maps, we can do that easily - unlike Wix where you're stuck with whatever widgets they've decided to offer.
 
@@ -32,9 +32,9 @@ The contact form uses FormSpark with BotPoison spam protection, giving Ashley a 
 
 ## Technical deets
 
-The site is built with Eleventy, giving it perfect Lighthouse performance scores and great mobile responsiveness. Instead of the thin, generic pages that most solar websites use to try ranking in loads of areas, I'm working with Ashley to create actually useful content that helps potential customers understand what they need.
+The site is built with Eleventy, giving it perfect Lighthouse performance scores and great mobile responsiveness. Instead of the thin, generic pages that most solar websites use to try ranking in loads of areas, I'm working with Ashley to create genuinely useful content that helps potential customers understand what they need.
 
-Many solar companies just spam out dozens of near-identical pages targeting different postcodes with barely any real information. Ashley's pages actually explain the process, his experience, and what makes his approach different - and they're ranking really well because Google can tell they're genuinely helpful.
+Many solar companies just spam out dozens of near-identical pages targeting different postcodes with barely any real information. Ashley's pages explain the process, his experience, and what makes his approach different - and they're ranking really well because Google can tell they're genuinely helpful.
 
 I track his search positions with SerpBear, monitoring how he ranks for his target keywords across Manchester. This data helps us refine his content strategy and identify new opportunities as we expand his service offerings.
 
@@ -48,9 +48,9 @@ I help him avoid the common trap of racing to the bottom on price by focusing on
 
 The transformation has been massive. Ashley's gone from getting about one enquiry a year with his old Wix site to getting roughly one enquiry a week now. The site has seen exponential growth in search impressions, clicks, and actual customer enquiries - exactly what you want to see.
 
-He's now ranking on the first page for several valuable search terms across Manchester, and the leads keep coming. The site always loads in under a second and gets perfect scores in Lighthouse performance tests. And all this while actually reducing his monthly costs compared to what he was paying Wix.
+He's now ranking on the first page for several valuable search terms across Manchester, and the leads keep coming. The site always loads in under a second and gets perfect scores in Lighthouse performance tests. And all this while reducing his monthly costs compared to what he was paying Wix.
 
-Most importantly, the enquiries he's getting now are from people who've actually read about his approach and understand what makes him different - so they're much better quality leads than the occasional random contact he used to get.
+Most importantly, the enquiries he's getting now are from people who've read about his approach and understand what makes him different - so they're much better quality leads than the occasional random contact he used to get.
 
 ## Source code
 

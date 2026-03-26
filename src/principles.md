@@ -18,7 +18,7 @@ This business works to a set of straightforward principles:
 - **Freedom:** You have full control of your website and data. You can move to any hosting provider, hire any developer, or make changes yourself.
 - **No harmful industries:** I will not participate in the exploitation of humans or animals.
 
-The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's actually quite different from what many web companies do:
+The goal of these principles is to **encourage customers to choose Chobble based on the quality of its work**. This might sound like a strange thing to have to spell out, but it's quite different from what many web companies do:
 
 - Locking you into contracts that are hard to leave
 - Hiding how your website works so you depend on them

@@ -51,7 +51,7 @@ By breaking each service into its own page we have the potential to write some r
 
 I added a "location" collection for pages targeting specific service areas. The team can add pages here to target those areas in search results, by providing valuable information specific to people from those areas looking for solar panel installers.
 
-It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be actually useful and unique. This requires some thinking about - my [marketing guides](/guides/) and [videos](/videos/) cover these pages in detail (and they're free for everyone!). As a website customer, Renegade also gets my personal support to help them understand and implement these strategies.
+It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be genuinely useful and unique. This requires some thinking about - my [marketing guides](/guides/) and [videos](/videos/) cover these pages in detail (and they're free for everyone!). As a website customer, Renegade also gets my personal support to help them understand and implement these strategies.
 
 ## Contact Form
 

@@ -42,7 +42,7 @@ play-test is built with modern Rails practices while keeping dependencies minima
 
 The software is free and open source, but I charge for hosting - either for individuals or whole companies who want their own branded version.
 
-Future plans (based on what users actually want):
+Future plans (based on what users want):
 
 - Owner logins to see their own test history
 - Email reminders for expiring tests

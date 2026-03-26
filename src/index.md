@@ -4,12 +4,12 @@ title: Website Design & Tech Consultancy in Prestwich
 heading: Websites You Actually Own
 description: I build websites for businesses in Prestwich and Manchester that you own and control - fast-loading, easy to update, no monthly lock-in
 meta_title: Web Developer Prestwich | Websites You Own & Control | Chobble
-meta_description: I build websites for Prestwich businesses that you actually own and control. You can edit them yourself, move to any host, and never pay me again if you don't want to. No subscriptions, no lock-in.
+meta_description: I build websites for Prestwich businesses that you own and control. You can edit them yourself, move to any host, and never pay me again if you don't want to. No subscriptions, no lock-in.
 ---
 
 <div class="text-card">
 
-**I build websites for Prestwich businesses that you actually own and control.** You can edit them yourself, move them to any hosting provider, and never pay me again if you don't want to. No monthly subscriptions, no vendor lock-in.
+**I build websites for Prestwich businesses that you own and control.** You can edit them yourself, move them to any hosting provider, and never pay me again if you don't want to. No monthly subscriptions, no vendor lock-in.
 
 I'm Stef, a web developer with over 20 years of experience, based in Prestwich, Manchester. I use modern tools like Ruby on Rails and Eleventy to make sites that **load fast**, **rank well on Google**, and **cost very little to host**.
 

@@ -27,7 +27,7 @@ I'll make sure your setup is secure, backed up properly, and accessible the way 
 
 Home Assistant's default dashboards are functional but often overwhelming. I can design clean, simple dashboards that show exactly what you need - whether that's monitoring solar panels and battery levels, controlling heating zones, tracking energy usage, or managing lighting scenes.
 
-Good dashboards make the difference between automation you actually use and automation you ignore. I'll work with you to figure out what information matters and design interfaces that make sense for your specific setup.
+Good dashboards make the difference between automation you use and automation you ignore. I'll work with you to figure out what information matters and design interfaces that make sense for your specific setup.
 
 ### Automations and logic
 
@@ -98,10 +98,10 @@ All code I write is open source and yours to keep.
 
 ## Prestwich and remote work
 
-I'm based in Prestwich, just north of Manchester, and happy to meet local clients in person. Sometimes it's easier to sort out technical issues when you're actually looking at the hardware and network setup together. We can meet at a local cafe like Cuckoo or I can visit your premises if that suits better.
+I'm based in Prestwich, just north of Manchester, and happy to meet local clients in person. Sometimes it's easier to sort out technical issues when you're looking at the hardware and network setup together. We can meet at a local cafe like Cuckoo or I can visit your premises if that suits better.
 
 For clients outside Manchester, I work remotely and can guide you through setup via video calls, or work independently if you prefer and provide documentation of everything configured.
 
 ## Let's get started
 
-**[Contact me](/contact/#content) using the form below to discuss your home automation needs. Whether you're starting from scratch, stuck with a problem, or want to expand what you're already doing - I can help you build reliable automation that actually makes your life easier.**
+**[Contact me](/contact/#content) using the form below to discuss your home automation needs. Whether you're starting from scratch, stuck with a problem, or want to expand what you're already doing - I can help you build reliable automation that makes your life easier.**

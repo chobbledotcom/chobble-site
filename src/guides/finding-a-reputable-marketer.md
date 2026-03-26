@@ -7,7 +7,7 @@ meta_description: Guide to finding genuine SEO help - avoid spammy marketers, un
 
 # Finding a reputable online marketing partner
 
-If you're anything like me you probably get unsolicited emails every day offering to help you with your website, but can those people actually help you? And what about marketing agencies? There's loads of them and their prices span the whole spectrum, with people that'll promise you a top ranking position for the price of a Costa Coffee each week, and others that won't promise anything but charge hundreds of pounds.
+If you're anything like me you probably get unsolicited emails every day offering to help you with your website, but can those people help you? And what about marketing agencies? There's loads of them and their prices span the whole spectrum, with people that'll promise you a top ranking position for the price of a Costa Coffee each week, and others that won't promise anything but charge hundreds of pounds.
 
 I'm gonna mention up front that my brother Kevin is an online marketer who I've worked with loads over the years, and I would definitely recommend him, but this isn't just a long winded advertisement for Kev, it hopefully contains useful information that you can use to evaluate anyone offering to help you do well on Google.
 

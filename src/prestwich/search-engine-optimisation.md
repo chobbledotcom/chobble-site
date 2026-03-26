@@ -9,7 +9,7 @@ meta_description: Prestwich SEO specialist - 20+ years getting local businesses 
 
 # SEO Specialist in Prestwich & North Manchester
 
-**Is your Prestwich business being outranked by competitors on Google? Want your website to actually bring in customers rather than just sit there looking pretty?**
+**Is your Prestwich business being outranked by competitors on Google? Want your website to bring in customers rather than just sit there looking pretty?**
 
 After 20+ years of building and optimising websites online, plus 10 years as lead developer at [Bouncy Castle Network](https://www.bouncycastlenetwork.com) pushing major SEO initiatives, I know exactly what makes websites rank well and attract local customers.
 
@@ -93,4 +93,4 @@ No honest SEO expert should "guarantee" specific search positions. We don't have
 
 **Ethical SEO is a long-term process** requiring continuous work and evaluation. But with the right strategy and execution, most local businesses can dramatically improve their online visibility.
 
-**Ready to get your Prestwich business found on Google? use the contact form below to get in touch and we'll create a plan that actually works.**
+**Ready to get your Prestwich business found on Google? use the contact form below to get in touch and we'll create a plan that works.**

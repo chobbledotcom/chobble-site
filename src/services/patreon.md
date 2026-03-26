@@ -62,7 +62,7 @@ I believe in honest, sustainable marketing that prioritises providing real value
 - Use manipulative techniques that will eventually backfire
 - Waste money on services that don't deliver results
 
-Instead, I focus on helping you understand what your customers are actually looking for, and how to provide that to them in a way that Google will recognise and reward.
+Instead, I focus on helping you understand what your customers are looking for, and how to provide that to them in a way that Google will recognise and reward.
 
 ## Need Personal Support?
 

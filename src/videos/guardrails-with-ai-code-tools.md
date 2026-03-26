@@ -32,7 +32,7 @@ The talk walks through six layers of guardrails I use when getting Claude Code t
 
 **Layer 6 - The ratchet:** One exceptions file with a big scary warning telling the AI not to add to it. Exceptions can only be removed, never added by the AI.
 
-The practical workflow is: ask Claude to build something, it pushes to GitHub, the action fails, then it churns away fixing violations until the code actually fits your in-house style. At that point you start reviewing - but you're reviewing fewer, cleaner lines of code that match how you'd write it yourself.
+The practical workflow is: ask Claude to build something, it pushes to GitHub, the action fails, then it churns away fixing violations until the code fits your in-house style. At that point you start reviewing - but you're reviewing fewer, cleaner lines of code that match how you'd write it yourself.
 
 ## Mentioned Links
 
