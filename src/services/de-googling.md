@@ -49,7 +49,7 @@ I'll go through the settings with you and show you around your new document mana
 
 ## Hosting Your Own Apps
 
-The idea of hosting your own tools might sound daunting, but there are ways to make it much easier. I love **Pikapods** ([pikapods.com](https://www.pikapods.com/)), which lets you set up community-built apps at low cost with just a few clicks. I can either host things in my own Pikapods account, or you can manage it entirely yourself.
+The idea of hosting your own tools might sound daunting, but there are ways to make it much easier. I love **Pikapods** ([pikapods.com](https://www.pikapods.com/)), which lets you set up open source apps at low cost with just a few clicks. I can either host things in my own Pikapods account, or you can manage it entirely yourself.
 
 I can also help you get set up with a home server or your own VPS. I have ran my own Yunohost server-in-a-box for many years, which can be a great way to ease yourself into self-hosting.
 

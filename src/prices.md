@@ -63,7 +63,7 @@ I use [Purelymail](https://purelymail.com) for my own email hosting - they're ve
 
 ## Other software and tools
 
-If you want to host shared documents for your team ([Nextcloud](/services/de-googling/)), a social media server for your club, or any other self-hosted tools - I can help set them up. These are community-built alternatives to expensive subscription services, and you keep full control of your data. If you'd rather manage the server yourself and just use me for advice, that's totally fine.
+If you want to host shared documents for your team ([Nextcloud](/services/de-googling/)), a social media server for your club, or any other self-hosted tools - I can help set them up. These are open source alternatives to expensive subscription services, and you keep full control of your data. If you'd rather manage the server yourself and just use me for advice, that's totally fine.
 
 ## Prestwich businesses
 

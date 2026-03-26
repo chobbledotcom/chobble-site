@@ -35,7 +35,7 @@ For hosting, I can set up your application on anything from a £5/month VPS for 
 
 ## You Own Everything
 
-I build with publicly available, community-maintained tools. The beauty of this approach is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and server setup. If you want to hire another developer to add features, they can - automated tests mean they won't accidentally break your checkout while adding a new report. If you want to take the project in a completely different direction, go for it - it's yours.
+I build with open source tools - no proprietary frameworks, no "open core" gotchas, no freemium tiers. Everything is AGPLv3 licensed with nothing held back. The beauty of this approach is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and server setup. If you want to hire another developer to add features, they can - automated tests mean they won't accidentally break your checkout while adding a new report. If you want to take the project in a completely different direction, go for it - it's yours.
 
 **The rest of this page gets really into the technical nitty-gritty of how I build dynamic web applications. I've written jargon-free explanations above each nerdy paragraph - if you're not technically minded, you might want to just read those bits.**
 
@@ -57,9 +57,9 @@ _**Jargon-free summary:** The application is packaged in a way that makes it run
 
 The Docker setup uses a multi-stage build to keep download sizes small, includes [supercronic](https://github.com/aptible/supercronic) for scheduled tasks like nightly backups, and runs as a non-root user. The application uses [Solid Queue](https://github.com/rails/solid_queue) for background job processing, has built-in S3-compatible storage support for file uploads, and includes error tracking with [Sentry](https://github.com/getsentry/sentry-ruby) (or the open-source [BugSink](https://github.com/bugsink/bugsink) alternative).
 
-## Why Publicly Available Code Benefits You
+## Why Open Source Development Benefits You
 
-_**In plain English:** I build systems that multiple organisations can use, which means the code gets tested in real-world conditions by real users._
+_**In plain English:** I build open source systems that multiple organisations can use, which means the code gets tested in real-world conditions by real users._
 
 The Play-Test system shows how this works in practice. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds a problem, the fix helps everyone.
 
@@ -73,7 +73,7 @@ When I build a Rails application for your organisation, you get all of this infr
 
 I've worked both as a solo developer and leading teams - I mentored junior developers at Bouncy Castle Network for years. If you need someone to augment your existing team, review your codebase, or help establish better development practices, I can do that too. I bring the engineering standards from Bandcamp (where every change gets reviewed) with the flexibility of a freelancer.
 
-The code will be publicly available by default, published on GitHub where you can see every change, every test result, every deployment. You'll own it completely - take it to another developer, modify it yourself, learn from it. The licence I use means if someone runs a copy of your application as a web service, they have to share their improvements back - so your investment benefits the wider community too.
+Your code will be on GitHub where you can see every change, every test result, every deployment. You'll own it completely - take it to another developer, modify it yourself, learn from it. Your repository can be private if you prefer - my underlying tools and templates are open source (AGPLv3), but your application's specific code and data don't have to be public. If someone does run a copy of your application as a web service, the AGPLv3 licence means they have to share their improvements back - so your investment benefits the wider community too.
 
 I use a modular approach to save you money. Common patterns get extracted into reusable components - for example, my [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It literally won't let me hardcode text (everything must go through translation files), catches typos before runtime, and automatically checks that form fields match your database columns. Authentication systems, PDF generation, QR codes, image processing - all these common requirements get packaged into battle-tested modules. This means your project benefits from all the work I've done before - you're not paying for me to solve the same problems again.
 

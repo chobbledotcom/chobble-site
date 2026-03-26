@@ -52,9 +52,9 @@ But a good website is just the starting point - ranking well also takes ongoing 
 2. Your content is stored in simple text files you can read and edit
 3. You can update the content yourself through a simple admin panel, or send me changes
 4. Backups happen automatically
-5. You get the full source code - it's yours
+5. You get the full source code via GitHub - it's yours (and your repo can be private if you prefer)
 
-This means you can hire any web developer to work on your site in the future, or learn to make changes yourself. You're never dependent on me - but you're welcome to stick around.
+Everything is built on my open source template and tools, so any web developer can work on your site in the future. You're never dependent on me - but you're welcome to stick around.
 
 While you are more than welcome to host with me, you can also take your site to any hosting provider - and I'll make that process easy if you do.
 

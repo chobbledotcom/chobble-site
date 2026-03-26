@@ -12,7 +12,7 @@ Whether you need a [new website](/services/static-websites/#content), a [custom 
 
 ## What You Can Expect
 
-**You own everything:** You get the full source code for your website. You can edit it yourself, hire another developer to change it, or move it to any hosting provider. You'll never be stuck paying me just because leaving is too hard.
+**You own everything:** You get the full source code for your website, delivered via GitHub. You can edit it yourself, hire another developer to change it, or move it to any hosting provider. Everything I build is based on my open source tools and templates - but your site's repository can be private if you prefer. You'll never be stuck paying me just because leaving is too hard.
 
 **Transparent pricing:** I charge a [flat hourly rate](/prices/) for all jobs, with a clear breakdown of what each hour covers. No hidden fees, no surprise invoices.
 

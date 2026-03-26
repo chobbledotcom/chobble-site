@@ -1,7 +1,7 @@
 ---
 layout: home.html
 title: Website Design & Tech Consultancy in Prestwich
-heading: Websites You Actually Own
+heading: Websites You Own
 description: I build websites for businesses in Prestwich and Manchester that you own and control - fast-loading, easy to update, no monthly lock-in
 meta_title: Web Developer Prestwich | Websites You Own & Control | Chobble
 meta_description: I build websites for Prestwich businesses that you own and control. You can edit them yourself, move to any host, and never pay me again if you don't want to. No subscriptions, no lock-in.
@@ -11,9 +11,9 @@ meta_description: I build websites for Prestwich businesses that you own and con
 
 **I build websites for Prestwich businesses that you own and control.** You can edit them yourself, move them to any hosting provider, and never pay me again if you don't want to. No monthly subscriptions, no vendor lock-in.
 
-I'm Stef, a web developer with over 20 years of experience, based in Prestwich, Manchester. I use modern tools like Ruby on Rails and Eleventy to make sites that **load fast**, **rank well on Google**, and **cost very little to host**.
+I'm Stef, a web developer with over 20 years of experience, based in Prestwich, Manchester. I use open source tools like Ruby on Rails and Eleventy to make sites that **load fast**, **rank well on Google**, and **cost very little to host**.
 
-You get the complete source code for everything I build ([here's my code repository](https://git.chobble.com)), with no contracts or obligations. I have [transparent, flat-rate pricing](/prices/) so you know exactly what you're paying for.
+You get the complete source code for everything I build, delivered via GitHub. My own tools and templates are all open source ([here's my code repository](https://git.chobble.com)) - but your website doesn't have to be public if you don't want it to be. I have [transparent, flat-rate pricing](/prices/) so you know exactly what you're paying for.
 
 **My rate is discounted 50% for charities, co-operatives, artists, musicians, and sustainable businesses.**
 
