@@ -1,23 +1,21 @@
 ---
-title: Static Website Development
-meta_title: Static Website Development | Prestwich, Manchester | Chobble
-description: Static websites are flexible, affordable, and easy to edit.
-snippet: Fast and responsive websites to promote your business
+title: Fast, Affordable Websites You Own
+meta_title: Fast, Affordable Websites | Prestwich, Manchester | Chobble
+description: Websites that load quickly, cost very little to host, and that you can edit yourself.
+snippet: Fast, affordable websites you can edit yourself
 order: -1
-meta_description: Fast static websites built with Eleventy - no bloated frameworks - easy to edit - host anywhere - Prestwich developer - 50% off for charities and artists
+meta_description: Fast websites that load instantly, cost under £10/month to host, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
 ---
 
-# Static Website Development
+# Fast, Affordable Websites You Own
 
-**Most websites don't need to change for every visitor - they just need to convey information to visitors as efficiently as possible.** Their content is mostly "static" text and images, rather than "dynamic" and constantly changing, like on a social media website.
+**Most business websites just need to share information with visitors - your services, your menu, your contact details.** They don't need expensive, complicated platforms to do that well.
 
-Despite this, these websites are often built on heavy frameworks that require expensive infrastructure and ongoing costs, like Wordpress, Wix, Squarespace, Joomla or Django. These platforms are designed to cover many possibilities, but 90% of their technology isn't needed for static websites.
+Platforms like WordPress, Wix, and Squarespace are designed to do everything, but most businesses only need a fraction of what they offer. The result? Websites that are slow to load, expensive to host, and hard to leave when you want to.
 
-This results in websites that _could_ have been fast and affordable to host, but are either expensive to accommodate their infrastructure requirements, or slow because they're on a server that can't keep up.
+I take a different approach. I build clean, fast, mobile-friendly websites tailored to your business. Because they're built efficiently, they **load almost instantly**, **cost very little to host** (often under £10/month), and **you own all the code** - so you're never locked in.
 
-I skip the heavy frameworks and build fast, stable, and mobile-friendly websites specific for your business, using minimalist and tidy code, using the "Eleventy" static site generator.
-
-This results in sites which are super fast to load AND which can be hosted on very affordable web hosts.
+I use a modern web development tool called Eleventy to build these sites, but what matters to you is the result: a website that loads fast, ranks well on Google, and is easy to update.
 
 **Some examples:**
 
@@ -30,7 +28,7 @@ This results in sites which are super fast to load AND which can be hosted on ve
 
 ## How do I edit the site?
 
-The site's contents can be edited through a simple admin interface ([PagesCMS.org](https://pagescms.org/)) or directly as text files on your computer. You'll edit the source code of the website directly! This might sound scary, but it's actually really straightforward - and everything is backed up anyway so we can restore to any earlier state.
+You can update your site through a simple admin interface ([PagesCMS.org](https://pagescms.org/)) or directly as text files on your computer. It's simpler than it sounds - you'll be changing plain text, not writing code. And everything is backed up automatically, so we can always undo any mistakes.
 
 ## Can you tell me how it works?
 
@@ -42,28 +40,27 @@ To really succeed online you need to know some fundamentals about structuring yo
 
 ## Will I rank well on Google?
 
-Static websites are great for ranking well on Google - especially ones built like mine that are super fast loading, easy to add to, and which include contact forms. This is because Google likes fast, up-to-date, straightforward websites.
+Google rewards websites that load quickly and are easy to navigate - exactly what these sites are built for. Fast-loading sites with clear content and contact forms give you a strong foundation for appearing in search results.
 
-But your website is just a tool you use - ultimately SEO all comes down to the work you put in - [writing content](/guides/keywords-and-keyword-stuffing/), [building links](/guides/backlinks/), doing the socials, yadda yadda.
+But a good website is just the starting point - ranking well also takes ongoing effort like [writing useful content](/guides/keywords-and-keyword-stuffing/), [building links from other sites](/guides/backlinks/), and keeping things up to date.
 
-**You'll get plenty of help with this if you host with me** - you can use my [free marketing guides](/guides/) and [videos](/videos/) to learn SEO strategies, and I'll provide personal support to help you implement them and answer any questions.
+**You'll get plenty of help with this if you host with me** - I provide [free marketing guides](/guides/) and [videos](/videos/) plus personal support to help you implement them.
 
 ## What is the process?
 
-1. I build your website using Eleventy on the [Chobble Template](/services/chobble-template/)
-2. Or you can employ a designer to design a fully customised site
-3. Its content is stored in simple text files
-4. You can edit the content yourself via PagesCMS or send me changes
-5. Backups are handled automatically
-6. You get the full source code
+1. I build your website using my tried-and-tested [starter template](/services/chobble-template/), or a fully custom design
+2. Your content is stored in simple text files you can read and edit
+3. You can update the content yourself through a simple admin panel, or send me changes
+4. Backups happen automatically
+5. You get the full source code - it's yours
 
-This setup means that you can employ any web developer to expand your site, or ask anyone for help with your content - it's an open and collaborative platform you can easily share with new people.
+This means you can hire any web developer to work on your site in the future, or learn to make changes yourself. You're never dependent on me - but you're welcome to stick around.
 
-While you are more than welcome to host with me forever, you might also like to DIY it - and I will make that process easy if you do.
+While you are more than welcome to host with me, you can also take your site to any hosting provider - and I'll make that process easy if you do.
 
-## Static Website Prices
+## What Does It Cost?
 
-Like every job, I will provide estimates and charge a [flat hourly rate](/prices/) for building static sites, with a breakdown of everything involved. Here are some rough estimates for the stages of the process of a simple "brochure" type website:
+Like every job, I provide estimates and charge a [flat hourly rate](/prices/) with a breakdown of everything involved. Here are some rough estimates for a typical business website:
 
 - **2 hours: Base setup**
   - Creating an empty site

@@ -1,10 +1,10 @@
 ---
 title: Ruby on Rails Development
-meta_title: Ruby on Rails Freelancer Manchester | Wep Applications | Chobble
-description: Rails applications with comprehensive test suites, type checking, and automated deployments that actually work
-snippet: Web applications that scale from 10 to 100,000 users
+meta_title: Ruby on Rails Freelancer Manchester | Web Applications | Chobble
+description: Custom web applications that scale with your business - thoroughly tested, reliably deployed, and fully yours
+snippet: Custom web applications that scale with your business
 order: 0
-meta_description: Ruby on Rails freelancer in Manchester - I build enterprise-scale applications with 90%+ test coverage - 5 years at Bandcamp ($200m/year), 10 years at BCN - £200/hour
+meta_description: Ruby on Rails freelancer in Manchester - custom web applications you fully own - 5 years at Bandcamp ($200m/year), 10 years at BCN - £200/hour
 ---
 
 # Ruby on Rails Freelancer
@@ -33,9 +33,9 @@ You'll know exactly what you're paying for, with detailed breakdowns of time spe
 
 For hosting, I can set up your application on anything from a £5/month VPS for smaller projects to multi-server deployments for enterprise scale. My standard setup uses [NixOS](https://nixos.org/) for reproducible deployments. On top of server costs, I charge **£60 per month** (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, quick changes, and help when things go wrong.
 
-## Open Source
+## You Own Everything
 
-I write open source code, building on the work that clever and generous nerds have done before me. The beauty of open source development is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and deployment configuration. If you want to hire another developer to add features, they can - tests means they won't accidentally break your checkout while adding a new report. If you want to fork the project and take it in a completely different direction, go for it - it's yours.
+I build with publicly available, community-maintained tools. The beauty of this approach is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and server setup. If you want to hire another developer to add features, they can - automated tests mean they won't accidentally break your checkout while adding a new report. If you want to take the project in a completely different direction, go for it - it's yours.
 
 **The rest of this page gets really into the technical nitty-gritty of how I build dynamic web applications. I've written jargon-free explanations above each nerdy paragraph - if you're not technically minded, you might want to just read those bits.**
 
@@ -57,13 +57,13 @@ _**Jargon-free summary:** The application is packaged in a way that makes it run
 
 The Docker setup uses a multi-stage build to keep download sizes small, includes [supercronic](https://github.com/aptible/supercronic) for scheduled tasks like nightly backups, and runs as a non-root user. The application uses [Solid Queue](https://github.com/rails/solid_queue) for background job processing, has built-in S3-compatible storage support for file uploads, and includes error tracking with [Sentry](https://github.com/getsentry/sentry-ruby) (or the open-source [BugSink](https://github.com/bugsink/bugsink) alternative).
 
-## Why Open Source Development Works
+## Why Publicly Available Code Benefits You
 
-_**Jargon-free summary:** I build open source systems that multiple organisations can use, which means the code gets battle-tested in real production environments._
+_**In plain English:** I build systems that multiple organisations can use, which means the code gets tested in real-world conditions by real users._
 
-The play-test system shows how open source development benefits everyone. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that actually works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds an edge case, the fix helps everyone.
+The Play-Test system shows how this works in practice. Professional inspectors are using it for their compliance work, which means it has to handle real-world requirements - complex calculations, legal compliance, PDF generation that actually works on tablets in the field. When one organisation needs a feature (like QR codes for equipment tracking), others benefit too. When someone finds a problem, the fix helps everyone.
 
-Developing software in the open also means everything is transparent - you can see the code, the test coverage reports, check if deployments are working. More importantly, it means the code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work behind closed repositories. The AGPLv3 license ensures that improvements come back to the community, and I can reuse battle-tested components across projects without licensing headaches, which saves you time and money.
+Building in the open also means everything is transparent - you can see the code, the test results, and check if everything is working. More importantly, it means the code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work. I can reuse proven components across projects, which saves you time and money because you're not paying me to solve the same problems twice.
 
 ## What This Means For You
 
@@ -73,7 +73,7 @@ When I build a Rails application for your organisation, you get all of this infr
 
 I've worked both as a solo developer and leading teams - I mentored junior developers at Bouncy Castle Network for years. If you need someone to augment your existing team, review your codebase, or help establish better development practices, I can do that too. I bring the engineering standards from Bandcamp (where every change gets reviewed) with the flexibility of a freelancer.
 
-The code will be open source by default under an AGPLv3 license, published on GitHub where you can see every change, every test result, every deployment. You'll own it completely - take it to another developer, modify it yourself, learn from it. The AGPLv3 means if someone uses your code to run a web service, they have to share their improvements back to the community. Your investment in open source helps everyone.
+The code will be publicly available by default, published on GitHub where you can see every change, every test result, every deployment. You'll own it completely - take it to another developer, modify it yourself, learn from it. The licence I use means if someone runs a copy of your application as a web service, they have to share their improvements back - so your investment benefits the wider community too.
 
 I use a modular approach to save you money. Common patterns get extracted into reusable components - for example, my [chobble-forms](https://github.com/chobbledotcom/chobble-forms) gem that makes building accessible, semantic HTML forms incredibly fast and reliable. It literally won't let me hardcode text (everything must go through translation files), catches typos before runtime, and automatically checks that form fields match your database columns. Authentication systems, PDF generation, QR codes, image processing - all these common requirements get packaged into battle-tested modules. This means your project benefits from all the work I've done before - you're not paying for me to solve the same problems again.
 

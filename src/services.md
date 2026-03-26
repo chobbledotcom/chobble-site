@@ -1,26 +1,24 @@
 ---
 layout: services.html
 title: Web Development Services from Chobble
-description: I have decades of experience and can help you with any technical challenge.
+description: Websites that load fast, cost less to run, and that you fully own - with decades of experience behind every project.
 meta_title: Web Development Services Prestwich | Websites, SEO & Tech Help
-meta_description: Prestwich web developer offering new websites, SEO audits, server setup, online marketing advice - transparent flat rate pricing - you own all your code
+meta_description: Websites you own and control - fast-loading, affordable to host, easy to update - transparent flat rate pricing - Prestwich web developer with 20+ years experience
 ---
 
 # Web Design & Technology Services
 
-You can hire me to [build custom software](/services/software-developer/#content), make an [entirely new website](/services/static-websites/#content), improve an existing one, help you [set up a server](/services/technical-advice/#content), advise you about [search engine optimisation](/services/seo-audits/#content), get my input on a techy decision at your job, or maybe write [totally bespoke web applications](/services/ruby-on-rails-developer/#content) for you.
+Whether you need a [new website](/services/static-websites/#content), a [custom business application](/services/software-developer/#content), help [improving your Google rankings](/services/seo-audits/#content), or just [plain-English tech advice](/services/technical-advice/#content) - I can help. You'll get the benefit of my 20+ years building and maintaining websites for businesses of all sizes, with a commitment to honesty and straightforwardness.
 
-In any case you'll get the benefit of my decades of experience building and maintaining web software for businesses of all sizes, with a commitment to honesty and straightforwardness.
+## What You Can Expect
 
-## My Principles
+**You own everything:** You get the full source code for your website. You can edit it yourself, hire another developer to change it, or move it to any hosting provider. You'll never be stuck paying me just because leaving is too hard.
 
-**Transparent:** I charge a [flat hourly rate](/prices/) for all jobs. I will break down each job by hour so you know exactly what you're getting.
+**Transparent pricing:** I charge a [flat hourly rate](/prices/) for all jobs, with a clear breakdown of what each hour covers. No hidden fees, no surprise invoices.
 
-**Open source:** I'll give you full edit access to the code I write and explain how all it works - you'll _own_ your project rather than _renting_ access to it.
+**Fast sites, low running costs:** I build websites that load quickly on any device, which helps you rank better on Google and keeps your hosting costs low - often under £10 per month.
 
-**Affordable:** I prefer low cost and widely-compatible tools over proprietary and locked-down systems. You can host anywhere - or pay me and get free marketing advice included.
-
-**Accessible & performant:** I choose accessible systems which allow visually-impaired users to browse your site, and I make performant sites which are easy to use on all devices.
+**Works for everyone:** I build sites that are easy to use on phones, tablets, and desktops, and accessible to visitors with visual impairments.
 
 ## Services
 

@@ -13,17 +13,17 @@ meta_description: Charity web development at £100/hour (50% off) - transparent 
 
 I've been working with charities and community organisations for over a decade, helping them establish professional online presences that serve their communities effectively.
 
-## Why charities benefit from open source
+## Why charities benefit from this approach
 
-I use open source technology exclusively. This approach brings several advantages:
+I build with publicly available, community-maintained tools rather than proprietary platforms. This means:
 
-- **You own the code** - take it to another developer anytime
-- **No license fees** - the software is free, you just pay for the work
-- **Community support** - thousands of developers contribute improvements
-- **No vendor lock-in** - host anywhere, modify anything
-- **Proven technology** - battle-tested by millions of organisations
+- **You own everything** - take your website to another developer anytime
+- **No licence fees** - the tools are free, you just pay for the work
+- **No lock-in** - host anywhere, modify anything, leave whenever you want
+- **Widely supported** - thousands of developers know these tools, so you're never dependent on one person
+- **Proven and reliable** - the same tools used by millions of organisations worldwide
 
-Open source aligns perfectly with charity values of transparency and community benefit. The same way charities exist to help people rather than make profit, open source software exists to solve problems rather than extract rent.
+This approach aligns with charity values: transparency, community benefit, and making the most of limited budgets.
 
 ## Completely transparent pricing
 
@@ -74,7 +74,7 @@ Each of these organisations benefits from having full control of their website, 
 
 ## No surprises, no lock-in
 
-Everything is transparent - you'll know exactly what each hour of work involves. The source code is published openly (usually on GitHub), backups are automatic, and you can take your site to another developer anytime. Most charities stay with me long-term because they value the honest approach and reliable service.
+Everything is transparent - you'll know exactly what each hour of work covers. Your website code is publicly available, backups are automatic, and you can take your site to another developer anytime. Most charities stay with me long-term because they value the honest approach and reliable service.
 
 ## Get started
 

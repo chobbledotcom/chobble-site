@@ -25,7 +25,7 @@ We can get you set up with a private, secure network so your team members can ac
 
 ## Hardware & automation
 
-I can help you spec and build open source hardware solutions for things like security, monitoring, networking, or anything else. There's usually an open source, community-driven alternative to proprietary and expensive server software.
+I can help you choose and set up hardware for security, monitoring, networking, and more. There's usually a community-maintained, affordable alternative to expensive proprietary server software.
 
 ## Troubleshooting & development
 

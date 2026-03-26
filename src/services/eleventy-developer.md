@@ -1,19 +1,19 @@
 ---
 title: Freelance Eleventy Developer
 meta_title: Freelance Eleventy Developer | Prestwich, Manchester, UK | Chobble
-description: Expert development services for Eleventy static sites - whether building new sites or adding features to existing websites
-snippet: I can help you own or upgrade a fast, affordable Eleventy website
+description: Expert Eleventy development - fast websites that you own, easy to update, and cheap to host
+snippet: Fast, affordable Eleventy websites you can edit yourself
 order: 10
-meta_description: Eleventy developer in Manchester - build fast static sites, convert from WordPress/Wix, add features - transparent pricing - you get all the code
+meta_description: Eleventy developer in Manchester - fast websites, easy to update, convert from WordPress/Wix - transparent pricing - you get all the code
 ---
 
 # Freelance Eleventy Developer
 
-**Looking for an experienced Eleventy developer to build a super-fast, affordable website?** I've used Eleventy for lots of projects and can help you get the most out of it for your business.
+**Looking for an experienced Eleventy developer?** I've used Eleventy for dozens of projects and can help you get the most out of it for your business.
 
-Eleventy ([11ty.dev](https://www.11ty.dev/)) is my static site generator of choice for creating websites that load really quickly, rank well in search engines, and can be hosted on easy-to-use web hosts at a very low cost. As an experienced Eleventy developer I can help whether you're building a brand new site or updating an existing one.
+Eleventy ([11ty.dev](https://www.11ty.dev/)) is the tool I use to build websites that load very quickly, rank well in search engines, and cost very little to host. Whether you're building a brand new site or upgrading an existing one, I can help.
 
-Eleventy development is part of my broader [software development services](/services/software-developer/) - check that page if you need custom applications or more complex integrations beyond static sites.
+If you need something beyond a website - like a booking system or customer database - see my broader [software development services](/services/software-developer/).
 
 - [Building new Eleventy sites](#building)
 - [Adding features to existing Eleventy sites](#adding)
