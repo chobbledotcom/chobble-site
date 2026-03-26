@@ -21,9 +21,9 @@ I use a modern web development tool called Eleventy to build these sites, but wh
 
 <div class="examples">
 
-- ![This & That homepage, showing "Home", "Menu", and a photo of the alley where the This & That Indian cafe is hidden away](/assets/examples/this-and-that.png) I've been hosting the **[This & That](/examples/this-and-that/)** site for a nearly a decade now. It changes very gradually, just like the cafe's decor and menu. But it always loads quickly, and is really easy to navigate.
-- ![The Blue Pits website homepage showing lots of text and a blue and green theme](/assets/examples/blue-pits.png) The **[Blue Pits](/examples/blue-pits)** website contains tonnes of information for people wanting to learn more about the housing charity. The team send me occasional updates, or new files to add, and I handle it for them.
-- ![The Vegan Prestwich website homepage, listing business names and links to subcategories 'Delivery/Takeaways', 'Restaurants', 'Shops', 'Tags'](/assets/examples/vegan-prestwich.png) **[Vegan Prestwich](/examples/vegan-prestwich)**, the community platform I run with my wife, contains tonnes of info about local businesses and their menus. It's organised in a really easy to edit structure so I can easily keep on top of updates.
+- ![Fun Pro UK website homepage showing video header, testimonials, brand logos, and a "How it Works" section](/assets/examples/fun-pro-uk.png) **[Fun Pro UK](/examples/fun-pro-uk/)** is a mega corporate entertainment site with 88 products, a quotation system, mega menu, sitewide search, and custom designs throughout - the Chobble Template pushed to its limits.
+- ![The MyAlarm Security website homepage, decked out in a Christmassy theme for the holidays.](/assets/examples/myalarm-security.png) **[MyAlarm Security](/examples/myalarm-security/)** needed a site they could fully customise. I migrated their content to the Chobble Template with a custom homepage, sliding banner, and product pages laid out to their exact specs.
+- ![Renegade Solar homepage with top links - Home, About, Services, Reviews, Gallery, Contact - and a photo of a solar panel install on a bright Manchester day](/assets/examples/renegade-solar.png) **[Renegade Solar](/examples/renegade-solar/)** escaped a slow Wix site and now gets roughly one enquiry a week instead of one a year, with perfect Lighthouse scores and lower monthly costs.
 </div>
 
 ## How do I edit the site?
