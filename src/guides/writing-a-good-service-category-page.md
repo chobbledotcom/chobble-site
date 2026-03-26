@@ -5,7 +5,7 @@ meta_title: Writing Effective Service & Product Pages | Free Guide | Chobble
 meta_description: Guide to writing service pages - answer customer questions, avoid common mistakes, convert visitors - Manchester web developer
 ---
 
-# Writing a Good Service / Product / Category Page
+# Writing a good service / product / category page
 
 Service / product / category pages should answer one question in a bunch of different ways:
 
@@ -58,7 +58,7 @@ Neither search engines or your potential customers like this practice - it was a
 
 **There's a guide all about "[Keywords & Keyword Stuffing](/guides/keywords-and-keyword-stuffing/#content)" in the guides section.**
 
-### Problem #3: AI Waffle
+### Problem #3: AI waffle
 
 When using AI to help write your pages, it's important to remember that **AI will never create new information**. They work by scraping the internet for existing information, and then re-formatting it to answer your prompts.
 

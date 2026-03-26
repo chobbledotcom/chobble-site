@@ -7,7 +7,7 @@ order: 2
 meta_description: WordPress developer in Manchester - I build WordPress sites using open source plugins - host on PikaPods or anywhere else - transparent pricing - flat hourly rate
 ---
 
-# WordPress Developer
+# WordPress developer
 
 **Need a WordPress site that you fully control? I'll build you one with open source plugins, from as low as £400.**
 
@@ -15,7 +15,7 @@ I've been building WordPress sites for over 15 years. I've used it for everythin
 
 These days I build clean WordPress installations using quality open source plugins. No vendor lock-in, no mysterious annual fees, just WordPress that works.
 
-## My WordPress Experience
+## My WordPress experience
 
 I've been working with WordPress since the late 2000s. Over the years I've:
 
@@ -36,7 +36,7 @@ I know WordPress and its alternatives like [static site generators](/services/st
 
 The beauty of my pricing is you decide how much work you want to do yourself. Pick your own theme and write your own content? Your site could be ready in 2 hours for **£400** (or **£200** with my charity discount). Need me to handle everything? That's fine too.
 
-## WordPress Development Services
+## WordPress development services
 
 I can help with all aspects of WordPress development:
 
@@ -48,13 +48,13 @@ I can help with all aspects of WordPress development:
 - **Performance optimisation** to keep your site running fast
 - **Headless WordPress** setups for custom frontends
 
-## Simple WordPress Hosting with PikaPods
+## Simple WordPress hosting with PikaPods
 
 I recommend PikaPods for WordPress hosting because it makes everything remarkably straightforward. Your WordPress site runs in its own container with automatic updates, and I'll set up daily backups to two separate providers for extra redundancy.
 
 Read more about [how I use PikaPods](/services/pikapods-help/#content) to host various applications. The setup takes about an hour and then your site just runs. You're free to host anywhere though - I've set up WordPress on pretty much every hosting provider over the years.
 
-## WordPress for Charities and Local Businesses
+## WordPress for charities and local businesses
 
 **Charities get 50% off** - £100 per hour instead of £200. This discount also applies to cooperatives, artists, musicians, vegan businesses, and renewable energy companies. See my [charity web development](/services/charity-web-development/#content) page for details.
 
@@ -143,7 +143,7 @@ I can set up Yoast SEO and make sure your site is technically sound for search e
 
 </details>
 
-## Local WordPress Developer in Prestwich
+## Local WordPress developer in Prestwich
 
 I'm based in Prestwich, just north of Manchester. While all of my web and software development happens remotely, **I'm happy to meet local businesses for coffee** to discuss your website properly.
 

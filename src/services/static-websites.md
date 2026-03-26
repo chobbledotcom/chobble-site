@@ -7,7 +7,7 @@ order: -1
 meta_description: Fast websites that load instantly, cost under £10/month to host, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
 ---
 
-# Fast, Affordable Websites You Own
+# Fast, affordable websites you own
 
 **Most business websites just need to share information with visitors - your services, your menu, your contact details.** They don't need expensive, complicated platforms to do that well.
 
@@ -58,7 +58,7 @@ Everything is built on my open source template and tools, so any web developer c
 
 While you are more than welcome to host with me, you can also take your site to any hosting provider - and I'll make that process easy if you do.
 
-## What Does It Cost?
+## What does it cost?
 
 Like every job, I provide estimates and charge a [flat hourly rate](/prices/) with a breakdown of everything involved. Here are some rough estimates for a typical business website:
 

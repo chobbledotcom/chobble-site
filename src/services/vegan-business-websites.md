@@ -6,7 +6,7 @@ snippet: Half-price websites for ethical businesses
 meta_description: 50% off websites for vegan businesses - £300 for a simple site - lifelong veggie helping ethical businesses thrive - Manchester web developer
 ---
 
-# Vegan Business Websites
+# Vegan business websites
 
 **Get 50% off if you run a vegan business.** That's £100/hour instead of £200/hour, meaning a simple restaurant website design could be as little as **£300**.
 

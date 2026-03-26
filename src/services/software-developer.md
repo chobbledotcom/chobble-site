@@ -7,7 +7,7 @@ order: -2
 meta_description: Freelance software developer in Prestwich, Manchester - 20 years experience - custom web apps, booking systems, automation - transparent pricing - you own everything I build
 ---
 
-# Freelance Software Developer in Prestwich
+# Freelance software developer in Prestwich
 
 **Need a booking system, a customer database, or a tool that automates part of your business?** I build custom software that does exactly what you need - and you own all of it. No ongoing licence fees, no dependency on me.
 

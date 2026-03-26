@@ -5,7 +5,7 @@ meta_title: Keywords & Avoiding Keyword Stuffing | Free Guide | Chobble
 meta_description: Guide to using keywords effectively - understand search terms, avoid keyword stuffing, write naturally - Manchester web developer
 ---
 
-# Keywords & Keyword Stuffing
+# Keywords & keyword stuffing
 
 The whole point of your website is to attract customers – but how do search engines decide who finds you? This guide should demystify "keywords" while helping you avoid "keyword stuffing", an outdated and ineffective tactic.
 
@@ -110,7 +110,7 @@ So, instead of repeating _"widget hire in Manchester"_ ten times, try:
 
 ---
 
-## 5. Headers (H1, H2, H3 Tags)
+## 5. Headers (H1, H2, H3 tags)
 
 Headers act like signposts for both visitors and search engines. Just like chapter titles in a book, they break up walls of text, making it easier for visitors to scan your content and understand what each section covers. Your H1 tag is your **main page title** – every page should have just one. Think of it as the bold headline on a shop front. A vague H1 like _"Services"_ doesn't say much, but _"Affordable Widget Hire in Prestwich & Manchester"_ instantly tells Google and visitors exactly what you offer.
 
@@ -122,7 +122,7 @@ Honestly – most pages won't need H3s, unless they are really long. Don't force
 
 ---
 
-### 6. Meta descriptions – Your site's "shop window" in search results
+### 6. Meta descriptions – your site's "shop window" in search results
 
 A meta description is the short blurb that appears under your website link in search engine results. Think of it as your **digital shop window** – a split-second chance to convince searchers to click your link over rivals. While Google might replace yours with a more relevant page snippet if they think it matches the searcher's intent better, you still need to craft a compelling meta description. Why? Because if Google _does_ show yours, a clear, benefit-packed one can **boost your click-through rate even if you're not ranking first**.
 
@@ -150,7 +150,7 @@ When writing alt tags, **stick to the facts**. Describe what's in the image (_"T
 
 ---
 
-## 8. How to Structure Content Effectively
+## 8. How to structure content effectively
 
 Writing for humans means explaining your services as if you're chatting with a customer. Skip the jargon like _"Widget hire solutions for Manchester-based event facilitations"_ – it's vague and reads weirdly. Instead, aim for clarity: _"Need widgets for your Manchester event? We deliver same-day, with flexible pricing and no hidden fees."_ See the difference? One feels like a corporate brochure; the other solves a real problem.
 

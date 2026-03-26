@@ -8,7 +8,7 @@ youtube_id: tW3PmgviPPU
 meta_description: Learn tricky Google searches to discover backlink sources and use advanced search features effectively
 ---
 
-# Getting Good at Google
+# Getting good at Google
 
 Want to find out where your competitors get their backlinks from? Really handy Google tricks in this video that most folk don't know about. I'll show you how to use quote searches and the minus operator to uncover every website that links to your competitors - very useful for finding easy wins like directories you can sign up for straight away.
 

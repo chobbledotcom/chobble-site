@@ -7,7 +7,7 @@ order: 10
 meta_description: Eleventy developer in Manchester - fast websites, easy to update, convert from WordPress/Wix - transparent pricing - you get all the code
 ---
 
-# Freelance Eleventy Developer
+# Freelance Eleventy developer
 
 **Looking for an experienced Eleventy developer?** I've used Eleventy for dozens of projects and can help you get the most out of it for your business.
 
@@ -20,11 +20,11 @@ If you need something beyond a website - like a booking system or customer datab
 - [Converting CMS websites to Eleventy](#converting)
 - [Switching another SSG websites to Eleventy](#switching)
 
-## How Chobble Can Help With Eleventy
+## How Chobble can help with Eleventy
 
 <div class="card margins" id="building">
 
-### Building New Eleventy Sites
+### Building new Eleventy sites
 
 I'll create a **custom Eleventy site** around your specific business needs.
 
@@ -42,7 +42,7 @@ Whether you're starting from a template like my [Chobble Template](/services/cho
 
 <div class="card margins" id="adding">
 
-### Adding Features to Existing Eleventy Sites
+### Adding features to existing Eleventy sites
 
 If you've already got an Eleventy site (awesome, nice choice!) then I can help improve it.
 
@@ -56,7 +56,7 @@ Whatever you need building, my changes will fit right into your existing codebas
 
 <div class="card margins" id="converting">
 
-### Converting CMS Sites to Eleventy
+### Converting CMS sites to Eleventy
 
 If you're stuck with an expensive, confusing, bulky or slow CMS website, I can help you migrate to Eleventy.
 
@@ -70,7 +70,7 @@ I can **transform your WordPress, Wix, Squarespace** or other sites into a tidy 
 
 <div class="card margins" id="switching">
 
-### Switching From Another Generator to Eleventy
+### Switching from another generator to Eleventy
 
 If you're using another static site generator like Jekyll or Hugo, it's probably pretty straightforward to **switch to Eleventy**. Since Eleventy is a very flexible generator you can store files in any location and it largely "just works". This makes switching from other SSGs to Eleventy is easier than the other way around.
 
@@ -100,7 +100,7 @@ I've used a bunch of static site generators and CMS platforms over my years nerd
 
 **Excellent SEO potential.** Fast-loading, semantically structured pages rank better in search results. Check out my [SEO guides](/guides/) for strategies to maximize this potential.
 
-## My Eleventy Approach
+## My Eleventy approach
 
 I build Eleventy sites with a focus on quality and sustainability:
 
@@ -108,11 +108,11 @@ I create sites with **semantic HTML** that's accessible and SEO-friendly from th
 
 Each site I build comes with full source code access and guidance on how to maintain and update your site yourself if you choose to.
 
-## Prices for Eleventy Development
+## Prices for Eleventy development
 
 As with all of my services, I charge a [flat hourly rate](/prices/) for Eleventy development with transparent estimates and regular updates. I've built a [price calculator](/price-calculator/) which you can use to get an immediate estimate for your Eleventy site build.
 
-## Learn Eleventy Yourself
+## Learn Eleventy yourself
 
 Want to take control of your own Eleventy site? I offer [technical training and tutoring](/services/technical-advice/) to help you master Eleventy:
 
@@ -120,7 +120,7 @@ You'll **understand the basics** of Eleventy's template system and how it genera
 
 Training sessions can be conducted in person (if you're in Prestwich) or remotely, and are tailored to your current knowledge level and learning goals.
 
-## Let's Build Something Fast
+## Let's build something fast
 
 Whether you're starting fresh or improving what you already have, I'll help you create and own a website that's fast, affordable, and built to last.
 

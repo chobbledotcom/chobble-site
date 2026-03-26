@@ -17,7 +17,7 @@ At a absolute bare minimum, someone should be paying attention to the emails tha
 
 But ideally, everyone involved in your website should have access to Google Search Console and should periodically log in and check how things are looking. Just receiving the notification emails is one thing, but being proactive can be really beneficial.
 
-## Signing Up
+## Signing up
 
 Anyway, before we get stuck into the weeds about GSC, lets start at the start - getting signed up. You'll need a Google account - you probably have one already if you've got a Gmail address, or a YouTube account, or an Android phone. You need to visit [https://search.google.com/search-console](https://search.google.com/search-console), click "Start now", and log into your Google account.
 

@@ -6,11 +6,11 @@ meta_title: Web Development Services Prestwich | Websites, SEO & Tech Help
 meta_description: Websites you own and control - fast-loading, affordable to host, easy to update - transparent flat rate pricing - Prestwich web developer with 20+ years experience
 ---
 
-# Web Design & Technology Services
+# Web design & technology services
 
 Whether you need a [new website](/services/static-websites/#content), a [custom business application](/services/software-developer/#content), help [improving your Google rankings](/services/seo-audits/#content), or just [plain-English tech advice](/services/technical-advice/#content) - I can help. You'll get the benefit of my 20+ years building and maintaining websites for businesses of all sizes, with a commitment to honesty and straightforwardness.
 
-## What You Can Expect
+## What you can expect
 
 **You own everything:** You get the full source code for your website, delivered via GitHub. You can edit it yourself, hire another developer to change it, or move it to any hosting provider. Everything I build is based on my open source tools and templates - but your site's repository can be private if you prefer. You'll never be stuck paying me just because leaving is too hard.
 

@@ -7,13 +7,13 @@ order: 3
 meta_description: Stuck with Wix? I'll help navigate the confusing menus - honest advice about staying or leaving - no affiliation with Wix - Manchester web developer
 ---
 
-# Stuck With Your Wix Site? I Can Help
+# Stuck with your Wix site? I can help
 
 **The problem with Wix isn't that it's rubbish** - it's that the interface can feel completely overwhelming. Because Wix supports everything under the sun, finding what you need feels like hunting for a needle in a haystack. There's often three different and non-obvious ways to do the same thing.
 
 If you've got graphic design skills, you can make a Wix site look decent. But making it perform well is where most people get stuck. Wix imports loads of JavaScript libraries whether you need them or not, which makes sites feel sluggish. Getting around these limitations means reading and understanding lots of technical documentation - which is where I come in.
 
-## What I Actually Do For Wix Users
+## What I actually do for Wix users
 
 **I'm not affiliated with Wix** - which means I'll give you honest advice about whether staying on their platform makes sense for your business. My job is to save you money and headaches in the long run, not upsell you anything.
 
@@ -27,7 +27,7 @@ Here's how I help with Wix sites:
 
 **Export your data safely** - If you decide Wix isn't right for you, I can help extract your content and get it ready for a better-suited platform.
 
-## Specific Wix Features I Can Set Up
+## Specific Wix features I can set up
 
 If you need any of these implemented on your Wix site, I can dig through their interface and documentation to get them working properly:
 
@@ -44,13 +44,13 @@ If you need any of these implemented on your Wix site, I can dig through their i
 
 The full scope of what's possible is huge - [Wix's developer documentation](https://dev.wix.com/) gives you an idea of just how much functionality they pack in. The problem is that finding and configuring what you need can take hours of clicking through menus and reading confusing help articles.
 
-## The Honest Truth About Wix
+## The honest truth about Wix
 
 Wix works fine if your website isn't crucial to your business and you're happy with the ongoing costs. But if your site is an important sales funnel, you'll quickly hit its limitations. **Wix can change their prices or break your site's functionality overnight** - I've seen customers whose sites suddenly stopped working after Wix changed how their JavaScript worked. When they complained, Wix blamed the customer.
 
 This kind of nightmare simply can't happen with a [static website](/services/static-websites) built to your specifications. If long-term stability and cost control matter to your business, consider a [website migration](/services/website-migrations) to cheaper, more reliable hosting.
 
-## Remote Wix Help - No Lengthy Contracts
+## Remote Wix help - no lengthy contracts
 
 All Wix work is done remotely. You'll give me temporary access to your site, I'll crack on with the work, then explain exactly what I did in as much detail as you want. **I charge by the hour with transparent pricing** - probably much cheaper than Wix's dedicated support or ongoing consultant fees.
 
@@ -62,7 +62,7 @@ All Wix work is done remotely. You'll give me temporary access to your site, I'l
 
 **If you're wrestling with Wix's interface or wondering whether it's the right fit for your business, send me a message through the form below and I'll give you straight answers.**
 
-## Local Wix Help in Prestwich & Manchester
+## Local Wix help in Prestwich & Manchester
 
 While all my Wix work can be done remotely, **if you're based in Prestwich or nearby areas of Manchester**, I'm happy to meet up for a proper chat about your website strategy. Sometimes it's easier to explain complex technical concepts face-to-face, especially when we're weighing up whether to stick with Wix or move to something better.
 
@@ -70,7 +70,7 @@ I can meet you at a local café, your office, or wherever suits you best. This w
 
 Check out my other [Prestwich-focused services](/prestwich/) if you're a local business looking for broader web design or [SEO help](/prestwich/search-engine-optimisation/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How much does Wix help cost compared to just paying Wix directly?**
 

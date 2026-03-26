@@ -36,7 +36,7 @@ The community side is more important than the directory, really. The Facebook gr
 
 We've had some brilliant wins over the years. One highlight was emailing Joseph Holts (who own most of Prestwich's pubs) to ask about their beers going vegan - and they updated their recipes to make most of their beers vegan! We've also organised real-life meetups and members have hired each other for catering and events.
 
-## Technical Details
+## Technical details
 
 - Static website built with Eleventy
 - Hosted on the Chobble.com server
@@ -58,7 +58,7 @@ The site and community have had a real impact on Prestwich's vegan scene:
 
 The project shows how a local directory can become a proper community resource, encouraging businesses to improve their vegan offerings and helping vegans discover great food in their area.
 
-## Source Code
+## Source code
 
 The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/vegan-prestwich), so others can learn from it.
 

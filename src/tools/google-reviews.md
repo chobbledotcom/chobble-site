@@ -5,7 +5,7 @@ meta_title: Google Maps Review Links & QR Code Generator | Free Tool
 meta_description: Free tool to generate Google Maps review links and QR codes - no registration needed, no data collected - Manchester web developer
 ---
 
-# Google Maps Links & QR Codes Generator
+# Google Maps links & QR codes generator
 
 I noticed that when I searched for ways to easily get links or create QR codes for Google Maps listing reviews, many of the options asked for your personal data or were iffy in some other way, so I made this little tool to help you create them.
 

@@ -7,7 +7,7 @@ order: 1
 meta_description: Charity web development at £100/hour (50% off) - transparent pricing, open source tech, no vendor lock-in - hosting from £20/month - Manchester developer
 ---
 
-# Charity Web Development
+# Charity web development
 
 **I offer charities and nonprofits a 50% discount on all my web development work** because I believe every organisation should have access to quality technology regardless of budget. I charge **£100 per hour** (half my standard rate) and provide complete transparency about what work is involved.
 

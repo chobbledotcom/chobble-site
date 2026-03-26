@@ -5,7 +5,7 @@ meta_title: How to Find Quality Backlinks for SEO | Free Guide | Chobble
 meta_description: Guide to finding quality backlinks for better Google rankings - analyse competitors, build authentic links, avoid spam - Manchester web developer
 ---
 
-# Finding Backlinks
+# Finding backlinks
 
 **Note: This article talks about Google rankings, but the same principle applies to any search engine.**
 
@@ -39,7 +39,7 @@ You should list your business on all the major UK business directories - [Yell](
 
 Next up, you might want to get listed on industry-specific national directories. This could include things like [Checkatrade](https://www.checkatrade.com/), [Rated People](https://www.ratedpeople.com/), or the directories of industry bodies. You could find these directories by Googling for 'Widget hire directory', and applying to those which are ran by trusted organisations you recognise.
 
-## Regional Business Directories
+## Regional business directories
 
 It's like that your local area has a vetted and verified directory of local businesses which you can register for. You can find these by searching Google for terms like "Prestwich directory" or "Prestwich businesses". Here are some of the results for Prestwich:
 

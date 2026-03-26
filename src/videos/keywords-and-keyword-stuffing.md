@@ -8,7 +8,7 @@ youtube_id: qVZYMInx87E
 meta_description: What keyword stuffing is and a layman's overview of how Google thinks about keywords in relation to your website
 ---
 
-# Keywords & Keyword Stuffing
+# Keywords & keyword stuffing
 
 Stop cramming keywords everywhere thinking it'll help you rank - it won't. This video explains how Google understands keywords these days (spoiler: they're clever enough to know a pizza recipe page is about making pizza without you saying it 50 times).
 

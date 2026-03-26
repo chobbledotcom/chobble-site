@@ -7,7 +7,7 @@ order: 0
 meta_description: Ruby on Rails freelancer in Manchester - custom web applications you fully own - 5 years at Bandcamp ($200m/year), 10 years at BCN - £200/hour
 ---
 
-# Ruby on Rails Freelancer
+# Ruby on Rails freelancer
 
 **send me a message through the form below if you need a freelance Ruby on Rails developer in Manchester (or anywhere, really)**
 
@@ -17,7 +17,7 @@ I've been writing web applications since 2007 - 10 years as the technical lead o
 
 I'm now a freelance Rails developer - check out [Play-Test](/examples/play-test/#content) for an example of a current project.
 
-## Why Employ Me?
+## Why employ me?
 
 I've been writing code for _ages_, for companies of all sizes. This means that whether you're a big organisation with loads of processes in place already or you're smaller and haven't really considered these things, I can advise a solution that suits your current scale and future plans.
 
@@ -25,7 +25,7 @@ I'm not afraid of gnarly or legacy codebases, server moves, or whatever else you
 
 And on the other end of the spectrum, I can help you get started from absolute scratch - setting up your infrastructure and services, planning your databases, whatever is needed.
 
-## Pricing and Support
+## Pricing and support
 
 Rails applications are more complex than static websites, but my pricing isn't - it's my standard [flat hourly rate](/prices/) of **£200 per hour (£100 for charities, artists, vegan businesses, and renewable energy companies)**.
 
@@ -33,13 +33,13 @@ You'll know exactly what you're paying for, with detailed breakdowns of time spe
 
 For hosting, I can set up your application on anything from a £5/month VPS for smaller projects to multi-server deployments for enterprise scale. My standard setup uses [NixOS](https://nixos.org/) for reproducible deployments. On top of server costs, I charge **£60 per month** (£30 if you qualify for the discount) for maintenance and support. This includes uptime monitoring, quick changes, and help when things go wrong.
 
-## You Own Everything
+## You own everything
 
 I build with open source tools - no proprietary frameworks, no "open core" gotchas, no freemium tiers. Everything is AGPLv3 licensed with nothing held back. The beauty of this approach is that you're never locked in. If you want to host the application yourself, you can - you own the complete source code and server setup. If you want to hire another developer to add features, they can - automated tests mean they won't accidentally break your checkout while adding a new report. If you want to take the project in a completely different direction, go for it - it's yours.
 
 **The rest of this page gets really into the technical nitty-gritty of how I build dynamic web applications. I've written jargon-free explanations above each nerdy paragraph - if you're not technically minded, you might want to just read those bits.**
 
-## How I Build Rails Applications
+## How I build Rails applications
 
 _**Jargon-free summary:** I use automated tests that catch mistakes before they reach your customers._
 
@@ -57,7 +57,7 @@ _**Jargon-free summary:** The application is packaged in a way that makes it run
 
 The Docker setup uses a multi-stage build to keep download sizes small, includes [supercronic](https://github.com/aptible/supercronic) for scheduled tasks like nightly backups, and runs as a non-root user. The application uses [Solid Queue](https://github.com/rails/solid_queue) for background job processing, has built-in S3-compatible storage support for file uploads, and includes error tracking with [Sentry](https://github.com/getsentry/sentry-ruby) (or the open-source [BugSink](https://github.com/bugsink/bugsink) alternative).
 
-## Why Open Source Development Benefits You
+## Why open source development benefits you
 
 _**In plain English:** I build open source systems that multiple organisations can use, which means the code gets tested in real-world conditions by real users._
 
@@ -65,7 +65,7 @@ The Play-Test system shows how this works in practice. Professional inspectors a
 
 Building in the open also means everything is transparent - you can see the code, the test results, and check if everything is working. More importantly, it means the code has to be good enough that I'm comfortable with anyone reading it. No hiding sloppy work. I can reuse proven components across projects, which saves you time and money because you're not paying me to solve the same problems twice.
 
-## What This Means For You
+## What this means for you
 
 _**Jargon-free summary:** Your application gets all these safety nets from day one, you own the code outright, and I'll reuse components I've already built so you don't pay for the same work twice._
 
@@ -79,7 +79,7 @@ I use a modular approach to save you money. Common patterns get extracted into r
 
 The internationalisation support deserves a special mention - every single user-facing string uses `I18n`, with no hard-coded text anywhere. This might seem like overkill for an English-only application, but it enforces good separation of concerns and makes the application much easier to maintain. Plus, if you ever need to support Welsh, French, or Esperanto, the infrastructure is already there waiting.
 
-## Development Process
+## Development process
 
 _**Jargon-free summary:** You can watch progress in real-time, changes won't break what's already working, and updates go live in minutes not days._
 
@@ -89,7 +89,7 @@ As I build, I write tests alongside the code - every new feature gets tests that
 
 Code reviews happen automatically - the pipeline runs 10+ different checks on every change, catching issues a human reviewer might miss. Once code passes all checks, it deploys automatically. No waiting for Friday afternoon deployment windows, no forgetting to run migrations.
 
-## Infrastructure That Actually Works
+## Infrastructure that actually works
 
 _**Jargon-free summary:** Your code and data are backed up in multiple places, you get 10GB of storage included, and everything runs on servers powered by renewable energy._
 

@@ -7,7 +7,7 @@ order: 1
 meta_description: Escape expensive hosting - migrate from Wix, WordPress, Squarespace - hosting from £10/month or free - keep the same look - Manchester web developer
 ---
 
-# Escape Expensive Website Hosting
+# Escape expensive website hosting
 
 If your website looks fine but you're paying too much to keep it online - or you're frustrated with a platform that's hard to leave - I can help you move.
 

@@ -7,7 +7,7 @@ order: 7
 colour: "#ebe3d8"
 ---
 
-# Dynamic to Static Website Conversion
+# Dynamic to static website conversion
 
 - **Client:** A&S Home Furnishings
 - **Services:** Website migration and hosting
@@ -20,7 +20,7 @@ My brother [Kevin](https://kevinburkeservices.com) had worked with Andy and Sall
 
 The were paying for quite expensive hosting for their CMS website, even though its content very rarely changed and the contact form didn't load properly. I proposed migrating their website to an Eleventy static site, which I would host on Bunny for them at [a low monthly cost](/prices/), with my brother handling support.
 
-## The Migration Process
+## The migration process
 
 **Backing up the existing site:** I used the venerable `wget` to download a full archive of the existing site, with links fixed and all assets included, using a command like the one described on [this page](https://dheinemann.com/archiving-a-website-with-wget/) which gives a great explanation of what these options mean:
 
@@ -44,7 +44,7 @@ This resulted in Markdown files that were _mostly_ good but needed a bit of tidy
 
 **DNS switching:** I helped Andy get set up with a Krystal account, and the I helped migrate his domain into it. Combining this with the open souce website I made means A&S now have full control over their web presence, now and forever.
 
-## The Results
+## The results
 
 The new site is super fast, very reliable, and its hosting is cheap at just £10 per month. It can be edited through the Forgejo web interface by changing simple text files, although A&S handle all maintenance of the site through Kevin, which means they don't have to learn anything technical.
 

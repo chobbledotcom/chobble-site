@@ -7,7 +7,7 @@ meta_description: Restaurant web design Manchester - no PDF menus, easy updates,
 order: 2
 ---
 
-# Restaurant Web Design
+# Restaurant web design
 
 **Running a restaurant is hard enough without your website giving you grief.** You need something that shows your menu, hours and location as straightforwardly as possible. This means cutting back on the animations, heavy graphics, and PDFs that won't open on phones - making it as easy as poss for hungry customers to find what they need.
 

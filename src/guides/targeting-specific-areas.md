@@ -13,7 +13,7 @@ This guide will show you how to properly target specific areas, using techniques
 
 You won't need any technical knowledge or paid tools, just the ability to edit your website's content and a willingness to do the work.
 
-# Targeting Specific Areas
+# Targeting specific areas
 
 If you run a service business you should aim to appear in Google when people search for your service areas.
 

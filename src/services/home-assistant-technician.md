@@ -7,7 +7,7 @@ order: 10
 meta_description: Home Assistant expert in Prestwich - setup, dashboards, automations, device integration - migrate from proprietary systems - API development - 50% off for charities
 ---
 
-# Home Assistant Setup & Support
+# Home Assistant setup & support
 
 I've been running Home Assistant for years managing a complex home automation setup, and I can help you get started with it, migrate from proprietary systems, or expand what you're already doing with custom integrations and automations.
 

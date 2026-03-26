@@ -8,7 +8,7 @@ youtube_id: 5rMfU7EOdKg
 meta_description: AI can be really useful for automating tasks on your website like analysing content or researching for social media
 ---
 
-# Automating Things with AI
+# Automating things with AI
 
 AI's really useful for automating boring website tasks if you know what you're doing. This video shows practical examples like feeding your sitemap to AI and having it check every page for missing meta descriptions or dodgy titles - what would take hours done in seconds.
 

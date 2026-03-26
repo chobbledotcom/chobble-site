@@ -7,7 +7,7 @@ meta_title: Principles | Chobble | Web & Ruby Developer Manchester
 meta_description: Manchester web dev with 20+ years building sites from local charities to Bandcamp - open source everything, flat rate pricing, you own your code - no sneaky contracts
 ---
 
-# Chobble's Principles
+# Chobble's principles
 
 This business works to a set of straightforward principles:
 

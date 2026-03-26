@@ -7,17 +7,17 @@ order: 2
 meta_description: Tech advice without the waffle - websites, hosting, backups, open source alternatives - 20+ years experience - Prestwich consultant - free initial chat
 ---
 
-# Technical Consultancy in Prestwich
+# Technical consultancy in Prestwich
 
 I've been working with websites for over 20 years and have seen just about every technical problem a business might face. From quick fixes like sorting out DNS records for your domain, to bigger projects like rewriting outdated systems or speeding up sluggish websites - I can help.
 
 I give practical advice in plain English without pushing you toward expensive solutions you don't need. My clients appreciate having someone who can translate tech speak into clear guidance that makes sense for their business.
 
-## What I Can Help With
+## What I can help with
 
 <div class="card margins">
 
-### 💻 Website & Hosting Advice
+### 💻 Website & hosting advice
 
 I can help you understand your options and make smart choices about:
 
@@ -31,7 +31,7 @@ I can help you understand your options and make smart choices about:
 
 <div class="card margins">
 
-### 🔧 Technical Support & Strategy
+### 🔧 Technical support & strategy
 
 Beyond websites, I can assist with:
 
@@ -45,7 +45,7 @@ Beyond websites, I can assist with:
 
 <div class="card margins">
 
-### ✅ Recent Success Stories
+### ✅ Recent success stories
 
 My advice has helped clients:
 
@@ -56,7 +56,7 @@ My advice has helped clients:
 - Find affordable alternatives to expensive software subscriptions
 </div>
 
-## Practical, Honest Advice
+## Practical, honest advice
 
 I won't bamboozle you with jargon or push you toward services you don't need. If I already know the answer to your question, I'll just tell you - no charge. For more involved issues, I charge a [flat hourly rate](/prices/) with no hidden costs.
 

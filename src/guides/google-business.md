@@ -19,7 +19,7 @@ The businesses it lists are all local to me in North Manchester. Google knows I'
 
 Getting a Google Business listing is pretty straightforward. Verifying can be pretty time consuming, but it's nothing too tricky. And as long as your details are accurate, you shouldn't have any huge problems. So, let's get stuck in!
 
-## Google Business Profile Setup
+## Google Business profile setup
 
 So to sign up for Google business, just like any other Google product, you're going to need a Google account. You've probably got a Google account, because you'll need one for YouTube, for an Android phone, for using Google Maps, or for using any Google services. If you haven't got one, you should probably get one - you'll also need one for Google Search Console, which I cover in [my other guide](/guides/google-search-console/).
 
@@ -39,13 +39,13 @@ Google will ask you to sign up for Google ads - you should skip this, probably. 
 
 It'll also ask you if you want to create a Google Workspace account, which is Google's paid web hosting and email address system. You don't need to do this, so you can click "Skip".
 
-## Verifying Your Listing
+## Verifying your listing
 
 None of these steps will be too complicated or technical, although as I mentioned before it can be a bit of a pain to get "verified". There are a few ways that your business can be verified - Google will use an algorithm to decide which it's going to use for your business. I would imagine that this will take into account things like [Companies House](https://www.gov.uk/government/organisations/companies-house) records, or Google's existing idea of where your business is and its location.
 
 In the worst case, they can send you a postcard in the post, and the postcard will contain a code that you need to enter to verify your address, which can take a few days, but otherwise it'll should be just a day or two maximum to verify your business. And it might even be immediate - I'm not too experienced with the verification process to be fair.
 
-## Filling Out Your Profile
+## Filling out your profile
 
 The first link on the [Google Business page](https://business.google.com) is to edit the details about your business - your business name, your category, your description, opening date, contact details, website address, all that sort of stuff. You should fill in as much of this as you possibly can.
 
@@ -53,7 +53,7 @@ You should especially make sure that your **Service Areas** are filled in becaus
 
 If you run a restaurant, a cafe, or any type of shop, there's a whole bunch of details that you could fill in about the various ways that your business operates.
 
-## Reading and Replying to Reviews
+## Reading and replying to reviews
 
 Next up, we've got read reviews where you can see the reviews that people have left on your business. It can be quite a nice touch to reply to your reviews, and you should especially reply if you get a negative review and you think that it's unfounded because I think it's worth raising that in your Google business listing.
 
@@ -81,7 +81,7 @@ You can list the various services that your company provides. You want to make s
 
 If you've got a booking system, you can add a link to it here, which will allow customers to book directly through it. You can also just link it to your "contact" page if you haven't got a booking system.
 
-## Questions & Answers
+## Questions & answers
 
 Visitors or you can ask questions of the business and then you can leave a response as the answer - and visitors can even leave a response. You can use this to answer common questions like pricing, services, or opening hours before customers even visit your website.
 
@@ -95,7 +95,7 @@ You might post about a new service that you've got, or a new product that you're
 
 I know it can feel sometimes like there's a million places to keep up to date - and there kinda is. Sorry about that!
 
-## Ask For Reviews
+## Ask for reviews
 
 This page gives you a little code that you can give to someone that'll immediately take them through to the place where they can leave a review for your business. Bizarrely, it lets me leave a review for my own business - five stars! You can also share a QR code here that'll link people straight through to your Google Maps listing for them to leave a review.
 
