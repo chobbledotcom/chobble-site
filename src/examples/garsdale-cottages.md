@@ -22,15 +22,15 @@ Garsdale Cottages is a cooperative of two holiday lets in Garsdale, a quiet vall
 
 Sykes Cottages make it very easy to get started - you hand over your listing and they handle everything. But that convenience comes at a serious cost. Sykes charge opaque fees that are difficult to understand, and they opted both properties into automatic "competitive pricing" systems that the owners hadn't asked for and didn't want. This meant prices could be adjusted without the owners' knowledge or agreement, leading to bookings they felt weren't worth taking.
 
-It gets worse. Sykes integrate with platforms like Booking.com and Airbnb, but they add their own commission on top of whatever those platforms already charge. So for a booking that comes through Booking.com, the property owner is paying Booking.com's percentage *and* Sykes' percentage - a double cut from every booking. Both cottage owners regularly struggled to understand what they were actually being charged, and the pricing model felt designed to be confusing.
+The income per-guest could vary wildly - Sykes integrate with platforms like Booking.com and Airbnb, but they add their own commission on top of whatever those platforms already charge. So for a booking that comes through Booking.com, the property owner is paying Booking.com's percentage *and* Sykes' percentage - a double cut from every booking. Both cottage owners regularly struggled to understand what they were actually being charged, and the pricing model felt designed to be confusing.
 
-The real kicker? When we looked at where the bookings were actually coming from, nearly all of them were arriving via Booking.com anyway. Sykes weren't generating the bookings - they were just passing through Booking.com traffic and taking an extra percentage for the privilege. The owners were paying two sets of fees for what was essentially one service.
+And when we looked at where the bookings were actually coming from, nearly all of them were arriving via Booking.com anyway. Sykes weren't generating the bookings - they were just passing through Booking.com traffic and taking an extra percentage for the privilege. The owners were paying two sets of fees for what was essentially one service.
 
 But escaping felt daunting. Running your own website, handling your own bookings, managing availability across multiple platforms - it all seemed overwhelmingly complex. That's where I came in.
 
 ## My solution
 
-I built the Garsdale Cottages site using the [Chobble Template](/services/chobble-template/), my free and open source website template for small businesses. The template already had a "properties" collection system designed for holiday lets, so we could get the two cottages listed quickly with photo galleries, amenity lists, guest reviews, and enquiry forms.
+I built the Garsdale Cottages site using the [Chobble Template](/services/chobble-template/), my free and open source website template for small businesses. I built a new "properties" collection system for this project, reusing plenty of the template's existing infrastructure for collections, galleries, and content management. The properties system is now built into the Chobble Template for anyone to use - complete with photo galleries, amenity lists, guest reviews, and enquiry forms.
 
 The big question was bookings. I initially started building a Google Calendar integration to handle availability and reservations, but then I discovered [FreeToBook](https://www.freetobook.com/) - a booking system for holiday lets that charges a flat fee of just £1.50 per booking. That's it. No percentages, no hidden charges, no opaque pricing models. FreeToBook also offers built-in integrations with Booking.com, Airbnb, Google Hotels, and more - so both properties can still be listed on those platforms, but directly, without a middleman skimming an extra cut.
 
@@ -42,7 +42,7 @@ The result is that both cottages are now listed on Booking.com, Airbnb, and Goog
 
 This site makes extensive use of the [Chobble Template](/services/chobble-template/)'s "blocks" layout system. Instead of plain markdown pages, the homepage and content pages are built from structured content blocks - hero images, feature cards, section headers, split layouts, and more - all defined in simple YAML. This was the first site to really push the blocks system, and it means pages like the [Things To Do](https://www.garsdalecottages.co.uk/things-to-do/) and [Walks](https://www.garsdalecottages.co.uk/walks/) guides are visually interesting and easy to browse, rather than just walls of text.
 
-The content for these pages came from the cottage owners themselves. I asked them to give me big dumps of information about the local area - walks, wildlife, red squirrels, nearby towns, rainy day activities - and we compiled it all into rich, well-structured pages. I used AI to help find references, backlinks, and to tidy the raw information into polished copy. The result is a proper destination guide that gives visitors genuine reasons to book.
+The content for these pages came from the cottage owners themselves. I asked them to give me big dumps of information about the local area - walks, wildlife, red squirrels, nearby towns, rainy day activities - and we compiled it all into rich, well-structured pages. I used AI to help find references, backlinks, and to tidy the raw information into polished copy. The aim is to depict Garsdale as the stunning holiday destination it is, using real knowledge from people who live there and love it.
 
 ## Editing and ownership
 
@@ -66,7 +66,7 @@ For context, that £800 one-off cost is probably less than what both properties 
 - **Properties collection** with photo galleries, amenity lists, and guest reviews
 - **Schema.org** structured data for search engine visibility
 - Hosted on **Bunny CDN** for fast global loading
-- **Lighthouse scores:** 83 performance, 96 accessibility, 96 best practices, 100 SEO
+- Excellent **Lighthouse scores** for performance, accessibility and SEO
 
 ## Sounds familiar?
 
