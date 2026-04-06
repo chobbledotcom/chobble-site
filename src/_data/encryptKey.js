@@ -3,9 +3,9 @@
  *
  * Generates a single key per build. Available in templates as {{ encryptKey }}.
  */
-const { generateKeyText } = require("../_lib/aes-encrypt");
+const { getKeyText } = require("../_lib/encrypt-emails");
 
-const keyText = generateKeyText();
+const keyText = getKeyText();
 
 module.exports = function () {
   return keyText;
