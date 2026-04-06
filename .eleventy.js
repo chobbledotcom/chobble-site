@@ -2,6 +2,7 @@ const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { configureScss } = require("./src/_lib/scss");
 const { configureScssFiles } = require("./src/_lib/scss-files");
+const { encryptEmailsInHtml } = require("./src/_lib/encrypt-emails");
 
 module.exports = async function (eleventyConfig) {
   const { EleventyRenderPlugin } = await import("@11ty/eleventy");
@@ -54,6 +55,14 @@ module.exports = async function (eleventyConfig) {
   // Add RFC 822 date filter for RSS feed
   eleventyConfig.addFilter("dateToRfc822", function (date) {
     return new Date(date).toUTCString();
+  });
+
+  // Encrypt mailto: links at build time
+  eleventyConfig.addTransform("encryptEmails", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      return encryptEmailsInHtml(content);
+    }
+    return content;
   });
 
   // Configure SCSS
