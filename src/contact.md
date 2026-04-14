@@ -15,4 +15,4 @@ meta_description: Get in touch with Prestwich web developer - phone, email, What
 
 **Local to Prestwich?** Let's meet over coffee — I'm happy to discuss your project face-to-face.
 
-Find me on [Social Enterprise Directory](https://www.socialenterprisedirectory.org) and [Good Market](https://goodmarket.global).
+Find me on [Social Enterprise Directory](https://directory.socialenterprise.org.uk/s/detail/001PK00000nT5T8YAK) and [Good Market](https://www.goodmarket.global/chobble).
