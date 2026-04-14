@@ -230,8 +230,6 @@ Ready? Let's goooo!
   };
   
   document.addEventListener('DOMContentLoaded', initCheckatradeTool);
-  document.addEventListener('turbo:load', initCheckatradeTool);
-  document.addEventListener('turbo:before-cache', cleanupCheckatradeTool);
 })();
 </script>
 
