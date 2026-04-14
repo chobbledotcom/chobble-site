@@ -16,7 +16,7 @@ Whether you need a [new website](/services/static-websites/#content), a [custom 
 
 **Transparent pricing:** I charge a [flat hourly rate](/prices/) for all jobs, with a clear breakdown of what each hour covers. No hidden fees, no surprise invoices.
 
-**Fast sites, low running costs:** I build websites that load quickly on any device, which helps you rank better on Google and keeps your hosting costs low - often under £10 per month.
+**Fast sites, low running costs:** I build websites that load quickly on any device, giving you a strong technical foundation for search and keeping your hosting costs low - often under £10 per month for typical brochure sites.
 
 **Works for everyone:** I build sites that are easy to use on phones, tablets, and desktops, and accessible to visitors with visual impairments.
 
