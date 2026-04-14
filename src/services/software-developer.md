@@ -13,7 +13,7 @@ meta_description: Freelance software developer in Prestwich, Manchester - 20 yea
 
 I'm Stef, based in Prestwich, Manchester, with over 20 years of experience. I've built systems handling over $200 million annually at [Bandcamp.com](https://bandcamp.com), and grew a booking system from startup to 1,200 customers at [Bouncy Castle Network](https://www.bouncycastlenetwork.com). I'm now available for freelance work across Greater Manchester and remotely worldwide.
 
-Everything I build is based on my open source tools and templates (AGPLv3 licensed, no "open core" catches). You get the complete source code via GitHub - though your repository can be private if you prefer. You can hire another developer to work on it, host it yourself, or take it in a completely different direction. No lock-in, no mysterious annual fees.
+Everything I build is based on my open source tools and templates (AGPLv3 licensed, no free-but-restricted versions that later force you to upgrade). You get the complete source code via GitHub - though your code can stay private to your organisation if you prefer. You can hire another developer to work on it, host it yourself, or take it in a completely different direction. No lock-in, no mysterious annual fees.
 
 ## What I can build for you
 

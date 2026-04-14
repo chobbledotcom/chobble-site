@@ -23,7 +23,7 @@ faqs:
   - q: Can I self-host it instead?
     a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. The recommended setup runs on Bunny.net, but you can also deploy via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno-compatible host. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
   - q: How secure is my attendee data?
-    a: "All personal information is encrypted at rest using industry-standard encryption. Only authenticated admins with the private key can decrypt it. Even if the database were compromised, personal data is designed to stay protected. Passwords are securely hashed. The system also uses cross-site request security, rate limiting (5 failed logins trigger a 15-minute IP lockout), constant-time password comparison, and session tokens are hashed before storage."
+    a: "All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption. Only authenticated admins with the private key can decrypt it. Even if the database were compromised, personal data is designed to stay protected. Passwords are hashed with PBKDF2 (600,000 iterations). The system also uses CSRF protection, rate limiting (5 failed logins trigger a 15-minute IP lockout), constant-time password comparison, and session tokens are hashed before storage."
 ---
 
 # Chobble Tickets
@@ -204,7 +204,7 @@ A **public HTTP API returning JSON data** is available for listing events, check
 
 ### Encryption
 
-All personal information (names, emails, phone numbers, addresses) is stored in an encrypted block using **industry-standard encryption**. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information is designed to stay protected. Payment IDs and API keys are also encrypted. The system includes **rate limiting** (5 failed logins trigger a 15-minute IP lockout), cross-site request security via double-submit cookies, and content-type validation on all POST endpoints.
+All personal information (names, emails, phone numbers, addresses) is encrypted at rest using **hybrid RSA-OAEP + AES-256-GCM encryption**. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information is designed to stay protected. Payment IDs and API keys are also encrypted with AES-256-GCM. The system includes **rate limiting** (5 failed logins trigger a 15-minute IP lockout), CSRF protection via double-submit cookies, and content-type validation on all POST endpoints.
 
 </div>
 

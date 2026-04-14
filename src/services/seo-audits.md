@@ -15,7 +15,7 @@ I have worked for businesses of all sizes, from fresh startups with zero sales t
 
 I can do an SEO audit of your existing website and give you a list of tasks to help improve your rankings and attract more visitors.
 
-Like all of my services, I charge a [flat hourly rate](/prices/) and will tell you exactly what we I do for that hour. You can choose to employ as much or as little of my services as you like.
+Like all of my services, I charge a [flat hourly rate](/prices/) and will tell you exactly what I do for that hour. You can choose to employ as much or as little of my services as you like.
 
 ## Full site SEO audits
 
