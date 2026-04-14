@@ -23,7 +23,7 @@ faqs:
   - q: Can I self-host it instead?
     a: "Absolutely. The code is [on GitHub](https://github.com/chobbledotcom/tickets/) under the AGPL licence. The recommended setup runs on Bunny.net, but you can also deploy via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno-compatible host. The README walks you through setup. Self-hosting is completely free, and you just handle your own infrastructure."
   - q: How secure is my attendee data?
-    a: "All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption. Only authenticated admins with the private key can decrypt it. Even if the database were compromised, personal data stays protected. Passwords are hashed with PBKDF2 (600,000 iterations). The system also uses CSRF protection, rate limiting (5 failed logins trigger a 15-minute IP lockout), constant-time password comparison, and session tokens are hashed before storage."
+    a: "All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption. Only authenticated admins with the private key can decrypt it. Even if the database were compromised, personal data is designed to stay protected. Passwords are hashed with PBKDF2 (600,000 iterations). The system also uses CSRF protection, rate limiting (5 failed logins trigger a 15-minute IP lockout), constant-time password comparison, and session tokens are hashed before storage."
 ---
 
 # Chobble Tickets
@@ -108,7 +108,7 @@ Every ticket gets a unique URL and QR code. At the door, your staff or volunteer
 
 ### No overbooking
 
-The system uses "atomic" capacity checks, which means two people can't grab the last ticket at the same time. Tickets are reserved for five minutes for the visitor to complete their sale. If someone finishes paying after the event fills up, they're automatically refunded.
+The system is designed to prevent overbooking — two people can't grab the last ticket at the same time. Tickets are reserved for five minutes for the visitor to complete their sale. If someone finishes paying after the event fills up, they're automatically refunded.
 
 ### Standard & daily events
 
@@ -140,7 +140,7 @@ Don't have a website? Enable the **built-in public site** to get a homepage, eve
 
 ### Embedding
 
-Already have a website? Embed booking forms into it using the provided **embed script** or **iframe code**. You configure which domains are allowed to embed your forms via **CSP frame-ancestors** in the settings.
+Already have a website? Embed booking forms into it using the provided **embed script** or **iframe code**. You configure which domains are allowed to embed your forms via **embedding security controls** in the settings.
 
 ### CSVs & webhooks
 
@@ -148,7 +148,7 @@ You can download your full attendee list as a CSV file whenever you like, with f
 
 ### Email confirmations
 
-Attendees get a simple confirmation email when they book with a link to their ticket, and admins get notified of each registration too. The system supports five email provider options: **Resend**, **Postmark**, **SendGrid**, **Mailgun US**, and **Mailgun EU**. Email templates use **Liquid syntax** with built-in filters for currency and pluralisation, and you can customise the subject, HTML, and text body. Email is optional - the system works fine without it.
+Attendees get a simple confirmation email when they book with a link to their ticket, and admins get notified of each registration too. The system supports five email provider options: **Resend**, **Postmark**, **SendGrid**, **Mailgun US**, and **Mailgun EU**. Email templates use **simple placeholders** with built-in filters for currency and pluralisation, and you can customise the subject, HTML, and text body. Email is optional - the system works fine without it.
 
 ### Invite managers
 
@@ -200,11 +200,11 @@ The system provides an **ICS calendar feed** at `/feeds/events.ics` and an **RSS
 
 ### Public API
 
-A **RESTful JSON API** is available for listing events, checking availability, and creating bookings programmatically. The API is CORS-enabled and doesn't require an API key, making it easy to integrate with other tools or build custom frontends.
+A **public HTTP API returning JSON data** is available for listing events, checking availability, and creating bookings programmatically. The API is CORS-enabled and doesn't require an API key, making it easy to integrate with other tools or build custom frontends.
 
 ### Encryption
 
-All personal information (names, emails, phone numbers, addresses) is stored in an encrypted **PII blob** using **hybrid RSA-OAEP + AES-256-GCM encryption**. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information stays protected. Payment IDs and API keys are also encrypted with AES-256-GCM. The system includes **rate limiting** (5 failed logins trigger a 15-minute IP lockout), CSRF protection via double-submit cookies, and content-type validation on all POST endpoints.
+All personal information (names, emails, phone numbers, addresses) is encrypted at rest using **hybrid RSA-OAEP + AES-256-GCM encryption**. Only authenticated administrators with the private key can decrypt it, so it can't be read from the database directly. Even in the unlikely event of a data breach, personal information is designed to stay protected. Payment IDs and API keys are also encrypted with AES-256-GCM. The system includes **rate limiting** (5 failed logins trigger a 15-minute IP lockout), CSRF protection via double-submit cookies, and content-type validation on all POST endpoints.
 
 </div>
 
@@ -214,7 +214,7 @@ All personal information (names, emails, phone numbers, addresses) is stored in 
 
 **[View a live demo ticket →](https://tix.chobble.com/)** | **[Read more about Chobble Tickets →](https://tickets.chobble.com)**
 
-The platform runs on [Bunny Edge Scripting](https://bunny.net/), a global edge network, so it loads fast for your attendees no matter where they are. It can also be deployed via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno environment. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a high-traffic festival launch equally well. Atomic capacity checks mean no overbooking even under heavy load.
+The platform runs on a [fast global hosting network](https://bunny.net/), so it loads fast globally. It can also be deployed via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno environment. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a busy event launch. The system is designed to prevent overbooking even under heavy load.
 
 </div>
 

@@ -27,7 +27,7 @@ If you rarely update your site, this is often the smartest move. And if you do n
 
 **Much cheaper hosting.** You can host for free on services like Cloudflare Pages or Netlify, or pay very little elsewhere - including with me.
 
-**Faster for your visitors.** Pages are ready to go, so they load almost instantly. Faster sites also rank better on Google.
+**Faster for your visitors.** Pages are ready to go, so they load fast — typically under a second. Faster sites also give you a stronger foundation for ranking on Google.
 
 **Nothing to maintain.** No software updates, no plugins to patch, no server to manage. Your hosting provider keeps everything online for you.
 

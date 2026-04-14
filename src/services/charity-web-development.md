@@ -11,18 +11,18 @@ meta_description: Charity web development at £100/hour (50% off) - transparent 
 
 **I offer charities and nonprofits a 50% discount on all my web development work** because I believe every organisation should have access to quality technology regardless of budget. I charge **£100 per hour** (half my standard rate) and provide complete transparency about what work is involved.
 
-I've been working with charities and community organisations for over a decade, helping them establish professional online presences that serve their communities effectively.
+I've been supporting charities like Blue Pits Housing Action and Freehold Cottage for over a decade, helping them establish professional online presences that serve their communities effectively.
 
 ## Why charities benefit from open source
 
-I build with open source tools rather than proprietary platforms. There are no "open core" gotchas or freemium tiers - everything is fully open and unencumbered. This means:
+I build with open source tools rather than proprietary platforms. There are no free-but-restricted versions that later force you to upgrade - everything is fully open and unencumbered. This means:
 
 - **You own everything** - you get the full source code via GitHub, and can take it to another developer anytime
 - **No licence fees** - the tools are free, you just pay for the work
 - **No lock-in** - host anywhere, modify anything, leave whenever you want
 - **Widely supported** - thousands of developers know these tools, so you're never dependent on one person
 - **Proven and reliable** - the same tools used by millions of organisations worldwide
-- **Privacy is your choice** - my tools and templates are public, but your website's repository can be private if you prefer
+- **Privacy is your choice** - my tools and templates are public, but your website's code can stay private to your organisation if you prefer
 
 This approach aligns with charity values: transparency, community benefit, and making the most of limited budgets.
 
@@ -48,11 +48,13 @@ Monthly hosting is **£20** (50% off) for unlimited static sites, or from **£30
 
 ## What you get
 
-I provide ongoing support long after your site launches. Content updates typically go live within 24 hours - just email me the changes. I help with GDPR compliance, cost-saving opportunities, and technical decisions, always focused on what best serves your organisation.
+I provide ongoing support long after your site launches. I aim to publish content updates within one working day whenever possible — just email me the changes (larger changes or updates sent over weekends may take a little longer). I can advise on web-related GDPR considerations, cost-saving opportunities, and technical decisions, always focused on what best serves your organisation.
+
+To keep things running smoothly, I'll need timely content and decisions from your team — the quicker you can provide text and images, the faster your site comes together.
 
 Your site will be:
 - **Fast** - clean code that loads quickly
-- **Accessible** - meeting WCAG2 guidelines for disabled users
+- **Accessible** - designed with accessibility best practices in mind, aligned with WCAG2
 - **Secure** - regular backups, maintained software
 - **Easy to update** - simple process for making changes
 - **Properly owned** - you get all the source code
@@ -72,6 +74,8 @@ I donate 10% of my income to charity, so your money goes further than just getti
 **[Crumpsall Folk Club](/examples/crumpsall-folk-club/)** - Not a charity but a nonprofit community group that needed an affordable way to share events and build a mailing list without depending on Facebook. Built on Ghost CMS for easy self-management.
 
 Each of these organisations benefits from having full control of their website, transparent costs, and responsive support when they need changes.
+
+If you also run events, [Chobble Tickets](/services/tickets/) offers flat-fee ticketing at charity rates.
 
 ## No surprises, no lock-in
 

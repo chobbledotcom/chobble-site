@@ -151,6 +151,8 @@ Sometimes it's easier to explain WordPress's possibilities face-to-face, especia
 
 For Manchester businesses, you get a developer who understands the local market and can provide ongoing support without timezone hassles. Check out my other [Prestwich-focused services](/prestwich/#content) if you're local.
 
+If you also run events, [Chobble Tickets](/services/tickets/) offers flat-fee ticketing with no per-ticket charges.
+
 ## Ready to get started?
 
 Let's build a WordPress site that works properly.

@@ -7,18 +7,12 @@ meta_description: Get in touch with Prestwich web developer - phone, email, What
 
 # Get in touch
 
-It's easy to get in touch with me:
+**Quickest response:** Fill in the form below and I'll reply within 48 hours.
 
-<div class="emoji-list" markdown>
+**Prefer to talk?** Call or text: [07441 125 952](tel:+447441125952)
 
-- ☎️ [**Phone** on 07441 125 952](tel:+447441125952)
-- 📨 [**Email** at hello@chobble.com](mailto:hello@chobble.com)
-- 📱 [**WhatsApp** message](https://wa.me/message/EQIAROIMOOZPH1)
-- 🖼️ [**Facebook** message](https://www.facebook.com/ChobbleDotCom)
-- 💙 [**Signal** message](https://signal.me/#eu/V-Vqw0HT-W4afWSe7-eHk5tQPsfHmdyH27f1dxptIIb21UtA18xGeYah4BC0g3tO)
-- 📺 [**YouTube** channel](https://www.youtube.com/@ChobbleDotCom)
-</div>
+**Other ways to reach me:** [WhatsApp](https://wa.me/message/EQIAROIMOOZPH1) · [Signal](https://signal.me/#eu/V-Vqw0HT-W4afWSe7-eHk5tQPsfHmdyH27f1dxptIIb21UtA18xGeYah4BC0g3tO) (encrypted) · [Email](mailto:hello@chobble.com)
 
-I'm also up for **face to face meetings** over a coffee if you're in Prestwich or nearby towns.
+**Local to Prestwich?** Let's meet over coffee — I'm happy to discuss your project face-to-face.
 
-Or drop a message through the form below and I'll reply within 48 hours:
+Find me on [Social Enterprise Directory](https://www.socialenterprisedirectory.org) and [Good Market](https://goodmarket.global).

@@ -4,7 +4,7 @@ meta_title: Fast, Affordable Websites | Prestwich, Manchester | Chobble
 description: Websites that load quickly, cost very little to host, and that you can edit yourself.
 snippet: Fast, affordable websites you can edit yourself
 order: -1
-meta_description: Fast websites that load instantly, cost under £10/month to host, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
+meta_description: Fast websites that load in under a second, cost under £10/month to host, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
 ---
 
 # Fast, affordable websites you own
@@ -13,9 +13,13 @@ meta_description: Fast websites that load instantly, cost under £10/month to ho
 
 Platforms like WordPress, Wix, and Squarespace are designed to do everything, but most businesses only need a fraction of what they offer. The result? Websites that are slow to load, expensive to host, and hard to leave when you want to.
 
-I take a different approach. I build clean, fast, mobile-friendly websites tailored to your business. Because they're built efficiently, they **load almost instantly**, **cost very little to host** (often under £10/month), and **you own all the code** - so you're never locked in.
+I take a different approach. I build clean, fast, mobile-friendly websites tailored to your business. Because they're built efficiently, they **load fast** (pages feel instant once you're browsing, thanks to background preloading), **cost very little to host** (often under £10/month for typical small brochure sites), and **you own all the code** - so you're never locked in.
 
-I use a modern web development tool called Eleventy to build these sites, but what matters to you is the result: a website that loads fast, ranks well on Google, and is easy to update.
+You don't need to be technical — if you can edit a document, you can update your site.
+
+If you're a charity or co-op, see my [Charity Web Development](/services/charity-web-development/) page for 50% discounted rates on the same type of sites.
+
+I build these sites with Eleventy, a modern static site tool, so pages are lean and fast — but what matters to you is the result: a website that loads fast, gives you a solid technical foundation for search, and is easy to update.
 
 **Some examples:**
 
@@ -82,6 +86,8 @@ Like every job, I provide estimates and charge a [flat hourly rate](/prices/) wi
 **[Use my static website price calculator to figure out how much your website build will cost](/price-calculator/#content)**
 
 Not all of these stages will be necessary for every site, and you might be able to do some yourself - and I'll be there to guide you if you do.
+
+If you also run events, this pairs well with [Chobble Tickets](/services/tickets/) for flat-fee ticketing. If you prefer a DIY route, the [Chobble Template](/services/chobble-template/) is the open-source base many of these sites use.
 
 ## Let's do it!
 

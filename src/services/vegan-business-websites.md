@@ -65,6 +65,8 @@ My expertise is websites, but through Vegan Prestwich I've learned what works on
 
 </details>
 
+If you also run events, [Chobble Tickets](/services/tickets/) offers flat-fee ticketing at the same discounted rates.
+
 ## Ready to get started?
 
 **Use the contact form below to get in touch and I'll get back to you within a day or so.**
