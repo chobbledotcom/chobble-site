@@ -4,7 +4,7 @@ meta_title: Fast, Affordable Websites | Prestwich, Manchester | Chobble
 description: Websites that load quickly, cost very little to host, and that you can edit yourself.
 snippet: Fast, affordable websites you can edit yourself
 order: -1
-meta_description: Fast websites that load in under a second, cost under £10/month to host, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
+meta_description: Fast websites that load in under a second, hosted from £10/month (£5 for charities) without support, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
 ---
 
 # Fast, affordable websites you own
@@ -13,7 +13,7 @@ meta_description: Fast websites that load in under a second, cost under £10/mon
 
 Platforms like WordPress, Wix, and Squarespace are designed to do everything, but most businesses only need a fraction of what they offer. The result? Websites that are slow to load, expensive to host, and hard to leave when you want to.
 
-I take a different approach. I build clean, fast, mobile-friendly websites tailored to your business. Because they're built efficiently, they **load fast** (pages feel instant once you're browsing, thanks to background preloading), **cost very little to host** (often under £10/month for typical small brochure sites), and **you own all the code** - so you're never locked in.
+I take a different approach. I build clean, fast, mobile-friendly websites tailored to your business. Because they're built efficiently, they **load fast** (pages feel instant once you're browsing, thanks to background preloading), **cost very little to host** (I can host typical small brochure sites for **£10/month**, or **£5/month** for charities and other discounted groups - no support included; see my [prices page](/prices/#content) for managed hosting with support), and **you own all the code** - so you're never locked in.
 
 You don't need to be technical — if you can edit a document, you can update your site.
 
