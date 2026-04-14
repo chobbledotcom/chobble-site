@@ -92,7 +92,7 @@
       for (var idx = 0; idx < links.length; idx++) {
         (function (link) {
           Promise.all([
-            decrypt(link.getAttribute("href"), key),
+            decrypt(link.getAttribute("href").replace(/^#/, ""), key),
             decrypt(link.textContent, key),
           ]).then(function (results) {
             link.setAttribute("href", results[0]);
