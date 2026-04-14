@@ -37,7 +37,7 @@ But if you want the real technical specs, here they are:
 - The site is edited through the **Forgejo web interface** - I wrote a README file to guide the business around the pages they need to edit.
 - The actions use a **Nix Flake** to build the site. This means the "environment" is the same every time, so system upgrades can't accidentally break anything.
 - The site uses **minimal CSS** via SCSS with no complicated frameworks.
-- The only JavaScript is on the contact form (for spam protection) and **Turbo** used for instant page loads - contact form aside, the site works fine without JS.
+- The only JavaScript is on the contact form (for spam protection) and **[instant.page](https://instant.page/)** for link prefetching on hover - contact form aside, the site works fine without JS.
 
 You can view all of this yourself by [clicking here to view the site's source code](https://git.chobble.com/hosted-by-chobble/avo-coffee).
 

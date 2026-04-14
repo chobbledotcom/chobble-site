@@ -146,8 +146,6 @@ These prices are also **discounted 50%** for charities, co-operatives, artists, 
     };
 
     document.addEventListener('DOMContentLoaded', initCalculator);
-    document.addEventListener('turbo:load', initCalculator);
-    document.addEventListener('turbo:before-cache', teardownCalculator);
   })();
 </script>
 

@@ -42,7 +42,7 @@ The site is a [static website](/services/static-websites/#content) built on the 
 - Automatically builds with **GitHub Actions** whenever content is updated
 - Deployed to **Bunny CDN** for fast global delivery
 - **Minimal CSS** via SCSS - no heavy frameworks
-- **Turbo** for instant page transitions
+- **[instant.page](https://instant.page/)** for link prefetching on hover
 - Domain registered with **Krystal**
 - Fully responsive design
 - SEO optimisation
