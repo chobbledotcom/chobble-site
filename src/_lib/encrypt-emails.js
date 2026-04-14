@@ -25,7 +25,7 @@ const encryptEmailsInHtml = (content) => {
 
   // Encrypt existing mailto links
   for (const link of document.querySelectorAll('a[href^="mailto:"]')) {
-    link.textContent = encrypt(link.textContent, keyBytes);
+    link.innerHTML = encrypt(link.innerHTML, keyBytes);
     link.setAttribute("href", "#" + encrypt(link.getAttribute("href"), keyBytes));
     link.setAttribute("data-decrypt-link", "");
   }
