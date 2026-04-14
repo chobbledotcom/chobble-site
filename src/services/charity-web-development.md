@@ -48,7 +48,7 @@ Monthly hosting is **£20** (50% off) for unlimited static sites, or from **£30
 
 ## What you get
 
-I provide ongoing support long after your site launches. I aim to publish content updates within one working day whenever possible — just email me the changes (larger changes or updates sent over weekends may take a little longer). I can advise on web-related GDPR considerations (such as cookie banners and forms, but this doesn't replace legal advice), cost-saving opportunities, and technical decisions, always focused on what best serves your organisation.
+I provide ongoing support long after your site launches. I aim to publish content updates within one working day whenever possible — just email me the changes (larger changes or updates sent over weekends may take a little longer). I can advise on web-related GDPR considerations, cost-saving opportunities, and technical decisions, always focused on what best serves your organisation.
 
 To keep things running smoothly, I'll need timely content and decisions from your team — the quicker you can provide text and images, the faster your site comes together.
 
