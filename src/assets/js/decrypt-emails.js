@@ -93,10 +93,10 @@
         (function (link) {
           Promise.all([
             decrypt(link.getAttribute("href").replace(/^#/, ""), key),
-            decrypt(link.textContent, key),
+            decrypt(link.innerHTML, key),
           ]).then(function (results) {
             link.setAttribute("href", results[0]);
-            link.textContent = results[1];
+            link.innerHTML = results[1];
           });
         })(links[idx]);
       }
