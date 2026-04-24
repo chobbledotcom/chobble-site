@@ -89,9 +89,9 @@ From there I moved to the growth team, which is where I got deep into SEO at sca
 
 I was also the "support dev". I built a dashboard inside Bandcamp's Helpscout interface, migrated the support team from Fogbugz to Helpscout to Zendesk, and shipped quality-of-life fixes for the team that handled customer issues.
 
-A couple of things I'm proud of: I proposed and implemented the easter egg where paying £6.66 for an item shows the metal horns 🤘 (and £4.20 shows a tree 🌳, among others), helped on Bandcamp's carbon offsetting for company meet-ups, and advised on their in-house vinyl production.
+A few Bandcampy things I'm proud of: I proposed and implemented the easter egg where paying £6.66 for an item shows the metal horns 🤘 (and £4.20 shows a tree 🌳, among others), helped on Bandcamp's carbon offsetting for company meet-ups, and I supported the unionisation efforts of my US colleagues.
 
-Bandcamp was bought by Epic Games and then sold to Songtradr. There were huge layoffs; I survived both rounds. I handed my notice in because the company I'd joined, an independent, underground business, no longer existed. That's what pushed me into doing Chobble full-time.
+Bandcamp was bought by Epic Games, and then sold to Songtradr. There were huge layoffs and I lost all my support team buddies, but I survived. I handed in my notice in November 2024 because the company I'd joined - an independent, underground business - no longer existed. It was now part of "the industry". And so I set about freelancing full-time, and Chobble was born.
 
 ### Charities and community work (2011–present)
 
