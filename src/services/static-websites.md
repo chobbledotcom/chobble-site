@@ -15,11 +15,11 @@ Platforms like WordPress, Wix, and Squarespace are designed to do everything, bu
 
 I take a different approach. I build clean, fast, mobile-friendly websites tailored to your business. Because they're built efficiently, they **load fast** (pages feel instant once you're browsing, thanks to background preloading), **cost very little to host** (I can host typical small brochure sites for **£10/month**, or **£5/month** for charities and other discounted groups - no support included; see my [prices page](/prices/#content) for managed hosting with support), and **you own all the code** - so you're never locked in.
 
-You don't need to be technical — if you can edit a document, you can update your site.
+You don't need to be technical. If you can edit a document, you can update your site.
 
 If you're a charity or co-op, see my [Charity Web Development](/services/charity-web-development/) page for 50% discounted rates on the same type of sites.
 
-I build these sites with Eleventy, a modern static site tool, so pages are lean and fast — but what matters to you is the result: a website that loads fast, gives you a solid technical foundation for search, and is easy to update.
+I build these sites with Eleventy, a modern static site tool, so pages are lean and fast, but what matters to you is the result: a website that loads fast, gives you a solid technical foundation for search, and is easy to update.
 
 **Some examples:**
 

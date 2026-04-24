@@ -19,7 +19,7 @@ This page explains what Chobble does with your data. If anything here is unclear
 ## When you hire me
 
 - I'll keep a record of your name, email address, and any project details you send me, in order to do the work we've agreed.
-- For paid work, payment is taken through [Stripe](https://stripe.com/gb/privacy). Stripe handles your card details, not me.
+- For paid work, payment is taken either through [Stripe](https://stripe.com/gb/privacy) or via bank transfer to my Monzo Business account. When you pay through Stripe, Stripe handles your card details, not me.
 - I won't give your details to anyone else, or email you about anything you haven't asked me to.
 
 ## Your rights
@@ -30,6 +30,6 @@ This page explains what Chobble does with your data. If anything here is unclear
 
 ## Contact
 
-The person responsible for data at Chobble is Stef. [Email hello@chobble.com](/contact/) or write to Chobble CIC, Prestwich, Greater Manchester, UK.
+The person responsible for data at Chobble is Stef - [click here to get in touch with him (me)](/contact/).
 
 Chobble is a Community Interest Company registered in England and Wales, company number [17050113](https://find-and-update.company-information.service.gov.uk/company/17050113).

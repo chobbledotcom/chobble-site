@@ -35,9 +35,9 @@ The site has a full search system that indexes all the content so visitors can q
 
 ## Events and locations
 
-One of the standout features is how the site organises content into a natural tree structure that is dead easy to navigate. The events system lets Fun Pro UK showcase their full range grouped by event type — corporate fun days, Christmas parties, team building, exhibitions, and more — with each event type branching into the relevant products, case studies, and details. Visitors land on an event type that matches what they are planning and immediately see everything that is available for it.
+One of the standout features is how the site organises content into a natural tree structure that is dead easy to navigate. The events system lets Fun Pro UK showcase their full range grouped by event type, including corporate fun days, Christmas parties, team building, exhibitions, and more, with each event type branching into the relevant products, case studies, and details. Visitors land on an event type that matches what they are planning and immediately see everything that is available for it.
 
-The same approach works for locations. Fun Pro UK covers the whole of the UK from their base in Coventry, and the site has 16 dedicated location pages for cities including London, Manchester, Birmingham, Leeds, Liverpool, Bristol, and more, each with its own sub-pages. These location hubs let the business target search phrases that include specific city names while giving potential customers in those areas a landing page that feels relevant to them. The combination of events and locations means visitors can drill down naturally — find their event type, find their city, and see exactly what is on offer — without ever feeling lost in a site with this much content.
+The same approach works for locations. Fun Pro UK covers the whole of the UK from their base in Coventry, and the site has 16 dedicated location pages for cities including London, Manchester, Birmingham, Leeds, Liverpool, Bristol, and more, each with its own sub-pages. These location hubs let the business target search phrases that include specific city names while giving potential customers in those areas a landing page that feels relevant to them. The combination of events and locations means visitors can drill down naturally, finding their event type, finding their city, and seeing exactly what is on offer, without ever feeling lost in a site with this much content.
 
 ## Product pages in depth
 
@@ -51,7 +51,7 @@ The site pulls in 147 customer reviews going back to 2015, which feed into the t
 
 The whole site is built on the Chobble Template using Eleventy as the static site generator, with content editable through PagesCMS. Despite the sheer volume of content the site builds and deploys automatically through GitHub Actions whenever content is updated. Images are served through Cloudinary for optimised delivery. The custom SCSS theme runs to hundreds of lines covering breakpoints at different device szies, with a full design token system for spacing, typography, colours, and component dimensions.
 
-The site uses is hosted on the Bunny.net CDN which means it responds really quickly, and it uses Bunny Stream for video delivery on the homepage, and Vimeo or YouTube for product videos. Contact forms are handled through custom Automatisch rules — Automatisch being an open source alternative to Zapier — which check BotPoison for spam protection and send nicely formatted receipt emails to both the client and the enquirer.
+The site uses is hosted on the Bunny.net CDN which means it responds really quickly, and it uses Bunny Stream for video delivery on the homepage, and Vimeo or YouTube for product videos. Contact forms are handled through custom Automatisch rules (Automatisch being an open source alternative to Zapier) which check BotPoison for spam protection and send nicely formatted receipt emails to both the client and the enquirer.
 
 ## Why this matters
 

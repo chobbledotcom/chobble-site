@@ -13,14 +13,13 @@ The short version: I'll be straightforward with you, and I expect the same in re
 ## Using this website
 
 - You can read, share, and quote from this site. If you quote a guide, a link back is appreciated but not required.
-- The written content on this site is copyright Chobble CIC. The source code that powers it is [AGPLv3 licensed](https://www.gnu.org/licenses/agpl-3.0.en.html) — you can use and modify it as long as you share your changes under the same licence.
+- The written content on this site is copyright Chobble CIC. The source code that powers it is [AGPLv3 licensed](https://www.gnu.org/licenses/agpl-3.0.en.html), so you can use and modify it as long as you share your changes under the same licence.
 - Don't scrape the site to train a commercial AI without asking.
 
 ## Hiring me
 
-- Prices are [on the prices page](/prices/) and are flat — the price you see is the price you pay, with a 50% discount for charities, co-operatives, artists, and small ethical businesses.
-- I invoice after the work is done, not before, unless we agree otherwise.
-- Payment is due within 14 days of the invoice. Small businesses and charities can ask for longer terms and I'll usually say yes.
+- Prices are [on the prices page](/prices/) and are flat, so the price you see is the price you pay, with a 50% discount for charities, co-operatives, artists, and small ethical businesses.
+- I invoice before the work is done, and payment is due immediately. For projects over £1,000, it's 50% up front and 50% on completion. Nothing starts until I've been paid.
 
 ## What you own
 
@@ -31,7 +30,7 @@ The short version: I'll be straightforward with you, and I expect the same in re
 ## What I can't promise
 
 - I can't guarantee a specific search ranking, and nobody who sells SEO honestly can.
-- I can't promise the website will never break — the web is complicated. I can promise I'll fix things promptly when they do.
+- I can't promise the website will never break, because the web is complicated. I can promise I'll fix things promptly when they do.
 
 ## Cancelling or changing your mind
 
