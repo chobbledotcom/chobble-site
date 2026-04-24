@@ -33,9 +33,9 @@ For a deep dive into the -isms behind Chobble, you might want to read the Wikipe
 
 Chobble is me, Stef, from Prestwich, Manchester. I'm a [freelance software developer](/services/software-developer/) with over 20 years of experience. There's a [much longer version of my story on the about page](/about/stef/), and my [full CV lives at stefn.co.uk](https://www.stefn.co.uk/cv/).
 
-The short version: I spent five years at [Bandcamp.com](https://bandcamp.com) (a site processing around $200 million a year in payments), first on the payments team and then on growth — where a lot of my work was SEO, performance, and structured data at scale. Before that I was the lead developer and public face of [Bouncy Castle Network](https://www.bouncycastlenetwork.com), which I joined with a single customer and grew with the team to over 1,000. Alongside all of that I've been supporting Manchester charities and community groups like [Blue Pits](https://www.bluepitshousingaction.co.uk) and [Vegan Prestwich](https://veganprestwich.co.uk) for more than a decade.
+The short version: I spent five years at [Bandcamp.com](https://bandcamp.com) (a site processing around $200 million a year in payments), first on the payments team and then on growth, where a lot of my work was SEO, performance, and structured data at scale. Before that I was the lead developer and public face of [Bouncy Castle Network](https://www.bouncycastlenetwork.com), which I joined with a single customer and grew with the team to over 1,000. Alongside all of that I've been supporting Manchester charities and community groups like [Blue Pits](https://www.bluepitshousingaction.co.uk) and [Vegan Prestwich](https://veganprestwich.co.uk) for more than a decade.
 
-I survived two rounds of layoffs at Bandcamp after it was bought by Epic Games and then Songtradr, and handed my notice in because the company I'd joined — independent and underground — no longer existed. That's when Chobble became full-time.
+I survived two rounds of layoffs at Bandcamp after it was bought by Epic Games and then Songtradr, and handed my notice in because the company I'd joined, independent and underground, no longer existed. That's when Chobble became full-time.
 
 After years of working in other companies I decided to fully commit to freelancing, and started Chobble to:
 

@@ -8,7 +8,7 @@ description: How this site, and the sites I build, try to work for everybody.
 
 # Accessibility
 
-I try to build websites that work for as many people as possible — including people using screen readers, keyboard navigation, switch devices, browsers without JavaScript, slow connections, and older or cheaper phones.
+I try to build websites that work for as many people as possible, including people using screen readers, keyboard navigation, switch devices, browsers without JavaScript, slow connections, and older or cheaper phones.
 
 ## On this site
 
@@ -22,7 +22,7 @@ I try to build websites that work for as many people as possible — including p
 
 ## On sites I build for clients
 
-All of the above, by default. I use automated testing (Lighthouse, axe) as part of every build, and I'm happy to walk through any additional requirements you have — for example, if your users include people with specific assistive technology.
+All of the above, by default. I use automated testing (Lighthouse, axe) as part of every build, and I'm happy to walk through any additional requirements you have, for example if your users include people with specific assistive technology.
 
 ## If something isn't working for you
 
@@ -37,7 +37,7 @@ I'll reply within a few working days and try to fix it quickly.
 
 ## Known issues
 
-- The contact form and email decryption require JavaScript to fully work. If JavaScript is disabled, I also offer Signal, WhatsApp, phone, and in-person meetings — details on the [contact page](/contact/).
+- The contact form and email decryption require JavaScript to fully work. If JavaScript is disabled, I also offer Signal, WhatsApp, phone, and in-person meetings; details are on the [contact page](/contact/).
 - Some embedded YouTube videos on the [videos page](/videos/) are hosted by YouTube and follow YouTube's accessibility features rather than mine.
 
 If you find other issues, please tell me and I'll add them here and fix them.

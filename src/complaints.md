@@ -8,7 +8,7 @@ description: How to tell me if something has gone wrong, and what happens next.
 
 # Complaints
 
-If something's gone wrong — the work isn't what you expected, I've missed a deadline, I've been rude or unclear, or anything else — I want to know. Complaints are how I improve.
+If something's gone wrong, whether the work isn't what you expected, I've missed a deadline, I've been rude or unclear, or anything else, I want to know. Complaints are how I improve.
 
 ## Step 1: Tell me
 
@@ -36,4 +36,4 @@ For data-related complaints specifically, you can also contact the [Information 
 
 ## I take complaints seriously
 
-One of the reasons I set Chobble up as a CIC is so that my duties — to customers, to the community, to transparency — are written down and independently enforced. If you're complaining, you're not being a nuisance; you're helping me hold myself to the principles I publish.
+One of the reasons I set Chobble up as a CIC is so that my duties to customers, to the community, and to transparency are written down and independently enforced. If you're complaining, you're not being a nuisance; you're helping me hold myself to the principles I publish.

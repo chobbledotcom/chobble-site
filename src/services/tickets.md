@@ -108,7 +108,7 @@ Every ticket gets a unique URL and QR code. At the door, your staff or volunteer
 
 ### No overbooking
 
-The system is designed to prevent overbooking — two people can't grab the last ticket at the same time. Tickets are reserved for five minutes for the visitor to complete their sale. If someone finishes paying after the event fills up, they're automatically refunded.
+The system is designed to prevent overbooking, so two people can't grab the last ticket at the same time. Tickets are reserved for five minutes for the visitor to complete their sale. If someone finishes paying after the event fills up, they're automatically refunded.
 
 ### Standard & daily events
 
