@@ -73,7 +73,7 @@ I'm Stef. I run [Chobble CIC](/principles/) from Prestwich, Manchester. I've bee
 
 ## How I got here
 
-### Bouncy Castle Network (2009–2014)
+### Bouncy Castle Network (2009–2019)
 
 I was the lead developer and the public face of [Bouncy Castle Network](https://www.bouncycastlenetwork.com), a SaaS platform for bouncy castle hirers. I joined when we had a single customer and worked with the team until we had **over 1,000**. It's now the leading SaaS option in its industry.
 
@@ -81,7 +81,7 @@ Because I was the person customers actually spoke to, I had a very tight feedbac
 
 I was also obsessed with performance. Each customer's site had to score highly on Google Lighthouse, have proper sitemaps, clean structured markup, and load fast enough to convert visitors who'd clicked through from Google. A lot of what I now do as SEO consultancy is work I've been doing operationally for small businesses since 2009.
 
-### Bandcamp (2018–2024)
+### Bandcamp (2019–2024)
 
 I joined [Bandcamp.com](https://bandcamp.com) on the payments team. It's a site that handles roughly **$200 million a year** in payments to independent artists, and the payments code is the kind of work where the cost of a bug is real money landing in the wrong place. I worked on the fiddly stuff — reconciling stuck PayPal transactions, double-entry accounting, recovering money that had got caught between systems. That job taught me a lot about how to write code that has to be right the first time.
 
