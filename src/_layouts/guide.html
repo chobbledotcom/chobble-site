@@ -2,6 +2,44 @@
 layout: base.html
 ---
 
+{% assign _dates = page.inputPath | gitDates %}
+{% if _dates %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": {{ title | json }},
+  "description": {{ meta_description | default: description | default: snippet | json }},
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+  "datePublished": "{{ _dates.published }}",
+  "dateModified": "{{ _dates.updated }}",
+  "inLanguage": "en-GB",
+  "author": {
+    "@type": "Person",
+    "name": "Stef",
+    "url": "https://chobble.com/about/stef/",
+    "sameAs": [
+      "https://www.stefn.co.uk",
+      "https://github.com/chobbledotcom"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chobble",
+    "legalName": "Chobble CIC",
+    "url": "https://chobble.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chobble.com/favicon.png"
+    }
+  }
+}
+</script>
+{% endif %}
+
 <a class="back-link" href="/guides/">👈 Back to "Guides" </a>
 
-<article id="content">{{ content }}</article>
+<article id="content">
+  {{ content }}
+  {% include "byline.html" %}
+</article>

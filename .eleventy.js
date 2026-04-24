@@ -3,6 +3,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { configureScss } = require("./src/_lib/scss");
 const { configureScssFiles } = require("./src/_lib/scss-files");
 const { encryptEmailsInHtml } = require("./src/_lib/encrypt-emails");
+const { datesFor, formatHuman } = require("./src/_lib/git-dates");
 
 module.exports = async function (eleventyConfig) {
   const { EleventyRenderPlugin } = await import("@11ty/eleventy");
@@ -55,6 +56,20 @@ module.exports = async function (eleventyConfig) {
   // Add RFC 822 date filter for RSS feed
   eleventyConfig.addFilter("dateToRfc822", function (date) {
     return new Date(date).toUTCString();
+  });
+
+  // Git-derived publication/modification dates, keyed by inputPath.
+  eleventyConfig.addFilter("gitDates", function (inputPath) {
+    return datesFor(inputPath);
+  });
+
+  eleventyConfig.addFilter("humanDate", function (iso) {
+    return formatHuman(iso);
+  });
+
+  eleventyConfig.addFilter("isoDate", function (iso) {
+    if (!iso) return "";
+    return new Date(iso).toISOString().slice(0, 10);
   });
 
   // Encrypt mailto: links at build time

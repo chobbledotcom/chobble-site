@@ -43,7 +43,12 @@
         "founder": {
           "@type": "Person",
           "name": "Stef",
-          "url": "https://www.stefn.co.uk"
+          "url": "https://chobble.com/about/stef/",
+          "sameAs": [
+            "https://www.stefn.co.uk",
+            "https://www.stefn.co.uk/cv/",
+            "https://github.com/chobbledotcom"
+          ]
         },
         "sameAs": [
           "https://www.facebook.com/ChobbleDotCom",
@@ -98,6 +103,22 @@
         {% if faqs.size > 0 %}
         <section id="faqs">
           <h2>Frequently asked questions</h2>
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {% for faq in faqs %}{
+                "@type": "Question",
+                "name": {{ faq.q | json }},
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": {{ faq.a | json }}
+                }
+              }{% unless forloop.last %},{% endunless %}{% endfor %}
+            ]
+          }
+          </script>
           {% for faq in faqs %}
           <details>
             <summary><strong>{{ faq.q }}</strong></summary>
