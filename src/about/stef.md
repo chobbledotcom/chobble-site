@@ -121,7 +121,7 @@ I [donate 10% of what I earn](https://blog.chobble.com/blog/25-01-04-against-mal
 ## Where else I am
 
 - **CV & personal site:** [stefn.co.uk](https://www.stefn.co.uk) / [stefn.co.uk/cv](https://www.stefn.co.uk/cv/)
-- **Code:** [github.com/chobbledotcom](https://github.com/chobbledotcom) and my own [Gitea instance](https://git.chobble.com)
+- **Code:** [github.com/chobbledotcom](https://github.com/chobbledotcom) and my own [Forgejo instance](https://git.chobble.com)
 - **Videos:** [YouTube](https://www.youtube.com/@ChobbleDotCom)
 - **Blog:** [blog.chobble.com](https://blog.chobble.com)
 - **Reviews:** [Trustpilot](https://uk.trustpilot.com/review/chobble.com), [Facebook](https://www.facebook.com/ChobbleDotCom), [Google Maps](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8)
