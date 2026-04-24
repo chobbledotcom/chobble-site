@@ -75,9 +75,9 @@ I'm Stef. I run [Chobble CIC](/principles/) from Prestwich, Manchester. I've bee
 
 ### Bouncy Castle Network (2009–2019)
 
-I was the lead developer and the public face of [Bouncy Castle Network](https://www.bouncycastlenetwork.com), a SaaS platform for bouncy castle hirers. I joined when we had a single customer and worked with the team until we had **over 1,000**. It's now the leading SaaS option in its industry.
+I was the lead developer and the public face of [Bouncy Castle Network](https://www.bouncycastlenetwork.com), a SaaS platform for bouncy castle hirers. I was there from the first customer, growing to **over 1,000** by the time I moved on. It's now the leading bouncy castle booking system by a long shot (and it may surprise you to learn there are a few great options!).
 
-Because I was the person customers actually spoke to, I had a very tight feedback loop: someone would hit a wall with their site, I'd build the feature to solve it, and then a week later I'd teach the next customer how to use it. I built tools into the platform to help hirers market their sites, build backlinks, write better content, get insights into their bookings, and generally compete against much larger national operators.
+Because I dealt with customers over chat or the phone every day, I had a very tight feedback loop: someone would hit a wall with their site, I'd build the feature to solve it, and then a week later I'd teach the next customer how to use it. I built tools into the platform to help hirers market their sites, build backlinks, write better content, get insights into their bookings, and generally compete against much larger national operators.
 
 I was also obsessed with performance. Each customer's site had to score highly on Google Lighthouse, have proper sitemaps, clean structured markup, and load fast enough to convert visitors who'd clicked through from Google. A lot of what I now do as SEO consultancy is work I've been doing operationally for small businesses since 2009.
 
