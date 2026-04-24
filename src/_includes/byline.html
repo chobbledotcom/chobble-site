@@ -1,0 +1,12 @@
+{% assign _dates = page.inputPath | gitDates %}
+{% if _dates %}
+<p class="byline">
+  By <a href="/about/stef/" rel="author">Stef</a>
+  &middot;
+  <time datetime="{{ _dates.published | isoDate }}">Published {{ _dates.published | humanDate }}</time>
+  {% if _dates.updated and _dates.updated != _dates.published %}
+  &middot;
+  <time datetime="{{ _dates.updated | isoDate }}">Updated {{ _dates.updated | humanDate }}</time>
+  {% endif %}
+</p>
+{% endif %}

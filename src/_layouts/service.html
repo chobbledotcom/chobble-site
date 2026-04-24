@@ -2,6 +2,37 @@
 layout: base.html
 ---
 
+{% assign _dates = page.inputPath | gitDates %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ title | json }},
+  "description": {{ meta_description | default: description | default: snippet | json }},
+  "url": "{{ site.url }}{{ page.url }}",
+  "serviceType": {{ title | json }},
+  "provider": {
+    "@type": "Organization",
+    "name": "Chobble",
+    "legalName": "Chobble CIC",
+    "url": "https://chobble.com",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Companies House",
+      "value": "17050113"
+    }
+  },
+  "areaServed": [
+    { "@type": "Place", "name": "Greater Manchester" },
+    { "@type": "Country", "name": "United Kingdom" }
+  ]{% if _dates %},
+  "dateModified": "{{ _dates.updated }}"{% endif %}
+}
+</script>
+
 <a class="back-link" href="/services/#content">👈 Back to "Services"</a>
 
-<article id="content">{{ content }}</article>
+<article id="content">
+  {{ content }}
+  {% include "byline.html" %}
+</article>

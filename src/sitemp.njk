@@ -8,6 +8,8 @@ eleventyExcludeFromCollections: true
     {% if page.data.noindex != true %}
       <url>
         <loc>{{ site.url }}{{ page.url | url }}</loc>
+        {% set _d = page.inputPath | gitDates %}
+        {% if _d %}<lastmod>{{ _d.updated | isoDate }}</lastmod>{% endif %}
       </url>
     {% endif %}
   {% endfor %}
