@@ -87,7 +87,7 @@ I joined [Bandcamp.com](https://bandcamp.com) as a senior developer on the payme
 
 From there I moved to the growth team, which is where I got deep into SEO at scale. We fixed slow and broken pages by optimising SQL and removing long-standing bugs, then worked on site-wide SEO improvements: performance, metadata, and JSON-LD structured data. The team then rebuilt the mobile layout from a monolithic application into a set of small, targeted services focused on performance. The mobile site ended up dramatically faster and more pleasant to use.
 
-I was also the "support dev". I built a dashboard inside Bandcamp's Helpscout interface, migrated the support team from Fogbugz to Helpscout to Zendesk, and shipped quality-of-life fixes for the team that handled customer issues. I left as a senior developer, the same role I'd joined in.
+I was also the "support dev". I built a dashboard inside Bandcamp's Helpscout interface, migrated the support team from Fogbugz to Helpscout to Zendesk, and shipped quality-of-life fixes for the team that handled customer issues.
 
 A couple of things I'm proud of: I proposed and implemented the easter egg where paying £6.66 for an item shows the metal horns 🤘 (and £4.20 shows a tree 🌳, among others), helped on Bandcamp's carbon offsetting for company meet-ups, and advised on their in-house vinyl production.
 
