@@ -19,8 +19,7 @@ The short version: I'll be straightforward with you, and I expect the same in re
 ## Hiring me
 
 - Prices are [on the prices page](/prices/) and are flat, so the price you see is the price you pay, with a 50% discount for charities, co-operatives, artists, and small ethical businesses.
-- I invoice after the work is done, not before, unless we agree otherwise.
-- Payment is due within 14 days of the invoice. Small businesses and charities can ask for longer terms and I'll usually say yes.
+- I invoice before the work is done, and payment is due immediately. For projects over £1,000, it's 50% up front and 50% on completion. Nothing starts until I've been paid.
 
 ## What you own
 

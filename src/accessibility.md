@@ -18,11 +18,11 @@ I try to build websites that work for as many people as possible, including peop
 - Colours are chosen for good contrast.
 - Images have alt text describing what they show.
 - Text reflows cleanly on narrow screens and at large text sizes.
-- I aim for [WCAG 2.2 level AA](https://www.w3.org/WAI/WCAG22/quickref/) as the baseline, and test with Lighthouse on every release.
+- I aim for [WCAG 2.2 level AA](https://www.w3.org/WAI/WCAG22/quickref/) where it fits the project, and test with Lighthouse on every release. It's not hard and fast, and I'm happy to meet whatever guidance or standard your users need.
 
 ## On sites I build for clients
 
-All of the above, by default. I use automated testing (Lighthouse, axe) as part of every build, and I'm happy to walk through any additional requirements you have, for example if your users include people with specific assistive technology.
+All of the above, by default. I use Lighthouse as part of every build, and I'm happy to walk through any additional requirements you have, for example if your users include people with specific assistive technology.
 
 ## If something isn't working for you
 
