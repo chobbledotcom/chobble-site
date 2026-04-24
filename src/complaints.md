@@ -12,7 +12,7 @@ If something's gone wrong, whether the work isn't what you expected, I've missed
 
 ## Step 1: Tell me
 
-Email hello@chobble.com or use the contact form. Tell me:
+Email [hello@chobble.com](mailto:hello@chobble.com) or use the contact form. Tell me:
 
 - What happened
 - What outcome you'd like
