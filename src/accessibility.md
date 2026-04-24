@@ -37,7 +37,7 @@ I'll reply within a few working days and try to fix it quickly.
 
 ## Known issues
 
-- The contact form and email decryption require JavaScript to fully work. You can email me directly at hello@chobble.com if JavaScript is disabled.
+- The contact form and email decryption require JavaScript to fully work. If JavaScript is disabled, I also offer Signal, WhatsApp, phone, and in-person meetings — details on the [contact page](/contact/).
 - Some embedded YouTube videos on the [videos page](/videos/) are hosted by YouTube and follow YouTube's accessibility features rather than mine.
 
 If you find other issues, please tell me and I'll add them here and fix them.

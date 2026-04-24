@@ -89,7 +89,7 @@ From there I moved to the growth team, which is where I got deep into SEO at sca
 
 I was also the "support dev" — I built a dashboard inside Bandcamp's Helpscout interface, migrated the support team from Fogbugz to Helpscout to Zendesk, and shipped quality-of-life fixes for the team that handled customer issues. By the end I was a senior developer.
 
-A couple of things I'm proud of: I proposed and implemented the easter egg where paying £6.66 for an item shows the metal horns 🤘 (and £4.20 shows a tree 🌳, among others), and helped with Bandcamp's carbon offsetting system for shipped physical items. Small things, but they mattered to me.
+A couple of things I'm proud of: I proposed and implemented the easter egg where paying £6.66 for an item shows the metal horns 🤘 (and £4.20 shows a tree 🌳, among others), helped on Bandcamp's carbon offsetting for company meet-ups, and advised on their in-house vinyl production. Small things, but they mattered to me.
 
 Bandcamp was bought by Epic Games and then sold to Songtradr. There were huge layoffs; I survived both rounds. I handed my notice in because the company I'd joined — an independent, underground business — no longer existed. That's what pushed me into doing Chobble full-time.
 
@@ -100,7 +100,8 @@ Alongside paid work I've been supporting charities and community groups for **14
 ## What I'm good at
 
 - **Technical SEO and site performance** — Lighthouse, Core Web Vitals, structured data, sitemaps, crawlability. Most agencies focus on content; I focus on the foundation everything else sits on.
-- **Ruby on Rails** — I've worked on Rails apps that handle millions of pounds in transactions, and smaller Rails apps that just need to reliably do one thing. [My ticketing platform](/services/tickets/) is a Rails app.
+- **Ruby** — Bandcamp's codebase is Ruby (not Rails), and I've worked on both huge Ruby applications at scale and smaller Rails apps that just need to reliably do one thing.
+- **Deno on the edge** — [my ticketing platform](/services/tickets/) is a Deno app compiled with esbuild and deployed to Bunny.net's edge scripting runtime. No server to maintain, scales automatically, fast everywhere.
 - **Eleventy and static sites** — The [Chobble Template](/services/chobble-template/) is an open-source Eleventy-based system I've used to build most of the sites in my [examples](/examples/). Fast, cheap to host, no attack surface, fully portable.
 - **Payments, reconciliation, and systems that have to be right** — from Bandcamp.
 - **Helping non-technical people understand their website** — from 15+ years of doing it.
