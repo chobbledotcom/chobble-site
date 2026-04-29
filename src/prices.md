@@ -36,14 +36,14 @@ You always have the option to host elsewhere since you own the full source code.
 
 ## Basic hosting (unmanaged sites)
 
-If you update your site rarely, or prefer to handle changes yourself, this lighter package is **£10** per month (this is my minimum - the discount doesn't go below £10):
+If you update your site rarely, or prefer to handle changes yourself, this lighter package is **£10** per month, or **£5** per month if discounted (this hosting-only package is the only place the discount goes below £10):
 
 - **Your site stays online** - hosted and backed up
 - **Bugs get fixed** - if something breaks, I sort it out
 
 You won't get personal marketing support or free content changes - but you can edit your site yourself, use my [free marketing guides](/guides/) and [videos](/videos/), or pay me or my brother Kevin at [KevinBurkeServices.com](https://kevinburkeservices.com) for content changes as needed.
 
-If £10/month is too much, you own the code - host it yourself for free on [Cloudflare Pages](https://pages.cloudflare.com/), [Netlify](https://netlify.com), or [GitHub Pages](https://pages.github.com/), and I'll help you get set up.
+If you'd rather not pay me anything, you own the code - host it yourself for free on [Cloudflare Pages](https://pages.cloudflare.com/), [Netlify](https://netlify.com), or [GitHub Pages](https://pages.github.com/), and I'll help you get set up.
 
 ## Managed hosting (web applications)
 
