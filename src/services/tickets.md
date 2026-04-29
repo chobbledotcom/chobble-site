@@ -108,7 +108,7 @@ Every ticket gets a unique URL and QR code. At the door, your staff or volunteer
 
 ### No overbooking
 
-The system is designed to prevent overbooking, so two people can't grab the last ticket at the same time. Tickets are reserved for five minutes for the visitor to complete their sale. If someone finishes paying after the event fills up, they're automatically refunded.
+The system aims to prevent overbooking, so two people can't grab the last ticket at the same time. This is a best-effort safeguard - bugs or infrastructure failures could still let it happen - but in normal operation tickets are reserved for five minutes for the visitor to complete their sale, and if someone finishes paying after the event fills up, they're automatically refunded.
 
 ### Standard & daily events
 
@@ -214,7 +214,7 @@ All personal information (names, emails, phone numbers, addresses) is encrypted 
 
 **[View a live demo ticket →](https://tix.chobble.com/)** | **[Read more about Chobble Tickets →](https://tickets.chobble.com)**
 
-The platform runs on a [fast global hosting network](https://bunny.net/), so it loads fast globally. It can also be deployed via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno environment. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a busy event launch. The system is designed to prevent overbooking even under heavy load.
+The platform runs on a [fast global hosting network](https://bunny.net/), so it loads fast globally. It can also be deployed via Docker, Fly.io, DigitalOcean, Heroku, Koyeb, Render, or any Deno environment. Edge hosting means the system scales up and down automatically - it handles a 20-person workshop and a busy event launch. The system aims to prevent overbooking even under heavy load, though as with any software this is a best-effort guarantee that can't fully account for bugs or infrastructure failures.
 
 </div>
 
