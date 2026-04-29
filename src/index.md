@@ -7,8 +7,6 @@ meta_title: Web Developer Prestwich | Websites You Own & Control | Chobble
 meta_description: I build websites for Prestwich businesses that you own and control. You can edit them yourself, move to any host, and never pay me again if you don't want to. No subscriptions, no lock-in.
 ---
 
-<div class="text-card">
-
 **I build websites for Prestwich businesses that you own and control.** You can edit them yourself, move them to any hosting provider, and never pay me again if you don't want to. No monthly subscriptions, no vendor lock-in.
 
 I'm Stef, a web developer with over 20 years of experience (including five years at [Bandcamp.com](https://bandcamp.com) and over a decade supporting local charities), based in Prestwich, Manchester. I use open source tools like Ruby on Rails and Eleventy to make sites that **load fast**, **give you a solid technical foundation for search**, and **cost very little to host**.
@@ -18,9 +16,6 @@ You get the complete source code for everything I build, delivered via GitHub. M
 **My rate is discounted 50% for charities, co-operatives, artists, musicians, and sustainable businesses.**
 
 I also write [free guides about building websites](/guides/) and create [online marketing advice videos](/videos/) to help you grow.
-
-</div>
-<div class="text-card">
 
 ## What I can do for you
 
@@ -34,9 +29,6 @@ I also write [free guides about building websites](/guides/) and create [online 
 
 [See all my services](/services/) or [get in touch](/contact/) to get started.
 
-</div>
-<div class="text-card">
-
 ## A business built to serve the community
 
 Chobble is a registered [Community Interest Company (CIC)](https://find-and-update.company-information.service.gov.uk/company/17050113), which means it's regulated to benefit the community rather than private shareholders.
@@ -44,5 +36,3 @@ Chobble is a registered [Community Interest Company (CIC)](https://find-and-upda
 In practice, that means: any surplus gets reinvested into reducing costs for community-focused clients, not extracted as private profit. I'm formally committed to serving small businesses, charities, co-operatives, and community organisations, especially in Greater Manchester.
 
 Read more about [my principles](/principles/) or [get in touch](/contact/).
-
-</div>

@@ -31,9 +31,10 @@ $mono-font:
   --link-hover: var(--accent-strong);
   --focus: #ffdd00;
   --focus-fg: #0b0c0c;
+  // Nav stays dark in both themes — light purple accent reads against it.
   --header-bg: #0b0c0c;
   --header-fg: #ffffff;
-  --header-accent: var(--accent);
+  --header-accent: #b8a8e0;
   --footer-bg: #f3f2f1;
   --footer-fg: #0b0c0c;
   --footer-border: #b1b4b6;
@@ -61,7 +62,7 @@ $mono-font:
   --focus-fg: #0b0c0c;
   --header-bg: #000000;
   --header-fg: #ffffff;
-  --header-accent: var(--accent);
+  --header-accent: #b8a8e0;
   --footer-bg: #141414;
   --footer-fg: #f3f2f1;
   --footer-border: #505a5f;
@@ -306,10 +307,12 @@ header {
     }
 
     .brand {
-      font-size: 1.25rem;
-      font-weight: 700;
+      font-family: "Bayland", $system-font;
+      font-size: 2.25rem;
+      line-height: 1;
+      font-weight: normal;
       letter-spacing: 0.01em;
-      padding: 0.5rem 0;
+      padding: 0.25rem 0;
 
       &:hover {
         text-decoration: none;
@@ -522,7 +525,6 @@ input[type="submit"] {
   color: var(--fg);
   padding: 1rem 1.25rem;
   border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
 
   h2,
   h3 {
