@@ -295,15 +295,21 @@ header {
     gap: 1rem;
     min-height: 56px;
 
-    a {
+    // Pin nav link colours through every state — the global a:visited/:hover
+    // rules would otherwise win on specificity and bleed dark purple onto
+    // the dark header background.
+    a,
+    a:visited,
+    a:hover,
+    a:active {
       color: var(--header-fg);
       text-decoration: none;
+    }
 
-      &:hover {
-        text-decoration: underline;
-        text-decoration-thickness: 2px;
-        text-underline-offset: 4px;
-      }
+    a:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
     }
 
     .brand {
