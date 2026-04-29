@@ -82,7 +82,7 @@ I've converted a bunch of sites from Jekyll to Eleventy - some examples are [But
 
 ## Why Eleventy?
 
-I've used a bunch of static site generators and CMS platforms over the years and Eleventy is the one I keep coming back to for small business sites. It's JavaScript, which most developers can already work with - so if I get hit by a bus, you're not stuck looking for someone who knows an obscure templating language. And `npm` is a much less painful package manager to deal with than, say, Ruby gems.
+I've used a bunch of static site generators and CMS platforms over the years and Eleventy is the one I keep coming back to for small business sites. It's JavaScript, which most developers can already work with - so if I get hit by a bus, you're not stuck looking for someone who knows an obscure templating language. I run mine on [Bun](https://bun.sh/), which is faster and nicer to live with than npm, never mind something like Ruby gems.
 
 It's also flexible enough that I can build whatever a client actually needs without fighting the tool. Content can live in Markdown, JSON, HTML, or come from an API - whatever fits. Most small business sites are basically brochures that rarely change, so they don't need a database and a login screen, they need to load fast and be cheap to keep online. Eleventy is great for that. My [Chobble Template](/services/chobble-template/) even handles product listings and Stripe checkouts for shops that don't need live stock tracking.
 
