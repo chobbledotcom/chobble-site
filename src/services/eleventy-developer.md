@@ -94,6 +94,14 @@ I build Eleventy sites with a focus on quality and sustainability:
 
 I write semantic HTML with minimal, efficient CSS so sites load fast even on slow connections and work properly with screen readers. Everything's progressive-enhancement first - your site works without JavaScript, and any JS layer just makes things nicer when it's there. The code I hand over is something you can read and edit yourself without needing a CS degree, and every project comes with documentation explaining how the pieces fit together. You're free to maintain it yourself or take it to another developer at any point.
 
+## Block-based pages with PagesCMS
+
+A lot of small business sites end up looking like one long wall of text, because the editing tools don't make anything else easy. The [Chobble Template](/services/chobble-template/) gets around this by giving every page a library of around thirty pre-styled blocks you can drop in and rearrange - hero banners, two-column rows that pair text with an image, video, code sample or callout, feature grids, image card grids, stats, galleries, marquees of partner logos, full-bleed video and image backgrounds, calls to action, embedded products, contact forms, and so on. There's a [full reference of every block](https://github.com/chobbledotcom/chobble-template/blob/main/BLOCKS_LAYOUT.md) on the template repo if you want to see the lot.
+
+The block system plugs straight into [PagesCMS](https://pagescms.org/), so editing a page means adding, reordering and tweaking blocks in a normal web form - no Markdown, no YAML, no code. You can build a page that opens with a hero, drops into a two-column intro with a photo, lists three things you offer as feature cards, breaks up to a full-width video background with overlay text, and finishes with a contact form, without anyone going near the source files.
+
+Because the blocks share consistent spacing, dark-mode support, scroll-reveal animations and responsive layouts, pages can look properly varied without ever looking inconsistent. And if a client needs something the existing blocks don't cover, I can add a new one without disturbing the rest of the system.
+
 ## Prices for Eleventy development
 
 As with all of my services, I charge a [flat hourly rate](/prices/) for Eleventy development with transparent estimates and regular updates. I've built a [price calculator](/price-calculator/) which you can use to get an immediate estimate for your Eleventy site build.
