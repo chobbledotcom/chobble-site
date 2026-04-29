@@ -108,7 +108,9 @@ Every ticket gets a unique URL and QR code. At the door, your staff or volunteer
 
 ### No overbooking
 
-The system aims to prevent overbooking, so two people can't grab the last ticket at the same time. This is a best-effort safeguard - bugs or infrastructure failures could still let it happen - but in normal operation tickets are reserved for five minutes for the visitor to complete their sale, and if someone finishes paying after the event fills up, they're automatically refunded.
+The system aims to prevent overbooking, so two people can't grab the last ticket at the same time. There's a capacity check before checkout, and then on save the capacity check and the booking insert happen as a single atomic operation. If the event sold out in the meantime, the booking isn't created and the payment is automatically refunded. This is a best-effort safeguard - bugs or infrastructure failures could still let overbooking happen - but in normal operation it holds.
+
+Eventbrite and similar platforms typically reserve a seat the moment you start checkout, which avoids the occasional refund but leaves them open to bots that hold every seat hostage. Running your own ticketing means the rare refund is an email you can handle directly, and in exchange paid events are protected from reservation attacks.
 
 ### Standard & daily events
 
