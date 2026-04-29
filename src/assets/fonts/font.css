@@ -1,21 +1,8 @@
 @font-face {
-	font-family: 'Concert One';
-	font-style: normal;
-	font-weight: normal;
-	font-display: optional;
-	src:
-		/* from https://fonts.gstatic.com/s/concertone/v22/VEM1Ro9xs5PjtzCu-srDqSTijP4.woff2 */
-		url('Concert_One.woff2') format('woff2'),
-		/* from https://fonts.gstatic.com/s/concertone/v22/VEM1Ro9xs5PjtzCu-srDqSTijPg.woff */
-		url('Concert_One.woff') format('woff')
+  font-family: "Bayland";
+  src: url("Bayland-brand.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0062, U+0063, U+0065, U+0068, U+006C, U+006F; /* b c e h l o */
 }
-
-@font-face {
-    font-family: 'Bayland';
-    src: url('Bayland.woff2') format('woff2'),
-        url('Bayland.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-

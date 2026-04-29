@@ -6,11 +6,12 @@
     <meta name="generator" content="Eleventy" />
     <title>{{ meta_title | default: title }}</title>
     <meta name="description" content="{{ meta_description | default: description | escape }}" />
-    <link rel="stylesheet" href="/css/style.css?v=5" />
+    <script src="/assets/js/theme-init.js"></script>
+    <link rel="stylesheet" href="/css/style.css?v=7" />
     <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" />
     <link
       rel="preload"
-      href="/assets/fonts/Bayland.woff2"
+      href="/assets/fonts/Bayland-brand.woff2"
       as="font"
       type="font/woff2"
       crossorigin="anonymous"
@@ -75,21 +76,12 @@
       }
     </script>
     <script src="https://unpkg.com/@botpoison/browser" async></script>
-    <script>
-      window.goatcounter = {no_onload: true}
-      const trackPageView = () => {
-        if (typeof window.goatcounter.count === 'function') {
-          window.goatcounter.count({
-            path: location.pathname + location.search + location.hash,
-          });
-        }
-      };
-      document.addEventListener("DOMContentLoaded", trackPageView);
-    </script>
+    <script src="/assets/js/goatcounter-init.js"></script>
     <script data-goatcounter="https://analytics.chobble.com/count"
       async src="https://analytics.chobble.com/count.js"></script>
     <script type="module" async src="/assets/instantpage.js"></script>
     <script src="/assets/js/decrypt-emails.js" data-decrypt-key="{{ encryptKey }}" defer></script>
+    <script src="/assets/js/theme-toggle.js" defer></script>
   </head>
   <body class="{{ page.fileSlug }}">
     <header>
