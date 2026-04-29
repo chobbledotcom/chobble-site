@@ -377,7 +377,11 @@ header {
           border-bottom-color: var(--header-fg);
         }
 
-        &.active {
+        &.active,
+        &.active:visited,
+        &.active:hover,
+        &.active:active {
+          color: var(--header-accent);
           border-bottom-color: var(--header-accent);
         }
       }
