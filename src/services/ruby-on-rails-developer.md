@@ -3,7 +3,7 @@ title: Ruby on Rails Development
 meta_title: Ruby on Rails Freelancer Manchester | Web Applications | Chobble
 description: Custom web applications that scale with your business - thoroughly tested, reliably deployed, and fully yours
 snippet: Custom web applications that scale with your business
-order: 0
+order: 3
 meta_description: Ruby on Rails freelancer in Manchester - custom web applications you fully own - 5 years at Bandcamp ($200m/year), 10 years at BCN - £200/hour
 ---
 

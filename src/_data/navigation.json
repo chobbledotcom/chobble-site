@@ -11,6 +11,11 @@
 			"section": "services"
 		},
 		{
+			"text": "Tickets",
+			"url": "/tickets/",
+			"section": "tickets"
+		},
+		{
 			"text": "Reviews",
 			"url": "/reviews/",
 			"section": "reviews"

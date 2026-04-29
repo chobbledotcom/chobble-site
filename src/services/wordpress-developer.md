@@ -3,7 +3,7 @@ title: WordPress Developer
 meta_title: WordPress Developer Manchester | Open Source WordPress Help | Chobble
 description: WordPress development with transparent pricing at £200/hour - clean installations with open source plugins - PikaPods hosting available
 snippet: Professional WordPress development with open source plugins
-order: 2
+order: 15
 meta_description: WordPress developer in Manchester - I build WordPress sites using open source plugins - host on PikaPods or anywhere else - transparent pricing - flat hourly rate
 ---
 

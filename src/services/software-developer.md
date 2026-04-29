@@ -3,7 +3,7 @@ title: Software Developer
 meta_title: Freelance Software Developer in Prestwich, Manchester
 description: Custom web applications, business tools, and automation - you own the code, with no ongoing licence fees
 snippet: Custom business tools, apps, and automation you fully own
-order: -2
+order: 2
 meta_description: Freelance software developer in Prestwich, Manchester - 20 years experience - custom web apps, booking systems, automation - transparent pricing - you own everything I build
 ---
 

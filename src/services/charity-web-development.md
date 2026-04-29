@@ -3,7 +3,7 @@ title: Charity Web Development
 meta_title: Charity Website Development Manchester | 50% Discount | Chobble
 description: Affordable websites for charities and nonprofits at 50% discount rates using open source tech - completely transparent pricing
 snippet: Special charity rates for professional web development
-order: 1
+order: 6
 meta_description: Charity web development at £100/hour (50% off) - transparent pricing, open source tech, no vendor lock-in - hosting from £20/month - Manchester developer
 ---
 
@@ -31,6 +31,7 @@ This approach aligns with charity values: transparency, community benefit, and m
 I charge **£100 per hour** for charity work (50% off my standard £200 rate). Here's what typical charity websites cost:
 
 **Basic charity website (6-8 hours = £600-800):**
+
 - Setting up the site structure
 - Creating pages for your services, team, contact info
 - Adding donation buttons or forms
@@ -38,6 +39,7 @@ I charge **£100 per hour** for charity work (50% off my standard £200 rate). H
 - Setting up basic SEO
 
 **More complex sites (15-25 hours = £1500-2500):**
+
 - Member login areas
 - Event booking systems
 - Newsletter integration
@@ -53,6 +55,7 @@ I provide ongoing support long after your site launches. I aim to publish conten
 To keep things running smoothly, I'll need timely content and decisions from your team. The quicker you can provide text and images, the faster your site comes together.
 
 Your site will be:
+
 - **Fast** - clean code that loads quickly
 - **Accessible** - designed with accessibility best practices in mind, aligned with WCAG2
 - **Secure** - regular backups, maintained software

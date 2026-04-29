@@ -3,8 +3,10 @@ title: Free Marketing Guides & Videos
 meta_title: Free SEO & Marketing Guides | Prestwich, Manchester | Chobble
 description: Free online marketing guides and videos for UK businesses - no jargon, no dodgy tactics, real advice that works.
 snippet: Free SEO and marketing resources
-order: 3
+order: 16
 meta_description: Free SEO guides and videos for UK businesses - no jargon, no dodgy tactics - real advice that works - Manchester web developer
+redirect_from:
+  - /services/patreon/
 ---
 
 # Free marketing guides & videos
@@ -14,6 +16,7 @@ Trying to get your head around terms like "SEO", "link building", "keywords" or 
 I've created a collection of **completely free** marketing guides and videos to help UK small businesses understand search engine optimisation, online marketing, and website maintenance.
 
 All of my content that was previously on Patreon is now available for free:
+
 - Written guides in the [guides section](/guides/)
 - Video tutorials in the [videos section](/videos/)
 - More videos on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom)

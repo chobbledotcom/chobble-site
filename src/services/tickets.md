@@ -1,9 +1,12 @@
 ---
 title: Chobble Tickets
+permalink: "/tickets/"
+redirect_from:
+  - /services/tickets/
 meta_title: Chobble Tickets | Affordable Event Ticketing | No Per-Ticket Fees | Chobble
 description: A fast, encrypted event ticketing platform with no per-ticket fees - just £50/year for managed hosting, with 50% off for community groups, charities, artists and musicians
 snippet: Event ticketing for community groups and small orgs
-order: 3
+order: 0
 meta_description: Event ticketing without per-ticket fees - £50/year flat rate, encrypted attendee data, QR check-in, Stripe payments - 50% off for charities and community groups
 faqs:
   - q: What types of events can I use this for?
@@ -28,7 +31,7 @@ faqs:
 
 # Chobble Tickets
 
-**[Open source](https://github.com/chobbledotcom/tickets/) event ticketing with no per-ticket fees.** Managed hosting for £50/year, or self-host for free. Find out more at **[tickets.chobble.com](https://tickets.chobble.com)**.
+**[Open source](https://github.com/chobbledotcom/tickets/) event ticketing with no per-ticket fees.** Pay Chobble for hosting (£50/year) or self-host for free. Find out more at **[tickets.chobble.com](https://tickets.chobble.com)**.
 
 **If you're fed up with companies like Eventbrite taking a cut of your ticket sales, read on.**
 
@@ -36,9 +39,13 @@ Chobble Tickets is a simple, minimalist, and open source ticket sales platform I
 
 This could save you thousands of pounds every year if you run a lot of events.
 
-**[Sign up here](https://tix.chobble.com/ticket/register)** and I'll have you up and running within a couple of days.
+The process is really easy and fast:
 
-You'll register with a payments provider (Stripe or Square), and I give you an admin panel to create and manage events and attendee lists. People can book online, and the money goes straight to your account. I'm not involved in the sale at all.
+1. [Sign up online for £50/year](https://tix.chobble.com/ticket/register)
+2. Log into the new site that is immediately created for you
+3. Add your Stripe or Square details to take payments
+4. Create events, or groups of events
+5. Share the event links or embed the booking form into your website
 
 **Community groups, charities, artists and musicians get 50% off at just £25/year.**
 
@@ -288,11 +295,11 @@ Chobble Tickets is fully open source and you can self-host it for free. The reco
 
 You'll need these environment variables:
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `DB_URL` | Yes | libsql database URL |
-| `DB_TOKEN` | Yes* | Database auth token (\*remote databases only) |
-| `DB_ENCRYPTION_KEY` | Yes | 32-byte base64-encoded AES-256 key |
+| Variable            | Required | Description                                   |
+| ------------------- | -------- | --------------------------------------------- |
+| `DB_URL`            | Yes      | libsql database URL                           |
+| `DB_TOKEN`          | Yes\*    | Database auth token (\*remote databases only) |
+| `DB_ENCRYPTION_KEY` | Yes      | 32-byte base64-encoded AES-256 key            |
 
 There are also optional variables for image uploads (`STORAGE_ZONE_NAME`, `STORAGE_ZONE_KEY`), a global webhook (`WEBHOOK_URL`), error notifications (`NTFY_URL`), email providers, and Apple Wallet configuration.
 

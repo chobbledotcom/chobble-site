@@ -3,7 +3,7 @@ title: Website Migrations
 meta_title: Website Migrations | Prestwich, Manchester | Chobble
 description: Escape expensive hosting - move your website to a platform you control for a fraction of the cost
 snippet: Escape expensive hosting and take control of your website
-order: 1
+order: 7
 meta_description: Escape expensive hosting - migrate from Wix, WordPress, Squarespace - hosting from £10/month or free - keep the same look - Manchester web developer
 ---
 

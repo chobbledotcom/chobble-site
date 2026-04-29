@@ -4,7 +4,7 @@ meta_title: Restaurant Web Design | Easy Menu Updates | Manchester | Chobble
 description: Fast, affordable, and mobile-friendly restaurant websites with easy menu updates - no PDFs! From £600 - vegan businesses may qualify for 50% discount.
 snippet: Professional restaurant websites with easy menu management
 meta_description: Restaurant web design Manchester - no PDF menus, easy updates, fast loading - from £600 - possible discounts for vegan restaurants - local developer
-order: 2
+order: 13
 ---
 
 # Restaurant web design

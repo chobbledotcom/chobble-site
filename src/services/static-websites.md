@@ -3,7 +3,7 @@ title: Static website design
 meta_title: Fast, Affordable Websites | Prestwich, Manchester | Chobble
 description: Websites that load quickly, cost very little to host, and that you can edit yourself.
 snippet: Fast, affordable websites you can edit yourself
-order: -1
+order: 1
 meta_description: Fast websites that load in under a second, hosted from £10/month (£5 for charities) without support, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
 ---
 

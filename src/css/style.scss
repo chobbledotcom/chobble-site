@@ -116,7 +116,9 @@ body {
   outline-offset: 0;
   background-color: var(--focus);
   color: var(--focus-fg);
-  box-shadow: 0 -2px var(--focus), 0 4px var(--focus-fg);
+  box-shadow:
+    0 -2px var(--focus),
+    0 4px var(--focus-fg);
   text-decoration: none;
 }
 
@@ -625,15 +627,18 @@ footer {
       order: 3;
     }
 
+    .nav-right {
+      height: 3.5rem;
+    }
+
     .nav-links {
       display: none;
       order: 4;
       flex-basis: 100%;
       flex-direction: column;
       gap: 0;
-      margin: 0.5rem -1rem 0;
+      margin: 0;
       padding: 0.5rem 0;
-      border-top: 1px solid rgba(255, 255, 255, 0.2);
 
       li {
         margin: 0;
