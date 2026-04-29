@@ -17,7 +17,7 @@ I give practical advice in plain English without pushing you toward expensive so
 
 <div class="card margins">
 
-### 💻 Website & hosting advice
+### Website & hosting advice
 
 I can help you understand your options and make smart choices about:
 
@@ -31,7 +31,7 @@ I can help you understand your options and make smart choices about:
 
 <div class="card margins">
 
-### 🔧 Technical support & strategy
+### Technical support & strategy
 
 Beyond websites, I can assist with:
 
@@ -45,7 +45,7 @@ Beyond websites, I can assist with:
 
 <div class="card margins">
 
-### ✅ Recent success stories
+### Recent success stories
 
 My advice has helped clients:
 
