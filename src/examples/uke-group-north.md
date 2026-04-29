@@ -11,7 +11,7 @@ meta_description: Website for music teachers and workshops - session listings, s
 
 If you teach music - whether that's workshops, one-to-one lessons, or both - you need a website that makes it easy for students to find you, see your session times, and get in touch. I build websites for music teachers that are straightforward to update yourself and handle all the practical bits you need.
 
-**Musicians get 50% off my standard rates** - so a basic site starts from around £100-£200, with hosting from £5/month. [Full pricing details here](/prices/#content).
+**Musicians get 50% off my standard rates** - so a basic site starts from around £100-£200, with hosting from £10/month (or host elsewhere for free since you own the code). [Full pricing details here](/prices/#content).
 
 ## Uke Group North example
 
@@ -63,7 +63,7 @@ A simple contact form or clear email address is essential, plus phone number if 
 
 ## Why this approach works for musicians
 
-You can edit it yourself - PagesCMS gives you a straightforward editor, so you don't need to pay someone every time you want to add a songbook or update session times. Static hosting is affordable at £5/month for unmanaged hosting (bug fixes only) or £20/month for managed hosting with ongoing support and marketing help.
+You can edit it yourself - PagesCMS gives you a straightforward editor, so you don't need to pay someone every time you want to add a songbook or update session times. Static hosting is affordable at £10/month for unmanaged hosting (bug fixes only) or £20/month for managed hosting with ongoing support and marketing help - or you can host elsewhere for free since you own the code.
 
 The site's source code is yours, hosted on GitHub. If you want to move elsewhere or hire a different developer, you can. Static sites don't have databases to hack or WordPress plugins to update, so they're quick to load and stable.
 
@@ -71,7 +71,7 @@ The site's source code is yours, hosted on GitHub. If you want to move elsewhere
 
 I charge £200/hour for web development (£100/hour for musicians, artists, and writers), with discussions before and after the job free. A basic music teacher website typically takes 1-3 hours to set up using my template, so you're looking at £100-£300 total.
 
-Hosting is £10/month for unmanaged (bug fixes only) or £40/month for managed hosting (updates, marketing support, bug fixes). Both are 50% off for musicians, so £5/month or £20/month respectively.
+Hosting with me starts at £10/month for unmanaged (bug fixes only). Managed hosting is £40/month (£20/month for musicians) and includes updates, marketing support, and bug fixes. £10/month is my minimum - if you want to pay less, you can host elsewhere for free since you own the code.
 
 [Full pricing details here](/prices/#content)
 
