@@ -80,11 +80,9 @@ The gallery is populated by uploading images to the `src/images` folder, and the
 
 ## Pushing to Bunny
 
-Now that you've got your new tattoo website built on your computer, it's time to push the files out to Bunny. I automate this process through their API, which provides reliable and efficient deployment.
+Now that you've got your new tattoo website built on your computer, it's time to push the files out to Bunny. I automate this with GitHub Actions: whenever a change is saved - whether by me, by the customer through the CMS, or by another developer - the build runs automatically and the new site gets uploaded to Bunny via their API.
 
-I automate this with GitHub Actions. Every time a change is pushed to the main branch - whether by me, by the customer through the CMS, or any other commit - the workflow builds the site and uploads it to Bunny via their API. The whole thing usually finishes in under a minute.
-
-You can adjust the workflow for your preferred build tool if you'd rather - it's just a YAML file in the repo.
+If you'd rather use a different setup, the build steps live in a small config file in the repo and can be swapped out for whatever you prefer.
 
 ## Can you do this for me?
 

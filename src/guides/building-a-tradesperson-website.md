@@ -75,11 +75,9 @@ After a quick phone run-through of how to edit files I left Renegade to replace 
 
 ## Pushing to Bunny
 
-Like most of my static websites, the Renegade site is hosted on Bunny, connected to a custom domain. I automate this deployment process through their API for reliable and efficient updates.
+Like most of my static websites, the Renegade site is hosted on Bunny, connected to a custom domain. I automate the deployment with GitHub Actions: whenever a change is saved - whether by me, by the customer through the CMS, or by another developer - the build runs automatically and the new site gets uploaded to Bunny via their API.
 
-I automate this with GitHub Actions. Every time a change is pushed to the main branch - whether by me, by the customer through the CMS, or any other commit - the workflow builds the site and uploads it to Bunny via their API. The whole thing usually finishes in under a minute.
-
-You can adjust the workflow for your preferred build tool if you'd rather - it's just a YAML file in the repo.
+If you'd rather use a different setup, the build steps live in a small config file in the repo and can be swapped out for whatever you prefer.
 
 ## Can you do this for me?
 

@@ -32,7 +32,7 @@ Most of the sites I build (the [Chobble Template](/services/chobble-template/), 
 
 Bunny handles HTTPS certificates automatically and shows a custom 404 page when something's missing. Country blocking is available if you ever need to keep specific traffic away.
 
-I deploy to Bunny CDN using GitHub Actions. Every push to the main branch - whether from me, from you through the CMS, or from another developer - triggers a workflow that builds the site and pushes the output to Bunny via their API.
+I deploy to Bunny CDN using GitHub Actions. Whenever a change is saved - by me, by you through the CMS, or by another developer - the build runs automatically and the new version of the site gets uploaded to Bunny via their API.
 
 ### Rails and other long-running apps - Magic Containers
 
