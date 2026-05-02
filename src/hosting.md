@@ -30,9 +30,9 @@ I use a different Bunny product depending on what's being hosted. You don't have
 
 Most of the sites I build (the [Chobble Template](/services/chobble-template/), [Eleventy](/services/eleventy-developer/) sites, and any other static site) live on **Bunny CDN**. Pages are pre-built once and then served from edge locations around the world, which is why sites like [Renegade Solar](/examples/renegade-solar/) and [Fun Pro UK](/examples/fun-pro-uk/) load in well under a second.
 
-Bunny handles HTTPS certificates automatically, redirects the `www` version of your domain, serves "pretty" URLs without `.html` extensions, and shows a custom 404 page when something's missing. Country blocking is available if you ever need to keep specific traffic away.
+Bunny handles HTTPS certificates automatically and shows a custom 404 page when something's missing. Country blocking is available if you ever need to keep specific traffic away.
 
-I deploy to Bunny CDN using my [NixOS Site Builder](https://git.chobble.com/chobble/nixos-site-builder) flake, which clones the site from Git every few minutes, builds it with Nix, and pushes the output to Bunny via their API.
+I deploy to Bunny CDN using GitHub Actions. Every push to the main branch - whether from me, from you through the CMS, or from another developer - triggers a workflow that builds the site and pushes the output to Bunny via their API.
 
 ### Rails and other long-running apps - Magic Containers
 
@@ -51,6 +51,16 @@ This works well for small, focused apps where spinning up a full container would
 When a site has video that needs to play smoothly on phones and slow connections, I use **Bunny Stream** for the encoding and delivery. [Fun Pro UK](/examples/fun-pro-uk/) uses Stream for the looping video on its homepage, and it's how I'd handle any product or testimonial video on a client site.
 
 YouTube and Vimeo are also fine for embedded video - I'll recommend whichever fits the job.
+
+## Beyond Bunny
+
+A few other providers handle the rest of what your site needs:
+
+- **Domains** - [Krystal](https://krystal.uk/), a UK registrar with proper support and good tools for delegating account access without sharing passwords. No upsells, no nonsense.
+- **Email** - [Purelymail](https://purelymail.com) by default - affordable, flexible, and reliable. They're based in the US, so if you'd rather be on a European provider I'm happy to set up whatever you choose. The email host doesn't have to match the website host.
+- **Backups** - customer data is backed up to both [Hetzner](https://www.hetzner.com/) and [Scaleway](https://www.scaleway.com/), two separate European providers, so a problem at one doesn't take both copies down.
+- **Code** - source code lives on GitHub (private repos by default) and is mirrored to my own server at [Gandi](https://www.gandi.net/). You get a GitHub login and can push or pull whenever you want.
+- **Small bits** - I run a small Gandi VPS for the things Bunny doesn't handle directly, like redirecting `www.example.com` to `example.com` for static sites. You don't have to think about it.
 
 ## What it costs
 

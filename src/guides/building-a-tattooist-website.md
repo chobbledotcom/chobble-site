@@ -82,9 +82,9 @@ The gallery is populated by uploading images to the `src/images` folder, and the
 
 Now that you've got your new tattoo website built on your computer, it's time to push the files out to Bunny. I automate this process through their API, which provides reliable and efficient deployment.
 
-Because I love NixOS, I automated this process using my "NixOS Site Builder" flake ([source code](https://git.chobble.com/chobble/nixos-site-builder)). Every five minutes-ish, this script clones the site from Git, checks for changes, and if there are any it builds the site using Nix into `/var/www/example.com`, then uploads the site to Bunny via their API.
+I automate this with GitHub Actions. Every time a change is pushed to the main branch - whether by me, by the customer through the CMS, or any other commit - the workflow builds the site and uploads it to Bunny via their API. The whole thing usually finishes in under a minute.
 
-You'll want to adjust this for your preferred build tool, unless you also want to use my NixOS setup, which would be awesome (please let me know if you do!).
+You can adjust the workflow for your preferred build tool if you'd rather - it's just a YAML file in the repo.
 
 ## Can you do this for me?
 

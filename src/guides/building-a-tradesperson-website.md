@@ -77,9 +77,9 @@ After a quick phone run-through of how to edit files I left Renegade to replace 
 
 Like most of my static websites, the Renegade site is hosted on Bunny, connected to a custom domain. I automate this deployment process through their API for reliable and efficient updates.
 
-I automated this process using my "NixOS Site Builder" flake ([source code](https://git.chobble.com/chobble/nixos-site-builder)). Every five minutes or so, this script clones the site from Git, checks for changes, and if there are any it builds the site using Nix into `/var/www/example.com`, then uploads the site to Bunny via their API.
+I automate this with GitHub Actions. Every time a change is pushed to the main branch - whether by me, by the customer through the CMS, or any other commit - the workflow builds the site and uploads it to Bunny via their API. The whole thing usually finishes in under a minute.
 
-You'll need to adjust this for your preferred build tool, unless you also want to use my NixOS setup, which would be awesome (please let me know if you do!).
+You can adjust the workflow for your preferred build tool if you'd rather - it's just a YAML file in the repo.
 
 ## Can you do this for me?
 
