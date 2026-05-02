@@ -32,7 +32,7 @@ You can host up to 20 websites with me for **£40** per month, or **£20 if disc
 - **Bugs get fixed** - if something breaks, I sort it out
 - **Marketing support** - personal help implementing strategies from my [free guides](/guides/) and [videos](/videos/)
 
-You always have the option to host elsewhere since you own the full source code. I recommend [Bunny.net](https://bunny.net/), [Netlify](https://netlify.com), [Pico.sh](https://pico.sh/pgs), and [Surge](https://surge.sh) - but I'll help you host wherever you like.
+All hosting with me runs on [Bunny.net](/hosting/) - that page explains how I use it. If you'd rather host elsewhere, you own the full source code; I recommend Bunny direct, [Netlify](https://netlify.com), [Pico.sh](https://pico.sh/pgs), or [Surge](https://surge.sh), and I'll help you set up wherever you like.
 
 ## Basic hosting (unmanaged sites)
 

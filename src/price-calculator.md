@@ -79,7 +79,7 @@ This is an estimate only, but if it sounds good please **drop me a message throu
 
 ## Monthly costs
 
-You can either host your new website yourself or pay me to host it - either is totally fine. If you'd like me to host it, my prices are:
+I host your new website on [Bunny.net](/hosting/) so you don't have to find a host yourself, though you can take the source code and host elsewhere if you'd prefer. Hosting prices are:
 
 - **£10/month:** Hosting only, with no support or marketing advice. You can make changes yourself or employ someone to help you.
 - **£40/month:** Hosting, support, uptime alerts, search position tracking, Google Search Console monitoring, and personal help implementing the strategies in my [free marketing guides](/guides/) and [videos](/videos/). I'll support you with any day to day maintenance and expansion of your site.
