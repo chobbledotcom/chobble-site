@@ -80,12 +80,10 @@ The gallery is populated by uploading images to the `src/images` folder, and the
 
 ## Pushing to Bunny
 
-Now that you've got your new tattoo website built on your computer, it's time to push the files out to Bunny. I automate this process through their API, which provides reliable and efficient deployment.
+Now that you've got your new tattoo website built on your computer, it's time to push the files out to Bunny. I automate this with GitHub Actions: whenever a change is saved - whether by me, by the customer through the CMS, or by another developer - the build runs automatically and the new site gets uploaded to Bunny via their API.
 
-Because I love NixOS, I automated this process using my "NixOS Site Builder" flake ([source code](https://git.chobble.com/chobble/nixos-site-builder)). Every five minutes-ish, this script clones the site from Git, checks for changes, and if there are any it builds the site using Nix into `/var/www/example.com`, then uploads the site to Bunny via their API.
-
-You'll want to adjust this for your preferred build tool, unless you also want to use my NixOS setup, which would be awesome (please let me know if you do!).
+If you'd rather use a different setup, the build steps live in a small config file in the repo and can be swapped out for whatever you prefer.
 
 ## Can you do this for me?
 
-**If you've read this guide and want me to build a website for you using this process, please drop me a message through the contact form on this page.** My [prices are very transparent](/prices/) and artists get a 50% discount. You will have full control over the site I build for you and can host wherever you like - or you can pay me to host and get free access to my [marketing guides](/guides/) and [videos](/videos/) to help promote your new site!
+**If you've read this guide and want me to build a website for you using this process, please drop me a message through the contact form on this page.** My [prices are very transparent](/prices/) and artists get a 50% discount. I'll [host the site for you](/hosting/) on Bunny.net, with free access to my [marketing guides](/guides/) and [videos](/videos/) to help promote it - or you can take the full source code and host wherever you like, since you own everything I build.

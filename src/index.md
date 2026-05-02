@@ -23,7 +23,8 @@ I also write [free guides about building websites](/guides/) and create [online 
 - **[Custom web applications](/services/software-developer/)** - booking systems, databases, business tools
 - **[SEO audits](/services/seo-audits/)** - clear instructions for ranking higher on Google
 - **[Website content advice](/services/website-content-advice/)** - a prioritised list of improvements
-- **[Hosting and migrations](/services/website-migrations/)** - escape expensive platforms
+- **[Hosting](/hosting/)** - I run your site on Bunny.net, so you don't have to find a host
+- **[Migrations](/services/website-migrations/)** - escape expensive platforms
 - **[Expert tech advice](/services/technical-advice/)** - plain-English guidance on any tech decision
 - **[Free marketing guides](/guides/)** and **[videos](/videos/)** to help you do it yourself
 
