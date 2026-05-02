@@ -51,7 +51,7 @@ The CIC is set up to benefit small businesses, charities, co-operatives, and com
 
 I charge a [flat per-hour rate](/prices/) for all web development services and tell you exactly what's included for each hour.
 
-I build with open source tools that give you maximum flexibility. I [host with Bunny.net](/hosting/) by default and bundle that into the [monthly fee](/prices/), but you're never tied to it - you own the source code, you can import and export your data easily, you can edit the site yourself, and I'll help you take it to any other hosting provider whenever you like.
+I build with open source tools that give you maximum flexibility. You can import and export your data easily, edit your site's content yourself, and move to any hosting provider you like. I don't force you to host on my server, and I provide instructions for hosting elsewhere or moving away - although you might like to host with me for the ongoing support.
 
 I'm happy to explain as much about how your website works as you like, and will share all source code by default - [here's my code repository](https://git.chobble.com).
 
