@@ -7,7 +7,7 @@ meta_title: Web Developer Prestwich | Websites You Own & Control | Chobble
 meta_description: I build websites for Prestwich businesses that you own and control. You can edit them yourself, move to any host, and never pay me again if you don't want to. No subscriptions, no lock-in.
 ---
 
-**I build website for your business that they can own and control.** You can edit them yourself, move to any hosting provider, and never pay me again if you don't want to - or you can host with me at [fair prices](/proces/), with support included or not.
+**I build websites for businesses that they can own and control.** You can edit it yourself, move to any hosting provider, and never pay me again if you don't want to - or you can host with me at [fair prices](/proces/), with support included or not.
 
 I'm Stef, a web developer with over 20 years of experience (including five years at [Bandcamp.com](https://bandcamp.com) and over a decade supporting local charities), based in Prestwich, Manchester. I use open source tools like Ruby on Rails and Eleventy to make sites that **load fast**, **give you a solid technical foundation for search**, and **cost very little to host**.
 
