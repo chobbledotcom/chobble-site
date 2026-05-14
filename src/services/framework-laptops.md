@@ -9,40 +9,38 @@ meta_description: Build your own repairable laptop - Framework DIY kits - I'll h
 
 # Framework laptop builds in Prestwich, Manchester
 
-As a lifelong nerd I've build dozens of computers over the years and repaired just as many. It's much cheaper to build and repair your own PC than to buy something "off the shelf" with an expensive maintenance contract.
+I've built and repaired a lot of computers over the years, mostly because it's a tonne cheaper than buying something off the shelf with an expensive maintenance contract attached, and partly because I actually enjoy it. Desktops are easy enough for anyone willing to follow a YouTube video; the bit that's always been awkward is laptops, because they're often built like they were never meant to be opened - soldered-in memory, glued-in batteries, cables that snap if you breathe on them, screens that need an hour of careful work to swap out.
 
-This is often difficult to accomplish with laptops - they sometimes have soldered or glued-in parts that are hard to replace, cables and connectors that are easy to break, and screens that require major surgery to replace.
+The result is that a perfectly good laptop with one broken component gets binned and replaced, which is both a waste of money and the reason there's a small mountain of dead laptops in landfill somewhere.
 
-This results in huge amounts of "e-waste" as laptops are sent to landfill just because one component has broken.
+[Framework](https://frame.work) are a company that have decided to do something about this. They make laptops that are properly modular - every component is designed to be replaced - and they sell the spare parts at reasonable prices on their own site. You can swap the memory, the SSD, the screen, the keyboard, the battery, the mainboard, even the ports, with a screwdriver they include in the box.
 
-**Framework ([frame.work](https://frame.work)) have created a solution all of this, by building easily repaired, upgraded, and customisable laptops and selling spare parts at affordable prices.**
+## I can help you build one
 
-## I can help you build your own laptop
+If you're in Prestwich or Manchester and thinking about a new laptop, the Framework "DIY edition" is worth a look. It arrives as a kit - you fit your own memory and SSD, install an operating system, and you're done. The whole process is well-documented and not particularly hard, but having somebody who's done it a fair few times sat next to you the first time round is the kind of thing that turns "this might be a stressful afternoon" into "this is actually fun".
 
-If you're local to Prestwich or Manchester and are considering a new laptop for yourself or your business, consider getting a Framework one, in "DIY" version.
+## What you get out of it
 
-This will arrive as an unassembled kit, and you'll need to fit your own memory and hard drive, and install your own operating system.
+The money side is the easiest one to point at. Because you're sourcing the memory and SSD yourself, you can shop around - sales, second-hand parts, whatever - and end up paying significantly less than the bundled prices Framework or anyone else offers. Hundreds of pounds saved is normal rather than exceptional.
 
-**I can help you with all of this.** It's nothing too complicated and there are loads of tutorials online, but having someone sat next to you who has built loads of computers might help.
+Beyond the money, you'll have seen the inside of your laptop, which means the next time something needs replacing - a broken screen, a dead battery, a new mainboard a few years down the line - you'll know exactly what to do, because it's the same process. Most people are surprised at how straightforward it is once they've actually done it.
 
-## Why build my own?
+And to be honest, building one is a nice afternoon out. It's a bit like Lego, you learn a bit about how your computer works as you go, and you end up with something that's yours in a way that a sealed-up MacBook never quite is.
 
-**You'll save money.** By building your own laptop you can choose memory and hard drive options from any retailer. You can monitor deal websites and save hundreds of pounds!
+## Customising the build
 
-**You'll see that it's easy.** We'll open your laptop and install the new drives using the screwdriver Framework provide. This is the same process you'd need to do for upgrades or repairs!
+Framework laptops are unusually configurable. As well as the obvious things (screen size, processor, RAM, storage), you pick your own ports - USB-C, USB-A, HDMI, DisplayPort, Ethernet, MicroSD - and you can swap them around later if your needs change. The bezels around the screen come in a handful of colours (black, grey, orange, green, purple, transparent) and they snap on and off magnetically.
 
-**It's fun!** It's like Lego, and you'll learn a bit about how your computer works as we go.
+For the operating system I'll usually suggest Ubuntu Linux, which is the easiest option for anyone coming from Windows or Mac. NixOS is on the table if you want something more advanced. I can install Windows if you really want to, but I'd rather you didn't. Boo.
 
-## Customised laptops in Prestwich
-
-Framework laptops are **fully customisable**. Never mind just the screen size or processor - you can even pick your ports (USB-C, USB-A, HDMI, DisplayPort, Ethernet, MicroSD, etc.) and swap them as needed. Choose your colours - bezels come in black, grey, orange, green, purple, or transparent.
-
-I'll install **Ubuntu Linux** (easy), **NixOS** (advanced), or **Windows** (boo!). Framework offer options from basic durable builds for students or kids, to high end setups for development work or mobile gaming. We can sit down together in Prestwich and browse the Framework store to assemble the exact laptop you need.
+We can sit down somewhere in Prestwich and go through the Framework store together to spec the exact machine you need - student-proof basic, mobile gaming, development workstation, whatever shape your life is.
 
 ## Framework laptops for business fleets
 
-For businesses in Manchester, Framework laptops make more sense than Dell or HP contracts. Keep a small stock of Framework parts (screens, keyboards, batteries, mainboards) and your IT team can do repairs in-house in minutes instead of shipping laptops away for weeks. A broken screen costs £179 to fix yourself versus £500+ through Dell ProSupport. Standardise on one Framework model across your fleet and you can swap components between machines - dead laptop becomes spare parts. No more extended warranties, no more waiting for technicians, no more writing off perfectly good machines because one component failed. I can help set up your initial fleet and train your team on repairs.
+For a business in Manchester running a fleet of laptops, Frameworks make a lot of sense compared to the usual Dell or HP contracts. If you keep a small stock of common parts on a shelf - screens, keyboards, batteries, mainboards - your IT person can fix things in-house in minutes instead of shipping the laptop away for two weeks. A broken screen costs about £179 to replace yourself, versus £500-plus through Dell ProSupport.
 
-## Let's do it!
+There's also a nice trick where if you standardise on one Framework model across the fleet, components from a dead laptop become spare parts for the rest. The arithmetic on extended warranties stops looking sensible pretty quickly once you've worked through it. I can help you set up the initial fleet and walk your team through the repair workflow.
 
-**If you want to build your own Framework laptop and would like someone sat next to you who's done it before and is familiar with what goes where, send me a message through the form below and we'll get things planned.**
+## Get in touch
+
+If you'd like a hand building your first Framework laptop, fill in the form below.

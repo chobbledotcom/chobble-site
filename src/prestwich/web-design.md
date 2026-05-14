@@ -9,68 +9,60 @@ meta_description: Prestwich web designer - websites from £600 - meet at Cuckoo 
 
 # Web design in Prestwich
 
-Looking for an affordable web designer in Prestwich? I can make you a website from as little as around **£600** (or **£300** for charities, cooperatives, artists, and [vegan businesses](/services/vegan-business-websites/#content) or otherwise sustainable businesses).
+I'm a web developer in Prestwich, and I build websites starting at around **£600** - or **£300** if you're a charity, co-op, artist, [vegan business](/services/vegan-business-websites/#content), or otherwise sustainable business. I live round here, so if you'd like to meet in person we can sit down at your place, mine, or somewhere local - I'll have a Shindigger at Cuckoo if you're picking the venue.
 
-As a fellow Prestwichian, I can visit you at your location, you can come to mine, or we can meet at a local cafe or bar to discuss your web design requirements (I'll have a Shindigger at Cuckoo, cheers).
-
-I pride myself on building fast, efficient, accessible and easily-understood websites - ideal for guiding visitors from search engines to the important information as quickly as possible.
+The kind of sites I build are fast, accessible, and laid out so that whoever lands on them from a Google search can find what they came for in a few seconds. That sounds obvious, but it's surprising how many local business websites bury the phone number three clicks deep, or hide the menu in a PDF, or take six seconds to load on a phone.
 
 ## How it works
 
-1. We meet to discuss your requirements _(for free!)_
-2. I send a detailed proposal breaking down exactly what you'll get
-3. I build your site in 1-2 days for a simple site
-4. You get training plus the complete source code and instructions
-5. I can host your new site, or you or someone else can
+1. We meet to talk through what you actually need (free, no obligation)
+2. I send you a written proposal with a breakdown of what each bit costs
+3. I build the site - usually a day or two for a simple one
+4. You get a training session, the full source code, and instructions for everything
+5. You can host with me, or take it elsewhere - your choice
 
-Most delays come from content creation, but you can use my [free guides](/guides/) and [videos](/videos/) for help.
+Most of the time, the thing that actually slows the project down is content - photos, words, opening hours - rather than the build itself. If you want help with that, my [free guides](/guides/) and [videos](/videos/) walk through it, or I can put you in touch with a copywriter.
 
-Want a more complex, more visual website with lots going on? I'm happy to help with that too - I can source designers, turn paid-for templates into interactive sites, or build any advanced functionality with Ruby on Rails or other open source platforms. Check out my [software development services](/services/software-developer/) for custom applications and integrations.
+If you're after something more involved - a custom design, a booking system, a customer database, anything beyond a brochure site - I can help with that too. I can source designers, turn paid-for design templates into working sites, or build custom functionality with Ruby on Rails or other open source tools. Have a look at my [software development services](/services/software-developer/) for the bigger stuff.
 
-## Types of websites
+## A few sites I've built around Manchester
 
-I've built sites for businesses across Greater Manchester:
+**Restaurants and cafes:** [This & That](/examples/this-and-that/), [Sally's Bakes](/examples/sallys-bakes/), [Avo Coffee](/examples/avo-coffee/)
 
-**Restaurants & cafes**: [This & That](/examples/this-and-that/), [Sally's Bakes](/examples/sallys-bakes/), [Avo Coffee](/examples/avo-coffee/)
+**Services:** [Renegade Solar](/examples/renegade-solar/), the solar panel installers, and [Blue Pits](/examples/blue-pits/), the housing charity
 
-**Services**: [Renegade Solar](/examples/renegade-solar/) (solar panels), [Blue Pits](/examples/blue-pits/) (housing charity)
+**Community:** [Vegan Prestwich](/examples/vegan-prestwich/) (which my wife and I run) and [Crumpsall Folk Club](/examples/crumpsall-folk-club/)
 
-**Community**: [Vegan Prestwich](/examples/vegan-prestwich/), [Crumpsall Folk Club](/examples/crumpsall-folk-club/)
+**Creative:** [Button Kin Games](/examples/button-kin/)
 
-**Creative**: [Button Kin Games](/examples/button-kin/)
-
-Each site is built to match the business needs - from simple brochure sites to booking systems.
+These vary a lot in shape and complexity - some are simple brochure sites, others have booking systems or full product catalogues - but the underlying principle is the same: build it so it loads fast, ranks well, and the owner can edit it.
 
 ## Transparent pricing
 
-I charge a [flat hourly rate](/prices/) for all jobs and will be very transparent about what each hour of work covers.
+I charge a [flat hourly rate](/prices/) on every job, and I'll tell you exactly what each hour covers. No hidden retainers, no surprise add-ons, no "starting at" pricing that quietly doubles by the time you've signed.
 
-Check out my [price calculator](/price-calculator/) for a proper estimate, but typical costs are around:
+For a proper estimate, the [price calculator](/price-calculator/) will give you a figure based on what you actually need. Rough ballpark:
 
-- **Basic website**: £600-800
-- **Website with custom design**: £1,400-1,600
-- **Complex functionality**: £2,000+
+- **Basic website:** £600-800
+- **Website with custom design:** £1,400-1,600
+- **Complex functionality:** £2,000+
 
-I offer affordable web hosting from £10/month, or £40/month with ongoing support and personal help implementing the strategies in my [free marketing guides](/guides/) and [videos](/videos/). You can also host your site with Cloudflare pages for no monthly cost at all.
+Hosting starts at £10/month, or £40/month with ongoing support and personal help working through my [free marketing guides](/guides/) and [videos](/videos/). You can also host on Cloudflare Pages for nothing, since you'll own all the code.
 
-I give a **50% discount** to charities, co-ops, artists, musicians, vegan businesses, and renewable energy companies.
+Charities, co-ops, artists, musicians, vegan businesses, and renewable energy companies get **50% off** the build price.
 
-## Why work with me?
+## A few things that might matter to you
 
-**Local support**: Meet in person for training and support - I want to build local partnerships around Prestwich
+I'm local, so we can actually meet in person for the training and any follow-ups - which I think makes a real difference, especially when you're getting your head around editing a site for the first time. Building useful local relationships round Prestwich is part of why I do this.
 
-**No lock-in**: Unlike many web agencies, you get all the code and hosting instructions - you will own your website rather than just renting access to it
+You'll own the site. The full source code is yours, the hosting instructions are yours, the editing tools are yours. That's the opposite of how a lot of agencies work, where you're effectively renting access to your own website and they have you over a barrel if you ever want to leave.
 
-**Proven results**: Like helping Renegade Solar rank #1 on Google for "Solar Panel installer Prestwich"
+I've been doing this a while and have results to point at. As one example: I helped Renegade Solar move off Wix and they now rank #1 on Google for "solar panel installer Prestwich" and similar searches in their area, with a much faster site and a much lower hosting bill than they used to have.
 
-**Platform freedom**: Build exactly what you need without wrestling with Wix or Squarespace limitations
+And I'm building on open tools rather than someone's proprietary platform, which means you can do whatever you want with the site rather than running into "Wix doesn't let you do that" or "you'd need to upgrade for that feature".
 
-My aim is to build local partnerships with organisations and individuals around Prestwich and to become known as a useful and honest web consultant.
+## Get in touch
 
-## Your next step
+If you'd like a free quote, fill in the form below - or if you'd rather meet for a coffee first, mention that and we'll sort it out.
 
-Ready to get your Prestwich business online properly?
-
-**Fill in the form below for a free quote if you want to get planning your new website!**
-
-Check out more [example websites](/examples/) or see my [full pricing breakdown](/prices/) for complete transparency.
+Or have a browse through more [example websites](/examples/) and the [full pricing breakdown](/prices/) first if you're still weighing it up.

@@ -2,51 +2,53 @@
 title: Website Migrations
 meta_title: Website Migrations | Prestwich, Manchester | Chobble
 description: Escape expensive hosting - move your website to a platform you control for a fraction of the cost
-snippet: Escape expensive hosting and take control of your website
-order: 7
+snippet: Move your existing website off expensive hosting
 meta_description: Escape expensive hosting - migrate from Wix, WordPress, Squarespace - hosting from £10/month or free - keep the same look - Manchester web developer
+order: 7
 ---
 
-# Escape expensive website hosting
+# Moving your existing website off expensive hosting
 
-If your website looks fine but you're paying too much to keep it online - or you're frustrated with a platform that's hard to leave - I can help you move.
+If your website looks fine but the monthly bill is making you wince, or you've slowly realised the platform you're on makes it almost impossible to leave, I can move you. The new site will look identical to the visitor and cost a fraction of what you're currently paying.
 
-I can create an exact copy of your existing website that looks identical to visitors, but costs a fraction of the price to host. Your site keeps its current design, and visitors won't notice any difference.
+The way this works is that I rebuild your site as a "static" site - which is a slightly technical term for a site whose pages are written out in advance and served as plain HTML, the way the early web worked. The design and content stay the same, the URLs stay the same, your visitors won't notice any difference, but the whole thing becomes much cheaper to host and much harder to break.
 
-If you rarely update your site, this is often the smartest move. And if you do need to make regular changes, I can set up a [simple editing system](/services/static-websites/) around your migrated site.
+If you rarely update your site, this is often the smartest move you can make. And if you do need to change things regularly, I can wire up a [simple editing system](/services/static-websites/) on top of the migrated site so you can update it yourself.
 
-**Use the contact form below to get in touch if this sounds like a good fit for your site.**
+## The two kinds of website
 
-## Two types of website
+Roughly speaking, websites fall into two camps.
 
-**Platform-based websites** (like WordPress, Wix, or Squarespace) rebuild every page from a database each time someone visits. This needs more computing power, which means higher hosting costs. Think of it like a restaurant that cooks every dish from scratch for each customer.
+**Platform-based sites** like WordPress, Wix and Squarespace rebuild every page from a database every time someone visits. That needs computing power, which means the hosting bill is higher, and it means there's more software running that can break or get hacked. It's a bit like a restaurant cooking every dish from scratch as the order comes in.
 
-**Pre-built websites** prepare all the pages in advance. When someone visits, the server just hands them the ready-made page - much faster, much cheaper to run. Think of it like a bakery that has everything ready on the shelf.
+**Pre-built (static) sites** prepare every page in advance, just once, and store them as files. When someone visits, the server hands over the file. Much faster, much cheaper, much fewer moving parts. More like a bakery with everything ready on the shelf.
 
-## Why switch to a pre-built website?
+Most small business sites don't actually need the database-and-cooking bit. They're brochures - they tell people what you do and how to reach you - and the static approach fits that job almost perfectly.
 
-**Much cheaper hosting.** You can host for free on services like Cloudflare Pages or Netlify, or pay very little elsewhere - including with me.
+## What you get out of moving
 
-**Faster for your visitors.** Pages are ready to go, so they load fast, typically under a second. Faster sites also give you a stronger foundation for ranking on Google.
+The hosting cost drops a lot. You can host on Cloudflare Pages or Netlify for free, or pay very little to host with me or another small provider.
 
-**Nothing to maintain.** No software updates, no plugins to patch, no server to manage. Your hosting provider keeps everything online for you.
+Pages get faster for your visitors, typically loading in well under a second, which also gives you a stronger foundation for ranking on Google.
 
-**Very reliable.** Fewer moving parts means fewer things that can break. Your site stays up.
+There's nothing to maintain. No software updates, no plugins to patch every fortnight, no server to babysit. The hosting provider keeps the files online and that's about it.
 
-**More secure.** Hackers break into sites through outdated software and plugins. Pre-built sites don't have that attack surface.
+The site is more reliable for the same reason - fewer moving parts means fewer things that can go wrong. And it's more secure, because most websites get hacked through outdated software or vulnerable plugins, and a static site doesn't really have those to start with.
 
-**You can still make changes.** I can set it up so you edit your content through simple text files. No complex editor needed - just change the text and your site updates.
+You can still edit the content. I'll set you up with an editing interface that lets you change text without touching code, and I'll show you exactly which bits to edit and which to leave alone.
 
-**No limits on customisation.** You own the full source, so you can change anything - add sections, rearrange pages, update styles, whatever you need.
+You can still customise anything. You own the full source code, so adding a new section, rearranging the layout, changing the styling - all on the table. Not locked in.
 
-**Still interactive.** Contact forms, maps, image galleries, and other interactive features all work perfectly on pre-built sites.
+And the interactive bits still work - contact forms, maps, image galleries, all the usual things people expect from a small business site.
 
-## When this approach isn't right
+## When this isn't the right move
 
-**If you need live stock levels or booking availability.** Sites that need to show real-time information (like "3 left in stock" or "available on Tuesday") need a database behind them. I can help with that too - see my [custom web application services](/services/software-developer/).
+There are a couple of cases where a static site doesn't fit, and it's worth being honest about them upfront.
 
-**If you want a completely code-free editing experience.** You might see some technical-looking files when editing, but I'll show you exactly which bits to change and which to ignore. Most people find it straightforward once they've done it once.
+If you need genuinely live data on the page - "3 left in stock", real-time booking availability, a customer login area - then you need a database behind the site, which is a different kind of build. I can help with that too; see my [custom web application services](/services/software-developer/).
 
-## Ready to cut your hosting costs?
+If you want a completely code-free editing experience - the kind where you literally never see anything technical - the static approach can feel a bit raw. You'll probably see a bit of YAML or Markdown when you're editing. I'll show you which lines to change and which to ignore, and most people get the hang of it within their first edit, but it's worth knowing in advance.
 
-**Fill in the form below and we'll get moving!**
+## Get in touch
+
+If you reckon a migration would suit your site, fill in the form below.
