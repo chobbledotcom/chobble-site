@@ -1,7 +1,7 @@
 ---
 title: Restaurant Website Design in Prestwich | Chobble
 link_text: Restaurant Web Design
-snippet: Fast, affordable restaurant websites with easy menu updates
+snippet: Restaurant websites built by a Prestwich local
 description: Fast, affordable restaurant websites built by a Prestwich local. Easy menu updates, no PDFs, mobile-friendly. From £600. Will work for food!
 meta_title: Restaurant Web Design Prestwich | Easy Menu Updates | £600
 meta_description: Prestwich restaurant websites - no PDF menus, easy updates, fast loading - £600 (£300 for vegan places) - will work for food - local developer
@@ -11,47 +11,40 @@ meta_description: Prestwich restaurant websites - no PDF menus, easy updates, fa
 
 ![This & That's website homepage. The cafe is easy to miss, so the photo shows the alley visitors need to find as its header image. There are two main links, "Home" and "Menu", and we can see TripAdvisor reviews and the start of a description of the business](/assets/examples/this-and-that.png)
 
-Running a restaurant or cafe in Prestwich is hard enough without wrestling with your website. You need something straightforward - showing your **menu**, **hours**, and **location** without clutter or distractions.
+I build websites for cafes and restaurants. I live in Prestwich, so if you're round here we can meet at yours, mine, or a local cafe to talk it through - and obviously, eating in your place at some point as part of the work is fine too if that suits.
 
-## Straightforward websites are better
+The shape of the sites I build is on my main [restaurant web design page](/services/restaurant-web-design/) - the short version is that the menu is a real web page rather than a PDF, the opening hours sit in the footer of every page, and you (or whoever you trust on the team) can edit any of it through a simple browser interface without waiting on me.
 
-Many restaurant websites struggle with common problems - PDF menu downloads that are difficult to open on phones, animations that slow down loading times or obscure important information, and contact forms that aren't properly maintained.
+## Why the no-PDFs thing matters
 
-I build restaurant websites that put function first. Clear menus displayed as simple web pages, super fast loading times, and up-to-date information and links to help hungry people find you quickly.
+A surprising number of restaurant websites bury the menu in a PDF download. The reason that's bad is partly that PDFs are awkward to open on a phone (which is where most people are looking when they're deciding where to eat), and partly that Google can't really read them properly, so your menu items don't help you rank for searches like "vegan curry near me" or "Sunday roast Prestwich". A menu that's a normal web page fixes both at once.
 
-## Real results
+The same is true for the address, opening hours and phone number - all the things people actually need before they head over to you. Those should be on every page, visible without scrolling and without clicking.
 
-I've built successful sites for independent cafes and restaurants across Greater Manchester:
+## A few I've built locally
 
-[This & That Cafe](/examples/this-and-that/) is Manchester's legendary curry house that's been serving rice and three since 1984. Their website gets their menu in front of customers instantly - no clicks, no PDFs, just the food information people are searching for.
+[This & That Cafe](/examples/this-and-that/) is the long-running curry cafe in town that's been doing rice and three for decades. I've hosted their site for nearly ten years and it gets hundreds of visitors a day from Google, with the menu front and centre.
 
-[Sally's Bakes](/examples/sallys-bakes/) in Bury showcases their vegan pies, pasties and cakes with ingredient lists and delivery info. The colourful design reflects their personality while keeping usability at the forefront.
+[Sally's Bakes](/examples/sallys-bakes/) is a vegan bakery in Bury with full ingredient lists and allergen info on every product, ranking #1 on Google for "vegan bakery Bury" and a fair few other searches.
 
-[Avo Coffee](/examples/avo-coffee/) in Haslingden was built using the [Chobble Template](/services/chobble-template/), featuring instant page loads and a clear structure that makes finding menu items, opening hours and location details effortless.
+[Avo Coffee](/examples/avo-coffee/) is a Haslingden cafe built on my [Chobble Template](/services/chobble-template/), with instant page loads and a clear menu layout the owner edits themselves.
 
-## Easy peasy updates
+## How the editing works
 
-The biggest pain with restaurant websites? Updating menus. With my sites, you just:
+You bookmark an edit link, log in with your email, change whatever needs changing in a normal-looking form, and click save. A minute later the change is live on the site. The tool behind it is called [PagesCMS](https://pagescms.org), and everything's stored as plain text under the hood, so I can roll back any mistake if you ever need me to.
 
-1. Click your edit bookmark
-2. Log in with your email
-3. Change any menu item in a simple text box
-4. Click save
+## Pricing
 
-That's it. No calling developers. No waiting days. No extra charges. Using [PagesCMS](https://pagescms.org) and open source tech means you're always in control.
+A restaurant site starts at **£600**, or **£300** if you run a vegan restaurant. That covers a mobile-first design built on the Chobble Template, the menu system, the editing setup, a contact form with spam protection, Google Maps integration, the initial SEO setup, and a training session.
 
-## Transparent pricing
+Hosting is **£10/month** for a simple site, or **£40/month** with ongoing support and personal help working through my [free marketing guides](/guides/) and [videos](/videos/).
 
-A basic restaurant website starts at about **£600** and just **£300** for vegan businesses - that gets you a professional design based on my proven [Chobble template](/services/chobble-template/), an easy menu management system, mobile-first responsive design, contact form with spam protection, plus setup and training.
+And the food angle - I'm genuinely happy to knock the price down in exchange for meals at your place, especially if you're vegan or veggie. Mention it when you get in touch and we can have a chat about what works.
 
-Hosting is from **£10/month** for simple sites with paid support, or **£40/month** if you want ongoing support, updates, and personal help implementing the strategies in my [free marketing guides](/guides/) and [videos](/videos/).
+## Why work with a local
 
-**Special offer**: I'm always happy to discuss reducing prices in exchange for meals at your restaurant!
+Most "restaurant web design" outfits are remote, and the platforms like Wix and Squarespace are huge global companies with no skin in the game when your site goes down on a Saturday night. I'm a 20-minute walk away. I'll meet you in person to figure out what you actually need, sit with you while you do your first round of menu edits, and I'm reachable on WhatsApp if something goes wrong. Whether that matters to you depends on how much hand-holding you want; for some people it makes no difference at all and that's fine too.
 
-## Local Prestwich web developer
+## Get in touch
 
-As a lifelong Prestwichian, I can offer something different from remote agencies or Wix / Squarespace-type global corporations. I'll meet you in person to understand your needs properly, show you exactly how to update your site, and be available when you need help. I don't do expensive contracts or hidden fees - I transparently explain exactly what you're paying for.
-
-## Lets get started!
-
-**You deserve a website that brings in customers, and a technical partner who works in your interest. Fill in the form below to discuss your restaurant website requirements.**
+If this sounds like the right fit, fill in the form below.
