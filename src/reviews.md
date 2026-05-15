@@ -74,6 +74,12 @@ As Chobble is a pretty new business I don't have lots of reviews, but this page 
 >
 > *by [Andy at AS Home Furnishings](https://www.ashomefurnishings.co.uk)*
 
+> The developer at Chobble is happy to integrate with other platforms and is collaborative. I've personally worked with them on a few different projects and they are very big on interoperability - The ability for systems to exchange data and work with eachother freely and securely.
+>
+> The system is open-source, it promotes integration to other platforms and software, they're open to collaboration and will share development and it has sooo much potential.
+>
+> *by [Spencer at Elliotts Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)*
+
 > So we reach out in regards to ticket system they offer. I mean it game changer. Save us few bob and made easier for customers! The QR system game changer ! No more holding data on paper it now all simple
 >
 > *by Paul, tickets user*
