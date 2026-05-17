@@ -15,7 +15,7 @@
       # Function to create nodeModules for a given pkgs
       makeNodeModules =
         pkgs:
-        pkgs.buildNpmPackage {
+        (pkgs.buildNpmPackage.override { nodejs = pkgs.nodejs_24; }) {
           pname = "chobble-template-dependencies";
           version = "1.0.0";
           src = pkgs.runCommand "source" { } ''
