@@ -42,10 +42,6 @@ As Chobble is a pretty new business I don't have lots of reviews, but this page 
 >
 > *by [Mohammed at Monkey Play Land](https://www.monkeyplayland.co.uk)*
 
-> I've worked with Stef at Chobble over the years and can confidently say he's one of the most transparent, trustworthy, and knowledgeable developers out there.
->
-> Highly recommend Stef to any business or individual looking for reliable and ethical web and software support. I wouldn’t hesitate to work with him again!
-
 > Stefan knows his stuff with SEO and websites and gives great advice. I only joined 6 days ago and with the advice I've been given one of my websites went from 7th to 2nd within 5 days, really is great advice with no messing about. The price for the knowledge is great. Why pay £100's or £1000s of pounds when you can learn to do it yourself?
 >
 > *by [Alan at Kids Play Bouncy Castles](https://www.kidsplaybouncycastles.co.uk)*
