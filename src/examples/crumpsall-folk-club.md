@@ -10,7 +10,7 @@ meta_description: Ghost-powered folk club website - events, newsletter, no Faceb
 # Crumpsall Folk Club
 
 - **Client:** Crumpsall Folk Club
-- **Services:** Website development and h:osting
+- **Services:** Website development and hosting
 - **Website:** [CrumpsallFolkClub.co.uk](https://crumpsallfolkclub.co.uk)
 
 Crumpsall Folk Club meets monthly for folk music sessions. They wanted their own website to post events, share news, and grow their community without relying on Facebook.
@@ -21,7 +21,7 @@ Crumpsall Folk Club meets monthly for folk music sessions. They wanted their own
 
 I set up a Ghost-powered website on PikaPod, giving them a proper online home with really low running costs. The site has everything they need - event listings, a newsletter system, and a contact form.
 
-The club members can update content themselves without any tech knowledge. Adding events, news, and photos is dead easy with Ghost's simple editor. Their newsletter helps them build up a subscriber list and talk directly to their audience, so they don't have to depend on social media algorithms.
+The club members can update content themselves without any tech knowledge. Adding events, news, and photos is straightforward with Ghost's simple editor. Their newsletter helps them build up a subscriber list and talk directly to their audience, so they don't have to depend on social media algorithms.
 
 ## Technical details
 
@@ -42,7 +42,7 @@ class="right">
 - [Google Search Console](https://search.google.com/search-console) integration
 - Performance monitoring with [SerpBear](https://docs.serpbear.com)
 
-I deliberately chose options with low ongoing costs and ease of use rather than using a bunch of expensive WordPress plugins that need constant updates and maintenance. This approach is fairly bombproof and affordable, perfect for a community club. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
+I deliberately chose options with low ongoing costs and ease of use - Ghost for the CMS, FormSpark for contact forms, PikaPod for hosting, Mailgun for newsletters - rather than stacking together a collection of paid plugins that all need updating. This approach keeps things simple and affordable, which is exactly what a community club needs. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
 
 ## Ongoing support
 

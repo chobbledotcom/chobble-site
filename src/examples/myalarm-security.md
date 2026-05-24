@@ -4,7 +4,7 @@ snippet: An efficient and SEO-ready site for a local burglar alarm company
 order: 2
 colour: "#cc2222"
 meta_title: Trades Website | MyAlarm Security Example | Chobble
-meta_description: Websites for local businesses - super fast speeds, easy to grow, and easy to edit
+meta_description: Websites for local businesses - fast loading, easy to grow, and easy to edit
 ---
 
 # Websites for local businesses
@@ -30,7 +30,7 @@ I used this flexibility on the MyAlarm site to create a custom homepage with sli
 
 ### Search engine friendliness
 
-There have been tonnes of studies showing that fast-loading, straightforward websites are more effective at generating enquiries. The Chobble Template uses a bunch of neat tricks to make pages load near-instantly, like pre-rendering, placeholder images, deferred scripts, and other nerdy stuff - and then I host the sites on blazing-fast SSD storage from Bunny.net.
+There have been tonnes of studies showing that fast-loading, straightforward websites are more effective at generating enquiries. The Chobble Template handles a bunch of technical details to get pages loading quickly - pre-rendering, placeholder images, deferred scripts, and other nerdy stuff - and then I host the sites on Bunny.net's SSD-backed CDN.
 
 On top of all that technical whizz-bangery, the template is also really easy to expand, so businesses can create intra-linked pages that target specific search phrases, easy peasy.
 
@@ -40,12 +40,12 @@ And of course, I explain how all of this works to my paid customers so they know
 
 I charge a [flat hourly fee for all jobs](/prices/) and am totally transparent with you about what I'll do in each of those hours.
 
-As a very experienced developer, most website builds are pretty straightforward to me and much of the work is "already done" in my Chobble Template - but if you want a complex bespoke design or lots of new interactivity I can quote for that too.
+Most website builds are pretty straightforward to me and much of the work is "already done" in my Chobble Template - but if you want a complex bespoke design or lots of new interactivity I can quote for that too.
 
 For a site of similar complexity to this one, expect prices to **start at about £600**, with monthly hosting costs at **£40** for unlimited support, or **£10** for hosting only.
 
 My prices are discounted 50% for charities, co-operatives, artists, musicians, and vegan businesses.
 
-### Sounds great!
+### Get in touch
 
-**If you'd like a website for your business, drop me a message through the form below or [click here](/contact/) for my full contact details.**
+If you'd like a website for your business, fill in the form below or [find my full contact details here](/contact/).

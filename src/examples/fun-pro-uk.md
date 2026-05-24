@@ -13,7 +13,7 @@ colour: "#009dd7"
 - **Services:** Website development, design, and hosting
 - **Website:** [FunProUK.co.uk](https://www.funprouk.co.uk)
 
-Fun Pro UK is a family-run corporate entertainment hire company based in Coventry, right in the geographic heart of England. Colin and Liz have been running the business for over 16 years, delivering interactive games, photo booths, fun food carts, and branded activations to clients including Rolls-Royce, KPMG, Virgin Media O2, Amazon, Adidas, Red Bull Racing, and Selfridges. They needed a website that could properly showcase their massive range of hire equipment while making it dead easy for event planners to browse, compare, and request quotes.
+Fun Pro UK is a family-run corporate entertainment hire company based in Coventry, right in the geographic heart of England. Colin and Liz have been running the business for over 16 years, delivering interactive games, photo booths, fun food carts, and branded activations to clients including Rolls-Royce, KPMG, Virgin Media O2, Amazon, Adidas, Red Bull Racing, and Selfridges. They needed a website that could showcase their full range of hire equipment while making it straightforward for event planners to browse, compare, and request quotes.
 
 ![Fun Pro UK website homepage showing video header, testimonials, brand logos, and a "How it Works" section](/assets/examples/fun-pro-uk.png)
 
@@ -35,7 +35,7 @@ The site has a full search system that indexes all the content so visitors can q
 
 ## Events and locations
 
-One of the standout features is how the site organises content into a natural tree structure that is dead easy to navigate. The events system lets Fun Pro UK showcase their full range grouped by event type, including corporate fun days, Christmas parties, team building, exhibitions, and more, with each event type branching into the relevant products, case studies, and details. Visitors land on an event type that matches what they are planning and immediately see everything that is available for it.
+One of the standout features is how the site organises content into a natural tree structure that is straightforward to navigate. The events system lets Fun Pro UK showcase their full range grouped by event type, including corporate fun days, Christmas parties, team building, exhibitions, and more, with each event type branching into the relevant products, case studies, and details. Visitors land on an event type that matches what they are planning and immediately see everything that is available for it.
 
 The same approach works for locations. Fun Pro UK covers the whole of the UK from their base in Coventry, and the site has 16 dedicated location pages for cities including London, Manchester, Birmingham, Leeds, Liverpool, Bristol, and more, each with its own sub-pages. These location hubs let the business target search phrases that include specific city names while giving potential customers in those areas a landing page that feels relevant to them. The combination of events and locations means visitors can drill down naturally, finding their event type, finding their city, and seeing exactly what is on offer, without ever feeling lost in a site with this much content.
 
@@ -51,10 +51,10 @@ The site pulls in 147 customer reviews going back to 2015, which feed into the t
 
 The whole site is built on the Chobble Template using Eleventy as the static site generator, with content editable through PagesCMS. Despite the sheer volume of content the site builds and deploys automatically through GitHub Actions whenever content is updated. Images are served through Cloudinary for optimised delivery. The custom SCSS theme runs to hundreds of lines covering breakpoints at different device szies, with a full design token system for spacing, typography, colours, and component dimensions.
 
-The site uses is hosted on the Bunny.net CDN which means it responds really quickly, and it uses Bunny Stream for video delivery on the homepage, and Vimeo or YouTube for product videos. Contact forms are handled through custom Automatisch rules (Automatisch being an open source alternative to Zapier) which check BotPoison for spam protection and send nicely formatted receipt emails to both the client and the enquirer.
+The site is hosted on the Bunny.net CDN which means it responds quickly, and it uses Bunny Stream for video delivery on the homepage, and Vimeo or YouTube for product videos. Contact forms are handled through custom Automatisch rules (Automatisch being an open source alternative to Zapier) which check BotPoison for spam protection and send nicely formatted receipt emails to both the client and the enquirer.
 
 ## Why this matters
 
-This site demonstrates that the Chobble Template is not just for simple brochure websites. With 88 products, a quotation system, mega menu navigation, sitewide search, 16 location hubs, detailed case studies, 147 reviews, video backgrounds, brand carousels, and custom designs throughout, this is a full-scale commercial website that competes with anything a traditional web agency would build, and it loads faster than most of them because it is all pre-rendered static HTML served from a CDN.
+This site demonstrates that the Chobble Template is not just for simple brochure websites. With 88 products, a quotation system, mega menu navigation, sitewide search, 16 location hubs, detailed case studies, 147 reviews, video backgrounds, brand carousels, and custom designs throughout, this is a full-scale commercial website. Because it is all pre-rendered static HTML served from a CDN, it loads fast despite having all this content.
 
 If you want a site of similar scope and complexity, get in touch through the form below.

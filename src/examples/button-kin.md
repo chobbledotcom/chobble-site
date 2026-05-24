@@ -1,6 +1,6 @@
 ---
 title: Button Kin Games
-description: "Fast indie game website development in Prestwich. Free template download or custom build £300-£1,000. Stripe payments, mobile-responsive, beats WordPress speed."
+description: "Fast indie game website development in Prestwich. Free template download or custom build £300-£1,000. Stripe payments, mobile-responsive, built with Eleventy."
 snippet: A friendly website for tabletop games and adventures
 order: 6
 colour: "#f6dadf"
@@ -23,13 +23,13 @@ It's a static website - edited through simple text files - with a blog, listings
 
 A site like this takes me between **3 and 10 hours** depending on how tricked out you'd like it. The really time-consuming part is your job - writing game descriptions, editing images, and creating products on Stripe, but I can help you figure that stuff out too.
 
-It loads super fast compared to those heavy WordPress or Squarespace sites that bog down indie creators. And because it ranks above third-party stores, your customers can buy directly from you - meaning no commission fees.
+Because it is a static site, it loads quickly and ranks well in search engines. It also ranks above third-party stores, so your customers can buy directly from you - meaning no commission fees.
 
 ## Techie speccies
 
 - It's an **[Eleventy](/services/eleventy-developer/)** website ([11ty.dev](https://www.11ty.dev/)) - a fast, customisable framework using JavaScript.
-- It is loosely based on the **[Chobble Template](/services/chobble-template/)** with plenty of customisations. This meant we get some nice things out of the box, like RSS feeds, Sitemaps, and responsive images.
-- The site is automatically re-built and re-deployed whenever its source code is modified, using **Forgejo Actions** (which as basically the same as Github actions).
+- It is loosely based on the **[Chobble Template](/services/chobble-template/)** with plenty of customisations. This means it gets some useful things out of the box, like RSS feeds, Sitemaps, and responsive images.
+- The site is automatically re-built and re-deployed whenever its source code is modified, using **Forgejo Actions** (which are basically the same as GitHub Actions).
 - It is hosted on **Bunny CDN** - providing excellent performance and reliability for the site.
 - It collects subscriptions to a **Buttondown newsletter** list.
 - It gets **Lighthouse scores of 95+** - Google's system for determining how fast, accessible, and search engine friendly a website is.
@@ -72,8 +72,8 @@ Yes - I build them for easy content updates through simple text files. You won't
 **Template or custom build?**  
 I'd say try the template if you're comfortable with command line basics. Get me to do a custom build if that sounds intimidating, or ask a nerdy friend to set up the template for you.
 
-## Let's do it!
+## Get in touch
 
-Alright - glad to have convinced you! Fill in the form below to get the ball rolling. I take 50% payment up front and 50% on completion, and I can probably get started pretty quickly.
+Fill in the form below if you'd like a site like this. I take 50% payment up front and 50% on completion, and I can usually get started within a few days.
 
 **Want the free template instead?** [Download it here](https://git.chobble.com/hosted-by-chobble/buttonkin)
