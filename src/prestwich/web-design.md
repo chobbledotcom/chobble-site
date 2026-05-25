@@ -9,13 +9,13 @@ meta_description: Prestwich web designer - websites from £600 - meet at Cuckoo 
 
 # Web design in Prestwich
 
-I'm a web developer in Prestwich, and I build websites starting at around **£600** - or **£300** if you're a charity, co-op, artist, [vegan business](/services/vegan-business-websites/#content), or otherwise sustainable business. I live round here, so if you'd like to meet in person we can sit down at your place, mine, or somewhere local - I'll have a Shindigger at Cuckoo if you're picking the venue.
+I'm a web developer in Prestwich, and I build websites starting at around **£600** - or **£300** if you're a charity, co-op, artist, [vegan business](/services/vegan-business-websites/#content), or similar. I live round here, so if you'd like to meet in person we can sit down at your place, mine, or somewhere local - I'll have a Shindigger at Cuckoo if you're picking the venue.
 
-The kind of sites I build are fast, accessible, and laid out so that whoever lands on them from a Google search can find what they came for in a few seconds. That sounds obvious, but it's surprising how many local business websites bury the phone number three clicks deep, or hide the menu in a PDF, or take six seconds to load on a phone.
+The sites I build are fast and straightforward, laid out so that someone who lands on them from a Google search can find what they came for in a few seconds. Phone number, address, opening hours, what you do - all of that should be obvious straight away.
 
 ## How it works
 
-1. We meet to talk through what you actually need (free, no obligation)
+1. We meet to talk through what you need (at no charge, and if it turns out I'm not the right person I'll say so)
 2. I send you a written proposal with a breakdown of what each bit costs
 3. I build the site - usually a day or two for a simple one
 4. You get a training session, the full source code, and instructions for everything
@@ -39,9 +39,9 @@ These vary a lot in shape and complexity - some are simple brochure sites, other
 
 ## Transparent pricing
 
-I charge a [flat hourly rate](/prices/) on every job, and I'll tell you exactly what each hour covers. No hidden retainers, no surprise add-ons, no "starting at" pricing that quietly doubles by the time you've signed.
+I charge a [flat hourly rate](/prices/) on every job, and I'll tell you exactly what each hour covers. No hidden fees. The price I quote is the price you pay, assuming nothing major changes.
 
-For a proper estimate, the [price calculator](/price-calculator/) will give you a figure based on what you actually need. Rough ballpark:
+For an estimate, the [price calculator](/price-calculator/) will give you a figure based on what you need. Rough ballpark:
 
 - **Basic website:** £600-800
 - **Website with custom design:** £1,400-1,600
@@ -53,16 +53,16 @@ Charities, co-ops, artists, musicians, vegan businesses, and renewable energy co
 
 ## A few things that might matter to you
 
-I'm local, so we can actually meet in person for the training and any follow-ups - which I think makes a real difference, especially when you're getting your head around editing a site for the first time. Building useful local relationships round Prestwich is part of why I do this.
+I'm local, so we can actually meet in person for the training and any follow-ups. I think that makes a real difference when you're getting your head around editing a site for the first time. Building useful local relationships round Prestwich is part of why I do this.
 
-You'll own the site. The full source code is yours, the hosting instructions are yours, the editing tools are yours. That's the opposite of how a lot of agencies work, where you're effectively renting access to your own website and they have you over a barrel if you ever want to leave.
+You'll own the site outright - the full source code, the hosting instructions, the editing tools. If you ever want to move to another developer, or host it yourself, you can. Nothing's locked away behind a login I control.
 
-I've been doing this a while and have results to point at. As one example: I helped Renegade Solar move off Wix and they now rank #1 on Google for "solar panel installer Prestwich" and similar searches in their area, with a much faster site and a much lower hosting bill than they used to have.
+I've been doing this a while and have results to point at. As one example: I helped Renegade Solar move to a static site and they now rank #1 on Google for "solar panel installer Prestwich" and similar searches in their area, with faster page loads and lower hosting costs than they had before.
 
-And I'm building on open tools rather than someone's proprietary platform, which means you can do whatever you want with the site rather than running into "Wix doesn't let you do that" or "you'd need to upgrade for that feature".
+I build on open-source tools - Eleventy, Bunny.net, PagesCMS - which means you're not tied to a platform that might change its pricing or shut down a feature you rely on. The site is yours in a format that'll still work ten years from now.
 
 ## Get in touch
 
-If you'd like a free quote, fill in the form below - or if you'd rather meet for a coffee first, mention that and we'll sort it out.
+If you'd like a quote, fill in the form below - or if you'd rather meet for a coffee first, mention that and we'll sort it out.
 
 Or have a browse through more [example websites](/examples/) and the [full pricing breakdown](/prices/) first if you're still weighing it up.

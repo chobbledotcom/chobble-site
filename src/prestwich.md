@@ -7,10 +7,10 @@ meta_description: Prestwich born and raised web developer - meet at Costa or Cuc
 
 # Web services for Prestwich companies
 
-I am Prestwich born and raised, and I want to work with local organisations and individuals who need a trustworthy partner to guide through them through the complexities of running a business online or attracting new sales.
+I'm Prestwich born and raised, and I build websites and offer tech help to local businesses, charities, and community groups. If you need someone local who can explain things without jargon and won't lock you into a platform you can't get out of, I'm probably a good fit.
 
-Whether you're a sole trader working from your home address, or you've got a shop in the village and want to attract new customers, or you're mobile and visit customers at their Prestwich addresses and need to find more leads - I'm sure I can help.
+I work with sole traders working from home, shops in the village that want more footfall, mobile tradespeople who visit customers at their addresses, and community groups that need an online presence whatever their budget. If you're not sure whether what you need is something I do, ask - if it's not, I probably know someone round here who can help.
 
-**I am happy to visit Prestwich businesses at your location, or we can meet at Costa or Cuckoo or Goods In, or you can come to my house for a brew - whichever suits you best!**
+I'm happy to visit you at your premises, or we can meet at Costa or Cuckoo or Goods In, or you can come to my house for a brew.
 
-Some of the services I'm excited to offer to Prestwich businesses are:
+Some of the services I offer to Prestwich businesses:

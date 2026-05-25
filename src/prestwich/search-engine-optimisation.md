@@ -9,88 +9,64 @@ meta_description: Prestwich SEO specialist - 20+ years getting local businesses 
 
 # SEO specialist in Prestwich & North Manchester
 
-**Is your Prestwich business being outranked by competitors on Google? Want your website to bring in customers rather than just sit there looking pretty?**
+I've been building and optimising websites for over 20 years, including 10 years as lead developer at [Bouncy Castle Network](https://www.bouncycastlenetwork.com) pushing major SEO initiatives. I work with local businesses to improve their Google rankings through technical fixes, content work, and the ongoing maintenance that tends to get forgotten about once the site is live.
 
-After 20+ years of building and optimising websites online, plus 10 years as lead developer at [Bouncy Castle Network](https://www.bouncycastlenetwork.com) pushing major SEO initiatives, I know exactly what makes websites rank well and attract local customers.
+Google's ranking signals aren't a secret: fast-loading pages, clear content that matches what people are searching for, proper meta tags, structured data, and a site that works properly on phones. I handle the technical side of that, and I teach you how to handle the content side, because a site that ranks well tends to be a site that's genuinely useful to the people who land on it.
 
-## The most common SEO problems I fix
+## The work I do
 
-Most Prestwich and Manchester businesses come to me with the same issues: websites that **take ages to load**, **have hardly any content**, or sites where the content is just **copied and pasted from somewhere else**. Google hates all of these things.
+**Technical audits and fixes** - I check your site for the obvious problems: slow loading, missing meta tags, broken links, content that's identical across multiple pages, that sort of thing. Often there's a quick win or two that makes an immediate difference.
 
-I've had massive success simply **switching people over to fast-loading Eleventy sites with proper meta tags** - this normally gives an immediate ranking boost. But beyond the technical fixes, there's the deeper work of figuring out **what makes your company special** and integrating that into your website content so Google understands why customers should choose you.
+**Switching to a faster platform** - If your current site is slow - whether it's weighed down by plugins, a heavy theme, or a platform that generates pages on the fly - I can rebuild it as a static site that loads in under a second. That's not a magic bullet, but it's a solid foundation that everything else builds on.
 
-## My SEO approach & tools
+**Content guidance** - Google ranks pages that answer the question someone typed in. I help you figure out what your customers are actually searching for, and how to write pages that match those searches in a way that reads like a human wrote them.
 
-I use **Google Search Console, SerpBear, and GoatCounter** for ongoing monitoring, plus **SEO Spider** for comprehensive site audits. But tools are just the starting point - the real work is understanding your business and your local market.
+**Local SEO** - For searches like "plumber Prestwich" or "restaurant Whitefield", the work is mostly about making sure Google knows where you are, what you do, and that your site answers the question someone in the area is asking. I set up the structured data, get your Google Business profile sorted, and make sure your site mentions the areas you serve in a way that makes sense to a human reader.
 
-**For local SEO** (like "plumber Prestwich" or "restaurant Whitefield"), it's all about local area focus, understanding the nuances of delivering your service in that specific area, and making sure Google connects your business with local searchers.
+## A few results
 
-**For broader SEO** (competing nationally), it's trickier and requires more link building, having a genuinely excellent offering, and knowing how to sell yourself effectively online.
+Here's what I've helped local businesses achieve recently:
 
-## Proven local success stories
-
-Here are recent Google rankings I've helped North Manchester businesses achieve:
-
-**[This & That cafe](/examples/this-and-that)** - one of Manchester's most beloved cafes:
+**[This & That cafe](/examples/this-and-that)**
 
 - 3rd for "Curry Manchester" (after TripAdvisor and Reddit)
 - 4th for "Vegan Curry Manchester" (despite not being fully vegan)
 
-**[Vegan Prestwich](/examples/vegan-prestwich)** - local community group:
+**[Vegan Prestwich](/examples/vegan-prestwich)** - the community group my wife and I run
 
 - 1st for "Vegan Prestwich"
 - 3rd for "Vegan Whitefield"
 
-**[Renegade Solar](/examples/renegade-solar)** - local solar installer:
+**[Renegade Solar](/examples/renegade-solar)**
 
 - 2nd for "Solar Panel installer Prestwich"
 
-**[Sally's Bakes](/examples/sallys-bakes)** - local baker:
+**[Sally's Bakes](/examples/sallys-bakes)**
 
 - 1st for "Vegan Baker Bury"
 
-## Experience across local business types
+## What I need from you
 
-I've worked with **restaurants, tradespeople, shops, event hire companies**, and loads of other local business types. My decade at Bouncy Castle Network gave me deep experience with service businesses competing in local markets across the UK.
+SEO isn't something I do to your site while you get on with running the business. I need to understand what you do, who your customers are, and what you offer that the other listings on the same page don't. You're the expert on your business; I just know how to translate that into something Google understands.
 
-When multiple local businesses compete for the same keywords, **it comes down to which one can sell themselves best**. I'm just facilitating the transfer of knowledge from your company to potential customers - it's up to you to tell me the things that make you more attractive than your competition.
+For local SEO in particular, it helps if you know the area - which neighbourhoods you serve, how people describe what you do, what questions customers ask before they book. I can research a lot of that, but the inside knowledge you already have is invaluable.
 
-## Two ways I can help your business
+## How I work
 
-**Option 1: SEO Mentoring & Training (Recommended)**
+I tend to do an initial audit, fix the technical problems, and then either hand over to you with a plan for ongoing content, or keep working with you on a retainer basis if you'd rather I handled it. For Prestwich businesses, that means I can sit with you in person to go through the Google Search Console data, or I can chat you through it on WhatsApp. Whatever works.
 
-I'll audit your site, teach you what needs fixing, and guide you through implementing changes yourself. This approach means you can keep improving your site without escalating charges. For Prestwich businesses, I can **sit with you at your premises** and explain SEO concepts face-to-face, or help train your staff about updating websites.
+My [free guides](/guides/) and [videos](/videos/) cover most of the basics, so if you're the sort of person who likes to do things yourself, start there and get in touch when you hit a technical wall.
 
-**Option 2: I Do The Work For You (More Expensive)**
+## What I don't do
 
-I'll handle all the technical changes, content optimisation, and ongoing monitoring myself. This works well for businesses that want results but don't have time to learn the process.
+- **Dodgy link building** - buying links, stuffing keywords, cloaking, any of the tricks that sometimes work for a month and then get your site penalised. It's not worth the risk.
+- **Guarantees** - Nobody honest can promise you a specific ranking. Google changes its algorithm constantly, and your competitors are working on their sites too. What I can promise is that I'll do proper work and tell you the truth about what's achievable.
+- **Vanity metrics** - I track whether your site is getting more relevant visitors and whether those visitors are turning into enquiries. Ranking #1 for a term nobody searches for is pointless, and I'd rather tell you that than take your money to chase it.
 
-## Why local Prestwich businesses get better results
+## Free resources
 
-**I know the area intimately** - I can help you do the deep local research you'd need to compete effectively. I understand the local market dynamics, where your customers are likely searching from, and how to position your business against local competitors.
+I share what I know through [free guides](/guides/) and [videos](/videos/). My [YouTube channel](https://www.youtube.com/@ChobbleDotCom) goes into more depth on specific topics. Feel free to use them - they're there because I think this stuff shouldn't be locked behind a paywall.
 
-Being based here means I can be **hands-on with training and support** rather than trying to explain everything over email or video calls.
+## Get in touch
 
-## Free SEO knowledge
-
-I share my SEO knowledge through **[free guides](/guides/)** and **[videos](/videos/)** if you want to do the work yourself. You can also find more on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom). The businesses that see the most success are typically those who implement strategies from my guides and then contact me to figure out the fiddly technical bits.
-
-## How I measure success
-
-Simple: **more visitors and more enquiries**. I track actual business results, not just vanity metrics. Using Google Search Console and analytics, we can see exactly how many people are finding your business through different search terms and whether that's translating into actual customers.
-
-## Common scenarios that bring businesses to me
-
-**Being outranked by competition** - the most common situation. Your competitors appear above you for searches that should bring you customers.
-
-**New website launch** - you've invested in a new site and want to ensure it delivers a good return on investment.
-
-Both are absolutely solvable problems. I've seen loads of businesses succeed online and I know it's achievable with the right approach.
-
-## No ranking guarantees (and why that's good)
-
-No honest SEO expert should "guarantee" specific search positions. We don't have insights into Google's algorithms, and rankings depend on many factors outside any SEO company's control. The only ways to "guarantee" rankings involve spammy short-term tactics that risk getting your site banned entirely.
-
-**Ethical SEO is a long-term process** requiring continuous work and evaluation. But with the right strategy and execution, most local businesses can dramatically improve their online visibility.
-
-**Ready to get your Prestwich business found on Google? use the contact form below to get in touch and we'll create a plan that works.**
+If you want me to have a look at your site, fill in the form below. I'll tell you honestly whether I think I can help, and if I can't, I'll try to point you toward someone who can.

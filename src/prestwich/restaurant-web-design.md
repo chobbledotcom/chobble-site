@@ -15,11 +15,9 @@ I build websites for cafes and restaurants. I live in Prestwich, so if you're ro
 
 The shape of the sites I build is on my main [restaurant web design page](/services/restaurant-web-design/) - the short version is that the menu is a real web page rather than a PDF, the opening hours sit in the footer of every page, and you (or whoever you trust on the team) can edit any of it through a simple browser interface without waiting on me.
 
-## Why the no-PDFs thing matters
+## Why I use web pages for menus
 
-A surprising number of restaurant websites bury the menu in a PDF download. The reason that's bad is partly that PDFs are awkward to open on a phone (which is where most people are looking when they're deciding where to eat), and partly that Google can't really read them properly, so your menu items don't help you rank for searches like "vegan curry near me" or "Sunday roast Prestwich". A menu that's a normal web page fixes both at once.
-
-The same is true for the address, opening hours and phone number - all the things people actually need before they head over to you. Those should be on every page, visible without scrolling and without clicking.
+On the sites I build, the menu is a normal web page. That means it loads instantly on any phone, Google can read every dish so you show up for searches like "vegan curry near me" or "Sunday roast Prestwich", and customers don't need to download anything to see what you serve. The address, opening hours and phone number sit in the footer of every page too, where people expect to find them.
 
 ## A few I've built locally
 
@@ -39,11 +37,11 @@ A restaurant site starts at **£600**, or **£300** if you run a vegan restauran
 
 Hosting is **£10/month** for a simple site, or **£40/month** with ongoing support and personal help working through my [free marketing guides](/guides/) and [videos](/videos/).
 
-And the food angle - I'm genuinely happy to knock the price down in exchange for meals at your place, especially if you're vegan or veggie. Mention it when you get in touch and we can have a chat about what works.
+As for working for meals - I'm genuinely happy to knock the price down in exchange for food at your place, especially if you're vegan or veggie. Mention it when you get in touch and we can have a chat about what works.
 
 ## Why work with a local
 
-Most "restaurant web design" outfits are remote, and the platforms like Wix and Squarespace are huge global companies with no skin in the game when your site goes down on a Saturday night. I'm a 20-minute walk away. I'll meet you in person to figure out what you actually need, sit with you while you do your first round of menu edits, and I'm reachable on WhatsApp if something goes wrong. Whether that matters to you depends on how much hand-holding you want; for some people it makes no difference at all and that's fine too.
+I'm a 20-minute walk away. I'll meet you in person to figure out what you need, sit with you while you do your first round of menu edits, and I'm reachable on WhatsApp if something goes wrong. Whether you want that kind of support is up to you; for some people it makes no difference at all and that's fine too.
 
 ## Get in touch
 
