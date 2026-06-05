@@ -9,57 +9,40 @@ meta_description: Tech advice without the waffle - websites, hosting, backups, o
 
 # Technical consultancy in Prestwich
 
-I've been working with websites for over 20 years and have seen just about every technical problem a business might face. From quick fixes like sorting out DNS records for your domain, to bigger projects like rewriting outdated systems or speeding up sluggish websites - I can help.
+A lot of the technical questions businesses face don't need a full project - they need someone who's seen the same problem before. I've been working with websites and web infrastructure for over 20 years, and a fair bit of my consultancy is exactly that kind of thing: a quick email or call, a decision gets made, and everyone moves on.
 
-I give practical advice in plain English without pushing you toward expensive solutions you don't need. My clients appreciate having someone who can translate tech speak into clear guidance that makes sense for their business.
+If the question's quick, I'll just tell you - no charge. If it looks like it'll take longer to work through properly, I'll estimate the hours before we start, at my [flat hourly rate](/prices/).
 
-## What I can help with
+## What I help with
 
-<div class="card margins">
+**Platform decisions** - whether to stick with Wix or WordPress, what it would actually cost to move to a [static site](/services/static-websites/), or whether a full rebuild makes sense or a migration to something cheaper would do the job. I've built sites on just about every platform and can give you an honest read on the tradeoffs.
 
-### Website & hosting advice
+**Self-hosted software** - if you want your own instance of Nextcloud, Ghost, a CRM, or any of the dozens of apps available through [PikaPods](/services/pikapods-help/), I can get it running. Often much cheaper per month than the SaaS equivalent, and you own the data.
 
-I can help you understand your options and make smart choices about:
+**SEO and content planning** - working out what's actually worth doing to improve your rankings, or reviewing an existing approach. The [SEO audit service](/services/seo-audits/) is the more structured version of this, but sometimes a conversation is all it takes rather than a formal deliverable.
 
-- Moving away from expensive platforms to [cost-effective alternatives](/services/static-websites/)
-- Evaluating whether WordPress, Ghost, or other CMS systems suit your needs
-- Making changes to existing [Wix](/services/wix-site-edits/) or Squarespace sites
-- Setting up reliable ecommerce on Shopify or WooCommerce
-- Managing domains, email accounts, and other technical details
-- Finding trustworthy designers and content writers when needed
-</div>
+**Liaising with other specialists** - I've coordinated with Fiverr designers on behalf of clients, reviewed work before approval, and sat in on regular meetings with the Blue Pits Housing Action tech team to make sure they understand what they're being told. If you're dealing with a developer or supplier and want someone who can follow the technical detail in your corner, I can help with that.
 
-<div class="card margins">
+**Making sense of technical proposals** - if you've been quoted something and want a second opinion on whether it sounds reasonable, I can give you one.
 
-### Technical support & strategy
+**Domains, DNS, email, and hosting** - the plumbing that trips people up more than it should.
 
-Beyond websites, I can assist with:
+**Open source alternatives to expensive software** - if you're paying ongoing subscriptions for something, there's often a decent free equivalent I can help you switch to. See the [de-Googling page](/services/de-googling/) for a longer version of this.
 
-- Setting up proper backup systems so you never lose important data
-- Recommending hardware upgrades or new equipment that's good value
-- Finding [open source alternatives](/services/de-googling/) to expensive software
-- Implementing simple security measures to protect your business
-- Creating sustainable technical plans that grow with your business
-- Advising on [custom software development](/services/software-developer/) for bespoke business tools
-</div>
+## What I won't help with
 
-<div class="card margins">
+I'm not a Microsoft or Windows infrastructure person - Active Directory, Windows Server, and enterprise Microsoft tooling aren't my area, and I'd rather point you somewhere better than have you pay me to google things. Same with hardware buying advice.
 
-### Recent success stories
+If you need someone to actually run a content strategy or manage your social media, I'd recommend finding someone whose whole job that is.
 
-My advice has helped clients:
+## How it works in practice
 
-- Cut monthly hosting costs while improving website performance
-- Migrate away from proprietary platforms to systems they own
-- Set up automated backups that prevent data disasters
-- Create websites that they can update themselves without technical help
-- Find affordable alternatives to expensive software subscriptions
-</div>
+A lot of consultancy work comes from people I've worked with before - often from my time at Bouncy Castle Network - dropping me a question by email. If I can answer it in five minutes, I do and move on. Most of it works that way, and it doesn't get invoiced.
 
-## Practical, honest advice
+For bigger decisions - comparing options, working through what a project would actually involve, or sitting in on an ongoing technical relationship - I'll give you an estimate upfront so there are no surprises.
 
-I won't bamboozle you with jargon or push you toward services you don't need. If I already know the answer to your question, I'll just tell you - no charge. For more involved issues, I charge a [flat hourly rate](/prices/) with no hidden costs.
+> Stefan knows his stuff with SEO and websites and gives great advice. The price for the knowledge is great.
+>
+> _by [Alan at Kids Play Bouncy Castles](https://www.kidsplaybouncycastles.co.uk)_
 
-Initial consultations are free, and I'm happy to chat about any tech challenges you're facing. You'll get clear explanations of your options without any pressure.
-
-**Having a technical headache? just fill in the form below to get in touch and let's sort it out together.**
+**Got a technical question you're trying to work through? Fill in the form below and I'll tell you if I can help.**
