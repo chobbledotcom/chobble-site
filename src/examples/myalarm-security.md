@@ -1,51 +1,49 @@
 ---
 title: MyAlarm Security
-snippet: An efficient and SEO-ready site for a local burglar alarm company
+snippet: A bespoke website for a family-run burglar alarm and CCTV company on the London/Kent border
 order: 2
 colour: "#cc2222"
-meta_title: Trades Website | MyAlarm Security Example | Chobble
-meta_description: Websites for local businesses - fast loading, easy to grow, and easy to edit
+meta_title: MyAlarm Security | Security Company Website | Chobble
+meta_description: Custom website build for a family-run burglar alarm, CCTV and access control company in Sidcup - fully bespoke design on the Chobble Template, open source on GitHub
 ---
 
-# Websites for local businesses
+# MyAlarm Security
 
-[MyAlarm Security](https://www.myalarmsecurity.co.uk) are a burglar alarm and CCTV company who had an existing website but were pushing up against its limits, and needed something they could fully customise.
-
-I migrated their page content to my [Chobble Template](/services/chobble-template/), a "ready-ish to go" package for business websites, and then set about approximating their old site's theme - with a few tweaks.
-
-- **Client:** MyAlarm Security
-- **Services:** Website development and hosting
-- **Website:** [MyAlarmSecurity.co.uk](https://www.myalarmsecurity.co.uk)
+- **Client:** MyAlarm Security, Sidcup, Bexley
+- **Services:** Website rebuild and hosting
+- **Website:** [myalarmsecurity.co.uk](https://www.myalarmsecurity.co.uk)
 - **Source code:** [on GitHub](https://github.com/chobbledotcom/my-alarm-security)
+
+[MyAlarm Security](https://www.myalarmsecurity.co.uk) is a family-run home and business security company based in Sidcup, right on the borders of London and Kent. Matt does the installs and servicing - burglar alarms (wired and wireless, app-controlled), CCTV systems with remote viewing, access control, door entry, and ongoing maintenance - and Rachel handles the business side. Between them they've been in the industry for over 27 years, covering Bexley, Bromley, Orpington, Dartford, Greenwich, and most of the surrounding area.
 
 ![The MyAlarm Security website homepage, decked out in a Christmassy theme for the holidays.](/assets/examples/myalarm-security.png)
 
-### Technical details
+## How this came about
 
-The site is built on the Chobble Template. That's my in-house platform for making sites, but unlike most web agencies I release all of my source code for free, for anyone to use or build on.
+Rachel and I go back about ten years, through [Bouncy Castle Network](https://www.bouncycastlenetwork.com) - the leisure hire platform I was lead developer of for a decade before moving to Bandcamp. She was a client there, and when I left to start Chobble she was one of the first people to get in touch. In her own words:
 
-But just because the site is based on a template doesn't mean it has to look any specific way - each aspect of the template can be overridden, from the colours, to fonts, to backgrounds, to whole page layouts or features.
+> "Have known Stefan for about 10 years when I signed up to a large web developer he worked for, who hosted websites in the industry I was in. When Stef left this company, it was very noticeable. He is the goat! There isn't anything website related, Google related, hosting related, email related, seo related that he doesn't know! When I found out he was doing his own thing, I jumped ship straight away and had him rebuild me a brand new website from scratch - exactly to my liking. There was nothing he couldn't do. I wasn't restricted to certain designs, layouts or templates. It was a 100% custom build with his input, knowledge and recommendations along the way. There isn't anything he doesn't know or can't do. My website was built pretty quick and tweaks done before it went live. Stefan has been responsive and provided lots of guidance for all sorts of issues I've had (including my iPhone settings when sorting the emails on my phone). The handover and support has been brilliant. Stefan knows his stuff. I honestly couldn't recommend him enough."
+>
+> _Rachel, MyAlarm Security_
 
-I used this flexibility on the MyAlarm site to create a custom homepage with sliding banner, and to lay out the product and category pages to the company's exact specs.
+The old site was a PHP template from a web design agency - it looked broadly how Rachel wanted, but the template was rigid in the wrong places. She couldn't remove built-in elements she didn't need, couldn't display reviews where she actually wanted them, and the product and category page layouts were the agency's defaults rather than hers.
 
-### Search engine friendliness
+## What I built
 
-There have been tonnes of studies showing that fast-loading, straightforward websites are more effective at generating enquiries. The Chobble Template handles a bunch of technical details to get pages loading quickly - pre-rendering, placeholder images, deferred scripts, and other nerdy stuff - and then I host the sites on Bunny.net's SSD-backed CDN.
+The site is built on the [Chobble Template](/services/chobble-template/), which provides the underlying infrastructure - the build system, image pipeline, CDN hosting, and SEO foundation. But the template is designed to be fully overridable, and what MyAlarm Security's visitors see is all Rachel's. The design is deliberately close to the old site - Rachel liked how it looked, she just needed to be able to do more with it. I rebuilt it to her specifications, including the sliding homepage banner and the product and category page layouts, so the change was invisible to customers but the control was entirely hers. The screenshot shows the site with a seasonal Christmas theme.
 
-On top of all that technical whizz-bangery, the template is also really easy to expand, so businesses can create intra-linked pages that target specific search phrases, easy peasy.
+Like the old site, this one has location-specific pages for the areas the business covers - Bexley, Orpington, Sidcup, and so on. The difference is that Rachel can now edit them herself through [PagesCMS](https://pagescms.org/), and we've worked together on making each one genuinely useful rather than just a thin service-and-postcode list.
 
-And of course, I explain how all of this works to my paid customers so they know exactly what to do.
+The full source code is [on GitHub](https://github.com/chobbledotcom/my-alarm-security), which means Rachel owns the site outright and can take it to any developer or host at any point. It's the same deal as the security equipment the business installs - you own the gear from day one, and it keeps working regardless of what happens to whoever fitted it.
 
-### Pricing
+## Technical details
 
-I charge a [flat hourly fee for all jobs](/prices/) and am totally transparent with you about what I'll do in each of those hours.
+The site is built with Eleventy, hosted on Bunny.net's global CDN. Pre-rendered static pages mean there's no server to maintain, no database to back up, and nothing for a hacker to get into through an outdated plugin - which is a reasonably embarrassing situation for a security company to find itself in. Page weight is kept down by the Chobble Template's automatic image resizing and format conversion, which helps on mobile where a fair proportion of security enquiries probably land.
 
-Most website builds are pretty straightforward to me and much of the work is "already done" in my Chobble Template - but if you want a complex bespoke design or lots of new interactivity I can quote for that too.
+## Results
 
-For a site of similar complexity to this one, expect prices to **start at about £600**, with monthly hosting costs at **£40** for unlimited support, or **£10** for hosting only.
+According to Google Search Console, the new site has seen an average improvement of around 10 positions in search rankings across the terms MyAlarm Security targets, with more visitors and impressions than the old site managed.
 
-My prices are discounted 50% for charities, co-operatives, artists, musicians, and vegan businesses.
+## Get in touch
 
-### Get in touch
-
-If you'd like a website for your business, fill in the form below or [find my full contact details here](/contact/).
+If you run a local trade or service business and want a website that's properly yours - fast-loading, owned outright, and built to your exact spec - fill in the form below.
