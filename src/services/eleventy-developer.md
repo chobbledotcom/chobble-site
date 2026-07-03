@@ -78,6 +78,10 @@ It's also flexible enough that I can build whatever a client actually needs with
 
 The output is plain static HTML, which means it'll keep working for as long as browsers exist, it ranks well because it loads fast, and it can be hosted for free or close to it on Bunny.net, Netlify or Cloudflare Pages. (See my [SEO guides](/guides/) for more on the search side.)
 
+## Eleventy is becoming Build Awesome
+
+One bit of news if you go digging: Eleventy is in the middle of a rename. Its creator, Zach Leatherman, took the project into the Font Awesome family in 2024, and the next major version - Eleventy v4 - is shipping under a new name, [Build Awesome](https://www.11ty.dev/blog/build-awesome/) v4. It's a continuation rather than a fresh start, though: same person shepherding it, same open source project, and existing Eleventy sites, plugins and build commands are all meant to carry on working exactly as before. So if I say Eleventy and you read about Build Awesome somewhere else, they're the same thing - and none of what I've described here changes because of it.
+
 ## My Eleventy approach
 
 I build Eleventy sites with a focus on quality and sustainability:
