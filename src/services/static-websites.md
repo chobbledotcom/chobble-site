@@ -4,6 +4,8 @@ meta_title: Fast, Affordable Websites | Prestwich, Manchester | Chobble
 description: Websites that load quickly, cost very little to host, and that you can edit yourself.
 snippet: Fast, affordable websites you can edit yourself
 order: 1
+redirect_from:
+  - /services/wix-site-edits/
 meta_description: Fast websites that load in under a second, hosted from £10/month (£5 for charities) without support, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
 ---
 
@@ -28,6 +30,12 @@ The tool I build with is Eleventy, a modern static site generator. The reasons t
 - ![Renegade Solar homepage with top links - Home, About, Services, Reviews, Gallery, Contact - and a photo of a solar panel install on a bright Manchester day](/assets/examples/renegade-solar.png) **[Renegade Solar](/examples/renegade-solar/)** moved off a slow Wix site and now gets roughly one enquiry a week instead of one a year, with perfect Lighthouse scores and lower monthly costs.
 
 </div>
+
+That last one, Renegade Solar, is a good example of the edit-it-yourself side of this. Ashley came to me off a Wix site he couldn't get on with, and he handles his own updates now:
+
+> He is so knowledgeable and professional, as I am useless at technical online stuff he has simplified it to a point where I now find it easy to edit my own website and customers have increased tenfold.
+>
+> _by [Ashley at Renegade Solar](https://www.renegade-solar.co.uk)_
 
 ## How do I edit the site?
 
