@@ -9,83 +9,42 @@ meta_description: Charity web development at £100/hour (50% off) - transparent 
 
 # Charity web development
 
-**I offer charities and nonprofits a 50% discount on all my web development work** because I believe every organisation should have access to quality technology regardless of budget. I charge **£100 per hour** (half my standard rate) and provide complete transparency about what work is involved.
+Chobble is a [Community Interest Company](/social-impact/), and one of the groups it's legally set up to serve is charities and community organisations, particularly around Greater Manchester. In practice that means charities and non-profits pay **£100 per hour** rather than my standard £200 - the 50% discount is written into my [published prices](/prices/), so it isn't something you have to ask for or haggle over. I break every job down by the hour, so you can see where the money went.
 
-I've been supporting charities like Blue Pits Housing Action and Freehold Cottage for over a decade, helping them establish professional online presences that serve their communities effectively.
+I've been at this a long time. I've supported [Blue Pits Housing Action](/examples/blue-pits/), a CQC-registered care and social housing provider in Rochdale, for over fourteen years, and I've hosted sites for care and supported-housing organisations like Freehold Cottage and Newbarn since the mid-2000s. Charities tend to stick around, which suits me fine - the longer I work with an organisation, the better the advice I can give, because by then I actually understand their sector and their site.
 
-## Why charities benefit from open source
+## Open source, and you own it
 
-I build with open source tools rather than proprietary platforms. There are no free-but-restricted versions that later force you to upgrade - everything is fully open and unencumbered. This means:
+I build with open source tools rather than proprietary platforms, and there are no free-but-restricted versions that quietly push you onto a paid tier later on. You get the full source code via GitHub (kept private to your organisation if you'd rather), the licences cost nothing so you're only paying for my time, and you can take the whole lot to another developer whenever you like. Because these are widely-used tools rather than something only I understand, you're never dependent on one person - which matters more than usual for a charity that needs its website to outlast whoever happened to build it.
 
-- **You own everything** - you get the full source code via GitHub, and can take it to another developer anytime
-- **No licence fees** - the tools are free, you just pay for the work
-- **No lock-in** - host anywhere, modify anything, leave whenever you want
-- **Widely supported** - thousands of developers know these tools, so you're never dependent on one person
-- **Proven and reliable** - the same tools used by millions of organisations worldwide
-- **Privacy is your choice** - my tools and templates are public, but your website's code can stay private to your organisation if you prefer
+## What it costs
 
-This approach aligns with charity values: transparency, community benefit, and making the most of limited budgets.
+Everything runs to the same flat [hourly rate](/prices/), £100 for charity work. A rough idea of where that tends to land:
 
-## Completely transparent pricing
+- A **basic charity site** - the pages describing what you do, your team and how to reach you, a donation button, mobile-friendly and set up to be found on Google - is usually somewhere around 6 to 8 hours, so £600 to £800.
+- Something **more involved** - member login areas, event booking, newsletter sign-up, more than one language, custom forms - tends to run 15 to 25 hours, so £1,500 to £2,500.
 
-I charge **£100 per hour** for charity work (50% off my standard £200 rate). Here's what typical charity websites cost:
+Hosting is **£20 a month** for up to twenty static sites, or from **£30** for a site that needs its own server. You can also host it yourself for free, since you own the code, and I'll help you get set up wherever you land.
 
-**Basic charity website (6-8 hours = £600-800):**
+## Support after launch
 
-- Setting up the site structure
-- Creating pages for your services, team, contact info
-- Adding donation buttons or forms
-- Making it mobile-friendly
-- Setting up basic SEO
+Once the site's live I'm still around. Email me a content change and I'll usually have it up within a working day (bigger jobs, or things sent over the weekend, can take a little longer). I can advise on the web side of GDPR, on where you might be spending more than you need to, and on the technical decisions that crop up as you grow. To keep things moving I'll need text, images and decisions from your side reasonably promptly - the site comes together about as fast as the content does.
 
-**More complex sites (15-25 hours = £1500-2500):**
+Your site will load quickly, be built to WCAG2 accessibility guidelines, get backed up automatically, and stay easy for your team to update. And you'll own all of it.
 
-- Member login areas
-- Event booking systems
-- Newsletter integration
-- Multiple language support
-- Custom forms and workflows
+## Where your money goes
 
-Monthly hosting is **£20** (50% off) for unlimited static sites, or from **£30** for dynamic applications.
+Because Chobble's a CIC, any surplus is asset-locked - I can't sell the company or strip it for a payday, and if it ever shuts down the assets pass to another community body rather than to me. On top of that I donate 10% of my income to the [Against Malaria Foundation](https://blog.chobble.com/blog/25-01-04-against-malaria/), and I feed improvements back into the open source tools I build on, so the work I do for you tends to help other organisations down the line too.
 
-## What you get
+## A few of the organisations I work with
 
-I provide ongoing support long after your site launches. I aim to publish content updates within one working day whenever possible, so just email me the changes (larger changes or updates sent over weekends may take a little longer). I can advise on web-related GDPR considerations, cost-saving opportunities, and technical decisions, always focused on what best serves your organisation.
+- **[Blue Pits Housing Action](/examples/blue-pits/)** - a CQC-registered care provider and social housing charity in Rochdale I've supported for fourteen years. Their site sets out eligibility criteria and the information they're legally required to publish, and updates go live within a day of them emailing me.
+- **[Freehold Cottage](https://www.freeholdcottage.com)** - a residential care home in Rochdale providing 24-hour support for adults with mental health conditions, whose site I've hosted since 2005.
+- **[Newbarn Ltd](https://www.newbarnltd.co.uk)** - a supported-housing organisation for vulnerable adults with mental health needs and learning disabilities, hosted with me since 2010, laying out their services clearly for potential residents and funding bodies.
+- **[Crumpsall Folk Club](/examples/crumpsall-folk-club/)** - not a charity but a non-profit community group that wanted an affordable way to list events and build a mailing list without leaning on Facebook. Built on Ghost so they can manage it themselves.
 
-To keep things running smoothly, I'll need timely content and decisions from your team. The quicker you can provide text and images, the faster your site comes together.
+If you also run events, [Chobble Tickets](/services/tickets/) does flat-fee ticketing at the same charity rates.
 
-Your site will be:
+## Get in touch
 
-- **Fast** - clean code that loads quickly
-- **Accessible** - designed with accessibility best practices in mind, aligned with WCAG2
-- **Secure** - regular backups, maintained software
-- **Easy to update** - simple process for making changes
-- **Properly owned** - you get all the source code
-
-## Giving back
-
-I donate 10% of my income to charity, so your money goes further than just getting a website. I also contribute improvements back to the open source community, helping other charities benefit from the work I do for you.
-
-## Real charity examples
-
-**[Blue Pits Housing Action](/examples/blue-pits/)** - A CQC-registered care provider and social housing charity I've been supporting for 14 years. Their site provides clear eligibility criteria and all legally required information. Updates go live within 24 hours of their email requests.
-
-**[Freehold Cottage](https://www.freeholdcottage.com)** - A residential care home in Rochdale providing 24-hour support for adults with mental health conditions. I've hosted their website since 2005, helping them maintain a professional online presence that reflects their commitment to dignity and independence.
-
-**[Newbarn Ltd](https://www.newbarnltd.co.uk)** - A supported housing organisation providing accommodation and support for vulnerable adults with mental health needs and learning disabilities. I've been hosting their site since 2010, ensuring their services are clearly presented to potential residents and funding bodies.
-
-**[Crumpsall Folk Club](/examples/crumpsall-folk-club/)** - Not a charity but a nonprofit community group that needed an affordable way to share events and build a mailing list without depending on Facebook. Built on Ghost CMS for easy self-management.
-
-Each of these organisations benefits from having full control of their website, transparent costs, and responsive support when they need changes.
-
-If you also run events, [Chobble Tickets](/services/tickets/) offers flat-fee ticketing at charity rates.
-
-## No surprises, no lock-in
-
-Everything is transparent - you'll know exactly what each hour of work covers. You get the full source code via GitHub (private or public - your choice), backups are automatic, and you can take your site to another developer anytime. Most charities stay with me long-term because they value the honest approach and reliable service.
-
-## Get started
-
-**Want professional web development at charity rates with complete transparency? send me a message through the form below to discuss your organisation's website needs.**
-
-I'm based in Prestwich, Manchester but work with charities anywhere. If you're local, we can meet for coffee to discuss your needs properly.
+I'm based in Prestwich, Manchester, and work with charities anywhere; if you're local we can sort it out over a coffee. If a website at charity rates sounds like what you need, fill in the form below.
