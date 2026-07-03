@@ -38,7 +38,7 @@ That might start from my [Chobble Template](/services/chobble-template/) or be b
 
 ### Adding features to existing Eleventy sites
 
-If you've already got an Eleventy site, I can help improve it.
+If you've already got an Eleventy site (awesome, nice choice!) then I can help improve it.
 
 I can add new layouts and collections, build out fast image galleries, write custom shortcodes for tricky content blocks, set up a blog with tags and categories, or wire in third-party stuff like Stripe or booking systems. If your site has gotten slow I can dig in and fix it, or add little bits of vanilla JavaScript for interactivity without dragging in a whole framework.
 
@@ -84,13 +84,23 @@ I build Eleventy sites with a focus on quality and sustainability:
 
 I write semantic HTML with minimal, efficient CSS so sites load fast even on slow connections and work properly with screen readers. Everything's progressive-enhancement first - your site works without JavaScript, and any JS layer just makes things nicer when it's there. The code I hand over is something you can read and edit yourself without needing a CS degree, and every project comes with documentation explaining how the pieces fit together. You're free to maintain it yourself or take it to another developer at any point.
 
+## Everything I build runs on Eleventy
+
+Rather than start every site from a blank page, I build on my own open-source starter, the [Chobble Template](/services/chobble-template/), which is itself an Eleventy site - so every site I put together on top of it is Eleventy underneath, all the way down. It began as the pile of snippets I kept copying between client jobs (a news system, a contact form, header images, per-page themes) and has grown into something that covers most of what a small business actually asks for.
+
+That includes the things you'd expect from a brochure site and a fair bit you might not: product listings with galleries, options and prices for shops; a browser-based cart with Stripe or Square checkout, or a quote-only mode where people build a basket and send it over as an enquiry instead of paying online; a menu system for cafes and restaurants with dietary flags; one-off and recurring events that publish a subscribable calendar feed; a holiday-lets system wired into freetobook; team profiles, reviews with star ratings, multi-site locations, and a news blog. If your business needs a particular thing, there's a decent chance it's already in there, and if it isn't I can add it.
+
 ## Block-based pages with PagesCMS
 
-A lot of small business sites end up looking like one long wall of text, because the editing tools don't make anything else easy. The [Chobble Template](/services/chobble-template/) gets around this by giving every page a library of around thirty pre-styled blocks you can drop in and rearrange - hero banners, two-column rows that pair text with an image, video, code sample or callout, feature grids, image card grids, stats, galleries, marquees of partner logos, full-bleed video and image backgrounds, calls to action, embedded products, contact forms, and so on. There's a [full reference of every block](https://github.com/chobbledotcom/chobble-template/blob/main/BLOCKS_LAYOUT.md) on the template repo if you want to see the lot.
+A lot of small business sites end up looking like one long wall of text, because the editing tools don't make anything else easy. The template gets around this by giving every page a library of more than seventy pre-styled blocks you can drop in and rearrange - hero banners, two-column rows that pair text with an image, video, code sample or callout, feature grids, image card grids, stats counters, galleries, marquees of partner logos, full-bleed video and image backgrounds, calls to action, embedded products, contact forms, and plenty more. There's a [full reference of every block](https://git.chobble.com/chobble/chobble-template/src/branch/main/BLOCKS_LAYOUT.md) on the template repo if you want to see the lot.
 
-The block system plugs straight into [PagesCMS](https://pagescms.org/), so editing a page means adding, reordering and tweaking blocks in a normal web form - no Markdown, no YAML, no code. You can build a page that opens with a hero, drops into a two-column intro with a photo, lists three things you offer as feature cards, breaks up to a full-width video background with overlay text, and finishes with a contact form, without anyone going near the source files.
+The block system plugs straight into [PagesCMS](https://pagescms.org/), so editing a page means adding, reordering and tweaking blocks in a normal web form - no Markdown, no YAML, no code. You can build a page that opens with a hero, drops into a two-column intro with a photo, lists three things you offer as feature cards, breaks to a full-width video background with overlay text, and finishes with a contact form, without anyone going near the source files.
 
 Because the blocks share consistent spacing, dark-mode support, scroll-reveal animations and responsive layouts, pages can look properly varied without ever looking inconsistent. And if a client needs something the existing blocks don't cover, I can add a new one without disturbing the rest of the system.
+
+## Themes you can actually mess about with
+
+There are ten themes built in - Default, Neon, 90s Computer, Floral, Hacker, Monochrome, Ocean, Old Mac, Rainbow and Sunset - and you can run different ones on different pages if you fancy. There's a visual theme editor for changing colours, fonts, borders and spacing without writing a line of CSS, and it hands you back a file with your changes that I can drop straight in. It's genuinely good fun to play with, and it means you're not stuck with one look for the life of the site.
 
 ## Prices for Eleventy development
 
