@@ -31,6 +31,12 @@ The tool I build with is Eleventy, a modern static site generator. The reasons t
 
 </div>
 
+That last one, Renegade Solar, is a good example of the edit-it-yourself side of this. Ashley came to me off a Wix site he couldn't get on with, and he handles his own updates now:
+
+> He is so knowledgeable and professional, as I am useless at technical online stuff he has simplified it to a point where I now find it easy to edit my own website and customers have increased tenfold.
+>
+> _by [Ashley at Renegade Solar](https://www.renegade-solar.co.uk)_
+
 ## How do I edit the site?
 
 You edit your site through a browser-based admin interface called [PagesCMS](https://pagescms.org/), or, if you're more comfortable, by editing plain text files on your computer directly. Either way it's much simpler than it looks - you're changing words in fields, not writing code. Everything is backed up automatically through Git, so if you do break something I can roll it back.

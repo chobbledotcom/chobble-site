@@ -41,6 +41,12 @@ You can still customise anything. You own the full source code, so adding a new 
 
 And the interactive bits still work - contact forms, maps, image galleries, all the usual things people expect from a small business site.
 
+A real example: Ashley at [Renegade Solar](/examples/renegade-solar/) came off a slow Wix site onto exactly this kind of setup. His pages load in well under a second now, cost less to host, and he went from roughly one enquiry a year to about one a week.
+
+> He is so knowledgeable and professional, as I am useless at technical online stuff he has simplified it to a point where I now find it easy to edit my own website and customers have increased tenfold.
+>
+> _by [Ashley at Renegade Solar](https://www.renegade-solar.co.uk)_
+
 ## When this isn't the right move
 
 There are a couple of cases where a static site doesn't fit, and it's worth being honest about them upfront.
