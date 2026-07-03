@@ -32,8 +32,8 @@ The site uses [PagesCMS](https://pagescms.org/) for content editing, with the CM
 
 ## Hosting and performance
 
-Like all Chobble Template sites, this is hosted on blazing fast Bunny CDN servers. The site gets **100% scores across the board in Lighthouse** - performance, accessibility, best practices, and SEO all maxed out. That's the advantage of static site generation combined with a well-optimised template and global CDN hosting.
+Like all Chobble Template sites, this one is hosted on Bunny's CDN. It scores 100% in all four Lighthouse categories - performance, accessibility, best practices, and SEO - which is what you'd expect from a static site built on a well-sorted template and served from a CDN close to whoever's visiting.
 
 Because it's built on the Chobble Template, the site also gets periodic updates as I improve the base template. And I have a bunch of other bits set up for each customer too - privacy-respecting analytics through GoatCounter (GDPR compliant, no cookie banners needed), email addresses through Purelymail, and Google Search Console configured for tracking search performance.
 
-**If you'd like a professional website like this for your play inspection or similar safety inspection business, get in touch through the contact form on this page!**
+If you'd like a website like this for your play inspection or another kind of safety inspection business, fill in the form below.

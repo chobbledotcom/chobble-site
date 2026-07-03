@@ -9,57 +9,47 @@ colour: white
 
 # This & That cafe website
 
-**Proving that restaurants don't need complicated websites - just fast, honest ones that answer customer questions immediately**
-
 - **Client:** This & That Cafe, Manchester
 - **Services:** Website hosting and social media management
 - **Website:** [ThisAndThatCafe.co.uk](https://www.thisandthatcafe.co.uk)
 - **Source code:** [on git.chobble.com](https://git.chobble.com/hosted-by-chobble/this-and-that)
 
-This & That is a Manchester institution, famous for its "rice and three" curry dishes. Operating since 1984, it's a beloved part of the Northern Quarter's food scene.
+This & That is a Manchester institution, famous for its "rice and three" curry dishes. It's been going since 1984 and it's a fixture of the Northern Quarter, tucked down an alley that's easy to walk straight past.
 
 ![This & That's website homepage. The cafe is easy to miss, so the photo shows the alley visitors need to find as its header image. There are two main links, "Home" and "Menu", and we can see TripAdvisor reviews and the start of a description of the business](/assets/examples/this-and-that.png)
 
-## From domain disaster to digital success
+## Reclaiming the domain
 
-When I started working with This & That in 2016, **their website had expired and been claimed by domain squatters** who put up a spammy landing page. I helped them reclaim their domain through Nominet, which built trust, then set up a new site mirroring their old content.
+When I started working with them in 2016, their old website had expired and been picked up by domain squatters, who'd stuck a spammy landing page on it. The first job was getting the domain back through Nominet, which sorted the immediate problem, and then I set up a new site mirroring the content they'd had before.
 
-**The site costs just £10/month** - qualifying for my "no support" hosting package because changes are so infrequent. This reflects the business perfectly - they haven't really changed since the 1980s, and neither has their website approach. Sometimes the best digital strategy is keeping things simple and reliable.
+It runs on my £10/month hosting - the "no support" package, because the site changes so rarely that there's not much to support. That suits the business: This & That has barely changed since the 1980s, and its website doesn't need to either.
 
-## Website approach
+## What the site does
 
-I maintain a simple, fast-loading static website that focuses on what visitors need most. **The menu is immediately accessible** - unlike many restaurant sites that hide menus in PDFs or behind multiple clicks. On This & That's site, the current menu and prices are right there on an HTML page that loads instantly on any device.
+It's a simple, fast-loading static site built around the one thing people nearly always turn up looking for, which is the menu. The current dishes and prices sit right there on an ordinary HTML page that loads instantly on a phone, so someone googling "this and that menu" while they're walking round town gets what they want straight away.
 
-**Site traffic numbers are always high** with lots of people googling the menu and landing on it immediately. This is much faster compared to sites that make customers navigate complex interfaces just to see what's on offer.
-
-The site has gradually expanded over the years - adding a vegan menu page, reviews sections, more contact links - but very slowly, which mirrors how the business operates. **Changes happen in less than 24 hours** when needed, but they're rare because the business itself rarely changes.
-
-Everything is designed for clarity and ease of access, especially for mobile users who might be looking up the cafe while walking around Manchester.
+The site has grown a bit over the years - a vegan menu page, a reviews section, a few more contact links - but slowly, the same way the cafe does. When something does need changing I'll usually have it done within a day, though that doesn't come up often.
 
 ## Technical details
 
-The site is built as a [static "Jekyll" website](/services/static-websites/) that achieves perfect Lighthouse performance scores. It's fully responsive, working beautifully on everything from small phones to large desktop monitors. The site includes minimal JavaScript for essential functionality like the Google Maps embed and privacy-preserving analytics via GoatCounter.
+The site is built as a [static "Jekyll" website](/services/static-websites/) with perfect Lighthouse performance scores, and it works the same on a small phone as on a big monitor. There's only a little JavaScript, for the Google Maps embed and for GoatCounter, which is privacy-preserving analytics that doesn't need a cookie banner.
 
-During the COVID-19 pandemic, I quickly added integration with Deliveroo to help the business continue serving customers during lockdowns. I track the site's search engine rankings using SerpBear to ensure it maintains visibility for key search terms.
+During the COVID lockdowns I added a Deliveroo integration fairly quickly so they could keep serving while the dining room was shut. I keep an eye on where the site ranks for its key search terms using SerpBear.
 
-## Social media management
+## Social media
 
-I handle their Facebook page, **posting once or twice a month** - no overwhelming daily updates that restaurants often feel pressured to do. **The best performing content is when celebrities visit the cafe** - these posts get massive engagement and bring in new customers.
+I look after their Facebook page, posting once or twice a month rather than the daily grind restaurants often feel they're supposed to keep up. The posts that do best by a mile are the ones where a celebrity's been in - those bring in new customers.
 
-I've set up Google Alerts so whenever someone reviews This & That or mentions them in an article, I know about it straight away. I share these on social media and occasionally copy the best ones over to the website, which keeps everything looking fresh without constant work.
+I've got Google Alerts set up so I hear about it whenever someone reviews the cafe or mentions it in an article. I'll share the good ones on social media and now and then copy one over to the website, which keeps things looking current without much ongoing work.
 
-When This & That get approached about partnerships or online listings (which happens a lot to successful restaurants), they forward me the emails and **I tell them whether it's worth doing or just someone trying to get money out of them**. This saves them from getting ripped off by digital marketing companies.
+Successful restaurants get approached about partnerships and online listings constantly, so when one of those emails lands they forward it to me and I tell them whether it's worth bothering with or whether it's just someone after their money. It saves them getting talked into things they don't need.
 
-## Why this works
+## Why it works
 
-**The site reflects the business perfectly** - very simple, straightforward, honest, and rarely changing. It's super reliable, like the cafe itself. This consistency has been running successfully since 2016, providing exactly what visitors need without unnecessary bells and whistles.
-
-**This & That's online presence maintains their reputation** as a no-nonsense, quality-focused establishment that's all about the food. The website doesn't try to be flashy or trendy - it just works, loads fast, and gets people the information they need.
-
-For restaurants that focus on quality over gimmicks, this approach proves you don't need to spend thousands on complicated websites that require constant updating. **Sometimes the best digital strategy is reliability and simplicity.**
+The site matches the business - simple, honest, reliable, and rarely changing. It's been doing its job since 2016 without any fuss, giving visitors exactly what they came for. It doesn't try to be flashy, because the cafe isn't, and a place whose whole appeal is the food doesn't need a website getting in the way of finding it.
 
 ## Source code
 
-The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that). If you'd like a site like it, you can clone the repo - but I'd advise starting from the newer [Chobble Template](https://git.chobble.com/chobble/chobble-template) instead.
+The complete source code is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/this-and-that). You're welcome to clone it if you'd like a site like it, though I'd point you at the newer [Chobble Template](https://git.chobble.com/chobble/chobble-template) as a starting point instead.
 
-**Is your restaurant website slow, expensive, or confusing? [Contact me](/contact/) to discuss a simple, reliable website that works for your business and is really easy to manage.**
+If your restaurant's website is slow, expensive, or hard to change, fill in the form below and we can talk about a simpler one.
