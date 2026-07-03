@@ -9,16 +9,14 @@ meta_description: Eleventy developer in Manchester - fast websites, easy to upda
 
 # Freelance Eleventy developer
 
-**Looking for an experienced Eleventy developer?** I've used Eleventy for dozens of projects and can help you get the most out of it for your business.
-
-Eleventy ([11ty.dev](https://www.11ty.dev/)) is the tool I use to build websites that load very quickly, rank well in search engines, and cost very little to host. Whether you're building a brand new site or upgrading an existing one, I can help.
+Eleventy ([11ty.dev](https://www.11ty.dev/)) is the tool I reach for most when a small business needs a website that loads very quickly, ranks well in search engines, and costs very little to host. I've built a good number of sites with it over the years - some brand new, plenty of them migrations off something slower - and I'm happy to take on either.
 
 If you need something beyond a website - like a booking system or customer database - see my broader [software development services](/services/software-developer/).
 
 - [Building new Eleventy sites](#building)
 - [Adding features to existing Eleventy sites](#adding)
 - [Converting CMS websites to Eleventy](#converting)
-- [Switching another SSG websites to Eleventy](#switching)
+- [Switching from another SSG to Eleventy](#switching)
 
 ## How Chobble can help with Eleventy
 
@@ -32,9 +30,7 @@ Sites I build are mobile-friendly, lean on the CSS and JavaScript, and use my [c
 
 You can edit content as plain Markdown files or through a simple CMS - whichever you're more comfortable with. Default collections like pages, news posts, products and galleries are pre-configured, ready to edit. There's a contact form with bot protection. You get the full source code and documentation explaining how it all fits together.
 
-Whether you're starting from a template like my [Chobble Template](/services/chobble-template/) or need something built from scratch, I'll deliver a website that's very easy to maintain and always loads quickly.
-
-**[Click here to calculate the price of a new Eleventy website from Chobble](/price-calculator/)**
+That might start from my [Chobble Template](/services/chobble-template/) or be built from scratch, depending on what you need; either way you get a website that's easy to maintain and quick to load. There's a [price calculator](/price-calculator/) if you'd like a rough idea of the cost.
 
 </div>
 
@@ -42,13 +38,11 @@ Whether you're starting from a template like my [Chobble Template](/services/cho
 
 ### Adding features to existing Eleventy sites
 
-If you've already got an Eleventy site (awesome, nice choice!) then I can help improve it.
+If you've already got an Eleventy site, I can help improve it.
 
 I can add new layouts and collections, build out fast image galleries, write custom shortcodes for tricky content blocks, set up a blog with tags and categories, or wire in third-party stuff like Stripe or booking systems. If your site has gotten slow I can dig in and fix it, or add little bits of vanilla JavaScript for interactivity without dragging in a whole framework.
 
 Whatever the job, I'll fit the changes into your existing codebase without hurting Eleventy's performance.
-
-**Fill in the form below to discuss upgrading your existing website**
 
 </div>
 
@@ -64,19 +58,15 @@ I'll match the editing setup to how technical you actually are - some clients ar
 
 **A real example:** I recently converted [A&S Home Furnishings](/examples/as-home-furnishings) from an expensive, broken CMS to a streamlined Eleventy site. I used `wget` to archive the existing site, converted the pages to Markdown with `pandoc`, and implemented a fresh, responsive design with minimal CSS. The new site loads instantly, has a working contact form, and costs just £10/month to host.
 
-**[Click here to calculate the price of an Eleventy site conversion](/price-calculator/)**
-
 </div>
 
 <div class="card margins" id="switching">
 
 ### Switching from another generator to Eleventy
 
-If you're using another static site generator like Jekyll or Hugo, it's probably pretty straightforward to **switch to Eleventy**. Since Eleventy is a very flexible generator you can store files in any location and it largely "just works". This makes switching from other SSGs to Eleventy is easier than the other way around.
+If you're using another static site generator like Jekyll or Hugo, switching to Eleventy is usually pretty straightforward. Because Eleventy is so flexible you can store files just about anywhere and it largely "just works", which makes moving from another SSG to Eleventy easier than going the other way.
 
-I've converted a bunch of sites from Jekyll to Eleventy - some examples are [Buttonkin](/examples/button-kin) and [Vegan Prestwich](/examples/vegan-prestwich/). Jekyll is cool but I was frustrated at the slow pace of development, and extending it isn't as straightforward as writing JavaScript, so switching felt like the clear best long-term choice.
-
-**Fill in the form below if you need help switching to Eleventy!**
+I've converted a fair few sites from Jekyll to Eleventy - [Buttonkin](/examples/button-kin) and [Vegan Prestwich](/examples/vegan-prestwich/) among them. Jekyll's good, but I got frustrated with its slow pace of development, and extending it isn't as straightforward as just writing JavaScript, so switching felt like the clear long-term choice.
 
 </div>
 
@@ -114,8 +104,6 @@ We'll cover the basics of how Eleventy turns your files into a website, writing 
 
 Sessions can be done in person if you're in Prestwich, or remotely, and we'll work from wherever you are now rather than a fixed curriculum.
 
-## Let's build something fast
+## Get in touch
 
-Whether you're starting fresh or improving what you already have, I'll help you create and own a website that's fast, affordable, and built to last.
-
-**drop me a message through the contact form on this page with me today and let's talk about your Eleventy project!**
+Starting fresh or improving what you've already got, I'll help you build a website that's fast, cheap to run, and yours to keep. If that sounds like the right fit, fill in the form below.
