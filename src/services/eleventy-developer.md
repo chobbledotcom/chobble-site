@@ -9,16 +9,14 @@ meta_description: Eleventy developer in Manchester - fast websites, easy to upda
 
 # Freelance Eleventy developer
 
-**Looking for an experienced Eleventy developer?** I've used Eleventy for dozens of projects and can help you get the most out of it for your business.
-
-Eleventy ([11ty.dev](https://www.11ty.dev/)) is the tool I use to build websites that load very quickly, rank well in search engines, and cost very little to host. Whether you're building a brand new site or upgrading an existing one, I can help.
+Eleventy ([11ty.dev](https://www.11ty.dev/)) is the tool I reach for most when a small business needs a website that loads very quickly, ranks well in search engines, and costs very little to host. I've built a good number of sites with it over the years - some brand new, plenty of them migrations off something slower - and I'm happy to take on either.
 
 If you need something beyond a website - like a booking system or customer database - see my broader [software development services](/services/software-developer/).
 
 - [Building new Eleventy sites](#building)
 - [Adding features to existing Eleventy sites](#adding)
 - [Converting CMS websites to Eleventy](#converting)
-- [Switching another SSG websites to Eleventy](#switching)
+- [Switching from another SSG to Eleventy](#switching)
 
 ## How Chobble can help with Eleventy
 
@@ -32,9 +30,7 @@ Sites I build are mobile-friendly, lean on the CSS and JavaScript, and use my [c
 
 You can edit content as plain Markdown files or through a simple CMS - whichever you're more comfortable with. Default collections like pages, news posts, products and galleries are pre-configured, ready to edit. There's a contact form with bot protection. You get the full source code and documentation explaining how it all fits together.
 
-Whether you're starting from a template like my [Chobble Template](/services/chobble-template/) or need something built from scratch, I'll deliver a website that's very easy to maintain and always loads quickly.
-
-**[Click here to calculate the price of a new Eleventy website from Chobble](/price-calculator/)**
+That might start from my [Chobble Template](/services/chobble-template/) or be built from scratch, depending on what you need; either way you get a website that's easy to maintain and quick to load. There's a [price calculator](/price-calculator/) if you'd like a rough idea of the cost.
 
 </div>
 
@@ -47,8 +43,6 @@ If you've already got an Eleventy site (awesome, nice choice!) then I can help i
 I can add new layouts and collections, build out fast image galleries, write custom shortcodes for tricky content blocks, set up a blog with tags and categories, or wire in third-party stuff like Stripe or booking systems. If your site has gotten slow I can dig in and fix it, or add little bits of vanilla JavaScript for interactivity without dragging in a whole framework.
 
 Whatever the job, I'll fit the changes into your existing codebase without hurting Eleventy's performance.
-
-**Fill in the form below to discuss upgrading your existing website**
 
 </div>
 
@@ -64,19 +58,15 @@ I'll match the editing setup to how technical you actually are - some clients ar
 
 **A real example:** I recently converted [A&S Home Furnishings](/examples/as-home-furnishings) from an expensive, broken CMS to a streamlined Eleventy site. I used `wget` to archive the existing site, converted the pages to Markdown with `pandoc`, and implemented a fresh, responsive design with minimal CSS. The new site loads instantly, has a working contact form, and costs just £10/month to host.
 
-**[Click here to calculate the price of an Eleventy site conversion](/price-calculator/)**
-
 </div>
 
 <div class="card margins" id="switching">
 
 ### Switching from another generator to Eleventy
 
-If you're using another static site generator like Jekyll or Hugo, it's probably pretty straightforward to **switch to Eleventy**. Since Eleventy is a very flexible generator you can store files in any location and it largely "just works". This makes switching from other SSGs to Eleventy is easier than the other way around.
+If you're using another static site generator like Jekyll or Hugo, switching to Eleventy is usually pretty straightforward. Because Eleventy is so flexible you can store files just about anywhere and it largely "just works", which makes moving from another SSG to Eleventy easier than going the other way.
 
-I've converted a bunch of sites from Jekyll to Eleventy - some examples are [Buttonkin](/examples/button-kin) and [Vegan Prestwich](/examples/vegan-prestwich/). Jekyll is cool but I was frustrated at the slow pace of development, and extending it isn't as straightforward as writing JavaScript, so switching felt like the clear best long-term choice.
-
-**Fill in the form below if you need help switching to Eleventy!**
+I've converted a fair few sites from Jekyll to Eleventy - [Buttonkin](/examples/button-kin) and [Vegan Prestwich](/examples/vegan-prestwich/) among them. Jekyll's good, but I got frustrated with its slow pace of development, and extending it isn't as straightforward as just writing JavaScript, so switching felt like the clear long-term choice.
 
 </div>
 
@@ -88,19 +78,33 @@ It's also flexible enough that I can build whatever a client actually needs with
 
 The output is plain static HTML, which means it'll keep working for as long as browsers exist, it ranks well because it loads fast, and it can be hosted for free or close to it on Bunny.net, Netlify or Cloudflare Pages. (See my [SEO guides](/guides/) for more on the search side.)
 
+## Eleventy is becoming Build Awesome
+
+One bit of news if you go digging: Eleventy is in the middle of a rename. Its creator, Zach Leatherman, took the project into the Font Awesome family in 2024, and the next major version - Eleventy v4 - is shipping under a new name, [Build Awesome](https://www.11ty.dev/blog/build-awesome/) v4. It's a continuation rather than a fresh start, though: same person shepherding it, same open source project, and existing Eleventy sites, plugins and build commands are all meant to carry on working exactly as before. So if I say Eleventy and you read about Build Awesome somewhere else, they're the same thing - and none of what I've described here changes because of it.
+
 ## My Eleventy approach
 
 I build Eleventy sites with a focus on quality and sustainability:
 
 I write semantic HTML with minimal, efficient CSS so sites load fast even on slow connections and work properly with screen readers. Everything's progressive-enhancement first - your site works without JavaScript, and any JS layer just makes things nicer when it's there. The code I hand over is something you can read and edit yourself without needing a CS degree, and every project comes with documentation explaining how the pieces fit together. You're free to maintain it yourself or take it to another developer at any point.
 
+## Everything I build runs on Eleventy
+
+Rather than start every site from a blank page, I build on my own open-source starter, the [Chobble Template](/services/chobble-template/), which is itself an Eleventy site - so every site I put together on top of it is Eleventy underneath, all the way down. It began as the pile of snippets I kept copying between client jobs (a news system, a contact form, header images, per-page themes) and has grown into something that covers most of what a small business actually asks for.
+
+That includes the things you'd expect from a brochure site and a fair bit you might not: product listings with galleries, options and prices for shops; a browser-based cart with Stripe or Square checkout, or a quote-only mode where people build a basket and send it over as an enquiry instead of paying online; a menu system for cafes and restaurants with dietary flags; one-off and recurring events that publish a subscribable calendar feed; a holiday-lets system wired into freetobook; team profiles, reviews with star ratings, multi-site locations, and a news blog. If your business needs a particular thing, there's a decent chance it's already in there, and if it isn't I can add it.
+
 ## Block-based pages with PagesCMS
 
-A lot of small business sites end up looking like one long wall of text, because the editing tools don't make anything else easy. The [Chobble Template](/services/chobble-template/) gets around this by giving every page a library of around thirty pre-styled blocks you can drop in and rearrange - hero banners, two-column rows that pair text with an image, video, code sample or callout, feature grids, image card grids, stats, galleries, marquees of partner logos, full-bleed video and image backgrounds, calls to action, embedded products, contact forms, and so on. There's a [full reference of every block](https://github.com/chobbledotcom/chobble-template/blob/main/BLOCKS_LAYOUT.md) on the template repo if you want to see the lot.
+A lot of small business sites end up looking like one long wall of text, because the editing tools don't make anything else easy. The template gets around this by giving every page a library of more than seventy pre-styled blocks you can drop in and rearrange - hero banners, two-column rows that pair text with an image, video, code sample or callout, feature grids, image card grids, stats counters, galleries, marquees of partner logos, full-bleed video and image backgrounds, calls to action, embedded products, contact forms, and plenty more. There's a [full reference of every block](https://git.chobble.com/chobble/chobble-template/src/branch/main/BLOCKS_LAYOUT.md) on the template repo if you want to see the lot.
 
-The block system plugs straight into [PagesCMS](https://pagescms.org/), so editing a page means adding, reordering and tweaking blocks in a normal web form - no Markdown, no YAML, no code. You can build a page that opens with a hero, drops into a two-column intro with a photo, lists three things you offer as feature cards, breaks up to a full-width video background with overlay text, and finishes with a contact form, without anyone going near the source files.
+The block system plugs straight into [PagesCMS](https://pagescms.org/), so editing a page means adding, reordering and tweaking blocks in a normal web form - no Markdown, no YAML, no code. You can build a page that opens with a hero, drops into a two-column intro with a photo, lists three things you offer as feature cards, breaks to a full-width video background with overlay text, and finishes with a contact form, without anyone going near the source files.
 
 Because the blocks share consistent spacing, dark-mode support, scroll-reveal animations and responsive layouts, pages can look properly varied without ever looking inconsistent. And if a client needs something the existing blocks don't cover, I can add a new one without disturbing the rest of the system.
+
+## Themes you can actually mess about with
+
+There are ten themes built in - Default, Neon, 90s Computer, Floral, Hacker, Monochrome, Ocean, Old Mac, Rainbow and Sunset - and you can run different ones on different pages if you fancy. There's a visual theme editor for changing colours, fonts, borders and spacing without writing a line of CSS, and it hands you back a file with your changes that I can drop straight in. It's genuinely good fun to play with, and it means you're not stuck with one look for the life of the site.
 
 ## Prices for Eleventy development
 
@@ -114,8 +118,6 @@ We'll cover the basics of how Eleventy turns your files into a website, writing 
 
 Sessions can be done in person if you're in Prestwich, or remotely, and we'll work from wherever you are now rather than a fixed curriculum.
 
-## Let's build something fast
+## Get in touch
 
-Whether you're starting fresh or improving what you already have, I'll help you create and own a website that's fast, affordable, and built to last.
-
-**drop me a message through the contact form on this page with me today and let's talk about your Eleventy project!**
+Starting fresh or improving what you've already got, I'll help you build a website that's fast, cheap to run, and yours to keep. If that sounds like the right fit, fill in the form below.
