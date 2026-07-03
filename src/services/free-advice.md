@@ -11,70 +11,31 @@ redirect_from:
 
 # Free marketing guides & videos
 
-Trying to get your head around terms like "SEO", "link building", "keywords" or "SERPs" can be overwhelming, and might dissuade you from going "all in" on promoting your website.
+Over the years I've written up most of what I know about getting a small business found online - search engine optimisation, link building, local marketing, keeping a site healthy - and put the lot out for free. It used to sit behind a Patreon, but that's wound down now, so there's nothing to pay and nothing to sign up for.
 
-I've created a collection of **completely free** marketing guides and videos to help UK small businesses understand search engine optimisation, online marketing, and website maintenance.
+The written guides are in the [guides section](/guides/), video versions of a lot of them are in the [videos section](/videos/), and there are a few more bits on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom). Most topics exist in both formats, so you can read or watch depending on which you get on with better.
 
-All of my content that was previously on Patreon is now available for free:
+## A few good places to start
 
-- Written guides in the [guides section](/guides/)
-- Video tutorials in the [videos section](/videos/)
-- More videos on my [YouTube channel](https://www.youtube.com/@ChobbleDotCom)
+If you're not sure where to begin, these are the ones I'd point most people at first:
 
-## What's included
+- [Keywords & keyword stuffing](/guides/keywords-and-keyword-stuffing/) - using keywords so Google understands your pages, without tipping over into the overuse that backfires
+- [Finding backlinks](/guides/backlinks/) - where good links actually come from, and which ones to leave well alone
+- [Targeting specific areas](/guides/targeting-specific-areas/) - getting found by customers in the towns and regions you actually cover
+- [Using AI effectively](/guides/using-ai-effectively/) - where the current tools genuinely help, and where they'll quietly damage your site's credibility
+- [Google Business](/guides/google-business/) - setting up and tidying the Google Maps listing that a lot of local searches lean on
+- [SEO checklist](/guides/checklist/) - a practical, prioritised run through the jobs worth doing, roughly in the order I'd do them
 
-- **Actionable tips** that you can implement straight away
-- **Detailed guides** on SEO, content creation, and local marketing
-- **Video versions** of guides so you can learn in your preferred format
-- **Real-world examples** from businesses I've helped
-- **British-focused advice** (not American marketing that doesn't work here)
-- **No-nonsense explanations** in plain English without the jargon
-- **No spammy techniques** that could get your site penalised
+## The kind of advice it is
 
-## Popular guides
+It's all the sustainable sort - the kind that keeps working after Google's next algorithm update, rather than the shortcuts that get sites penalised a few months down the line. It's also written for how search works here in the UK, which isn't always the same as the American marketing advice that makes up most of what you'll find online.
 
-Here's a sample of what you can learn about:
+The aim is for you to understand what your customers are actually searching for and how to give them that, so the site earns its rankings honestly rather than through anything you'd have to undo later.
 
-- [Keywords & Keyword Stuffing](/guides/keywords-and-keyword-stuffing/) - How to use keywords effectively without overdoing it
-- [Finding Backlinks](/guides/backlinks/) - Finding quality links from reputable sources
-- [Targeting Specific Areas](/guides/targeting-specific-areas/) - Getting found by customers in your region
-- [Using AI Effectively](/guides/using-ai-effectively/) - How to use AI tools without hurting your site's credibility
-- [Google Business](/guides/google-business/) - Setting up and optimising your Google Maps listing
-- [SEO Checklist](/guides/checklist/) - A practical, prioritised list of SEO tasks
+It's aimed mostly at small business owners who want more enquiries from their website and are willing to put a bit of work in, but who'd rather have a sensible direction to head in than wade through jargon or try random tips off YouTube. You don't need to be technical - if you can write about your own business, you can do a fair bit of this yourself.
 
-Each guide is written specifically for UK businesses, with practical advice that works in our market. I focus on techniques that are sustainable long-term and won't get your site penalised when Google updates its algorithms.
+## If you want a hand with it
 
-## Who is this for?
+All of it stays free whether or not you ever hire me. If you do have me build or host your website, though, working through this stuff together comes as part of that - you can ask me about your particular situation and I'll help you apply the advice to it, rather than leaving you to guess which bits fit.
 
-These resources are perfect for:
-
-- Small business owners who want more enquiries from their website
-- People who are willing to put in a bit of work but need direction
-- Anyone who wants to understand online marketing without the fluff
-- UK-based businesses looking for advice that works in our market
-- Folks who might have tried random tips from YouTube with little success
-
-As a full-time nerd who has been helping businesses improve their online presence for decades, I can help you make the most of the time you spend working on your web presence.
-
-## The Chobble approach to marketing
-
-I believe in honest, sustainable marketing that prioritises providing real value to your visitors. I will never tell you to:
-
-- Stuff keywords into your content unnaturally
-- Buy dodgy backlinks that could harm your site
-- Use manipulative techniques that will eventually backfire
-- Waste money on services that don't deliver results
-
-Instead, I focus on helping you understand what your customers are looking for, and how to provide that to them in a way that Google will recognise and reward.
-
-## Need personal support?
-
-While all the guides and videos are free, **website customers get personal support** to help them understand and implement these strategies. I'm available to answer specific questions about your situation and help you apply the advice to your business.
-
-Whether you're based in Prestwich or anywhere else in the UK, I'm sure I can help, regardless of your industry.
-
-## Get started
-
-**[Browse the free guides](/guides/)** or **[watch the videos](/videos/)** to start improving your website's performance today.
-
-If you'd like a website built with ongoing support to implement these strategies, [get in touch](/contact/) and I'll be happy to help.
+If you'd like a website built with that kind of ongoing support, fill in the form below.
