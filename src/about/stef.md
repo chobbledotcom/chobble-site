@@ -17,13 +17,13 @@ description: The person behind Chobble - 20+ years of web development, including
   "name": "Stef",
   "givenName": "Stef",
   "description": "Freelance web developer and SEO consultant with 20+ years of experience, based in Prestwich, Manchester. Founder of Chobble CIC.",
-  "url": "https://chobble.com/about/stef/",
-  "image": "https://chobble.com/assets/stef.webp",
+  "url": "https://www.chobble.com/about/stef/",
+  "image": "https://www.chobble.com/assets/stef.webp",
   "jobTitle": "Web Developer & SEO Consultant",
   "worksFor": {
     "@type": "Organization",
     "name": "Chobble CIC",
-    "url": "https://chobble.com",
+    "url": "https://www.chobble.com",
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Companies House",
