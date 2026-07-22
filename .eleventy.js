@@ -39,6 +39,10 @@ module.exports = async function (eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({
+    "node_modules/@botpoison/browser/dist/index.js":
+      "/assets/js/botpoison.js",
+  });
+  eleventyConfig.addPassthroughCopy({
     "src/assets/favicon.png": "/favicon.ico",
     "src/assets/favicon.png": "/favicon.png",
   });
