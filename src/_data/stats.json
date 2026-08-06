@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-05T08:26:07.160Z",
+  "lastUpdated": "2026-08-06T08:23:47.590Z",
   "sites": [
     {
       "name": "A&S Home Furnishings",
       "url": "https://www.ashomefurnishings.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 28,
-        "certDaysRemaining": 68,
+        "responseTime": 27,
+        "certDaysRemaining": 67,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -24,7 +24,7 @@
       "uptime": {
         "status": "up",
         "responseTime": 25,
-        "certDaysRemaining": 68,
+        "certDaysRemaining": 67,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -41,7 +41,7 @@
       "uptime": {
         "status": "up",
         "responseTime": 34,
-        "certDaysRemaining": 75,
+        "certDaysRemaining": 74,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -69,8 +69,8 @@
       "url": "https://blog.chobble.com",
       "uptime": {
         "status": "up",
-        "responseTime": 29,
-        "certDaysRemaining": 69,
+        "responseTime": 27,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -86,8 +86,8 @@
       "url": "https://crumpsallfolkclub.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 25,
-        "certDaysRemaining": 34,
+        "responseTime": 20,
+        "certDaysRemaining": 33,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -104,7 +104,7 @@
       "uptime": {
         "status": "up",
         "responseTime": 23,
-        "certDaysRemaining": 78,
+        "certDaysRemaining": 77,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -120,8 +120,8 @@
       "url": "https://www.enter6.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 28,
-        "certDaysRemaining": 65,
+        "responseTime": 30,
+        "certDaysRemaining": 64,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -138,7 +138,7 @@
       "uptime": {
         "status": "up",
         "responseTime": 27,
-        "certDaysRemaining": 69,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -154,8 +154,8 @@
       "url": "https://www.garsdalecottages.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 67,
-        "certDaysRemaining": 67,
+        "responseTime": 68,
+        "certDaysRemaining": 66,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -171,8 +171,8 @@
       "url": "https://www.house-of-desserts.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 39,
-        "certDaysRemaining": 69,
+        "responseTime": 36,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -188,8 +188,8 @@
       "url": "https://www.medwaymascots.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 27,
-        "certDaysRemaining": 68,
+        "responseTime": 28,
+        "certDaysRemaining": 67,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -205,8 +205,8 @@
       "url": "https://www.myalarmsecurity.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 84,
-        "certDaysRemaining": 84,
+        "responseTime": 171,
+        "certDaysRemaining": 83,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -222,8 +222,8 @@
       "url": "https://www.newbarnltd.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 26,
-        "certDaysRemaining": 69,
+        "responseTime": 28,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -239,8 +239,8 @@
       "url": "https://www.noktorum.com",
       "uptime": {
         "status": "up",
-        "responseTime": 34,
-        "certDaysRemaining": 69,
+        "responseTime": 35,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -256,8 +256,8 @@
       "url": "https://patlog.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 78,
-        "certDaysRemaining": 46,
+        "responseTime": 79,
+        "certDaysRemaining": 45,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -273,8 +273,8 @@
       "url": "https://www.playsafeplayinspection.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 34,
-        "certDaysRemaining": 78,
+        "responseTime": 29,
+        "certDaysRemaining": 77,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -290,8 +290,8 @@
       "url": "https://play-test.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 80,
-        "certDaysRemaining": 86,
+        "responseTime": 81,
+        "certDaysRemaining": 85,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -307,8 +307,8 @@
       "url": "https://www.renegade-solar.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 408,
-        "certDaysRemaining": 67,
+        "responseTime": 44,
+        "certDaysRemaining": 66,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -324,16 +324,16 @@
       "url": "https://rpii.play-test.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 125,
-        "certDaysRemaining": 78,
+        "responseTime": 47,
+        "certDaysRemaining": 77,
         "uptimePercent": 100
       },
       "lighthouse": {
-        "performance": 51,
+        "performance": 92,
         "accessibility": 85,
         "bestPractices": 96,
         "seo": 92,
-        "lastUpdated": "2026-07-09T09:33:01.601Z"
+        "lastUpdated": "2026-08-06T08:23:47.557Z"
       }
     },
     {
@@ -341,8 +341,8 @@
       "url": "https://www.sallysbakesbury.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 54,
-        "certDaysRemaining": 69,
+        "responseTime": 40,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -358,8 +358,8 @@
       "url": "https://www.southportorganics.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 64,
-        "certDaysRemaining": 63,
+        "responseTime": 57,
+        "certDaysRemaining": 62,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -376,7 +376,7 @@
       "uptime": {
         "status": "up",
         "responseTime": 24,
-        "certDaysRemaining": 64,
+        "certDaysRemaining": 63,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -392,8 +392,8 @@
       "url": "https://www.stefn.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 30,
-        "certDaysRemaining": 71,
+        "responseTime": 286,
+        "certDaysRemaining": 70,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -409,8 +409,8 @@
       "url": "https://www.thisandthatcafe.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 52,
-        "certDaysRemaining": 69,
+        "responseTime": 49,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -426,8 +426,8 @@
       "url": "https://www.ukegroupnorth.com",
       "uptime": {
         "status": "up",
-        "responseTime": 30,
-        "certDaysRemaining": 67,
+        "responseTime": 39,
+        "certDaysRemaining": 66,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -443,8 +443,8 @@
       "url": "https://www.veganprestwich.co.uk",
       "uptime": {
         "status": "up",
-        "responseTime": 40,
-        "certDaysRemaining": 69,
+        "responseTime": 37,
+        "certDaysRemaining": 68,
         "uptimePercent": 100
       },
       "lighthouse": {
@@ -460,8 +460,8 @@
       "url": "https://wordpress.chobble.com",
       "uptime": {
         "status": "up",
-        "responseTime": 886,
-        "certDaysRemaining": 57,
+        "responseTime": 872,
+        "certDaysRemaining": 56,
         "uptimePercent": 100
       },
       "lighthouse": {
