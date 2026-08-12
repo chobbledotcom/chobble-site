@@ -43,7 +43,7 @@ Because Chobble's a CIC, any surplus is asset-locked - I can't sell the company 
 - **[Newbarn Ltd](https://www.newbarnltd.co.uk)** - a supported-housing organisation for vulnerable adults with mental health needs and learning disabilities, hosted with me since 2010, laying out their services clearly for potential residents and funding bodies.
 - **[Crumpsall Folk Club](/examples/crumpsall-folk-club/)** - not a charity but a non-profit community group that wanted an affordable way to list events and build a mailing list without leaning on Facebook. Built on Ghost so they can manage it themselves.
 
-If you also run events, [Chobble Tickets](/services/tickets/) does flat-fee ticketing at the same charity rates.
+If you also run events, [Chobble Tickets](https://tickets.chobble.com) does flat-fee ticketing at the same charity rates.
 
 ## Get in touch
 

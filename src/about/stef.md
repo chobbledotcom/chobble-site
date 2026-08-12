@@ -101,7 +101,7 @@ Alongside paid work I've been supporting charities and community groups for **14
 
 - **Technical SEO and site performance** - Lighthouse, Core Web Vitals, structured data, sitemaps, crawlability. Most agencies focus on content; I focus on the foundation everything else sits on.
 - **Ruby** - Bandcamp's codebase is Ruby (not Rails), and I've worked on both huge Ruby applications at scale and smaller Rails apps that just need to reliably do one thing.
-- **Deno on the edge** - [my ticketing platform](/services/tickets/) is a Deno app compiled with esbuild and deployed to Bunny.net's edge scripting runtime. No server to maintain, scales automatically, fast everywhere.
+- **Deno on the edge** - [my ticketing platform](https://tickets.chobble.com) is a Deno app compiled with esbuild and deployed to Bunny.net's edge scripting runtime. No server to maintain, scales automatically, fast everywhere.
 - **Eleventy and static sites** - The [Chobble Template](/services/chobble-template/) is an open-source Eleventy-based system I've used to build most of the sites in my [examples](/examples/). Fast, cheap to host, no attack surface, fully portable.
 - **Payments, reconciliation, and systems that have to be right** - from Bandcamp.
 - **Helping non-technical people understand their website** - from 15+ years of doing it.
