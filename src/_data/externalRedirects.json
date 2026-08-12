@@ -1,0 +1,10 @@
+[
+	{
+		"from": "/tickets",
+		"to": "https://tickets.chobble.com"
+	},
+	{
+		"from": "/services/tickets",
+		"to": "https://tickets.chobble.com"
+	}
+]

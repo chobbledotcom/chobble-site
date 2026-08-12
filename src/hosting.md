@@ -42,7 +42,7 @@ This is what runs custom business applications, booking systems, member areas, a
 
 ### The tickets app and small one-offs - Edge Scripts
 
-[Chobble Tickets](/tickets/) and various small tools run on **Bunny Edge Scripts**. The app is compiled into a single JavaScript file with esbuild and deployed to Bunny's edge runtime, so there's no server to maintain and it scales automatically with traffic. Data lives in a hosted libsql database.
+[Chobble Tickets](https://tickets.chobble.com) and various small tools run on **Bunny Edge Scripts**. The app is compiled into a single JavaScript file with esbuild and deployed to Bunny's edge runtime, so there's no server to maintain and it scales automatically with traffic. Data lives in a hosted libsql database.
 
 This works well for small, focused apps where spinning up a full container would be overkill.
 

@@ -131,7 +131,7 @@ I'm based in Prestwich, just north of Manchester. The development work itself ha
 
 Other [Prestwich-focused services](/prestwich/#content) are on the main Prestwich page.
 
-If you also run events, [Chobble Tickets](/services/tickets/) handles flat-fee ticketing without per-ticket charges.
+If you also run events, [Chobble Tickets](https://tickets.chobble.com) handles flat-fee ticketing without per-ticket charges.
 
 ## Get in touch
 

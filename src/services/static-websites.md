@@ -94,7 +94,7 @@ Like every job, I work to a [flat hourly rate](/prices/) and break down where ea
 
 Not every site needs every stage, and if you can do some of it yourself I'll happily guide you through it.
 
-If you also run events, this pairs well with [Chobble Tickets](/services/tickets/) for flat-fee ticketing. And if you'd rather build it yourself, the [Chobble Template](/services/chobble-template/) is the open-source base most of these sites are built on - it's free.
+If you also run events, this pairs well with [Chobble Tickets](https://tickets.chobble.com) for flat-fee ticketing. And if you'd rather build it yourself, the [Chobble Template](/services/chobble-template/) is the open-source base most of these sites are built on - it's free.
 
 ## Get in touch
 
