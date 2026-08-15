@@ -47,7 +47,7 @@ If you'd rather not pay me anything, you own the code - host it yourself for fre
 
 ## Managed hosting (web applications)
 
-For custom web applications (booking systems, databases, business tools), I host your app on its own dedicated server. Server costs start at around £5 per month, and I charge **£60** per month (or **£30 if discounted**) on top of that. You get full access to the server and its configuration. This includes:
+For custom web applications (booking systems, databases, business tools), I host your app on its own virtual server. Server costs start at around £5 per month, and I charge **£60** per month (or **£30 if discounted**) on top of that. You get full access to the server and its configuration. This includes:
 
 - **Your app stays online** - I monitor uptime and fix problems
 - **Your code is safe** - automatic backups stored in two locations
