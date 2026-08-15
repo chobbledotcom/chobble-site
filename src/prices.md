@@ -36,7 +36,7 @@ All hosting with me runs on [Bunny.net](/hosting/) - that page explains how I us
 
 ## Basic hosting (unmanaged sites)
 
-If you update your site rarely, or prefer to handle changes yourself, this lighter package is **£10** per month, or **£5** per month if discounted (this hosting-only package is the only place the discount goes below £10):
+If you update your site rarely, or prefer to handle changes yourself, this lighter package is **£10** per site per month, or **£5** per month if discounted:
 
 - **Your site stays online** - hosted and backed up
 - **Bugs get fixed** - if something breaks, I sort it out
