@@ -26,7 +26,7 @@ His old Wix site was letting him down badly - it was painfully slow, ranking for
 
 I built Ashley a super-fast static Eleventy site that works for his business. Unlike with Wix, this one loads quickly and lets him easily update content through [PagesCMS.org](https://pagescms.org) - he just logs in with his email and can add new accreditations, update service areas, or tweak his messaging without wrestling with clunky drag-and-drop editors.
 
-The site now properly showcases all his certifications and qualifications instead of hiding them away, and clearly explains his service areas across Manchester. The HTML is totally flexible, so if Ashley ever wants to add features like solar calculators or interactive maps, we can do that easily - unlike Wix where you're stuck with whatever widgets they've decided to offer.
+The site now properly showcases all his certifications and qualifications, and clearly explains his service areas across Manchester. The HTML is totally flexible, so if Ashley ever wants to add features like solar calculators or interactive maps, we can do that easily - unlike Wix where you're stuck with whatever widgets they've decided to offer.
 
 The contact form uses FormSpark with BotPoison spam protection, giving Ashley a reliable way to receive enquiries without the monthly costs of premium Wix forms. Since he's in renewable energy, I've halved his monthly hosting costs to just £20 - cheaper than what he was paying for Wix.
 
@@ -54,7 +54,7 @@ Most importantly, the enquiries he's getting now are from people who've read abo
 
 ## Source code
 
-The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/renegade-solar). This means Ashley owns his website for life rather than renting one from Wix. Anyone can build on this codebase in the future, and if I get hit by a bus, he won't lose anything - unlike with proprietary website builders.
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/renegade-solar). This means Ashley owns his website for life. Anyone can build on this codebase in the future, and if I get hit by a bus, he won't lose anything - unlike with proprietary website builders.
 
 ## Sounds good?
 

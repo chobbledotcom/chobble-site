@@ -13,7 +13,7 @@ meta_description: Prestwich restaurant websites - no PDF menus, easy updates, fa
 
 I build websites for cafes and restaurants. I live in Prestwich, so if you're round here we can meet at yours, mine, or a local cafe to talk it through - and obviously, eating in your place at some point as part of the work is fine too if that suits.
 
-The shape of the sites I build is on my main [restaurant web design page](/services/restaurant-web-design/) - the short version is that the menu is a real web page rather than a PDF, the opening hours sit in the footer of every page, and you (or whoever you trust on the team) can edit any of it through a simple browser interface without waiting on me.
+The shape of the sites I build is on my main [restaurant web design page](/services/restaurant-web-design/) - the short version is that the menu is a real web page, the opening hours sit in the footer of every page, and you (or whoever you trust on the team) can edit any of it through a simple browser interface without waiting on me.
 
 ## Why I use web pages for menus
 

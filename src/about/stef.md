@@ -114,7 +114,7 @@ Alongside paid work I've been supporting charities and community groups for **14
 
 ## My values
 
-I run Chobble as a [Community Interest Company](/social-impact/) with an asset lock, which means any surplus has to be reinvested into community-interest work rather than extracted as private profit. I'm an anarchist, which in practice means I don't believe in bosses, including myself as the boss of whoever's reading this. I publish my opinions as opinions, not as pronouncements. If I'm wrong about something, tell me and I'll update.
+I run Chobble as a [Community Interest Company](/social-impact/) with an asset lock, which means any surplus has to be reinvested into community-interest work. I'm an anarchist, which in practice means I don't believe in bosses, including myself as the boss of whoever's reading this. I publish my opinions as opinions, not as pronouncements. If I'm wrong about something, tell me and I'll update.
 
 I [donate 10% of what I earn](https://blog.chobble.com/blog/25-01-04-against-malaria/) to the Against Malaria Foundation, [publish my code openly](https://git.chobble.com), and try to [recommend competitors](/friends/) when they'd suit a client better than I would.
 

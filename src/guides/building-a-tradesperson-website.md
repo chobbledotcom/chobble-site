@@ -37,7 +37,7 @@ Because I use **NixOS**, the development of the site happens in a `nix develop` 
 
 I wanted to put the various trade standards or certifications that Renegade has achieved "front and centre", and so created an Eleventy collections for "accreditations". Each accreditation gets a full page on the site, and their logos are displayed prominently (with links through to their pages) all over the shop.
 
-The benefit of giving each accreditation its own page is that it encourages Renegade to write a bit about each, and why it's important - rather than just having an image or a single word about that accreditation.
+The benefit of giving each accreditation its own page is that it encourages Renegade to write a bit about each, and why it's important.
 
 By having substantive content about each accreditation, the Renegade Solar site stands a good chance of ranking well on Google when people search for the names of those accreditations.
 

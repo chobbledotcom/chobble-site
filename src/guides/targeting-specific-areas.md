@@ -9,7 +9,7 @@ If you run a local business, appearing in Google searches for your area is essen
 
 **Prefer to see a real example in action? [Click here to watch it](/videos/targeting-local-areas/).**
 
-This guide will show you how to properly target specific areas, using techniques that work rather than shortcuts that might harm your business.
+This guide will show you how to properly target specific areas, using techniques that work.
 
 You won't need any technical knowledge or paid tools, just the ability to edit your website's content and a willingness to do the work.
 

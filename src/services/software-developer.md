@@ -43,7 +43,7 @@ I've built my own [starter template](/services/chobble-template/#content) that i
 
 Many businesses need their various tools to talk to each other - your customer database to your accounting software, your website to your payment processor, or automating repetitive tasks that eat up your time. I can build the connections between your existing tools or create custom dashboards that pull data from multiple sources.
 
-I use flexible, open source tools (rather than expensive services like Zapier) to wire things together. You'd be surprised how much can be automated without needing anything complicated.
+I use flexible, open source tools to wire things together. You'd be surprised how much can be automated without needing anything complicated.
 
 </div>
 

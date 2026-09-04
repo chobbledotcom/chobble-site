@@ -86,7 +86,7 @@ If you just copy and paste American English onto your site, any visitors who kno
 
 Spelling aside, Britain uses different words from America - "elevator" vs "lift", "sidewalk" vs "pavement", etcetera. You should aim for the text to feel familiar to visitors, which means using the words and dialect they are used to.
 
-Spelling and different words for the same thing aside, there are also regional aspects to the way we describe things. You might want your website's content to read as less formal and business-like if you're dealing directly with customers, so you might write "it's" instead of "it is", or "loads" instead of "many", or "okay" instead of "acceptable" - to choose some examples from this document.
+Spelling and different words for the same thing aside, there are also regional aspects to the way we describe things. You might want your website's content to read as less formal and business-like if you're dealing directly with customers, so you might write "it's" for "it is", "loads" for "many", or "okay" for "acceptable" - to choose some examples from this document.
 
 You might be tempted to tell the chatbot to "write as though they are from Manchester", but I strongly advise against this - the text it will produce will be a caricature which your visitors will probably find really weird:
 

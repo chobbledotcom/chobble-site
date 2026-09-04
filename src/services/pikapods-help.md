@@ -15,7 +15,7 @@ This is really handy. I'm a massive nerd so I could get any webapp working on my
 
 ![PikaPods interface showing the list of available apps](/assets/pikapods.png)
 
-Hosting with PikaPods instead of my own server means they handle the server infrastructure, the files, the security, updates, etc - it makes it really easy. I use them for my bug-tracking system, my feedback system, my internal CRM, for uptime monitoring, and other bits and bobs.
+Hosting with PikaPods means they handle the server infrastructure, the files, the security, updates, etc - it makes it really easy. I use them for my bug-tracking system, my feedback system, my internal CRM, for uptime monitoring, and other bits and bobs.
 
 And aside from my own tools, I also use PikaPods to host the Ghost newsletter platforms for [Crumpsall Folk Club](/examples/crumpsall-folk-club/) and [Southport Organics](/examples/southport-organics/).
 

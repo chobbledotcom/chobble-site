@@ -10,11 +10,11 @@ meta_description: Hosting included with my web development - Bunny.net CDN for s
 
 **You don't need to sort out your own hosting - I host everything I build, and have done for years.** This page explains who I host with and what I use them for.
 
-If you'd rather host things yourself, that's fine too - you own the source code for everything I build, and I'll help you set up anywhere you like. But most clients let me handle it, because there's nothing useful about having to manage two relationships instead of one.
+If you'd rather host things yourself, that's fine too - you own the source code for everything I build, and I'll help you set up anywhere you like. But most clients let me handle it - one point of contact for everything.
 
 ## Who I host with
 
-I use [Bunny.net](https://bunny.net/) for everything. They're a Slovenian company with edge servers around the world, so your visitors get a fast response wherever they are, and your data sits with a European provider rather than a US one.
+I use [Bunny.net](https://bunny.net/) for everything. They're a Slovenian company with edge servers around the world, so your visitors get a fast response wherever they are, and your data sits with a European provider.
 
 I picked Bunny because:
 

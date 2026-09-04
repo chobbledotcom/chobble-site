@@ -29,7 +29,7 @@ After moving to the Chobble static setup, those dependencies were stripped out. 
 
 The old WordPress setup had products appearing under multiple category slug paths, which meant Google had indexed the same products at several different URLs and was picking which ones it thought were canonical (sometimes wrongly). As part of the migration I:
 
-- standardised product and category URL patterns so every page has a single canonical location - `/products/foo` and `/categories/foo` instead of the old tangled WordPress routing
+- standardised product and category URL patterns so every page has a single canonical location - `/products/foo` and `/categories/foo`
 - added direct 301 redirects from old URLs to their new equivalents
 - removed redirect chains where they existed
 - fixed canonical tags to match the new structure

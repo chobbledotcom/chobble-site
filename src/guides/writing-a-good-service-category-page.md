@@ -64,7 +64,7 @@ When using AI to help write your pages, it's important to remember that **AI wil
 
 This means that AI chatbots can sometimes use a lot of words to say very little. The text often uses vague, cliched, or generic phrases that do not help the reader answer _The Why Question_. They tend towards writing in American English, with different spelling and word choices than we use in the UK.
 
-This means you cannot rely on AI to answer _The Why Question_ succinctly without spending some time providing it with the answers to the question. You should also aim to spend at least 10x as much time tweaking the AI response to suit your business as you spent prompting it. You should use AI as a writing partner or editor, rather than as the author.
+This means you cannot rely on AI to answer _The Why Question_ succinctly without spending some time providing it with the answers to the question. You should also aim to spend at least 10x as much time tweaking the AI response to suit your business as you spent prompting it. You should use AI as a writing partner or editor, and keep the authorship for yourself.
 
 Rather than prompting AI with "write a page about widget hire", instead you might want to prompt with something like:
 
@@ -86,7 +86,7 @@ You don't have to go overboard with this - don't feel obliged to write in a heav
 
 **Include anecdotes when relevant.** You might mention your personal experiences or preferences, or those of your friends and family. For example, you could say _"This widget was the star attraction at my son's 4th birthday party"_, or _"This widget is our team's favourite - they love seeing the reactions on customers' faces when we set it to max speed"_.
 
-**Use contractions.** Tweaks as simple as writing _"that's"_ rather than _"that is"_ can make a big difference to how formal and natural your content sounds. Compare _"That is why we are sure we are the best"_ to _"That's why we're sure we're the best"._
+**Use contractions.** Tweaks as simple as writing _"that's"_ for _"that is"_ can make a big difference to how formal and natural your content sounds. Compare _"That is why we are sure we are the best"_ to _"That's why we're sure we're the best"._
 
 ## Breaking text up
 
@@ -140,7 +140,7 @@ Given all of the above, here's an example product page for my widget hire catego
 
 The example above tries to answer _The Why Question_ in its opening paragraph - _"you should choose us because we're experienced, we have relevant qualifications, and customers love us"_.
 
-If the customer's _Why Question_ is more about the specifics of widget hire, rather than the company, the second section addresses this - _"our widgets are UK-manufactured, safe, and available for hire all year"_
+If the customer's _Why Question_ is more about the specifics of widget hire, the second section addresses this - _"our widgets are UK-manufactured, safe, and available for hire all year"_
 
 The text is broken up with H2 sub-headings into clearly defined sections, making it easy to scan. It uses a friendly, conversational tone, and backs up its claims with proof, in the form of reviews from real customers. It includes lots of specific details about the business, with no filler text, and includes an anecdote about hiring to the "Festwich" Festival.
 

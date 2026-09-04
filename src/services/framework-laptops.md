@@ -21,7 +21,7 @@ If you're in Prestwich or Manchester and thinking about a new laptop, the Framew
 
 ## What you get out of it
 
-The money side is the easiest one to point at. Because you're sourcing the memory and SSD yourself, you can shop around - sales, second-hand parts, whatever - and end up paying significantly less than the bundled prices Framework or anyone else offers. Hundreds of pounds saved is normal rather than exceptional.
+The money side is the easiest one to point at. Because you're sourcing the memory and SSD yourself, you can shop around - sales, second-hand parts, whatever - and end up paying significantly less than the bundled prices Framework or anyone else offers. Hundreds of pounds saved is normal.
 
 Beyond the money, you'll have seen the inside of your laptop, which means the next time something needs replacing - a broken screen, a dead battery, a new mainboard a few years down the line - you'll know exactly what to do, because it's the same process. Most people are surprised at how straightforward it is once they've actually done it.
 
@@ -37,7 +37,7 @@ We can sit down somewhere in Prestwich and go through the Framework store togeth
 
 ## Framework laptops for business fleets
 
-For a business in Manchester running a fleet of laptops, Frameworks make a lot of sense compared to the usual Dell or HP contracts. If you keep a small stock of common parts on a shelf - screens, keyboards, batteries, mainboards - your IT person can fix things in-house in minutes instead of shipping the laptop away for two weeks. A broken screen costs about £179 to replace yourself, versus £500-plus through Dell ProSupport.
+For a business in Manchester running a fleet of laptops, Frameworks make a lot of sense compared to the usual Dell or HP contracts. If you keep a small stock of common parts on a shelf - screens, keyboards, batteries, mainboards - your IT person can fix things in-house in minutes. A broken screen costs about £179 to replace yourself, versus £500-plus through Dell ProSupport.
 
 There's also a nice trick where if you standardise on one Framework model across the fleet, components from a dead laptop become spare parts for the rest. The arithmetic on extended warranties stops looking sensible pretty quickly once you've worked through it. I can help you set up the initial fleet and walk your team through the repair workflow.
 

@@ -32,7 +32,7 @@ I also write [free guides about building websites](/guides/) and create [online 
 
 ## A business built to serve the community
 
-Chobble is a registered [Community Interest Company (CIC)](https://find-and-update.company-information.service.gov.uk/company/17050113), which means it's regulated to benefit the community rather than private shareholders.
+Chobble is a registered [Community Interest Company (CIC)](https://find-and-update.company-information.service.gov.uk/company/17050113), which means it's regulated to benefit the community.
 
 In practice, that means: any surplus gets reinvested into reducing costs for community-focused clients, not extracted as private profit. I'm formally committed to serving small businesses, charities, co-operatives, and community organisations, especially in Greater Manchester.
 

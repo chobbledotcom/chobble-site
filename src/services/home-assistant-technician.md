@@ -37,7 +37,7 @@ I work in YAML directly or through the UI depending on how complicated the logic
 
 ### Device integration
 
-I've wired up Tado radiators, Tasmota lights and plugs, WLED LED strips, Shelly plugs, OpenEVSE chargers, Solax solar inverters and a few other things. Different manufacturers use different protocols (Zigbee, Z-Wave, WiFi, MQTT) and I can help you pick devices that play nicely with Home Assistant in the first place, rather than ending up with a drawer of stuff that doesn't quite work.
+I've wired up Tado radiators, Tasmota lights and plugs, WLED LED strips, Shelly plugs, OpenEVSE chargers, Solax solar inverters and a few other things. Different manufacturers use different protocols (Zigbee, Z-Wave, WiFi, MQTT) and I can help you pick devices that play nicely with Home Assistant in the first place.
 
 If you've got devices without official integrations, there's usually a way - custom components, MQTT bridges, REST API hacks - and I can usually find it.
 
@@ -51,7 +51,7 @@ If you need Home Assistant to talk to other systems - pushing data into your bus
 
 ### Teaching and support
 
-Home Assistant has very good documentation, but there's a lot of it and a lot of concepts to absorb. I can teach you how the whole thing fits together, from the basics up to the more advanced automation patterns, working with your specific setup rather than a generic example. The aim is for you to feel confident making changes yourself afterwards.
+Home Assistant has very good documentation, but there's a lot of it and a lot of concepts to absorb. I can teach you how the whole thing fits together, from the basics up to the more advanced automation patterns, working with your specific setup. The aim is for you to feel confident making changes yourself afterwards.
 
 In person if you're in Prestwich or nearby Manchester, by video call if you're further afield.
 

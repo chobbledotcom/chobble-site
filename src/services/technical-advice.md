@@ -19,7 +19,7 @@ If the question's quick, I'll just tell you - no charge. If it looks like it'll 
 
 **Self-hosted software** - if you want your own instance of Nextcloud, Ghost, a CRM, or any of the dozens of apps available through [PikaPods](/services/pikapods-help/), I can get it running. Often much cheaper per month than the SaaS equivalent, and you own the data.
 
-**SEO and content planning** - working out what's actually worth doing to improve your rankings, or reviewing an existing approach. The [SEO audit service](/services/seo-audits/) is the more structured version of this, but sometimes a conversation is all it takes rather than a formal deliverable.
+**SEO and content planning** - working out what's actually worth doing to improve your rankings, or reviewing an existing approach. The [SEO audit service](/services/seo-audits/) is the more structured version of this, but sometimes a conversation is all it takes.
 
 **Liaising with other specialists** - I've coordinated with Fiverr designers on behalf of clients, reviewed work before approval, and sat in on regular meetings with the Blue Pits Housing Action tech team to make sure they understand what they're being told. If you're dealing with a developer or supplier and want someone who can follow the technical detail in your corner, I can help with that.
 

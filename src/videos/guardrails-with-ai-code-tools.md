@@ -20,7 +20,7 @@ The talk walks through six layers of guardrails I use when getting Claude Code t
 
 **Layer 0 - GitHub Workflows:** Blocking merges until a full test suite passes - biome linting, copy-paste detection, dead code scanning, type checking, code quality tests, unit tests, integration tests, and 100% test coverage.
 
-**Layer 1 - Biome linting:** 20+ rules set to error (not warn) - no `var`, no `forEach`, no `==`, no `console.log`, arrow functions only, and a cognitive complexity cap of 7 per method in source code. This one rule alone forces AI to write short, readable functions instead of deeply nested monsters.
+**Layer 1 - Biome linting:** 20+ rules set to error (not warn) - no `var`, no `forEach`, no `==`, no `console.log`, arrow functions only, and a cognitive complexity cap of 7 per method in source code. This one rule alone forces AI to write short, readable functions.
 
 **Layer 2 - Copy-paste detection with jscpd:** Running at three strictness levels (12 tokens for utility methods, 23 for source, 40 for tests) with a ratchet that automatically tightens the threshold whenever duplication drops.
 

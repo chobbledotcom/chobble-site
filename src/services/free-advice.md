@@ -28,14 +28,14 @@ If you're not sure where to begin, these are the ones I'd point most people at f
 
 ## The kind of advice it is
 
-It's all the sustainable sort - the kind that keeps working after Google's next algorithm update, rather than the shortcuts that get sites penalised a few months down the line. It's also written for how search works here in the UK, which isn't always the same as the American marketing advice that makes up most of what you'll find online.
+It's all the sustainable sort - the kind that keeps working after Google's next algorithm update. It's also written for how search works here in the UK, which isn't always the same as the American marketing advice that makes up most of what you'll find online.
 
-The aim is for you to understand what your customers are actually searching for and how to give them that, so the site earns its rankings honestly rather than through anything you'd have to undo later.
+The aim is for you to understand what your customers are actually searching for and how to give them that, so the site earns its rankings honestly.
 
 It's aimed mostly at small business owners who want more enquiries from their website and are willing to put a bit of work in, but who'd rather have a sensible direction to head in than wade through jargon or try random tips off YouTube. You don't need to be technical - if you can write about your own business, you can do a fair bit of this yourself.
 
 ## If you want a hand with it
 
-All of it stays free whether or not you ever hire me. If you do have me build or host your website, though, working through this stuff together comes as part of that - you can ask me about your particular situation and I'll help you apply the advice to it, rather than leaving you to guess which bits fit.
+All of it stays free whether or not you ever hire me. If you do have me build or host your website, though, working through this stuff together comes as part of that - you can ask me about your particular situation and I'll help you apply the advice to it.
 
 If you'd like a website built with that kind of ongoing support, fill in the form below.

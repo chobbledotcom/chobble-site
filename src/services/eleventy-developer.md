@@ -80,7 +80,7 @@ The output is plain static HTML, which means it'll keep working for as long as b
 
 ## Eleventy is becoming Build Awesome
 
-One bit of news if you go digging: Eleventy is in the middle of a rename. Its creator, Zach Leatherman, took the project into the Font Awesome family in 2024, and the next major version - Eleventy v4 - is shipping under a new name, [Build Awesome](https://www.11ty.dev/blog/build-awesome/) v4. It's a continuation rather than a fresh start, though: same person shepherding it, same open source project, and existing Eleventy sites, plugins and build commands are all meant to carry on working exactly as before. So if I say Eleventy and you read about Build Awesome somewhere else, they're the same thing - and none of what I've described here changes because of it.
+One bit of news if you go digging: Eleventy is in the middle of a rename. Its creator, Zach Leatherman, took the project into the Font Awesome family in 2024, and the next major version - Eleventy v4 - is shipping under a new name, [Build Awesome](https://www.11ty.dev/blog/build-awesome/) v4. It's a continuation, though: same person shepherding it, same open source project, and existing Eleventy sites, plugins and build commands are all meant to carry on working exactly as before. So if I say Eleventy and you read about Build Awesome somewhere else, they're the same thing - and none of what I've described here changes because of it.
 
 ## My Eleventy approach
 
@@ -92,7 +92,7 @@ I write semantic HTML with minimal, efficient CSS so sites load fast even on slo
 
 Rather than start every site from a blank page, I build on my own open-source starter, the [Chobble Template](/services/chobble-template/), which is itself an Eleventy site - so every site I put together on top of it is Eleventy underneath, all the way down. It began as the pile of snippets I kept copying between client jobs (a news system, a contact form, header images, per-page themes) and has grown into something that covers most of what a small business actually asks for.
 
-That includes the things you'd expect from a brochure site and a fair bit you might not: product listings with galleries, options and prices for shops; a browser-based cart with Stripe or Square checkout, or a quote-only mode where people build a basket and send it over as an enquiry instead of paying online; a menu system for cafes and restaurants with dietary flags; one-off and recurring events that publish a subscribable calendar feed; a holiday-lets system wired into freetobook; team profiles, reviews with star ratings, multi-site locations, and a news blog. If your business needs a particular thing, there's a decent chance it's already in there, and if it isn't I can add it.
+That includes the things you'd expect from a brochure site and a fair bit you might not: product listings with galleries, options and prices for shops; a browser-based cart with Stripe or Square checkout, or a quote-only mode where people build a basket and send it over as an enquiry; a menu system for cafes and restaurants with dietary flags; one-off and recurring events that publish a subscribable calendar feed; a holiday-lets system wired into freetobook; team profiles, reviews with star ratings, multi-site locations, and a news blog. If your business needs a particular thing, there's a decent chance it's already in there, and if it isn't I can add it.
 
 ## Block-based pages with PagesCMS
 
@@ -116,7 +116,7 @@ Want to take control of your own Eleventy site? I offer [technical training and 
 
 We'll cover the basics of how Eleventy turns your files into a website, writing and editing content in Markdown, adding new pages and sections as the business grows, tweaking the design and layout, and deploying updates yourself without needing to call me.
 
-Sessions can be done in person if you're in Prestwich, or remotely, and we'll work from wherever you are now rather than a fixed curriculum.
+Sessions can be done in person if you're in Prestwich, or remotely, and we'll work from wherever you are now.
 
 ## Get in touch
 

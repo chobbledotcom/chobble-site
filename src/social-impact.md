@@ -8,7 +8,7 @@ description: What it means that Chobble is a Community Interest Company, and who
 
 # Social impact
 
-Chobble is a [Community Interest Company](https://find-and-update.company-information.service.gov.uk/company/17050113), a legal structure specifically designed for businesses that exist to benefit their community rather than to enrich private shareholders.
+Chobble is a [Community Interest Company](https://find-and-update.company-information.service.gov.uk/company/17050113), a legal structure specifically designed for businesses that exist to benefit their community.
 
 ## What "CIC" actually means
 

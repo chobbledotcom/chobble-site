@@ -9,7 +9,7 @@ meta_description: 50% off websites for vegan businesses - £300 for a simple sit
 
 # Vegan business websites
 
-If you run a fully vegan business, I'll build your website at half my normal rate. That's **£100/hour** instead of £200/hour, which for a simple restaurant site works out at around **£300** all in.
+If you run a fully vegan business, I'll build your website at half my normal rate. That's **£100/hour**, which for a simple restaurant site works out at around **£300** all in.
 
 The reason I do this is fairly simple: I've been vegetarian my entire life and vegan since 2009, my wife and I run [Vegan Prestwich](/examples/vegan-prestwich/) as a community project, and I'd rather my work made vegan businesses easier to find and easier to run than it made already-comfortable companies more comfortable. It's not a marketing scheme, it's a values thing - same reason charities and co-ops get the same discount.
 
@@ -55,7 +55,7 @@ The clean version of the rule is: if the whole business is vegan, yes. Vegetaria
 <details>
 <summary><strong>What if I'm just starting out?</strong></summary>
 
-Same deal. The earlier you get the website right, the less you'll spend redoing things later. I'll help you pick a sensible domain name, get a professional email address sorted, and build something that can grow with the business rather than something you'll outgrow in eighteen months.
+Same deal. The earlier you get the website right, the less you'll spend redoing things later. I'll help you pick a sensible domain name, get a professional email address sorted, and build something that can grow with the business.
 
 </details>
 

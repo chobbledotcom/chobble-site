@@ -38,7 +38,7 @@ During the COVID lockdowns I added a Deliveroo integration fairly quickly so the
 
 ## Social media
 
-I look after their Facebook page, posting once or twice a month rather than the daily grind restaurants often feel they're supposed to keep up. The posts that do best by a mile are the ones where a celebrity's been in - those bring in new customers.
+I look after their Facebook page, posting once or twice a month. The posts that do best by a mile are the ones where a celebrity's been in - those bring in new customers.
 
 I've got Google Alerts set up so I hear about it whenever someone reviews the cafe or mentions it in an article. I'll share the good ones on social media and now and then copy one over to the website, which keeps things looking current without much ongoing work.
 

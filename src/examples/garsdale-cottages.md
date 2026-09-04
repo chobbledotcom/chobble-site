@@ -36,11 +36,11 @@ I initially started building a Google Calendar integration to handle availabilit
 
 I'm not in the business of building things my customers don't need. When a solid existing service does the job better and cheaper than anything I could build, I'll recommend it every time. I built FreeToBook's booking widget into each property page on the Garsdale Cottages site, so visitors can check availability and book directly. Each property also has its own enquiry form powered by Formspark, sending messages straight to the property owners.
 
-The result is that both cottages are now listed on Booking.com, Airbnb, and Google Hotels - but directly through FreeToBook. When a booking comes in from any platform, the owners pay that platform's commission plus £1.50 to FreeToBook. That's one percentage cut instead of two, plus a tiny flat fee. Compared to the old Sykes setup, the savings are substantial.
+The result is that both cottages are now listed on Booking.com, Airbnb, and Google Hotels - but directly through FreeToBook. When a booking comes in from any platform, the owners pay that platform's commission plus £1.50 to FreeToBook. That's one percentage cut plus a tiny flat fee. Compared to the old Sykes setup, the savings are substantial.
 
 ## Blocks layout
 
-This site makes extensive use of the [Chobble Template](/services/chobble-template/)'s "blocks" layout system. Instead of plain markdown pages, the homepage and content pages are built from structured content blocks - hero images, feature cards, section headers, split layouts, and more - all defined in simple YAML. This was the first site to really push the blocks system, and it means pages like the [Things To Do](https://www.garsdalecottages.co.uk/things-to-do/) and [Walks](https://www.garsdalecottages.co.uk/walks/) guides are visually interesting and easy to browse, rather than just walls of text.
+This site makes extensive use of the [Chobble Template](/services/chobble-template/)'s "blocks" layout system. The homepage and content pages are built from structured content blocks - hero images, feature cards, section headers, split layouts, and more - all defined in simple YAML. This was the first site to really push the blocks system, and it means pages like the [Things To Do](https://www.garsdalecottages.co.uk/things-to-do/) and [Walks](https://www.garsdalecottages.co.uk/walks/) guides are visually interesting and easy to browse.
 
 The content for these pages came from the cottage owners themselves. I asked them to give me big dumps of information about the local area - walks, wildlife, red squirrels, nearby towns, rainy day activities - and we compiled it all into rich, well-structured pages. I used AI to help find references, backlinks, and to tidy the raw information into polished copy. The aim is to depict Garsdale as the stunning holiday destination it is, using real knowledge from people who live there and love it.
 
@@ -52,7 +52,7 @@ Because the site is built on the Chobble Template, the owners have the complete 
 
 ## How much did it cost?
 
-The site cost **£1,600** in total, but because Garsdale Cottages is a cooperative, they qualified for my [50% discount](/prices/) - bringing the total to **£800**. Their monthly hosting is discounted too, at **£20/month** instead of £40, which includes uptime monitoring, backups, content updates, and personal support to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/).
+The site cost **£1,600** in total, but because Garsdale Cottages is a cooperative, they qualified for my [50% discount](/prices/) - bringing the total to **£800**. Their monthly hosting is discounted too, at **£20/month**, which includes uptime monitoring, backups, content updates, and personal support to implement strategies from my [free marketing guides](/guides/) and [videos](/videos/).
 
 For context, that £800 one-off cost is probably less than what both properties were losing to Sykes' double-commission structure every few months.
 

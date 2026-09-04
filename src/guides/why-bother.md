@@ -1,6 +1,6 @@
 ---
 title: Why bother promoting your site?
-snippet: Compelling reasons to focus on your website rather than relying solely on social media platforms.
+snippet: Compelling reasons to put your promotional effort into your own website.
 meta_title: Why Promote Your Website vs Social Media | Free Guide | Chobble
 meta_description: Guide to website promotion - cumulative progress, ownership benefits, long-term value over social media - Manchester web developer
 ---
@@ -9,7 +9,7 @@ meta_description: Guide to website promotion - cumulative progress, ownership be
 
 If you've got a successful small business, there's a fair chance that you were getting business before you had a website. You might have even become quite a big business without a site - perhaps you get all of your leads through Facebook, or Instagram, or Checkatrade, or perhaps it's all word of mouth.
 
-If you're in this situation it might feel like your website is really just something you have because you ought to have one, rather than that it's an essential part of attracting customers. And if you feel like that, then why bother working on the site or promoting it, or even caring about how many visitors it gets?
+If you're in this situation it might feel like your website is really just something you have because you ought to have one. And if you feel like that, then why bother working on the site or promoting it, or even caring about how many visitors it gets?
 
 After all, it would certainly be simpler to just rely on Facebook or Instagram to plug yourself - you've probably got the app installed already, and they make it really easy to upload new content as you're just going about your day to day, and it's really easy to pay to boost a post on there. You don't have to learn anything technical, or think about backlinks or keywords or anything, you just need to produce content to feed the algorithm, and maybe throw them some money to boost your posts.
 
@@ -41,7 +41,7 @@ Compare this to promoting your own site, where anything you post can be popular,
 
 ## Third reason - easier customers
 
-Facebook want everyone to spend as much time on Facebook as possible, which includes you when you're dealing with customers. The design of Facebook encourages your potential customers to message you on there, rather than clicking off and viewing your website. The same applies to Checkatrade or RatedPeople or Bark or any of those lead generating websites - they want the customer to complete the full experience without ever leaving the site.
+Facebook want everyone to spend as much time on Facebook as possible, which includes you when you're dealing with customers. The design of Facebook encourages your potential customers to message you on there. The same applies to Checkatrade or RatedPeople or Bark or any of those lead generating websites - they want the customer to complete the full experience without ever leaving the site.
 
 This means that when someone messages you on those platforms, they might not know anything about your business. Facebook don't give you any easy way to answer frequently asked questions, or display all of your products, or show your most recent menu or offers, or really show anything other than your recent posts. You're very limited in terms of informing your customer about how you do business.
 
@@ -71,9 +71,9 @@ But if you've done the things in that list and are wondering how to replicate yo
 
 So in terms of linking your social media posts to your website promotion, what might be a good approach could be to, when you're considering posting something to social media that basically just advertises a product, first looking at how that product or service is represented on your website, improving the website version however you can, and then linking to the new improved version from the social media post. You're improving the website version, and then showing the new improved version off on social media.
 
-Or, if you're considering posting something to social media which has the room to go a bit viral, like maybe a behind the scenes video, or something funny, like a post which took a bit of effort, maybe you could upload that video to YouTube too, and embed the YouTube version in your site. That way, rather than only the people on Instagram seeing your cool new video, people on YouTube or your website can too.
+Or, if you're considering posting something to social media which has the room to go a bit viral, like maybe a behind the scenes video, or something funny, like a post which took a bit of effort, maybe you could upload that video to YouTube too, and embed the YouTube version in your site. That way, people on YouTube and your website can see your cool new video too.
 
-It's about spreading the effort out to multiple places on the internet, including your website, rather than focusing it all in one place.
+It's about spreading the effort out to multiple places on the internet, your website included.
 
 It's worth remembering throughout this that you probably won't see instant results on your website. It takes a while for search engines to find the new content, and then for people to find it, and then for them to tell their friends, or book with you - it's a slower burn than social media sites where a post either does well or it doesn't within a couple of days. Don't be too disheartened by this - like I said before it's about the cumulative effort, and if you track things on a week to week or month to month scale you'll see visitor numbers to your site climb and more conversions coming in.
 

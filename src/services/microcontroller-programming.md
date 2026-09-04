@@ -13,7 +13,7 @@ If you've got a piece of equipment you'd like to connect to the internet, automa
 
 The most interesting job I've done along these lines was for an event hire company: they wanted to add credits to an arcade machine when customers completed marketing actions - scan a QR code, sign up to a mailing list, that sort of thing. The machine had always run entirely standalone. I built the interface between their web-based promotional system and the machine's credit mechanism, so credits now get added automatically when the customer earns them, with no one needing to be in the room. It's the kind of problem I'm most useful for: devices that need to talk to systems they weren't built to talk to.
 
-My own home has been a test bed for this kind of thing for years. I've got ESP32 boards, WLED LED strips, Tasmota lights, and ZigBee nodes all wired together with Home Assistant and Node-RED - including an automated dehumidifier that runs off surplus solar, and lighting that responds to weather, motion, and time of day. The protocols involved (MQTT, WiFi, REST APIs, serial) are familiar ground rather than things I'd be working out as I went. For Home Assistant work specifically, there's a [dedicated page](/services/home-assistant-technician/).
+My own home has been a test bed for this kind of thing for years. I've got ESP32 boards, WLED LED strips, Tasmota lights, and ZigBee nodes all wired together with Home Assistant and Node-RED - including an automated dehumidifier that runs off surplus solar, and lighting that responds to weather, motion, and time of day. The protocols involved (MQTT, WiFi, REST APIs, serial) are familiar ground. For Home Assistant work specifically, there's a [dedicated page](/services/home-assistant-technician/).
 
 ## What I can help with
 

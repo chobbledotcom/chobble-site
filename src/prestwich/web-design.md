@@ -21,7 +21,7 @@ The sites I build are fast and straightforward, laid out so that someone who lan
 4. You get a training session, the full source code, and instructions for everything
 5. You can host with me, or take it elsewhere - your choice
 
-Most of the time, the thing that actually slows the project down is content - photos, words, opening hours - rather than the build itself. If you want help with that, my [free guides](/guides/) and [videos](/videos/) walk through it, or I can put you in touch with a copywriter.
+Most of the time, the thing that actually slows the project down is content - photos, words, opening hours. If you want help with that, my [free guides](/guides/) and [videos](/videos/) walk through it, or I can put you in touch with a copywriter.
 
 If you're after something more involved - a custom design, a booking system, a customer database, anything beyond a brochure site - I can help with that too. I can source designers, turn paid-for design templates into working sites, or build custom functionality with Ruby on Rails or other open source tools. Have a look at my [software development services](/services/software-developer/) for the bigger stuff.
 

@@ -31,7 +31,7 @@ The reason the price varies so much is that you decide how much of the work you 
 ## What I can build with it
 
 - New WordPress sites built from scratch with whatever shape your business needs
-- Custom themes that match your brand rather than starting from a generic template
+- Custom themes that match your brand
 - WooCommerce shops with proper payment processing and stock management
 - Membership sites with subscriber content and payment integration
 - Migrations from WordPress.com or expensive hosts to somewhere cheaper - see the [website migrations](/services/website-migrations/#content) page for more on this
@@ -46,7 +46,7 @@ Initial setup takes about an hour, and after that the thing more or less runs it
 
 ## Charities and small businesses
 
-Charities get **50% off** - £100/hour instead of £200/hour. The same rate applies to co-ops, artists, musicians, vegan businesses, and renewable energy companies. The [charity web development](/services/charity-web-development/#content) page has the full list and the reasoning behind it.
+Charities get **50% off** - £100/hour. The same rate applies to co-ops, artists, musicians, vegan businesses, and renewable energy companies. The [charity web development](/services/charity-web-development/#content) page has the full list and the reasoning behind it.
 
 WordPress tends to suit organisations with specific requirements that brochure sites can't handle - member portals with logins and access levels, event management with bookings, donation processing, newsletter integration, multi-author blogs. The open-source angle is more important for charities than for most: you own everything outright, there are no recurring software licences, and if you ever need to bring someone else in, they can pick up where I left off without paying anyone for access.
 

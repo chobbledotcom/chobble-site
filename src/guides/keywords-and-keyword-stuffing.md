@@ -47,8 +47,8 @@ SEO strategies used to revolve around _"keyword density"_, a formula for how oft
 
 **How to avoid stuffing**:
 
-- Mix in synonyms (_"widgets for parties"_, _"widget delivery company"_, _"widgeteer"_) instead of repeating _"widget hire"_ over and over.
-- Use local phrases naturally: _"serving North Manchester"_ rather than _"Manchester widget hire Manchester"_.
+- Mix in synonyms (_"widgets for parties"_, _"widget delivery company"_, _"widgeteer"_).
+- Use local phrases naturally: _"serving North Manchester"_.
 - Read sentences aloud. If they sound forced, simplify them. _"Affordable rates for weekend events"_ is clearer than _"Widget hire Manchester affordable widget hire for events."_
 
 If you focus on what people are actually searching for and write in plain English, you'll do well on modern search engines and keep your visitors interested at the same time.
@@ -97,7 +97,7 @@ Semantically related words are phrases or terms that _connect_ to your main keyw
 - **Search engines** use them to work out context. If your page mentions "widget hire", "dongle repairs", and "wotzit storage", Google knows your business covers the whole lifecycle of these products.
 - **Visitors** get a clearer picture of your services, without the text feeling repetitive.
 
-So, instead of repeating _"widget hire in Manchester"_ ten times, try:
+If you've written _"widget hire in Manchester"_ ten times already, try:
 
 > _"We offer affordable widget hire across Manchester, including same-day doodah delivery for events. Need long-term wotzit hire or repairs? Our Whitefield team has you covered."_
 
@@ -140,7 +140,7 @@ Alt text (alternative text) is a short description of an image that does two job
 
 It matters because over [43 million people](https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment) worldwide have visual impairments, and clear alt text means your site works for them too. And Google uses alt text to rank images in **Google Images**, so a well-described photo of _"Technician repairing a doodah in Whitefield"_ could bring in local customers.
 
-When writing alt tags, just describe what's actually in the image, rather than giving your opinion. _"Three blue widgets stacked at a Manchester park"_ is good, _"Best widget hire in Manchester"_ is not. Keep it short (under 125 characters) and include location or action details where relevant, like _"Heaton Park event setup with widgets"_ or _"Technician loading widgets into a van in Whitefield"_. Skip phrases like _"image of"_ - screen readers already announce that it's an image. For decorative graphics like dividers, leave the alt text empty.
+When writing alt tags, just describe what's actually in the image. _"Three blue widgets stacked at a Manchester park"_ is good, _"Best widget hire in Manchester"_ is not. Keep it short (under 125 characters) and include location or action details where relevant, like _"Heaton Park event setup with widgets"_ or _"Technician loading widgets into a van in Whitefield"_. Skip phrases like _"image of"_ - screen readers already announce that it's an image. For decorative graphics like dividers, leave the alt text empty.
 
 **BCN customers**: your product images already have solid alt tags matching their names - nice!
 
@@ -154,7 +154,7 @@ Writing for humans means explaining your services like you're chatting with a cu
 
 Internal links help guide visitors to other parts of your site that might be useful to them. For instance, if you've got a blog post about the _"Top 5 Event Trends in Manchester"_, you could link to your event widget hire page from it: _"Need widgets for your event? Have a look at our Manchester Event Widget Hire Guide."_ Or your homepage's product section could mention _"One of our most popular hires: [blue widgets]."_
 
-Keep the link text descriptive - something like _"Book Whitefield widget delivery here"_ rather than just _"click here"_. And only add links where they actually make sense - forcing them into unrelated text confuses both readers and search engines.
+Keep the link text descriptive - something like _"Book Whitefield widget delivery here"_. And only add links where they actually make sense - forcing them into unrelated text confuses both readers and search engines.
 
 ### Local SEO
 

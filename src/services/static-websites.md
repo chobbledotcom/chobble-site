@@ -27,7 +27,7 @@ The tool I build with is Eleventy, a modern static site generator. The reasons t
 
 - ![Fun Pro UK website homepage showing video header, testimonials, brand logos, and a "How it Works" section](/assets/examples/fun-pro-uk.png) **[Fun Pro UK](/examples/fun-pro-uk/)** is a corporate entertainment site with 88 products, a quotation system, a mega menu, sitewide search, and custom designs throughout. Probably the Chobble Template pushed about as far as it currently goes.
 - ![The MyAlarm Security website homepage, decked out in a Christmassy theme for the holidays.](/assets/examples/myalarm-security.png) **[MyAlarm Security](/examples/myalarm-security/)** wanted full control of the look and feel. I migrated their content to the template and built a custom homepage, sliding banner, and product pages laid out exactly to their spec.
-- ![Renegade Solar homepage with top links - Home, About, Services, Reviews, Gallery, Contact - and a photo of a solar panel install on a bright Manchester day](/assets/examples/renegade-solar.png) **[Renegade Solar](/examples/renegade-solar/)** moved off a slow Wix site and now gets roughly one enquiry a week instead of one a year, with perfect Lighthouse scores and lower monthly costs.
+- ![Renegade Solar homepage with top links - Home, About, Services, Reviews, Gallery, Contact - and a photo of a solar panel install on a bright Manchester day](/assets/examples/renegade-solar.png) **[Renegade Solar](/examples/renegade-solar/)** moved off a slow Wix site and now gets roughly one enquiry a week, with perfect Lighthouse scores and lower monthly costs.
 
 </div>
 
@@ -43,7 +43,7 @@ You edit your site through a browser-based admin interface called [PagesCMS](htt
 
 ## Can you tell me how it works?
 
-I'll happily explain every part of your site to you - the templating, the stylesheets, the build process, anything you're curious about. The aim is for you to feel confident taking charge of the site as it grows, rather than feeling stuck whenever you want to add a new page.
+I'll happily explain every part of your site to you - the templating, the stylesheets, the build process, anything you're curious about. The aim is for you to feel confident taking charge of the site as it grows.
 
 To rank well on Google over time you need to know some basics about how to structure a site and how to write its content, and understanding how your site is put together is part of that. It's not a separate skill from running the site - it's the same skill.
 

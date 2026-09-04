@@ -24,11 +24,11 @@ This site leans heavily on the [Chobble Template](/services/chobble-template/)'s
 
 ## Charity sector specialism
 
-Staging Events specialise in mass participation events for the charity sector - they handle [Alzheimer's Society's Memory Walk](https://www.stagingevents.co.uk/clients/alzheimers-society/) (110,000 participants over a 7-week period), [Prostate Cancer UK's March for Men](https://www.stagingevents.co.uk/clients/prostate-cancer-uk/), and work with Sheffield Children's Hospital Charity, CoppaFeel!, Pancreatic Cancer UK and the Epilepsy Society. They didn't get the [charity discount](/prices/) from me - they're a commercial hire company rather than a registered charity - but I think they got pretty good value for money anyway.
+Staging Events specialise in mass participation events for the charity sector - they handle [Alzheimer's Society's Memory Walk](https://www.stagingevents.co.uk/clients/alzheimers-society/) (110,000 participants over a 7-week period), [Prostate Cancer UK's March for Men](https://www.stagingevents.co.uk/clients/prostate-cancer-uk/), and work with Sheffield Children's Hospital Charity, CoppaFeel!, Pancreatic Cancer UK and the Epilepsy Society. They didn't get the [charity discount](/prices/) from me - they're a commercial hire company - but I think they got pretty good value for money anyway.
 
 ## Editing and support
 
-The site uses [PagesCMS](https://pagescms.org/) for content editing - pages, products, categories, news, reviews, team and clients are all editable through a friendly web interface, no markdown required. Because Staging Events pay for ongoing support, they can also send any larger changes my way and I'll handle them. The blocks system means I can rearrange a homepage or add a new section in minutes rather than rebuilding a template.
+The site uses [PagesCMS](https://pagescms.org/) for content editing - pages, products, categories, news, reviews, team and clients are all editable through a friendly web interface, no markdown required. Because Staging Events pay for ongoing support, they can also send any larger changes my way and I'll handle them. The blocks system means I can rearrange a homepage or add a new section in minutes.
 
 ## Hosting and performance
 

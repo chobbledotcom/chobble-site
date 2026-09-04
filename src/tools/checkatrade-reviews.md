@@ -433,7 +433,7 @@ This selects all text in the textarea and uses the (admittedly deprecated but st
 
 ### Why this approach?
 
-You might wonder why I'm doing this client-side in the browser instead of on a server. There are a few good reasons:
+You might wonder why I'm doing this client-side in the browser. There are a few good reasons:
 
 1. **Privacy**: Your Checkatrade ID and reviews never touch my servers.
 2. **Simplicity**: No need for a backend, databases, or any server-side code.

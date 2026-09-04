@@ -17,7 +17,7 @@ I try and reduce the amount that Google and other "Big Tech" companies are invol
 
 ## Why bother de-Googling?
 
-When you start using alternatives to Big Tech, you'll notice that you see less adverts and distractions. The tools you use every day become more stable and reliable. You will have more insights into your data. The internet will become a more calm, peaceful place, with algorithms that work in your interests instead of manipulating you.
+When you start using alternatives to Big Tech, you'll notice that you see less adverts and distractions. The tools you use every day become more stable and reliable. You will have more insights into your data. The internet will become a more calm, peaceful place, with algorithms that work in your interests.
 
 To take real examples from my own life, a normal day includes:
 

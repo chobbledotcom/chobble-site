@@ -26,13 +26,13 @@ Rachel and I go back about ten years, through [Bouncy Castle Network](https://ww
 >
 > _Rachel, MyAlarm Security_
 
-The old site was a PHP template from a web design agency - it looked broadly how Rachel wanted, but the template was rigid in the wrong places. She couldn't remove built-in elements she didn't need, couldn't display reviews where she actually wanted them, and the product and category page layouts were the agency's defaults rather than hers.
+The old site was a PHP template from a web design agency - it looked broadly how Rachel wanted, but the template was rigid in the wrong places. She couldn't remove built-in elements she didn't need, couldn't display reviews where she actually wanted them, and the product and category page layouts were the agency's defaults.
 
 ## What I built
 
 The site is built on the [Chobble Template](/services/chobble-template/), which provides the underlying infrastructure - the build system, image pipeline, CDN hosting, and SEO foundation. But the template is designed to be fully overridable, and what MyAlarm Security's visitors see is all Rachel's. The design is deliberately close to the old site - Rachel liked how it looked, she just needed to be able to do more with it. I rebuilt it to her specifications, including the sliding homepage banner and the product and category page layouts, so the change was invisible to customers but the control was entirely hers. The screenshot shows the site with a seasonal Christmas theme.
 
-Like the old site, this one has location-specific pages for the areas the business covers - Bexley, Orpington, Sidcup, and so on. The difference is that Rachel can now edit them herself through [PagesCMS](https://pagescms.org/), and we've worked together on making each one genuinely useful rather than just a thin service-and-postcode list.
+Like the old site, this one has location-specific pages for the areas the business covers - Bexley, Orpington, Sidcup, and so on. The difference is that Rachel can now edit them herself through [PagesCMS](https://pagescms.org/), and we've worked together on making each one genuinely useful.
 
 The full source code is [on GitHub](https://github.com/chobbledotcom/my-alarm-security), which means Rachel owns the site outright and can take it to any developer or host at any point. It's the same deal as the security equipment the business installs - you own the gear from day one, and it keeps working regardless of what happens to whoever fitted it.
 

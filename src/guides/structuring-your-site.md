@@ -53,6 +53,6 @@ Let's talk about interlinking for a second. It's one thing to have this overarch
 
 So, there we have it - a hopefully solid approach to structuring your website that works for both visitors and search engines. It's not just a technical consideration, it's about creating clear pathways for your visitors to find exactly what they're looking for, and it's a way to know exactly where to logically fit in any new information you think your site should contain.
 
-Don't worry if you need to revisit and adjust your structure as you go! That's a normal part of your site's evolution. The important thing is to be thinking about this deliberately, rather than letting your site grow wild and chaotic.
+Don't worry if you need to revisit and adjust your structure as you go! That's a normal part of your site's evolution. The important thing is to be thinking about this deliberately.
 
 **If you'd like help structuring your website for better navigation and SEO, send me a message through the form below.**

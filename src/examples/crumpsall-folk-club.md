@@ -42,7 +42,7 @@ class="right">
 - [Google Search Console](https://search.google.com/search-console) integration
 - Performance monitoring with [SerpBear](https://docs.serpbear.com)
 
-I deliberately chose options with low ongoing costs and ease of use - Ghost for the CMS, FormSpark for contact forms, PikaPod for hosting, Mailgun for newsletters - rather than stacking together a collection of paid plugins that all need updating. This approach keeps things simple and affordable, which is exactly what a community club needs. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
+I deliberately chose options with low ongoing costs and ease of use - Ghost for the CMS, FormSpark for contact forms, PikaPod for hosting, Mailgun for newsletters. This approach keeps things simple and affordable, which is exactly what a community club needs. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
 
 ## Ongoing support
 
