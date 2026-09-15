@@ -33,7 +33,7 @@ My current project [Play-Test](/examples/play-test/#content) is a compliance and
 
 Not every project needs a full application. For businesses that need a fast, affordable, and easy-to-maintain website, I build sites that load quickly, cost very little to host, and give you complete control over your content.
 
-I've built my own [starter template](/services/chobble-template/#content) that includes menu systems for restaurants, product listings for shops, event calendars, contact forms with spam protection, and built-in search engine optimisation. I can also help with [converting from Wix or Squarespace](/services/eleventy-developer/#content) and adding features to existing sites.
+I've built my own [starter template](/services/chobble-template/#content) that includes menu systems for restaurants, product listings for shops, event calendars, contact forms with spam protection, and built-in search engine optimisation. I can also help with [converting from WordPress or Wix](/services/eleventy-developer/#content) and adding features to existing sites.
 
 </div>
 

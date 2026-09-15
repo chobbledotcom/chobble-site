@@ -1,8 +1,8 @@
 ---
 title: Monster Event Hire
-meta_title: Monster Event Hire | Website Migration | Chobble
-meta_description: Website migration for a bouncy castle and entertainment hire company operating from Havant and Guildford, preserving the design while massively improving speed and cleaning up URL structure.
-snippet: Old CMS backend replaced with Chobble for instant loading, cleaner URLs, and near-perfect Lighthouse scores
+meta_title: Monster Event Hire | WordPress to Chobble Migration | Chobble
+meta_description: WordPress to Chobble migration for a bouncy castle and entertainment hire company operating from Havant and Guildford, preserving the design while massively improving speed and cleaning up URL structure.
+snippet: WordPress backend replaced with Chobble for instant loading, cleaner URLs, and near-perfect Lighthouse scores
 order: 2
 colour: "#5d2ca6"
 ---
@@ -13,7 +13,7 @@ colour: "#5d2ca6"
 - **Services:** Website migration & hosting
 - **Website:** [monstereventhire.co.uk](https://www.monstereventhire.co.uk)
 
-Monster Event Hire are a bouncy castle and entertainment hire company operating from Havant and Guildford. They had an established website with a custom design they already liked - product grids, a clear navigation structure, the general layout - but the underlying CMS had become slow and messy to maintain, and Google Search Console was indexing the same products at multiple URLs through different category slug paths without anyone particularly noticing until it had been quietly building up for a while.
+Monster Event Hire are a bouncy castle and entertainment hire company operating from Havant and Guildford. They had an established WordPress website and wanted to keep the custom design they already liked - product grids, a clear navigation structure, the general layout - but the underlying setup had become slow and messy to maintain, and Google Search Console was indexing the same products at multiple URLs through different category slug paths without anyone particularly noticing until it had been quietly building up for a while.
 
 I replaced the backend with the Chobble template while keeping the front-end design intact. Visitors still see the same brand they recognise, but now pages load near-instantly, the URL structure is clean, and Google isn't trying to work out which version of a product page is the canonical one.
 
@@ -27,7 +27,7 @@ After moving to the Chobble static setup, those dependencies were stripped out. 
 
 ## URL structure and redirects
 
-The old CMS setup had products appearing under multiple category slug paths, which meant Google had indexed the same products at several different URLs and was picking which ones it thought were canonical (sometimes wrongly). As part of the migration I:
+The old WordPress setup had products appearing under multiple category slug paths, which meant Google had indexed the same products at several different URLs and was picking which ones it thought were canonical (sometimes wrongly). As part of the migration I:
 
 - standardised product and category URL patterns so every page has a single canonical location - `/products/foo` and `/categories/foo`
 - added direct 301 redirects from old URLs to their new equivalents
@@ -52,6 +52,6 @@ Post-launch, I have kept a close eye on Google Search Console to catch any index
 
 ## Outcome
 
-Monster Event Hire kept the custom design they valued, but now has a much faster and cleaner platform behind it. The migration removed the script bloat and the URL mess from the old stack, along with the ongoing maintenance overhead that comes with keeping a database-backed CMS updated and secure. What replaced it is a cohesive static system that is easier to maintain, faster to browse, and better aligned for long-term SEO stability.
+Monster Event Hire kept the custom design they valued, but now has a much faster and cleaner platform behind it. The migration removed the script bloat and the URL mess from the old WordPress stack, along with the ongoing maintenance overhead that comes with keeping a WordPress site updated and secure. What replaced it is a cohesive static system that is easier to maintain, faster to browse, and better aligned for long-term SEO stability.
 
 If you like your current site design but hate the backend maintenance and speed issues, this is exactly the kind of migration Chobble is designed to handle. Fill in the form below to get in touch.

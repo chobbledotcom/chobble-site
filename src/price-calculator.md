@@ -43,7 +43,7 @@ I'll give you a login to edit your site and as much advice as I can.
 
 <ul class="calculator-items">
   {% include "calculator-item.html", hours: 1, description: "Basic website design, based on the Chobble Template" %}
-  {% include "calculator-item.html", hours: 3, description: "Website migration (eg from Wix, Squarespace)" %}
+  {% include "calculator-item.html", hours: 3, description: "Website migration (eg from Wix, Wordpress, Squarespace)" %}
   {% include "calculator-item.html", hours: 4, description: "Custom website design" %}
   {% include "calculator-item.html", hours: 1, description: "Domain, DNS, and email setup" %}
   {% include "calculator-item.html", hours: 1, description: "Backups, analytics, and uptime monitoring setup" %}

@@ -15,7 +15,7 @@ If the question's quick, I'll just tell you - no charge. If it looks like it'll 
 
 ## What I help with
 
-**Platform decisions** - whether to stick with Wix or Squarespace, what it would actually cost to move to a [static site](/services/static-websites/), or whether a full rebuild makes sense or a migration to something cheaper would do the job. I've built sites on just about every platform and can give you an honest read on the tradeoffs.
+**Platform decisions** - whether to stick with Wix or WordPress, what it would actually cost to move to a [static site](/services/static-websites/), or whether a full rebuild makes sense or a migration to something cheaper would do the job. I've built sites on just about every platform and can give you an honest read on the tradeoffs.
 
 **Self-hosted software** - if you want your own instance of Nextcloud, Ghost, a CRM, or any of the dozens of apps available through [PikaPods](/services/pikapods-help/), I can get it running. Often much cheaper per month than the SaaS equivalent, and you own the data.
 
