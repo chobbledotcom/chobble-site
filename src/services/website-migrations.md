@@ -3,7 +3,7 @@ title: Website Migrations
 meta_title: Website Migrations | Prestwich, Manchester | Chobble
 description: Escape expensive hosting - move your website to a platform you control for a fraction of the cost
 snippet: Move your existing website off expensive hosting
-meta_description: Escape expensive hosting - migrate from Wix, WordPress, Squarespace - hosting from £10/month or free - keep the same look - Manchester web developer
+meta_description: Escape expensive hosting - migrate from Wix, Squarespace - hosting from £10/month or free - keep the same look - Manchester web developer
 order: 7
 ---
 
@@ -19,7 +19,7 @@ If you rarely update your site, this is often the smartest move you can make. An
 
 Roughly speaking, websites fall into two camps.
 
-**Platform-based sites** like WordPress, Wix and Squarespace rebuild every page from a database every time someone visits. That needs computing power, which means the hosting bill is higher, and it means there's more software running that can break or get hacked. It's a bit like a restaurant cooking every dish from scratch as the order comes in.
+**Platform-based sites** like Wix and Squarespace rebuild every page from a database every time someone visits. That needs computing power, which means the hosting bill is higher, and it means there's more software running that can break or get hacked. It's a bit like a restaurant cooking every dish from scratch as the order comes in.
 
 **Pre-built (static) sites** prepare every page in advance, just once, and store them as files. When someone visits, the server hands over the file. Much faster, much cheaper, much fewer moving parts. More like a bakery with everything ready on the shelf.
 

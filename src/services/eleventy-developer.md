@@ -4,7 +4,7 @@ meta_title: Freelance Eleventy Developer | Prestwich, Manchester, UK | Chobble
 description: Expert Eleventy development - fast websites that you own, easy to update, and cheap to host
 snippet: Fast, affordable Eleventy websites you can edit yourself
 order: 10
-meta_description: Eleventy developer in Manchester - fast websites, easy to update, convert from WordPress/Wix - transparent pricing - you get all the code
+meta_description: Eleventy developer in Manchester - fast websites, easy to update, convert from Wix or Squarespace - transparent pricing - you get all the code
 ---
 
 # Freelance Eleventy developer
@@ -52,7 +52,7 @@ Whatever the job, I'll fit the changes into your existing codebase without hurti
 
 If you're stuck with an expensive, confusing, bulky or slow CMS website, I can help you migrate to Eleventy.
 
-I've moved sites off WordPress, Wix, Squarespace and a handful of other CMSes onto Eleventy. The usual goal is to keep the design and content people are already happy with, drop the bits causing pain, and end up with something that loads faster, costs less to host, and is easier to edit.
+I've moved sites off Wix, Squarespace and a handful of other CMSes onto Eleventy. The usual goal is to keep the design and content people are already happy with, drop the bits causing pain, and end up with something that loads faster, costs less to host, and is easier to edit.
 
 I'll match the editing setup to how technical you actually are - some clients are happy editing Markdown directly, others want a small CMS sitting on top. Either is fine.
 

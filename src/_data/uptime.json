@@ -148,11 +148,5 @@
     "responseTime": 36,
     "certDaysRemaining": 61,
     "uptimePercent": 100
-  },
-  "https://wordpress.chobble.com": {
-    "status": "up",
-    "responseTime": 927,
-    "certDaysRemaining": 76,
-    "uptimePercent": 100
   }
 }

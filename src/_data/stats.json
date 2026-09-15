@@ -449,23 +449,6 @@
         "seo": 100,
         "lastUpdated": "2026-09-10T10:23:45.152Z"
       }
-    },
-    {
-      "name": "Chobble WordPress",
-      "url": "https://wordpress.chobble.com",
-      "uptime": {
-        "status": "up",
-        "responseTime": 927,
-        "certDaysRemaining": 76,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 95,
-        "accessibility": 95,
-        "bestPractices": 96,
-        "seo": 92,
-        "lastUpdated": "2026-09-11T10:25:09.147Z"
-      }
     }
   ]
 }

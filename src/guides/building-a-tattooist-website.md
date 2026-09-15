@@ -74,7 +74,7 @@ The form is spam protected using **Botpoison** ([botpoison.com](https://botpoiso
 
 ## Editing the site
 
-My template uses **Markdown** files for page content, which is really easy to edit - probably easier than learning the interface for Wix or Wordpress, honestly. I gave Noktorum a login to my Git forge, and he edits the files directly through the Forgejo web interface. Because the edits are done through Git it's very easy for me to monitor changes.
+My template uses **Markdown** files for page content, which is really easy to edit - probably easier than learning the interface for Wix, honestly. I gave Noktorum a login to my Git forge, and he edits the files directly through the Forgejo web interface. Because the edits are done through Git it's very easy for me to monitor changes.
 
 The gallery is populated by uploading images to the `src/images` folder, and then displayed in reverse sorted order so newer photos will appear at the top. One downside to this approach is that the images don't have any metadata, so are missing `alt` tags. A more thorough approach could be to create a data file alongside each image, containing its alt text.
 

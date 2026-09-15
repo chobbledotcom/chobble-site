@@ -52,7 +52,6 @@ description: The person behind Chobble - 20+ years of web development, including
     "Site Performance",
     "Payments Systems",
     "Structured Data",
-    "WordPress Migration",
     "Linux"
   ],
   "homeLocation": {

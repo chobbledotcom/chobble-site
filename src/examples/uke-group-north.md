@@ -30,7 +30,7 @@ The site covers workshop listings with session times and locations, information 
 
 ### Easy content management
 
-I set the site up with [PagesCMS](https://pagescms.org), which means Uke Group North can edit everything themselves through a friendly web interface. They can add news posts, change workshop times and locations, upload new songbooks, add testimonials, and update contact details. They don't need to know any code or mess about with complicated WordPress dashboards. Changes go through GitHub which means every change is backed up and can be undone - there's no way to permanently break things. It's easy to roll back to any point in the site's history.
+I set the site up with [PagesCMS](https://pagescms.org), which means Uke Group North can edit everything themselves through a friendly web interface. They can add news posts, change workshop times and locations, upload new songbooks, add testimonials, and update contact details. They don't need to know any code or mess about with complicated dashboards. Changes go through GitHub which means every change is backed up and can be undone - there's no way to permanently break things. It's easy to roll back to any point in the site's history.
 
 ### Technical details
 
@@ -65,7 +65,7 @@ A simple contact form or clear email address is essential, plus phone number if 
 
 You can edit it yourself - PagesCMS gives you a straightforward editor, so you don't need to pay someone every time you want to add a songbook or update session times. Static hosting is affordable at £5/month for unmanaged hosting (bug fixes only, charity rate) or £20/month for managed hosting with ongoing support and marketing help - or you can host elsewhere for free since you own the code.
 
-The site's source code is yours, hosted on GitHub. If you want to move elsewhere or hire a different developer, you can. Static sites don't have databases to hack or WordPress plugins to update, so they're quick to load and stable.
+The site's source code is yours, hosted on GitHub. If you want to move elsewhere or hire a different developer, you can. Static sites don't have databases to hack or plugins to update, so they're quick to load and stable.
 
 ## 50% discount for musicians
 

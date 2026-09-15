@@ -4,12 +4,12 @@ meta_title: PikaPods Hosting | Self-Hosting Advice | Chobble
 snippet: Really easy web app hosting - and I can make it even easier
 description: Tonnes of webapps, available to host for just a quid or two per month
 order: 15
-meta_description: PikaPods help and advice from Chobble. Host webapps like Nextcloud, PhotoPrism, WordPress and more
+meta_description: PikaPods help and advice from Chobble. Host webapps like Nextcloud, PhotoPrism and more
 ---
 
 # PikaPods hosting & advice
 
-[PikaPods.com](https://www.pikapods.com) is an awesome service. Their web interface lets you host your own private instances of popular open source webapps like Nextcloud, Wordpress, PhotoPrism, and dozens more.
+[PikaPods.com](https://www.pikapods.com) is an awesome service. Their web interface lets you host your own private instances of popular open source webapps like Nextcloud, PhotoPrism, and dozens more.
 
 This is really handy. I'm a massive nerd so I could get any webapp working on my own servers, but I still choose to pay Pikapods to host apps for me because they make it _really_ straightforward and their prices are really fair.
 

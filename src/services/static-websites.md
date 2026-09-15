@@ -6,6 +6,7 @@ snippet: Fast, affordable websites you can edit yourself
 order: 1
 redirect_from:
   - /services/wix-site-edits/
+  - /services/wordpress-developer/
 meta_description: Fast websites that load in under a second, hosted from £10/month (£5 for charities) without support, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
 ---
 
