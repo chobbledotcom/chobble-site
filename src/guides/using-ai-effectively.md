@@ -13,6 +13,8 @@ AI Chatbots (like [ChatGPT](https://chat.openai.com/), [Claude AI](https://claud
 
 However, they also have some serious limitations that you should be fully aware of before you rely on them too much.
 
+For context on where I'm coming from: I use these tools every working day, I've [given a talk at an Eleventy meetup about using code-generating AI safely](/videos/guardrails-with-ai-code-tools/), and the tests in this guide are ones I genuinely ran - there's a longer worked example in my [critiquing AI output](/guides/critiquing-ai-output/) guide, where I take apart a real keyword-stuffed, AI-generated page I found online and write up everything that was wrong with it.
+
 This guide will explain how to make the most out of this new technology while avoiding risky behaviour that might damage your website's performance. Let's first discuss some of the limitations of chatbots, and provide ways to work around those limitations.
 
 ## AI chatbots don't "know" anything
@@ -21,7 +23,7 @@ This guide will explain how to make the most out of this new technology while av
 
 Modern AI chatbots are powered by a technology called "Large Language Models", or LLMs. It's best to think of these as really, really fancy auto-complete systems. You know how when you're typing a message on your phone, it will suggest the next word, and sometimes it's right? LLMs are basically this, but super-super-charged.
 
-_(Note: this is a really simplified way of describing LLMs, which use very complex patterns, mathematical concepts, and huge datasets, and are at the cutting-edge of computing, but it'll do for our purposes)_
+_(Note: this is a really simplified way of describing LLMs, which use very complex patterns, mathematical concepts, and huge datasets, and are at the cutting-edge of computing, but it'll do here)_
 
 This means that their output can look very convincing - and sometimes it will be spot on. But you cannot "trust" their output, because the chatbot has no concept of "correct" vs "incorrect", or "logical" vs "illogical".
 
@@ -59,7 +61,7 @@ When categorising the content of your website, [Google uses a framework known as
 
 - **Experience:** Does the content describe real-life experiences of the topic?
 - **Expertise:** Does the content display a level of expertise about the topic?
-- **Authoritiveness:** Is the content the go-to place to learn about the topic?
+- **Authoritativeness:** Is the content the go-to place to learn about the topic?
 - **Trust:** Can the website be trusted - is its content accurate?
 
 It's likely that AI generated text will get a low score for many of these factors, because of how AI chatbots work - the creators of the bots read billions of existing websites and then use that text to run their auto-completions, which means that AI chatbots cannot generate "new" information - they only ever create text based on text which appears on the internet in some form, or which they have been given by you.
@@ -80,13 +82,13 @@ Because chatbots use billions of webpages as their input, their output ends up s
 
 This doesn't mean you need to include slang terms in your text, but it should at least read as though it was written by someone from the same area as your customers, and ideally with a bit of charisma behind it.
 
-Chatbots also produce text in US English, which has different spelling for some words compared to British English. For example, we spell "colour" or "favour" with U letters, but in America that's "color" or "favor". American English replaces the S in "-sed" words like "customised" with a Z, so "customized".
+Chatbots also produce text in US English, which has different spelling for some words compared to British English. For example, British spellings like "colour" and "favour" keep the U, but the American versions drop it. American English also replaces the S in "-ised" words like "customised" with a Z.
 
 If you just copy and paste American English onto your site, any visitors who know about these differences will either think you can't spell those words, or that you copied the text from somewhere else - neither of these are good.
 
 Spelling aside, Britain uses different words from America - "elevator" vs "lift", "sidewalk" vs "pavement", etcetera. You should aim for the text to feel familiar to visitors, which means using the words and dialect they are used to.
 
-Spelling and different words for the same thing aside, there are also regional aspects to the way we describe things. You might want your website's content to read as less formal and business-like if you're dealing directly with customers, so you might write "it's" for "it is", "loads" for "many", or "okay" for "acceptable" - to choose some examples from this document.
+Spelling and different words for the same thing aside, there are also regional aspects to how people phrase things. You might want your website's content to read as less formal and business-like if you're dealing directly with customers, so you might write "it's" for "it is", "loads" for "many", or "okay" for "acceptable" - to choose some examples from this document.
 
 You might be tempted to tell the chatbot to "write as though they are from Manchester", but I strongly advise against this - the text it will produce will be a caricature which your visitors will probably find really weird:
 
@@ -98,9 +100,9 @@ You might be tempted to tell the chatbot to "write as though they are from Manch
 
 **Advice: Make sure the content on your website sounds like something you would write. Check for American English spelling or words, and make sure the level of formality suits the vibe you'd like for your site.**
 
-# Great uses for AI
+## Great uses for AI
 
-Now that we've discussed some of AI's limitations, let's think about some of the ways we can use AI to add real value to your site's content, which will help push you up the Google rankings.
+Now that the limitations are out of the way, let's think about some of the ways AI can add real value to your site's content, which will help push you up the Google rankings.
 
 ## Fixing grammar and spelling
 
@@ -140,7 +142,7 @@ Because chatbots are fed billions of pages of information, they can be really us
 
 You should prompt the chatbot with something like: _"Analyse this page of content from my Manchester widget hire company's website, and tell me if there's anything obvious that might be missing and could be useful for a visitor who landed on it looking to hire widgets for an event in Manchester"._
 
-It's important to keep the focus on visitors to your website. Do not ask the chatbot to _"make this page more search engine optimised"_, because it will just stuff a load of keywords in - and Google won't like it. Remember that chatbots are trained on billions of webpages, and many of those webpages will contain SEO advice which is very outdated and spammy.
+It's important to keep the focus on visitors to your website. Do not ask the chatbot to _"make this page more search engine optimised"_, because it will just stuff a load of keywords in - and Google won't like it (my [keywords and keyword stuffing guide](/guides/keywords-and-keyword-stuffing/) covers why that backfires). Remember that chatbots are trained on billions of webpages, and many of those webpages will contain SEO advice which is very outdated and spammy.
 
 If you keep the focus on providing value to visitors, you're doing exactly what Google is looking for.
 
@@ -183,7 +185,7 @@ So, you should make sure to include as much detail as you can in your list. For 
 
 You should still make sure to give the result a full once-over to check its accuracy and to make sure it is interesting to read. If you struggle with this, you might want to ask a friend or family member to read it over before you put it live.
 
-# Summary
+## Summary
 
 It's perfectly fine to build your website without using any AI at all, and probably even preferable. But if you're struggling to think of ideas, need help with spelling or grammar, or think you might have missed something your visitors would find useful, chatbots can be a great help.
 
@@ -202,10 +204,10 @@ A service for using AI chatbots is [openrouter.ai](https://openrouter.ai). This 
 
 There's a strong argument to be made that using AI models is unethical, because they are trained on work that others have created, which is often copyrighted, and who did not give permission for their text to be used this way. AI-generated content is provided "as is", with no guarantees about its legality.
 
-The legal ramifications of using AI content have yet to be properly tested in court, but if you're ultra-cautious about copyright then you should also be very careful to ensure your website doesn't used copyrighted text somebody else wrote. The simplest way to avoid this is to re-write anything the chatbot sends you, which I'd advise anyway just to make sure it reflects your company's voice.
+The legal ramifications of using AI content have yet to be properly tested in court, but if you're ultra-cautious about copyright then you should also be very careful to ensure your website doesn't use copyrighted text somebody else wrote. The simplest way to avoid this is to re-write anything the chatbot sends you, which I'd advise anyway just to make sure it reflects your company's voice.
 
 ## Appendix 3: Technology moves fast
 
-Everything I wrote here is accurate at the time of writing. To my nerdy brain, it seems as though AI's capabilities have hit a bit of a plateau and are unlikely to get substantially more impressive any time soon. But, I might be wrong, and it might be the case that in the future you can ask a Chatbot to write something in a Manchester dialect without it reading like a ridiculous Yorkshire sterotype.
+Everything I wrote here is accurate at the time of writing. To my nerdy brain, it seems as though AI's capabilities have hit a bit of a plateau and are unlikely to get substantially more impressive any time soon. But, I might be wrong, and it might be the case that in the future you can ask a chatbot to write something in a Manchester dialect without it reading like a ridiculous Yorkshire stereotype.
 
-**If you want help using AI effectively for your website content, just fill in the form below to get in touch.**
+**If you want help using AI effectively for your website content, fill in the form below and I'll reply within 48 hours.** It's my day job, at a flat £200/hour with no lock-in, and [client reviews](/reviews/) are here if you'd like a sense of how it goes.
