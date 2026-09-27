@@ -1,7 +1,7 @@
 ---
 title: Monster Event Hire
 meta_title: Monster Event Hire | WordPress to Chobble Migration | Chobble
-meta_description: WordPress to Chobble migration for a bouncy castle and entertainment hire company operating from Havant and Guildford, preserving the design while massively improving speed and cleaning up URL structure.
+meta_description: WordPress to Chobble migration for a bouncy castle hire company in Havant and Guildford - same design, way faster, clean URL structure
 snippet: WordPress backend replaced with Chobble for instant loading, cleaner URLs, and near-perfect Lighthouse scores
 order: 2
 colour: "#5d2ca6"
@@ -15,7 +15,7 @@ colour: "#5d2ca6"
 
 Monster Event Hire are a bouncy castle and entertainment hire company operating from Havant and Guildford. They had an established WordPress website and wanted to keep the custom design they already liked - product grids, a clear navigation structure, the general layout - but the underlying setup had become slow and messy to maintain, and Google Search Console was indexing the same products at multiple URLs through different category slug paths without anyone particularly noticing until it had been quietly building up for a while.
 
-I replaced the backend with the Chobble template while keeping the front-end design intact. Visitors still see the same brand they recognise, but now pages load near-instantly, the URL structure is clean, and Google isn't trying to work out which version of a product page is the canonical one.
+I replaced the backend with the [Chobble template](/services/chobble-template/) while keeping the front-end design intact. Visitors still see the same brand they recognise, but now pages load near-instantly, the URL structure is clean, and Google isn't trying to work out which version of a product page is the canonical one - and since the template is open source, there's nothing proprietary underneath, so if Monster ever left, the site would still be theirs, running and readable.
 
 ![Screenshot of the Monster Event Hire website](/assets/examples/monster-event-hire.png)
 
@@ -53,5 +53,7 @@ Post-launch, I have kept a close eye on Google Search Console to catch any index
 ## Outcome
 
 Monster Event Hire kept the custom design they valued, but now has a much faster and cleaner platform behind it. The migration removed the script bloat and the URL mess from the old WordPress stack, along with the ongoing maintenance overhead that comes with keeping a WordPress site updated and secure. What replaced it is a cohesive static system that is easier to maintain, faster to browse, and better aligned for long-term SEO stability.
+
+A caveat, since it's the internet: not every site needs this. If yours already loads fast and is easy to edit, the most sustainable option is to leave it alone.
 
 If you like your current site design but hate the backend maintenance and speed issues, this is exactly the kind of migration Chobble is designed to handle. Fill in the form below to get in touch.

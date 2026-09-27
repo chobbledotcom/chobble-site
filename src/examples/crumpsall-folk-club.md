@@ -55,3 +55,5 @@ The site has helped the club break free from Facebook and establish their own on
 ## Similar solutions
 
 I can build Ghost sites for anyone who wants a newsletter platform or blog. It's a brilliant alternative to Substack or Patreon, and you can even set up paid subscriptions if you want. Ghost is open source, so it's customisable and you're not locked into a proprietary system. It's perfect for creators, clubs, and small businesses who want to own their audience and content without all the technical headaches.
+
+And a caveat in the other direction: if your club only needs a single page with the dates on, this stack is overkill - a one-pager on the [Chobble template](/services/chobble-template/) would cost less to run. I went with Ghost here because the newsletter and self-editing were the requirements.

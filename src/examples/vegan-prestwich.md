@@ -38,13 +38,15 @@ We've had some brilliant wins over the years. One highlight was emailing Joseph 
 
 ## Technical details
 
-- Static website built with Eleventy
-- Hosted on the Chobble.com server
+- Static website built with Eleventy on the [Chobble template](/services/chobble-template/)
+- Hosted on [my own server](/hosting/)
 - Perfect Lighthouse performance scores
 - No JavaScript
 - Fully responsive design
 - Regular content updates
 - Privacy-protecting stats
+
+No JavaScript also means no trackers - the privacy-protecting stats are a deliberate choice, because a community directory exists to help people find their scran, not to follow them around the web.
 
 ## Results
 
@@ -60,7 +62,7 @@ The project shows how a local directory can become a proper community resource, 
 
 ## Source code
 
-The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/vegan-prestwich), so others can learn from it.
+The complete source code for this project is available [on my Git forge](https://git.chobble.com/hosted-by-chobble/vegan-prestwich), so others can learn from it. And if you'd rather run a directory like this yourself, you could fork it and do the whole thing without me - it's a static site, so hosting costs pennies a month, and I'd be well impressed to see it.
 
 ## Want your own directory?
 

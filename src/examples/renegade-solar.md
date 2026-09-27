@@ -58,4 +58,6 @@ The complete source code for this project is available [on my Git forge](https:/
 
 ## Sounds good?
 
+One limit worth knowing: this is a brochure-plus-CMS build, because Ashley doesn't sell panels through the site. If you need a full e-commerce checkout, a static site isn't the right tool, and I'd tell you so rather than sell you this one.
+
 **If you'd like a website for your renewable energy business, my prices would be discounted 50% for you too! send me a message through the form below to get the ball rolling.**
