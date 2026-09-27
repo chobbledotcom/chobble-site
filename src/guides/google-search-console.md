@@ -13,13 +13,15 @@ This guide covers Google Search Console, a free tool that Google provide where y
 
 If you're trying to get your website ranking well and attracting visitors then I think you really ought to pay some attention to Google Search Console because it can give some really useful insights.
 
-At a absolute bare minimum, someone should be paying attention to the emails that Google Search Console sends, and fixing any issues that they mention. If I host your website, I'm doing this for you, and if you want access then just drop me a message and I'll invite you.
+At an absolute bare minimum, someone should be paying attention to the emails that Google Search Console sends, and fixing any issues that they mention. If I host your website (hosting starts at £10/month), I'm doing this for you, and if you want access then just drop me a message and I'll invite you.
+
+One thing worth knowing about the video: the walkthrough is done on a real client's account - [This & That](/examples/this-and-that/), the Northern Quarter cafe whose site I built and host - so the graphs and numbers you'll see are from a working site rather than a made-up one. [Client reviews](/reviews/) are here if you'd like a sense of how those sites turn out.
 
 But ideally, everyone involved in your website should have access to Google Search Console and should periodically log in and check how things are looking. Just receiving the notification emails is one thing, but being proactive can be really beneficial.
 
 ## Signing up
 
-Anyway, before we get stuck into the weeds about GSC, lets start at the start - getting signed up. You'll need a Google account - you probably have one already if you've got a Gmail address, or a YouTube account, or an Android phone. You need to visit [https://search.google.com/search-console](https://search.google.com/search-console), click "Start now", and log into your Google account.
+Anyway, before getting stuck into the weeds of GSC, let's start at the start - getting signed up. You'll need a Google account - you probably have one already if you've got a Gmail address, or a YouTube account, or an Android phone. You need to visit [https://search.google.com/search-console](https://search.google.com/search-console), click "Start now", and log into your Google account.
 
 Once you're in, Google will ask you to add a "property". This is just another word for a website, really. Google wants to verify that you own this website, so they give some options for how to accomplish this. There's two options - "Domain" and "URL Prefix". For most small businesses that just have one main website, there isn't much difference in how these work and either will be fine.
 
@@ -31,7 +33,7 @@ Whichever option you go for, there's a good chance you'll need to get whoever ma
 
 Alright, so you've got your domain verified, nice. But when you log in you'll probably see this - "Processing data, please check again in a day or so". In my experience it always takes more than a day for any useful information to show up. I don't know why this is, because Google has all of that information, and once it's showing you might be able to see information from before you set up GSC, but anyway, check back in a few days.
 
-Okay, a few days have passed, and we're in the console, awesome. First off, you'll be looking at this overview page, which gives you a couple of graphs showing how many clicks your site got, how many pages are indexed, and how fast your site was for visitors. If your site contains structured data, that'll show up here too in the Enhancements section, but that's another big rabbit hole we won't get distracted by just now.
+Okay, a few days have passed, and you're in the console, awesome. First off, you'll be looking at this overview page, which gives you a couple of graphs showing how many clicks your site got, how many pages are indexed, and how fast your site was for visitors. If your site contains structured data, that'll show up here too in the Enhancements section, but that's another big rabbit hole I won't get distracted by just now.
 
 ## Overview
 
@@ -45,7 +47,7 @@ So generally with a webpage you want this all to make sense. Like, if your canon
 
 You can also request indexing from this page if its content has changed and you want Google to quickly fetch and show the newest version. Although I get weird errors with that button pretty often so your mileage may vary.
 
-Alright, next up we've got Performance - this is probably the coolest page in GSC. This shows which search terms your website appeared in the results for, how often it showed, what position it was ranked in, and how many people clicked through to your site. You can view up to the last 16 months of data in here, so it's great for plotting long term trends.
+Alright, next up is Performance - this is probably the coolest page in GSC. This shows which search terms your website appeared in the results for, how often it showed, what position it was ranked in, and how many people clicked through to your site. You can view up to the last 16 months of data in here, so it's great for plotting long term trends: in the video, This & That's graph shows something changing at the start of October last year, with impressions jumping way up while clicks barely moved - the kind of pattern you can only spot with this much history behind you.
 
 By default this page shows the queries that people searched for. A lot of these are probably what you'd expect - people searching for your business name or variations of it, or searching for the exact service you offer. But you'll probably find that your site shows for things you never expected, like maybe a specific accreditation your site mentions, or a specific about a service you offer.
 
@@ -53,15 +55,15 @@ Being informed about the kinds of queries that your site is already showing up f
 
 The next tab along under performance is Pages, which shows the pages people landed on from search results. You might be surprised at which sections of your site attract visitors - and which don't.
 
-You can also see the countries people came from. If you see that your site is attracting a lot of clicks from a country where you don't do any business, you might want to filter this page to only show visitors from your home country, since those are ones worth optimising your site towards..
+You can also see the countries people came from. If you see that your site is attracting a lot of clicks from a country where you don't do any business, you might want to filter this page to only show visitors from your home country, since those are ones worth optimising your site towards.
 
-Next up is devices. Nowadays it's likely that a substantial amount of your site's visitors will be on mobile devices. And so, your site should work great on mobiles as well as desktops, and you should be sure to check it out on both so you're aware of the experience your visitors are getting.
+Next up is devices. Nowadays it's likely that a substantial amount of your site's visitors will be on mobile devices - in the video, This & That's account shows nearly 40,000 mobile visitors against around 12,000 on desktop, which is a fairly typical ratio for the sites I look after. Your site should work great on mobiles as well as desktops, and you should be sure to check it out on both so you're aware of the experience your visitors are getting.
 
 "Search Appearance" probably won't show anything for your site unless you're a very big company that shows up in Google News posts.
 
 And "Dates" just lets you see how many clicks and impressions you got each day.
 
-Up at the top, we can select to show the average "Click Through Ratio", the amount of visitors who clicked through to your site, and the "Average Position", which shows your ranking. Unless you've filtered down to a specific keyword, these graphs aren't much use, but once you do that I think it can be pretty handy to see how your site's rankings and clickthrough rates have varied, but then you need to be getting quite a lot of clicks for these graphs to be much use.
+Up at the top, you can select to show the average "Click Through Ratio", the amount of visitors who clicked through to your site, and the "Average Position", which shows your ranking. Unless you've filtered down to a specific keyword, these graphs aren't much use, but once you do that I think it can be pretty handy to see how your site's rankings and clickthrough rates have varied, but then you need to be getting quite a lot of clicks for these graphs to be much use.
 
 ## Indexing > Pages
 
@@ -71,13 +73,13 @@ The "Not Indexed" section can be interesting. There are a few reasons a page mig
 
 For example, redirects - one page might redirect to another page, like when the www version of your website works just the same as the www-less version, and if that's the case then the source might be shown as a "Page with redirect" as its reason for not being indexed. All fine.
 
-Or, it might be "Not Found", a 404 error page. This isn't neccessarily a bad thing either - it might be a page you've deleted, which is fine to show a not found message for, although you might want to test that message yourself and make sure it's friendly.
+Or, it might be "Not Found", a 404 error page. This isn't necessarily a bad thing either - it might be a page you've deleted, which is fine to show a not found message for, although you might want to test that message yourself and make sure it's friendly. It also doesn't mean you've done anything wrong: in the video there's a 404 in This & That's account that only exists because a different website linked to them using a gobbledegook address, and Google indexed the broken link - nothing to do with the restaurant at all.
 
-Or, a page could be blocked by [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro) or by a noindex tag - two technical measures that your web host might use to stop Google from indexing pages which shouldn't show up in the index anyway, like the "Thank You" page for your contact form perhaps, which wouldn't make sense for someone to land on from Google. But if pages you think are important are showing as noindexed or blocked by robots.txt, then something is wrong.
+Or, a page could be blocked by [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro) or by a noindex tag - two technical measures that your web host might use to stop Google from indexing pages which shouldn't show up in the index anyway, like the "Thank You" page for your contact form, or the TripAdvisor frame embedded in the demo site in the video, neither of which would make sense for someone to land on from Google. But if pages you think are important are showing as noindexed or blocked by robots.txt, then something is wrong.
 
 These examples I've talked about will all show "Website" in the "Source" column under the reasons. This means Google interpreted a signal from the website about which pages to show or not. But, there could also be pages in there with "Google systems" as the source, meaning Google's algorithm determined that the page shouldn't be indexed. These might say things like "Crawled - currently not indexed" or "Discovered - currently not indexed".
 
-Google won't give you much more information about why their algorithms decided these pages shouldn't show, but in my experience it's often because their content isn't very good. Like, maybe the page contains hardly any unique content, or maybe it's keyword stuffed and doesn't provide much value to the visitor, and it just looks a bit low quality to Google. If you spot pages that aren't being indexed and the source is "Google systems", it's usually a good indicator that those pages need some love.
+Google won't give you much more information about why their algorithms decided these pages shouldn't show, but in my experience it's often because their content isn't very good. Like, maybe the page contains hardly any unique content, or maybe it's keyword stuffed ([my keywords guide](/guides/keywords-and-keyword-stuffing/) covers how that happens and why it backfires) and doesn't provide much value to the visitor, and it just looks a bit low quality to Google. If you spot pages that aren't being indexed and the source is "Google systems", it's usually a good indicator that those pages need some love.
 
 ## Indexing > Sitemaps
 
@@ -99,4 +101,4 @@ Alright, hopefully that gives you a pretty good overview of Google Search Consol
 
 For a few months after you first sign up for Google Search Console they'll send you occasional emails about how your site is performing, and these can contain some pretty interesting statistics and details. But long term, they'll also email you if something needs your attention about your website. Google Search Console is the only way to get notified if your site gets penalised for doing something spammy, for example, or if something changes on your site by mistake and your pages end up not being indexable - this is the only place you'll find out. So keep those notifications turned on, and pay attention to the emails they send!
 
-**If you need help setting up or understanding Google Search Console, just fill in the form below to get in touch.**
+**If you need help setting up or understanding Google Search Console, fill in the form below and I'll reply within 48 hours.** It comes set up and monitored with any site I host, and if you'd rather have someone go through your search data properly and tell you what's worth acting on, that's what my [SEO audits](/services/seo-audits/) are for.
