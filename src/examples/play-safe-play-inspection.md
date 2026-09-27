@@ -3,8 +3,8 @@ title: Play Safe Play Inspection
 snippet: A 'Chobble Template' website for a play equipment inspector in Lancashire
 order: 7
 colour: "#1a365d"
-meta_title: Play Safe Play Inspection | Chobble Template Website | Chobble
-meta_description: Play equipment inspection website using the Chobble Template blocks layout - PagesCMS editing, Bunny CDN hosting, 100% Lighthouse scores
+meta_title: Play Safe Play Inspection | Chobble Template | Chobble
+meta_description: Play equipment inspection website using the Chobble Template blocks layout - PagesCMS editing, Bunny CDN hosting, 95-100% Lighthouse scores
 ---
 
 # Play Safe Play Inspection
@@ -24,16 +24,20 @@ This site uses the [Chobble Template](/services/chobble-template/)'s newer "bloc
 
 ## Content with AI
 
-I worked with Gary to figure out the content for his site over WhatsApp voice notes - he didn't have to type anything up. He just let me know what he wanted to say, and I used AI to transcribe his voice notes and then shape the content into clear service pages covering annual inspections, operational inspections, indoor play, inflatables, and risk assessments. I checked over the content to make sure it was accurate, and sent it on to Gary for review too. The result is content that accurately reflects his expertise without the usual pain of writing website copy from scratch.
+I worked with Gary to figure out the content for his site over WhatsApp voice notes - he didn't have to type anything up. He just let me know what he wanted to say, and I used AI to transcribe his voice notes and then shape the content into clear service pages covering annual inspections, operational inspections, indoor play, inflatables, and risk assessments. I checked over the content to make sure it was accurate, and sent it on to Gary for review too. The result is content that accurately reflects his expertise without the usual pain of writing website copy from scratch - though the checking-over part is the bit you can't skip, whoever's doing the writing.
 
 ## Editing and support
 
-The site uses [PagesCMS](https://pagescms.org/) for content editing, with the CMS trimmed down to only show what's relevant - pages, categories, and reviews. No unnecessary features cluttering the interface. And because Gary pays for ongoing support, he can just send changes on to me whenever he needs something updated. But this isn't the only option - if you want to customise permalinks, meta data, and redirects and get really involved in the SEO for your site, you can. It's all totally editable and customisable.
+The site uses [PagesCMS](https://pagescms.org/) for content editing, with the CMS trimmed down to only show what's relevant - pages, categories, and reviews. No unnecessary features cluttering the interface. And because Gary pays for ongoing support - that tier is £40/month, which includes updates, monitoring and my help with marketing - he can just send changes on to me whenever he needs something updated. But this isn't the only option - if you want to customise permalinks, meta data, and redirects and get really involved in the SEO for your site, you can. It's all totally editable and customisable.
 
 ## Hosting and performance
 
-Like all Chobble Template sites, this one is hosted on Bunny's CDN. It scores 100% in all four Lighthouse categories - performance, accessibility, best practices, and SEO - which is what you'd expect from a static site built on a well-sorted template and served from a CDN close to whoever's visiting.
+Like all Chobble Template sites, this one is hosted on Bunny's CDN. The live Lighthouse numbers in my site data are 100% for accessibility, best practices, and SEO, and 95% for performance - which is what you'd expect from a static site built on a well-sorted template and served from a CDN close to whoever's visiting.
 
 Because it's built on the Chobble Template, the site also gets periodic updates as I improve the base template. And I have a bunch of other bits set up for each customer too - privacy-respecting analytics through GoatCounter (GDPR compliant, no cookie banners needed), email addresses through Purelymail, and Google Search Console configured for tracking search performance.
 
-If you'd like a website like this for your play inspection or another kind of safety inspection business, fill in the form below.
+## The inspection database bit
+
+Worth knowing if you're in the same trade: I also build and maintain [play-test](/examples/play-test/), an open source tool for logging inflatable and playground inspections - equipment records, guided assessment forms, and PDF reports with QR codes, so a hirer can scan the tag on a castle and see that unit's test history on the spot. It's free to use, deliberately, because safety tooling shouldn't be paywalled, and inspector sites like Gary's can plug straight into it. There's more on what play equipment inspector sites need on my [play equipment inspector websites](/services/play-equipment-inspector-websites/) page, which also covers Midland Play Inspections, the biggest of the inspector sites I host.
+
+If you'd like a website like this for your play inspection or another kind of safety inspection business, fill in the form below and I'll reply within 48 hours. It's the usual £200/hour for the build, hosting from £10/month, and you own the code.
