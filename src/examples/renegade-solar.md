@@ -36,7 +36,7 @@ The site is built with Eleventy, giving it perfect Lighthouse performance scores
 
 Many solar companies just spam out dozens of near-identical pages targeting different postcodes with barely any real information. Ashley's pages explain the process, his experience, and what makes his approach different - and they're ranking really well because Google can tell they're genuinely helpful.
 
-I track his search positions with SerpBear, monitoring how he ranks for his target keywords across Manchester. This data helps us refine his content strategy and identify new opportunities as we expand his service offerings.
+I track his search positions with [SerpDino](https://serpdino.com), monitoring how he ranks for his target keywords across Manchester. This data helps us refine his content strategy and identify new opportunities as we expand his service offerings.
 
 ## Ongoing support
 

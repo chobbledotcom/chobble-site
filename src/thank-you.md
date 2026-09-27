@@ -1,6 +1,7 @@
 ---
 layout: page.html
 title: Thank you
+meta_description: Thanks for your message - I'll reply within 48 hours - Prestwich and Manchester web developer
 ---
 
 # Thank you!

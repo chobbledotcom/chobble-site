@@ -63,6 +63,4 @@ I build on open-source tools - Eleventy, Bunny.net, PagesCMS - which means you'r
 
 ## Get in touch
 
-If you'd like a quote, fill in the form below - or if you'd rather meet for a coffee first, mention that and we'll sort it out.
-
-Or have a browse through more [example websites](/examples/) and the [full pricing breakdown](/prices/) first if you're still weighing it up.
+Or have a browse through more [example websites](/examples/) and the [full pricing breakdown](/prices/) first if you're still weighing it up - and if you're elsewhere in the city, I do [web design across Manchester](/manchester/web-design/) too.

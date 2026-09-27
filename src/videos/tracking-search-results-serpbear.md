@@ -14,8 +14,10 @@ Want to track your Google rankings like the pros but don't fancy paying £50-200
 
 I'll walk you through the whole setup - it takes about 20 minutes but once it's running you can track dozens of keywords automatically, see historical data, and know if your SEO work's making a difference. Perfect if you're sick of manually checking rankings and getting different results every time. You get 5,000 free searches a month with ScrapingRobot which is loads for most small businesses.
 
+A small update since I recorded this: I've since moved my own tracking to [SerpDino](https://serpdino.com), which is the most affordable tracker I've found and reasonably pleasant to use - every SERP tracker is somewhat janky, but SerpDino is among the least janky. SerpBear served me well for a long time though, and the self-hosted setup in this video still works if you'd rather run your own.
+
 ## Mentioned links
 
-Check out [SerpBear](https://docs.serpbear.com/) for open-source rank tracking, [Pikapods](https://www.pikapods.com/) for simple hosting, and [ScrapingRobot](https://scrapingrobot.com/) for affordable search result scraping.
+Check out [SerpDino](https://serpdino.com) for hosted rank tracking, [SerpBear](https://docs.serpbear.com/) for open-source rank tracking, [Pikapods](https://www.pikapods.com/) for simple hosting, and [ScrapingRobot](https://scrapingrobot.com/) for affordable search result scraping.
 
 **If you'd like help setting up professional SEO tracking systems or interpreting your ranking data, just fill in the form below to get in touch.**

@@ -40,13 +40,13 @@ class="right">
 - Fully responsive design
 - SEO optimisation
 - [Google Search Console](https://search.google.com/search-console) integration
-- Performance monitoring with [SerpBear](https://docs.serpbear.com)
+- Performance monitoring with [SerpDino](https://serpdino.com)
 
 I deliberately chose options with low ongoing costs and ease of use - Ghost for the CMS, FormSpark for contact forms, PikaPod for hosting, Mailgun for newsletters. This approach keeps things simple and affordable, which is exactly what a community club needs. The Ghost platform is lightweight and secure, while the supporting services are straightforward and easily scaled.
 
 ## Ongoing support
 
-I help out with tech bits when needed and keep an eye on security and performance. The club gets personal support to implement promotion strategies from my [free marketing guides](/guides/) and [videos](/videos/). We keep track of their search rankings and visitor numbers using Google Search Console and SerpBear.
+I help out with tech bits when needed and keep an eye on security and performance. The club gets personal support to implement promotion strategies from my [free marketing guides](/guides/) and [videos](/videos/). We keep track of their search rankings and visitor numbers using Google Search Console and SerpDino.
 
 ## Results
 

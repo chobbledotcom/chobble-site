@@ -34,7 +34,7 @@ The site has grown a bit over the years - a vegan menu page, a reviews section, 
 
 The site is built as a [static "Jekyll" website](/services/static-websites/) with perfect Lighthouse performance scores, and it works the same on a small phone as on a big monitor. There's only a little JavaScript, for the Google Maps embed and for GoatCounter, which is privacy-preserving analytics that doesn't need a cookie banner.
 
-During the COVID lockdowns I added a Deliveroo integration fairly quickly so they could keep serving while the dining room was shut. I keep an eye on where the site ranks for its key search terms using SerpBear.
+During the COVID lockdowns I added a Deliveroo integration fairly quickly so they could keep serving while the dining room was shut. I keep an eye on where the site ranks for its key search terms using [SerpDino](https://serpdino.com).
 
 ## Social media
 

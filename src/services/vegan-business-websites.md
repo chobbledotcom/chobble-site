@@ -33,7 +33,7 @@ I build straightforward, fast-loading sites that the owners can edit themselves,
 
 </div>
 
-I use [Google Search Console](/guides/google-search-console/), [SerpBear](/videos/tracking-search-results-serpbear/) for tracking search positions over time, Lighthouse audits and the rest of the usual technical SEO toolkit to make sure Google understands what each page is about and which specific vegan search term it's the right answer to. Sites are mobile-friendly and load fast, which keeps bounce rates down.
+I use [Google Search Console](/guides/google-search-console/), [SerpDino](https://serpdino.com) for tracking search positions over time, Lighthouse audits and the rest of the usual technical SEO toolkit to make sure Google understands what each page is about and which specific vegan search term it's the right answer to. Sites are mobile-friendly and load fast, which keeps bounce rates down.
 
 ## Editing the site
 

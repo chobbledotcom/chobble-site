@@ -13,4 +13,6 @@ I work with sole traders working from home, shops in the village that want more 
 
 I'm happy to visit you at your premises, or we can meet at Costa or Cuckoo or Goods In, or you can come to my house for a brew.
 
+I work across the whole of Greater Manchester, not just Prestwich - there's more on [web design in Manchester](/manchester/web-design/) if you're further afield.
+
 Some of the services I offer to Prestwich businesses:

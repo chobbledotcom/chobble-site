@@ -22,4 +22,4 @@ Whether you need a [new website](/services/static-websites/#content), a [custom 
 
 ## Services
 
-I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in:
+I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in. I'm based in Prestwich and work with businesses across Greater Manchester - see [web design in Manchester](/manchester/web-design/) - and further afield, since most of this work happens over email and video calls anyway.
