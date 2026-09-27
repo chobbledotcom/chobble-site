@@ -12,6 +12,10 @@ meta_description: A quick dig into the use of links in your website content and 
 
 Everyone talks about backlinks, but what about the links you control on your own website? This video shows you how to use internal and external links properly - like linking at the exact moment someone's interested in something, not making them hunt through menus. Also covers why linking to competitors can help your business (sounds daft but it builds trust).
 
+The example in the video is my own homepage: "Here's my source code" links visitors away to my git forge, which a strict marketing head would call madness because there are no buy buttons there. But I'm not convinced by constant funnelling - I think visitors can tell when they're being herded towards a checkout, and being open builds the trust that gets you the work. Same logic when a competitor fits the reader better: link to them.
+
+And a practical bit: if you host with me and aren't sure how to add a link in your site's text editor, ask me and I'll explain - it's a quick job once you know how.
+
 Then I'll show you Dr. Link Check, a free tool that finds all your broken links automatically. Nothing makes you look more amateur than sending folk to dead pages. It takes minutes to run, shows you exactly what needs fixing. Really useful if you want visitors to explore your site.
 
 ## Mentioned links

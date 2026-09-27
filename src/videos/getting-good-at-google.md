@@ -16,4 +16,6 @@ Want to find out where your competitors get their backlinks from? Really handy G
 
 Also covers how to get around Google's personalised results that hide what you're really after, plus some clever ways to audit any website and find content gaps. It takes you from basic searches to competitive research in about 10 minutes. If you're sick of wondering how competitors rank better than you, this'll give you the tools to figure it out yourself.
 
+The demo runs on a real site: This and That Cafe in Manchester's Northern Quarter, a delicious Indian cafe my friends run, whose website I look after. Quote-searching their domain turns up every place that mentions it, and excluding their own site with a minus leaves the external ones - Facebook, the Manchester restaurant listings, Yelp, and a blogger's round-up of the best lunch in Manchester, which is the really valuable kind of backlink because someone wrote it out of genuine enthusiasm. The video also covers the site: search for auditing - every page ought to be indexed, and if an important page isn't showing up, that's when you log into Search Console and see what's wrong.
+
 **If you'd like help conducting competitive research and implementing advanced SEO strategies for your business, [get in touch](/contact/).**

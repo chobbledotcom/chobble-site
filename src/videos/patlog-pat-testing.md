@@ -14,6 +14,8 @@ Stop paying daft money for PAT testing software. PATLog is a completely free web
 
 It's really simple to use - just enter your test results, it generates professional certificates automatically, and you can search through all your past inspections. It works on any device with a browser. Very useful if you're an electrician doing PAT testing or a business that needs to keep compliance records without getting ripped off by expensive software.
 
+The video walks through the whole thing: register with an email and a password, log a test result, and out comes the certificate. Each certificate lives at a permanent link with a 12-random-character code in it, so there are trillions of possible addresses and nobody can guess yours - that's the same address the QR code points to. You can export everything as a CSV and search by serial number, so nothing about PATLog locks your records in. And it stays free because I'd already written the code and hosting a few images is cheap - the self-promotion link at the bottom of the site is the benefit to me.
+
 ## Mentioned links
 
 Visit [PATLog.co.uk](https://patlog.co.uk/) for the free PAT testing logger, or check out the [source code on GitHub](https://github.com/chobbledotcom/patlog) if you're interested in how it works.

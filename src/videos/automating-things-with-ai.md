@@ -16,4 +16,6 @@ AI's really useful for automating boring website tasks if you know what you're d
 
 Also covers turning rough notes into proper emails, and more importantly, what NOT to use AI for (like unedited public content or making business decisions). It shows you the safe middle ground between avoiding AI completely and trusting it with everything. Very handy if you're spending ages on repetitive tasks.
 
+The safe middle ground in practice: things I wouldn't hand over are business decisions, unedited public-facing content, and answering customer support queries - but automating simple jobs is where it shines. In the demo I tell Claude to fetch the sitemap at my domain followed by /sitemap.xml - nearly every website keeps one there, whichever provider built the site - then scan every URL and say whether the meta descriptions and titles are any good. It fetches the sitemap, checks samples of the pages, researches what makes a good description these days, and reports back without me getting involved. The free versions of the big models manage the same trick; you only need to pay for a tier if you hit rate limits mid-job, which is a real pain when it happens.
+
 **If you'd like help automating your website tasks safely with AI, drop me a message through the contact form on this page.**

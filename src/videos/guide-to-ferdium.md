@@ -14,6 +14,8 @@ Got too many browser tabs open? Sick of logging in and out of different business
 
 I'll show you how to set it up, add all your services, and configure it so you don't drain your battery. Also covers adding custom websites like your admin panels or Google Search Console. The main benefit is you stay logged into everything, see all notifications at a glance, and Facebook can't track you around the rest of the internet. It takes about 10 minutes to set up, saves you ages every day.
 
+A few things from the video worth knowing: hibernation and wake-up are the battery bits - services disable after a few minutes of inactivity and wake periodically to check notifications, so nothing hammers your laptop from the background. You can be logged into multiple versions of the same system at once, which is genuinely difficult in a normal browser and very handy if you manage more than one Facebook page or Instagram account. Settings import and export too, so switching computers is a copy rather than a rebuild. If there's one downside, it's that Ferdium can't run browser extensions - no ad blocking, and my password manager doesn't work in it - but aside from that I find it really useful, I'm a big fan of the project, and it's improved a lot since I started using it.
+
 ## Mentioned links
 
 Download [Ferdium](https://ferdium.org/) - the free, open-source app for managing all your web services and social media accounts in one place.
