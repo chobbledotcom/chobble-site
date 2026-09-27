@@ -11,25 +11,25 @@ Google Business is basically Google's term for your listing on Google Maps, whic
 
 **Fancy watching a walkthrough instead? [Click here to watch it](/videos/google-maps-business-setup/).**
 
-For example, I searched for the word "plumber" and, after a kinda rubbish AI overview about what plumber is, some adverts, and links to search Checkatrade, Trustpilot, or Yell, the next biggest thing in the results is a list of businesses taken from Google Business.
+For example, I searched for the word "plumber" and, after a kinda rubbish AI overview about what plumber is, some adverts, and links to search Checkatrade, Trustpilot, or Yell, the next biggest thing in the results is a list of businesses taken from Google Business. Same for "electrician", and for "party equipment hire" - and in the video I do those searches in a fresh Firefox tab with no history, so Google isn't working off anything I've done before: it just knows I'm in Prestwich.
 
 You sometimes have to scroll quite far down the page to find the "organic" search results.
 
-The businesses it lists are all local to me in North Manchester. Google knows I'm in Prestwich, in Manchester, without me having mentioned it in my search query.
+The businesses it lists are all local to me in North Manchester, and everything in this guide is demonstrated on my own business's listing, warts and all.
 
-Getting a Google Business listing is pretty straightforward. Verifying can be pretty time consuming, but it's nothing too tricky. And as long as your details are accurate, you shouldn't have any huge problems. So, let's get stuck in!
+Getting a Google Business listing is pretty straightforward - it's part of the setup work I do when building sites for local businesses, [restaurants especially](/services/restaurant-web-design/), where the Maps results matter more than almost anything else on the page. Verifying can be pretty time consuming, but it's nothing too tricky. And as long as your details are accurate, you shouldn't have any huge problems. So, let's get stuck in!
 
 ## Google Business profile setup
 
 So to sign up for Google business, just like any other Google product, you're going to need a Google account. You've probably got a Google account, because you'll need one for YouTube, for an Android phone, for using Google Maps, or for using any Google services. If you haven't got one, you should probably get one - you'll also need one for Google Search Console, which I cover in [my other guide](/guides/google-search-console/).
 
-So once you've got your Google account, you'll go to [business.google.com](https://business.google.com). And it says "Stand out on Google with a free business profile", and then we'll click the big "Get Started" button.
+So once you've got your Google account, you'll go to [business.google.com](https://business.google.com). And it says "Stand out on Google with a free business profile", and then click the big "Get Started" button. (I use a password manager for all these logins - there's a [browser setup video](/videos/browser-setup/) covering the one I use, if you're curious.)
 
 Once you're signed in, you'll search for your business name and category.
 
-Google will ask me some questions / give you some tasks, like:
+Google will ask you some questions / give you some tasks, like:
 
-- Do we have a location that people can visit?
+- Do you have a location that people can visit?
 - What are your contact details?
 - What is your physical address?
 - Describe your business
@@ -43,19 +43,19 @@ It'll also ask you if you want to create a Google Workspace account, which is Go
 
 None of these steps will be too complicated or technical, although as I mentioned before it can be a bit of a pain to get "verified". There are a few ways that your business can be verified - Google will use an algorithm to decide which it's going to use for your business. I would imagine that this will take into account things like [Companies House](https://www.gov.uk/government/organisations/companies-house) records, or Google's existing idea of where your business is and its location.
 
-In the worst case, they can send you a postcard in the post, and the postcard will contain a code that you need to enter to verify your address, which can take a few days, but otherwise it'll should be just a day or two maximum to verify your business. And it might even be immediate - I'm not too experienced with the verification process to be fair.
+In the worst case, they can send you a postcard in the post, and the postcard will contain a code that you need to enter to verify your address, which can take a few days, but otherwise it should be just a day or two maximum to verify your business. And it might even be immediate - I'm not too experienced with the verification process to be fair.
 
 ## Filling out your profile
 
 The first link on the [Google Business page](https://business.google.com) is to edit the details about your business - your business name, your category, your description, opening date, contact details, website address, all that sort of stuff. You should fill in as much of this as you possibly can.
 
-You should especially make sure that your **Service Areas** are filled in because this tells Google directly which locations your customers are in. And if you've got opening hours that matter, then you should fill in the opening hours section too. There's tons of details that you can fill in here that will apply to different types of businesses.
+You should especially make sure that your **Service Areas** are filled in because this tells Google directly which locations your customers are in. What Google reads here should agree with what your website says, too: when I set this up for clients, the site gets pages that mention the areas it serves (my [structuring your site guide](/guides/structuring-your-site/) covers the URL shape that works well for that), plus JSON-LD structured data repeating the hours and location, so Google isn't getting mixed messages from you. And if you've got opening hours that matter, then you should fill in the opening hours section too. There's tons of details that you can fill in here that will apply to different types of businesses.
 
 If you run a restaurant, a cafe, or any type of shop, there's a whole bunch of details that you could fill in about the various ways that your business operates.
 
 ## Reading and replying to reviews
 
-Next up, we've got read reviews where you can see the reviews that people have left on your business. It can be quite a nice touch to reply to your reviews, and you should especially reply if you get a negative review and you think that it's unfounded because I think it's worth raising that in your Google business listing.
+Next up is reading reviews, where you can see the reviews that people have left on your business. It can be quite a nice touch to reply to your reviews, and you should especially reply if you get a negative review and you think that it's unfounded because I think it's worth raising that in your Google business listing.
 
 ## Photos
 
@@ -65,7 +65,7 @@ Listings that have got photos look better than listings that don't have photos!
 
 ## Performance
 
-Next we've got performance, which tells you some details about how your business is doing on Google. For me, honestly - it's not great. 44 clicks, 39 clicks, 66 clicks in January I suppose that's better. But not a lot of clicks every month. Hopefully yours will do better and hopefully mine will pick up. I haven't really thought too much about advertising locally and I should really get on that.
+Next up is performance, which tells you some details about how your business is doing on Google. For me, honestly - it's not great. 44 clicks, 39 clicks, 66 clicks in January, I suppose that's better, but not a lot of clicks every month. It also claims 167 people asked for directions to my business (I doubt it), zero calls (fair enough), and six website clicks (surely there's more than that) - so who knows how accurate this data is. Hopefully yours will do better and hopefully mine will pick up, though my [client reviews](/reviews/) are in better shape than my Maps numbers, at least. I haven't really thought too much about advertising locally and I should really get on that.
 
 It also shows the search terms that showed your business profile. For me, it's mostly people searching for "Chobble", and a few searching for "web design Prestwich".
 
@@ -79,17 +79,17 @@ You can list the various services that your company provides. You want to make s
 
 ## Bookings
 
-If you've got a booking system, you can add a link to it here, which will allow customers to book directly through it. You can also just link it to your "contact" page if you haven't got a booking system.
+If you've got a booking system, you can add a link to it here, which will allow customers to book directly through it. You can also just link it to your contact page if you haven't got a booking system, which is what I've done.
 
 ## Questions & answers
 
-Visitors or you can ask questions of the business and then you can leave a response as the answer - and visitors can even leave a response. You can use this to answer common questions like pricing, services, or opening hours before customers even visit your website.
+Visitors or you can ask questions of the business and then you can leave a response as the answer - and visitors can even leave a response. You can use this to answer common questions like pricing, services, or opening hours before customers even visit your website - I asked myself what my hourly fee is on mine and answered it, which felt a bit odd but does the job.
 
 If you've got questions that you commonly get asked or that you think are worth telling your visitors about upfront before they even click through to your website, the Q&A section is the place to do that.
 
 ## Add updates
 
-We can post updates that'll appear as kind of mini blog posts within Google Maps. It's hard to remember to post updates to your Google Maps listing, because who's logging into Google Maps on the regular? But, if you can remember when you do something substantial with your business, it would be nice to log in post something about your business.
+You can post updates that'll appear as kind of mini blog posts within Google Maps. It's hard to remember to post updates to your Google Maps listing, because who's logging into Google Maps on the regular? But, if you can remember when you do something substantial with your business, it would be nice to log in post something about your business.
 
 You might post about a new service that you've got, or a new product that you're selling, or some update to your terms and conditions - or anything really. It's another little signal for any visitors who see your Google maps listing that your business is active and up to date.
 
@@ -105,9 +105,9 @@ So that's an overview of your Google business profile. I think the main things t
 
 It would be a huge amount of work to copy all of your products onto Google Maps, to copy every single one of your images over, and to keep it entirely up to date with what your website says, and I think that would probably be a bit unreasonable to do.
 
-But keeping it somewhat up to date is worthwhile, and trying to get people to leave a review is definitely worthwhile. Speaking of which - if anyone fancies leaving me a review I'd really appreciate it. I could always do with more!
+But keeping it somewhat up to date is worthwhile, and trying to get people to leave you a review is definitely worthwhile. Speaking of which - if anyone fancies leaving me a review I'd really appreciate it. I've only got four, so there's plenty of room!
 
-It's worth me mentioning Bing places as well, which is at [BingPlaces.com](https://www.bingplaces.com), which is the Bing search engine equivalent of Google Business. You can import your Google Business listing straight over to Bing. Admittedly, hardly anyone is searching on Bing.. But some people are, so it's worth having your business show up on both.
+It's worth me mentioning Bing places as well, which is at [BingPlaces.com](https://www.bingplaces.com), which is the Bing search engine equivalent of Google Business. You can import your Google Business listing straight over to Bing. Admittedly, hardly anyone is searching on Bing. But some people are, so it's worth having your business show up on both.
 
 I hope that's a good overview of how Google business works. Hopefully it's all very straightforward. Google will try and make this very easy for you to do.
 
@@ -115,4 +115,4 @@ One question people have about Google Business listings is whether they _have_ t
 
 But, you then won't show up in maps listing in the maps listing quite as often, so this is your call. I've taken the view that it's _probably_ worth my address showing up for the sake of showing up a bit more often. Whether that's accurate, I don't really know.
 
-**If you want assistance setting up or optimising your Google Business listing, [contact me](/contact/).**
+**If you'd like assistance setting up or optimising your Google Business listing, fill in the form below and I'll reply within 48 hours.** It's the usual flat £200/hour, no lock-in.
