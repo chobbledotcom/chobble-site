@@ -28,6 +28,13 @@ A minimalist and private ticket-selling platform, and my no-per-attendee-fee ans
 
 A Rails app for logging bouncy castle and inflatable play inspections to BS EN 14960:2019 - equipment records, guided assessment forms, safety calculations that show their working, and PDF reports with QR codes on. It's used by bouncy castle inspectors across the UK, and it's free to use - safety tooling shouldn't be paywalled. It started life as a web translation of a fellow nerd's Windows desktop app.
 
+## The Chobble Template
+
+- **[chobbledotcom/chobble-template](https://github.com/chobbledotcom/chobble-template)**
+- [service page with the details](/services/chobble-template/)
+
+A complete open source Eleventy starter for small business websites - fast, cheap to host, no attack surface, fully portable - and the base most of the sites on my [examples page](/examples/) are built on. AGPLv3 and free, so give it a bash yourself, or hire me to build a site on it.
+
 ## Portable appliance test logger
 
 - **[patlog.co.uk](https://patlog.co.uk)**
@@ -45,11 +52,11 @@ I made a simple, free website where users can log PAT tests with accompanying PD
 
 There's no straightforward way to export reviews from Checkatrade, so I built a tool to do it. You might use these in your static site, or to analyse them, or whatevs - it's your data, so you should be able to use it.
 
-## Google reviews iframe
+## Google reviews scraper
 
 - [source code](https://github.com/chobbledotcom/google-reviews-iframe)
 
-A tool for embedding Google reviews in your site via an iframe, deployed to Bunny's CDN.
+A toolchain that periodically fetches customer reviews from Google, Facebook and Trustpilot (via Apify), stores them as JSON, and pre-generates a static masonry iframe you can drop into any site, published to Bunny's CDN. It's AGPLv3 and config-driven - with a bit of bun and an Apify token, you could fork it and run it for your own business.
 
 ## Libregig (WIP)
 

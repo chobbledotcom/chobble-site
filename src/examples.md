@@ -20,7 +20,7 @@ Every site I host gets checked daily for uptime and audited with Lighthouse - th
 
 ## What kind of results?
 
-Most of these are small sites for small businesses, so the typical outcome is a steady trickle of enquiries rather than a dramatic curve. A few I'm happy to name: [Renegade Solar](/examples/renegade-solar/) went from roughly one enquiry a year on his old Wix site to about one a week after the rebuild, Mo at Monkey Play Land moved one of his sites from 7th to 2nd in Google within five days of some advice from me ([his review is here](/reviews/)), [Garsdale Cottages](/examples/garsdale-cottages/) escaped the double commission Sykes was charging them for an £800 build, and Rachel at [My Alarm Security](/examples/myalarm-security/) has followed me around since my Bouncy Castle Network days.
+Most of these are small sites for small businesses, so the typical outcome is a steady trickle of enquiries rather than a dramatic curve. A few I'm happy to name: [Renegade Solar](/examples/renegade-solar/) went from roughly one enquiry a year on his old Wix site to about one a week after the rebuild, Rachel at [My Alarm Security](/examples/myalarm-security/) has had her traffic double, [Garsdale Cottages](/examples/garsdale-cottages/) escaped the double commission Sykes was charging them for an £800 build, and Rachel has stuck with me since my Bouncy Castle Network days - [her review is here](/reviews/), along with more from people I've known for a decade.
 
 {% exampleCards 12, 7 %}
 
