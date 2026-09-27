@@ -17,6 +17,20 @@ To save me writing out that question over and over in this document, I'm just go
 
 Your aim should be to answer _The Why Question_ as comprehensively as you possibly can (after all, there's probably a whole bunch of reasons why they should choose you, right?) while also getting to the point efficiently so visitors don't have to _work_ to find the specific answer to _The Why Question_ which will convince them.
 
+## How I actually do this for clients
+
+The last few builds I've done have had the same shape - solar panel companies, event hire firms, other businesses with service areas - and the process is generally the same. I'll set up monitoring for the search results using [SERP Dino](https://serpdino.com), which tracks lots of keywords and scans for their positions. It's got a little bit of jankiness, but the results are pretty good, and if I look at overall trends, then I can see for a certain service area which terms aren't ranking well.
+
+For each of those pages, I look at the existing content on the site and see how well it addresses it. It might well be that there's just a few things that need fixing up - the page might be an exact duplicate of another page on the site, or it might have some obvious breakage on it. But probably, they're not specifically targeting that service and town at all, in a deliberate way, with a page.
+
+So then I'll make a page on their site, in a nice tiered, hierarchical way - at something like /locations/their-town (there's a guide about [structuring your site](/guides/structuring-your-site/) for the hierarchy bit). And on that page I compile as much data as I possibly can about how that business works in that service area.
+
+That data has to come from the business, and this has been the hardest part, because it's very hard to get people to give me information about the inner workings of their business. What works the best is if you can just give me access to some sort of booking database, or client diary, or an export of that - with locations, and venues, and postcodes, or anything like that. Whatever you can give me that gives me some sort of suitable context about the business - real data - and then I can do the research myself, and find out where it is in that area that you work, and how your business operates there. And then the stuff on the page will be things that address those actual points.
+
+How much of this I do depends on how much the customer's paying me, as well. If they're doing an audit and they've got hundreds of pages, I can't give an analysis of hundreds of pages for £200 because it's very time consuming. So I'll scan an appropriate selection of pages, see where they stand, find where the worst ones are, and we'll come up with replacement content for that site - frozen around targeting a member of the public who's just landed on the site and doesn't know anything about the business, so it captures the EEAT metrics straight off the bat and sells the visitor on your business immediately.
+
+I've had loads of success with this method. I do the same treatment on my own Chobble sites, except I'm very rubbish at getting round to it, as with all of the marketing for Chobble - but I do see results for it when I work through the same process on my own side, too.
+
 ## Types of mistake
 
 When product pages don't answer _The Why Question_ effectively, it's usually because they're either:
@@ -25,8 +39,9 @@ When product pages don't answer _The Why Question_ effectively, it's usually bec
 2. **Huge** with walls of text that would take ages to read.
 3. **Keyword-stuffed** and obscure the answer.
 4. **AI-generated generic text** that could describe _any_ business, not _yours specifically_.
+5. **ChatGPT'd the whole site** - loads and loads of pages, and very little information on any of them.
 
-Lets dig into each of those a bit:
+Let's dig into each of those a bit:
 
 ### Problem #1: Too-brief pages
 
@@ -40,6 +55,8 @@ You might be tempted to address every single question the customer might have on
 
 Pages like this can overwhelm the visitor and bury the key bit of information they're looking for to convince them to choose you.
 
+The opposite version of this mistake turns up a lot on service area pages: someone tried to put something useful in, but it's phrased as one huge big block of text that has useful data buried in it, and it isn't scannable in any way - no sub-headers, it doesn't directly get to any points, and there's no call to action anywhere. The information's in there, but a member of the public has to work to dig it out, and most of them won't.
+
 You can break these pages up with sub-headings (which I'll discuss later), but you may also want to **move the more "general" information to dedicated pages**, and link to those pages with a quick summary from your product pages instead.
 
 This means that a paragraph like:
@@ -50,7 +67,7 @@ Can become the much easier to understand:
 
 > "We hire widgets anywhere within 20 miles of our Prestwich base, with free delivery within 10 miles. [Click here for our full list of delivery areas and prices].
 
-### Problem #2: Keyword-stuffed pages
+### Problem #3: Keyword-stuffed pages
 
 Keyword stuffed pages use the same words or phrases too often. This is done in an attempt to boost search rankings, but it makes the text sound unnatural and obscures the answers to _The Why Question_.
 
@@ -58,7 +75,7 @@ Neither search engines or your potential customers like this practice - it was a
 
 **There's a guide all about "[Keywords & Keyword Stuffing](/guides/keywords-and-keyword-stuffing/#content)" in the guides section.**
 
-### Problem #3: AI waffle
+### Problem #4: AI waffle
 
 When using AI to help write your pages, it's important to remember that **AI will never create new information**. They work by scraping the internet for existing information, and then re-formatting it to answer your prompts.
 
@@ -74,7 +91,19 @@ Or even better - **write the page yourself first**, and then pass it onto the AI
 
 > "Here is a page I wrote about widget hire in Prestwich. Tell me if I have missed any important information, or could write things in a more concise way. Tell me if there are any spelling or grammatical mistakes, or if any sentences are hard to read."
 
+When a customer tells me they use ChatGPT and it's well written, I don't normally push back against them, because the reality is that it _is_ well written - the formatting and the punctuation and stuff are right. But what I normally say to them is about this information density: that if it could describe any business, then it's probably not specific enough to rank well. It needs to be very specific to your business.
+
 **Check out the guide about [using AI effectively](/guides/using-ai-effectively/#content) in the guides section.**
+
+### Problem #5: ChatGPT'd the whole site to death
+
+The problem is that people generally have ChatGPT'd their site to death. So the site has loads and loads of pages on it, and all of the pages have very little information on them. And this is hard to undo, because Google has then - by the time that someone's replaced the old content on the site - got a picture in its head of what their site is like, and it's generally this low information density site. So, that takes unpicking, because we then need to rewrite basically everything, and they've probably got loads of pages that they don't want to delete, because they've convinced themselves that it has some value - and it does, some minor value - but it would be much nicer, really, to start over from scratch with well-written pages that address searcher intent and sell the business well from the start.
+
+## The combination problem
+
+And the other thing I find a lot, actually, is that these pages - when they exist at all - are thought of as two distinct things: there's a bit of text, that's boilerplate, that's on all the pages, that's about the service; and there's another bit of text, that's boilerplate, that's about the town; and there's nothing about the combination of those two. The town chunk has the name swapped and some random facts in about the town - that it's got a nice town hall, and that it was known for its cotton industry or whatever. But that's not anything specific about their industry - it doesn't matter, it's irrelevant data.
+
+What actually addresses the intent is the combination of the two: when we've been in this town before, here's the kind of venues and events that we do, and here's the people that we've worked with. It'll actually be useful for someone to use - they'll see things that they recognise, and they'll know that it's not bullshit, because they'll recognise that those are real businesses that they know. They can even, if they want, get in touch with the business and say, did you hire this company? Text that could describe any business, or any town, doesn't do that job.
 
 ## Personality
 
