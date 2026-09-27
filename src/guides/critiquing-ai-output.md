@@ -38,61 +38,30 @@ If you instead prompted Claude with something like:
 
 You'd get a response like:
 
-> # Stef's Bouncers - Manchester's Trusted Bouncy Castle Hire
+> # Bouncy castle hire in Prestwich - Stef's Bouncers
 >
-> Located in the heart of Prestwich since 2004
+> Stef's Bouncers is a family business based in Prestwich - there are four of us, and we've been hiring bouncy castles out since 2004. Most of our hires are birthday parties, school fetes and events at Heaton Park, where we're a regular.
 >
-> ## Welcome to Stef's Bouncers
+> Every castle goes out PIPA tagged and tested to BS EN 14960, secured with stakes on grass or sandbags on hard standing.
 >
-> As a family-run business with nearly 20 years of experience, we take pride in > bringing joy to children's parties and events across North Manchester. Our team of four dedicated professionals ensures every bouncy castle is delivered, installed, and secured with the utmost care and attention to safety.
+> ## Where we deliver
 >
-> ## Safety First
+> - **Free:** Prestwich, Whitefield, Cheetham Hill and Crumpsall
+> - **£20:** Middleton, Radcliffe, Bury and Salford
 >
-> • All castles are PIPA tagged and BS EN 14960 tested
-> • Professional securing with stakes or sandbags (for hard surfaces)
-> • Full safety inspection before every hire
-> • Weather policy: Free cancellation and refund for heavy rain or high winds
+> ## Weather
 >
-> ## Delivery Areas
+> If it's heavy rain or strong winds, we won't set up - you get a full refund. There's always another weekend.
 >
-> **Free Delivery:**
+> ## Checking availability
 >
-> - Prestwich
-> - Whitefield
-> - Cheetham Hill
-> - Crumpsall
->
-> **£20 Delivery Fee:**
->
-> - Middleton
-> - Radcliffe
-> - Bury
-> - Salford
->
-> ## Why Choose Stef's Bouncers?
->
-> - Established in 2004
-> - Family-owned and operated
-> - Regular supplier for Heaton Park events
-> - Professional installation team
-> - Fully insured
-> - Reliable, friendly service
->
-> ## Weather Policy
->
-> We prioritise your children's safety above all else. If weather conditions are unsuitable (heavy rain or strong winds), we'll contact you to arrange a full refund or reschedule your booking.
->
-> ## Contact Us
->
-> [Insert contact details]
->
-> Ready to bring bouncing fun to your event? Get in touch with our friendly team today for availability and pricing.
+> Tell us the date and postcode and we'll come back with availability and a price.
 
 ## What you get back
 
-This is much better! It's easier to read, it provides value to the visitor, and it doesn't make as many assumptions about your business because the input text is much more detailed.
+This is much better! It's easier to read, it provides value to the visitor, and it doesn't make as many assumptions about your business because the input text is much more detailed. It also addresses what a searcher would want in the first few lines - what you hire, where, and what happens if it rains - rather than making them wade through a paragraph of "bouncy castle hire Manchester".
 
-You should **still** edit this text yourself, though - it's missing some key information like the types of products you hire, and some bits still sound quite corporate. But as a basis to build a page from, this is a great start.
+You should **still** edit this text yourself, though - it's missing the types of products you hire (the prompt never said), and you'll want to nudge the voice so it sounds like you rather than like a chatbot imitating a friendly business. But as a basis to build a page from, this is a great start.
 
 There's a trade-off in the prompt above, and it's worth knowing about: the more facts you pack in, the less the chatbot has to invent, but the longer the prompt, the more likely it is to quietly drop one of your facts - so check each one made it into the draft. That's why "Do not make up any new information" is in there: it cuts the amount of checking you have to do, it doesn't eliminate it.
 
