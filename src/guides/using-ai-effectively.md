@@ -198,7 +198,7 @@ Just be sure to double- and triple-check their output to be certain that it:
 
 ## Appendix 1: Which chatbot does Stefan recommend?
 
-A service for using AI chatbots is [openrouter.ai](https://openrouter.ai). This service lets you test dozens of chatbots, with lower prices than you would pay going to the provider directly. [Claude AI](https://claude.ai/) 3.5 Sonnet is great for nerdy topics, but [ChatGPT](https://chat.openai.com/) and [Google Gemini](https://gemini.google.com/) are also great options.
+A service for using AI chatbots is [openrouter.ai](https://openrouter.ai). This service lets you test dozens of chatbots, with lower prices than you would pay going to the provider directly. My favourite model as of September 2026 is GLM 5.3, made by [Z.ai](https://z.ai) and served through Neuralwatt - it's what I reach for first. [Claude AI](https://claude.ai/), [ChatGPT](https://chat.openai.com/), and [Google Gemini](https://gemini.google.com/) are also great options, and the old favourite, Claude 3.5 Sonnet, is still great for nerdy topics.
 
 ## Appendix 2: Copyright and ethics
 
