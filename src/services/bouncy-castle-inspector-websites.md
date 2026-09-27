@@ -13,7 +13,7 @@ If you inspect bouncy castles and other inflatable play equipment - PIPA testing
 
 ## I know the hire industry from the inside
 
-From 2009 to 2019 I was the lead developer at Bouncy Castle Network, a booking platform that grew from its first customer to over a thousand hire companies, so I've spent a lot of the last decade and a half thinking about what hirers need from their inspectors: tests booked around a season that doesn't stop, reports that arrive in days rather than weeks, and tags that hold up when a venue or a council asks to see them. The inspectors I work with tend to be people who came at it from the other side of the clipboard - one of them ran a hire fleet in Warwickshire for fifteen years before he started testing other people's kit - and that's the audience your site needs to speak to, because they can smell filler a mile off.
+From 2009 to 2019 I was the lead developer at Bouncy Castle Network, a booking platform that grew to over a thousand hire companies, so I know what hirers need from their inspectors: tests booked around a season that doesn't stop, reports that arrive in days rather than weeks, and tags that hold up when a venue or a council asks to see them.
 
 ## What an inspector's site needs to do
 
@@ -21,7 +21,7 @@ Mostly it needs to be findable and believable. Findable means service pages for 
 
 ## The inspection database bit
 
-This is the part I can offer that most web developers can't: [play-test](https://play-test.co.uk) is my own open source tool for logging inflatable inspections to BS EN 14960:2019 - equipment records, guided assessment forms, safety calculations that show their working, and PDF reports with QR codes on. It started life as a Windows desktop app written by Spencer at [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/), a fellow nerd in the industry, and I rebuilt it for the web. It's free to use, and that's deliberate - safety tooling shouldn't be paywalled - and your inspection PDFs come out with your company branding on them. Because every unit gets a QR code, a hirer can scan the tag on a castle and see that unit's test history on the spot, which is exactly the kind of thing venues ask for at the gate. And if you want your own branded version on your own domain, for your whole company, that's the bit I charge hosting for.
+This is the part I can offer that most web developers can't: [play-test](https://play-test.co.uk) is my own open source tool for logging inflatable inspections to BS EN 14960:2019 - equipment records, guided assessment forms, safety calculations that show their working, and PDF reports with QR codes on. It's free to use, and that's deliberate - safety tooling shouldn't be paywalled - and your inspection PDFs come out with your company branding on them. Because every unit gets a QR code, a hirer can scan the tag on a castle and see that unit's test history on the spot, which is what venues ask for at the gate. And if you want your own branded version on your own domain, for your whole company, that's the bit I charge hosting for.
 
 ## A few examples
 
@@ -29,7 +29,7 @@ This is the part I can offer that most web developers can't: [play-test](https:/
 
 [Midland Play Inspections](https://www.midlandplayinspections.co.uk) is the biggest of the inspector sites I host: twenty-seven town pages across the Midlands, guides for hirers about tags and paperwork, and a case studies section, all built to rank for the towns Luke covers.
 
-The [play-test example page](/examples/play-test/) has the full story of the database itself, including how Spencer's desktop app became a web platform.
+The [play-test example page](/examples/play-test/) has the full story of the database itself.
 
 ## Getting the words out of your head
 
