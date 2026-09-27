@@ -46,4 +46,6 @@ According to Google Search Console, the new site has seen an average improvement
 
 ## Get in touch
 
+Worth saying: a 100% custom build costs more than living with a template's default layouts, and if the rigid bits of your current site don't actually hurt, bespoke is money you don't need to spend. Rachel's layouts were the whole point of her rebuild - and thanks to AI, new designs on the [Chobble template](/services/chobble-template/) are quick for me to produce, so what you're really paying for in a build is my time collating and reviewing content, not layout work.
+
 If you run a local trade or service business and want a website that's properly yours - fast-loading, owned outright, and built to your exact spec - fill in the form below.

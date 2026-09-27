@@ -1,6 +1,6 @@
 ---
 title: Chobble Website Template
-meta_title: Chobble Website Template | Eleventy Starter for Businesses | Prestwich, Manchester
+meta_title: Chobble Website Template | Eleventy Starter for Businesses
 description: A free website template for business websites, built with Eleventy, Nix, Formspring and more
 snippet: A free website template for business websites
 order: 3
@@ -29,6 +29,14 @@ Nearly every static site listed on my [examples](/examples/#content) page is usi
 
 For an example of a restaurant / cafe site fully using the template to list food items on menu pages, check out [House of Desserts](/examples/house-of-desserts/#content) and for an ecommerce site listing products and categories, check out [Southport Organics](/examples/southport-organics/#content). [Renegade Solar](/examples/renegade-solar/#content) pre-dates the template but its development strongly influenced it.
 
+## The blocks layout
+
+Template sites are aimed at looking like "landing page" style sites with lots going on on each page - the kind of thing an agency with a design team puts together - but every page is ultimately just a markdown file with frontmatter data, parsed by PagesCMS and Eleventy into a blocks layout. Pages get assembled from a variety of block types - cards, galleries, FAQs, sliders, product grids - which is what keeps them visually interesting without anyone designing each one from scratch.
+
+The practical upshot is that it's really easy to create new designs using AI: the blocks structure means the code is easy for an LLM to understand, and each new site starts from the latest version of the template, which is always tending towards a more flexible but also more schematised and strict structure. The template generates a PagesCMS config that lines up perfectly with the way the collections are set up - `generate-cms` asks you questions about your site and writes the config for you.
+
+What this does to costs is the interesting bit: nowadays the big expense in a site build is my time spent collating and reviewing content, not writing HTML. The LLMs handle the rest, and I check it.
+
 ## Features
 
 The template is adapted to the specific way I build websites. It's an "opinionated" template, designed to load quickly with great search engine optimisation potential, and to be hostable at low cost. For more on effective SEO strategies, check out my [free guides](/guides/#content).
@@ -55,5 +63,11 @@ I have a few ideas about future additions:
 ## How can I use it?
 
 [Click here to read full-ish instructions for building and hosting a simple site with this template](https://example.chobble.com/instructions/). You won't need to touch any code unless you want to edit the theme or customise the layouts. If you want to run the template locally you'll need to install Node - I've provided a Nix flake which sets that up and more.
+
+## Running it after me
+
+You can take my site and run with it. That's the point of open sourcing everything: a Chobble site can be continued without me, whether that's you passing it to an AI or handing it to a local nerd - it's exactly the same job for either, and just as simple. This is deliberate: I'd like the "what happens if he gets hit by a bus" problem to have a boring answer.
+
+And if you pay me for support, the monthlies include tweaks that many agencies would charge for. I might as well be open about how: those jobs get passed to the AI and I check the result, and as long as a job's reasonable, it's fair enough to ask for. I don't charge for small jobs any more thanks to AI.
 
 **If you want me to make a website for you based off this Eleventy starter, [get in touch](/contact/#content). I charge a totally transparent flat hourly fee for all job, and since much of the work of building a website has already been completed with this template you'll get great value for money.**

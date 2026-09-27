@@ -20,11 +20,11 @@ Lutterworth's newest dessert shop came to me seeking a new, easy to update, and 
 
 At the time, my [Chobble Template](/services/chobble-template/) didn't have any built-in menu support, so I thought this would be a great opportunity to add that. Many restaurant or cafe websites have their menus hidden in PDF downloads that are awkward to navigate and hard to copy/paste from. I wanted to make something that was as easy to edit as uploading a new PDF, but much more pleasant for visitors to use.
 
-By setting the system up to work with [PagesCMS](https://pagescms.org/), the nested and flexible menu system can be edited - for free - without requiring any technical know-how. If we want to update the system in the future to store more data or be organised differently, it's probably a really simple tweak.
+By setting the system up to work with [PagesCMS](https://pagescms.org/), the nested and flexible menu system can be edited - for free - without technical know-how. If we want to store more data or organise it differently later, it's probably a really simple tweak.
 
 ![Pages CMS - a CMS system for static websites hosted in Github](/assets/examples/southport-organics-cms.png)
 
-Whenever the business changes their text through the PagesCMS editor, the site is re-built in less than a minute. This fast feedback loop provides all the benefits of static sites - really fast websites that can be hosted for cheap - with the flexibility of a full content management system.
+When the business changes text in the PagesCMS editor, the site rebuilds in under a minute. That fast feedback loop gives all the benefits of static sites - fast, cheap hosting - with the flexibility of a full CMS.
 
 Because the site is based on the Chobble Template a tonne of other functionality is available built-in, ready to be activated whenever the business fancies:
 
@@ -35,6 +35,8 @@ Because the site is based on the Chobble Template a tonne of other functionality
 - Team profiles
 - Galleries
 
-..And more to come! I'm always improving and updating the template, and because it uses Git, every change and version is stored - so we can roll back to any point in time to fix any issues you have.
+..And more to come! I'm always updating the template, and because it uses Git, every version is stored - we can roll back to any point to fix issues.
+
+One honest limit: the menu system is for browsing rather than buying. Online ordering is a different build; table bookings might work through [Chobble Tickets](https://tickets.chobble.com) - worth a chat.
 
 **If you want a website for your restaurant or cafe, check out the [Chobble Template](/services/chobble-template/) - it's open source and free for anyone to use. And if you want me to build you a website based on it then just fill in the form below to get in touch!**
