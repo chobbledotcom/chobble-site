@@ -2,7 +2,7 @@
 title: A Critique of AI Output
 snippet: What generic AI chatbot output gets wrong about your business, and how to prompt it better
 meta_title: What AI Gets Wrong About Your Business | Chobble
-meta_description: A real example of AI-generated website copy, critiqued line by line, plus the prompt that fixes it - free guide from a Prestwich web developer - but always edit the result yourself
+meta_description: A real example of AI-generated website copy critiqued line by line, plus the prompt that fixes it - free guide from a Prestwich web developer
 ---
 
 # A detailed critique of generic AI chatbot output
@@ -11,7 +11,9 @@ I just asked Claude AI to "write about bouncy castle hire Manchester", and here'
 
 > "Looking for the perfect addition to your next event in Manchester? Bouncy castle hire Manchester offers an exciting range of inflatable attractions suitable for all ages and occasions. Whether you're planning a children's birthday party, school fete, corporate event, or garden party, local hire companies provide professional, reliable service with a diverse selection of bouncy castles and inflatable games. All equipment is regularly safety-checked, fully insured, and comes with professional installation and collection. From traditional castle designs to themed inflatables featuring popular characters, obstacle courses, and slide combinations, there's something to suit every preference and budget. Many Manchester-based companies offer competitive prices, flexible booking options, and serve the entire Greater Manchester area, including surrounding districts like Salford, Stockport, and Bolton. With experienced staff ensuring a smooth rental process and strict adherence to safety guidelines, you can focus on enjoying your event while the little ones bounce away to their heart's content."
 
-At a brief glance this might seem okay, but if you copied something like this onto your site you'd be really doing a disservice to your business. Here's some flaws with it:
+## What it gets wrong
+
+At a brief glance this might seem okay, but if you copied something like this onto your site you'd be really doing a disservice to your business. Here's some flaws with it. I spent more than a decade building hire-industry booking software at [Bouncy Castle Network](https://www.bouncycastlenetwork.com), helping hundreds of bouncy castle hirers rank better along the way - [reviews from some of them are here](/reviews/) - and I see the same generic output on plenty of hire sites:
 
 - It says "local hire companies.." and doesn't mention your business name
 - It says "many Manchester-based companies" - is it advertising your competitors?
@@ -19,14 +21,16 @@ At a brief glance this might seem okay, but if you copied something like this on
 - It said "strict adherence to safety guidelines" but doesn't mention RPII or BS EN 14960 or PIPA tags
 - It mentions "themed inflatables featuring popular characters" - beware the copyright police!
 - It lists slides and obstacle courses - do you hire these?
-- It says you cover the "entire Greater Manchester area" - really? That's a very big delivery radius
+- It says you cover the "entire Greater Manchester area" - really? That's a very big delivery radius (honest delivery areas are their own topic - [targeting specific areas](/guides/targeting-specific-areas/))
 - It says "suitable for all ages and occasions" - but some units will be kids-only
 - It says you have "flexible booking options" - but you probably don't take last minute bookings, or might want a deposit up front
-- It contains "bouncy castle hire Manchester" repeated unnaturally - this is called "keyword stuffing" and Google doesn't like it
+- It contains "bouncy castle hire Manchester" repeated unnaturally - this is called "keyword stuffing" and Google doesn't like it (my [keywords guide](/guides/keywords-and-keyword-stuffing/) goes into that in depth)
 - It doesn't mention ANYTHING unique about your business
 - It phrases things in USA corporate speak - "surrounding disticts"? Nobody says that here.
 - It doesn't mention anything about the nuances of hiring in Manchester - for example, the near-continuous rain
 - It's one big paragraph which is hard to read.
+
+## A better prompt
 
 If you instead prompted Claude with something like:
 
@@ -84,10 +88,18 @@ You'd get a response like:
 >
 > Ready to bring bouncing fun to your event? Get in touch with our friendly team today for availability and pricing.
 
+## What you get back
+
 This is much better! It's easier to read, it provides value to the visitor, and it doesn't make as many assumptions about your business because the input text is much more detailed.
 
 You should **still** edit this text yourself, though - it's missing some key information like the types of products you hire, and some bits still sound quite corporate. But as a basis to build a page from, this is a great start.
 
+There's a trade-off in the prompt above, and it's worth knowing about: the more facts you pack in, the less the chatbot has to invent, but the longer the prompt, the more likely it is to quietly drop one of your facts - so check each one made it into the draft. That's why "Do not make up any new information" is in there: it cuts the amount of checking you have to do, it doesn't eliminate it.
+
 I hope this gives some inspiration about how to prompt your AI chatbots more successfully!
 
+One caveat: chatbot output changes model by model, so the transcripts pasted above will age faster than the advice does - re-run the experiment on your own chatbot rather than trusting my paste. And as ever, the result is a draft: you know your business better than the chatbot does.
+
 For more on this topic, read my [guide to using AI effectively](/guides/using-ai-effectively/) - and if you'd like me to critique your website the way I've critiqued this one, have a look at my [SEO audits](/services/seo-audits/).
+
+**If you'd like a critique like this of your own site's copy, drop me a message through the form below and I'll reply within 48 hours.**
