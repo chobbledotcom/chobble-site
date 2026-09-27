@@ -3,6 +3,7 @@
 .env
 .nix-gems
 .sass-cache
+.transcripts
 _site
 node_modules
 result
