@@ -661,6 +661,42 @@ const CHECKS = [
         false: "Copy claims competence without caveats",
       },
     } },
+  // Cliché score: 0-3 where 0 = riddled, 3 = clean (same direction as the
+  // EEAT dimensions: high is good). Judge rubric mirrors the house
+  // anti-patterns list - the structural clichés regex cannot catch
+  // (rhythm, closers, strawmen, objection handling). FAIL = riddled,
+  // WARN = multiple clichés, PASS = clean or a couple of mild hits.
+  { id: "cliche_score", label: "Cliché score", engine: "jev",
+    types: ALL_TYPES, weight: 4,
+    question: {
+      type: "score",
+      instructions:
+        "Judge `body_house` for copywriting clichés - the trying-too-hard " +
+        "failure modes, not individual phrases. IMPORTANT: score ONLY the " +
+        "text in `body_house`. The `body` field exists for other questions " +
+        "and contains quoted third-party client reviews and quoted AI " +
+        "output - do not judge it here. body_house has blockquotes already " +
+        "stripped; only house copy is judged. Look for: fragment " +
+        "sentences in prose ('No lock-in.'); punchy parallel rhythm and " +
+        "cinematic one-line closers ('And the rest is history.'); " +
+        "X / X / X - Y build-ups and lists of three with a deflating " +
+        "comic third; strawmen set up to knock down ('Most developers " +
+        "overcharge'); handling objections nobody raised ('and yes, even " +
+        "in Prestwich'); forced enthusiasm in headings ('Ready to " +
+        "supercharge...'); faux humility undercut by a sales close; sassy " +
+        "or self-congratulatory lines ('That is not shabby', 'no " +
+        "remembering to hit a button'); overselling modifiers ('blazing " +
+        "fast', 'practically psychic'); CTAs bolted into mid-page " +
+        "paragraphs. Score follows the legend: 0 means riddled, 3 means " +
+        "clean - high is good.",
+      criteria: [
+        "Riddled - the page is built from advert structures; several distinct failure modes appear",
+        "Multiple clichés - three or more distinct hits, or one structural cliché repeated",
+        "A cliché or two - one or two mild hits that a light rewrite would trim",
+        "Clean - no cliché patterns; plain comfortable prose",
+      ],
+    },
+    score_pass: 2, score_warn: 1 },
 ];
 
 // ---------------------------------------------------------------------------
@@ -726,6 +762,9 @@ function buildJevState(x) {
     },
     body: x.prose.slice(0, MAX_BODY_CHARS),
     body_truncated: x.prose.length > MAX_BODY_CHARS,
+    // blockquotes stripped - quoted client voices are not house copy and
+    // must not be judged against the voice rules (see CLAUDE.md)
+    body_house: x.proseNoQuotes.slice(0, MAX_BODY_CHARS),
     internal_links: x.links,
     business: {
       name: "Chobble CIC",
