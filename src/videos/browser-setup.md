@@ -10,9 +10,9 @@ meta_description: Setting your browser up properly can remove friction - four fa
 
 # Browser setup: block adverts & cookie popups, save bookmarks, use a password manager
 
-Fed up with ads everywhere and cookie popups on every website? This video shows you four quick browser tweaks that'll save you loads of time. I'll walk you through installing uBlock Origin to block ads (makes sites load way faster, especially on older computers), and "I Still Don't Care About Cookies" to automatically dismiss those annoying GDPR banners.
+Fed up with ads everywhere and cookie popups on every website? This video shows you four quick browser tweaks that'll make your time online a bit less annoying. I'll walk you through installing uBlock Origin to block ads (makes sites load way faster, especially on older computers), and "I Still Don't Care About Cookies" to automatically dismiss those annoying GDPR banners.
 
-Also covers smart bookmarking tricks like bookmarking the login page itself, and why you should use a password manager like Bitwarden (free and open source). It takes about 10 minutes to set all this up, but it'll save you hours every week. It works best with Firefox, which isn't constantly trying to make your life worse like Chrome does.
+Also covers smart bookmarking tricks like bookmarking the login page itself, and why you should use a password manager like Bitwarden (free and open source). It takes about 10 minutes to set all this up, and I can't promise it'll save you hours, but it takes little bits of friction out of your whole day - cookie banners clicked away for you, adverts never downloaded, passwords never typed. It works best with Firefox, which isn't constantly trying to make your life worse like Chrome does.
 
 ## The ad blocker demo
 
