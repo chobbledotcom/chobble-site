@@ -17,6 +17,10 @@ Fun at the Fair is the outdoor funfair and fairground ride hire arm of DB Entert
 
 ![Fun at the Fair website homepage, with a photo of fairground rides lit up at dusk behind the headline and a browse-the-rides button](/assets/examples/fun-at-the-fair.png)
 
+## Who this page is for
+
+Plainly: if you run a hire, attractions or events business with a catalogue this size and you're weighing me up for a website, this page is for that - the honest answer about costs is on the [prices page](/prices/) (a flat £200/hour for build work, hosting from £10 a month). If you landed here looking to book dodgems or a helter skelter for your own event, this isn't the booking page - everything rides-related is at [allthefunatthefair.co.uk](https://www.allthefunatthefair.co.uk) and the team answers the phone on 0845 468 0590.
+
 ## The build
 
 It's the [Chobble Template](/services/chobble-template/) with a custom theme, built as a static site and deployed automatically through GitHub Actions to Bunny's CDN - staging for branches, production for main. The catalogue is at the big end: 68 product pages across 8 categories, each with a stats block (footprints, heights, hire-from pricing with the VAT made plain), FAQs and specifications, plus 14 customer reviews fetched from Google, Facebook and Trustpilot through the Apify-based fetcher behind my [Google reviews scraper](/services/tools/).

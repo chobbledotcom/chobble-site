@@ -697,6 +697,36 @@ const CHECKS = [
       ],
     },
     score_pass: 2, score_warn: 1 },
+  // Searcher intent: does the page answer what a searcher landing here
+  // would want, early enough and including mismatch handling? The judge
+  // works out the likely searcher from url and page_type in the state.
+  { id: "searcher_intent", label: "Searcher intent", engine: "jev",
+    types: ALL_TYPES, weight: 4,
+    question: {
+      type: "score",
+      instructions:
+        "Judge whether `body` addresses searcher intent for this page. " +
+        "First work out who searches for or lands on a page like this - " +
+        "the `url` and `page_type` in the state say which: a service " +
+        "page gets buyers evaluating whether to hire the business; an " +
+        "example or case-study page gets prospects weighing up a " +
+        "similar build AND possible accidental traffic wanting to book " +
+        "the client's services; a guide gets people wanting to learn " +
+        "something or solve a problem; a hub or listing page gets " +
+        "browsers deciding what to read next. Then judge: does `body` " +
+        "say early who the page is for and what it offers, answer the " +
+        "main questions that searcher would have (cost, process, " +
+        "evidence, next step), and handle intent mismatch plainly where " +
+        "it matters - pointing accidental traffic to the right place " +
+        "rather than leaving them to work it out?",
+      criteria: [
+        "No intent addressed - the page never says who it is for or what a searcher would want from it",
+        "Intent implied but late or incomplete - a searcher has to work out what the page offers, or leaves with the main questions unanswered",
+        "Intent addressed - who the page is for and the searcher's main questions are answered clearly",
+        "Intent addressed early and completely - searcher questions answered up front, next steps obvious, mismatches handled plainly",
+      ],
+    },
+    score_pass: 2, score_warn: 1 },
 ];
 
 // ---------------------------------------------------------------------------
