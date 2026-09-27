@@ -27,7 +27,7 @@ _(Note: this is a really simplified way of describing LLMs, which use very compl
 
 This means that their output can look very convincing - and sometimes it will be spot on. But you cannot "trust" their output, because the chatbot has no concept of "correct" vs "incorrect", or "logical" vs "illogical".
 
-You can easily test this by asking AI to tell you about something you know really well, but is quite niche. To test this, I'll ask my preferred AI chatbot, Claude AI's 3.5 Sonnet model, to tell me about the extreme heavy metal scene in Manchester, something I know a lot about:
+You can easily test this by asking AI to tell you about something you know really well, but is quite niche. To test this, I'll ask Claude to tell me about the extreme heavy metal scene in Manchester, something I know a lot about:
 
 > Me: "Tell me about the extreme metal scene in Manchester"
 >
@@ -198,7 +198,7 @@ Just be sure to double- and triple-check their output to be certain that it:
 
 ## Appendix 1: Which chatbot does Stefan recommend?
 
-A service for using AI chatbots is [openrouter.ai](https://openrouter.ai). This service lets you test dozens of chatbots, with lower prices than you would pay going to the provider directly. My favourite model as of September 2026 is GLM 5.3, made by [Z.ai](https://z.ai) and served through Neuralwatt - it's what I reach for first. [Claude AI](https://claude.ai/), [ChatGPT](https://chat.openai.com/), and [Google Gemini](https://gemini.google.com/) are also great options, and the old favourite, Claude 3.5 Sonnet, is still great for nerdy topics.
+A service for using AI chatbots is [openrouter.ai](https://openrouter.ai). This service lets you test dozens of chatbots, with lower prices than you would pay going to the provider directly. My favourite model as of September 2026 is GLM 5.3, made by [Z.ai](https://z.ai) and served through Neuralwatt - it's what I reach for first. [ChatGPT](https://chat.openai.com/) and [Google Gemini](https://gemini.google.com/) are also great options, and if you'd rather stick with [Claude](https://claude.ai/), I'd pick Opus.
 
 ## Appendix 2: Copyright and ethics
 
