@@ -33,15 +33,15 @@ Now that we know what a bad link looks like, let's get some good ones!
 
 ## Essentials
 
-You should make sure your [Google Business Profile](https://www.google.com/intl/en_uk/business/) is up to date and accurate, with a link to your website. Most searches come from Google, and Google prioritises businesses whose profiles are active. You should ask each customers to leave a review wherever suits them - every review is worth having - but you could also tell them that Google is the most important place for you.
+You should make sure your [Google Business Profile](https://www.google.com/intl/en_uk/business/) is up to date and accurate, with a link to your website. Most searches come from Google, and Google prioritises businesses whose profiles are active. You should ask each customer to leave a review wherever suits them - every review is worth having - but you could also tell them that Google is the most important place for you.
 
-You should list your business on all the major UK business directories - [Yell](https://yell.com), [Thompson Local](https://www.thomsonlocal.com/), [Yelp](https://www.yelp.co.uk/), [Bing Places](https://www.bingplaces.com/), [Apple Maps](https://businessconnect.apple.com/), and [FreeIndex](https://www.freeindex.co.uk/).
+You should list your business on all the major UK business directories - [Yell](https://yell.com), [Thompson Local](https://www.thomsonlocal.com/), [Yelp](https://www.yelp.co.uk/), [Bing Places](https://www.bingplaces.com/), [Apple Maps](https://businessconnect.apple.com/), and [FreeIndex](https://www.freeindex.co.uk/). For what it's worth, I used to run a directory site myself - [bouncycastlehire.co.uk](https://www.bouncycastlehire.co.uk), before Chobble existed - so I've seen this from the directory side as well as the business side.
 
 Next up, you might want to get listed on industry-specific national directories. This could include things like [Checkatrade](https://www.checkatrade.com/), [Rated People](https://www.ratedpeople.com/), or the directories of industry bodies. You could find these directories by Googling for 'Widget hire directory', and applying to those which are ran by trusted organisations you recognise.
 
 ## Regional business directories
 
-It's like that your local area has a vetted and verified directory of local businesses which you can register for. You can find these by searching Google for terms like "Prestwich directory" or "Prestwich businesses". Here are some of the results for Prestwich:
+It's likely that your local area has a vetted and verified directory of local businesses which you can register for. You can find these by searching Google for terms like "Prestwich directory" or "Prestwich businesses". Here are some of the results for Prestwich:
 
 - [directory.prestwichandwhitefieldguide.co.uk](https://directory.prestwichandwhitefieldguide.co.uk) - ran by the local "Prestwich and Whitefield Guide" newspaper
 - [theburydirectory.co.uk](https://theburydirectory.co.uk) - ran by the local council
@@ -51,13 +51,13 @@ If you click through to the website and it's full of listings for businesses out
 
 ## Analysing the competition
 
-Now we're going to get into some trickier Google tricks. First, lets explain how the Google syntax works:
+Now for some trickier Google tricks. First, let's explain how the Google syntax works:
 
 - If you enclose your search term in quotation marks, `"like this"`, then Google searches for "exact matches". This means the exact words you've quoted will be somewhere in the page for each result.
 - If you search for `site:example.com` then Google will only include results from `example.com`.
 - If you add a minus to that search, so `-site:example.com` then Google will only include results that DON'T come from `example.com`
 
-We can combine these to create searches like:
+You can combine these to create searches like:
 
 `"stefanswidgets.com" -site:stefanswidgets.com` to search for a domain name
 
@@ -69,7 +69,7 @@ This will search for all exact mentions of `stefanswidgets.com` or `"Stefan's Wi
 
 While a mention isn't _exactly_ the same as a backlink, they're pretty close - and mentions are valuable to Google too.
 
-So, let's do that for a site I made for an Indian curry cafe in Manchester, [thisandthatcafe.co.uk](https://www.thisandthatcafe.co.uk) (which I'll refer to as 'T&T' for readability's sake). [Here is a link to that search - click here to see for yourself](https://www.google.com/search?q=%22thisandthatcafe.co.uk%22+-site%3Athisandthatcafe.co.uk).
+So, let's do that for a site I made for an Indian curry cafe in Manchester, [thisandthatcafe.co.uk](https://www.thisandthatcafe.co.uk) (there's more about it in my [examples](/examples/this-and-that/), and I'll refer to it as 'T&T' for readability's sake). [Here is a link to that search - click here to see for yourself](https://www.google.com/search?q=%22thisandthatcafe.co.uk%22+-site%3Athisandthatcafe.co.uk).
 
 The results you'll see are things like:
 
@@ -103,7 +103,7 @@ So, the kinds of places that T&T are mentioned are:
 - Articles about tasty, affordable, or Halal food in Manchester
 - Message boards threads about things to do in Manchester and favourite places to eat
 
-If you were trying to promote another Indian cafe in Manchester, these would all be great places to start. Some of these would be really easy to match - you could easily sign your cafe up for the same restaurant listing websites as T&T, or drop them an email and ask if they would write about you.
+If you were trying to promote another Indian cafe in Manchester, these would all be great places to start. Some of these would be really easy to match - you could easily sign your cafe up for the same restaurant listing websites as T&T, or drop them an email and ask if they would write about you. That profile of mentions is a big part of why T&T still ranks 3rd for "curry Manchester" (behind TripAdvisor and Reddit, which is fair enough) - a cafe that's been written about consistently for thirty years has more votes than a new site can buy.
 
 ## But I can't make people write about me!
 
@@ -117,7 +117,7 @@ How you go about getting these kind of high-quality links from authentic voices 
 - The food is delicious and very affordable
 - The restaurant is located on a tucked-away alley so is a "hidden gem"
 - They are known for their cheerful service and lunch time queues
-- They make meals to the homeless
+- They make meals for the homeless
 - They cater to large events like weddings and raves
 
 This has resulted in a steady stream of people wanting to write about them, from local food writers to international visitors doing food tours.
@@ -134,7 +134,7 @@ You might believe that your business isn't particularly newsworthy - if that's t
 
 ## Evaluating the quality of backlinks
 
-There are tools out there which claim to give an objective measure of the quality of a backlink - [Ahrefs](https://ahrefs.com/) and [Semrush](https://www.semrush.com/) are the two main ones. However, I am very skeptical about the value of these measurements - they do not have access to Google's algorithms, and they might send you on wild goose chases.
+There are tools out there which claim to give an objective measure of the quality of a backlink - [Ahrefs](https://ahrefs.com/) and [Semrush](https://www.semrush.com/) are the two main ones. However, I am very skeptical about the value of these measurements - they do not have access to Google's algorithms, and they might send you on wild goose chases. I might be wrong about that, but I'd rather trust my own judgement of a site.
 
 Instead, I think it's better to use your own expertise in your field to evaluate the link. The best links are created by real people writing about their passions on websites that provide real value to their visitors - so ask yourself, how close is the backlink to this ideal?
 
@@ -150,7 +150,7 @@ You might also be tempted to pay someone to build links for you. This is also ve
 
 ## Out of date advice that you shouldn't do
 
-The internet is full of outdated advice about link building, from the days when Google wasn't as good at catching spam / rank manipulation. Following that outdated advice could be disastrous for your site, so I'll cover some of it outdated info here.
+The internet is full of outdated advice about link building, from the days when Google wasn't as good at catching spam / rank manipulation. Following that outdated advice could be disastrous for your site, so I'll cover some of this outdated info here.
 
 ### Anchor text
 
@@ -188,7 +188,7 @@ Fostering great relationships with your customers will pay off in the long run b
 
 Google provide a service called [Alerts](https://www.google.co.uk/alerts). This lets you subscribe to certain keywords, and you will be emailed whenever Google indexes a new page which contains them.
 
-For my fictional widget hire company, I might to set alerts for:
+For my fictional widget hire company, I might set alerts for:
 
 - My own business name, so I know where I am being mentioned and can promote those mentions across my own channels.
 - My competitors, so I get insights into where they are being mentioned, to inspire me to chase similar kinds of spots.
@@ -229,4 +229,4 @@ If you want to read more about search engine rankings, Google has some great adv
 
 ## The end
 
-**If you'd like professional help building quality backlinks for your website, [get in touch](/contact/).**
+**If you'd like professional help building quality backlinks for your website, fill in the form below and I'll reply within 48 hours.** It's a flat £200/hour with no lock-in, and [client reviews](/reviews/) are here if you'd like a sense of how I work.
