@@ -9,9 +9,9 @@ meta_description: Practical SEO checklist for small businesses - Google Maps, Se
 
 I thought it could be good to make something practical that people can work through, because across various SEO guides there's often not much of an underlying structure and if you've got a brand new website then it might be hard to figure out what the most important things to do are.
 
-So this post is going to be a list of things you should get sorted, in priority order. If you see a suggestion and you've already done it, then awesome, but I'd still advise double checking your work to see if there's anything you can improve.
+So this post is going to be a list of things you should get sorted, in priority order. If you see a suggestion and you've already done it, then awesome, but I'd still advise double checking your work to see if there's anything you can improve. The order is roughly what I work through when [auditing a client's site](/services/seo-audits/) - I've been doing this for a living since the mid-2000s, and a few of the sites that came out the other end are in my [examples](/examples/), with [client reviews](/reviews/) here if you want the word-of-mouth version. I might have the order slightly wrong for your business, mind - treat it as a guide rather than gospel.
 
-Okay, so lets kick it off, with:
+Okay, so let's kick it off, with:
 
 ## Number 1: your Google Maps listing
 
@@ -19,13 +19,13 @@ Your [Google Maps, or Google Business](/guides/google-business/#content), listin
 
 If you've not got a Google Maps listing, or you're not sure if you do, then go to [Google.com/Business](https://www.google.com/business/) and follow the steps to get set up. If you do have one, then you need to make sure that all of its data is up to date. Like, does it list your website? Is the website address accurate? What about your phone number, address, or opening times? Have you uploaded any photos? Do you have any reviews?
 
-You should take stock of what things on your Maps listing are incomplete or look empty - like if you don't have any reviews, then make getting some a priority. Even one or two looks a lot better than none.
+You should take stock of what things on your Maps listing are incomplete or look empty - like if you don't have any reviews, then make getting some a priority. Even one or two looks a lot better than none, and one client of mine collected a remarkable number of reviews in under a year just by asking every customer, which did his local rankings no harm at all.
 
 ## Number 2: Google Search Console
 
-Next most important is another Google product, [Google Search Console](/guides/google-search-console/#content). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website, I'm doing it and if you ask me I'll invite your Google account to be an admin too.
+Next most important is another Google product, [Google Search Console](/guides/google-search-console/#content). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website (from £10/month), I'm doing it and if you ask me I'll invite your Google account to be an admin too.
 
-[Search Console](/guides/google-search-console/#content) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving.
+[Search Console](/guides/google-search-console/#content) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving. If you want to watch how specific search terms move over time, I use an open source tool called SerpBear for that - there's a [video of my setup](/videos/tracking-search-results-serpbear/) if you fancy giving it a bash.
 
 ## Number 3: good homepage
 
@@ -45,7 +45,7 @@ Give the main pages on your site a scan and make sure they've got a call to acti
 
 ## Number 6: site functionality
 
-There's no point sending people to your website if it's broken, so you should give all of your site's important functionality a test to make sure it works. If you've got a contact form you should send yourself a message and check that you receive it. If you've got a booking system, you should try and book something as a visitor. You should click through each your pages and make sure you've not got any filler or test data in there, like "Lorem Ipsum" text, and that each page accurately describes the thing it's meant to be about.
+There's no point sending people to your website if it's broken, so you should give all of your site's important functionality a test to make sure it works. If you've got a contact form you should send yourself a message and check that you receive it. If you've got a booking system, you should try and book something as a visitor. You should click through each of your pages and make sure you've not got any filler or test data in there, like "Lorem Ipsum" text, and that each page accurately describes the thing it's meant to be about.
 
 If you've got empty or broken pages on your site, delete them. You can always re-add them later.
 
@@ -59,9 +59,9 @@ Like with the empty pages, if you've got social media icons on your site for web
 
 I was a bit hesitant about including this because it's not really specific to your website, but anyway, it's likely that you'll have to create a bunch of different accounts on various websites for things related to your business. Like you might have a Facebook account, a Google account, a Tripadvisor account, a domain name account, a Paypal account, you get the idea. You should be using unique passwords for each of these accounts, and the passwords should be random and complicated - ideally really big long strings of random letters.
 
-When a website is hacked and its users and passwords are leaked, hackers use scripts to try those same email addresses and passwords on loads of other important sites because they know lots of people use the same password for everything. If they break into your Facebook page they might use it for spam, which is embarassing, but if they got into places like your domain name or your Paypal account they could cause material problems for your business. The only way to protect against this password is to never reuse the same password for multiple sites.
+When a website is hacked and its users and passwords are leaked, hackers use scripts to try those same email addresses and passwords on loads of other important sites because they know lots of people use the same password for everything. If they break into your Facebook page they might use it for spam, which is embarrassing, but if they got into places like your domain name or your Paypal account they could cause material problems for your business. The only way to protect against this is to never reuse the same password for multiple sites.
 
-There are two methods for using random passwords I recommend - the first is a password manager, like Bitwarden at [Bitwarden.com](https://bitwarden.com/) or 1Password at [1Password.com](https://1password.com/). These securely create and backup new passwords and hide them behind a single master password, so you only need to remember one. And the other option is just writing your passwords down in a notepad and keeping it somewhere safe in your house.
+There are two methods for using random passwords I recommend - the first is a password manager, like Bitwarden at [Bitwarden.com](https://bitwarden.com/) (the one I use myself) or 1Password at [1Password.com](https://1password.com/). These securely create and backup new passwords and hide them behind a single master password, so you only need to remember one. And the other option is just writing your passwords down in a notepad and keeping it somewhere safe in your house.
 
 ## Number 9: site content and meta tags
 
@@ -75,4 +75,4 @@ For a deeper dive into writing content you might wanna check out my other guides
 
 Any visitor to your site that doesn't land on the exact thing they want is going to have to deal with your site's navigation, so you should make sure that this behaves really intuitively. Check your site on both desktop and mobile and make sure that each item on the navigation is visible, that it describes its destination well, that you're not going to overwhelm visitors with choice, and that the order of items makes sense. As a guide for order, I think people expect to see a "Home" or "About" link first, and a "Contact" last, but this is your call - as long as you've considered it.
 
-**If you'd like help implementing this SEO checklist for your website, drop me a message through the contact form on this page.**
+**If you'd like help implementing this SEO checklist for your website, drop me a message through the contact form on this page and I'll reply within 48 hours.** It's a flat £200/hour with no lock-in, and you own all the code I write for you.
