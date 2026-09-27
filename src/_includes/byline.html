@@ -3,10 +3,12 @@
 <p class="byline">
   By <a href="/about/stef/" rel="author">Stef</a>
   &middot;
-  <time datetime="{{ _dates.published | isoDate }}">Published {{ _dates.published | humanDate }}</time>
-  {% if _dates.updated and _dates.updated != _dates.published %}
+  {% assign _publishedDay = _dates.published | isoDate %}
+  {% assign _updatedDay = _dates.updated | isoDate %}
+  <time datetime="{{ _publishedDay }}">Published {{ _dates.published | humanDate }}</time>
+  {% if _updatedDay and _updatedDay != _publishedDay %}
   &middot;
-  <time datetime="{{ _dates.updated | isoDate }}">Updated {{ _dates.updated | humanDate }}</time>
+  <time datetime="{{ _updatedDay }}">Updated {{ _dates.updated | humanDate }}</time>
   {% endif %}
 </p>
 {% endif %}
