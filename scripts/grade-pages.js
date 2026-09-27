@@ -446,6 +446,48 @@ function checkNoGoPhrases(x) {
   return ["PASS", 1, "no house no-go phrases"];
 }
 
+// Contrast framing - "X rather than Y", "not because B" - we almost never need
+// the thing we're not doing; describe what you do and let it stand.
+const CONTRAST_PATTERNS = [
+  [/\brather than\b/i, "rather than"],
+  [/\bnot because\b/i, "not because"],
+  [/\bas opposed to\b/i, "as opposed to"],
+  [/\binstead of\b/i, "instead of"],
+  [/\bthis is the bit\b/i, "this is the bit that..."],
+  [/\bwhich is the bit\b/i, "which is the bit..."],
+];
+
+// History narration - "live now", "we've now added", "no longer" - a brochure
+// page reader has no earlier version to compare against, so "now" hangs in the
+// air. Write every page as though it had always been this way.
+const HISTORY_PATTERNS = [
+  [/\b(live|up|available|open|here) now\b/i, "... now"],
+  [/\bnow (live|available|up)\b/i, "now ..."],
+  [/\bno longer\b/i, "no longer"],
+  [/\b(has|have|'ve) now\b/i, "has/have now"],
+  [/\bwent live\b/i, "went live"],
+];
+
+function checkUnneededContrast(x) {
+  const hits = [];
+  for (const [re, label] of CONTRAST_PATTERNS) {
+    if (re.test(x.proseNoQuotes)) hits.push(label);
+  }
+  if (hits.length)
+    return ["WARN", 0.5, `contrast framing - we almost never need the thing we're not doing: ${hits.slice(0, 5).join(", ")} (see CLAUDE.md anti-patterns)`];
+  return ["PASS", 1, "no contrast framing"];
+}
+
+function checkHistoryNarration(x) {
+  const hits = [];
+  for (const [re, label] of HISTORY_PATTERNS) {
+    if (re.test(x.proseNoQuotes)) hits.push(label);
+  }
+  if (hits.length)
+    return ["WARN", 0, `history narration - a brochure page reader has no earlier version to compare against: ${hits.slice(0, 5).join(", ")} (see CLAUDE.md anti-patterns)`];
+  return ["PASS", 1, "no history narration"];
+}
+
 function checkEmoji(x) {
   const hits = x.proseNoQuotes.match(EMOJI_RE);
   if (hits)
@@ -528,6 +570,10 @@ const CHECKS = [
     fn: checkUkSpelling, types: ALL_TYPES, weight: 2 },
   { id: "no_go_phrases", label: "House no-go phrases absent", engine: "code",
     fn: checkNoGoPhrases, types: ALL_TYPES, weight: 5 },
+  { id: "unneeded_contrast", label: "Unneeded contrasts", engine: "code",
+    fn: checkUnneededContrast, types: ALL_TYPES, weight: 3 },
+  { id: "history_narration", label: "No history narration", engine: "code",
+    fn: checkHistoryNarration, types: ALL_TYPES, weight: 3 },
   { id: "emoji_check", label: "No emoji (unless the subject)", engine: "code",
     fn: checkEmoji, types: ALL_TYPES, weight: 1 },
   { id: "first_person", label: "First person, not 'we'", engine: "code",
