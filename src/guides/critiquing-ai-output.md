@@ -32,38 +32,65 @@ At a brief glance this might seem okay, but if you copied something like this on
 
 ## A better prompt
 
-If you instead prompted Claude with something like:
+If you instead wrote your own prompt, with your own facts in it, you'd get something much better. Here's one a business owner could write - short, plain, no clever tricks:
 
-> "Write a page in British English for my bouncy castle business in Manchester, Stef's Bouncers, with subheadings and lists when appropriate. We are based in Prestwich with free delivery in Prestwich, Whitefield, Cheetham Hill and Crumpsall. Middleton, Radcliffe, Bury, and Salford cost £20 delivery. All of our castles are PIPA tagged and BS EN 14960 tested. We do not hire in heavy rain or winds and you will get a refund. We properly secure every castle with stakes and sandbags if on hard surfaces. We've been hiring since 2004 and have a team of four. We are a family business. We regularly provide castles for events at Heaton Park. Do not make up any new information. Write succinctly but with a friendly voice."
+> "Write a page for my website about my bouncy castle business, Stef's Bouncers. I'm in Prestwich. I hire out bouncy castles. Write it in British English. Keep it short and easy to read.
+>
+> The only facts about my business - don't make anything up:
+> - I'm a family business. It's me, my wife and two others.
+> - I've been hiring castles out since 2004.
+> - Free delivery in Prestwich, Whitefield, Cheetham Hill and Crumpsall.
+> - £20 delivery to Middleton, Radcliffe, Bury and Salford.
+> - All my castles are PIPA tagged and tested to BS EN 14960.
+> - I put stakes in on grass and sandbags on hard standing.
+> - I don't set up in heavy rain or strong winds. You get your money back.
+> - I do a lot of events at Heaton Park.
+>
+> People finding this on Google will want to know what I hire, if the castles are safe, delivery costs, what happens if it rains and how to book. Answer them in that order. Use headings so it's easy to read. If there's something you don't know about my business, put [FILL THIS IN] instead of guessing. Don't say "trusted" or any of that marketing talk."
 
-You'd get a response like:
+I tested that prompt with Neuralwatt's glm-5.3 model, and this is what it came back with:
 
-> # Bouncy castle hire in Prestwich - Stef's Bouncers
+> # Bouncy Castle Hire in Prestwich | Stef's Bouncers
 >
-> Stef's Bouncers is a family business based in Prestwich - there are four of us, and we've been hiring bouncy castles out since 2004. Most of our hires are birthday parties, school fetes and events at Heaton Park, where we're a regular.
+> Stef's Bouncers is a family business based in Prestwich. There are four of us - me, my wife and two others - and we've been hiring out bouncy castles since 2004. As well as parties, we do a lot of events at Heaton Park.
 >
-> Every castle goes out PIPA tagged and tested to BS EN 14960, secured with stakes on grass or sandbags on hard standing.
+> ## What castles do you hire?
 >
-> ## Where we deliver
+> We hire out bouncy castles for parties and events.
 >
-> - **Free:** Prestwich, Whitefield, Cheetham Hill and Crumpsall
-> - **£20:** Middleton, Radcliffe, Bury and Salford
+> [FILL THIS IN - list your castles here: sizes, themes, ages they're suitable for, and prices if you want to show them]
 >
-> ## Weather
+> ## Are the castles safe?
 >
-> If it's heavy rain or strong winds, we won't set up - you get a full refund. There's always another weekend.
+> Every castle is PIPA tagged and tested to BS EN 14960, the British and European standard for inflatable play equipment.
 >
-> ## Checking availability
+> We anchor every castle properly too: stakes on grass, and sandbags on hard standing.
 >
-> Tell us the date and postcode and we'll come back with availability and a price.
+> ## How much is delivery?
+>
+> **Free delivery:** Prestwich, Whitefield, Cheetham Hill and Crumpsall
+>
+> **£20 delivery:** Middleton, Radcliffe, Bury and Salford
+>
+> Not on the list? [FILL THIS IN]
+>
+> ## What happens if it rains?
+>
+> If there's heavy rain or strong winds, we won't set up - it isn't safe. You get your money back.
+>
+> ## How do I book?
+>
+> To check availability and book, [FILL THIS IN - phone number, email or contact form, how you take payment, and how far in advance people should book].
+>
+> Two spots need your details before this goes live: your castle list and your booking info. Happy to adjust the wording or length if you like.
 
 ## What you get back
 
 This is much better! It's easier to read, it provides value to the visitor, and it doesn't make as many assumptions about your business because the input text is much more detailed. It also addresses what a searcher would want in the first few lines - what you hire, where, and what happens if it rains - rather than making them wade through a paragraph of "bouncy castle hire Manchester".
 
-You should **still** edit this text yourself, though - it's missing the types of products you hire (the prompt never said), and you'll want to nudge the voice so it sounds like you rather than like a chatbot imitating a friendly business. But as a basis to build a page from, this is a great start.
+You should **still** edit this text yourself, though - it's missing the types of products you hire (the prompt never said), and you'll want to nudge the voice so it sounds like you rather than like a chatbot imitating a friendly business. But as a basis to build a page from, this is a great start. And note the chatbot left [FILL THIS IN] markers and finished by telling you what needs filling in before the page goes live, rather than making it up - that's the placeholder trick doing its job.
 
-There's a trade-off in the prompt above, and it's worth knowing about: the more facts you pack in, the less the chatbot has to invent, but the longer the prompt, the more likely it is to quietly drop one of your facts - so check each one made it into the draft. That's why "Do not make up any new information" is in there: it cuts the amount of checking you have to do, it doesn't eliminate it.
+There's a trade-off in the prompt above, and it's worth knowing about: the more facts you pack in, the less the chatbot has to invent, but the longer the prompt, the more likely it is to quietly drop one of your facts - so check each one made it into the draft. That's why "don't make anything up" is in there: it cuts the amount of checking you have to do, it doesn't eliminate it.
 
 I hope this gives some inspiration about how to prompt your AI chatbots more successfully!
 
