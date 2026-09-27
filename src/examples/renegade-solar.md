@@ -32,7 +32,7 @@ The contact form uses FormSpark with BotPoison spam protection, giving Ashley a 
 
 ## Technical deets
 
-The site is built with Eleventy, giving it perfect Lighthouse performance scores and great mobile responsiveness. Instead of the thin, generic pages that most solar websites use to try ranking in loads of areas, I'm working with Ashley to create genuinely useful content that helps potential customers understand what they need.
+The site is built with Eleventy, giving it perfect Lighthouse performance scores and great mobile responsiveness, and I'm working with Ashley to create genuinely useful content that helps potential customers understand what they need.
 
 Many solar companies just spam out dozens of near-identical pages targeting different postcodes with barely any real information. Ashley's pages explain the process, his experience, and what makes his approach different - and they're ranking really well because Google can tell they're genuinely helpful.
 
@@ -58,6 +58,6 @@ The complete source code for this project is available [on my Git forge](https:/
 
 ## Sounds good?
 
-One limit worth knowing: this is a brochure-plus-CMS build, because Ashley doesn't sell panels through the site. If you need a full e-commerce checkout, a static site isn't the right tool, and I'd tell you so rather than sell you this one.
+One limit worth knowing: this is a brochure-plus-CMS build, because Ashley doesn't sell panels through the site. If you need a full e-commerce checkout, a static site isn't the right tool, and I'd tell you so.
 
 **If you'd like a website for your renewable energy business, my prices would be discounted 50% for you too! send me a message through the form below to get the ball rolling.**

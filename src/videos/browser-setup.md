@@ -26,6 +26,6 @@ It might sound obvious to bookmark the pages you visit, but it took me a while t
 
 Get [uBlock Origin](https://github.com/gorhill/uBlock) for blocking ads, ["I Still Don't Care About Cookies"](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) for dismissing cookie popups, [Bitwarden](https://bitwarden.com/) for password management, and [Firefox](https://www.mozilla.org/firefox/) for a better browsing experience.
 
-For the record, this is my actual workflow rather than a list of tips: I spend my working day in a browser, building and looking after the sites in my [examples](/examples/), and every tool above is free and open source. [Client reviews](/reviews/) are here if you'd rather hand the whole lot over.
+For the record, this is my actual workflow: I spend my working day in a browser, building and looking after the sites in my [examples](/examples/), and every tool above is free and open source. [Client reviews](/reviews/) are here if you'd rather hand the whole lot over.
 
 **If you'd like a hand setting up the tools around your business's website, fill in the form below and I'll reply within 48 hours.**

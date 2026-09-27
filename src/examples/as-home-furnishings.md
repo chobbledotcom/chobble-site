@@ -36,7 +36,7 @@ This resulted in Markdown files that were _mostly_ good but needed a bit of tidy
 
 **Creating an Eleventy site:** I used files from the [Chobble Template](/services/chobble-template/) to install Eleventy alongside some bonus neat functionality, like a [Formspark contact form](https://git.chobble.com/hosted-by-chobble/as-home-furnishings/src/branch/main/src/_includes/contact-form.html), a [sitemap](https://git.chobble.com/hosted-by-chobble/as-home-furnishings/src/branch/main/src/sitemap.njk), [responsive images](https://git.chobble.com/hosted-by-chobble/as-home-furnishings/src/branch/main/.eleventy.js), and as a [Nix development environment](https://git.chobble.com/hosted-by-chobble/as-home-furnishings/src/branch/main/flake.nix).
 
-**Converting the design to Liquid:** Rather than copying the existing A&S design exactly, I re-implemented it in fresh CSS. This was pretty easy, because the pages were straightforward, and using Flexbox and modern CSS features meant the resulting stylesheet and template was pretty minimal.
+**Converting the design to Liquid:** I re-implemented the existing A&S design in fresh CSS. This was pretty easy, because the pages were straightforward, and using Flexbox and modern CSS features meant the resulting stylesheet and template was pretty minimal.
 
 **Fixing the bugs:** I could then run `serve` to start an Eleventy development server with live-reloading, and I used this to iron out the bugs on the pages - mostly quirks to do with image paths and the dropdown menu for services.
 

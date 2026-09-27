@@ -20,7 +20,7 @@ Gary is a qualified and well-respected play equipment inspector based in Chorley
 
 ## Blocks layout
 
-This site uses the [Chobble Template](/services/chobble-template/)'s newer "blocks" layout system. Instead of writing pages as plain markdown, Gary's homepage is built from structured content blocks - stats counters, section headers, image cards, and markdown sections - all defined in simple YAML frontmatter. This gives the page a more designed feel without needing any custom code.
+This site uses the [Chobble Template](/services/chobble-template/)'s newer "blocks" layout system. Gary's homepage is built from structured content blocks - stats counters, section headers, image cards, and markdown sections - all defined in simple YAML frontmatter. This gives the page a more designed feel without needing any custom code.
 
 ## Content with AI
 

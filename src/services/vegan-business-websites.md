@@ -13,7 +13,7 @@ If you run a fully vegan business, I'll build your website at half my normal rat
 
 The reason I do this is fairly simple: I've been vegetarian my entire life and vegan since 2009, my wife and I run [Vegan Prestwich](/examples/vegan-prestwich/) as a community project, and I'd rather my work made vegan businesses easier to find and easier to run than it made already-comfortable companies more comfortable. It's not a marketing scheme, it's a values thing - same reason charities and co-ops get the same discount.
 
-My pricing is all on the [price calculator](/price-calculator/) and the [prices page](/prices/), no hidden bits. Hosting is **£20/month** for the supported package, which includes personal help working through my [free marketing guides](/guides/) and [videos](/videos/) - which is the bit most people skip and then wonder why their lovely site isn't bringing in customers.
+My pricing is all on the [price calculator](/price-calculator/) and the [prices page](/prices/), no hidden bits. Hosting is **£20/month** for the supported package, which includes personal help working through my [free marketing guides](/guides/) and [videos](/videos/) - the bit most people skip and then wonder why their lovely site isn't bringing in customers.
 
 People searching for vegan options online tend to be quite practised at it - they have to be, because "vegan" still gets used as a marketing word by places that turn out to have one tired salad on the menu. That means it's worth getting the technical bits right: the meta tags, the structured data, the consistent mentions across HappyCow, Google Maps and social, the actual word "vegan" in the right places on the page. I'll handle all of that as part of the build.
 

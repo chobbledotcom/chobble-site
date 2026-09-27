@@ -90,7 +90,7 @@ I write semantic HTML with minimal, efficient CSS so sites load fast even on slo
 
 ## Everything I build runs on Eleventy
 
-Rather than start every site from a blank page, I build on my own open-source starter, the [Chobble Template](/services/chobble-template/), which is itself an Eleventy site - so every site I put together on top of it is Eleventy underneath, all the way down. It began as the pile of snippets I kept copying between client jobs (a news system, a contact form, header images, per-page themes) and has grown into something that covers most of what a small business actually asks for.
+I build on my own open-source starter, the [Chobble Template](/services/chobble-template/), which is itself an Eleventy site - so every site I put together on top of it is Eleventy underneath, all the way down. It began as the pile of snippets I kept copying between client jobs (a news system, a contact form, header images, per-page themes) and has grown into something that covers most of what a small business actually asks for.
 
 That includes the things you'd expect from a brochure site and a fair bit you might not: product listings with galleries, options and prices for shops; a browser-based cart with Stripe or Square checkout, or a quote-only mode where people build a basket and send it over as an enquiry; a menu system for cafes and restaurants with dietary flags; one-off and recurring events that publish a subscribable calendar feed; a holiday-lets system wired into freetobook; team profiles, reviews with star ratings, multi-site locations, and a news blog. If your business needs a particular thing, there's a decent chance it's already in there, and if it isn't I can add it.
 

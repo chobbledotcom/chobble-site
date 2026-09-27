@@ -33,7 +33,7 @@ First up - planning. This can save a lot of trouble later. When I'm structuring 
 
 Group these items into logical categories based on what visitors to your site might expect. So you might have "Products", and then under that "Red Widgets", "Blue Widgets", and "Green Wotzits". And under "Services" you might have "Delivery", "Repairs" and "Sales". Under "Locations" you might have "Bury", "Prestwich", "Whitefield".
 
-If "Blue Widgets" contains a hundred items, you might want to consider breaking it up into "Blue Party Widgets", "Blue Wedding Widgets", and so on. The idea should be to never give the customer an overwhelming amount of potential things to click. If a category ends up holding most of your site, my guide on [writing a good service category page](/guides/writing-a-good-service-category-page/) covers how to make the category itself pull its weight rather than just acting as a list of links.
+If "Blue Widgets" contains a hundred items, you might want to consider breaking it up into "Blue Party Widgets", "Blue Wedding Widgets", and so on. The idea should be to never give the customer an overwhelming amount of potential things to click. If a category ends up holding most of your site, my guide on [writing a good service category page](/guides/writing-a-good-service-category-page/) covers how to make the category itself pull its weight.
 
 It's also important to be mindful of the order of the items within each category. For some categories, like products, you might want to put your most profitable or popular items first. For others, like delivery areas, it might make more sense to list them alphabetically. Think about what visitors to your site are likely to expect - don't just randomly order things.
 

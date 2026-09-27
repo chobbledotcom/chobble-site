@@ -28,7 +28,7 @@ If you're not sure where to begin, these are the ones I'd point most people at f
 
 ## The kind of advice it is
 
-It's all the sustainable sort - the kind that keeps working after Google's next algorithm update. It's also written for how search works here in the UK, which isn't always the same as the American marketing advice that makes up most of what you'll find online. The recurring thread is user intent: someone searching "pizza" could want anything at all, but someone searching "pizza in Prestwich" wants to order now, and most of the guides come back to writing for the second person. Beyond that it's the practical jobs - tidying category pages, finding backlinks worth having and leaving the spam alone, and tracking your own rankings with free tools like Google Search Console and SerpBear rather than taking anyone's word for it.
+It's all the sustainable sort - the kind that keeps working after Google's next algorithm update. It's also written for how search works here in the UK, which isn't always the same as the American marketing advice that makes up most of what you'll find online. The recurring thread is user intent: someone searching "pizza" could want anything at all, but someone searching "pizza in Prestwich" wants to order now, and most of the guides come back to writing for the second person. Beyond that it's the practical jobs - tidying category pages, finding backlinks worth having and leaving the spam alone, and tracking your own rankings with free tools like Google Search Console and SerpBear.
 
 The aim is for you to understand what your customers are actually searching for and how to give them that, so the site earns its rankings honestly.
 
