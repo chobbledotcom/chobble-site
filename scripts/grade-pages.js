@@ -39,7 +39,12 @@ const ZEN_SYSTEMONE_URL = "https://opencode.ai/zen/v1/systemone";
 const DEFAULT_MODEL = "jev-1.13";
 const DEFAULT_KEY_FILE = "/run/secrets/opencode_api_key";
 
-const MAX_BODY_CHARS = 14000;
+// Cap on the prose sent to Jev per page (body and body_house). Sits above
+// the longest page in this repo (~17k chars) with headroom so real pages
+// never truncate - grading a partially-visible body is how long guides get
+// mis-scored. Kept as a payload guard: an over-limit state would come back
+// as HTTP 400 and quietly degrade the page to mechanical-only grading.
+const MAX_BODY_CHARS = 24000;
 const MAX_LINKS = 40;
 
 // Files excluded from grading. Legal text is excluded because the house voice
