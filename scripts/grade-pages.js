@@ -276,8 +276,12 @@ function extractPage(file, forcedType) {
   const prose = markdownToText(stripCodeFences(body));
   const proseNoQuotes = markdownToText(noQuotes);
 
-  const h1Count = (body.match(/^# /gm) || []).length;
-  const subCount = (body.match(/^#{2,3} /gm) || []).length;
+  // Headings are counted on the body with code fences stripped - example
+  // templates inside ``` blocks contain # and ## lines that are not page
+  // headings.
+  const fenceless = stripCodeFences(body);
+  const h1Count = (fenceless.match(/^# /gm) || []).length;
+  const subCount = (fenceless.match(/^#{2,3} /gm) || []).length;
   const words = prose.split(/\s+/).filter(Boolean).length;
 
   return {

@@ -35,7 +35,7 @@ It might be tempting to just list all of your service areas on your site and cal
 
 It's much better to **create pages for each service area and to fill these pages with genuinely useful content for visitors from that area**. You shouldn't just copy and paste the same content and switch the town names around because Google is really good at spotting duplicated content, and while they probably won't penalise you for it they also won't reward you.
 
-For each service location we should make a page that includes, at a bare minimum:
+For each service location you should make a page that includes, at a bare minimum:
 
 - A clear headline in a H1 (or Heading 1) tag, eg "Widget hire in Prestwich"
 - The services you offer in that specific area
@@ -49,6 +49,8 @@ To make the page even more relevant to that area, you should also think about wh
 - Ways you adapt your service for that area
 
 You should put yourself in the mind of your customer, and imagine what they would like to see when searching for "Widget hire in Prestwich". They want to know that your business serves and understands their area.
+
+The biggest set of these I've built was 21 location pages for a funfair hire company - town and city pages (Manchester to Glasgow) plus showground and venue pages (Newark Showground, the Yorkshire Event Centre at Harrogate, the NEC in Birmingham) - and collating genuinely local content for each one was where nearly all the effort went. You can see the result on the [Fun at the Fair example page](/examples/fun-at-the-fair/).
 
 Here's a rough outline of one of these pages:
 
@@ -180,5 +182,7 @@ Attracting visitors from specific areas is a long-term project and takes real wo
 - Location-specific web pages that are genuinely useful
 - Local endorsements that customers might recognise
 - Partnerships with friendly businesses
+
+If you'd rather hand all of this over to someone, it's my day job - a flat £200/hour, you own all the code, and there's no lock-in.
 
 **If you need help targeting specific areas for your local business, use the contact form below to get in touch.**
