@@ -57,4 +57,6 @@ The site is hosted on the Bunny.net CDN which means it responds quickly, and it 
 
 This site demonstrates that the Chobble Template is not just for simple brochure websites. With 88 products, a quotation system, mega menu navigation, sitewide search, 16 location hubs, detailed case studies, 147 reviews, video backgrounds, brand carousels, and custom designs throughout, this is a full-scale commercial website. Because it is all pre-rendered static HTML served from a CDN, it loads fast despite having all this content.
 
+To be honest, most businesses don't need this much site - Colin and Liz's catalogue is one of the biggest builds I've done, up there with the [Monster Event Hire](/examples/monster-event-hire/) and [Fun at the Fair](/examples/fun-at-the-fair/) catalogues, and a few of the other big builds I've done don't have case studies on here yet. A local trade or service firm is usually better served by something much smaller, like the [MyAlarm Security](/examples/myalarm-security/) rebuild or [This & That](/examples/this-and-that/)'s deliberately tiny cafe site. Either way, the whole thing is AGPLv3 and the source is [on GitHub](https://github.com/chobbledotcom/fun-pro-uk), so Fun Pro UK own it outright.
+
 If you want a site of similar scope and complexity, get in touch through the form below.
