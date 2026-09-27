@@ -13,6 +13,8 @@ The whole point of your website is to attract customers - but how do search engi
 
 **I'll use a fictional example of a "widget / doodah / wotzit hire" company based in North Manchester, but the details apply to any business.**
 
+A word on where I'm coming from: I've been building websites since the mid-2000s, including ten years as lead developer at Bouncy Castle Network where helping hirers with exactly this was a daily part of the job, and five years at Bandcamp working on SEO at a rather larger scale. I'm not a Google engineer - nobody outside Google knows exactly how the rankings are calculated - so take all of this as practitioner advice rather than gospel. (More about me [here](/about/stef/) if you're wondering who I am.)
+
 ---
 
 ## 1. What are keywords?
@@ -37,9 +39,11 @@ Potential customers of my widget hire company might search for things like:
 
 Keyword stuffing is the old practice of cramming your content full of keywords, trying to trick search engines into ranking you higher. An example would be writing something like _"Looking for widget hire in Manchester? Our Manchester widget hire services offer cheap widget hire deals across Manchester"_. Repeating _"widget hire"_ over and over doesn't just annoy your readers, it also signals to Google that your content is spammy, which risks getting your site penalised - and even if you don't get penalised, the content isn't doing you any favours either.
 
-[Google lists "Keyword stuffing" as a type of spam on their "Spam policies" page](https://developers.google.com/search/docs/essentials/spam-policies) and says _"to be eligble to appear in Google web search results, content shouldn't violate Google Search's overall policies or the spam policies listed on this page"_.
+[Google lists "Keyword stuffing" as a type of spam on their "Spam policies" page](https://developers.google.com/search/docs/essentials/spam-policies) and says _"to be eligible to appear in Google web search results, content shouldn't violate Google Search's overall policies or the spam policies listed on this page"_.
 
-SEO strategies used to revolve around _"keyword density"_, a formula for how often a keyword should appear on a page. These days that approach backfires - Google's algorithms care about whether your content is useful, not how many times you've crammed the keyword in. Instead of counting keywords, they look at things like:
+I watched this from the inside for a decade, helping hundreds of bouncy castle hirers with their content at Bouncy Castle Network, and the most common problem was always the same: keywords jammed into every available gap - footers, image filenames, meta tags, occasionally the same phrase three times in one sentence. Keyword density was the orthodox advice for years, and some of it did work back then, which is exactly why the habit stuck around long after Google stopped tolerating it. A few of the hirers I worked with have left [reviews](/reviews/) if you'd like a sense of how that all went.
+
+SEO strategies used to revolve around _"keyword density"_, a formula for how often a keyword should appear on a page. These days that approach backfires - Google's algorithms care about whether your content is useful, not how many times you've crammed the keyword in. That's partly a policy shift and partly the machinery: modern ranking systems are built on language models that try to read a page roughly the way a person skims it, working out what you actually do and who you serve. Word frequency on its own counts for very little next to whether the page genuinely covers the topic. There's a related trick worth knowing as well: behind the readable text you can add JSON-LD structured data - a machine-readable summary that tells Google directly what you sell, where you deliver, and what things cost, so the page doesn't have to say _"widget hire"_ twenty times just to be understood. Every site I build ships with it as standard (it's built into the [Chobble template](/services/chobble-template/)), and it takes a lot of the guesswork out of Google working out what you do. Instead of counting keywords, they look at things like:
 
 1. **Whether your page actually covers the topic**: does it answer the questions a customer might have? A widget hire page should cover pricing, delivery areas, FAQs, and what people use them for, not just repeat _"widget hire"_ over and over.
 2. **Whether it reads naturally**: does it sound like a human wrote it? Compare _"Our widget hire services in Prestwich offer Manchester widget hire at widget hire rates"_ (awkward) with _"We provide same-day widget delivery across Manchester, including Prestwich and Whitefield."_
@@ -88,6 +92,10 @@ If you notice your customers regularly ask _"Do you deliver to events on weekend
 - **Google's "People Also Ask"**: type your keyword (e.g. _"widget hire Manchester"_) into Google. The drop-down questions (like _"How long can I hire widgets for?"_) tell you what else people are wondering about.
 - **Listen to your customers**: what questions do they actually ask you? (e.g. _"Are deposits refundable?"_)
 
+For what it's worth, this was the easy part of my old job. I dealt with hire-company customers every day for a decade, and the questions barely varied: do you deliver to my area, what happens if it rains, do I pay a deposit, how long can I have it for. Your business will have its own equivalent handful of questions, and if you write them down you've basically got your content plan sorted for the year.
+
+There's a third source worth knowing about too: [Google Search Console](/guides/google-search-console/) shows you the actual searches people typed before landing on your pages, which beats guessing every time. It's free, I've made a [video walkthrough](/videos/google-search-console-walkthrough/) of setting it up, and it's one of the first places I look when I'm working out what a client's pages should be targeting.
+
 ---
 
 ## 4. Semantically-related words
@@ -124,7 +132,7 @@ Before saving, give the page a read - do your headers guide readers naturally? H
 
 ### 6. Meta descriptions
 
-A meta description is the short blurb under your link in search results. Google often replaces it with whatever snippet matches the search better, but when they do show yours, a good one will get you more clicks even if you're not ranking first - so it's worth writing.
+A meta description is the short blurb under your link in search results. Google often replaces it with whatever snippet matches the search better, but when they do show yours, a good one will get you more clicks even if you're not ranking first - so it's worth writing. In my experience Google rewrites meta descriptions more often than it uses the ones you write, which is worth knowing before you spend all afternoon on one - get it right, but put your best writing on the page itself.
 
 Your meta description should answer what the searcher actually wants. If someone types _"widget hire Prestwich"_, a vague _"We provide widgets. Contact us for more info"_ won't cut it. Try something like: _"Need widget hire in Prestwich? We're local experts offering flexible hire, 24/7 support, and same-day delivery. Book online today!"_ - clear, focused on what the person wants, and tells them what to do next.
 
@@ -142,7 +150,7 @@ It matters because over [43 million people](https://www.who.int/news-room/fact-s
 
 When writing alt tags, just describe what's actually in the image. _"Three blue widgets stacked at a Manchester park"_ is good, _"Best widget hire in Manchester"_ is not. Keep it short (under 125 characters) and include location or action details where relevant, like _"Heaton Park event setup with widgets"_ or _"Technician loading widgets into a van in Whitefield"_. Skip phrases like _"image of"_ - screen readers already announce that it's an image. For decorative graphics like dividers, leave the alt text empty.
 
-**BCN customers**: your product images already have solid alt tags matching their names - nice!
+**Bouncy Castle Network customers**: your product images already have solid alt tags matching their names - nice!
 
 Before saving, give it a check - does this alt text actually describe the image? Is it free of keyword spam? Would it make sense if the image didn't load?
 
@@ -177,7 +185,7 @@ If you're not a confident writer, a great approach for ensuring your content rea
 
 > "Here is a page I wrote for my website about widget hire in Prestwich. Evaluate its content from a potential customer's point of view and tell me how it could be improved. Highlight any spelling and grammar mistakes (using British English). Tell me about any unnatural repetition or keyword stuffing. Just tell me the fixes - do not re-write the document. I will paste the text in my next message."
 
-I just tested this exact prompt on a very keyword-stuffed, AI-generated page I found online, and got some excellent feedback.
+I just tested this exact prompt on a very keyword-stuffed, AI-generated page I found online, and got some excellent feedback. (That page, and my full write-up of what was wrong with it, is in my [critiquing AI output](/guides/critiquing-ai-output/) guide.)
 
 I advise against using any tools specifically designed to analyse "keyword density" - this approach is outdated and might encourage you to write unnatural-sounding text. It's much better to focus on a potential customer's point of view.
 
@@ -187,9 +195,9 @@ I advise against using any tools specifically designed to analyse "keyword densi
 
 Like every other job to do with your website, it's important to think of refining its content as a long-term job. There's no need to go and change every single page of your website today. Instead, start with the most high priority pages - your homepage and your most popular product or service, for example.
 
-Set some time aside every now and again to tweak the pages on your site, working through them in priority order. Trying to fix everything all at once will just overwhelm you - it's much easier to steadily improve it.
+Set some time aside every now and again to tweak the pages on your site, working through them in priority order. Trying to fix everything all at once will just overwhelm you - it's much easier to steadily improve it. It helps to measure as you go, too: I track rankings for client sites with an open source tool called SerpBear (there's a [video on how I set that up](/videos/tracking-search-results-serpbear/)), and it's genuinely motivating to watch a page climb after you've improved it. You don't need anything fancy though - even just noting where you rank for your five most important searches once a month will tell you whether your changes are doing anything.
 
-A bonus to gradual, constant improvement is that Google likes sites that were recently updated. Thinking of your content as a "once and done" process means you miss out on the "recently updated" search engine rankings boost!
+A bonus to gradual, constant improvement is that Google does seem to favour freshly-tended content. The company has never been very clear about exactly how much freshness matters, but in my experience pages that get looked at regularly hold their rankings better than ones left alone for years. Thinking of your content as a "once and done" process means missing out on all of that.
 
 ---
 
@@ -197,10 +205,12 @@ A bonus to gradual, constant improvement is that Google likes sites that were re
 
 I hope the main takeaway you've got from reading this document is to **write for humans first and foremost.** Search engines are excellent at determining whether content is focused on human visitors or manipulates SEO, and **they much prefer content that is useful for humans**.
 
+One last thing worth saying: be suspicious of anyone who guarantees you a first-place ranking on Google. The rankings depend on hundreds of factors that Google keeps to itself, so a guarantee is either a guess or a trick, and in my experience the people selling them are best avoided. Everything above is the slow, boring sort of advice - write for humans, answer real questions, keep chipping away - precisely because it's the sort that survives the algorithm updates.
+
 With that in mind, there are still some ways you can make your site more useful to search engines too, without compromising on the readability for humans:
 
 - Think about **customer intent** and write content to address it
 - **Mix up** your keywords to stop your text sounding repetitive
 - **Break up** long pages with headings and sub-headings
 
-**If you want help optimising your website content without keyword stuffing, send me a message through the form below.**
+**If you want help optimising your website content without keyword stuffing, send me a message through the form below and I'll reply within 48 hours.** It's my usual flat £200/hour with no lock-in - you own all the code whatever happens.
