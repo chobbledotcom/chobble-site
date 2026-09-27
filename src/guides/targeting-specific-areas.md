@@ -50,7 +50,7 @@ To make the page even more relevant to that area, you should also think about wh
 
 You should put yourself in the mind of your customer, and imagine what they would like to see when searching for "Widget hire in Prestwich". They want to know that your business serves and understands their area.
 
-The biggest set of these I've built was 21 location pages for a funfair hire company - town and city pages (Manchester to Glasgow) plus showground and venue pages (Newark Showground, the Yorkshire Event Centre at Harrogate, the NEC in Birmingham) - and collating genuinely local content for each one was where nearly all the effort went. You can see the result on the [Fun at the Fair example page](/examples/fun-at-the-fair/).
+The biggest set of these I've built was 21 location pages for a funfair hire company - town and city pages (Manchester to Glasgow) plus showground and venue pages (Newark Showground, the Yorkshire Event Centre at Harrogate, the NEC in Birmingham) - and collating genuinely local content for each one was where nearly all the effort went. You can see the result on the [Fun at the Fair example page](/examples/fun-at-the-fair/). If you're at the smaller end of that scale, have a look at the [Keen On Driving example page](/examples/keen-on-driving/) - an areas hub page covering five towns, with a locations tree set up in the CMS ready for per-town pages to be written as there's real content for them.
 
 Here's a rough outline of one of these pages:
 

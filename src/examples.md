@@ -8,7 +8,7 @@ meta_description: Real websites I've built for Prestwich businesses, charities a
 
 # Web design examples
 
-Websites I've built and hosted for clients over the past few years - tradespeople and security firms, bouncy castle hirers and play inspectors, cafes, shops, charities, musicians and holiday let owners. I'm currently hosting around 30 client sites, and every one of them is open source - the code for most sits on [my Forgejo instance](https://git.chobble.com/hosted-by-chobble/) or [my GitHub](https://github.com/chobbledotcom), so you can read it before you hire me and take it with you if you ever leave. I've been building websites for a living since the mid-2000s, which included leading development at Bouncy Castle Network from its first customer to over 1,000 and five years as a senior developer at Bandcamp - [the long version is here](/about/stef/) - and since going freelance in late 2024 I've pushed tens of thousands of commits to my public repositories, all of it open to inspection.
+Websites I've built and hosted for clients over the past few years - tradespeople and security firms, bouncy castle hirers and play inspectors, driving instructors, cafes, shops, charities, musicians and holiday let owners. I'm currently hosting around 30 client sites, and every one of them is open source - the code for most sits on [my Forgejo instance](https://git.chobble.com/hosted-by-chobble/) or [my GitHub](https://github.com/chobbledotcom), so you can read it before you hire me and take it with you if you ever leave. I've been building websites for a living since the mid-2000s, which included leading development at Bouncy Castle Network from its first customer to over 1,000 and five years as a senior developer at Bandcamp - [the long version is here](/about/stef/) - and since going freelance in late 2024 I've pushed tens of thousands of commits to my public repositories, all of it open to inspection.
 
 {% exampleCards 0, 6 %}
 
@@ -22,7 +22,7 @@ Every site I host gets checked daily for uptime and audited with Lighthouse - th
 
 Most of these are small sites for small businesses, so the typical outcome is a steady trickle of enquiries rather than a dramatic curve. A few I'm happy to name: [Renegade Solar](/examples/renegade-solar/) went from roughly one enquiry a year on his old Wix site to about one a week after the rebuild, Rachel at [My Alarm Security](/examples/myalarm-security/) has had her traffic double, [Garsdale Cottages](/examples/garsdale-cottages/) escaped the double commission Sykes was charging them for an £800 build, and Rachel has stuck with me since my Bouncy Castle Network days - [her review is here](/reviews/), along with more from people I've known for a decade.
 
-{% exampleCards 12, 8 %}
+{% exampleCards 12, 10 %}
 
 ## What's not on this page
 
