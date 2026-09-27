@@ -48,7 +48,7 @@ If you instead wrote your own prompt, with your own facts in it, you'd get somet
 >
 > People finding this on Google will want to know what I hire, if the castles are safe, delivery costs, what happens if it rains and how to book. Answer them in that order. Use headings so it's easy to read. If there's something you don't know about my business, put [FILL THIS IN] instead of guessing. Don't say "trusted" or any of that marketing talk."
 
-I tested that prompt with Neuralwatt's glm-5.3 model, and this is what it came back with:
+I tested that prompt with Z.ai's GLM 5.3 model (a great open source one), and this is what it came back with:
 
 > # Bouncy Castle Hire in Prestwich | Stef's Bouncers
 >
