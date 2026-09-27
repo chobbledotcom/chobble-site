@@ -13,7 +13,7 @@ This guide covers Google Search Console, a free tool that Google provide where y
 
 If you're trying to get your website ranking well and attracting visitors then I think you really ought to pay some attention to Google Search Console because it can give some really useful insights.
 
-At an absolute bare minimum, someone should be paying attention to the emails that Google Search Console sends, and fixing any issues that they mention. If I host your website (hosting starts at £10/month), I'm doing this for you, and if you want access then just drop me a message and I'll invite you.
+At an absolute bare minimum, someone should be paying attention to the emails that Google Search Console sends, and fixing any issues that they mention. If I host your website on the £40/month package with ongoing support, I'm doing this for you, and if you want access then just drop me a message and I'll invite you.
 
 One thing worth knowing about the video: the walkthrough is done on a real client's account - [This & That](/examples/this-and-that/), the Northern Quarter cafe whose site I built and host - so the graphs and numbers you'll see are from a working site rather than a made-up one. [Client reviews](/reviews/) are here if you'd like a sense of how those sites turn out.
 

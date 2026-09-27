@@ -23,7 +23,7 @@ You should take stock of what things on your Maps listing are incomplete or look
 
 ## Number 2: Google Search Console
 
-Next most important is another Google product, [Google Search Console](/guides/google-search-console/#content). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website (from £10/month), I'm doing it and if you ask me I'll invite your Google account to be an admin too.
+Next most important is another Google product, [Google Search Console](/guides/google-search-console/#content). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website on the £40/month package with ongoing support, I'm doing it, and if you ask me I'll invite your Google account to be an admin too.
 
 [Search Console](/guides/google-search-console/#content) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving. If you want to watch how specific search terms move over time, I use an open source tool called SerpBear for that - there's a [video of my setup](/videos/tracking-search-results-serpbear/) if you fancy giving it a bash.
 
