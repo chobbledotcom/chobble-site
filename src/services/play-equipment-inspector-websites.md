@@ -1,15 +1,17 @@
 ---
-title: Bouncy Castle Inspector Websites
-meta_title: Bouncy Castle Inspector Websites | PIPA & RPII | Chobble
-description: Websites for bouncy castle and inflatable inspectors, with play-test inspection logging built in - by a developer who spent a decade building booking software for the hire industry
+title: Play Equipment Inspector Websites
+meta_title: Play Equipment Inspector Websites | PIPA & RPII | Chobble
+description: Websites for play equipment inspectors - bouncy castles, big inflatables, playgrounds - with play-test inspection logging built in, by a developer who spent a decade building booking software for the hire industry
 order: 12
-snippet: Websites for PIPA and RPII inflatable inspectors
-meta_description: Websites for bouncy castle inspectors - town-by-town service pages, EN 14960 credibility, play-test inspection logging included - £200/hour flat rate
+snippet: Websites for PIPA and RPII play equipment inspectors
+meta_description: Websites for play equipment inspectors - town-by-town service pages, EN 14960 and EN 1176 credibility, play-test logging included - £200/hour flat rate
+redirect_from:
+  - /services/bouncy-castle-inspector-websites/
 ---
 
-# Bouncy castle inspector websites
+# Play equipment inspector websites
 
-If you inspect bouncy castles and other inflatable play equipment - PIPA testing, RPII inspections, annuals to BS EN 14960, whatever you call the work - your website has one specific job: convincing hire companies, councils, schools and venues that you're the competent, organised inspector your paperwork says you are. I build websites for inflatable inspectors and I host a few of them now, and every one of them can plug into [play-test](https://play-test.co.uk), the open source inspection logging tool I developed.
+If you inspect play equipment - bouncy castles and big inflatables to BS EN 14960, playgrounds to BS EN 1176, PIPA testing, RPII inspections, whatever you call the work - your website has one specific job: convincing hire companies, councils, schools and venues that you're the competent, organised inspector your paperwork says you are. I build websites for play equipment inspectors and I host a few of them now, and every one of them can plug into [play-test](https://play-test.co.uk), the open source inspection logging tool I developed.
 
 ## I know the hire industry from the inside
 
@@ -42,9 +44,9 @@ Standard rates, no industry markup: [£200 an hour](/prices/) for the build, hos
 ## Questions
 
 <details>
-<summary><strong>Do you only build sites for inflatable inspectors?</strong></summary>
+<summary><strong>Is it just bouncy castles?</strong></summary>
 
-No - Gary's main work is playground inspections to BS EN 1176 and BS EN 1177, and I've built sites across the play and events industry generally. If you inspect anything with a British Standard number attached, the shape of the site is the same: what you inspect, where you cover, why you're the one to trust with it.
+No - Gary's main work is playground inspections to BS EN 1176 and BS EN 1177, and plenty of BS EN 14960 inspectors spend most of their time on big inflatables rather than castles. If you inspect anything with a British Standard number attached, the shape of the site is the same: what you inspect, where you cover, why you're the one to trust with it.
 
 </details>
 
@@ -55,4 +57,4 @@ Not for the website. play-test exports everything as PDF, JSON and CSV, so nothi
 
 </details>
 
-**If you inspect inflatables and your website isn't pulling its weight, fill in the form below and tell me what you cover.**
+**If you inspect play equipment and your website isn't pulling its weight, fill in the form below and tell me what you cover.**
