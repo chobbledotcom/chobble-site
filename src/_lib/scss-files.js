@@ -4,7 +4,7 @@ const path = require("path");
 const getScssFiles = () => {
 	const menuItemsPath = path.join(__dirname, "../menu-items");
 	const siteDataPath = path.join(__dirname, "../_data/site.json");
-	
+
 	let siteData = {};
 	if (fs.existsSync(siteDataPath)) {
 		siteData = JSON.parse(fs.readFileSync(siteDataPath, "utf8"));

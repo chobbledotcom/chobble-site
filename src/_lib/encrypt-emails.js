@@ -18,19 +18,22 @@ const keyBytes = decodeBase64(keyText);
  * @returns {string} - HTML with encrypted email links
  */
 const encryptEmailsInHtml = (content) => {
-  if (!content.includes("mailto:") && !content.includes("@")) return content;
+	if (!content.includes("mailto:") && !content.includes("@")) return content;
 
-  const dom = new JSDOM(content);
-  const document = dom.window.document;
+	const dom = new JSDOM(content);
+	const document = dom.window.document;
 
-  // Encrypt existing mailto links
-  for (const link of document.querySelectorAll('a[href^="mailto:"]')) {
-    link.innerHTML = encrypt(link.innerHTML, keyBytes);
-    link.setAttribute("href", "#" + encrypt(link.getAttribute("href"), keyBytes));
-    link.setAttribute("data-decrypt-link", "");
-  }
+	// Encrypt existing mailto links
+	for (const link of document.querySelectorAll('a[href^="mailto:"]')) {
+		link.innerHTML = encrypt(link.innerHTML, keyBytes);
+		link.setAttribute(
+			"href",
+			"#" + encrypt(link.getAttribute("href"), keyBytes),
+		);
+		link.setAttribute("data-decrypt-link", "");
+	}
 
-  return dom.serialize();
+	return dom.serialize();
 };
 
 /**

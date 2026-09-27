@@ -8,5 +8,5 @@ const { getKeyText } = require("../_lib/encrypt-emails");
 const keyText = getKeyText();
 
 module.exports = function () {
-  return keyText;
+	return keyText;
 };

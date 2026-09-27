@@ -6,10 +6,10 @@
  */
 const { createCipheriv, randomBytes } = require("node:crypto");
 const {
-  BLOCK_BYTES,
-  decodeBase64,
-  encodeBase64,
-  NONCE_BYTES,
+	BLOCK_BYTES,
+	decodeBase64,
+	encodeBase64,
+	NONCE_BYTES,
 } = require("./aes-base64");
 
 const KEY_BYTES = 32; // AES-256
@@ -25,18 +25,18 @@ const generateKeyText = () => encodeBase64(randomBytes(KEY_BYTES));
  * @returns {string}
  */
 const encrypt = (plainText, keyBytes) => {
-  const nonce = randomBytes(NONCE_BYTES);
-  const iv = Buffer.alloc(BLOCK_BYTES);
-  nonce.copy(iv);
+	const nonce = randomBytes(NONCE_BYTES);
+	const iv = Buffer.alloc(BLOCK_BYTES);
+	nonce.copy(iv);
 
-  const cipher = createCipheriv("aes-256-ctr", Buffer.from(keyBytes), iv);
-  const codeBytes = Buffer.concat([
-    cipher.update(plainText, "utf8"),
-    cipher.final(),
-  ]);
+	const cipher = createCipheriv("aes-256-ctr", Buffer.from(keyBytes), iv);
+	const codeBytes = Buffer.concat([
+		cipher.update(plainText, "utf8"),
+		cipher.final(),
+	]);
 
-  const output = Buffer.concat([nonce, codeBytes]);
-  return encodeBase64(new Uint8Array(output));
+	const output = Buffer.concat([nonce, codeBytes]);
+	return encodeBase64(new Uint8Array(output));
 };
 
 module.exports = { decodeBase64, encodeBase64, encrypt, generateKeyText };
