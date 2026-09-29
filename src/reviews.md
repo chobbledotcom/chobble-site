@@ -68,14 +68,52 @@ Many thanks to the customers who have taken the time to leave me a review. **You
 >
 > _by [Andy at AS Home Furnishings](https://www.ashomefurnishings.co.uk)_
 
+## Reviews from Chobble Tickets users
+
+As well as building websites, I make [Chobble Tickets](https://tickets.chobble.com), an open source ticketing platform for events. The reviews below are from people who use it to sell tickets for their events, so they're about the ticketing platform.
+
+> The nice thing with Chobble Tickets is you don't really need to fight with it to get started. It works well pretty much out of the box with very little setup, whilst still being, at its heart, developer orientated.
+>
+> I dropped it into a static site without much hassle and had proper ticketing functionality without having to reinvent the wheel.
+>
+> Stefan's always open to feedback, and future development is driven by the people using it, rather than just disappearing into a roadmap somewhere.
+>
+> If you've got a project that needs ticketing, I'd definitely give it a go. It's easy to get started, plenty of features in it if you want to dig deeper, and there's not anything to lose by giving it a go.
+>
+> _by [Ben, webmaster at Jersey Girls](https://www.jersey-girls.co.uk), Chobble Tickets user_
+
+> The user journey is incredibly slick, reassuring, easy and fast - you get them from thinking about it to having gone through and done it within moments.
+>
+> It honestly has all the settings and functionality that comes from a matured system - but it's just getting started!
+>
+> It's super quick and efficient, plus it also means that the code is unique to the user - so you can't have someone share a screenshot of the QR code and scam free tickets.
+>
+> You can have as many people as you want checking people into the event and busting those queues without stupid excel lists and print outs.
+>
+> Webhooks allow you to set up connections and integrate with other systems. The system is open source, it promotes integration to other platforms and software, they're open to collaboration and will share development and it has sooo much potential.
+>
 > The developer at Chobble is happy to integrate with other platforms and is collaborative. I've personally worked with them on a few different projects and they are very big on interoperability - The ability for systems to exchange data and work with eachother freely and securely.
 >
-> The system is open-source, it promotes integration to other platforms and software, they're open to collaboration and will share development and it has sooo much potential.
+> Most stay and plays are somewhere between £1–£4 a ticket. If you add a ticket fee of £1 to it, then in some cases you're literally double the cost to the user - and if they are happy to pay that, then why should it go to the ticket platform? It's better off in your pocket.
 >
-> _by [Spencer at Elliotts Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)_
+> From start to finish the first set-up took 20 minutes (including setting up Stripe), but then I made 3 more tickets for the event that took under a minute each time.
+>
+> Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have to pay £50 a year for Chobble, but that cost is absorbed in less than the first event. It's literally paying for itself on the first event and still saving nearly £100.
+>
+> _by [Spencer at Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review), Chobble Tickets user_
 
-> So we reach out in regards to ticket system they offer. I mean it game changer. Save us few bob and made easier for customers! The QR system game changer ! No more holding data on paper it now all simple
+> I used Chobble tickets for an event we held for the British Bourbon Society. Previously, we had always used Eventbrite which takes quite a large portion of the ticket sales as fees. Chobble tickets is very easy to use and takes no cut (even though Stripe takes a very small amount). It's also much better for refunds as Eventbrite doesn't refund the booking fee. We will definitely be using Chobble for our future events and I recommend it for anyone putting paid ticketed events on.
 >
-> _by Paul, tickets user_
+> _by [Chris at British Bourbon Society](https://www.facebook.com/httkb/posts/pfbid0VPiUCz5UYAp8Z59LddLBw5GdGz3TA1xfErGmBhAP5dF7TisRNrXBZCadb4QP4T2Al), Chobble Tickets user_
+
+> Stefan has worked wonders for our business offering his new ticketing system. Previously we had used other software which would take a large percentage out of our tickets sold along with fees for using their system. Now we are with Chobble all our ticket sales are now ours and the small annual fee is fantastic for the service we received.
+>
+> Stefan is always on hand to guide you through setups and even when technical problems arise without our knowing he is in the background fixing them already. Highly recommend Stefan and his team. If you run events and sell tickets then you won't be disappointed with Chobble.
+>
+> _by [Alan at Mane Events](https://uk.trustpilot.com/reviews/6aaeccf7811cafb28ce8416b), Chobble Tickets user_
+
+> So we reached out in regards to the ticket system they offer. I mean it's a game changer. Saves us a few bob and made it easier for customers! The QR system is a game changer! No more holding data on paper, it's now all simple.
+>
+> _by [Paul](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8), Chobble Tickets user_
 
 **If you'd like to work with me to make something awesome for your business, please [get in touch](/contact/)!**
