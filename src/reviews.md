@@ -10,6 +10,14 @@ meta_description: What clients say about Chobble - transparent SEO advice, websi
 
 Many thanks to the customers who have taken the time to leave me a review. **You can leave one on [Trustpilot](https://uk.trustpilot.com/review/chobble.com), [Facebook](https://www.facebook.com/ChobbleDotCom) or [Google Maps](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8).**
 
+> Fantastic work from the start. Stef at Chobble has always been really helpful and knowledgeable when it comes to websites and SEO. They handled my website migration and hosting smoothly, and the site is really easy to manage and update.
+>
+> Whenever I've needed an update or change, Chobble has been very quick to get it implemented, which is a huge benefit. The SEO work has also been excellent, and I've been really pleased with the service throughout.
+>
+> Highly recommended.
+>
+> _by [Joanne at Monster Event Hire](https://www.monstereventhire.co.uk)_
+
 > Brilliant work, brilliant handover — exactly what you want from a web developer
 >
 > We can't recommend Stefan at Chobble highly enough. He built our website using the Chobble template and the entire experience, from first conversation through to handover, has been outstanding.
