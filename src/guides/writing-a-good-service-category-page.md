@@ -1,7 +1,7 @@
 ---
 title: Writing a Good Service / Product / Category Page
 snippet: How to write compelling product and service pages that answer why visitors should choose you.
-meta_title: Writing Effective Service & Product Pages | Free Guide | Chobble
+meta_title: Writing Effective Service & Product Pages | Chobble
 meta_description: Guide to writing service pages - answer customer questions, avoid common mistakes, convert visitors - Manchester web developer
 ---
 
@@ -19,7 +19,7 @@ Your aim should be to answer _The Why Question_ as comprehensively as you possib
 
 ## How I actually do this for clients
 
-The last few builds I've done have had the same shape - solar panel companies, event hire firms, other businesses with service areas - and the process is generally the same. I'll set up monitoring for the search results using [SERP Dino](https://serpdino.com), which tracks lots of keywords and scans for their positions. It's got a little bit of jankiness, but the results are pretty good, and if I look at overall trends, then I can see for a certain service area which terms aren't ranking well.
+The last few builds I've done have had the same shape - solar panel companies, event hire firms, other businesses with service areas - and the process is generally the same. I'll set up monitoring for the search results using [SERP Dino](https://serpdino.com), which tracks lots of keywords and scans for their positions. It's got a little bit of jankiness, but the results are pretty good, and if I look at overall trends, then I can see for a certain service area which terms aren't ranking well. For clients who'd rather keep an eye on it themselves, there's my [video on setting up rank tracking with SerpBear](/videos/tracking-search-results-serpbear/).
 
 For each of those pages, I look at the existing content on the site and see how well it addresses it. It might well be that there's just a few things that need fixing up - the page might be an exact duplicate of another page on the site, or it might have some obvious breakage on it. But probably, they're not specifically targeting that service and town at all, in a deliberate way, with a page.
 
@@ -29,7 +29,7 @@ That data has to come from the business, and this has been the hardest part, bec
 
 How much of this I do depends on how much the customer's paying me, as well. If they're doing an audit and they've got hundreds of pages, I can't give an analysis of hundreds of pages for £200 because it's very time consuming. So I'll scan an appropriate selection of pages, see where they stand, find where the worst ones are, and we'll come up with replacement content for that site - frozen around targeting a member of the public who's just landed on the site and doesn't know anything about the business, so it captures the EEAT metrics straight off the bat and sells the visitor on your business immediately [Google: #1](#ref-1).
 
-I've had loads of success with this method. I do the same treatment on my own Chobble sites, except I'm very rubbish at getting round to it, as with all of the marketing for Chobble - but I do see results for it when I work through the same process on my own side, too.
+The reason I trust this method is that I've watched it work at scale. I spent ten years as the lead developer at [Bouncy Castle Network](https://www.bouncycastlenetwork.com), a booking platform for bouncy castle hirers, going from the very first customer to over a thousand, and along the way I got hundreds of those hirers optimising their own sites using guides like this one, often with exactly this method - and it worked well enough that plenty of one-van operators ended up outranking national companies on their local searches. It's the same approach I use with my own SEO customers now. I do the same treatment on my own Chobble sites, except I'm very rubbish at getting round to it, as with all of the marketing for Chobble - but I do see results for it when I work through the same process on my own side, too.
 
 ## Types of mistake
 
