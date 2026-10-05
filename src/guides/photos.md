@@ -41,7 +41,7 @@ I see a lot of photos on websites that are really low resolution. To get into th
 
 Modern phones take photos thousands of pixels across - plenty for any website, which is why shooting on your phone and sending the original file works so well. The problems start when the photo gets squashed on its way to your site: a several-megabyte original can easily come out of WhatsApp or Facebook at a tenth of the size, and no amount of clever editing brings the discarded pixels back.
 
-Similarly, digital photos are compressed. You've probably heard of "JPEGs". This is the most common format for compressing photos. Compression discards some of the data of the photo so it can take less space and download more quickly. This is great, but if a photo is too compressed then it can look blurry and blocky.
+Similarly, digital photos are compressed. You've probably heard of "JPEGs". This is the most common format for compressing photos [MDN: #2](#ref-2). Compression discards some of the data of the photo so it can take less space and download more quickly. This is great, but if a photo is too compressed then it can look blurry and blocky.
 
 I suspect that many of these low resolution and very compressed photos end up there because people don't realise that if they send a photo over Whatsapp, or they save it from Facebook, or off someone else's website, it has probably been scaled and compressed somewhere along the way.
 
@@ -51,7 +51,7 @@ I should note that your website will likely still resize and compress those imag
 
 And remember the sort of screen it might end up on, as well. It might look fine on your phone, but someone could be viewing your site on a big 4K monitor with their face a foot from the screen, and that's very different from a photo that's 2 inches across on a dinky phone display.
 
-There's an SEO angle here too, and it's worth bearing in mind: photos are usually the heaviest things on a web page, and page speed is one of Google's ranking signals, so a page weighed down with huge uncompressed photos isn't just ugly - it can drag your Google rankings down as well. This is the sort of thing I spend a fair bit of my time on for clients, and it's amazing how often it gets missed.
+There's an SEO angle here too, and it's worth bearing in mind: photos are usually the heaviest things on a web page, and page speed is one of Google's ranking signals [Google: #1](#ref-1), so a page weighed down with huge uncompressed photos isn't just ugly - it can drag your Google rankings down as well. This is the sort of thing I spend a fair bit of my time on for clients, and it's amazing how often it gets missed.
 
 ## Taking a good photo
 
@@ -84,3 +84,8 @@ You might be tempted to just copy paste images from someone else's site onto you
 Alright, I hope this gives you plenty to think about when it comes to the photos on your site. Honestly, I'd sometimes say that having no photo is better than having a bad one. Bad photos can make your site look unprofessional, and might make your products look low quality. You don't have to take professional photographer grade photos for most industries, but you can at least take good cameraphone ones.
 
 **If you need help with product photography for your website, use the contact form below to get in touch.**
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/appearance/core-web-vitals](https://developers.google.com/search/docs/appearance/core-web-vitals) - "a set of metrics that measure real-world user experience for loading performance, interactivity, and visual stability"
+- <a id="ref-2"></a>#2 - [developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types) - "Good choice for lossy compression of still images (currently the most popular)."

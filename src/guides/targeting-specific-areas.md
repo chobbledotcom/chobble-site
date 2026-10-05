@@ -33,7 +33,7 @@ Your first step is to **make an ordered list of the areas you'd like to target**
 
 It might be tempting to just list all of your service areas on your site and call it quits, but this probably won't accomplish much unless you have no real competition.
 
-It's much better to **create pages for each service area and to fill these pages with genuinely useful content for visitors from that area**. You shouldn't just copy and paste the same content and switch the town names around because Google is really good at spotting duplicated content, and while they probably won't penalise you for it they also won't reward you.
+It's much better to **create pages for each service area and to fill these pages with genuinely useful content for visitors from that area**. You shouldn't just copy and paste the same content and switch the town names around because Google is really good at spotting duplicated content [Google: #1](#ref-1), and while they probably won't penalise you for it they also won't reward you.
 
 For each service location you should make a page that includes, at a bare minimum:
 
@@ -125,16 +125,16 @@ If you really can't think of anything to write on these pages, it's a good indic
 
 With a lot of writing ahead of you, you'll be tempted to use AI chatbots like ChatGPT to churn out these per-location pages. Don't! AI is useful for generating ideas or outlining content, but you shouldn't rely on it to write your actual pages. Here's why:
 
-• Search engines are really good at spotting AI-generated content
+• Search engines are really good at spotting AI-generated content [Google: #1](#ref-1)
 • AI doesn't 'know' your specific business or area and cannot 'create' new information - your page will end up quite generic and probably won't provide much real value to visitors
 
 By all means use AI to help brainstorm ideas or structure your content, but always write the actual text yourself. Your in-depth knowledge of your business and service areas will much more valuable to visitors than auto-generated text.
 
 ## Google maps / business profile
 
-You should ensure that you have a [business listing on Google](/guides/google-business/#content), and that you have filled out the 'service areas' inside that listing. You can log in at [business.google.com](https://business.google.com/), and then fill in the service areas when you click to edit your profile.
+You should ensure that you have a [business listing on Google](/guides/google-business/#content), and that you have filled out the 'service areas' inside that listing. You can log in at [business.google.com](https://business.google.com/), and then fill in the service areas when you click to edit your profile [Google: #2](#ref-2).
 
-While you're in there, **make sure all of the data is up-to-date and accurate**. Google rewards businesses that make the most of their profile, so fill in as much as you can and be sure to check in periodically to make sure everything is still correct.
+While you're in there, **make sure all of the data is up-to-date and accurate**. Google rewards businesses that make the most of their profile [Google: #3](#ref-3), so fill in as much as you can and be sure to check in periodically to make sure everything is still correct.
 
 ## A note about consistency
 
@@ -186,3 +186,9 @@ Attracting visitors from specific areas is a long-term project and takes real wo
 If you'd rather hand all of this over to someone, it's my day job - a flat £200/hour, you own all the code, and there's no lock-in.
 
 **If you need help targeting specific areas for your local business, use the contact form below to get in touch.**
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/essentials/spam-policies](https://developers.google.com/search/docs/essentials/spam-policies) - "Having multiple domain names or pages targeted at specific regions or cities that funnel users to one page"
+- <a id="ref-2"></a>#2 - [support.google.com/business/answer/9157481](https://support.google.com/business/answer/9157481) - "When you set your service area, it helps people find your Business Profile"
+- <a id="ref-3"></a>#3 - [support.google.com/business/answer/7091](https://support.google.com/business/answer/7091) - "Businesses with complete and accurate info are more likely to show up in local search results"

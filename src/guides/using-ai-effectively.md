@@ -57,7 +57,7 @@ However, the text all looks plausible. There's probably a good chance that when 
 
 **Summary: Chatbots generate their text from existing writings, and so their text probably won't meet Google's criteria for 'experience', 'expertise', 'authoritativeness' or 'trust'.**
 
-When categorising the content of your website, [Google uses a framework known as "EEAT"](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf):
+When categorising the content of your website, [Google uses a framework known as "EEAT"](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf) [Google: #1](#ref-1):
 
 - **Experience:** Does the content describe real-life experiences of the topic?
 - **Expertise:** Does the content display a level of expertise about the topic?
@@ -70,7 +70,7 @@ It's worth remembering that Google and Microsoft who own two of the biggest AI c
 
 You can counteract this by giving the chatbot lots of genuinely new information, such as details about your specific business and the way you work. The bot can then merge that new information with its existing database, to create text which does contain new information - which you provided.
 
-While Google doesn't currently penalise websites for using AI content (providing it meets the criteria above), I wouldn't be at all surprised if this changes in the future - another reason to never copy/paste their content without giving it a full once-over.
+While Google doesn't currently penalise websites for using AI content (providing it meets the criteria above), I wouldn't be at all surprised if this changes in the future - another reason to never copy/paste their content without giving it a full once-over [Google: #2](#ref-2).
 
 **Advice: Give the chatbot as much new information as you can before asking it to generate text for you. Be as specific as you can about the way you work, and what makes you different from your competition.**
 
@@ -142,7 +142,7 @@ Because chatbots are fed billions of pages of information, they can be really us
 
 You should prompt the chatbot with something like: _"Analyse this page of content from my Manchester widget hire company's website, and tell me if there's anything obvious that might be missing and could be useful for a visitor who landed on it looking to hire widgets for an event in Manchester"._
 
-It's important to keep the focus on visitors to your website. Do not ask the chatbot to _"make this page more search engine optimised"_, because it will just stuff a load of keywords in - and Google won't like it (my [keywords and keyword stuffing guide](/guides/keywords-and-keyword-stuffing/) covers why that backfires). Remember that chatbots are trained on billions of webpages, and many of those webpages will contain SEO advice which is very outdated and spammy.
+It's important to keep the focus on visitors to your website. Do not ask the chatbot to _"make this page more search engine optimised"_, because it will just stuff a load of keywords in - and Google won't like it (my [keywords and keyword stuffing guide](/guides/keywords-and-keyword-stuffing/) covers why that backfires [Google: #3](#ref-3)). Remember that chatbots are trained on billions of webpages, and many of those webpages will contain SEO advice which is very outdated and spammy.
 
 If you keep the focus on providing value to visitors, you're doing exactly what Google is looking for.
 
@@ -211,3 +211,9 @@ The legal ramifications of using AI content have yet to be properly tested in co
 Everything I wrote here is accurate at the time of writing. To my nerdy brain, it seems as though AI's capabilities have hit a bit of a plateau and are unlikely to get substantially more impressive any time soon. But, I might be wrong, and it might be the case that in the future you can ask a chatbot to write something in a Manchester dialect without it reading like a ridiculous Yorkshire stereotype.
 
 **If you want help using AI effectively for your website content, fill in the form below and I'll reply within 48 hours.** It's my day job, at a flat £200/hour with no lock-in, and [client reviews](/reviews/) are here if you'd like a sense of how it goes.
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/fundamentals/creating-helpful-content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) - "experience, expertise, authoritativeness, and trustworthiness"
+- <a id="ref-2"></a>#2 - [developers.google.com/search/blog/2023/02/google-search-and-ai-content](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content) - "it is not used to generate content primarily to manipulate search rankings"
+- <a id="ref-3"></a>#3 - [developers.google.com/search/docs/essentials/spam-policies](https://developers.google.com/search/docs/essentials/spam-policies) - "the practice of filling a web page with keywords or numbers in an attempt to manipulate rankings"

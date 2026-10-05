@@ -49,7 +49,7 @@ The structural fixes on a site like that are usually the ones in the pitfalls se
 
 Once you have a tree, give your URLs the same shape. Renegade's solar and battery page for Prestwich lives at /services/solar-and-battery-installations/prestwich/ - you can tell what that page is before you click it, and you can chop the end off the address to climb back up a level. Compare that with the kind of URL a lot of platforms generate, like /page?id=8472&cat=12, which tells nobody anything, including Google.
 
-Two practical notes from doing this a lot: use real words in your URLs, and keep them stable once they're live. Renaming things on a whim means redirects (below), so it's worth an extra minute of thought at the start.
+Two practical notes from doing this a lot: use real words in your URLs [Google: #1](#ref-1), and keep them stable once they're live. Renaming things on a whim means redirects (below), so it's worth an extra minute of thought at the start.
 
 ## Navigation and menus
 
@@ -57,7 +57,7 @@ It's likely that your site has a main menu that appears on every page. This is c
 
 ## Common pitfalls to avoid
 
-Let's talk about some common pitfalls that you can run into when structuring your site. The first and most serious is orphaned pages - this is when you've got a page on your site that isn't linked from anywhere. Search engines struggle to find these pages, and so will your visitors. Each page on your site needs at least one link from elsewhere to it. Running a [broken link checker](/videos/forward-links-and-broken-link-checker/) over your site will find both the orphans and the dead ends, and it takes about two minutes. It's also worth keeping an XML sitemap up to date (most site builders generate one for you) and submitting it through [Google Search Console](/guides/google-search-console/), so Google has a complete list of your pages even if a link goes missing somewhere.
+Let's talk about some common pitfalls that you can run into when structuring your site. The first and most serious is orphaned pages - this is when you've got a page on your site that isn't linked from anywhere. Search engines struggle to find these pages, and so will your visitors. Each page on your site needs at least one link from elsewhere to it [Google: #2](#ref-2). Running a [broken link checker](/videos/forward-links-and-broken-link-checker/) over your site will find both the orphans and the dead ends, and it takes about two minutes. It's also worth keeping an XML sitemap up to date (most site builders generate one for you) and submitting it through [Google Search Console](/guides/google-search-console/), so Google has a complete list of your pages even if a link goes missing somewhere [Google: #3](#ref-3).
 
 The next problem I see a bunch is when there are multiple pages that are basically about the same search phrase. For example, you might have a "Event Widgets" category which contains one "Event Widget" product. Google will have to pick one of these to show for "Event Widget" searches - so it's better to be focused and just have one page which matches that term.
 
@@ -65,7 +65,7 @@ Some sites also end up with lots of categories with barely any content in them, 
 
 ## Moving pages: redirects
 
-Sooner or later you'll want to move or rename a page, and this is the one part of restructuring that has real teeth. Any link to the old address - from your own site, from other sites, from Google - stops working unless you set up a redirect, which is a rule that says "this page has moved here, permanently". Redirects pass most of the old page's search value to the new address, but not instantly and not perfectly.
+Sooner or later you'll want to move or rename a page, and this is the one part of restructuring that has real teeth. Any link to the old address - from your own site, from other sites, from Google - stops working unless you set up a redirect, which is a rule that says "this page has moved here, permanently". Redirects pass most of the old page's search value to the new address, but not instantly and not perfectly [Google: #4](#ref-4).
 
 Whenever I restructure a site I keep a list of every URL that changed, add a redirect for each one, and then check [Google Search Console](/guides/google-search-console/) a few weeks later to make sure nothing fell out of the index. And I'll be honest about the risk: rankings can wobble for a few weeks while Google re-processes everything, even when the redirects are spotless. It's usually still worth doing - just don't do it the week before your busy season.
 
@@ -94,3 +94,10 @@ Don't worry if you need to revisit and adjust your structure as you go! That's a
 If you'd rather have someone do this with you, my [SEO audits](/services/seo-audits/) include a proper deep-dive into your site's structure, with a prioritised list of fixes and an honest note of what to leave alone. They start at £200 and I work to a [flat hourly rate](/prices/) beyond that, so you always know exactly what you're paying for - and if your structure is already fine, the audit will tell you that too.
 
 **If you'd like help structuring your website for better navigation and SEO, send me a message through the form below.**
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/crawling-indexing/url-structure](https://developers.google.com/search/docs/crawling-indexing/url-structure) - "When possible, use readable words ... in your URLs"
+- <a id="ref-2"></a>#2 - [developers.google.com/search/docs/crawling-indexing/links-crawlable](https://developers.google.com/search/docs/crawling-indexing/links-crawlable) - "Every page you care about should have a link from at least one other page on your site."
+- <a id="ref-3"></a>#3 - [developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) - "Submit a sitemap in Search Console using the Sitemaps report"
+- <a id="ref-4"></a>#4 - [developers.google.com/search/docs/crawling-indexing/301-redirects](https://developers.google.com/search/docs/crawling-indexing/301-redirects) - "uses the redirect as a signal that the redirect target should be canonical"

@@ -49,7 +49,7 @@ In the worst case, they can send you a postcard in the post, and the postcard wi
 
 The first link on the [Google Business page](https://business.google.com) is to edit the details about your business - your business name, your category, your description, opening date, contact details, website address, all that sort of stuff. You should fill in as much of this as you possibly can.
 
-You should especially make sure that your **Service Areas** are filled in because this tells Google directly which locations your customers are in. What Google reads here should agree with what your website says, too: when I set this up for clients, the site gets pages that mention the areas it serves (my [structuring your site guide](/guides/structuring-your-site/) covers the URL shape that works well for that), plus JSON-LD structured data repeating the hours and location, so Google isn't getting mixed messages from you. And if you've got opening hours that matter, then you should fill in the opening hours section too. There's tons of details that you can fill in here that will apply to different types of businesses.
+You should especially make sure that your **Service Areas** are filled in because this tells Google directly which locations your customers are in [Google: #1](#ref-1). What Google reads here should agree with what your website says, too: when I set this up for clients, the site gets pages that mention the areas it serves (my [structuring your site guide](/guides/structuring-your-site/) covers the URL shape that works well for that), plus JSON-LD structured data repeating the hours and location, so Google isn't getting mixed messages from you. And if you've got opening hours that matter, then you should fill in the opening hours section too. There's tons of details that you can fill in here that will apply to different types of businesses.
 
 If you run a restaurant, a cafe, or any type of shop, there's a whole bunch of details that you could fill in about the various ways that your business operates.
 
@@ -59,7 +59,7 @@ Next up is reading reviews, where you can see the reviews that people have left 
 
 ## Photos
 
-You can upload photos to show off your business. Make sure to upload at least your logo and a "Cover" photo, which will show in the header box on your listing profile. You might want to upload some examples of work that you've done, because that's what people who are searching for your business will be looking for. And you could upload a photo of yourself or your team, if you've got a smart one.
+You can upload photos to show off your business. Make sure to upload at least your logo and a "Cover" photo, which will show in the header box on your listing profile [Google: #2](#ref-2). You might want to upload some examples of work that you've done, because that's what people who are searching for your business will be looking for. And you could upload a photo of yourself or your team, if you've got a smart one.
 
 Listings that have got photos look better than listings that don't have photos!
 
@@ -116,3 +116,8 @@ One question people have about Google Business listings is whether they _have_ t
 But, you then won't show up in maps listing in the maps listing quite as often, so this is your call. I've taken the view that it's _probably_ worth my address showing up for the sake of showing up a bit more often. Whether that's accurate, I don't really know.
 
 **If you'd like assistance setting up or optimising your Google Business listing, fill in the form below and I'll reply within 48 hours.** It's the usual flat £200/hour, no lock-in.
+
+## References
+
+- <a id="ref-1"></a>#1 - [support.google.com/business/answer/9157481](https://support.google.com/business/answer/9157481) - "Your service area shows customers where you can provide your products and services."
+- <a id="ref-2"></a>#2 - [support.google.com/business/answer/6103862](https://support.google.com/business/answer/6103862) - "Set a cover photo at the top of your profile that best represents your business."

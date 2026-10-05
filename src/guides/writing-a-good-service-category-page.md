@@ -27,7 +27,7 @@ So then I'll make a page on their site, in a nice tiered, hierarchical way - at 
 
 That data has to come from the business, and this has been the hardest part, because it's very hard to get people to give me information about the inner workings of their business. What works the best is if you can just give me access to some sort of booking database, or client diary, or an export of that - with locations, and venues, and postcodes, or anything like that. Whatever you can give me that gives me some sort of suitable context about the business - real data - and then I can do the research myself, and find out where it is in that area that you work, and how your business operates there. And then the stuff on the page will be things that address those actual points.
 
-How much of this I do depends on how much the customer's paying me, as well. If they're doing an audit and they've got hundreds of pages, I can't give an analysis of hundreds of pages for £200 because it's very time consuming. So I'll scan an appropriate selection of pages, see where they stand, find where the worst ones are, and we'll come up with replacement content for that site - frozen around targeting a member of the public who's just landed on the site and doesn't know anything about the business, so it captures the EEAT metrics straight off the bat and sells the visitor on your business immediately.
+How much of this I do depends on how much the customer's paying me, as well. If they're doing an audit and they've got hundreds of pages, I can't give an analysis of hundreds of pages for £200 because it's very time consuming. So I'll scan an appropriate selection of pages, see where they stand, find where the worst ones are, and we'll come up with replacement content for that site - frozen around targeting a member of the public who's just landed on the site and doesn't know anything about the business, so it captures the EEAT metrics straight off the bat and sells the visitor on your business immediately [Google: #1](#ref-1).
 
 I've had loads of success with this method. I do the same treatment on my own Chobble sites, except I'm very rubbish at getting round to it, as with all of the marketing for Chobble - but I do see results for it when I work through the same process on my own side, too.
 
@@ -69,7 +69,7 @@ Can become the much easier to understand:
 
 ### Problem #3: Keyword-stuffed pages
 
-Keyword stuffed pages use the same words or phrases too often. This is done in an attempt to boost search rankings, but it makes the text sound unnatural and obscures the answers to _The Why Question_.
+Keyword stuffed pages use the same words or phrases too often [Google: #2](#ref-2). This is done in an attempt to boost search rankings, but it makes the text sound unnatural and obscures the answers to _The Why Question_.
 
 Neither search engines or your potential customers like this practice - it was an effective search engine technique back in 2010, but nowadays Google doesn't analyse how many times a keyword appears on your page. Instead, they look for evidence that your page addresses the customer's "intent", and for product pages that means evidence that it answers _The Why Question_.
 
@@ -97,7 +97,7 @@ When a customer tells me they use ChatGPT and it's well written, I don't normall
 
 ### Problem #5: ChatGPT'd the whole site to death
 
-The problem is that people generally have ChatGPT'd their site to death. So the site has loads and loads of pages on it, and all of the pages have very little information on them. And this is hard to undo, because Google has then - by the time that someone's replaced the old content on the site - got a picture in its head of what their site is like, and it's generally this low information density site. So, that takes unpicking, because we then need to rewrite basically everything, and they've probably got loads of pages that they don't want to delete, because they've convinced themselves that it has some value - and it does, some minor value - but it would be much nicer, really, to start over from scratch with well-written pages that address searcher intent and sell the business well from the start.
+The problem is that people generally have ChatGPT'd their site to death [Google: #3](#ref-3). So the site has loads and loads of pages on it, and all of the pages have very little information on them. And this is hard to undo, because Google has then - by the time that someone's replaced the old content on the site - got a picture in its head of what their site is like, and it's generally this low information density site. So, that takes unpicking, because we then need to rewrite basically everything, and they've probably got loads of pages that they don't want to delete, because they've convinced themselves that it has some value - and it does, some minor value - but it would be much nicer, really, to start over from scratch with well-written pages that address searcher intent and sell the business well from the start.
 
 ## The combination problem
 
@@ -180,3 +180,9 @@ I hope the above gives you plenty to think about when writing your product, cate
 **"For this product / service / category specifically, why should the visitor choose your business over someone else?"**
 
 **If you want help writing service pages that convert visitors into customers, send me a message through the form below.**
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/fundamentals/creating-helpful-content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) - "experience, expertise, authoritativeness, and trustworthiness, or what we call E-E-A-T"
+- <a id="ref-2"></a>#2 - [developers.google.com/search/docs/essentials/spam-policies](https://developers.google.com/search/docs/essentials/spam-policies) - "Repeating the same words or phrases so often that it sounds unnatural"
+- <a id="ref-3"></a>#3 - [developers.google.com/search/blog/2023/02/google-search-and-ai-content](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content) - "If you see AI as an inexpensive, easy way to game search engine rankings, then no."

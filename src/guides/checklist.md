@@ -25,7 +25,7 @@ You should take stock of what things on your Maps listing are incomplete or look
 
 Next most important is another Google product, [Google Search Console](/guides/google-search-console/#content). This is a control panel for your domain that will tell you a bunch of useful things about your website. Ideally, someone should be keeping an eye on this control panel on your behalf. If I'm hosting your website on the £40/month package with ongoing support, I'm doing it, and if you ask me I'll invite your Google account to be an admin too.
 
-[Search Console](/guides/google-search-console/#content) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting. You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving. If you want to watch how specific search terms move over time, I use an open source tool called SerpBear for that - there's a [video of my setup](/videos/tracking-search-results-serpbear/) if you fancy giving it a bash.
+[Search Console](/guides/google-search-console/#content) will tell you a lot about how Google views your pages - which ones are indexed, what search terms they show up for, and how many clicks you're getting [Google: #1](#ref-1). You might learn through here that your site shows up for search terms you weren't expecting, and it can give you inspiration for areas worth improving. If you want to watch how specific search terms move over time, I use an open source tool called SerpBear for that - there's a [video of my setup](/videos/tracking-search-results-serpbear/) if you fancy giving it a bash.
 
 ## Number 3: good homepage
 
@@ -59,7 +59,7 @@ Like with the empty pages, if you've got social media icons on your site for web
 
 I was a bit hesitant about including this because it's not really specific to your website, but anyway, it's likely that you'll have to create a bunch of different accounts on various websites for things related to your business. Like you might have a Facebook account, a Google account, a Tripadvisor account, a domain name account, a Paypal account, you get the idea. You should be using unique passwords for each of these accounts, and the passwords should be random and complicated - ideally really big long strings of random letters.
 
-When a website is hacked and its users and passwords are leaked, hackers use scripts to try those same email addresses and passwords on loads of other important sites because they know lots of people use the same password for everything. If they break into your Facebook page they might use it for spam, which is embarrassing, but if they got into places like your domain name or your Paypal account they could cause material problems for your business. The only way to protect against this is to never reuse the same password for multiple sites.
+When a website is hacked and its users and passwords are leaked, hackers use scripts to try those same email addresses and passwords on loads of other important sites because they know lots of people use the same password for everything [NCSC: #3](#ref-3). If they break into your Facebook page they might use it for spam, which is embarrassing, but if they got into places like your domain name or your Paypal account they could cause material problems for your business. The only way to protect against this is to never reuse the same password for multiple sites.
 
 There are two methods for using random passwords I recommend - the first is a password manager, like Bitwarden at [Bitwarden.com](https://bitwarden.com/) (the one I use myself) or 1Password at [1Password.com](https://1password.com/). These securely create and backup new passwords and hide them behind a single master password, so you only need to remember one. And the other option is just writing your passwords down in a notepad and keeping it somewhere safe in your house.
 
@@ -67,7 +67,7 @@ There are two methods for using random passwords I recommend - the first is a pa
 
 It feels a bit weird to be all the way at nine before mentioning the website content, but eh. There's really no point worrying about the text until the fundamentals are in order.
 
-At the bare minimum you should check that each page has a meta title, that the page starts with a heading, and that the content of the page mentions the thing it's about at least once. This really isn't much but I'm surprised by how often I see pages on websites that are almost empty, and really even two sentences looks much more reassuring to visitors and search engines than nothing at all.
+At the bare minimum you should check that each page has a meta title, that the page starts with a heading [Google: #2](#ref-2), and that the content of the page mentions the thing it's about at least once. This really isn't much but I'm surprised by how often I see pages on websites that are almost empty, and really even two sentences looks much more reassuring to visitors and search engines than nothing at all.
 
 For a deeper dive into writing content you might wanna check out my other guides about [keywords](/guides/keywords-and-keyword-stuffing/#content), [writing a good product page](/guides/writing-a-good-service-category-page/#content), and [using AI](/guides/using-ai-effectively/#content), but in terms of a "go live" checklist, I think just making sure there's _something_ down will do.
 
@@ -76,3 +76,9 @@ For a deeper dive into writing content you might wanna check out my other guides
 Any visitor to your site that doesn't land on the exact thing they want is going to have to deal with your site's navigation, so you should make sure that this behaves really intuitively. Check your site on both desktop and mobile and make sure that each item on the navigation is visible, that it describes its destination well, that you're not going to overwhelm visitors with choice, and that the order of items makes sense. As a guide for order, I think people expect to see a "Home" or "About" link first, and a "Contact" last, but this is your call - as long as you've considered it.
 
 **If you'd like help implementing this SEO checklist for your website, drop me a message through the contact form on this page and I'll reply within 48 hours.** It's a flat £200/hour with no lock-in, and you own all the code I write for you.
+
+## References
+
+- <a id="ref-1"></a>#1 - [support.google.com/webmasters/answer/9128668](https://support.google.com/webmasters/answer/9128668) - "View Google Search traffic data for your site: how often your site appears in Google Search, which search queries show your site"
+- <a id="ref-2"></a>#2 - [developers.google.com/search/docs/appearance/title-link](https://developers.google.com/search/docs/appearance/title-link) - "Make sure every page on your site has a title specified in the ... element ... Google looks at various sources when creating title links, including the main visual title, heading elements"
+- <a id="ref-3"></a>#3 - [ncsc.gov.uk/news/use-credential-stuffing-tools](https://www.ncsc.gov.uk/news/use-credential-stuffing-tools) - "Credential stuffing takes advantage of people reusing username and password combinations across different accounts"

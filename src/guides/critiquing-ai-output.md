@@ -24,8 +24,8 @@ At a brief glance this might seem okay, but if you copied something like this on
 - It says you cover the "entire Greater Manchester area" - really? That's a very big delivery radius (honest delivery areas are their own topic - [targeting specific areas](/guides/targeting-specific-areas/))
 - It says "suitable for all ages and occasions" - but some units will be kids-only
 - It says you have "flexible booking options" - but you probably don't take last minute bookings, or might want a deposit up front
-- It contains "bouncy castle hire Manchester" repeated unnaturally - this is called "keyword stuffing" and Google doesn't like it (my [keywords guide](/guides/keywords-and-keyword-stuffing/) goes into that in depth)
-- It doesn't mention ANYTHING unique about your business
+- It contains "bouncy castle hire Manchester" repeated unnaturally - this is called "keyword stuffing" and Google doesn't like it [Google: #1](#ref-1) (my [keywords guide](/guides/keywords-and-keyword-stuffing/) goes into that in depth)
+- It doesn't mention ANYTHING unique about your business [Google: #2](#ref-2)
 - It phrases things in USA corporate speak - "surrounding disticts"? Nobody says that here.
 - It doesn't mention anything about the nuances of hiring in Manchester - for example, the near-continuous rain
 - It's one big paragraph which is hard to read.
@@ -88,7 +88,7 @@ I tested that prompt with Z.ai's GLM 5.3 model (a great open source one), and th
 
 This is much better! It's easier to read, it provides value to the visitor, and it doesn't make as many assumptions about your business because the input text is much more detailed. It also addresses what a searcher would want in the first few lines - what you hire, where, and what happens if it rains - rather than making them wade through a paragraph of "bouncy castle hire Manchester".
 
-You should **still** edit this text yourself, though - it's missing the types of products you hire (the prompt never said), and you'll want to nudge the voice so it sounds like you rather than like a chatbot imitating a friendly business. But as a basis to build a page from, this is a great start. And note the chatbot left [FILL THIS IN] markers and finished by telling you what needs filling in before the page goes live, rather than making it up - that's the placeholder trick doing its job.
+You should **still** edit this text yourself, though - it's missing the types of products you hire (the prompt never said), and you'll want to nudge the voice so it sounds like you rather than like a chatbot imitating a friendly business [Google: #3](#ref-3). But as a basis to build a page from, this is a great start. And note the chatbot left [FILL THIS IN] markers and finished by telling you what needs filling in before the page goes live, rather than making it up - that's the placeholder trick doing its job.
 
 There's a trade-off in the prompt above, and it's worth knowing about: the more facts you pack in, the less the chatbot has to invent, but the longer the prompt, the more likely it is to quietly drop one of your facts - so check each one made it into the draft. That's why "don't make anything up" is in there: it cuts the amount of checking you have to do, it doesn't eliminate it.
 
@@ -99,3 +99,9 @@ One caveat: chatbot output changes model by model, so the transcripts pasted abo
 For more on this topic, read my [guide to using AI effectively](/guides/using-ai-effectively/) - and if you'd like me to critique your website the way I've critiqued this one, have a look at my [SEO audits](/services/seo-audits/).
 
 **If you'd like a critique like this of your own site's copy, drop me a message through the form below and I'll reply within 48 hours.**
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/essentials/spam-policies](https://developers.google.com/search/docs/essentials/spam-policies) - "Repeating the same words or phrases so often that it sounds unnatural"
+- <a id="ref-2"></a>#2 - [developers.google.com/search/docs/fundamentals/creating-helpful-content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) - "Does your content clearly demonstrate first-hand expertise and a depth of knowledge"
+- <a id="ref-3"></a>#3 - [developers.google.com/search/docs/fundamentals/creating-helpful-content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) - "using generative AI to produce large amounts of text without manual oversight or curation represents little to no effort"

@@ -77,7 +77,7 @@ Or, if you're considering posting something to social media which has the room t
 
 It's about spreading the effort out to multiple places on the internet, your website included.
 
-It's worth remembering throughout this that you probably won't see instant results on your website. It takes a while for search engines to find the new content, and then for people to find it, and then for them to tell their friends, or book with you - it's a slower burn than social media sites where a post either does well or it doesn't within a couple of days. Don't be too disheartened by this - like I said before it's about the cumulative effort, and if you track things on a week to week or month to month scale you'll see visitor numbers to your site climb and more conversions coming in.
+It's worth remembering throughout this that you probably won't see instant results on your website. It takes a while for search engines to find the new content [Google: #1](#ref-1), and then for people to find it, and then for them to tell their friends, or book with you - it's a slower burn than social media sites where a post either does well or it doesn't within a couple of days. Don't be too disheartened by this - like I said before it's about the cumulative effort, and if you track things on a week to week or month to month scale you'll see visitor numbers to your site climb and more conversions coming in.
 
 ## Time investment
 
@@ -89,7 +89,7 @@ Improving your web presence is like exercising - the important thing is to do _s
 
 ## Measuring success
 
-Ultimately, the three metrics that matter are how many people found your site, how many of those got in touch with you, and how many of THOSE were able to pay for your services. It's worth setting up some sort of way to measure this - maybe that's as simple as using [Google Search Console](/guides/google-search-console/) to see how many times your site showed in results and was clicked (impressions and clicks are both there on the Performance report), and counting the number of enquiries you get.
+Ultimately, the three metrics that matter are how many people found your site, how many of those got in touch with you, and how many of THOSE were able to pay for your services. It's worth setting up some sort of way to measure this - maybe that's as simple as using [Google Search Console](/guides/google-search-console/) to see how many times your site showed in results and was clicked (impressions and clicks are both there on the Performance report [Google: #2](#ref-2)), and counting the number of enquiries you get.
 
 The annoying reality with web marketing is that it's often very hard to pinpoint what specific action led to someone becoming a customer. Like, let's say you add a new blog post to your site describing an interesting job you did at a food festival. I've never been your customer but I happen to see that post when researching something else, and tell my friend who runs food festivals the next time I see them. She searches you on Google, finds your business, and spends a load of money with you. Your stats will show that this sale came from Google, but really they'd been primed by their friend who read a blog post of yours.
 
@@ -98,3 +98,8 @@ Of course, a good way around this is to just ask customers how they found you - 
 And if all of this sounds like a load of effort you'd rather hand over to someone else, that's the work I do for people - a flat £200/hour, hosting from £10 a month, you own all the code, and there's no lock-in of any kind, so you can take what I've built and walk away with it whenever you like. It's also completely fine to do it all yourself and never hire anyone; everything on this page is free advice either way.
 
 **If you're ready to start promoting your website properly, use the contact form below to get in touch.**
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) - "Crawling can take anywhere from a few days to a few weeks"
+- <a id="ref-2"></a>#2 - [support.google.com/webmasters/answer/7576553](https://support.google.com/webmasters/answer/7576553) - "Clicks: The number of times a user clicked your site from Google Search results"

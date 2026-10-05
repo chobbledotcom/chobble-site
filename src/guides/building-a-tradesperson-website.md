@@ -39,7 +39,7 @@ I wanted to put the various trade standards or certifications that Renegade has 
 
 The benefit of giving each accreditation its own page is that it encourages Renegade to write a bit about each, and why it's important.
 
-By having substantive content about each accreditation, the Renegade Solar site stands a good chance of ranking well on Google when people search for the names of those accreditations.
+By having substantive content about each accreditation, the Renegade Solar site stands a good chance of ranking well on Google when people search for the names of those accreditations [Google: #1](#ref-1).
 
 ## Services pages
 
@@ -51,11 +51,11 @@ By breaking each service into its own page we have the potential to write some r
 
 I added a "location" collection for pages targeting specific service areas. The team can add pages here to target those areas in search results, by providing valuable information specific to people from those areas looking for solar panel installers.
 
-It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be genuinely useful and unique. This requires some thinking about - my [marketing guides](/guides/) and [videos](/videos/) cover these pages in detail (and they're free for everyone!). As a website customer, Renegade also gets my personal support to help them understand and implement these strategies.
+It's important here not to just copy/paste a load of text to each page and change "Whitefield" to "Prestwich" - instead, each page should be genuinely useful and unique [Google: #2](#ref-2). This requires some thinking about - my [marketing guides](/guides/) and [videos](/videos/) cover these pages in detail (and they're free for everyone!). As a website customer, Renegade also gets my personal support to help them understand and implement these strategies.
 
 ## Contact form
 
-I discovered **Formspark** ([formspark.io](https://formspark.io)) while building this site and so used them for its contact page ([source code](https://git.chobble.com/hosted-by-chobble/renegade-solar/src/branch/main/src/_includes/contact-form-form.html)). Formspark let you create custom contact forms which they deliver as emails - which is often the only bit of "dynamic" functionality needed on a website. Their pricing is great, too - you just buy the credits you need and they're used when people hit the forms - no monthly charges.
+I discovered **Formspark** ([formspark.io](https://formspark.io)) while building this site and so used them for its contact page ([source code](https://git.chobble.com/hosted-by-chobble/renegade-solar/src/branch/main/src/_includes/contact-form-form.html)). Formspark let you create custom contact forms which they deliver as emails - which is often the only bit of "dynamic" functionality needed on a website. Their pricing is great, too - you just buy the credits you need and they're used when people hit the forms - no monthly charges [Formspark: #3](#ref-3).
 
 I originally embedded a **Letterbird** ([letterbird.co](https://letterbird.co)) form, which is a nice free option, but the cost of Formspark is so low that I can include it for my website customers, no bother.
 
@@ -84,3 +84,9 @@ If you'd rather use a different setup, the build steps live in a small config fi
 **If you're a tradesperson and you want me to build a website for you, just like the one mentioned in this guide, please [contact me](/contact/) to get the ball rolling.**
 
 My pricing is very transparent and at the end you'll have full access to the source code behind your site. You can host with me and get personal support to help you understand and implement the strategies in my [marketing guides](/guides/) and [videos](/videos/) (which are free for everyone!), like Renegade are doing, or host wherever you like - totally fine either way.
+
+## References
+
+- <a id="ref-1"></a>#1 - [developers.google.com/search/docs/fundamentals/creating-helpful-content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) - "Does the content provide a substantial, complete, or comprehensive description of the topic?"
+- <a id="ref-2"></a>#2 - [developers.google.com/search/docs/essentials/spam-policies](https://developers.google.com/search/docs/essentials/spam-policies) - "Doorway abuse is when sites or pages are created to rank for specific, similar search queries."
+- <a id="ref-3"></a>#3 - [formspark.io/pricing](https://formspark.io/pricing/) - "No recurring payments, no surprises, spend your data at your pace."
