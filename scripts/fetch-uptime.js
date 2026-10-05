@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S deno run -A
 
 // Fetches uptime stats from Uptime Kuma:
 // - Prometheus /metrics for monitor IDs, status, response time, cert days

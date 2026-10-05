@@ -3,7 +3,7 @@
 # Run all test files in the test directory
 find test -name "*.test.js" -type f | while read -r test_file; do
     echo "Running tests in $test_file..."
-    node "$test_file"
+    deno run -A "$test_file"
     
     # Check if the test failed
     if [ $? -ne 0 ]; then

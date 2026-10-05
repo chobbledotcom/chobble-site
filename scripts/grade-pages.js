@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S deno run -A
 
 // grade-pages.js - grade local chobble-site pages against the house content
 // rules using Jev (TypeSafe System One) via the OpenCode zen API.
@@ -46,6 +46,7 @@ const DEFAULT_KEY_FILE = "/run/secrets/opencode_api_key";
 // as HTTP 400 and quietly degrade the page to mechanical-only grading.
 const MAX_BODY_CHARS = 24000;
 const MAX_LINKS = 40;
+const MAX_EXTERNAL_LINKS = 40;
 
 // Files excluded from grading. Legal text is excluded because the house voice
 // deliberately does not apply to it; the rest are tooling or boilerplate. They
@@ -223,33 +224,46 @@ function stripCodeFences(md) {
 
 const ASSET_PREFIX_RE = /^\/(assets|css|img|fonts|favicon)/;
 
-/** Internal page links from the copy: markdown links plus raw HTML anchors,
- * deduped, fragments/queries stripped, trailing slash normalised. Asset
- * paths are ignored (passthrough files, not pages). */
+/** Links from the copy: markdown links plus raw HTML anchors, deduped.
+ * Internal hrefs get fragments/queries stripped, a trailing slash added and
+ * asset paths dropped; external http(s) hrefs keep their absolute URL. The
+ * external list feeds the outbound-citations check, not link resolution. */
 function extractLinks(md) {
-  const links = [];
-  const seen = new Set();
+  const internal = [];
+  const external = [];
+  const seenInternal = new Set();
+  const seenExternal = new Set();
   const push = (text, href) => {
     if (!href) return;
     href = href.trim();
-    if (!href.startsWith("/") || href.startsWith("//")) return;
-    if (ASSET_PREFIX_RE.test(href)) return;
-    const clean = href.split("#")[0].split("?")[0];
-    if (!clean || clean === "/") return;
-    const norm = clean.endsWith("/") ? clean : clean + "/";
+    if (!href || href.startsWith("//")) return;
     text = (text || "").replace(/\s+/g, " ").trim();
     if (!text) return;
-    const key = `${norm}|${text}`;
-    if (seen.has(key)) return;
-    seen.add(key);
-    links.push({ text, href: norm });
+    if (href.startsWith("/")) {
+      if (ASSET_PREFIX_RE.test(href)) return;
+      const clean = href.split("#")[0].split("?")[0];
+      if (!clean || clean === "/") return;
+      const norm = clean.endsWith("/") ? clean : clean + "/";
+      const key = `${norm}|${text}`;
+      if (seenInternal.has(key)) return;
+      seenInternal.add(key);
+      internal.push({ text, href: norm });
+    } else if (/^https?:\/\//i.test(href)) {
+      const key = `${href}|${text}`;
+      if (seenExternal.has(key)) return;
+      seenExternal.add(key);
+      external.push({ text, href });
+    }
   };
   let m;
   const mdRe = /(?<!!)\[([^\]]*)\]\(([^)\s]+)[^)]*\)/g;
   while ((m = mdRe.exec(md)) !== null) push(m[1], m[2]);
   const htmlRe = /<a\s[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi;
   while ((m = htmlRe.exec(md)) !== null) push(m[2], m[1]);
-  return links.slice(0, MAX_LINKS);
+  return {
+    internal: internal.slice(0, MAX_LINKS),
+    external: external.slice(0, MAX_EXTERNAL_LINKS),
+  };
 }
 
 /** Build the extraction state for one page. */
@@ -283,6 +297,15 @@ function extractPage(file, forcedType) {
   const h1Count = (fenceless.match(/^# /gm) || []).length;
   const subCount = (fenceless.match(/^#{2,3} /gm) || []).length;
   const words = prose.split(/\s+/).filter(Boolean).length;
+  const links = extractLinks(body);
+
+  // The references footer sits after the closing CTA paragraph, so the CTA
+  // check looks at the page above the "## References" heading - otherwise a
+  // fully-cited guide stops "closing" with its contact line.
+  const refIdx = body.search(/^## References\s*$/m);
+  const tailSource = refIdx === -1 ? body : body.slice(0, refIdx);
+  const tail = markdownToText(stripCodeFences(stripBlockquotes(tailSource)))
+    .slice(-320);
 
   return {
     file: rel,
@@ -297,10 +320,11 @@ function extractPage(file, forcedType) {
     prose,
     proseNoQuotes,
     words,
-    links: extractLinks(body),
+    links: links.internal,
+    externalLinks: links.external,
     h1Count,
     subCount,
-    tail: proseNoQuotes.slice(-320),
+    tail,
   };
 }
 
@@ -537,6 +561,47 @@ function checkInternalLinksResolve(x, urlMap) {
   return ["PASS", 1, "all copy links resolve to local pages"];
 }
 
+// Outbound citations: guides should link primary sources for their
+// technical claims. The GEO research (arXiv 2311.09735) put a 30-40%
+// visibility lift on linked sources and Google's expertise guidance asks
+// for clear sourcing. Mechanical by design: a Jev version of this check
+// kept judging pages uncited even with the outbound link list injected
+// into the question - cross-referencing links against claims in a long
+// body is beyond the judge, and spotting a documentation URL does not
+// need judging. A link counts when its host is a known documentation,
+// standards, government or reference domain, or its path looks like
+// documentation.
+const CITATION_HOST_RE = new RegExp(
+  "^(www\\.)?(developers\\.google\\.com|support\\.google\\.com|schema\\.org" +
+    "|developer\\.mozilla\\.org|w3\\.org|whatwg\\.org|who\\.int|arxiv\\.org" +
+    "|doi\\.org|([a-z0-9-]+\\.)?gov\\.uk|([a-z-]+\\.)?wikipedia\\.org)$",
+);
+const CITATION_PATH_RE = /\/(docs|documentation|reference|manual)(\/|$)/i;
+
+function checkOutboundCitations(x) {
+  const cited = x.externalLinks.filter((l) => {
+    try {
+      const u = new URL(l.href);
+      return (
+        CITATION_HOST_RE.test(u.hostname.toLowerCase()) ||
+        CITATION_PATH_RE.test(u.pathname)
+      );
+    } catch {
+      return false;
+    }
+  });
+  const sample = cited.map((l) => l.href).slice(0, 3).join(", ");
+  if (cited.length >= 2)
+    return ["PASS", 1, `${cited.length} primary-source outbound link(s) (${sample})`];
+  if (cited.length === 1)
+    return ["WARN", 0.5, `only 1 primary-source outbound link (${sample})`];
+  return [
+    "FAIL",
+    0,
+    "no primary-source outbound citations - link technical claims to official docs, standards or research",
+  ];
+}
+
 function checkCtaClose(x) {
   const ctaish = [
     "form below",
@@ -555,7 +620,7 @@ const CHECKS = [
   { id: "meta_title_length", label: "Meta title length", engine: "code",
     fn: checkMetaTitleLength, types: ALL_TYPES, weight: 3 },
   { id: "meta_description_present", label: "Meta description present", engine: "code",
-    fn: checkMetaDescriptionPresent, types: ALL_TYPES, weight: 6 },
+    fn: checkMetaDescriptionPresent, types: ALL_TYPES, weight: 3 },
   { id: "meta_description_length", label: "Meta description length", engine: "code",
     fn: checkMetaDescriptionLength, types: ALL_TYPES, weight: 2 },
   { id: "h1_present", label: "Exactly one h1", engine: "code",
@@ -582,6 +647,8 @@ const CHECKS = [
     fn: checkInternalLinkCount, types: ALL_TYPES, weight: 4 },
   { id: "internal_links_resolve", label: "Internal links resolve", engine: "code",
     fn: checkInternalLinksResolve, types: ALL_TYPES, weight: 5, critical: true },
+  { id: "outbound_citations", label: "Outbound citations to primary sources", engine: "code",
+    fn: checkOutboundCitations, types: ["guide"], weight: 3 },
   { id: "cta_close", label: "Closes with a contact CTA", engine: "code",
     fn: checkCtaClose, types: ALL_TYPES, weight: 2 },
 
@@ -771,14 +838,43 @@ const CHECKS = [
         "browsers deciding what to read next. Then judge: does `body` " +
         "say early who the page is for and what it offers, answer the " +
         "main questions that searcher would have (cost, process, " +
-        "evidence, next step), and handle intent mismatch plainly where " +
-        "it matters - pointing accidental traffic to the right place " +
-        "rather than leaving them to work it out?",
+        "evidence, next step), make the subheadings mirror those " +
+        "questions so a skimmer or an answer engine can find each one, " +
+        "and handle intent mismatch plainly where it matters - pointing " +
+        "accidental traffic to the right place rather than leaving them " +
+        "to work it out?",
       criteria: [
         "No intent addressed - the page never says who it is for or what a searcher would want from it",
-        "Intent implied but late or incomplete - a searcher has to work out what the page offers, or leaves with the main questions unanswered",
-        "Intent addressed - who the page is for and the searcher's main questions are answered clearly",
-        "Intent addressed early and completely - searcher questions answered up front, next steps obvious, mismatches handled plainly",
+        "Intent implied but late or incomplete - a searcher has to work out what the page offers, leaves with main questions unanswered, or finds subheadings that do not match the questions they would ask",
+        "Intent addressed - who the page is for and the searcher's main questions are answered clearly, with subheadings that largely mirror those questions",
+        "Intent addressed early and completely - searcher questions answered up front, subheadings that read like the searcher's questions, next steps obvious, mismatches handled plainly",
+      ],
+    },
+    score_pass: 2, score_warn: 1 },
+
+  // Quotable answer: answer engines assemble responses by lifting short
+  // passages, and the GEO study's largest gains came from content written
+  // to be quoted. Checks for a self-contained statement of the page's main
+  // answer that an answer engine could lift verbatim.
+  { id: "quotable_answer", label: "Quotable self-contained answer", engine: "jev",
+    types: ALL_TYPES, weight: 4,
+    question: {
+      type: "score",
+      instructions:
+        "AI search (Google AI Overviews, ChatGPT, Perplexity) builds " +
+        "answers by lifting short passages from pages. Judge whether " +
+        "`body` states its main answer in one or two self-contained " +
+        "sentences near the top - what the subject is, who it is for, " +
+        "what it costs, or the direct answer to the page's central " +
+        "question - written so it could be quoted verbatim without the " +
+        "surrounding paragraphs. Sentences that only make sense in " +
+        "context ('That's because...', 'It works the same way for both') " +
+        "do not count.",
+      criteria: [
+        "No self-contained statement of the answer anywhere - every key sentence needs its surrounding paragraph to make sense",
+        "The answer is present but buried mid-page or leaning on surrounding sentences",
+        "One clear self-contained answer near the top - a sentence or two that could be lifted verbatim",
+        "Opens with a direct answer and keeps self-contained phrasing down the page - definitions, prices and process each stated in standalone sentences",
       ],
     },
     score_pass: 2, score_warn: 1 },
@@ -851,6 +947,9 @@ function buildJevState(x) {
     // must not be judged against the voice rules (see CLAUDE.md)
     body_house: x.proseNoQuotes.slice(0, MAX_BODY_CHARS),
     internal_links: x.links,
+    // outbound links (absolute URLs) - authority/citation context for the
+    // judge; the outbound_citations check reads them code-side instead
+    external_links: x.externalLinks,
     business: {
       name: "Chobble CIC",
       who: "one freelance web developer (Stef) based in Prestwich, Manchester",
