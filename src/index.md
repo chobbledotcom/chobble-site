@@ -3,8 +3,8 @@ layout: home.html
 title: Website Design & Tech Consultancy in Prestwich
 heading: Web Developer in Prestwich, Manchester - Websites You Own
 description: I build websites for businesses in Prestwich and Manchester that you own and control - fast-loading, easy to update, no monthly lock-in
-meta_title: Web Developer Prestwich | Websites You Own & Control | Chobble
-meta_description: I build websites for Prestwich businesses that you own and control. You can edit them yourself, move to any host, and never pay me again if you don't want to. No subscriptions, no lock-in.
+meta_title: Web Developer Prestwich | Websites You Own | Chobble
+meta_description: I build websites for Prestwich businesses that you own and control. Edit them yourself, move to any host, and never pay me again if you don't want to.
 ---
 
 **I build websites for businesses that they can own and control.** You can edit it yourself, move to any hosting provider, and never pay me again if you don't want to - or you can host with me at [fair prices](/prices/), with support included or not.
@@ -13,13 +13,14 @@ I'm Stef, a web developer with over 20 years of experience (including five years
 
 You get the complete source code for everything I build, delivered via GitHub. My own tools and templates are all open source ([here's my code repository](https://git.chobble.com)) - but your website doesn't have to be public if you don't want it to be. I have [transparent, flat-rate pricing](/prices/) so you know exactly what you're paying for.
 
-**My rate is discounted 50% for charities, co-operatives, artists, musicians, and sustainable businesses.**
+**My rate is discounted 50% for charities, co-operatives, artists, musicians, and sustainable businesses.** If something isn't a good fit, I'll tell you and point you towards someone who can help.
 
-I also write [free guides about building websites](/guides/) and create [online marketing advice videos](/videos/) to help you grow.
+I also write [free guides about building websites](/guides/) and create [online marketing advice videos](/videos/) to help you grow. A few clients have left [reviews](/reviews/), and there are [example websites](/examples/) if you'd like to see the work first.
 
 ## What I can do for you
 
 - **[New websites](/services/static-websites/)** that load quickly and are easy for you to update
+- **[Simple booking websites](/prices/#chobble-tickets-websites)** from £40/month with no setup fee, using my Chobble Tickets platform
 - **[Custom web applications](/services/software-developer/)** - booking systems, databases, business tools
 - **[SEO audits](/services/seo-audits/)** - clear instructions for ranking higher on Google
 - **[Website content advice](/services/website-content-advice/)** - a prioritised list of improvements

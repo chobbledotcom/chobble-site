@@ -20,9 +20,9 @@ If you teach music - whether that's workshops, one-to-one lessons, or both - you
 - **Website:** [UkeGroupNorth.com](https://www.ukegroupnorth.com)
 - **Source code:** [on GitHub](https://github.com/chobbledotcom/uke-group-north)
 
-Uke Group North runs ukulele workshops across Greater Manchester and Lancashire. They needed a website to promote their weekly sessions, share downloadable songbooks, and help people find their nearest group.
+Uke Group North is based in Bury and Ramsbottom and runs ukulele workshops across Greater Manchester and Lancashire. They needed a website to promote their weekly sessions, share downloadable songbooks, and help people find their nearest group.
 
-![Uke Group North website homepage showing a welcoming header "Join Our Musical Community" with details of weekly Sing & Strum Sessions at four locations across Greater Manchester. The page features information about beginner workshops, one-to-one lessons with Ben, and the benefits of learning ukulele. Navigation links include Workshops, Events, News, About, Reviews, Learn, Support and Contact.](/assets/examples/uke-group-north.png)
+![Uke Group North website homepage showing a welcoming header "Join Our Musical Community" with details of weekly Sing & Strum Sessions at four locations across Greater Manchester and Lancashire. The page features information about beginner workshops, one-to-one lessons with Ben, and the benefits of learning ukulele. Navigation links include Workshops, Events, News, About, Reviews, Learn, Support and Contact.](/assets/examples/uke-group-north.png)
 
 ### What the site does
 
@@ -36,16 +36,16 @@ I set the site up with [PagesCMS](https://pagescms.org), which means Uke Group N
 
 The site is a [static website](/services/static-websites/#content) built on the [Chobble Template](/services/chobble-template/#content). Here's what's under the bonnet:
 
-- Built with **Eleventy** - a static site generator using Node JS
+- Built with **Eleventy** - a static site generator
 - Uses **PagesCMS** for content editing - connects to GitHub and provides a visual editor
 - Contact form via **Formspark** with **BotPoison** spam protection
 - Automatically builds with **GitHub Actions** whenever content is updated
-- Deployed to **Bunny CDN** for fast global delivery
-- **Minimal CSS** via SCSS - no heavy frameworks
+- Deployed to **Bunny.net** for fast global delivery
+- **Simple stylesheets** - no heavy frameworks
 - **[instant.page](https://instant.page/)** for link prefetching on hover
 - Domain registered with **Krystal**
 - Fully responsive design
-- SEO optimisation
+- Search engine optimisation
 
 You can view all of this yourself by [clicking here to view the site's source code](https://github.com/chobbledotcom/uke-group-north).
 

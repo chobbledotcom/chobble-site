@@ -14,10 +14,10 @@ That rate is **discounted 50%** at **£100 per hour** for:
 
 <div class="emoji-list" markdown>
 
-- 🌍 [Charities and co-operatives](/services/charity-web-development/#content)
-- 🎸 Musicians, artists, and writers
-- 💚 [Vegan businesses](/services/vegan-business-websites/#content)
-- 🌞 Renewable energy businesses
+- [Charities and co-operatives](/services/charity-web-development/#content)
+- Musicians, artists, and writers
+- [Vegan businesses](/services/vegan-business-websites/#content)
+- Renewable energy businesses
 </div>
 
 **[Click here to estimate the cost of a website build, from as low as £100 (discounted).](/price-calculator/)**
@@ -57,6 +57,26 @@ For custom web applications (booking systems, databases, business tools), I host
 
 You can also host the application yourself, since you own the full source code. I'm happy to help you get set up on any host.
 
+<a id="chobble-tickets-websites"></a>
+## Chobble Tickets websites
+
+If you want a simple website and would rather not pay a build fee up front, I can set you up on [Chobble Tickets](https://tickets.chobble.com), the ticketing platform I make, and run it as your website. This is a different arrangement from the hosting packages above: the site runs on Chobble Tickets, and the monthly fee covers the setup and support as well as the hosting.
+
+It costs **£40 per month with no setup fee**, or **£20 per month** for charities, community groups and co-operatives. That includes:
+
+- A hosted Chobble Tickets site on your own domain
+- Your domain and email set up for you (you pay the registrar and email provider directly)
+- Your listings, prices and business details imported from a brain dump in the chat thread, using the importers I've built for the platform
+- Advice on running the site properly, with a standing chat thread for questions
+- Signal or WhatsApp if that's easier for you
+- Priority for feature requests
+
+The site has a public listings page, news and content pages, and the booking and payment features. Ticket money goes straight to your own Stripe, Square or SumUp account, and Chobble takes no cut of sales.
+
+It's built around listings and bookings, so it suits classes, sessions, appointments, hires, workshop places and events. It's limited in some ways and easier in others: it won't give you a completely bespoke page design, but it will get you online quickly without a build fee. [Chalkie's School for Dogs](https://www.chalkiesdogs.co.uk) is a good example of the arrangement in practice.
+
+Managed Chobble Tickets hosting on its own is £50 a year or £5 a month, with 50% off the annual price for charities, community groups, artists and musicians. The £40 package is the one where I do the setup and stay on hand, and [the support page on the tickets site](https://tickets.chobble.com/support/) has the full detail.
+
 ## Emails & domain renewals
 
 I will help you source the ideal provider for your needs and budget. You will register and pay them directly, unless you _really_ don't want to, in which case we can sort something out.
@@ -71,8 +91,8 @@ If you want to host shared documents for your team ([Nextcloud](/services/de-goo
 
 If you're local to Prestwich and want me to visit your premises to help you with a technical issue, I'm happy to do so - but we'll need to make sure the job is well specced first. We should meet over a coffee first to describe the job in as much detail as we can.
 
-## Take my money!
+## Payment
 
 I take 50% of the total fee before starting working, with the other 50% due on completion. I'll send you a link to pay by card - I don't take cheques or cash.
 
-**If this all sounds fair, just fill in the form below to get in touch and we'll get things moving!**
+**If this all sounds fair, fill in the form below to get in touch and we'll get things moving.**

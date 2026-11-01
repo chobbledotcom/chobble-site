@@ -7,14 +7,14 @@ order: 1
 redirect_from:
   - /services/wix-site-edits/
   - /services/wordpress-developer/
-meta_description: Fast websites that load in under a second, hosted from £10/month (£5 for charities) without support, and that you fully own - easy to edit yourself - Prestwich developer - 50% off for charities and artists
+meta_description: Fast, affordable websites you fully own - pages load in under a second, hosting from £10/month (£5 for charities), and you edit them yourself.
 ---
 
 # Fast, affordable websites you own
 
 Most small business websites are doing one job: telling people what you do, where you are, and how to get hold of you. That job doesn't require a database, a login system, a thousand plugins, or a monthly subscription to a platform that locks your content inside its walls. It requires a handful of pages that load fast, read well on a phone, and stay online without anyone having to log in and patch something every other week.
 
-That's what I build. The technical name for it is a "static" site, which just means the pages are written out in advance and then served as plain HTML, the same way the early web worked - which turns out to be the right shape for the kind of sites that most small businesses actually need. They load fast (pages feel instant once you've started browsing, because the next page gets quietly preloaded in the background), cost almost nothing to host (I can host a typical brochure site for **£10/month**, or **£5/month** if you qualify for the charity rate; you can also host elsewhere for free, since you own all the code - see the [prices page](/prices/#content) for the supported version), and you own all the source so you're never locked in.
+That's what I build. The technical name for it is a "static" site, which just means the pages are written out in advance and then served as plain web pages, the same way the early web worked - which turns out to be the right shape for the kind of sites that most small businesses need. They load fast (pages feel instant once you've started browsing, because the next page gets quietly preloaded in the background), cost almost nothing to host (I can host a typical brochure site for **£10/month**, or **£5/month** if you qualify for the charity rate; you can also host elsewhere for free, since you own all the code - see the [prices page](/prices/#content) for the supported version), and you own all the source so you're never locked in.
 
 You don't need to be technical to edit one of these. If you can edit a document, you can update your site.
 
@@ -54,7 +54,7 @@ If you're in Prestwich we can do this in person over a coffee at Cuckoo or where
 
 A site that loads fast, works on phones, and presents its content clearly is doing the things Google rewards in search rankings - which is what these sites are built for from the foundation up. That gives you a strong technical starting point.
 
-But the foundation is just the foundation. Ranking well also takes ongoing work like [writing useful content](/guides/keywords-and-keyword-stuffing/), [building links from other sites](/guides/backlinks/), and keeping the site current. The technical bit gets you to the start line; the content work is how you actually compete.
+But the foundation is just the foundation. Ranking well also takes ongoing work like [writing useful content](/guides/keywords-and-keyword-stuffing/), [building links from other sites](/guides/backlinks/), and keeping the site current. The technical bit gets you to the start line; the content work is how you compete.
 
 If you host with me you get help with all of that - I provide [free marketing guides](/guides/) and [videos](/videos/) and personal support working through them.
 
@@ -77,8 +77,8 @@ Like every job, I work to a [flat hourly rate](/prices/) and break down where ea
 - **2 hours: Base setup**
   - Creating an empty site
   - Backing it up via Git
-  - Adding a CMS
-  - Inviting you to the CMS
+  - Adding a content editor
+  - Inviting you to the editor
   - Auto-publishing to your static host of choice
 - **1-6 hours: Base template**
   - Cloning an existing template and adjusting the text to fit your business, or building a new template from scratch
@@ -95,7 +95,7 @@ Like every job, I work to a [flat hourly rate](/prices/) and break down where ea
 
 Not every site needs every stage, and if you can do some of it yourself I'll happily guide you through it.
 
-If you also run events, this pairs well with [Chobble Tickets](https://tickets.chobble.com) for flat-fee ticketing. And if you'd rather build it yourself, the [Chobble Template](/services/chobble-template/) is the open-source base most of these sites are built on - it's free.
+If you also run events, this pairs well with [Chobble Tickets](https://tickets.chobble.com) for flat-fee ticketing. Chobble Tickets can also run as a simple website for £40 a month with no setup fee - the [prices page](/prices/#chobble-tickets-websites) explains when that fits and when a full build is the better choice. And if you'd rather build it yourself, the [Chobble Template](/services/chobble-template/) is the open-source base most of these sites are built on - it's free.
 
 ## Get in touch
 

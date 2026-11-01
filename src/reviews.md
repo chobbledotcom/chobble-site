@@ -10,6 +10,8 @@ meta_description: What clients say about Chobble - transparent SEO advice, websi
 
 Many thanks to the customers who have taken the time to leave me a review. **You can leave one on [Trustpilot](https://uk.trustpilot.com/review/chobble.com), [Facebook](https://www.facebook.com/ChobbleDotCom) or [Google Maps](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8).**
 
+## Website and SEO reviews
+
 > Fantastic work from the start. Stef at Chobble has always been really helpful and knowledgeable when it comes to websites and SEO. They handled my website migration and hosting smoothly, and the site is really easy to manage and update.
 >
 > Whenever I've needed an update or change, Chobble has been very quick to get it implemented, which is a huge benefit. The SEO work has also been excellent, and I've been really pleased with the service throughout.
@@ -68,7 +70,7 @@ Many thanks to the customers who have taken the time to leave me a review. **You
 
 > I've known Stefan for the last 7 years. He's genius for ranking well SEO work. He knows everything about ranking well on different platforms due to my old business. Since I've launched my new business, I got my new website done of him really well presented seo everything about it was perfect, he's the best at what he does, anything I need to know about media sharing content tags ect always ask for his knowledge, he's happy to guide me no that's what now that's what you call a service, good luck with your new adventure, will defo recommend 🫶🏼
 >
-> _by [Mohammed at Monkey Play Land](https://www.monkeyplayland.co.uk)_
+> _by [Mohammed at Monkey Play Land](https://www.monkeyplayland.co.uk), Haslingden_
 
 > Stefan knows his stuff with SEO and websites and gives great advice. I only joined 6 days ago and with the advice I've been given one of my websites went from 7th to 2nd within 5 days, really is great advice with no messing about. The price for the knowledge is great. Why pay £100's or £1000s of pounds when you can learn to do it yourself?
 >
@@ -110,7 +112,7 @@ As well as building websites, I make [Chobble Tickets](https://tickets.chobble.c
 >
 > If you've got a project that needs ticketing, I'd definitely give it a go. It's easy to get started, plenty of features in it if you want to dig deeper, and there's not anything to lose by giving it a go.
 >
-> _by [Ben, webmaster at Jersey Girls](https://www.jersey-girls.co.uk), Chobble Tickets user_
+> _by [Ben, webmaster at Jersey Girls](https://www.jersey-girls.co.uk), Burrs Country Park, Bury, Chobble Tickets user_
 
 > The user journey is incredibly slick, reassuring, easy and fast - you get them from thinking about it to having gone through and done it within moments.
 >
@@ -146,4 +148,4 @@ As well as building websites, I make [Chobble Tickets](https://tickets.chobble.c
 >
 > _by [Paul](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8), Chobble Tickets user_
 
-**If you'd like to work with me to make something awesome for your business, please [get in touch](/contact/)!**
+**If you'd like to work with me on your website, [get in touch](/contact/).**

@@ -3,12 +3,14 @@ layout: page.html
 title: Web Design in Manchester
 description: Manchester web designer offering affordable websites from £600. 20+ years experience. You own the code, transparent pricing, based in north Manchester.
 meta_title: Web Design Manchester | Websites from £600 | Local Developer
-meta_description: Manchester web designer - websites from £600 - based in Prestwich just up the road - 20+ years building sites - you own all the code - 50% off for charities
+meta_description: Manchester web designer - websites from £600 - based in Prestwich nearby - 20+ years building sites - you own the code - 50% off for charities
 ---
 
 # Web design in Manchester
 
 I'm Stef, a web developer based in Prestwich, just up the road in north Manchester, and I build websites for businesses and organisations across the city. Sites start at around **£600** - or **£300** if you're a charity, co-op, artist, [vegan business](/services/vegan-business-websites/#content), or similar. I'm happy to meet wherever suits you: your place, a coffee in the city centre, or round mine in Prestwich for a brew.
+
+The sites are built with [Eleventy](/services/eleventy-developer/) and hosted on [Bunny.net](/hosting/), with PagesCMS for editing, so they load quickly and you can change the words yourself.
 
 The sites I build load fast and are laid out so that someone who lands on them from a Google search finds what they came for in a few seconds - phone number, address, opening hours, what you do, all obvious straight away. They're straightforward for you to edit yourself, and you own all the code outright.
 
@@ -20,7 +22,7 @@ The sites I build load fast and are laid out so that someone who lands on them f
 4. A training session, the full source code, and written instructions come next
 5. Then you choose: host with me, or take it to any provider you like
 
-Most of the time, the thing that actually slows a project down is content - photos, words, opening hours. My [free guides](/guides/) and [videos](/videos/) walk through all of that if you want a hand with it, or I can put you in touch with a copywriter.
+Most of the time, the thing that slows a project down is content - photos, words, opening hours. My [free guides](/guides/) and [videos](/videos/) walk through all of that if you want a hand with it, or I can put you in touch with a copywriter.
 
 If you're after something more involved - a booking system, a customer database, a full custom application - have a look at my [software development services](/services/software-developer/) for the bigger stuff.
 
@@ -34,9 +36,9 @@ If you're after something more involved - a booking system, a customer database,
 
 Some of those are simple brochure sites, others have booking systems or full catalogues - the principle's the same whatever the size: build it so it loads fast, ranks well, and you can edit it yourself.
 
-## Location pages that actually work
+## Location pages that work
 
-Because I've spent a lot of time on local search, I know how to build the area pages that help a business show up across a city. [Fun Pro UK](/examples/fun-pro-uk/) has 16 dedicated location pages for cities including London, Manchester, Birmingham and Liverpool, each targeting city-specific search phrases while still giving visitors a page that feels relevant to them. If you serve the whole of Manchester rather than one spot, that's the sort of thing we can build into your site from the start - and there's a longer version of the thinking in my guide to [targeting specific areas](/guides/targeting-specific-areas/).
+Because I've spent a lot of time on local search, I know how to build the area pages that help a business show up across a city. [Fun Pro UK](/examples/fun-pro-uk/) has 16 dedicated location pages for cities including London, Manchester, Birmingham and Liverpool, each targeting city-specific search phrases while still giving visitors a page that feels relevant to them. If you serve the whole of Manchester, that's the sort of thing I can build into your site from the start - and there's a longer version of the thinking in my guide to [targeting specific areas](/guides/targeting-specific-areas/).
 
 ## Transparent pricing
 
@@ -52,4 +54,6 @@ Hosting starts at £10/month, or £40/month with ongoing support and personal he
 
 If you'd like a quote, fill in the form below - or if you'd rather meet for a coffee first, mention that and we'll sort it out.
 
-There's more on [web design in Prestwich](/prestwich/web-design/) if you're that way inclined, plus [example websites](/examples/) and the [full pricing breakdown](/prices/) if you're still weighing it up.
+There's more on [web design in Prestwich](/prestwich/web-design/) if you're that way inclined, plus [example websites](/examples/) and the [full pricing breakdown](/prices/) if you're still weighing it up. If you're in one of the towns up this way, I've also written pages for [Cheetham Hill & Crumpsall](/cheetham-hill/), [Whitefield](/whitefield/), [Bury](/bury/) and [Rossendale](/rossendale/).
+
+If none of that answers your question, [get in touch](/contact/) and ask.

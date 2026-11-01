@@ -1,6 +1,6 @@
 ---
 title: Vegan Business Websites
-meta_title: Vegan Web Design Discount | 50% Off | Prestwich, Manchester | Chobble
+meta_title: Vegan Web Design | 50% Off | Prestwich | Chobble
 description: 50% discount for vegan businesses - expert web development from a lifelong veggie and supporter of animal rights
 order: 9
 snippet: Half-price websites for ethical businesses
@@ -41,7 +41,7 @@ The [Chobble Template](/services/chobble-template/) handles the kind of things t
 
 ## How a build goes
 
-First we have a chat, free, about what you actually need. I'll send you a written quote with a breakdown of what each hour is for. Most sites are ready within a week or so once you've got your content together. You'll own the source code outright - I use open-source tools throughout, so nothing about your site is rented from a third party, and if you ever want to move it to another developer or host, you can.
+First we have a chat, free, about what you need. I'll send you a written quote with a breakdown of what each hour is for. Most sites are ready within a week or so once you've got your content together. You'll own the source code outright - I use open-source tools throughout, so nothing about your site is rented from a third party, and if you ever want to move it to another developer or host, you can.
 
 ## Questions
 
@@ -66,7 +66,7 @@ Websites are my actual expertise. Through running Vegan Prestwich I've picked up
 
 </details>
 
-If you also run events, [Chobble Tickets](https://tickets.chobble.com) handles flat-fee ticketing at the same discounted rate.
+If you also run events, [Chobble Tickets](https://tickets.chobble.com) handles flat-fee ticketing at the same discounted rate: 50% off annual hosting, and £20/month for the setup-and-support package. [Full pricing is here](/prices/#chobble-tickets-websites).
 
 ## Get in touch
 

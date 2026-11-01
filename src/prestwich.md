@@ -17,7 +17,7 @@ Paid work round here has included the site [Renegade Solar](/examples/renegade-s
 
 ## The technical setup
 
-Everything I build is static: you edit plain text files (or use a visual editor, or just send me the changes), the site rebuilds itself, and hosting through Bunny.net's CDN costs pennies a month. There's no database, no plugins, and nothing to patch, which is why the sites load quickly and keep loading quickly - the same boring Eleventy-based setup that all of [the examples](/examples/) I publish run on, with the code available on [my Git forge](https://git.chobble.com) if you want to read it.
+Everything I build is static: you edit plain text files (or use a visual editor, or just send me the changes), the site rebuilds itself, and hosting through Bunny.net costs pennies a month. There's no database, no plugins, and nothing to patch, which is why the sites load quickly and keep loading quickly - the same boring Eleventy-based setup that all of [the examples](/examples/) I publish run on, with the code available on [my Git forge](https://git.chobble.com) if you want to read it.
 
 ## Pricing in plain terms
 
@@ -25,6 +25,6 @@ On money: simple websites start from around £600 (half that for charities, co-o
 
 I'm happy to visit you at your premises, or we can meet at Costa or Cuckoo or Goods In, or you can come to my house for a brew.
 
-I work across the whole of Greater Manchester, not just Prestwich - there's more on [web design in Manchester](/manchester/web-design/) if you're further afield.
+I work across Greater Manchester and the Rossendale Valley as well as Prestwich - there's more on [web design in Manchester](/manchester/web-design/) if you're further afield, and I've written separate pages for [Cheetham Hill & Crumpsall](/cheetham-hill/), [Whitefield](/whitefield/), [Bury](/bury/) and [Rossendale](/rossendale/) if you're in one of those towns.
 
 Some of the services I offer to Prestwich businesses (or [get in touch](/contact/) if you'd rather just talk through what you need):

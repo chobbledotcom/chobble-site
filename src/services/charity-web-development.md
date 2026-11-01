@@ -1,6 +1,6 @@
 ---
 title: Charity Web Development
-meta_title: Charity Website Development Manchester | 50% Discount | Chobble
+meta_title: Charity Website Development Manchester | 50% Off | Chobble
 description: Affordable websites for charities and nonprofits at 50% discount rates using open source tech - completely transparent pricing
 snippet: Special charity rates for professional web development
 order: 6
@@ -11,7 +11,7 @@ meta_description: Charity web development at £100/hour (50% off) - transparent 
 
 Chobble is a [Community Interest Company](/social-impact/), and one of the groups it's legally set up to serve is charities and community organisations, particularly around Greater Manchester. In practice that means charities and non-profits pay **£100 per hour** - the 50% discount is written into my [published prices](/prices/), so it isn't something you have to ask for or haggle over. I break every job down by the hour, so you can see where the money went.
 
-I've been at this a long time. I've supported [Blue Pits Housing Action](/examples/blue-pits/), a CQC-registered care and social housing provider in Rochdale, for over fourteen years, and I've hosted sites for care and supported-housing organisations like Freehold Cottage and Newbarn since the mid-2000s. Charities tend to stick around, which suits me fine - the longer I work with an organisation, the better the advice I can give, because by then I actually understand their sector and their site.
+I've been at this a long time. I've supported [Blue Pits Housing Action](/examples/blue-pits/), a CQC-registered care and social housing provider in Rochdale, for over fourteen years, and I volunteer on their board as digital trustee. I've also hosted sites for care and supported-housing organisations like Freehold Cottage and Newbarn since 2005 and 2010 respectively. Charities tend to stick around, which suits me fine - the longer I work with an organisation, the better the advice I can give, because by then I understand their sector and their site.
 
 ## Open source, and you own it
 
@@ -28,9 +28,9 @@ Hosting is **£20 a month** for up to twenty static sites, or from **£30** for 
 
 ## Support after launch
 
-Once the site's live I'm still around. Email me a content change and I'll usually have it up within a working day (bigger jobs, or things sent over the weekend, can take a little longer). I can advise on the web side of GDPR, on where you might be spending more than you need to, and on the technical decisions that crop up as you grow. To keep things moving I'll need text, images and decisions from your side reasonably promptly - the site comes together about as fast as the content does.
+Once the site's live I'm still around. Email me a content change and I'll usually have it up within a working day (bigger jobs, or things sent over the weekend, can take a little longer). I can advise on the web side of data protection, on where you might be spending more than you need to, and on the technical decisions that crop up as you grow. To keep things moving I'll need text, images and decisions from your side reasonably promptly - the site comes together about as fast as the content does.
 
-Your site will load quickly, be built to WCAG2 accessibility guidelines, get backed up automatically, and stay easy for your team to update. And you'll own all of it.
+Your site will load quickly, be built to recognised accessibility guidelines, get backed up automatically, and stay easy for your team to update. And you'll own all of it.
 
 ## Where your money goes
 
@@ -38,12 +38,12 @@ Because Chobble's a CIC, any surplus is asset-locked - I can't sell the company 
 
 ## A few of the organisations I work with
 
-- **[Blue Pits Housing Action](/examples/blue-pits/)** - a CQC-registered care provider and social housing charity in Rochdale I've supported for fourteen years. Their site sets out eligibility criteria and the information they're legally required to publish, and updates go live within a day of them emailing me.
-- **[Freehold Cottage](https://www.freeholdcottage.com)** - a residential care home in Rochdale providing 24-hour support for adults with mental health conditions, whose site I've hosted since 2005.
-- **[Newbarn Ltd](https://www.newbarnltd.co.uk)** - a supported-housing organisation for vulnerable adults with mental health needs and learning disabilities, hosted with me since 2010, laying out their services clearly for potential residents and funding bodies.
+- **[Blue Pits Housing Action](/examples/blue-pits/)** - a CQC-registered care provider and social housing charity in Rochdale I've supported for fourteen years, and where I volunteer on the board as digital trustee. Their site sets out eligibility criteria and the information they're legally required to publish, and updates go live within a day of them emailing me.
+- **[Freehold Cottage](https://www.freeholdcottage.com)** - a residential care home in Shawforth, near Bacup, providing 24-hour support for adults with mental health conditions, whose site I've hosted since 2005.
+- **[Newbarn Ltd](https://www.newbarnltd.co.uk)** - a supported-housing organisation in Rochdale for vulnerable adults with mental health needs and learning disabilities, hosted with me since 2010, laying out their services clearly for potential residents and funding bodies.
 - **[Crumpsall Folk Club](/examples/crumpsall-folk-club/)** - not a charity but a non-profit community group that wanted an affordable way to list events and build a mailing list without leaning on Facebook. Built on Ghost so they can manage it themselves.
 
-If you also run events, [Chobble Tickets](https://tickets.chobble.com) does flat-fee ticketing at the same charity rates.
+If you also run events, [Chobble Tickets](https://tickets.chobble.com) does flat-fee ticketing: 50% off annual hosting, and £20/month for the setup-and-support package. [Full pricing is here](/prices/#chobble-tickets-websites).
 
 ## Get in touch
 

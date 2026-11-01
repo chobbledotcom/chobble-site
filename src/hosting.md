@@ -1,9 +1,9 @@
 ---
 layout: page.html
 title: Hosting
-meta_title: Hosting | Bunny.net European CDN & Edge | Chobble
+meta_title: Hosting | Fast European Hosting | Chobble
 description: I host the websites and apps I build - on Bunny.net, a Slovenian provider with edge servers around the world.
-meta_description: Hosting included with my web development - Bunny.net CDN for static sites, Magic Containers for Rails apps, Edge Scripts for Deno apps, Stream for video - European provider, flat monthly pricing
+meta_description: Hosting included with my web development - Bunny.net hosting, containers for Rails apps, Edge Scripts for Deno and video. European provider, flat pricing.
 ---
 
 # Hosting
@@ -26,13 +26,13 @@ I picked Bunny because:
 
 I use a different Bunny product depending on what's being hosted. You don't have to think about which one - it's all included in the [hosting price](/prices/).
 
-### Static sites - Bunny CDN
+### Static sites - Bunny.net
 
-Most of the sites I build (the [Chobble Template](/services/chobble-template/), [Eleventy](/services/eleventy-developer/) sites, and any other static site) live on **Bunny CDN**. Pages are pre-built once and then served from edge locations around the world, which is why sites like [Renegade Solar](/examples/renegade-solar/) and [Fun Pro UK](/examples/fun-pro-uk/) load in well under a second.
+Most of the sites I build (the [Chobble Template](/services/chobble-template/), [Eleventy](/services/eleventy-developer/) sites, and any other static site) live on **Bunny.net**. Pages are pre-built once and then served from edge locations around the world, which is why sites like [Renegade Solar](/examples/renegade-solar/) and [Fun Pro UK](/examples/fun-pro-uk/) load in well under a second.
 
-Bunny handles HTTPS certificates automatically and shows a custom 404 page when something's missing. Country blocking is available if you ever need to keep specific traffic away.
+Bunny handles security certificates automatically and shows a custom 404 page when something's missing. Country blocking is available if you ever need to keep specific traffic away.
 
-I deploy to Bunny CDN using GitHub Actions. Whenever a change is saved - by me, by you through the CMS, or by another developer - the build runs automatically and the new version of the site gets uploaded to Bunny via their API.
+I deploy to Bunny.net using GitHub Actions. Whenever a change is saved - by me, by you through the content editor, or by another developer - the build runs automatically and the new version of the site gets uploaded to Bunny automatically.
 
 ### Rails and other long-running apps - Magic Containers
 
@@ -68,9 +68,9 @@ The full breakdown is on the [prices page](/prices/), but to summarise:
 
 - **Static sites:** £10/month (£5 if discounted) for unmanaged hosting, or £40/month (£20 if discounted) for managed hosting with up to 20 sites and ongoing support.
 - **Web applications:** From around £5/month for the underlying server, plus £60/month (£30 if discounted) for managed hosting and support.
-- **Chobble Tickets:** £50/year (£25 if discounted), all hosting included.
+- **Chobble Tickets:** £50/year or £5/month for managed hosting on its own, with 50% off the annual price for charities, community groups, artists and musicians. The setup-and-support package is £40/month (£20 discounted), where I handle your domain, email, content import and day-to-day questions. [Full details on the prices page](/prices/#chobble-tickets-websites).
 
-Bunny itself is cheap, and most small business sites cost me a few pence a month to actually host. The monthly fee covers monitoring, backups, support, and the work involved in keeping everything online.
+Bunny itself is cheap, and most small business sites cost me a few pence a month to host. The monthly fee covers monitoring, backups, support, and the work involved in keeping everything online.
 
 ## You can host elsewhere if you'd rather
 

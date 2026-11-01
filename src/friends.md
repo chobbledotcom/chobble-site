@@ -16,7 +16,7 @@ I have worked with some very talented people over my decades in the web industry
 
 [bouncycastlenetwork.com](https://www.bouncycastlenetwork.com/)
 
-I was the lead developer at Bouncy Castle Network for over 10 years. If you run a bouncy castle business you've probably heard of BCN - and if you haven't, you should have. Their system is the result of thousands of hours of development time and refinement and covers everything bouncy castle hirers need to succeed online.
+I was the lead developer at Bouncy Castle Network for over 10 years. If you run a bouncy castle business you've probably heard of BCN - and if you haven't, you should have. Their system is the result of thousands of hours of development time and refinement and covers everything bouncy castle hirers need to succeed online. They were based in Manchester when I worked there and are now in Bury.
 
 ## Kevin Burke
 
@@ -32,7 +32,7 @@ I have worked with my brother Kevin for many years across different businesses. 
 
 [renegade-solar.co.uk](https://www.renegade-solar.co.uk/)
 
-I first met Ashley at Renegade when I bought my house and needed an honest opinion about the state of its electrics. We struck up a friendship and since then he has been my go-to person for my questions about electrics, as well as installing a ventilation system, solar panels, a battery, and much more in my house to help improve its energy efficiency. And on the other side, I have become his go-to person for questions about improving his web presence!
+I first met Ashley at Renegade when I bought my house and needed an honest opinion about the state of its electrics. We struck up a friendship and since then he has been my go-to person for my questions about electrics, as well as installing a ventilation system, solar panels, a battery, and much more in my house to help improve its energy efficiency. On the other side, I've become his go-to person for questions about improving his web presence.
 
 ## Urban Hippo
 
@@ -41,3 +41,5 @@ I first met Ashley at Renegade when I bought my house and needed an honest opini
 [urbanhippo.co.uk](https://www.urbanhippo.co.uk/)
 
 I worked with Liam from Urban Hippo at BCN, where he worked as a designer. He now specialises in creating branded advertisements for businesses across the planet, using 3D and 2D modelling software, with incredible turnaround times. He currently specialises in adverts for event hire and party rental companies, but he has a tonne of other adverts available for all types of industries.
+
+If you need a hand working out which of these people to talk to, [get in touch](/contact/).

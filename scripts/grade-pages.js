@@ -289,6 +289,13 @@ function extractPage(file, forcedType) {
   const noQuotes = stripCodeFences(stripBlockquotes(body));
   const prose = markdownToText(stripCodeFences(body));
   const proseNoQuotes = markdownToText(noQuotes);
+  const metaFields = [
+    ["title", fm.title],
+    ["meta_title", fm.meta_title],
+    ["description", fm.description],
+    ["meta_description", fm.meta_description],
+    ["heading", fm.heading],
+  ].filter(([, value]) => typeof value === "string" && value.trim());
 
   // Headings are counted on the body with code fences stripped - example
   // templates inside ``` blocks contain # and ## lines that are not page
@@ -317,6 +324,8 @@ function extractPage(file, forcedType) {
     metaTitle,
     metaDescription,
     body,
+    markdown: body,
+    metaFields,
     prose,
     proseNoQuotes,
     words,
@@ -379,7 +388,165 @@ const NO_GO_PATTERNS = [
   [/got you covered/i, "got you covered"],
   [/second to none/i, "second to none"],
   [/tried and true/i, "tried and true"],
+  [/\bthe ultimate\b/i, "the ultimate"],
+  [/\bintroducing (our|the)\b/i, "introducing our"],
+  [/perfect (add-on|addition|for any|for all)|ideal for any/i, "perfect for any"],
+  [/endless fun|fun for all|fun-filled/i, "endless fun"],
+  [
+    /\bgame[- ]changer\b|\bnext level\b|\braise(s|d)? the bar\b|\bmoving the needle\b|\bcovers? all (the )?bases\b|\bwears? many hats\b|\bat the end of the day\b|\bthe proof is in the pudding\b/i,
+    "stock business cliche",
+  ],
 ];
+
+// Softer AI and marketing tells: worth a look but not always wrong on a
+// page that has a reason to use them. Quoted voices are stripped first.
+const VOICE_PATTERNS = [
+  [/\bactually\b/i, "actually"],
+  [/\bimagine\b|\bpicture (a|the|your)\b/i, "imagine/picture framing"],
+  [/\bnot just\b|\bmore than just\b/i, "not just X"],
+  [/\band yes,/i, "and yes, ..."],
+  [/\bwhether you'?re (a|an) [^.]{0,80}\bor\b/i, "whether you're a X or a Y"],
+  [/\bnot only\b[^.]{0,100}\bbut also\b/i, "not only ... but also"],
+  [
+    /\bin today'?s world\b|\bmodern (businesses|companies|organisations)\b|\bthe future of\b|\bnext generation\b/i,
+    "AI time framing",
+  ],
+  [
+    /\bdelve[sd]?\b|\btapestry\b|\brealm\b|\btestament\b|\bunderscor(e|es|ed|ing)\b/i,
+    "AI vocabulary",
+  ],
+  [
+    /\bseamless(ly)?\b|\brobust\b|\bcutting[- ]edge\b|\bempower(s|ed|ing)?\b|\belevate(s|d|ing)?\b/i,
+    "AI marketing vocabulary",
+  ],
+  [
+    /\bpeace of mind\b|\btailored solutions?\b|\bbespoke solutions?\b/i,
+    "AI solution phrase",
+  ],
+  [
+    /\bwe believe\b|\bwe are committed to\b|\bwe pride ourselves\b/i,
+    "belief/mission statement",
+  ],
+];
+
+// Copy that argues for its own value concedes the opposite is possible.
+const SELF_JUSTIFYING_PATTERNS = [
+  [
+    /\bexactly what (the|it|this|they|one) [a-z'-]+ (was|is|were|are) built (for|to do)\b/i,
+    "exactly what X was built for",
+  ],
+  [/\bbuilt for the job\b/i, "built for the job"],
+  [/\bproves? its worth\b/i, "proves its worth"],
+  [/\bpays? for itself\b/i, "pays for itself"],
+  [/\bpulls? its weight\b/i, "pulls its weight"],
+  [/\bworth the outlay\b/i, "worth the outlay"],
+];
+
+// Strawman comparisons: painting other developers or agencies as bad to
+// make the page look good. CLAUDE.md asks for the positive case instead.
+const STRAWMAN_PATTERNS = [
+  [
+    /\bmost (web )?(developers|agencies|designers|freelancers)\b/i,
+    "most developers/agencies",
+  ],
+  [
+    /\bunlike (most|other|typical) (web )?(developers|agencies|designers)\b/i,
+    "unlike other developers/agencies",
+  ],
+  [
+    /\bnot (like )?(your )?(typical|average) (web )?(developer|agency)\b/i,
+    "not your typical developer/agency",
+  ],
+  [/\bno agency (middlemen|markups?)\b/i, "no agency middlemen/markups"],
+  [
+    /\b(other|most) (agencies|developers) (overcharge|don'?t care|hide)\b/i,
+    "other agencies/developers overcharge or don't care",
+  ],
+];
+
+// House rule: a useful small-business site needs at least three pages. Do not
+// tell readers that a single page is enough.
+const SINGLE_PAGE_CLAIM_PATTERNS = [
+  [/\b(a )?single page (can|will|might|should|could) be enough\b/i, "single page can be enough"],
+  [/\bone[- ]pager\b/i, "one-pager"],
+  [/\bone good page\b/i, "one good page"],
+  [/\bonly needs? (a )?single page\b/i, "only needs a single page"],
+  [/\bjust (a )?(single|one) page\b/i, "just one page"],
+];
+
+// Jargon a lay reader should not have to decode. An acronym passes when the
+// page expands it somewhere; otherwise the copy should just say the plain
+// thing.
+const NERDY_ACRONYMS = [
+  { term: "CDN", expansion: /\bcontent delivery network\b/i },
+  { term: "CMS", expansion: /\bcontent management system\b/i },
+  { term: "API", expansion: /\bapplication programming interface\b/i },
+  { term: "HTML", expansion: /\bhypertext markup language\b/i },
+  { term: "CSS", expansion: /\bcascading style sheets?\b/i },
+  { term: "JS", expansion: /\bJavaScript\b/i },
+  { term: "JSON", expansion: /\bJavaScript Object Notation\b/i },
+  { term: "JSON-LD", expansion: /\bJavaScript Object Notation for Linked Data\b/i },
+  { term: "WCAG", expansion: /\bWeb Content Accessibility Guidelines\b/i },
+  { term: "DNS", expansion: /\bdomain name system\b/i },
+  { term: "SQL", expansion: /\bstructured query language\b/i },
+  { term: "HTTPS", expansion: /\bHypertext Transfer Protocol Secure\b/i },
+  { term: "GDPR", expansion: /\bGeneral Data Protection Regulation\b/i },
+  { term: "CIC", expansion: /\bCommunity Interest Company\b/i },
+];
+
+function checkUnexplainedAcronyms(x) {
+  const hits = NERDY_ACRONYMS.filter(({ term, expansion }) => {
+    const re = new RegExp(`\\b${term}\\b`, "i");
+    return re.test(x.proseNoQuotes) && !expansion.test(x.proseNoQuotes);
+  }).map(({ term }) => term);
+  if (!hits.length) return ["PASS", 1, "no unexplained nerdy acronyms"];
+  return [
+    "WARN",
+    hits.length > 2 ? 0 : 0.5,
+    `explain or replace: ${hits.join(", ")}`,
+  ];
+}
+
+// Template and generation leakage: placeholders, unrendered template code
+// and LLM artefacts that survived into published copy. Any hit is a bug.
+const LEAKAGE_PATTERNS = [
+  [
+    /\[\s*(insert|add|your|town|venue|name|placeholder)\b[^\]]*\](?!\()/i,
+    "[placeholder]",
+  ],
+  [/\bTODO\b|\bTBC\b|\bFIXME\b|\bXXX\b/, "TODO/TBC marker"],
+  [/lorem ipsum/i, "lorem ipsum"],
+  [/\bundefined\b|\[object Object\]|\bNaN\b/, "undefined/NaN"],
+  [
+    /\bas an ai\b|here(?:'s| is) (?:the|a|your) (?:rewritten|updated|revised)\b/i,
+    "LLM preamble",
+  ],
+  [/data-(start|end)=/i, "ChatGPT export attribute"],
+  [/\bphoto dump\b|\blatest batch\b|\bsidecar\b|\bllm[- ]?img\b/i, "research artefact"],
+  [/\bthe (live|product) page (lists|says|shows)\b/i, "page referencing itself"],
+];
+
+const META_LEAKAGE_PATTERNS = [
+  ...LEAKAGE_PATTERNS,
+  [/\{\{|\{%|\$\{/, "unrendered template code"],
+];
+
+// Link text that means nothing out of context (WCAG 2.4.4).
+const VAGUE_ANCHOR_RE =
+  /^(click )?here$|^(read|find out|learn|see) more$|^(this|that|the) (page|link|one)$|^this$|^link$|^more$/i;
+
+function hitsOf(patterns, text) {
+  return patterns.filter(([re]) => re.test(text)).map(([, label]) => label);
+}
+
+function patternCheck(patterns, status, goodness, what) {
+  return (x) => {
+    const hits = hitsOf(patterns, x.proseNoQuotes);
+    if (hits.length)
+      return [status, goodness, `${what}: ${hits.slice(0, 5).join(", ")}`];
+    return ["PASS", 1, `no ${what}`];
+  };
+}
 
 const EMOJI_RE = /[\u{1F000}-\u{1FAFF}]/gu;
 
@@ -512,6 +679,64 @@ function checkHistoryNarration(x) {
   return ["PASS", 1, "no history narration"];
 }
 
+const checkVoicePatterns = patternCheck(
+  VOICE_PATTERNS,
+  "WARN",
+  0.5,
+  "voice anti-pattern(s)",
+);
+
+const checkSelfJustifying = patternCheck(
+  SELF_JUSTIFYING_PATTERNS,
+  "FAIL",
+  0,
+  "self-justifying value phrase(s)",
+);
+
+const checkStrawman = patternCheck(
+  STRAWMAN_PATTERNS,
+  "WARN",
+  0.5,
+  "strawman comparison(s)",
+);
+
+const checkSinglePageAdvice = patternCheck(
+  SINGLE_PAGE_CLAIM_PATTERNS,
+  "FAIL",
+  0,
+  "single-page advice (the house rule is at least three pages)",
+);
+
+function checkLeakage(x) {
+  const metaHits = x.metaFields.flatMap(([field, value]) =>
+    hitsOf(META_LEAKAGE_PATTERNS, value).map((hit) => `${hit} in ${field}`),
+  );
+  const hits = [...metaHits, ...hitsOf(LEAKAGE_PATTERNS, x.markdown)];
+  if (hits.length)
+    return ["FAIL", 0, `template leakage: ${hits.slice(0, 5).join(", ")}`];
+  return ["PASS", 1, "no placeholders or generation artefacts"];
+}
+
+function checkExclamations(x) {
+  const n = (x.proseNoQuotes.match(/!/g) || []).length;
+  if (!n) return ["PASS", 1, "no exclamation marks"];
+  return ["WARN", n > 2 ? 0 : 0.5, `${n} exclamation mark(s) in house copy`];
+}
+
+function checkVagueAnchors(x) {
+  if (!x.links.length) return ["SKIP", 0, "no internal links"];
+  const vague = x.links.filter((l) => VAGUE_ANCHOR_RE.test(l.text.trim()));
+  if (!vague.length) return ["PASS", 1, "link text describes each destination"];
+  return [
+    "WARN",
+    0.5,
+    `vague link text: ${vague
+      .slice(0, 3)
+      .map((l) => `"${l.text}" -> ${l.href}`)
+      .join("; ")}`,
+  ];
+}
+
 function checkEmoji(x) {
   const hits = x.proseNoQuotes.match(EMOJI_RE);
   if (hits)
@@ -523,18 +748,29 @@ function checkEmoji(x) {
   return ["PASS", 1, "no emoji in copy"];
 }
 
+const BUSINESS_WE_RE =
+  /\bwe(?:'re| are) (?:a|an) \w+|\bwe(?:'re|'ve|'ll|'d)?\s+(?:build|offer|provide|design|host|specialise|deliver|charge)\b/i;
+const BUSINESS_OUR_RE =
+  /\bour\s+(?:team|services|prices|work|clients|process|approach|experience|company|business|support|hosting|websites|projects|portfolio|rates|fees|values|mission)\b/i;
+const BUSINESS_US_RE = /\b(?:contact|email|call|hire|join|work with) us\b/i;
+
 function checkFirstPerson(x) {
-  const we = (x.proseNoQuotes.match(/\bwe\b|\bour\b/gi) || []).length;
-  const us = (x.proseNoQuotes.match(/\bus\b/g) || []).length;
-  const n = we + us;
-  if (!n) return ["PASS", 1, "first person throughout - no 'we' for a one-person business"];
-  const sample = (x.proseNoQuotes.match(/[^.]*\b(we|our|us)\b[^.]*/i) || [""])[0]
-    .trim()
-    .slice(0, 70);
+  const hits = [
+    ...(x.proseNoQuotes.match(BUSINESS_WE_RE) || []),
+    ...(x.proseNoQuotes.match(BUSINESS_OUR_RE) || []),
+    ...(x.proseNoQuotes.match(BUSINESS_US_RE) || []),
+  ];
+  if (!hits.length) {
+    return [
+      "PASS",
+      1,
+      "business voice is 'I'; any 'we' is collaborative (you and I), not corporate",
+    ];
+  }
   return [
     "WARN",
     0.5,
-    `${n} 'we/our/us' - it's just Stef, so 'I' unless quoting or meaning "you and I" (e.g. "${sample}")`,
+    `${hits.length} corporate 'we/our/us' phrase(s) - it's just Stef, so use 'I' for business claims (legitimate "you and I" is fine): "${hits[0].trim()}"`,
   ];
 }
 
@@ -635,13 +871,29 @@ const CHECKS = [
     fn: checkUkSpelling, types: ALL_TYPES, weight: 2 },
   { id: "no_go_phrases", label: "House no-go phrases absent", engine: "code",
     fn: checkNoGoPhrases, types: ALL_TYPES, weight: 5 },
+  { id: "voice_anti_patterns", label: "Voice anti-patterns", engine: "code",
+    fn: checkVoicePatterns, types: ALL_TYPES, weight: 3 },
+  { id: "self_justifying", label: "Self-justifying value phrases", engine: "code",
+    fn: checkSelfJustifying, types: ALL_TYPES, weight: 3 },
+  { id: "strawman_comparisons", label: "Strawman comparisons", engine: "code",
+    fn: checkStrawman, types: ALL_TYPES, weight: 3 },
+  { id: "single_page_advice", label: "No 'one page is enough' advice", engine: "code",
+    fn: checkSinglePageAdvice, types: ALL_TYPES, weight: 3 },
+  { id: "template_leakage", label: "No template or generation leakage", engine: "code",
+    fn: checkLeakage, types: ALL_TYPES, weight: 5, critical: true },
   { id: "unneeded_contrast", label: "Unneeded contrasts", engine: "code",
     fn: checkUnneededContrast, types: ALL_TYPES, weight: 3 },
   { id: "history_narration", label: "No history narration", engine: "code",
     fn: checkHistoryNarration, types: ALL_TYPES, weight: 3 },
+  { id: "exclamations", label: "No exclamation marks", engine: "code",
+    fn: checkExclamations, types: ALL_TYPES, weight: 2 },
+  { id: "unexplained_acronyms", label: "Nerdy acronyms explained or removed", engine: "code",
+    fn: checkUnexplainedAcronyms, types: ALL_TYPES, weight: 3 },
   { id: "emoji_check", label: "No emoji (unless the subject)", engine: "code",
     fn: checkEmoji, types: ALL_TYPES, weight: 1 },
-  { id: "first_person", label: "First person, not 'we'", engine: "code",
+  { id: "vague_anchors", label: "Descriptive link text", engine: "code",
+    fn: checkVagueAnchors, types: ALL_TYPES, weight: 2 },
+  { id: "first_person", label: "Business voice is 'I', not corporate 'we'", engine: "code",
     fn: checkFirstPerson, types: ALL_TYPES, weight: 2 },
   { id: "internal_link_count", label: "Internal links in copy", engine: "code",
     fn: checkInternalLinkCount, types: ALL_TYPES, weight: 4 },
@@ -793,24 +1045,40 @@ const CHECKS = [
     question: {
       type: "score",
       instructions:
-        "Judge `body_house` for copywriting clichés - the trying-too-hard " +
-        "failure modes, not individual phrases. IMPORTANT: score ONLY the " +
-        "text in `body_house`. The `body` field exists for other questions " +
-        "and contains quoted third-party client reviews and quoted AI " +
-        "output - do not judge it here. body_house has blockquotes already " +
-        "stripped; only house copy is judged. Look for: fragment " +
-        "sentences in prose ('No lock-in.'); punchy parallel rhythm and " +
-        "cinematic one-line closers ('And the rest is history.'); " +
-        "X / X / X - Y build-ups and lists of three with a deflating " +
-        "comic third; strawmen set up to knock down ('Most developers " +
-        "overcharge'); handling objections nobody raised ('and yes, even " +
-        "in Prestwich'); forced enthusiasm in headings ('Ready to " +
-        "supercharge...'); faux humility undercut by a sales close; sassy " +
-        "or self-congratulatory lines ('That is not shabby', 'no " +
-        "remembering to hit a button'); overselling modifiers ('blazing " +
-        "fast', 'practically psychic'); CTAs bolted into mid-page " +
-        "paragraphs. Score follows the legend: 0 means riddled, 3 means " +
-        "clean - high is good.",
+        "Judge `body_house` for copywriting and AI clichés - the " +
+        "trying-too-hard structures, not single words used plainly. " +
+        "IMPORTANT: score ONLY the text in `body_house`. The `body` field " +
+        "exists for other questions and contains quoted third-party client " +
+        "reviews and quoted AI output - do not judge it here. body_house " +
+        "has blockquotes already stripped; only house copy is judged. Look " +
+        "for: fragment sentences in prose ('No lock-in.'); punchy parallel " +
+        "rhythm and cinematic one-line closers ('And the rest is history.'); " +
+        "X / X / X - Y build-ups and lists of three with a deflating comic " +
+        "third; strawmen set up to knock down ('Most developers overcharge'); " +
+        "handling objections nobody raised ('and yes, even in Prestwich'); " +
+        "borrowed warm-up questions ('Looking for something different?'); " +
+        "forced enthusiasm in headings ('Ready to supercharge...'); faux " +
+        "humility undercut by a sales close; sassy or self-congratulatory " +
+        "lines ('That is not shabby', 'no remembering to hit a button'); " +
+        "overselling modifiers ('blazing fast', 'practically psychic'); " +
+        "CTAs bolted into mid-page paragraphs. AI-specific tells: " +
+        "'delve', 'tapestry', 'realm', 'testament', 'underscore', " +
+        "'landscape' used as a metaphor, 'navigate the', 'in today's " +
+        "world', 'modern businesses', 'the future of', 'next generation', " +
+        "'seamless', 'robust', 'cutting-edge', 'tailored solutions', " +
+        "'peace of mind', 'empower', 'elevate', 'unlock', 'leverage', " +
+        "'game-changer', 'level up', 'whether you're a X or a Y', and " +
+        "'not only ... but also'. Also look for 'rather than' and " +
+        "'instead of' comparative constructions, self-justifying value " +
+        "phrases ('pays for itself', 'proves its worth', 'pulls its " +
+        "weight', 'worth the outlay', 'exactly what X was built for'), " +
+        "negative-practice promises (defining the business against bad " +
+        "practices nobody accused it of), and strawman comparisons. " +
+        "Scoring cap: if any 'rather than'/'instead of' construction, " +
+        "self-justifying value phrase, negative-practice promise or " +
+        "strawman comparison is present, the score must not exceed 1 - " +
+        "these are house bans, not style preferences. Score follows the " +
+        "legend: 0 means riddled, 3 means clean - high is good.",
       criteria: [
         "Riddled - the page is built from advert structures; several distinct failure modes appear",
         "Multiple clichés - three or more distinct hits, or one structural cliché repeated",
@@ -851,6 +1119,61 @@ const CHECKS = [
       ],
     },
     score_pass: 2, score_warn: 1 },
+
+  // Forced local SEO: a town page that name-drops landmarks or local colour
+  // without connecting them to the service reads like keyword padding and
+  // wastes the reader's time.
+  { id: "forced_local_seo", label: "No forced local name-drops", engine: "jev",
+    types: ["page", "landing"], weight: 4, threshold: 0.5, invert: true,
+    question: {
+      type: "noul",
+      instructions:
+        "Does `body_house` contain local detail that is not connected to " +
+        "the service and is there only to mention the place? Judge only " +
+        "`body_house`; quoted reviews are not house copy. A forced " +
+        "name-drop lists landmarks, parks, transport, schools, shopping " +
+        "centres, venues or local history as local colour without saying " +
+        "how they affect the work. An example is a web design page that " +
+        "mentions the East Lancashire Railway or a town's market because " +
+        "the page is about that town. Local detail that changes the " +
+        "service does not count: travel times, coverage areas, parking, " +
+        "access, venues or clients worked with, local rules, named local " +
+        "jobs, or places used as meeting points. Personal lived experience " +
+        "also does not count: where the author lived, shopped, ate or " +
+        "spent time, and named local businesses they actually used, are " +
+        "relevant local knowledge. Naming the towns you serve as coverage " +
+        "is not a hit when the page is clearly saying where the work " +
+        "happens. A page with no local detail at all is not a hit.",
+      criteria: {
+        true: "Contains local name-drops unrelated to the service, or local colour added only to mention the place",
+        false: "Local detail is tied to the service, or there is none",
+      },
+    } },
+
+  // Over-localising: adding the street or address to a named local business
+  // or landmark where the local reader already knows it. Naming the place is
+  // enough; the road is noise.
+  { id: "redundant_local_street", label: "No redundant local street detail", engine: "jev",
+    types: ["page", "landing"], weight: 3, threshold: 0.5, invert: true,
+    question: {
+      type: "noul",
+      instructions:
+        "Does `body_house` add street, road or address detail to a named " +
+        "local business, venue or landmark where a local reader would " +
+        "already know it? Judge only `body_house`; quoted reviews are not " +
+        "house copy. Examples: 'Worldwide on Crescent Road', 'Santos on " +
+        "Bury Old Road', 'the market on the high street'. Naming the " +
+        "place is enough; the road adds nothing for a local reader. " +
+        "Detail that helps the reader act does not count: a full address " +
+        "to visit, directions, parking, access, delivery coverage, or a " +
+        "meeting point. Mentioning a road as part of a practical local " +
+        "search point (where customers are, how they find you) is also " +
+        "not a hit.",
+      criteria: {
+        true: "Adds street, road or address detail to a named local place where the local reader already knows it",
+        false: "No redundant street detail, or the address helps the reader act",
+      },
+    } },
 
   // Quotable answer: answer engines assemble responses by lifting short
   // passages, and the GEO study's largest gains came from content written
@@ -960,9 +1283,22 @@ function buildJevState(x) {
   };
 }
 
+// Some checks do not fit every page shape. A supplier directory is not a
+// service page, and a page made of client quotes is not trying to state a
+// quotable answer or its own honest limits. Keep the exemptions narrow and
+// named so the rest of the site still gets the full set.
+const CHECK_EXEMPTIONS = new Map([
+  ["src/friends.md", new Set(["eeat_expertise", "quotable_answer"])],
+  ["src/reviews.md", new Set(["honest_limits", "quotable_answer"])],
+]);
+
 function activeChecks(x) {
+  const exempt = CHECK_EXEMPTIONS.get(x.file) ?? new Set();
   return CHECKS.filter(
-    (c) => c.types.includes(x.pageType) && !(c.requires && !c.requires(x)),
+    (c) =>
+      c.types.includes(x.pageType) &&
+      !exempt.has(c.id) &&
+      !(c.requires && !c.requires(x)),
   );
 }
 

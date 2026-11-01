@@ -18,7 +18,7 @@ I've made lots of different widgets and tools over the years. Most have been los
 - **[tickets.chobble.com](https://tickets.chobble.com)**
 - [source code](https://github.com/chobbledotcom/tickets)
 
-A minimalist and private ticket-selling platform, and my no-per-attendee-fee answer to BookItBee, Eventbrite and Seetickets. Flat fee instead: £50 a year all in, £25 for charities, co-ops, artists and musicians, hosting included ([pricing on the hosting page](/hosting/)). Under the bonnet it's a Deno app compiled with esbuild and deployed to Bunny.net's edge, so checkout is fast everywhere and there's no server for me to maintain. QR check-ins, AGPL licence, and your data stays yours. [Paul, who runs events with it](/reviews/), says it saved him a few bob and no more holding data on paper.
+A minimalist and private ticket-selling platform, and my no-per-attendee-fee answer to BookItBee, Eventbrite and Seetickets. Flat fee instead: £50 a year or £5 a month, with 50% off the annual price for charities, co-ops, artists and musicians, hosting included. If you want me to set the whole thing up and stay on hand, that's £40 a month with no setup fee - domain and email sorted, your listings imported, and a standing chat thread for questions. [Full pricing is on the prices page](/prices/#chobble-tickets-websites). Under the bonnet it's a Deno app compiled with esbuild and deployed to Bunny.net's edge, so checkout is fast everywhere and there's no server for me to maintain. QR check-ins, AGPL licence, and your data stays yours. [Paul, who runs events with it](/reviews/), says it saved him a few bob and no more holding data on paper.
 
 ## play-test
 
@@ -56,7 +56,7 @@ There's no straightforward way to export reviews from Checkatrade, so I built a 
 
 - [source code](https://github.com/chobbledotcom/google-reviews-iframe)
 
-A toolchain that periodically fetches customer reviews from Google, Facebook and Trustpilot (via Apify), stores them as JSON, and pre-generates a static masonry iframe you can drop into any site, published to Bunny's CDN. It's AGPLv3 and config-driven - with a bit of bun and an Apify token, you could fork it and run it for your own business.
+A toolchain that periodically fetches customer reviews from Google, Facebook and Trustpilot (via Apify), stores them as structured data, and pre-generates a static masonry iframe you can drop into any site, published to Bunny.net. It's AGPLv3 and config-driven - with a bit of bun and an Apify token, you could fork it and run it for your own business.
 
 ## Libregig (WIP)
 

@@ -9,30 +9,26 @@ colour: white
 
 # Blue Pits Housing Action
 
-**Proving that charities don't need to pay agency rip-off prices for effective websites**
-
 - **Client:** Blue Pits Housing Action (Registered Charity)
 - **Services:** Website development, hosting and ongoing technical consultation
 - **Website:** [BluePitsHousingAction.co.uk](https://www.bluepitshousingaction.co.uk)
 - **Source code:** [Open source on git.chobble.com](https://git.chobble.com/hosted-by-chobble/blue-pits)
 
-Blue Pits is a CQC-registered personal care provider and social housing provider, based in Rochdale, Middleton and Heywood since 2011. I've been their technical consultant for over 14 years, helping them navigate everything from website changes to GDPR compliance.
+Blue Pits is a CQC-registered personal care provider and social housing provider, based in Rochdale, Middleton and Heywood since 2011. I've been their technical consultant for over 14 years, helping them navigate everything from website changes to data protection compliance. I also volunteer on the board as their digital trustee, which means I advise and guide them on their interactions with the digital world.
 
 ![The Blue Pits homepage, showing a simple blue theme with mostly text and a prominent Care Quality Commission "Good" rating.](/assets/examples/blue-pits.png)
 
-## Big cost savings
+## What it cost
 
-**Web agencies quoted Blue Pits £2500+ for a basic website** - typical rip-off pricing when they see a "big organisation" and assume unlimited budgets. The reality? **This website would cost £600-800 at my discounted charity rates** (£100/hour at 50% off) and takes 6-8 hours of actual work.
-
-**Monthly hosting costs £20** (again, 50% charity discount) for unlimited sites. Compare that to what most charities pay for inferior hosting and you'll see the difference transparent pricing makes.
+Blue Pits was quoted over £2,500 for a basic site. I built this one for £300, which is the discounted charity price, and it would take three hours nowadays. Hosting is £20 a month at the same rate, for unlimited sites.
 
 ## My solution
 
-I've set up a streamlined process where Blue Pits send me their site updates via email. **Content changes typically go live within 24 hours** - much faster than the weeks most agencies take. I recently added a custom complaint form using FormSpark with BotPoison spam protection, making it easier for their clients to get in touch.
+I've set up a streamlined process where Blue Pits send me their site updates via email. **Content changes typically go live within 24 hours.** I recently added a custom complaint form using FormSpark with BotPoison spam protection, making it easier for their clients to get in touch.
 
-Beyond just hosting, I advise them on tech choices and have helped them navigate **GDPR compliance, hardware/software decisions, and cost-saving opportunities**. While they ended up with Microsoft licensing through another provider (before I was freelancing full-time), I'm always helping them **cut costs and stay secure**.
+Beyond hosting, I advise them on tech choices and have helped them navigate **data protection compliance, hardware/software decisions, and cost-saving opportunities**. While they ended up with Microsoft licensing through another provider (before I was freelancing full-time), I'm always helping them **cut costs and stay secure**.
 
-The setup is simple but effective - they handle the housing, I handle the website. **No complicated CMS logins to remember or technical knowledge needed on their end.**
+The setup is simple: they handle the housing, I handle the website. They send changes by email, and nobody needs to learn a separate admin system.
 
 ## Technical details
 
@@ -42,11 +38,11 @@ The domain is hosted with Web Architects Co-op, an ethical cooperative provider.
 
 ## Support model & long-term relationship
 
-**I've been working with Blue Pits for over a decade** - since the charity started - and with the organisation it grew from (Newbarn Ltd) for over two decades. This long-term relationship means I understand their sector deeply and can give advice that's useful.
+**I've been working with Blue Pits for over a decade** - since the charity started - and with the organisation it grew from (Newbarn Ltd) for over two decades. My dad, Kiaran Burke, founded Newbarn and Freehold Cottage, and my stepmum now runs Newbarn and Blue Pits, so the relationship is personal as well as professional. This long-term relationship means I understand their sector deeply and can give advice that's useful.
 
 Blue Pits just emails me when they need changes, and I sort them out quickly. **They're always thankful for how quickly changes get implemented** and how I break down technical concepts into simple language without pushing them toward expensive solutions they don't need.
 
-The site only needs a few content updates each year, so this approach works perfectly. When questions come up about **website privacy, security, GDPR compliance, or other tech issues, I'm there to explain everything in plain language** - not technical jargon designed to confuse.
+The site only needs a few content updates each year, so this approach works perfectly. When questions come up about **website privacy, security, data protection, or other tech issues, I'm there to explain everything in plain language** - not technical jargon designed to confuse.
 
 ## Want a website for your charity?
 
@@ -60,4 +56,4 @@ The site only needs a few content updates each year, so this approach works perf
 
 As with all my projects, the complete source code [is available](https://git.chobble.com/hosted-by-chobble/blue-pits) under the AGPL license, helping other charities and developers learn from my work.
 
-**Is your charity paying too much for an inadequate website? Want honest advice about your tech setup without the sales pressure? [Learn more about my charity web development services](/services/charity-web-development/) or [get in touch](/contact/) to discuss how I can help your organisation save money and work more effectively online.**
+**If your charity needs a clear website and honest technical advice, [learn more about my charity web development services](/services/charity-web-development/) or [get in touch](/contact/).**

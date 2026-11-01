@@ -2,8 +2,8 @@
 layout: services.html
 title: Web Development Services from Chobble
 description: Websites that load fast, cost less to run, and that you fully own - with decades of experience behind every project.
-meta_title: Web Development Services Prestwich | Websites, SEO & Tech Help
-meta_description: Websites you own and control - fast-loading, affordable to host, easy to update - transparent flat rate pricing - Prestwich web developer with 20+ years experience
+meta_title: Web Development Services Prestwich | Websites & SEO
+meta_description: Websites you own and control - fast, affordable to host, easy to update - transparent flat-rate pricing from a Prestwich developer with 20+ years.
 ---
 
 # Web design & technology services
@@ -20,6 +20,10 @@ Whether you need a [new website](/services/static-websites/#content), a [custom 
 
 **Works for everyone:** I build sites that are easy to use on phones, tablets, and desktops, and accessible to visitors with visual impairments.
 
+If you want a simple website with a list of things people can book, [Chobble Tickets](https://tickets.chobble.com) can run as your site for £40 a month with no setup fee. It's a different shape of project from a custom build, and the [prices page](/prices/#chobble-tickets-websites) explains when it fits.
+
 ## Services
 
 I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in. I'm based in Prestwich and work with businesses across Greater Manchester - see [web design in Manchester](/manchester/web-design/) - and further afield, since most of this work happens over email and video calls anyway.
+
+If you're not sure which of these you need, [get in touch](/contact/) and I'll point you in the right direction. There are [example websites](/examples/) and [client reviews](/reviews/) if you want to see the work before we talk.
