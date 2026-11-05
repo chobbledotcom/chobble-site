@@ -1,198 +1,198 @@
 {
-	"https://www.ashomefurnishings.co.uk": {
-		"performance": 97,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-10T11:44:01.312Z"
-	},
-	"https://www.bluepitshousingaction.co.uk": {
-		"performance": 92,
-		"accessibility": 98,
-		"bestPractices": 96,
-		"seo": 100,
-		"lastUpdated": "2026-10-11T11:57:11.176Z"
-	},
-	"https://www.buttonkin.com": {
-		"performance": 88,
-		"accessibility": 88,
-		"bestPractices": 77,
-		"seo": 100,
-		"lastUpdated": "2026-10-12T14:08:15.105Z"
-	},
-	"https://www.chobble.com": {
-		"performance": 83,
-		"accessibility": 96,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-13T13:20:46.948Z"
-	},
-	"https://blog.chobble.com": {
-		"performance": 100,
-		"accessibility": 100,
-		"bestPractices": 96,
-		"seo": 100,
-		"lastUpdated": "2026-10-14T10:59:47.454Z"
-	},
-	"https://crumpsallfolkclub.co.uk": {
-		"performance": 71,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-15T10:41:56.060Z"
-	},
-	"https://djmarkyt.co.uk": {
-		"performance": 94,
-		"accessibility": 92,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-16T10:29:12.371Z"
-	},
-	"https://www.enter6.co.uk": {
-		"performance": 27,
-		"accessibility": 90,
-		"bestPractices": 96,
-		"seo": 85,
-		"lastUpdated": "2026-10-17T10:00:46.985Z"
-	},
-	"https://www.freeholdcottage.com": {
-		"performance": 87,
-		"accessibility": 80,
-		"bestPractices": 100,
-		"seo": 85,
-		"lastUpdated": "2026-10-18T10:12:42.070Z"
-	},
-	"https://www.garsdalecottages.co.uk": {
-		"performance": 99,
-		"accessibility": 87,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-19T11:49:03.613Z"
-	},
-	"https://www.house-of-desserts.co.uk": {
-		"performance": 75,
-		"accessibility": 93,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-20T10:47:41.958Z"
-	},
-	"https://www.medwaymascots.co.uk": {
-		"performance": 95,
-		"accessibility": 100,
-		"bestPractices": 73,
-		"seo": 100,
-		"lastUpdated": "2026-10-21T10:59:37.965Z"
-	},
-	"https://www.myalarmsecurity.co.uk": {
-		"performance": 77,
-		"accessibility": 92,
-		"bestPractices": 100,
-		"seo": 92,
-		"lastUpdated": "2026-10-22T10:58:49.756Z"
-	},
-	"https://www.newbarnltd.co.uk": {
-		"performance": 98,
-		"accessibility": 79,
-		"bestPractices": 96,
-		"seo": 100,
-		"lastUpdated": "2026-10-23T10:51:40.373Z"
-	},
-	"https://www.noktorum.com": {
-		"performance": 98,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 92,
-		"lastUpdated": "2026-10-24T10:06:02.720Z"
-	},
-	"https://patlog.co.uk": {
-		"performance": 99,
-		"accessibility": 84,
-		"bestPractices": 100,
-		"seo": 91,
-		"lastUpdated": "2026-10-25T10:31:29.015Z"
-	},
-	"https://www.playsafeplayinspection.co.uk": {
-		"performance": 91,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-27T11:24:33.949Z"
-	},
-	"https://play-test.co.uk": {
-		"performance": 96,
-		"accessibility": 85,
-		"bestPractices": 100,
-		"seo": 92,
-		"lastUpdated": "2026-10-28T11:57:21.204Z"
-	},
-	"https://www.renegade-solar.co.uk": {
-		"performance": 68,
-		"accessibility": 93,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-29T12:06:13.560Z"
-	},
-	"https://rpii.play-test.co.uk": {
-		"performance": 98,
-		"accessibility": 85,
-		"bestPractices": 96,
-		"seo": 92,
-		"lastUpdated": "2026-10-30T11:58:30.954Z"
-	},
-	"https://www.sallysbakesbury.co.uk": {
-		"performance": 98,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-31T11:32:06.750Z"
-	},
-	"https://www.southportorganics.co.uk": {
-		"performance": 84,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-11-01T12:30:08.951Z"
-	},
-	"https://news.southportorganics.co.uk": {
-		"performance": 73,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 69,
-		"lastUpdated": "2026-11-02T14:29:51.975Z"
-	},
-	"https://www.stefn.co.uk": {
-		"performance": 100,
-		"accessibility": 68,
-		"bestPractices": 100,
-		"seo": 92,
-		"lastUpdated": "2026-11-03T13:26:50.347Z"
-	},
-	"https://www.thisandthatcafe.co.uk": {
-		"performance": 98,
-		"accessibility": 100,
-		"bestPractices": 96,
-		"seo": 100,
-		"lastUpdated": "2026-11-04T13:38:15.595Z"
-	},
-	"https://www.ukegroupnorth.com": {
-		"performance": 74,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-08T12:38:09.330Z"
-	},
-	"https://www.veganprestwich.co.uk": {
-		"performance": 99,
-		"accessibility": 100,
-		"bestPractices": 100,
-		"seo": 100,
-		"lastUpdated": "2026-10-09T12:25:12.553Z"
-	},
-	"https://www.keenondriving.co.uk": {
-		"performance": 100,
-		"accessibility": 100,
-		"bestPractices": 96,
-		"seo": 100,
-		"lastUpdated": "2026-10-26T12:04:17.504Z"
-	}
+  "https://www.ashomefurnishings.co.uk": {
+    "performance": 97,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-10T11:44:01.312Z"
+  },
+  "https://www.bluepitshousingaction.co.uk": {
+    "performance": 92,
+    "accessibility": 98,
+    "bestPractices": 96,
+    "seo": 100,
+    "lastUpdated": "2026-10-11T11:57:11.176Z"
+  },
+  "https://www.buttonkin.com": {
+    "performance": 88,
+    "accessibility": 88,
+    "bestPractices": 77,
+    "seo": 100,
+    "lastUpdated": "2026-10-12T14:08:15.105Z"
+  },
+  "https://www.chobble.com": {
+    "performance": 83,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-13T13:20:46.948Z"
+  },
+  "https://blog.chobble.com": {
+    "performance": 100,
+    "accessibility": 100,
+    "bestPractices": 96,
+    "seo": 100,
+    "lastUpdated": "2026-10-14T10:59:47.454Z"
+  },
+  "https://crumpsallfolkclub.co.uk": {
+    "performance": 71,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-15T10:41:56.060Z"
+  },
+  "https://djmarkyt.co.uk": {
+    "performance": 94,
+    "accessibility": 92,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-16T10:29:12.371Z"
+  },
+  "https://www.enter6.co.uk": {
+    "performance": 27,
+    "accessibility": 90,
+    "bestPractices": 96,
+    "seo": 85,
+    "lastUpdated": "2026-10-17T10:00:46.985Z"
+  },
+  "https://www.freeholdcottage.com": {
+    "performance": 87,
+    "accessibility": 80,
+    "bestPractices": 100,
+    "seo": 85,
+    "lastUpdated": "2026-10-18T10:12:42.070Z"
+  },
+  "https://www.garsdalecottages.co.uk": {
+    "performance": 99,
+    "accessibility": 87,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-19T11:49:03.613Z"
+  },
+  "https://www.house-of-desserts.co.uk": {
+    "performance": 75,
+    "accessibility": 93,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-20T10:47:41.958Z"
+  },
+  "https://www.medwaymascots.co.uk": {
+    "performance": 95,
+    "accessibility": 100,
+    "bestPractices": 73,
+    "seo": 100,
+    "lastUpdated": "2026-10-21T10:59:37.965Z"
+  },
+  "https://www.myalarmsecurity.co.uk": {
+    "performance": 77,
+    "accessibility": 92,
+    "bestPractices": 100,
+    "seo": 92,
+    "lastUpdated": "2026-10-22T10:58:49.756Z"
+  },
+  "https://www.newbarnltd.co.uk": {
+    "performance": 98,
+    "accessibility": 79,
+    "bestPractices": 96,
+    "seo": 100,
+    "lastUpdated": "2026-10-23T10:51:40.373Z"
+  },
+  "https://www.noktorum.com": {
+    "performance": 98,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 92,
+    "lastUpdated": "2026-10-24T10:06:02.720Z"
+  },
+  "https://patlog.co.uk": {
+    "performance": 99,
+    "accessibility": 84,
+    "bestPractices": 100,
+    "seo": 91,
+    "lastUpdated": "2026-10-25T10:31:29.015Z"
+  },
+  "https://www.playsafeplayinspection.co.uk": {
+    "performance": 91,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-27T11:24:33.949Z"
+  },
+  "https://play-test.co.uk": {
+    "performance": 96,
+    "accessibility": 85,
+    "bestPractices": 100,
+    "seo": 92,
+    "lastUpdated": "2026-10-28T11:57:21.204Z"
+  },
+  "https://www.renegade-solar.co.uk": {
+    "performance": 68,
+    "accessibility": 93,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-29T12:06:13.560Z"
+  },
+  "https://rpii.play-test.co.uk": {
+    "performance": 98,
+    "accessibility": 85,
+    "bestPractices": 96,
+    "seo": 92,
+    "lastUpdated": "2026-10-30T11:58:30.954Z"
+  },
+  "https://www.sallysbakesbury.co.uk": {
+    "performance": 98,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-31T11:32:06.750Z"
+  },
+  "https://www.southportorganics.co.uk": {
+    "performance": 84,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-11-01T12:30:08.951Z"
+  },
+  "https://news.southportorganics.co.uk": {
+    "performance": 73,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 69,
+    "lastUpdated": "2026-11-02T14:29:51.975Z"
+  },
+  "https://www.stefn.co.uk": {
+    "performance": 100,
+    "accessibility": 68,
+    "bestPractices": 100,
+    "seo": 92,
+    "lastUpdated": "2026-11-03T13:26:50.347Z"
+  },
+  "https://www.thisandthatcafe.co.uk": {
+    "performance": 98,
+    "accessibility": 100,
+    "bestPractices": 96,
+    "seo": 100,
+    "lastUpdated": "2026-11-04T13:38:15.595Z"
+  },
+  "https://www.ukegroupnorth.com": {
+    "performance": 94,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-11-05T13:50:31.986Z"
+  },
+  "https://www.veganprestwich.co.uk": {
+    "performance": 99,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lastUpdated": "2026-10-09T12:25:12.553Z"
+  },
+  "https://www.keenondriving.co.uk": {
+    "performance": 100,
+    "accessibility": 100,
+    "bestPractices": 96,
+    "seo": 100,
+    "lastUpdated": "2026-10-26T12:04:17.504Z"
+  }
 }
