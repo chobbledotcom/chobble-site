@@ -29,7 +29,7 @@ This is the part I can offer that most web developers can't: [play-test](https:/
 
 [Play Safe Play Inspection](/examples/play-safe-play-inspection/) is Gary's site. He inspects playgrounds and indoor play centres around Chorley to BS EN 1176 and BS EN 1177 as well as inflatables, and needed something credible enough for councils, schools and holiday parks - the [Chobble Template](/services/chobble-template/) blocks layout gave him that without custom code.
 
-[Midland Play Inspections](https://www.midlandplayinspections.co.uk) is the biggest of the inspector sites I host: twenty-seven town pages across the Midlands, guides for hirers about tags and paperwork, and a case studies section, all built to rank for the towns Luke covers.
+[Midland Play Inspections](/examples/midland-play-inspections/) is the biggest of the inspector sites I host: twenty-one area pages across the Midlands, guides for hirers about tags and paperwork, and a case studies section, all built to rank for the towns Luke covers. The third is [PIPA Testing](https://www.pipatesting.co.uk), Dave Morris's site for PIPA inspections, RPII courses and inflatable repairs around Hampshire - same template, different trade.
 
 The [play-test example page](/examples/play-test/) has the full story of the database itself.
 

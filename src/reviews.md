@@ -42,6 +42,12 @@ Many thanks to the customers who have taken the time to leave me a review. **You
 >
 > _by [Phil at Sundorne Bouncy Castles](https://www.sundornebouncycastles.co.uk)_
 
+> I'd highly recommend Stefan at Chobble. He's helped with our Best Party Hire website and SEO, and built our Midland Play Inspections website.
+>
+> He's approachable and very generous with his knowledge, happy to answer questions and explain things clearly. His honest advice and attention to detail have been really valuable, and it's lovely to work with someone who takes the time to understand your business.
+>
+> _by [Luke at Best Party Hire](https://www.bestpartyhire.com), who also runs [Midland Play Inspections](https://www.midlandplayinspections.co.uk)_
+
 > Brilliant work, brilliant handover — exactly what you want from a web developer
 >
 > We can't recommend Stefan at Chobble highly enough. He built our website using the Chobble template and the entire experience, from first conversation through to handover, has been outstanding.
@@ -99,6 +105,14 @@ Many thanks to the customers who have taken the time to leave me a review. **You
 > Highly recommend this gentleman's services. Very knowledgeable, really helpful, kept me informed all the way, and nothing was too much trouble for Stef. If you're looking for website services, then this is your go-to man for sure
 >
 > _by [Andy at AS Home Furnishings](https://www.ashomefurnishings.co.uk)_
+
+> I have known Stefan for a long time and his work has always astounded me. I recently signed up my dog training website, ChalkiesDogs.co.uk, to be created and hosted by Chobble and what a breeze.
+>
+> Stefan is Responsive, he is friendly, the site is easy to navigate, setting up event tickets is a doddle, creating new listings for items that I sell is super quick, it's just all round very good!
+>
+> Don't overlook the little guys when you want to make it big time.
+>
+> _by [Chalkie's Dogs](https://www.chalkiesdogs.co.uk)_
 
 ## Reviews from Chobble Tickets users
 
