@@ -1,461 +1,461 @@
 {
-  "lastUpdated": "2026-11-04T13:38:15.629Z",
-  "sites": [
-    {
-      "name": "A&S Home Furnishings",
-      "url": "https://www.ashomefurnishings.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 29,
-        "certDaysRemaining": 76,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 97,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-10T11:44:01.312Z"
-      }
-    },
-    {
-      "name": "Blue Pits Housing Action",
-      "url": "https://www.bluepitshousingaction.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 31,
-        "certDaysRemaining": 76,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 92,
-        "accessibility": 98,
-        "bestPractices": 96,
-        "seo": 100,
-        "lastUpdated": "2026-10-11T11:57:11.176Z"
-      }
-    },
-    {
-      "name": "Buttonkin",
-      "url": "https://www.buttonkin.com",
-      "uptime": {
-        "status": "up",
-        "responseTime": 419,
-        "certDaysRemaining": 83,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 88,
-        "accessibility": 88,
-        "bestPractices": 77,
-        "seo": 100,
-        "lastUpdated": "2026-10-12T14:08:15.105Z"
-      }
-    },
-    {
-      "name": "Chobble",
-      "url": "https://www.chobble.com",
-      "uptime": null,
-      "lighthouse": {
-        "performance": 83,
-        "accessibility": 96,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-13T13:20:46.948Z"
-      }
-    },
-    {
-      "name": "Chobble Blog",
-      "url": "https://blog.chobble.com",
-      "uptime": {
-        "status": "up",
-        "responseTime": 33,
-        "certDaysRemaining": 77,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 100,
-        "accessibility": 100,
-        "bestPractices": 96,
-        "seo": 100,
-        "lastUpdated": "2026-10-14T10:59:47.454Z"
-      }
-    },
-    {
-      "name": "Crumpsall Folk Club",
-      "url": "https://crumpsallfolkclub.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 19,
-        "certDaysRemaining": 62,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 71,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-15T10:41:56.060Z"
-      }
-    },
-    {
-      "name": "DJ Mark YT",
-      "url": "https://djmarkyt.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 22,
-        "certDaysRemaining": 48,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 94,
-        "accessibility": 92,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-16T10:29:12.371Z"
-      }
-    },
-    {
-      "name": "Enter 6",
-      "url": "https://www.enter6.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 36,
-        "certDaysRemaining": 85,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 27,
-        "accessibility": 90,
-        "bestPractices": 96,
-        "seo": 85,
-        "lastUpdated": "2026-10-17T10:00:46.985Z"
-      }
-    },
-    {
-      "name": "Freehold Cottage",
-      "url": "https://www.freeholdcottage.com",
-      "uptime": {
-        "status": "up",
-        "responseTime": 25,
-        "certDaysRemaining": 77,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 87,
-        "accessibility": 80,
-        "bestPractices": 100,
-        "seo": 85,
-        "lastUpdated": "2026-10-18T10:12:42.070Z"
-      }
-    },
-    {
-      "name": "Garsdale Cottages",
-      "url": "https://www.garsdalecottages.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 98,
-        "certDaysRemaining": 84,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 99,
-        "accessibility": 87,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-19T11:49:03.613Z"
-      }
-    },
-    {
-      "name": "House of Desserts",
-      "url": "https://www.house-of-desserts.co.uk",
-      "uptime": null,
-      "lighthouse": {
-        "performance": 75,
-        "accessibility": 93,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-20T10:47:41.958Z"
-      }
-    },
-    {
-      "name": "Keen On Driving",
-      "url": "https://www.keenondriving.co.uk",
-      "uptime": null,
-      "lighthouse": {
-        "performance": 100,
-        "accessibility": 100,
-        "bestPractices": 96,
-        "seo": 100,
-        "lastUpdated": "2026-10-26T12:04:17.504Z"
-      }
-    },
-    {
-      "name": "Medway Mascots",
-      "url": "https://www.medwaymascots.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 28,
-        "certDaysRemaining": 76,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 95,
-        "accessibility": 100,
-        "bestPractices": 73,
-        "seo": 100,
-        "lastUpdated": "2026-10-21T10:59:37.965Z"
-      }
-    },
-    {
-      "name": "My Alarm Security",
-      "url": "https://www.myalarmsecurity.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 194,
-        "certDaysRemaining": 84,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 77,
-        "accessibility": 92,
-        "bestPractices": 100,
-        "seo": 92,
-        "lastUpdated": "2026-10-22T10:58:49.756Z"
-      }
-    },
-    {
-      "name": "New Barn",
-      "url": "https://www.newbarnltd.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 24,
-        "certDaysRemaining": 77,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 98,
-        "accessibility": 79,
-        "bestPractices": 96,
-        "seo": 100,
-        "lastUpdated": "2026-10-23T10:51:40.373Z"
-      }
-    },
-    {
-      "name": "Noktorum",
-      "url": "https://www.noktorum.com",
-      "uptime": {
-        "status": "up",
-        "responseTime": 32,
-        "certDaysRemaining": 77,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 98,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 92,
-        "lastUpdated": "2026-10-24T10:06:02.720Z"
-      }
-    },
-    {
-      "name": "Patlog",
-      "url": "https://patlog.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 83,
-        "certDaysRemaining": 75,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 99,
-        "accessibility": 84,
-        "bestPractices": 100,
-        "seo": 91,
-        "lastUpdated": "2026-10-25T10:31:29.015Z"
-      }
-    },
-    {
-      "name": "Play Safe Play Inspection",
-      "url": "https://www.playsafeplayinspection.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 305,
-        "certDaysRemaining": 84,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 91,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-27T11:24:33.949Z"
-      }
-    },
-    {
-      "name": "Play-Test",
-      "url": "https://play-test.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 40,
-        "certDaysRemaining": 85,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 96,
-        "accessibility": 85,
-        "bestPractices": 100,
-        "seo": 92,
-        "lastUpdated": "2026-10-28T11:57:21.204Z"
-      }
-    },
-    {
-      "name": "Renegade Solar",
-      "url": "https://www.renegade-solar.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 260,
-        "certDaysRemaining": 75,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 68,
-        "accessibility": 93,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-29T12:06:13.560Z"
-      }
-    },
-    {
-      "name": "RPII Play-Test",
-      "url": "https://rpii.play-test.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 91,
-        "certDaysRemaining": 84,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 98,
-        "accessibility": 85,
-        "bestPractices": 96,
-        "seo": 92,
-        "lastUpdated": "2026-10-30T11:58:30.954Z"
-      }
-    },
-    {
-      "name": "Sally's Bakesbury",
-      "url": "https://www.sallysbakesbury.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 44,
-        "certDaysRemaining": 77,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 98,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-31T11:32:06.750Z"
-      }
-    },
-    {
-      "name": "Southport Organics",
-      "url": "https://www.southportorganics.co.uk",
-      "uptime": null,
-      "lighthouse": {
-        "performance": 84,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-11-01T12:30:08.951Z"
-      }
-    },
-    {
-      "name": "Southport Organics News",
-      "url": "https://news.southportorganics.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 21,
-        "certDaysRemaining": 32,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 73,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 69,
-        "lastUpdated": "2026-11-02T14:29:51.975Z"
-      }
-    },
-    {
-      "name": "Stefn",
-      "url": "https://www.stefn.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 30,
-        "certDaysRemaining": 79,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 100,
-        "accessibility": 68,
-        "bestPractices": 100,
-        "seo": 92,
-        "lastUpdated": "2026-11-03T13:26:50.347Z"
-      }
-    },
-    {
-      "name": "This and That Cafe",
-      "url": "https://www.thisandthatcafe.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 81,
-        "certDaysRemaining": 77,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 98,
-        "accessibility": 100,
-        "bestPractices": 96,
-        "seo": 100,
-        "lastUpdated": "2026-11-04T13:38:15.595Z"
-      }
-    },
-    {
-      "name": "Uke Group North",
-      "url": "https://www.ukegroupnorth.com",
-      "uptime": {
-        "status": "up",
-        "responseTime": 32,
-        "certDaysRemaining": 75,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 74,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-08T12:38:09.330Z"
-      }
-    },
-    {
-      "name": "Vegan Prestwich",
-      "url": "https://www.veganprestwich.co.uk",
-      "uptime": {
-        "status": "up",
-        "responseTime": 40,
-        "certDaysRemaining": 77,
-        "uptimePercent": 100
-      },
-      "lighthouse": {
-        "performance": 99,
-        "accessibility": 100,
-        "bestPractices": 100,
-        "seo": 100,
-        "lastUpdated": "2026-10-09T12:25:12.553Z"
-      }
-    }
-  ]
+	"lastUpdated": "2026-11-04T13:38:15.629Z",
+	"sites": [
+		{
+			"name": "A&S Home Furnishings",
+			"url": "https://www.ashomefurnishings.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 29,
+				"certDaysRemaining": 76,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 97,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-10T11:44:01.312Z"
+			}
+		},
+		{
+			"name": "Blue Pits Housing Action",
+			"url": "https://www.bluepitshousingaction.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 31,
+				"certDaysRemaining": 76,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 92,
+				"accessibility": 98,
+				"bestPractices": 96,
+				"seo": 100,
+				"lastUpdated": "2026-10-11T11:57:11.176Z"
+			}
+		},
+		{
+			"name": "Buttonkin",
+			"url": "https://www.buttonkin.com",
+			"uptime": {
+				"status": "up",
+				"responseTime": 419,
+				"certDaysRemaining": 83,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 88,
+				"accessibility": 88,
+				"bestPractices": 77,
+				"seo": 100,
+				"lastUpdated": "2026-10-12T14:08:15.105Z"
+			}
+		},
+		{
+			"name": "Chobble",
+			"url": "https://www.chobble.com",
+			"uptime": null,
+			"lighthouse": {
+				"performance": 83,
+				"accessibility": 96,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-13T13:20:46.948Z"
+			}
+		},
+		{
+			"name": "Chobble Blog",
+			"url": "https://blog.chobble.com",
+			"uptime": {
+				"status": "up",
+				"responseTime": 33,
+				"certDaysRemaining": 77,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 100,
+				"accessibility": 100,
+				"bestPractices": 96,
+				"seo": 100,
+				"lastUpdated": "2026-10-14T10:59:47.454Z"
+			}
+		},
+		{
+			"name": "Crumpsall Folk Club",
+			"url": "https://crumpsallfolkclub.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 19,
+				"certDaysRemaining": 62,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 71,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-15T10:41:56.060Z"
+			}
+		},
+		{
+			"name": "DJ Mark YT",
+			"url": "https://djmarkyt.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 22,
+				"certDaysRemaining": 48,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 94,
+				"accessibility": 92,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-16T10:29:12.371Z"
+			}
+		},
+		{
+			"name": "Enter 6",
+			"url": "https://www.enter6.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 36,
+				"certDaysRemaining": 85,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 27,
+				"accessibility": 90,
+				"bestPractices": 96,
+				"seo": 85,
+				"lastUpdated": "2026-10-17T10:00:46.985Z"
+			}
+		},
+		{
+			"name": "Freehold Cottage",
+			"url": "https://www.freeholdcottage.com",
+			"uptime": {
+				"status": "up",
+				"responseTime": 25,
+				"certDaysRemaining": 77,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 87,
+				"accessibility": 80,
+				"bestPractices": 100,
+				"seo": 85,
+				"lastUpdated": "2026-10-18T10:12:42.070Z"
+			}
+		},
+		{
+			"name": "Garsdale Cottages",
+			"url": "https://www.garsdalecottages.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 98,
+				"certDaysRemaining": 84,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 99,
+				"accessibility": 87,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-19T11:49:03.613Z"
+			}
+		},
+		{
+			"name": "House of Desserts",
+			"url": "https://www.house-of-desserts.co.uk",
+			"uptime": null,
+			"lighthouse": {
+				"performance": 75,
+				"accessibility": 93,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-20T10:47:41.958Z"
+			}
+		},
+		{
+			"name": "Keen On Driving",
+			"url": "https://www.keenondriving.co.uk",
+			"uptime": null,
+			"lighthouse": {
+				"performance": 100,
+				"accessibility": 100,
+				"bestPractices": 96,
+				"seo": 100,
+				"lastUpdated": "2026-10-26T12:04:17.504Z"
+			}
+		},
+		{
+			"name": "Medway Mascots",
+			"url": "https://www.medwaymascots.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 28,
+				"certDaysRemaining": 76,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 95,
+				"accessibility": 100,
+				"bestPractices": 73,
+				"seo": 100,
+				"lastUpdated": "2026-10-21T10:59:37.965Z"
+			}
+		},
+		{
+			"name": "My Alarm Security",
+			"url": "https://www.myalarmsecurity.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 194,
+				"certDaysRemaining": 84,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 77,
+				"accessibility": 92,
+				"bestPractices": 100,
+				"seo": 92,
+				"lastUpdated": "2026-10-22T10:58:49.756Z"
+			}
+		},
+		{
+			"name": "New Barn",
+			"url": "https://www.newbarnltd.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 24,
+				"certDaysRemaining": 77,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 98,
+				"accessibility": 79,
+				"bestPractices": 96,
+				"seo": 100,
+				"lastUpdated": "2026-10-23T10:51:40.373Z"
+			}
+		},
+		{
+			"name": "Noktorum",
+			"url": "https://www.noktorum.com",
+			"uptime": {
+				"status": "up",
+				"responseTime": 32,
+				"certDaysRemaining": 77,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 98,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 92,
+				"lastUpdated": "2026-10-24T10:06:02.720Z"
+			}
+		},
+		{
+			"name": "Patlog",
+			"url": "https://patlog.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 83,
+				"certDaysRemaining": 75,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 99,
+				"accessibility": 84,
+				"bestPractices": 100,
+				"seo": 91,
+				"lastUpdated": "2026-10-25T10:31:29.015Z"
+			}
+		},
+		{
+			"name": "Play Safe Play Inspection",
+			"url": "https://www.playsafeplayinspection.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 305,
+				"certDaysRemaining": 84,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 91,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-27T11:24:33.949Z"
+			}
+		},
+		{
+			"name": "Play-Test",
+			"url": "https://play-test.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 40,
+				"certDaysRemaining": 85,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 96,
+				"accessibility": 85,
+				"bestPractices": 100,
+				"seo": 92,
+				"lastUpdated": "2026-10-28T11:57:21.204Z"
+			}
+		},
+		{
+			"name": "Renegade Solar",
+			"url": "https://www.renegade-solar.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 260,
+				"certDaysRemaining": 75,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 68,
+				"accessibility": 93,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-29T12:06:13.560Z"
+			}
+		},
+		{
+			"name": "RPII Play-Test",
+			"url": "https://rpii.play-test.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 91,
+				"certDaysRemaining": 84,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 98,
+				"accessibility": 85,
+				"bestPractices": 96,
+				"seo": 92,
+				"lastUpdated": "2026-10-30T11:58:30.954Z"
+			}
+		},
+		{
+			"name": "Sally's Bakesbury",
+			"url": "https://www.sallysbakesbury.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 44,
+				"certDaysRemaining": 77,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 98,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-31T11:32:06.750Z"
+			}
+		},
+		{
+			"name": "Southport Organics",
+			"url": "https://www.southportorganics.co.uk",
+			"uptime": null,
+			"lighthouse": {
+				"performance": 84,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-11-01T12:30:08.951Z"
+			}
+		},
+		{
+			"name": "Southport Organics News",
+			"url": "https://news.southportorganics.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 21,
+				"certDaysRemaining": 32,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 73,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 69,
+				"lastUpdated": "2026-11-02T14:29:51.975Z"
+			}
+		},
+		{
+			"name": "Stefn",
+			"url": "https://www.stefn.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 30,
+				"certDaysRemaining": 79,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 100,
+				"accessibility": 68,
+				"bestPractices": 100,
+				"seo": 92,
+				"lastUpdated": "2026-11-03T13:26:50.347Z"
+			}
+		},
+		{
+			"name": "This and That Cafe",
+			"url": "https://www.thisandthatcafe.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 81,
+				"certDaysRemaining": 77,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 98,
+				"accessibility": 100,
+				"bestPractices": 96,
+				"seo": 100,
+				"lastUpdated": "2026-11-04T13:38:15.595Z"
+			}
+		},
+		{
+			"name": "Uke Group North",
+			"url": "https://www.ukegroupnorth.com",
+			"uptime": {
+				"status": "up",
+				"responseTime": 32,
+				"certDaysRemaining": 75,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 74,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-08T12:38:09.330Z"
+			}
+		},
+		{
+			"name": "Vegan Prestwich",
+			"url": "https://www.veganprestwich.co.uk",
+			"uptime": {
+				"status": "up",
+				"responseTime": 40,
+				"certDaysRemaining": 77,
+				"uptimePercent": 100
+			},
+			"lighthouse": {
+				"performance": 99,
+				"accessibility": 100,
+				"bestPractices": 100,
+				"seo": 100,
+				"lastUpdated": "2026-10-09T12:25:12.553Z"
+			}
+		}
+	]
 }
