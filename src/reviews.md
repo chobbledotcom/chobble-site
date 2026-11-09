@@ -10,7 +10,35 @@ meta_description: What clients say about Chobble - transparent SEO advice, websi
 
 Many thanks to the customers who have taken the time to leave me a review. **You can leave one on [Trustpilot](https://uk.trustpilot.com/review/chobble.com), [Facebook](https://www.facebook.com/ChobbleDotCom) or [Google Maps](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8).**
 
-## Website and SEO reviews
+## Website, SEO and general reviews
+
+> The help I received was incredible, everything was explained to me and was made so easy for me to do. I would 100% recommend and I will continue to use Chobble in the future.
+>
+> _by [Gem Barrett](https://trustpilot.com/reviews/6af04ebd0de11627a78e569e), via Trustpilot_
+
+> They're so different to anything else and I would be remiss if I didn't take two minutes of my time to tell people about them.
+>
+> The company is a CiC, which by itself is outstanding - But this is basically their way of life. They manage to hold true to their own personal values while performing excellent work and running a successful company without compromising themselves. They open-source their projects and their priority isn't profit. They open-source their own tools, projects and truly want collaboration and interoperability with everyone!
+>
+> They donate 10% of earnings to charity and aren't just the choice you *should* make because of ethical values you may hold, they're the best choice because they're actually brilliant, and I MEAN brilliant in the truest sense of the word - Not the overused term it has become.
+>
+> _by [Spencer at Elliott's Bouncy Castle Hire](https://trustpilot.com/reviews/6af044a3ee5333a257983004), via Trustpilot_
+
+> Stefan has a great service that takes an in depth look at your website for you, it analyzes each page and scores them on different factors.
+>
+> So there's a detailed spreadsheet attached like most SEO reports but what I really liked is how he turned it into a hilarious podcast between 2 hosts about big issues to small ones like struggling to spell the word favourite across the website! Ha very true but I always thought I spelt it right, now I know!
+>
+> It's great having people do work on your website for you, but equally knowing for yourself what's wrong and how SEO works is more beneficial.
+>
+> _by Beyond Bounce, via [Google](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8)_
+
+> Had phone call with Stef. I like to say Stef is smart guy with load of experience in developing. Thank you Stef again.
+>
+> _by [Andis](https://trustpilot.com/reviews/6ace7edb4d508fc3c58c7dde), via Trustpilot_
+
+> Really pleased with the service from Chobble Website Design. They were supportive throughout the whole process and made every change we asked for. Our new site looks great, and we genuinely appreciate their hard work.
+>
+> _by [Colin at Bounceroos](https://www.facebook.com/Bounceroos/posts/pfbid02yZmsS4WyYuHUz3c7SQfNDXekKuWPQ1co7Kj3p5emC6tG2SNh8mAt2mbDoBhTVKqul), via Facebook_
 
 > Fantastic work from the start. Stef at Chobble has always been really helpful and knowledgeable when it comes to websites and SEO. They handled my website migration and hosting smoothly, and the site is really easy to manage and update.
 >
@@ -118,6 +146,12 @@ Many thanks to the customers who have taken the time to leave me a review. **You
 
 As well as building websites, I make [Chobble Tickets](https://tickets.chobble.com), an open source ticketing platform for events. The reviews below are from people who use it to sell tickets for their events, so they're about the ticketing platform.
 
+> This man is a genius. Completely revolutionised my Event ticketing. The system is straight forward, simple to use but feature packed. Constantly improving as well. Thank you so much for creating it and for such a ridiculously good price.
+>
+> Also very helpful, knowledgeable and quick at looking into problem or questions.
+>
+> _by [Philip Dixon](https://www.facebook.com/philip.dixon.100/posts/pfbid02xmMqjvkkzgz6ceShJhREFRXDF9uvfsowLVVeoFfwN52LzoaSVgCbdK5LC3VRWDYfl), via Facebook, Chobble Tickets user_
+
 > The nice thing with Chobble Tickets is you don't really need to fight with it to get started. It works well pretty much out of the box with very little setup, whilst still being, at its heart, developer orientated.
 >
 > I dropped it into a static site without much hassle and had proper ticketing functionality without having to reinvent the wheel.
@@ -156,7 +190,9 @@ As well as building websites, I make [Chobble Tickets](https://tickets.chobble.c
 >
 > Stefan is always on hand to guide you through setups and even when technical problems arise without our knowing he is in the background fixing them already. Highly recommend Stefan and his team. If you run events and sell tickets then you won't be disappointed with Chobble.
 >
-> _by [Alan at Mane Events](https://uk.trustpilot.com/reviews/6aaeccf7811cafb28ce8416b), Chobble Tickets user_
+> Stefan from Chobble has been fantastic for our ticket sales business. Always on hand to deliver support and his system is the best.
+>
+> _by [Alan at Mane Events](https://uk.trustpilot.com/reviews/6aaeccf7811cafb28ce8416b), who also left [a review on Google](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8), Chobble Tickets user_
 
 > So we reached out in regards to the ticket system they offer. I mean it's a game changer. Saves us a few bob and made it easier for customers! The QR system is a game changer! No more holding data on paper, it's now all simple.
 >
