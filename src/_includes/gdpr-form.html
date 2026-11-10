@@ -72,44 +72,44 @@
     <select id="gdpr-request" name="request_type" required>
       <option value="">Please choose</option>
       <option
-        data-request-branch="delete"
+        data-branch-key="delete"
         value='I want you to delete my personal data ("right to be forgotten")'
       >
         I want you to delete my personal data ("right to be forgotten")
       </option>
       <option
-        data-request-branch="portability"
+        data-branch-key="portability"
         value="I want you to transfer my data to me or a third party"
       >
         I want you to transfer my data to me or a third party
       </option>
       <option
-        data-request-branch="access"
+        data-branch-key="access"
         value="I want to know how you are using my personal information"
       >
         I want to know how you are using my personal information
       </option>
       <option
-        data-request-branch="rectify"
+        data-branch-key="rectify"
         value="I want to rectify incorrect data you have about me"
       >
         I want to rectify incorrect data you have about me
       </option>
       <option
-        data-request-branch="marketing"
+        data-branch-key="marketing"
         value="I want you to stop using my information for direct marketing and profiling"
       >
         I want you to stop using my information for direct marketing and
         profiling
       </option>
       <option
-        data-request-branch="restrict"
+        data-branch-key="restrict"
         value="I want you to keep my data, but to stop processing it"
       >
         I want you to keep my data, but to stop processing it
       </option>
       <option
-        data-request-branch="object"
+        data-branch-key="object"
         value="I want to object to the way you are using my personal information"
       >
         I want to object to the way you are using my personal information
@@ -339,7 +339,7 @@
     var companyOnly = form.querySelector("[data-company-only]");
     var companyInput = companyOnly.querySelector("input");
     var request = form.querySelector("#gdpr-request");
-    var branches = form.querySelectorAll("[data-request-branch]");
+    var branches = form.querySelectorAll("fieldset[data-request-branch]");
     var transfer = form.querySelector("#gdpr-transfer-to");
     var thirdParty = form.querySelector("[data-third-party]");
     var thirdPartyInput = thirdParty.querySelector("input");
@@ -358,7 +358,7 @@
 
     function syncRequest() {
       var option = request.options[request.selectedIndex];
-      var branch = option ? option.getAttribute("data-request-branch") : null;
+      var branch = option ? option.getAttribute("data-branch-key") : null;
 
       branches.forEach(function (fieldset) {
         var show = fieldset.getAttribute("data-request-branch") === branch;
