@@ -6,6 +6,7 @@
     <meta name="generator" content="Eleventy" />
     <title>{{ meta_title | default: title }}</title>
     <meta name="description" content="{{ meta_description | default: description | escape }}" />
+    {% if noindex %}<meta name="robots" content="noindex" />{% endif %}
     <script src="/assets/js/theme-init.js"></script>
     <link rel="stylesheet" href="/css/style.css?v=7" />
     <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" />
@@ -95,7 +96,9 @@
     <main>
       <div class="container">
         {{ content }}
-        {% include "contact-form.html" %}
+        {% unless show_contact_form == false %}
+          {% include "contact-form.html" %}
+        {% endunless %}
         {% if faqs.size > 0 %}
         <section id="faqs">
           <h2>Frequently asked questions</h2>

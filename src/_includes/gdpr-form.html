@@ -1,0 +1,384 @@
+<form
+  id="gdpr-form"
+  class="gdpr-form"
+  action="https://submit-form.com/{{ site.formspark_id }}"
+  data-botpoison-public-key="pk_bbb182a9-1ff3-4d9a-839c-06e45f41a6e6"
+>
+  <input
+    type="hidden"
+    name="_redirect"
+    value="{{ site.url }}/gdpr/thank-you/"
+  />
+  <input type="hidden" name="_email.subject" value="GDPR request" />
+  <input type="hidden" name="_email.template.footer" value="false" />
+
+  <noscript>
+    <p class="field-hint">
+      The extra questions need JavaScript. Without it you can still send the
+      first part of the form and I'll email you for anything else I need, or
+      you can email
+      <a href="mailto:hello@chobble.com">hello@chobble.com</a>.
+    </p>
+  </noscript>
+
+  <label for="gdpr-entity">
+    Are you a person or a company?
+    <select id="gdpr-entity" name="entity_type" required>
+      <option value="">Please choose</option>
+      <option value="I'm a person">I'm a person</option>
+      <option value="I'm representing a company">
+        I'm representing a company
+      </option>
+    </select>
+  </label>
+
+  <div data-company-only hidden>
+    <label for="gdpr-vat">
+      VAT number
+      <input
+        type="text"
+        id="gdpr-vat"
+        name="vat_number"
+        placeholder="Your VAT number, if you have one"
+        disabled
+      />
+    </label>
+  </div>
+
+  <label for="gdpr-name">
+    What's your full name?
+    <input
+      type="text"
+      id="gdpr-name"
+      name="full_name"
+      placeholder="Your full name"
+      required
+    />
+  </label>
+
+  <label for="gdpr-email">
+    Email address (I don't share your email address, ever)
+    <input
+      type="email"
+      id="gdpr-email"
+      name="email"
+      placeholder="Your email address"
+      required
+    />
+  </label>
+
+  <label for="gdpr-request">
+    What is your GDPR related request?
+    <select id="gdpr-request" name="request_type" required>
+      <option value="">Please choose</option>
+      <option
+        data-request-branch="delete"
+        value='I want you to delete my personal data ("right to be forgotten")'
+      >
+        I want you to delete my personal data ("right to be forgotten")
+      </option>
+      <option
+        data-request-branch="portability"
+        value="I want you to transfer my data to me or a third party"
+      >
+        I want you to transfer my data to me or a third party
+      </option>
+      <option
+        data-request-branch="access"
+        value="I want to know how you are using my personal information"
+      >
+        I want to know how you are using my personal information
+      </option>
+      <option
+        data-request-branch="rectify"
+        value="I want to rectify incorrect data you have about me"
+      >
+        I want to rectify incorrect data you have about me
+      </option>
+      <option
+        data-request-branch="marketing"
+        value="I want you to stop using my information for direct marketing and profiling"
+      >
+        I want you to stop using my information for direct marketing and
+        profiling
+      </option>
+      <option
+        data-request-branch="restrict"
+        value="I want you to keep my data, but to stop processing it"
+      >
+        I want you to keep my data, but to stop processing it
+      </option>
+      <option
+        data-request-branch="object"
+        value="I want to object to the way you are using my personal information"
+      >
+        I want to object to the way you are using my personal information
+      </option>
+    </select>
+  </label>
+
+  <fieldset data-request-branch="delete" disabled hidden>
+    <legend>Deleting your data</legend>
+    <label for="gdpr-delete-reason">
+      Why do you want your data to be deleted?
+      <select id="gdpr-delete-reason" name="deletion_reason" required>
+        <option value="">Please choose</option>
+        <option value="Our company no longer has any use for my data">
+          Our company no longer has any use for my data
+        </option>
+        <option value="I want to withdraw my consent for processing my data">
+          I want to withdraw my consent for processing my data
+        </option>
+        <option value="I believe my data is being used unlawfully">
+          I believe my data is being used unlawfully
+        </option>
+        <option value="I want to stop my data from being processed">
+          I want to stop my data from being processed
+        </option>
+        <option
+          value="I want to stop my data from being used in direct marketing"
+        >
+          I want to stop my data from being used in direct marketing
+        </option>
+        <option value="I want my data to be deleted to comply with a legal order">
+          I want my data to be deleted to comply with a legal order
+        </option>
+      </select>
+    </label>
+    <label for="gdpr-delete-data">
+      Optionally, specify which data you want to make sure I will delete
+      <textarea
+        id="gdpr-delete-data"
+        name="deletion_data"
+        placeholder="Anything you want to make sure is covered"
+      ></textarea>
+    </label>
+  </fieldset>
+
+  <fieldset data-request-branch="portability" disabled hidden>
+    <legend>Transferring your data</legend>
+    <label for="gdpr-transfer-to">
+      To whom do you want me to transfer your data?
+      <select id="gdpr-transfer-to" name="transfer_to" required>
+        <option value="">Please choose</option>
+        <option value="I want to receive it myself">
+          I want to receive it myself
+        </option>
+        <option value="I want to transfer it to a third party">
+          I want to transfer it to a third party
+        </option>
+      </select>
+    </label>
+    <div data-third-party hidden>
+      <label for="gdpr-third-party">
+        Specify the third party
+        <input
+          type="text"
+          id="gdpr-third-party"
+          name="third_party"
+          placeholder="Name and contact details for the third party"
+          disabled
+        />
+      </label>
+    </div>
+    <label for="gdpr-transfer-details">
+      Optionally, describe your case in more detail. Which data should be
+      transferred?
+      <textarea
+        id="gdpr-transfer-details"
+        name="transfer_details"
+        placeholder="Which data you want, and where it should go"
+      ></textarea>
+    </label>
+  </fieldset>
+
+  <fieldset data-request-branch="access" disabled hidden>
+    <legend>Accessing your data</legend>
+    <label for="gdpr-access-info">
+      What information would you like to access?
+      <select id="gdpr-access-info" name="access_info" required>
+        <option value="">Please choose</option>
+        <option value="I want to know why you are processing my data">
+          I want to know why you are processing my data
+        </option>
+        <option value="I want to know how you received my personal information">
+          I want to know how you received my personal information
+        </option>
+        <option value="I want to know the types of personal data collected">
+          I want to know the types of personal data collected
+        </option>
+        <option value="I want to know all third parties you share my information with">
+          I want to know all third parties you share my information with
+        </option>
+        <option
+          value="I want to know the duration for which my data will be stored and the reason for that decision"
+        >
+          I want to know the duration for which my data will be stored and the
+          reason for that decision
+        </option>
+        <option value="I want to stop my data from being processed">
+          I want to stop my data from being processed
+        </option>
+        <option
+          value="I want to stop my data from being used in direct marketing"
+        >
+          I want to stop my data from being used in direct marketing
+        </option>
+        <option
+          value="I want to know if any automated decision making or profiling is being done using my personal information"
+        >
+          I want to know if any automated decision making or profiling is being
+          done using my personal information
+        </option>
+      </select>
+    </label>
+    <label for="gdpr-access-details">
+      Optionally, explain your question in more detail
+      <textarea
+        id="gdpr-access-details"
+        name="access_details"
+        placeholder="Anything else you want to ask"
+      ></textarea>
+    </label>
+  </fieldset>
+
+  <fieldset data-request-branch="rectify" disabled hidden>
+    <legend>Correcting your data</legend>
+    <label for="gdpr-incorrect-data">
+      Describe the incorrect data that I have about you
+      <textarea
+        id="gdpr-incorrect-data"
+        name="incorrect_data"
+        placeholder="What is wrong at the moment?"
+        required
+      ></textarea>
+    </label>
+    <label for="gdpr-correct-data">
+      Describe the correct version of the same data
+      <textarea
+        id="gdpr-correct-data"
+        name="correct_data"
+        placeholder="What it should say instead"
+        required
+      ></textarea>
+    </label>
+  </fieldset>
+
+  <fieldset data-request-branch="marketing" disabled hidden>
+    <legend>Stopping direct marketing and profiling</legend>
+    <label for="gdpr-marketing-details">
+      Optionally, specify more details
+      <textarea
+        id="gdpr-marketing-details"
+        name="marketing_details"
+        placeholder="Anything you want to add"
+      ></textarea>
+    </label>
+  </fieldset>
+
+  <fieldset data-request-branch="restrict" disabled hidden>
+    <legend>Restricting processing</legend>
+    <label for="gdpr-restriction-reason">
+      Why do you want me to stop processing your data?
+      <select
+        id="gdpr-restriction-reason"
+        name="restriction_reason"
+        required
+      >
+        <option value="">Please choose</option>
+        <option value="I believe the data you have about me is inaccurate">
+          I believe the data you have about me is inaccurate
+        </option>
+        <option value="I believe my personal information is being used unlawfully">
+          I believe my personal information is being used unlawfully
+        </option>
+        <option value="There is no further need for my personal information to be used">
+          There is no further need for my personal information to be used
+        </option>
+        <option
+          value="I have a pending complaint and I want you to stop processing my data while this complaint is pending"
+        >
+          I have a pending complaint and I want you to stop processing my data
+          while this complaint is pending
+        </option>
+      </select>
+    </label>
+    <label for="gdpr-restriction-details">
+      Optionally, describe your case in more detail
+      <textarea
+        id="gdpr-restriction-details"
+        name="restriction_details"
+        placeholder="Anything else you want to add"
+      ></textarea>
+    </label>
+  </fieldset>
+
+  <fieldset data-request-branch="object" disabled hidden>
+    <legend>Objecting to how your data is used</legend>
+    <label for="gdpr-objection-details">
+      Please describe the behaviour you are objecting to, related to the usage
+      of your personal information
+      <textarea
+        id="gdpr-objection-details"
+        name="objection_details"
+        placeholder="What are you objecting to?"
+        required
+      ></textarea>
+    </label>
+  </fieldset>
+
+  <button type="submit">Send request</button>
+</form>
+
+<script>
+  (function () {
+    var form = document.getElementById("gdpr-form");
+    if (!form) return;
+
+    var entity = form.querySelector("#gdpr-entity");
+    var companyOnly = form.querySelector("[data-company-only]");
+    var companyInput = companyOnly.querySelector("input");
+    var request = form.querySelector("#gdpr-request");
+    var branches = form.querySelectorAll("[data-request-branch]");
+    var transfer = form.querySelector("#gdpr-transfer-to");
+    var thirdParty = form.querySelector("[data-third-party]");
+    var thirdPartyInput = thirdParty.querySelector("input");
+
+    function syncCompany() {
+      var show = entity.value === "I'm representing a company";
+      companyOnly.hidden = !show;
+      companyInput.disabled = !show;
+    }
+
+    function syncTransfer() {
+      var show = transfer.value === "I want to transfer it to a third party";
+      thirdParty.hidden = !show;
+      thirdPartyInput.disabled = !show;
+    }
+
+    function syncRequest() {
+      var option = request.options[request.selectedIndex];
+      var branch = option ? option.getAttribute("data-request-branch") : null;
+
+      branches.forEach(function (fieldset) {
+        var show = fieldset.getAttribute("data-request-branch") === branch;
+        fieldset.hidden = !show;
+        fieldset.disabled = !show;
+      });
+
+      syncTransfer();
+    }
+
+    entity.addEventListener("change", syncCompany);
+    request.addEventListener("change", syncRequest);
+    transfer.addEventListener("change", syncTransfer);
+
+    window.addEventListener("pageshow", function () {
+      syncCompany();
+      syncRequest();
+    });
+
+    syncCompany();
+    syncRequest();
+  })();
+</script>

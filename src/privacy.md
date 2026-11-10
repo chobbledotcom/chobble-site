@@ -14,7 +14,7 @@ This page explains what Chobble does with your data. If anything here is unclear
 
 - The site uses [GoatCounter](https://www.goatcounter.com/), a privacy-respecting analytics tool I self-host. It records anonymous page views and referrers. It does not use cookies, track you across sites, or build a profile of you.
 - There are no third-party advertising trackers and no Google Analytics.
-- The contact form sends your message to me via [Formspark](https://formspark.io) and checks for spam via [Botpoison](https://botpoison.com). I only use the email address and name you provide to reply to you.
+- The contact form and the [GDPR request form](/gdpr/) send your message to me via [Formspark](https://formspark.io) and check for spam via [Botpoison](https://botpoison.com). I only use the details you provide to reply to you.
 
 ## When you hire me
 
@@ -24,7 +24,7 @@ This page explains what Chobble does with your data. If anything here is unclear
 
 ## Your rights
 
-- You can ask me at any time what data I hold about you, and I'll tell you.
+- You can [make a GDPR request](/gdpr/) at any time, or email me, and I'll tell you what data I hold about you.
 - You can ask me to delete it, and I will (unless I legally have to keep it, e.g. for tax records).
 - You can complain to the [ICO](https://ico.org.uk/) if you think I've mishandled your data.
 

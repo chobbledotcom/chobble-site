@@ -745,6 +745,10 @@ footer {
 // ---------------------------------------------------------------------------
 // Forms
 // ---------------------------------------------------------------------------
+[hidden] {
+  display: none !important;
+}
+
 form,
 .form {
   width: 100%;
@@ -756,6 +760,7 @@ form,
 
   label,
   input,
+  select,
   textarea {
     display: block;
     width: 100%;
@@ -769,6 +774,7 @@ form,
   }
 
   input,
+  select,
   textarea {
     padding: 0.5rem 0.75rem;
     font-family: $system-font;
@@ -782,6 +788,29 @@ form,
     height: 8rem;
     resize: vertical;
   }
+
+  fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  legend {
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: var(--fg);
+  }
+
+  .field-hint {
+    margin: -0.5rem 0 1rem;
+    color: var(--fg-muted);
+    font-size: 0.9rem;
+  }
+}
+
+form.gdpr-form {
+  max-width: 640px;
 }
 
 // progress bar (used by price calculator)
