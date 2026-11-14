@@ -4,6 +4,7 @@ meta_title: Charity Website Development Manchester | 50% Off | Chobble
 description: Affordable websites for charities and nonprofits at 50% discount rates using open source tech - completely transparent pricing
 snippet: Special charity rates for professional web development
 order: 6
+group: websites
 meta_description: Charity web development at £100/hour (50% off) - transparent pricing, open source tech, no vendor lock-in - hosting from £20/month - Manchester developer
 ---
 

@@ -4,6 +4,7 @@ meta_title: Linux Consultant | Manchester | Server Admin, NixOS, Web Hosting | C
 description: Expert Linux consulting services in Manchester - server migrations, NixOS installations, web hosting, system administration, and advanced Linux support.
 snippet: Expert Linux consulting and system administration
 order: 14
+group: tech
 meta_description: Expert Linux consultant in Manchester offering server management, web hosting, infrastructure deployment, security, backups & automation. £200/hr (50% off for charities). Remote support available worldwide.
 ---
 

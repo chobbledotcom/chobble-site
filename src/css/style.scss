@@ -513,7 +513,8 @@ input[type="submit"] {
 .vegan-business-websites .examples ul,
 .static-websites .examples ul,
 .restaurant-web-design .examples ul,
-.martial-arts-club-web-design .examples ul {
+.martial-arts-club-web-design .examples ul,
+.event-hirer-websites .examples ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1rem;
@@ -529,12 +530,30 @@ input[type="submit"] {
   }
 }
 
+.service-group {
+  margin-top: 2.5rem;
+
+  & + .service-group {
+    margin-top: 3rem;
+  }
+
+  > h2 {
+    margin-bottom: 0.25rem;
+  }
+
+  > p {
+    color: var(--fg-muted);
+    margin-top: 0;
+  }
+}
+
 .card,
 .text-card,
 .cards > *,
 .vegan-business-websites .examples ul > *,
 .restaurant-web-design .examples ul > *,
-.martial-arts-club-web-design .examples ul > * {
+.martial-arts-club-web-design .examples ul > *,
+.event-hirer-websites .examples ul > * {
   margin: 0;
   background: var(--bg-inset);
   color: var(--fg);
@@ -717,7 +736,8 @@ footer {
 .example-thumb,
 .vegan-business-websites .examples ul li picture,
 .restaurant-web-design .examples ul li picture,
-.martial-arts-club-web-design .examples ul li picture {
+.martial-arts-club-web-design .examples ul li picture,
+.event-hirer-websites .examples ul li picture {
   display: block;
   aspect-ratio: 296/205;
   position: relative;

@@ -4,6 +4,7 @@ meta_title: Microcontroller & IoT Programming | ESP32 | Prestwich, Manchester | 
 description: ESP32 and IoT programming for businesses - firmware, sensors, web interfaces, and prototyping through to production PCBs - Prestwich, Manchester
 snippet: IoT devices, firmware, and custom hardware integrations
 order: 16
+group: tech
 meta_description: ESP32 and IoT programming for UK businesses - custom firmware, sensor integrations, web interfaces - prototype to production PCB - Manchester
 ---
 

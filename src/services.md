@@ -24,6 +24,6 @@ If you want a simple website with a list of things people can book, [Chobble Tic
 
 ## Services
 
-I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in. I'm based in Prestwich and work with businesses across Greater Manchester - see [web design in Manchester](/manchester/web-design/) - and further afield, since most of this work happens over email and video calls anyway.
+I'm up for [discussing anything you think I can help you with](/contact/) - but here are some of the main services you may be interested in. The pages below are grouped by the kind of job: sector-specific websites first, then general web development, then technical services. I'm based in Prestwich and work with businesses across Greater Manchester - see [web design in Manchester](/manchester/web-design/) - and further afield, since most of this work happens over email and video calls anyway.
 
 If you're not sure which of these you need, [get in touch](/contact/) and I'll point you in the right direction. There are [example websites](/examples/) and [client reviews](/reviews/) if you want to see the work before we talk.

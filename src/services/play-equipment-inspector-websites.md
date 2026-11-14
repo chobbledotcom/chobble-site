@@ -3,6 +3,7 @@ title: Play Equipment Inspector Websites
 meta_title: Play Equipment Inspector Websites | PIPA & RPII | Chobble
 description: Websites for play equipment inspectors - bouncy castles, big inflatables, playgrounds - with play-test inspection logging built in, by a developer who spent a decade building booking software for the hire industry
 order: 12
+group: websites
 snippet: Websites for PIPA and RPII play equipment inspectors
 meta_description: Websites for play equipment inspectors - town-by-town service pages, EN 14960 and EN 1176 credibility, play-test logging included - £200/hour flat rate
 redirect_from:

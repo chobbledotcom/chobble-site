@@ -4,6 +4,7 @@ meta_title: Home Assistant Setup & Support | Prestwich, Manchester | Chobble
 description: Home Assistant setup, dashboards, automations, and integrations - help migrating from proprietary systems and teaching you how it all works
 snippet: Home automation setup and support for businesses and homes
 order: 10
+group: tech
 meta_description: Home Assistant expert in Prestwich - setup, dashboards, automations, device integration - migrate from proprietary systems - API development - 50% off for charities
 ---
 

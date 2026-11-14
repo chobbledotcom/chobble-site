@@ -5,6 +5,7 @@ description: Fast, editable websites for martial arts clubs - class pages, timet
 snippet: Websites for martial arts clubs that you can edit yourself
 meta_description: Martial arts club web design - Muay Thai and boxing gyms, class pages, timetables, memberships, fast static sites you own - from £600.
 order: 8
+group: websites
 ---
 
 # Martial arts club website design
@@ -15,19 +16,17 @@ I've built three martial arts club websites lately: [GFC Muay Thai](/examples/gf
 
 <div class="examples">
 
-- ![The GFC Muay Thai homepage, showing rows of heavy bags behind the headline "Bury's biggest Muay Thai centre"](/assets/examples/gfc-muay-thai.png) **[GFC Muay Thai](/examples/gfc-muay-thai/)** is a family club in Bury that's been going since the 80s. Luke coaches all day, so the site was built from voice notes between classes, photos from his phone and a brain dump about the gym's history. It has a page for each class, a full timetable, eight coaches, Google reviews and an Instagram feed, and Luke now runs it himself.
-- ![The MPL Box Fit homepage, with a dark gym photo behind the headline and red and white branding](/assets/examples/mpl-box-fit.png) **[MPL Box Fit](https://www.mplboxfit.co.uk/)** is a boxing-fitness studio inside Monkey Playland in Haslingden. Mo sent me photos of the room and the kit, and the site explains the boxfit classes, junior boxing, strength and conditioning and one-to-one coaching, with the £10 pay-as-you-go price and the full class times up front.
-- ![The Enigma Performance Centre homepage, showing head coach Josh Hill against a purple background and the headline "Muay Thai in Standish"](/assets/examples/enigma-performance-centre.png) **[Enigma Performance Centre](https://www.enigmaperformancecentre.co.uk/)** is a new Muay Thai gym in Standish, Wigan, opened by Josh Hill and coached by Josh, Emily and Laura. Laura sent me a stream of consciousness about the club, the coaches and how they wanted it to feel, and the first version went up the day after they paid the invoice. Josh got in touch after Luke at GFC recommended me.
+- ![The GFC Muay Thai homepage, showing rows of heavy bags behind the headline "Bury's biggest Muay Thai centre"](/assets/examples/gfc-muay-thai.png) **[GFC Muay Thai](/examples/gfc-muay-thai/)** is a family club in Bury that's been going since the 80s. Luke coaches all day, so the site was built from voice notes between classes, photos from his phone and a brain dump about the gym's history. It covers the classes, timetable and coaches, pulls in Google reviews and Instagram, and Luke now runs it himself.
+- ![The MPL Box Fit homepage, with a dark gym photo behind the headline and red and white branding](/assets/examples/mpl-box-fit.png) **[MPL Box Fit](https://www.mplboxfit.co.uk/)** is a boxing-fitness studio inside Monkey Playland in Haslingden. Mo sent me photos of the room and the kit, and the site covers the sessions, the £10 pay-as-you-go price and the class times.
+- ![The Enigma Performance Centre homepage, showing head coach Josh Hill against a purple background and the headline "Muay Thai in Standish"](/assets/examples/enigma-performance-centre.png) **[Enigma Performance Centre](https://www.enigmaperformancecentre.co.uk/)** is a new Muay Thai gym in Standish, Wigan. Laura sent me a stream of consciousness about the club, the coaches and how she wanted it to feel, and the first version went up the day after they paid the invoice. Josh got in touch after Luke at GFC recommended me.
 
 </div>
 
-## Start with the classes
+## The class pages
 
-Someone looking for a martial arts club is usually trying to work out four or five things: is there a class for my age, can I start with no experience, will I have to spar, what does it cost, and what actually happens when I walk in. A homepage full of moody photos of people doing flying knees doesn't answer any of that, so the class pages do the work.
+At GFC, Enigma and MPL that means a page for each class or age group, the timetable, and the questions people ask before their first session. The details differ because the clubs differ, but the job is the same: explain who each session is for, what it costs and how to start. That saves the coach repeating themselves on the phone and gives Google something specific to index.
 
-At GFC that means junior (6-11), teen (12-15), adult (15+), women-only and personal training pages, each explaining who the session is for and answering the questions Luke gets on the phone. At Enigma there's juniors, adults, coached sparring in two ability groups, a four-week fundamentals course and one-to-one sessions, with the coaches' competition records on the page because that's part of why people are choosing the gym. At MPL there's boxfit, junior boxing, strength and conditioning and one-to-one coaching, with the class times for ladies' mornings, ladies' evenings and men's sessions set out plainly, and the detail that kids can play for free in Monkey Playland while their parents train, which is the sort of thing that decides whether a parent can join a gym at all.
-
-None of that is clever. It's just taking the questions people already ask on the phone and putting the answers on a page, which saves the coach repeating themselves and gives Google something specific to index.
+None of that is clever. It's just taking the questions people already ask and putting the answers on a page.
 
 ## Timetables and prices, without the PDFs
 
@@ -39,9 +38,9 @@ Prices are on the page too. GFC has drop-in prices and memberships, Enigma has a
 
 Every club does this differently, so I don't force everyone onto the same system.
 
-GFC already used ammhub for memberships and class packs, and it works, so it stayed. I offered them a go on the booking system I built myself first - I spent ten years making booking software for the hire industry - but GFC's needs are recurring memberships and class packs rather than one-off slot bookings, and the right tool beats my own tool. The site originally embedded ammhub in an iframe, which meant getting their payment provider, GoCardless, to load inside it. When ammhub later rebuilt their booking flow as its own micro-site, I swapped the iframe for a clean button through to it, which is less likely to break next time they change something.
+GFC already used ammhub for memberships and class packs, and it works, so it stayed. I offered them a go on the booking system I built myself first, but GFC needs recurring memberships and class packs rather than one-off slot bookings, and the right tool beats my own tool. The site links through to ammhub from the timetable and the booking page.
 
-Enigma wanted members and pay-as-you-go customers to fill in a health and safety waiver, emergency contact details and photo consent before they got to the payment link. Laura was doing that with a Google Doc and then sending a Stripe link by hand. The site now collects the enquiry first, then shows the four Stripe payment links on the thank-you page, so nobody can reach the payment links without filling in the form. It doesn't link the form to the payment automatically, so Laura still confirms each membership manually and sends the right link, but that's how she was already working, and it keeps the change small. There's deliberately no booking system on the Enigma site.
+Enigma needed a health and safety waiver and photo consent before anyone paid, and Laura was collecting that with a Google Doc before sending a Stripe link by hand. The site now takes the enquiry first, then shows the four Stripe payment links on the thank-you page, so nobody can reach the links without filling in the form. Laura still confirms each membership and sends the right link, but that's how she was already working. There's deliberately no booking system on the Enigma site.
 
 MPL is simpler: £10 per class, pay as you go, no membership. The site explains the classes and takes enquiries through a contact form, which is the right amount of machinery for how the gym runs.
 

@@ -4,6 +4,7 @@ meta_title: PikaPods Hosting | Self-Hosting Advice | Chobble
 snippet: Really easy web app hosting - and I can make it even easier
 description: Tonnes of webapps, available to host for just a quid or two per month
 order: 15
+group: tech
 meta_description: PikaPods help and advice from Chobble. Host webapps like Nextcloud, PhotoPrism and more
 ---
 

@@ -5,6 +5,7 @@ description: Fast, affordable, and mobile-friendly restaurant websites with easy
 snippet: Restaurant websites with menus you can edit yourself
 meta_description: Restaurant web design Manchester - no PDF menus, easy updates, fast loading - from £600 - possible discounts for vegan restaurants - local developer
 order: 13
+group: websites
 ---
 
 # Restaurant web design

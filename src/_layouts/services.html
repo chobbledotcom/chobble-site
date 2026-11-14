@@ -4,15 +4,33 @@ layout: base.html
 
 <article id="content">
   {{ content }}
-  <ul class="cards services">
-    {%- assign sorted_services = collections.service | sort: 'data.order' -%}
-    {%- for service in sorted_services -%}
-    <li>
-      <h2>
-        <a href="{{ service.url }}#content"> {{ service.data.title }} </a>
-      </h2>
-      {{ service.data.snippet }}
-    </li>
-    {%- endfor -%}
-  </ul>
+  {%- assign sorted_services = collections.service | sort: 'data.order' -%}
+  {%- assign group_keys = "websites,development,tech" | split: "," -%}
+  {%- for group_key in group_keys -%}
+    {%- if group_key == "websites" -%}
+      {%- assign group_title = "Websites for..." -%}
+      {%- assign group_intro = "If you run a business in one of these sectors, start here. Each page covers the specific things that come up in that trade." -%}
+    {%- elsif group_key == "tech" -%}
+      {%- assign group_title = "Technical services" -%}
+      {%- assign group_intro = "Hosting, Linux, self-hosting and the more hands-on technical jobs." -%}
+    {%- else -%}
+      {%- assign group_title = "Websites & development" -%}
+      {%- assign group_intro = "Building, migrating and improving websites, and helping them get found." -%}
+    {%- endif %}
+  <section class="service-group">
+    <h2>{{ group_title }}</h2>
+    <p>{{ group_intro }}</p>
+    <ul class="cards services">
+      {%- for service in sorted_services -%}
+        {%- assign service_group = service.data.group | default: "development" -%}
+        {%- if service_group == group_key -%}
+      <li>
+        <h3><a href="{{ service.url }}#content">{{ service.data.title }}</a></h3>
+        {{ service.data.snippet }}
+      </li>
+        {%- endif -%}
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endfor %}
 </article>
