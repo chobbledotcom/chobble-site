@@ -1,0 +1,38 @@
+name: Migrate to Bunny Sites
+
+on:
+  workflow_dispatch:
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: latest
+          cache: npm
+      - name: Build site
+        run: |
+          npm ci
+          npx @11ty/eleventy
+      - name: Import existing storage zone as a site
+        env:
+          BUNNYNET_API_KEY: ${{ secrets.BUNNY_ACCESS_KEY }}
+          ZONE: ${{ secrets.BUNNY_STORAGE_ZONE_NAME }}
+        run: |
+          npx --yes @bunny.net/cli@0.19 sites create "$ZONE" \
+            --from-zone "$ZONE" \
+            --force \
+            --output json || true
+          npx --yes @bunny.net/cli@0.19 sites show "$ZONE" --output json
+      - name: Deploy with BunnyWay actions
+        uses: BunnyWay/actions/deploy-site@deploy-site_0.1.1
+        with:
+          site: ${{ secrets.BUNNY_STORAGE_ZONE_NAME }}
+          directory: _site
+          api_key: ${{ secrets.BUNNY_ACCESS_KEY }}
+          cli_version: "0.19"
+          deployments: false
