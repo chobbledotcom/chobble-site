@@ -1,0 +1,27 @@
+name: Test BunnyWay deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: latest
+          cache: npm
+      - name: Build site
+        run: |
+          npm ci
+          npx @11ty/eleventy
+      - name: Deploy with BunnyWay actions
+        uses: BunnyWay/actions/deploy-site@deploy-site_0.1.1
+        with:
+          site: ${{ secrets.BUNNY_STORAGE_ZONE_NAME }}
+          directory: _site
+          api_key: ${{ secrets.BUNNY_ACCESS_KEY }}
+          deployments: false
