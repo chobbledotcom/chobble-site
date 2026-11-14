@@ -10,9 +10,9 @@ meta_description: Muay Thai gym website on the Chobble Template - voice notes tu
 # GFC Muay Thai
 
 - **Client:** GFC Muay Thai, Bury
-- **Services:** Website build, hosting, and email migration
+- **Services:** Website build, email migration, and handover to Luke's own hosting
 - **Website:** [gfcmuaythai.co.uk](https://www.gfcmuaythai.co.uk)
-- **Source code:** [on GitHub](https://github.com/chobbledotcom/gfc-muay-thai)
+- **Source code:** Luke's own GitHub repository
 
 GFC is a family Muay Thai gym in Bury that's been going since the 80s - Darren Phillips started the club after training with Master Sken and Sandy Holt in 1983, and his son Luke took over running it a few years back, moving it into a 5,000+ sq ft space at Bright Street Mill with 20 heavy bags and two rings, which he refurbished himself with help from the members and the gym's brand partner, InFightStyle. Luke coaches all day (often from the 9am fighters' class through to evening sessions), and what he wanted was a site that would carry all of that history properly: the old one was broken in a few places, the classes needed explaining to people who'd never done any martial arts, and - like a lot of people who run a business and coach all day - he had no time to sit down and write website copy.
 
@@ -26,7 +26,7 @@ Pages for each class type - Junior (6-11), Teen (12-15), Adult (15+), Women's On
 
 ## Technical details
 
-It's the [Chobble Template](/services/chobble-template/) with the blocks layout, built as a static site and deployed to Bunny's CDN through GitHub Actions whenever anything changes. Luke edits it himself through [PagesCMS](https://pagescms.org/) (with the CMS trimmed down to just pages, news, team and reviews), and hosting is the [£10/month tier](/prices/) with no support contract - changes beyond what he can do himself in the CMS are billable at my usual hourly rate, which he prefers to paying for support he'd rarely use.
+It's the [Chobble Template](/services/chobble-template/) with the blocks layout, built as a static site and deployed to Bunny's CDN through GitHub Actions whenever anything changes. Luke edits it himself through [PagesCMS](https://pagescms.org/) (with the CMS trimmed down to just pages, news, team and reviews). Since launch he's moved the hosting onto his own Bunny account and put the repository on his own GitHub, so he controls the whole setup - there's no support contract and no monthly fee to me, and changes beyond what he can do himself are billable at my usual hourly rate, which he prefers to paying for support he'd rarely use.
 
 The booking side runs on [ammhub](https://ammhub.com), a martial arts membership system the gym was already using. I did offer him a go on the booking system I built myself first - I spent ten years making booking software for the hire industry - but what GFC needs is memberships and class packs rather than one-off slot bookings, so ammhub stayed, and honestly that's the right outcome: the right tool beats your own tool. At first I embedded it as an iframe, which meant adjusting the site's security settings so their payment provider, GoCardless, could load inside it - and when ammhub later rebuilt their booking flow as a separate micro-site, I switched the site over to a clean button through to it, which is more future-proof anyway. The site links to it from the booking page, the timetable, and a few other spots, because that's the one thing that actually needs to be obvious.
 
@@ -34,6 +34,6 @@ The emails were a whole job in themselves: the domain was registered with one co
 
 ## Still going
 
-Luke's since come back to me about building a site for his next business venture, which is the best kind of feedback I get - and he now edits most things on the gym's site himself through the CMS, which was the plan from the start.
+Luke's since come back to me about building a site for his next business venture. He now runs the gym's site and hosting himself, using Claude to help him make changes, and he recommended me to Josh at [Enigma Performance Centre](/services/martial-arts-club-web-design/), the Muay Thai gym in Standish - which is about as good a review as you can get.
 
 **If you run a gym or a club and want a site that carries the history properly - and that you can edit yourself - fill in the form below and I'll reply within 48 hours.**

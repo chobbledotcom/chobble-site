@@ -512,7 +512,8 @@ input[type="submit"] {
 .cards,
 .vegan-business-websites .examples ul,
 .static-websites .examples ul,
-.restaurant-web-design .examples ul {
+.restaurant-web-design .examples ul,
+.martial-arts-club-web-design .examples ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1rem;
@@ -532,7 +533,8 @@ input[type="submit"] {
 .text-card,
 .cards > *,
 .vegan-business-websites .examples ul > *,
-.restaurant-web-design .examples ul > * {
+.restaurant-web-design .examples ul > *,
+.martial-arts-club-web-design .examples ul > * {
   margin: 0;
   background: var(--bg-inset);
   color: var(--fg);
@@ -714,7 +716,8 @@ footer {
 // examples thumbnails
 .example-thumb,
 .vegan-business-websites .examples ul li picture,
-.restaurant-web-design .examples ul li picture {
+.restaurant-web-design .examples ul li picture,
+.martial-arts-club-web-design .examples ul li picture {
   display: block;
   aspect-ratio: 296/205;
   position: relative;
