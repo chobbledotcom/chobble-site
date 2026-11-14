@@ -44,7 +44,7 @@ Enigma needed a health and safety waiver and photo consent before anyone paid, a
 
 MPL is simpler: £10 per class, pay as you go, no membership. The site explains the classes and takes enquiries through a contact form, which is the right amount of machinery for how the gym runs.
 
-If you need one-off class bookings or event tickets, [Chobble Tickets](https://tickets.chobble.com) does that for a flat fee and takes no cut of sales. Recurring memberships are the bit I'm adding to it, because Josh and Luke both wanted them, but until that's done I'm not going to pretend it's the right fit for every club.
+If you need one-off class bookings or event tickets, [Chobble Tickets](https://tickets.chobble.com) does that for a flat fee and takes no cut of sales. Recurring memberships are the bit I'm adding to it at the moment, so once that's supported it might be a better fit for Josh and Luke than what they're using now - but for the time being, the tools they already have are the right answer.
 
 ## The words come from you
 
