@@ -35,7 +35,7 @@ Your site will load quickly, be built to recognised accessibility guidelines, ge
 
 ## Where your money goes
 
-Because Chobble's a CIC, any surplus is asset-locked - I can't sell the company or strip it for a payday, and if it ever shuts down the assets pass to another community body. On top of that I donate 10% of my income to the [Against Malaria Foundation](https://blog.chobble.com/blog/25-01-04-against-malaria/), and I feed improvements back into the open source tools I build on, so the work I do for you tends to help other organisations down the line too.
+Because Chobble's a CIC, any surplus is asset-locked - I can't sell the company or strip it for a payday, and if it ever shuts down the assets pass to another community body. On top of that I donate 10% of Chobble's profits to the [Against Malaria Foundation](https://blog.chobble.com/blog/25-01-04-against-malaria/), and I feed improvements back into the open source tools I build on, so the work I do for you tends to help other organisations down the line too.
 
 ## A few of the organisations I work with
 

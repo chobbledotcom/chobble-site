@@ -979,7 +979,7 @@ const CHECKS = [
         "flat rate, £10/month hosting, 50% charity discount), no lock-in " +
         "and you own the code, honest limits ('what I won't pretend to be', " +
         "recommending competitors, 'I might be wrong'), the CIC asset lock " +
-        "and 10% charitable donation, clear contact and response promises, " +
+        "and 10% of profits donated, clear contact and response promises, " +
         "and no dark patterns. Generic reassurance ('you're in safe hands') " +
         "does not count.",
       criteria: [

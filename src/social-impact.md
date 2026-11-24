@@ -21,7 +21,7 @@ Three things, legally:
 ## How that shows up in practice
 
 - **50% discount** for charities, co-operatives, artists, musicians, and sustainable businesses. This is baked into the [published prices](/prices/), not a negotiation.
-- **10% of income donated** to the [Against Malaria Foundation](https://blog.chobble.com/blog/25-01-04-against-malaria/).
+- **10% of profits donated** to the [Against Malaria Foundation](https://blog.chobble.com/blog/25-01-04-against-malaria/).
 - **Open-source everything.** The [Chobble Template](/services/chobble-template/), my ticketing platform, and my guides are all [freely available](https://git.chobble.com) under free-software licences.
 - **Free educational content.** [Guides](/guides/) and [videos](/videos/) published publicly, with no email gate, no upsell, and no hidden agenda.
 - **You own what I build.** Full source code delivered via GitHub. You can move to any provider at any time.

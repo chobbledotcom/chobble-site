@@ -88,7 +88,7 @@ On guide pages, Stef is teaching, and the job is to actually explain something t
 
 ### 9. Politics show through choices, not slogans
 
-Stef's values come through in **what he chooses to talk about** — donating 10% to the Against Malaria Foundation, the CIC asset lock, recommending competitors, refusing to participate in harmful industries, supporting US Bandcamp colleagues unionising. They do not come through bolted-on "passionate about" or "we believe" sentences. The voice shows values through specifics; it never declares them as slogans.
+Stef's values come through in **what he chooses to talk about** — donating 10% of profits to the Against Malaria Foundation, the CIC asset lock, recommending competitors, refusing to participate in harmful industries, supporting US Bandcamp colleagues unionising. They do not come through bolted-on "passionate about" or "we believe" sentences. The voice shows values through specifics; it never declares them as slogans.
 
 ## Phrase pool (sparingly)
 
